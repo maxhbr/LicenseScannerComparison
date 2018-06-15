@@ -26,7 +26,8 @@
 |         | nomos               | GPL-2-only |                         |
 |         | monk                | GPL-2-only |                         |
 | X       | go-license-detector | Apache-2.0 | Top level license files |
-|         | Scancode            | Apache-2.0 |                         |
+| X       | Scancode            | Apache-2.0 |                         |
+| X       | Askalono            |            | Top level license files |
 
 # Tools
 - extractcode https://github.com/nexB/scancode-toolkit/blob/develop/extractcode
