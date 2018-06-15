@@ -16,11 +16,13 @@ build() {
     $docker build -t go-license-detector --rm=true --force-rm=true - <<'EOF'
 FROM golang:1.8
 RUN set -x \
- && go get -v gopkg.in/src-d/go-license-detector.v2/...
-RUN set -x \
  && echo '#!/usr/bin/env bash' >/entrypoint.sh \
  && echo 'exec /go/bin/license-detector $@' >>/entrypoint.sh \
  && chmod +x /entrypoint.sh
+RUN set -x \
+ && go get -v gopkg.in/src-d/go-license-detector.v2/...
+RUN groupadd -r user && useradd --no-log-init -r -g user user
+USER user
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["--help"]
 EOF

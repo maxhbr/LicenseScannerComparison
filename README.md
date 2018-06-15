@@ -18,3 +18,15 @@
 - google/licenseclassifier https://github.com/google/licenseclassifier
 - go-license-detector https://github.com/src-d/go-license-detector
   - blog: https://blog.sourced.tech/post/gld/
+
+## Details
+
+| Wrapped | Name                | License    | Scanns for / via        |
+|---------|---------------------|------------|-------------------------|
+|         | nomos               | GPL-2-only |                         |
+|         | monk                | GPL-2-only |                         |
+| X       | go-license-detector | Apache-2.0 | Top level license files |
+|         | Scancode            | Apache-2.0 |                         |
+
+# Tools
+- extractcode https://github.com/nexB/scancode-toolkit/blob/develop/extractcode
