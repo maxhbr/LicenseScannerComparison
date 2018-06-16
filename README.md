@@ -29,7 +29,8 @@
 | X       | Scancode                 | Apache-2.0 |                         |
 | X       | Askalono                 |            | Top level license files |
 | X       | Code Aurora lid          |            |                         |
-|         | google/licenseclassifier |            | Scanns single file      |
+| X       | google/licenseclassifier |            | Scanns single file      |
+| X       | benbalter-licensee       |            |                         |
 
 # Tools
 - extractcode https://github.com/nexB/scancode-toolkit/blob/develop/extractcode
