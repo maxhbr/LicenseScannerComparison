@@ -3,10 +3,12 @@
 # SPDX-License-Identifier: MIT
 
 set -e
-docker="$(docker info &> /dev/null || echo "sudo") docker"
+. "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
+
+name="benbalter-licensee"
 
 build() {
-    $docker build -t google-licenseclassifier --rm=true --force-rm=true - <<'EOF'
+    $docker build -t $name --rm=true --force-rm=true - <<'EOF'
 FROM ruby:2.5
 RUN set -x \
  && groupadd -r user && useradd --no-log-init -r -g user user \
@@ -20,20 +22,18 @@ EOF
 }
 
 run() {
-    $docker rm \
-            --force google-licenseclassifier \
-            >/dev/null 2>&1 || true
+    docker_rm $name
 
     if [[ -d "$1" ]]; then
         workdir=$(readlink -f "$1")
         $docker run \
-                --name=google-licenseclassifier \
+                --name=$name \
                 -v "$workdir:/toScan" \
-                google-licenseclassifier detect /toScan
+                $name detect /toScan
     else
         $docker run -it \
-                --name=google-licenseclassifier \
-                google-licenseclassifier $@
+                --name=$name \
+                $name $@
     fi
 }
 
