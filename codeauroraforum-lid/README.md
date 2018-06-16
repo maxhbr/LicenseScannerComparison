@@ -1,5 +1,5 @@
-* When scanning `time-1.7.tar.gz_extracted`
-** for `/toScan/COPYING`: does **not** detect GPL-2.0-or-later
+# When scanning `time-1.7.tar.gz_extracted`
+## for `/toScan/COPYING`: does **not** detect GPL-2.0-or-later
 ```
 === Found 4 results for '/toScan/COPYING':
 Summary of the analysis
