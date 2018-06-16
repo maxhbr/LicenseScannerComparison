@@ -5,8 +5,6 @@
 set -e
 . "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
-name="benbalter-licensee"
-
 build() {
     $docker build -t $name --rm=true --force-rm=true - <<'EOF'
 FROM ruby:2.5
