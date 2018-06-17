@@ -22,26 +22,26 @@
 ## Details
 
 | Name                     | Scanns for / via        | Wrapped |
-|--------------------------+-------------------------+---------|
+|--------------------------|-------------------------|---------|
 | askalono                 | Top level license files | X       |
 | benbalter-licensee       |                         | X       |
 | boyter-lc                |                         | X       |
 | codeauroraforum-lid      |                         | X       |
+| debian-licensecheck      |                         | X       |
 | gerv-slic                |                         | X       |
 | go-license-detector      | Top level license files | X       |
 | google-licenseclassifier | Scanns single file      | X       |
 | nexB-scancode-toolkit    |                         | X       |
 
 ### TODO
-| Name                    |
-|-------------------------|
-| debian-licensecheck     |
-| fossology-monk          |
-| fossology-nomos         |
-| ninka                   |
-| oslc                    |
-| pivotal-licenseFinder   |
-| pombredanne-triplecheck |
+| Name                    |          |
+|-------------------------|----------|
+| fossology-monk          |          |
+| fossology-nomos         |          |
+| ninka                   |          |
+| oslc                    | java     |
+| pivotal-licenseFinder   |          |
+| pombredanne-triplecheck | java/ant |
 
 
 # Tools
