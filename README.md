@@ -6,6 +6,7 @@
   - Docu: http://triplecheck.tech/index.html
 - Open Source License Checker https://sourceforge.net/projects/oslc/
 - Ninka http://ninka.turingmachine.org
+  - binary: http://ninka.turingmachine.org/download/ninka-1.3.tar.bz2
 - Askalono https://github.com/amzn/askalono
 - LicenseFinder https://github.com/pivotal-legacy/LicenseFinder
   - needs to be checked because it seems like it is working on metadata
@@ -28,6 +29,7 @@
 | boyter-lc                |                         | X       |
 | codeauroraforum-lid      |                         | X       |
 | debian-licensecheck      |                         | X       |
+| ninka                    | Scanns single file      | X       |
 | gerv-slic                |                         | X       |
 | go-license-detector      | Top level license files | X       |
 | google-licenseclassifier | Scanns single file      | X       |
@@ -38,7 +40,6 @@
 |-------------------------|----------|
 | fossology-monk          |          |
 | fossology-nomos         |          |
-| ninka                   |          |
 | oslc                    | java     |
 | pivotal-licenseFinder   |          |
 | pombredanne-triplecheck | java/ant |
