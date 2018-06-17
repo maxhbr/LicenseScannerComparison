@@ -23,7 +23,7 @@ run() {
     docker_rm
 
     if [[ -e "$1" ]]; then
-        docker_run_with_toScan detect $1
+        docker_run detect $1
     else
         docker_run $@
     fi

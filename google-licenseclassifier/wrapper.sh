@@ -24,11 +24,7 @@ run() {
         exit 1
     fi
 
-    if [[ -f "$1" ]]; then
-        docker_run_with_toScan $1
-    else
-        docker_run $@
-    fi
+    docker_run $@
 }
 
 ################################################################################

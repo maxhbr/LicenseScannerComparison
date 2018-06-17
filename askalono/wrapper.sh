@@ -24,7 +24,7 @@ run() {
     docker_rm
 
     if [[ -d "$1" ]]; then
-        docker_run_with_toScan crawl $1
+        docker_run crawl $1
     else
         docker_run $@
     fi

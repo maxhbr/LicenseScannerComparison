@@ -25,7 +25,7 @@ run() {
     docker_rm
 
     if [[ -d "$1" ]]; then
-        docker_run_with_toScan -l $1 --csv /dev/stdout
+        docker_run -l $1 --csv /dev/stdout
     else
         docker_run $@
     fi

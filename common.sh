@@ -28,12 +28,6 @@ docker_build_stdin() {
 }
 
 docker_run() {
-    $docker run -it \
-            --name=$name \
-            $imageName $@
-}
-
-docker_run_with_toScan() {
     local workdir=""
     local array=()
     for arg in "$@"; do

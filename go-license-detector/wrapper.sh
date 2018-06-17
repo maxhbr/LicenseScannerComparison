@@ -26,11 +26,7 @@ EOF
 run() {
     docker_rm
 
-    if [[ -e "$1" ]]; then
-        docker_run_with_toScan $1
-    else
-        docker_run $@
-    fi
+    docker_run $@
 }
 
 ################################################################################
