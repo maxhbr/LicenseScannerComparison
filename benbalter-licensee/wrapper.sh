@@ -6,7 +6,7 @@ set -e
 . "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
 build() {
-    $docker build -t $name --rm=true --force-rm=true - <<'EOF'
+    docker_build_stdin <<'EOF'
 FROM ruby:2.5
 RUN set -x \
  && groupadd -r user && useradd --no-log-init -r -g user user \
@@ -20,18 +20,12 @@ EOF
 }
 
 run() {
-    docker_rm $name
+    docker_rm
 
-    if [[ -d "$1" ]]; then
-        workdir=$(readlink -f "$1")
-        $docker run \
-                --name=$name \
-                -v "$workdir:/toScan" \
-                $name detect /toScan
+    if [[ -e "$1" ]]; then
+        docker_run_with_toScan detect $1
     else
-        $docker run -it \
-                --name=$name \
-                $name $@
+        docker_run $@
     fi
 }
 

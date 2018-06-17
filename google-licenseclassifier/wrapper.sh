@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: MIT
 
 set -e
-docker="$(docker info &> /dev/null || echo "sudo") docker"
+. "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
 build() {
-    $docker build -t google-licenseclassifier --rm=true --force-rm=true - <<'EOF'
+    docker_build_stdin <<EOF
 FROM golang:1.8
 RUN groupadd -r user && useradd --no-log-init -r -g user user
 RUN go get -v github.com/google/licenseclassifier/...
@@ -17,20 +17,17 @@ EOF
 }
 
 run() {
-    $docker rm \
-            --force google-licenseclassifier \
-            >/dev/null 2>&1 || true
+    docker_rm
+
+    if [[ -d "$1" ]]; then
+        echo "this scanner [$name] only works on files, not folders"
+        exit 1
+    fi
 
     if [[ -f "$1" ]]; then
-        workdir=$(readlink -f "$1")
-        $docker run \
-                --name=google-licenseclassifier \
-                -v "$workdir:/toScan" \
-                google-licenseclassifier /toScan
+        docker_run_with_toScan $1
     else
-        $docker run \
-                --name=google-licenseclassifier \
-                google-licenseclassifier $@
+        docker_run $@
     fi
 }
 

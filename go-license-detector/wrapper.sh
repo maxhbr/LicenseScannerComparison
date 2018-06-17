@@ -10,39 +10,26 @@
 # $ $0 https://github.com/src-d/go-git
 
 set -e
-docker="$(docker info &> /dev/null || echo "sudo") docker"
+. "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
 build() {
-    $docker build -t go-license-detector --rm=true --force-rm=true - <<'EOF'
+    docker_build_stdin <<EOF
 FROM golang:1.8
-RUN set -x \
- && echo '#!/usr/bin/env bash' >/entrypoint.sh \
- && echo 'exec /go/bin/license-detector $@' >>/entrypoint.sh \
- && chmod +x /entrypoint.sh
-RUN set -x \
- && go get -v gopkg.in/src-d/go-license-detector.v2/...
+RUN go get -v gopkg.in/src-d/go-license-detector.v2/...
 RUN groupadd -r user && useradd --no-log-init -r -g user user
 USER user
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/go/bin/license-detector"]
 CMD ["--help"]
 EOF
 }
 
 run() {
-    $docker rm \
-            --force go-license-detector \
-            >/dev/null 2>&1 || true
+    docker_rm
 
-    if [[ -d "$1" ]]; then
-        workdir=$(readlink -f "$1")
-        $docker run \
-                --name=go-license-detector \
-                -v "$workdir:/toScan" \
-                go-license-detector /toScan
+    if [[ -e "$1" ]]; then
+        docker_run_with_toScan $1
     else
-        $docker run \
-                --name=go-license-detector \
-                go-license-detector $@
+        docker_run $@
     fi
 }
 

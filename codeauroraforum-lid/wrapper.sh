@@ -3,8 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 set -e
-docker="$(docker info &> /dev/null || echo "sudo") docker"
-
+. "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
 build() {
     gitDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/_lid.git"
@@ -12,11 +11,10 @@ build() {
     cd $gitDir
     git checkout ea560292f1e89dc81b5a010e06df3b96aff923f5
 
-    $docker build -t codeauroraforum-lid --rm=true --force-rm=true .
+    docker_build_here
 
-    $docker build -t codeauroraforum-lid --rm=true --force-rm=true - <<'EOF'
-FROM codeauroraforum-lid
-
+    docker_build_stdin <<EOF
+FROM $imageName
 
 RUN groupadd -r user && useradd --no-log-init -r -g user user
 WORKDIR /src
@@ -32,20 +30,12 @@ EOF
 }
 
 run() {
-    $docker rm \
-            --force codeauroraforum-lid \
-            >/dev/null 2>&1 || true
+    docker_rm
 
-    if [[ -d "$1" ]]; then
-        workdir=$(readlink -f "$1")
-        $docker run \
-                --name=codeauroraforum-lid \
-                -v "$workdir:/toScan" \
-                codeauroraforum-lid -S -I /toScan
+    if [[ -e "$1" ]]; then
+        docker_run_with_toScan -S -I $1
     else
-        $docker run -it \
-                --name=codeauroraforum-lid \
-                codeauroraforum-lid "$@"
+        docker_run $@
     fi
 }
 

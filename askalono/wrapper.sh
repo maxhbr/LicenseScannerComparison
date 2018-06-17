@@ -2,11 +2,10 @@
 # Copyright 2017 Maximilian Huber <oss@maximilian-huber.de>
 # SPDX-License-Identifier: MIT
 set -e
-
-docker="$(docker info &> /dev/null || echo "sudo") docker"
+. "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
 build() {
-    $docker build -t askalono --rm=true --force-rm=true - <<'EOF'
+    docker_build_stdin <<'EOF'
 FROM debian:jessie
 
 RUN apt-get update && apt-get install -y wget
@@ -22,20 +21,12 @@ EOF
 }
 
 run() {
-    $docker rm \
-            --force askalono \
-            >/dev/null 2>&1 || true
+    docker_rm
 
     if [[ -d "$1" ]]; then
-        workdir=$(readlink -f "$1")
-        $docker run \
-                --name=askalono \
-                -v "$workdir:/toScan" \
-                askalono crawl /toScan
+        docker_run_with_toScan crawl $1
     else
-        $docker run \
-                --name=askalono \
-                askalono "$@"
+        docker_run $@
     fi
 }
 
