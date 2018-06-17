@@ -21,16 +21,28 @@
 
 ## Details
 
-| Wrapped | Name                     | License    | Scanns for / via        |
-|---------|--------------------------|------------|-------------------------|
-|         | nomos                    | GPL-2-only |                         |
-|         | monk                     | GPL-2-only |                         |
-| X       | go-license-detector      | Apache-2.0 | Top level license files |
-| X       | Scancode                 | Apache-2.0 |                         |
-| X       | Askalono                 |            | Top level license files |
-| X       | Code Aurora lid          |            |                         |
-| X       | google/licenseclassifier |            | Scanns single file      |
-| X       | benbalter-licensee       |            |                         |
+| Name                     | Scanns for / via        | Wrapped |
+|--------------------------+-------------------------+---------|
+| askalono                 | Top level license files | X       |
+| benbalter-licensee       |                         | X       |
+| boyter-lc                |                         | X       |
+| codeauroraforum-lid      |                         | X       |
+| gerv-slic                |                         | X       |
+| go-license-detector      | Top level license files | X       |
+| google-licenseclassifier | Scanns single file      | X       |
+| nexB-scancode-toolkit    |                         | X       |
+
+### TODO
+| Name                    |
+|-------------------------|
+| debian-licensecheck     |
+| fossology-monk          |
+| fossology-nomos         |
+| ninka                   |
+| oslc                    |
+| pivotal-licenseFinder   |
+| pombredanne-triplecheck |
+
 
 # Tools
 - extractcode https://github.com/nexB/scancode-toolkit/blob/develop/extractcode
