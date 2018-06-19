@@ -20,30 +20,39 @@
 - go-license-detector https://github.com/src-d/go-license-detector
   - blog: https://blog.sourced.tech/post/gld/
 
-## Details
+## License Statement Scanner
 
-| Name                     | Scanns for / via        | Wrapped |
-|--------------------------|-------------------------|---------|
-| askalono                 | Top level license files | X       |
-| benbalter-licensee       |                         | X       |
-| boyter-lc                |                         | X       |
-| codeauroraforum-lid      |                         | X       |
-| debian-licensecheck      |                         | X       |
-| ninka                    | Scanns single file      | X       |
-| gerv-slic                |                         | X       |
-| go-license-detector      | Top level license files | X       |
-| google-licenseclassifier | Scanns single file      | X       |
-| nexB-scancode-toolkit    |                         | X       |
+| Name                     | Scanns for / via        | Wrapped | Pinned |
+|--------------------------|-------------------------|---------|--------|
+| askalono                 | Top level license files | X       |        |
+| benbalter-licensee       |                         | X       |        |
+| boyter-lc                |                         | X       |        |
+| codeauroraforum-lid      |                         | X       |        |
+| debian-licensecheck      |                         | X       |        |
+| ninka                    | Scanns single file      | X       |        |
+| gerv-slic                |                         | X       |        |
+| go-license-detector      | Top level license files | X       |        |
+| google-licenseclassifier | Scanns single file      | X       |        |
+| nexB-scancode-toolkit    |                         | X       |        |
 
 ### TODO
+- pin scanner versions / build deterministically
+  - or preserve the images
+- add OutputDataTransformation
+#### missing scanners
 | Name                    |          |
 |-------------------------|----------|
 | fossology-monk          |          |
 | fossology-nomos         |          |
 | oslc                    | java     |
-| pivotal-licenseFinder   |          |
+| pivotal-licenseFinder   | legacy   |
 | pombredanne-triplecheck | java/ant |
 
+## Code Duplication Scanner
+- BDP
+
+## Alternatives (?)
+- https://resources.whitesourcesoftware.com/blog-whitesource/still-using-a-scanner-to-identify-your-open-source-it-s-2017-you-can-do-much-better
 
 # Tools
 - extractcode https://github.com/nexB/scancode-toolkit/blob/develop/extractcode

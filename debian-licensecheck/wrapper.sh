@@ -20,7 +20,6 @@ run() {
 
     if [[ -e "$1" ]]; then
         docker_run --recursive $1
-        # --machine for machine readable output
     else
         docker_run $@
     fi

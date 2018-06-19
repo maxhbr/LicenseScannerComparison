@@ -1,5 +1,6 @@
 # Copyright 2017 Maximilian Huber <oss@maximilian-huber.de>
 # SPDX-License-Identifier: MIT
+set -e
 
 [[ "${BASH_SOURCE[0]}" != "${0}" ]] || exit 1
 
@@ -20,33 +21,58 @@ docker_rm() {
 }
 
 docker_build_here() {
-    $docker build -t $imageName --rm=true --force-rm=true .
+    $docker build \
+            -t $imageName \
+            --rm=true \
+            --force-rm=true \
+            .
 }
 
 docker_build_stdin() {
-    $docker build -t $imageName --rm=true --force-rm=true -
+    $docker build \
+            -t $imageName \
+            --rm=true \
+            --force-rm=true \
+            -
 }
 
 docker_run() {
-    local workdir=""
-    local array=()
+    local toScan=""
+    local args=()
+    local dockerArgs=()
     for arg in "$@"; do
-        if [[ -e $arg ]] && [[ "$workdir" == "" ]]; then
-            workdir="$(readlink -f "$arg")"
-            array+=("/toScan")
+        if [[ -e $arg ]] && [[ "$toScan" != "/dev/"* ]]; then
+            outerName="$(readlink -f "$arg")"
+            innerName="/$(basename $outerName)"
+            dockerArgs+=("-v")
+            dockerArgs+=("$outerName:$innerName")
+            if [[ -d $arg ]]; then
+                args+=("$innerName/")
+            else
+                args+=("$innerName")
+            fi
         else
-            array+=("$arg")
+            args+=("$arg")
         fi
     done
 
-    if [[ "$workdir" == "" ]]; then
-        $docker run -it \
-                --name=$name \
-                $imageName $@
-    else
-        $docker run \
-                --name=$name \
-                -v "$workdir:/toScan" \
-                $imageName "${array[@]}"
-    fi
+    $docker run \
+            --name=$name \
+            "${dockerArgs[@]}" \
+            $imageName "${args[@]}"
+}
+
+################################################################################
+## Run related
+outputROOT="$ROOT/_output"
+calculateOutputPath() {
+    local src=$1
+    local scanner=$2
+
+    echo "$outputROOT/$src/$scanner"
+}
+
+removeEmptyFiles() {
+    local dir=$1
+    find $dir -size  0 -print0 | xargs --no-run-if-empty -0 rm --
 }
