@@ -76,3 +76,9 @@ removeEmptyFiles() {
     local dir=$1
     find $dir -size  0 -print0 | xargs --no-run-if-empty -0 rm --
 }
+
+ppJson() {
+    json=$1
+
+    python -m json.tool $json > "${json}_pp"
+}

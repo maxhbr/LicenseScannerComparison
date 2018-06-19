@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 set -e
 
 
@@ -69,6 +68,3 @@ pullAll() {
         extractDownloadedTestdata $srcName
     done
 }
-
-[[ "${BASH_SOURCE[0]}" != "${0}" ]] && echo "length(\$SRC)=${#SRC[@]}" || pullAll
-

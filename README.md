@@ -22,18 +22,18 @@
 
 ## License Statement Scanner
 
-| Name                     | Scanns for / via        | Wrapped | Pinned |
-|--------------------------|-------------------------|---------|--------|
-| askalono                 | Top level license files | X       |        |
-| benbalter-licensee       |                         | X       |        |
-| boyter-lc                |                         | X       |        |
-| codeauroraforum-lid      |                         | X       |        |
-| debian-licensecheck      |                         | X       |        |
-| ninka                    | Scanns single file      | X       |        |
-| gerv-slic                |                         | X       |        |
-| go-license-detector      | Top level license files | X       |        |
-| google-licenseclassifier | Scanns single file      | X       |        |
-| nexB-scancode-toolkit    |                         | X       |        |
+| Name                     | Scanns for / via        | Wrapped | Produce          | Pinned |
+|--------------------------|-------------------------|---------|------------------|--------|
+| askalono                 | Top level license files | X       | X                |        |
+| benbalter-licensee       |                         | X       | X                |        |
+| boyter-lc                |                         | X       | X                |        |
+| codeauroraforum-lid      |                         | X       | X                |        |
+| debian-licensecheck      |                         | X       | X                |        |
+| ninka                    | Scanns single file      | X       | single file only |        |
+| gerv-slic                |                         | X       | X                |        |
+| go-license-detector      | Top level license files | X       | X                |        |
+| google-licenseclassifier | Scanns single file      | X       | single file only |        |
+| nexB-scancode-toolkit    |                         | X       | X                |        |
 
 ### TODO
 - pin scanner versions / build deterministically

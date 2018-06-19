@@ -13,6 +13,8 @@ test() {
 
     docker_rm
     docker_run --format json $input > $outputDir/output.json
+
+    ppJson "$outputDir/output.json"
 }
 
 test $@
