@@ -1,0 +1,97 @@
+/libpng-1.6.34.tar.gz_extracted/pngrutil.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngconf.h	libpng
+/libpng-1.6.34.tar.gz_extracted/pngtrans.c	libpng
+/libpng-1.6.34.tar.gz_extracted/powerpc/powerpc_init.c	libpng
+/libpng-1.6.34.tar.gz_extracted/powerpc/filter_vsx_intrinsics.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngstruct.h	libpng
+/libpng-1.6.34.tar.gz_extracted/pngget.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngwrite.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pnginfo.h	libpng
+/libpng-1.6.34.tar.gz_extracted/pngrtran.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngpread.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngread.c	libpng
+/libpng-1.6.34.tar.gz_extracted/arm/arm_init.c	libpng
+/libpng-1.6.34.tar.gz_extracted/arm/filter_neon_intrinsics.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngmem.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h	libpng
+/libpng-1.6.34.tar.gz_extracted/png.h	libpng GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/pngwio.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngset.c	libpng
+/libpng-1.6.34.tar.gz_extracted/intel/filter_sse2_intrinsics.c	libpng
+/libpng-1.6.34.tar.gz_extracted/intel/intel_init.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngerror.c	libpng
+/libpng-1.6.34.tar.gz_extracted/mips/filter_msa_intrinsics.c	libpng
+/libpng-1.6.34.tar.gz_extracted/mips/mips_init.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngwtran.c	libpng
+/libpng-1.6.34.tar.gz_extracted/ltmain.sh	GPL (v2 or later) GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/png.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngrio.c	libpng
+/libpng-1.6.34.tar.gz_extracted/example.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/autogen.sh	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/pngdebug.h	libpng
+/libpng-1.6.34.tar.gz_extracted/scripts/def.c	libpng
+/libpng-1.6.34.tar.gz_extracted/scripts/sym.c	libpng
+/libpng-1.6.34.tar.gz_extracted/scripts/vers.c	libpng
+/libpng-1.6.34.tar.gz_extracted/scripts/symbols.c	libpng
+/libpng-1.6.34.tar.gz_extracted/scripts/intprefix.c	libpng
+/libpng-1.6.34.tar.gz_extracted/scripts/prefix.c	libpng
+/libpng-1.6.34.tar.gz_extracted/pngwutil.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/makepngs.sh	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/examples/pngtopng.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/examples/simpleover.c	GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/contrib/examples/iccfrompng.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/examples/pngpixel.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngstest.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngimage.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/timepng.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngunknown.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/makepng.c	libpng GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngstest-errors.h	libpng GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/tarith.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/gentests.sh	libpng GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/fakepng.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/readpng.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/checksum-icc.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/intgamma.sh	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/cvtcolor.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngcp.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/png-fix-itxt.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/makesRGB.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/sRGB.h	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/genpng.c	GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-x.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/wpng.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-win.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readppm.c	GPL (v2 or later) (with incorrect FSF address)
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.h	GPL (v2 or later) (with incorrect FSF address)
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.h	GPL (v2 or later) (with incorrect FSF address)
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.c	GPL (v2 or later) (with incorrect FSF address)
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.c	GPL (v2 or later) (with incorrect FSF address)
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.c	GPL (v2 or later) (with incorrect FSF address)
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-x.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-win.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.h	GPL (v2 or later) (with incorrect FSF address)
+/libpng-1.6.34.tar.gz_extracted/contrib/arm-neon/android-ndk.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/arm-neon/linux-auxv.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/arm-neon/linux.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/visupng/resource.h	GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/contrib/visupng/PngFile.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/visupng/VisualPng.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/visupng/cexcept.h	GENERATED FILE
+/libpng-1.6.34.tar.gz_extracted/contrib/visupng/PngFile.h	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/encoder/pngusr.h	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/decoder/pngusr.h	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/preader/pngusr.h	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/mips-msa/linux.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/powerpc-vsx/linux_aux.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/powerpc-vsx/linux.c	libpng
+/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz/libpng_read_fuzzer.cc	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz/build.sh	Apache (v2.0)
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/png2pnm.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/pnm2png.sh	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/pngminus.sh	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/pnm2png.c	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/png2pnm.sh	UNKNOWN
+/libpng-1.6.34.tar.gz_extracted/pngtest.c	libpng

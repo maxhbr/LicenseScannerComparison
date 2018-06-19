@@ -1,0 +1,3995 @@
+input file path,matched license type,Score using whole input test,Rank based on score,Start line number,End line number,Start byte offset,End byte offset,Score using only the license text portion,Found license text
+/libpng-1.6.34.tar.gz_extracted/INSTALL,CrystalStacker,0.041762382475525835,ScoreOutOfRange,35,49,1066,1649,0.0025398728065794294,"
+If you downloaded a GIT clone, you will need to run ./autogen.sh before
+running ./configure, to create ""configure"" and ""Makefile.in"" which are
+not included in the GIT repository.
+
+Note that ""configure"" is only included in the ""*.tar"" distributions and not
+in the ""*.zip"" or ""*.7z"" distributions. If you downloaded one of those
+distributions, see ""Building with project files"" or ""Building with makefiles"",
+below.
+
+II. Rebuilding the configure scripts
+
+If configure does not work on your system, or if you have a need to
+change configure.ac or Makefile.am, and you have a reasonably
+"
+/libpng-1.6.34.tar.gz_extracted/INSTALL,Vim,0.04354553599875833,ScoreOutOfRange,259,281,9911,11258,0.001158236576073043,"or all four, along with directives to turn on any of the capabilities that
+you do want.  The PNG_NO_READ[or WRITE]_TRANSFORMS directives disable the
+extra transformations but still leave the library fully capable of reading
+and writing PNG files with all known public chunks. Use of the
+PNG_NO_READ[or WRITE]_ANCILLARY_CHUNKS directive produces a library
+that is incapable of reading or writing ancillary chunks.  If you are
+not using the progressive reading capability, you can turn that off
+with PNG_NO_PROGRESSIVE_READ (don't confuse this with the INTERLACING
+capability, which you'll still have).
+
+All the reading and writing specific code are in separate files, so the
+linker should only grab the files it needs.  However, if you want to
+make sure, or if you are building a stand alone library, all the
+reading files start with ""pngr"" and all the writing files start with ""pngw"".
+The files that don't match either (like png.c, pngtrans.c, etc.)
+are used for both reading and writing, and always need to be included.
+The progressive reader is in pngpread.c
+
+If you are creating or distributing a dynamically linked library (a .so
+or DLL file), you should not remove or disable any parts of the library,
+as this will cause applications linked with different versions of the
+library to fail if they call functions not available in your library.
+"
+/libpng-1.6.34.tar.gz_extracted/INSTALL,Vim,0.04411872261377235,ScoreOutOfRange,209,238,7454,8863,0.0009626397258913339,"call.  See zlib.h or zconf.h in the zlib library for more information.
+
+X. Configuring for Medium Model
+
+Libpng's support for medium model has been tested on most of the popular
+compilers.  Make sure MAXSEG_64K gets defined, USE_FAR_KEYWORD gets
+defined, and FAR gets defined to far in pngconf.h, and you should be
+all set.  Everything in the library (except for zlib's structure) is
+expecting far data.  You must use the typedefs with the p or pp on
+the end for pointers (or at least look at them and be careful).  Make
+note that the rows of data are defined as png_bytepp, which is
+an ""unsigned char far * far *"".
+
+XI. Prepending a prefix to exported symbols
+
+Starting with libpng-1.6.0, you can configure libpng (when using the
+""configure"" script) to prefix all exported symbols by means of the
+configuration option ""--with-libpng-prefix=FOO_"", where FOO_ can be any
+string beginning with a letter and containing only uppercase
+and lowercase letters, digits, and the underscore (i.e., a C language
+identifier).  This creates a set of macros in pnglibconf.h, so this is
+transparent to applications; their function calls get transformed by
+the macros to use the modified names.
+
+XII. Configuring for compiler xxx:
+
+All includes for libpng are in pngconf.h.  If you need to add, change
+or delete an include, this is the place to do it.
+The includes that are not needed outside libpng are placed in pngpriv.h,
+"
+/libpng-1.6.34.tar.gz_extracted/INSTALL,CrystalStacker,0.04080718943156578,ScoreOutOfRange,63,67,2159,2252,0.0007442678373508522,"
+III. Using scripts/makefile*
+
+Instead, you can use one of the custom-built makefiles in the
+"
+/libpng-1.6.34.tar.gz_extracted/INSTALL,Vim,0.04251572438664678,ScoreOutOfRange,70,91,2323,3218,0.0007149401653121058,"    cp scripts/makefile.system makefile
+    make test
+    make install
+
+The files that are presently available in the scripts directory
+are listed and described in scripts/README.txt.
+
+Or you can use one of the ""projects"" in the ""projects"" directory.
+
+Before installing libpng, you must first install zlib, if it
+is not already on your system.  zlib can usually be found
+wherever you got libpng; otherwise go to https://zlib.net/.  You can
+place zlib in the same directory as libpng or in another directory.
+
+If your system already has a preinstalled zlib you will still need
+to have access to the zlib.h and zconf.h include files that
+correspond to the version of zlib that's installed.
+
+If you wish to test with a particular zlib that is not first in the
+standard library search path, put ZLIBLIB, ZLIBINC, CPPFLAGS, LDFLAGS,
+and LD_LIBRARY_PATH in your environment before running ""make test""
+"
+/libpng-1.6.34.tar.gz_extracted/LICENSE,Libpng,0.7517240619811675,4,0,121,0,4551,0.08619333007809463,"
+This copy of the libpng notices is provided for your convenience.  In case of
+any discrepancy between this copy and the notices in the file png.h that is
+included in the libpng distribution, the latter shall prevail.
+
+COPYRIGHT NOTICE, DISCLAIMER, and LICENSE:
+
+If you modify libpng you may insert additional notices immediately following
+this sentence.
+
+This code is released under the libpng license.
+
+libpng versions 1.0.7, July 1, 2000 through 1.6.34, September 29, 2017 are
+Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson, are
+derived from libpng-1.0.6, and are distributed according to the same
+disclaimer and license as libpng-1.0.6 with the following individuals
+added to the list of Contributing Authors:
+
+   Simon-Pierre Cadieux
+   Eric S. Raymond
+   Mans Rullgard
+   Cosmin Truta
+   Gilles Vollant
+   James Yu
+   Mandar Sahastrabuddhe
+   Google Inc.
+   Vadim Barkov
+
+and with the following additions to the disclaimer:
+
+   There is no warranty against interference with your enjoyment of the
+   library or against infringement.  There is no warranty that our
+   efforts or the library will fulfill any of your particular purposes
+   or needs.  This library is provided with all faults, and the entire
+   risk of satisfactory quality, performance, accuracy, and effort is with
+   the user.
+
+Some files in the ""contrib"" directory and some configure-generated
+files that are distributed with libpng have other copyright owners and
+are released under other open source licenses.
+
+libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are
+Copyright (c) 1998-2000 Glenn Randers-Pehrson, are derived from
+libpng-0.96, and are distributed according to the same disclaimer and
+license as libpng-0.96, with the following individuals added to the list
+of Contributing Authors:
+
+   Tom Lane
+   Glenn Randers-Pehrson
+   Willem van Schaik
+
+libpng versions 0.89, June 1996, through 0.96, May 1997, are
+Copyright (c) 1996-1997 Andreas Dilger, are derived from libpng-0.88,
+and are distributed according to the same disclaimer and license as
+libpng-0.88, with the following individuals added to the list of
+Contributing Authors:
+
+   John Bowler
+   Kevin Bracey
+   Sam Bushell
+   Magnus Holmgren
+   Greg Roelofs
+   Tom Tanner
+
+Some files in the ""scripts"" directory have other copyright owners
+but are released under this license.
+
+libpng versions 0.5, May 1995, through 0.88, January 1996, are
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+
+For the purposes of this copyright and license, ""Contributing Authors""
+is defined as the following set of individuals:
+
+   Andreas Dilger
+   Dave Martindale
+   Guy Eric Schalnat
+   Paul Schmidt
+   Tim Wegner
+
+The PNG Reference Library is supplied ""AS IS"".  The Contributing Authors
+and Group 42, Inc. disclaim all warranties, expressed or implied,
+including, without limitation, the warranties of merchantability and of
+fitness for any purpose.  The Contributing Authors and Group 42, Inc.
+assume no liability for direct, indirect, incidental, special, exemplary,
+or consequential damages, which may result from the use of the PNG
+Reference Library, even if advised of the possibility of such damage.
+
+Permission is hereby granted to use, copy, modify, and distribute this
+source code, or portions hereof, for any purpose, without fee, subject
+to the following restrictions:
+
+  1. The origin of this source code must not be misrepresented.
+
+  2. Altered versions must be plainly marked as such and must not
+     be misrepresented as being the original source.
+
+  3. This Copyright notice may not be removed or altered from any
+     source or altered source distribution.
+
+The Contributing Authors and Group 42, Inc. specifically permit, without
+fee, and encourage the use of this source code as a component to
+supporting the PNG file format in commercial products.  If you use this
+source code in a product, acknowledgment is not required but would be
+appreciated.
+
+END OF COPYRIGHT NOTICE, DISCLAIMER, and LICENSE.
+
+TRADEMARK:
+
+The name ""libpng"" has not been registered by the Copyright owner
+as a trademark in any jurisdiction.  However, because libpng has
+been distributed and maintained world-wide, continually since 1995,
+the Copyright owner claims ""common-law trademark protection"" in any
+jurisdiction where common-law trademark is recognized.
+
+OSI CERTIFICATION:
+
+Libpng is OSI Certified Open Source Software.  OSI Certified Open Source is
+a certification mark of the Open Source Initiative. OSI has not addressed
+the additional disclaimers inserted at version 1.0.7.
+
+"
+/libpng-1.6.34.tar.gz_extracted/Makefile.in,FSFULLR,0.1643905792461822,3,2,9,79,334,0.17581716715386658,"
+# Copyright (C) 1994-2014 Free Software Foundation, Inc.
+
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+"
+/libpng-1.6.34.tar.gz_extracted/Makefile.in,W3C,0.12282936975010274,3,9,14,334,555,0.01610845478368811,"# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+"
+/libpng-1.6.34.tar.gz_extracted/README,Vim,0.04776264248094459,ScoreOutOfRange,79,104,4106,5448,0.0009088827753699673,"some images.  You will definitely need zlib 1.0.4 or later if you are
+taking advantage of the MS-DOS ""far"" structure allocation for the small
+and medium memory models.  You should also note that zlib is a
+compression library that is useful for more things than just PNG files.
+You can use zlib as a drop-in replacement for fread() and fwrite() if
+you are so inclined.
+
+zlib should be available at the same place that libpng is, or at zlib.net.
+
+You may also want a copy of the PNG specification.  It is available
+as an RFC, a W3C Recommendation, and an ISO/IEC Standard.  You can find
+these at http://www.libpng.org/pub/png/pngdocs.html .
+
+This code is currently being archived at libpng.sourceforge.io in the
+[DOWNLOAD] area, and at http://libpng.download/src .  If you
+can't find it in any of those places, e-mail me, and I'll help you find it.
+
+I am not a lawyer, but I believe that the Export Control Classification
+Number (ECCN) for libpng is EAR99, which means not subject to export
+controls or International Traffic in Arms Regulations (ITAR) because it
+is open source, publicly available software, that does not contain any
+encryption software.  See the EAR, paragraphs 734.3(b)(3) and 734.7(b).
+
+If you have any code changes, requests, problems, etc., please e-mail
+them to me.  Also, I'd appreciate any make files or project files,
+"
+/libpng-1.6.34.tar.gz_extracted/compile,GPL-3.0+,0.4342775090091605,3,4,21,104,829,0.29558869214041633,"
+# Copyright (C) 1999-2014 Free Software Foundation, Inc.
+# Written by Tom Tromey <tromey@cygnus.com>.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+"
+/libpng-1.6.34.tar.gz_extracted/compile,Libtool-exception,0.38820746240075427,3,21,26,829,1101,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+# distribute this file as part of a program that contains a
+# configuration script generated by Autoconf, you may include it under
+# the same distribution terms that you use for the rest of that program.
+
+"
+/libpng-1.6.34.tar.gz_extracted/config.guess,GPL-1.0+,0.2835459463898899,3,2,20,55,834,0.08482517050618059,"#   Copyright 1992-2014 Free Software Foundation, Inc.
+
+timestamp='2014-11-04'
+
+# This file is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, see <http://www.gnu.org/licenses/>.
+#
+# As a special exception to the GNU General Public License, if you
+"
+/libpng-1.6.34.tar.gz_extracted/config.guess,Libtool-exception,0.12547483830588066,3,20,24,834,1100,0.02379384761695746,"# distribute this file as part of a program that contains a
+# configuration script generated by Autoconf, you may include it under
+# the same distribution terms that you use for the rest of that
+# program.  This Exception is an additional permission under section 7
+"
+/libpng-1.6.34.tar.gz_extracted/config.guess,GPL-3.0+,0.054125652369827956,ScoreOutOfRange,38,60,1497,2130,0.005556438330596731,"
+Output the configuration name of the system \`$me' is run on.
+
+Operation modes:
+  -h, --help         print this help, then exit
+  -t, --time-stamp   print date of last modification, then exit
+  -v, --version      print version number, then exit
+
+Report bugs and patches to <config-patches@gnu.org>.""
+
+version=""\
+GNU config.guess ($timestamp)
+
+Originally written by Per Bothner.
+Copyright 1992-2014 Free Software Foundation, Inc.
+
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.""
+
+help=""
+Try \`$me --help' for more information.""
+
+"
+/libpng-1.6.34.tar.gz_extracted/config.guess,GPL-2.0-with-GCC-exception,0.06161067719675194,1,24,29,1100,1292,0.0027159830583434403,"# of the GNU General Public License, version 3 (""GPLv3"").
+#
+# Originally written by Per Bothner; maintained since 2000 by Ben Elliston.
+#
+# You can get the latest version of this script from:
+"
+/libpng-1.6.34.tar.gz_extracted/config.sub,AGPL-3.0-or-later,0.28457614062598674,3,2,18,57,767,0.1426832305010652,"#   Copyright 1992-2014 Free Software Foundation, Inc.
+
+timestamp='2014-12-03'
+
+# This file is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, see <http://www.gnu.org/licenses/>.
+"
+/libpng-1.6.34.tar.gz_extracted/config.sub,Libtool-exception,0.19692338768054693,3,19,24,769,1102,0.07529500277183813,"# As a special exception to the GNU General Public License, if you
+# distribute this file as part of a program that contains a
+# configuration script generated by Autoconf, you may include it under
+# the same distribution terms that you use for the rest of that
+# program.  This Exception is an additional permission under section 7
+"
+/libpng-1.6.34.tar.gz_extracted/config.sub,GPL-2.0-with-GCC-exception,0.06823154194842423,1,24,47,1102,2161,0.005250728862973762,"# of the GNU General Public License, version 3 (""GPLv3"").
+
+
+# Please send patches to <config-patches@gnu.org>.
+#
+# Configuration subroutine to validate and canonicalize a configuration type.
+# Supply the specified configuration type as an argument.
+# If it is invalid, we print an error message on stderr and exit with code 1.
+# Otherwise, we print the canonical config type on stdout and succeed.
+
+# You can get the latest version of this script from:
+# http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD
+
+# This file is supposed to be the same for all GNU packages
+# and recognize all the CPU types, system types and aliases
+# that are meaningful with *any* GNU software.
+# Each package is responsible for reporting which valid configurations
+# it does not support.  The user should be able to distinguish
+# a failure to support a valid configuration from a meaningless
+# configuration.
+
+# The goal of this file is to map all the various variations of a given
+# machine specification into a single specification in the form:
+"
+/libpng-1.6.34.tar.gz_extracted/config.sub,GPL-3.0+,0.05830949661935578,ScoreOutOfRange,62,78,2556,3023,0.004655429703745383,"  -t, --time-stamp   print date of last modification, then exit
+  -v, --version      print version number, then exit
+
+Report bugs and patches to <config-patches@gnu.org>.""
+
+version=""\
+GNU config.sub ($timestamp)
+
+Copyright 1992-2014 Free Software Foundation, Inc.
+
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.""
+
+help=""
+Try \`$me --help' for more information.""
+
+"
+/libpng-1.6.34.tar.gz_extracted/configure,GPL-3.0+,0.05650434212312725,ScoreOutOfRange,15563,15587,466435,467546,0.19067310841794954,"
+# Copyright (C) 2014 Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.  There is NO
+# warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# GNU Libtool is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of of the License, or
+# (at your option) any later version.
+#
+# As a special exception to the GNU General Public License, if you
+# distribute this file as part of a program or library that is built
+# using GNU Libtool, you may include this file under the  same
+# distribution terms that you use for the rest of that program.
+#
+# GNU Libtool is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+"
+/libpng-1.6.34.tar.gz_extracted/depcomp,GPL-3.0+,0.24958405920429882,3,4,20,117,794,0.30267553208411546,"
+# Copyright (C) 1999-2014 Free Software Foundation, Inc.
+
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+"
+/libpng-1.6.34.tar.gz_extracted/depcomp,Libtool-exception,0.15784998731427305,3,20,25,794,1066,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+# distribute this file as part of a program that contains a
+# configuration script generated by Autoconf, you may include it under
+# the same distribution terms that you use for the rest of that program.
+
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04747251628170872,ScoreOutOfRange,719,759,28242,29914,0.001045973110420447,"    * data to the corresponding row data.
+    */
+   if ((old_row != NULL) && (new_row != NULL))
+   png_progressive_combine_row(png_ptr, old_row, new_row);
+
+   /*
+    * The rows and passes are called in order, so you don't really
+    * need the row_num and pass, but I'm supplying them because it
+    * may make your life easier.
+    *
+    * For the non-NULL rows of interlaced images, you must call
+    * png_progressive_combine_row() passing in the new row and the
+    * old row, as demonstrated above.  You can call this function for
+    * NULL rows (it will just return) and for non-interlaced images
+    * (it just does the memcpy for you) if it will make the code
+    * easier.  Thus, you can just do this for all cases:
+    */
+
+   png_progressive_combine_row(png_ptr, old_row, new_row);
+
+   /* where old_row is what was displayed for previous rows.  Note
+    * that the first pass (pass == 0 really) will completely cover
+    * the old row, so the rows do not have to be initialized.  After
+    * the first pass (and only for interlaced images), you will have
+    * to pass the current row as new_row, and the function will combine
+    * the old row and the new row.
+    */
+#endif /* READ_INTERLACING */
+}
+
+end_callback(png_structp png_ptr, png_infop info)
+{
+   /* This function is called when the whole image has been read,
+    * including any chunks after the image (up to and including
+    * the IEND).  You will usually have the same info chunk as you
+    * had in the header, although some data may have been added
+    * to the comments and time fields.
+    *
+    * Most people won't do much here, perhaps setting a flag that
+    * marks the image as finished.
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04447349275178111,ScoreOutOfRange,224,267,10365,12275,0.0009065161814463705," * returns zero if the image is a PNG and nonzero if it isn't a PNG.
+ *
+ * The function check_if_png() shown here, but not used, returns nonzero (true)
+ * if the file can be opened and is a PNG, 0 (false) otherwise.
+ *
+ * If this call is successful, and you are going to keep the file open,
+ * you should call png_set_sig_bytes(png_ptr, PNG_BYTES_TO_CHECK); once
+ * you have created the png_ptr, so that libpng knows your application
+ * has read that many bytes from the start of the file.  Make sure you
+ * don't call png_set_sig_bytes() with more than 8 bytes read or give it
+ * an incorrect number of bytes read, or you will either have read too
+ * many bytes (your fault), or you are telling libpng to read the wrong
+ * number of magic bytes (also your fault).
+ *
+ * Many applications already read the first 2 or 4 bytes from the start
+ * of the image to determine the file type, so it would be easiest just
+ * to pass the bytes to png_sig_cmp() or even skip that if you know
+ * you have a PNG file, and call png_set_sig_bytes().
+ */
+#define PNG_BYTES_TO_CHECK 4
+int check_if_png(char *file_name, FILE **fp)
+{
+   char buf[PNG_BYTES_TO_CHECK];
+
+   /* Open the prospective PNG file. */
+   if ((*fp = fopen(file_name, ""rb"")) == NULL)
+      return 0;
+
+   /* Read in some of the signature bytes */
+   if (fread(buf, 1, PNG_BYTES_TO_CHECK, *fp) != PNG_BYTES_TO_CHECK)
+      return 0;
+
+   /* Compare the first PNG_BYTES_TO_CHECK bytes of the signature.
+      Return nonzero (true) if they match */
+
+   return(!png_sig_cmp(buf, (png_size_t)0, PNG_BYTES_TO_CHECK));
+}
+
+/* Read a PNG file.  You may want to return an error code if the read
+ * fails (depending upon the failure).  There are two ""prototypes"" given
+ * here - one where we are given the filename, and we need to open the
+ * file, and the other where we are given an open file (possibly with
+ * some or all of the magic bytes read - see comments above).
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04412302654604207,ScoreOutOfRange,313,350,13716,15192,0.0007949163408690063,"
+   /* Set error handling if you are using the setjmp/longjmp method (this is
+    * the normal method of doing things with libpng).  REQUIRED unless you
+    * set up your own error handlers in the png_create_read_struct() earlier.
+    */
+
+   if (setjmp(png_jmpbuf(png_ptr)))
+   {
+      /* Free all of the memory associated with the png_ptr and info_ptr */
+      png_destroy_read_struct(&png_ptr, &info_ptr, NULL);
+      fclose(fp);
+      /* If we get here, we had a problem reading the file */
+      return (ERROR);
+   }
+
+   /* One of the following I/O initialization methods is REQUIRED */
+#ifdef streams /* PNG file I/O method 1 */
+   /* Set up the input control if you are using standard C streams */
+   png_init_io(png_ptr, fp);
+
+#else no_streams /* PNG file I/O method 2 */
+   /* If you are using replacement read functions, instead of calling
+    * png_init_io() here you would call:
+    */
+   png_set_read_fn(png_ptr, (void *)user_io_ptr, user_read_fn);
+   /* where user_io_ptr is a structure you want available to the callbacks */
+#endif no_streams /* Use only one I/O method! */
+
+   /* If we have already read some of the signature */
+   png_set_sig_bytes(png_ptr, sig_read);
+
+#ifdef hilevel
+   /*
+    * If you have enough memory to read in the entire image at once,
+    * and you need to specify only transforms that can be controlled
+    * with one of the PNG_TRANSFORM_* bits (this presently excludes
+    * quantizing, filling, setting background, and doing gamma
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.042458737362521155,ScoreOutOfRange,60,81,2410,3515,0.0007686740716131257,"          * store most images.
+          */
+         image.format = PNG_FORMAT_RGBA;
+
+         /* Now allocate enough memory to hold the image in this format; the
+          * PNG_IMAGE_SIZE macro uses the information about the image (width,
+          * height and format) stored in 'image'.
+          */
+         buffer = malloc(PNG_IMAGE_SIZE(image));
+
+         /* If enough memory was available read the image in the desired format
+          * then write the result out to the new file.  'background' is not
+          * necessary when reading the image because the alpha channel is
+          * preserved; if it were to be removed, for example if we requested
+          * PNG_FORMAT_RGB, then either a solid background color would have to
+          * be supplied or the output buffer would have to be initialized to the
+          * actual background of the image.
+          *
+          * The fourth argument to png_image_finish_read is the 'row_stride' -
+          * this is the number of components allocated for the image in each
+          * row.  It has to be at least as big as the value returned by
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04380838580649144,ScoreOutOfRange,282,297,12643,13325,0.0004996762955238835,"void read_png(FILE *fp, int sig_read)  /* File is already open */
+{
+   png_structp png_ptr;
+   png_infop info_ptr;
+   png_uint_32 width, height;
+   int bit_depth, color_type, interlace_type;
+#endif no_open_file /* Only use one prototype! */
+
+   /* Create and initialize the png_struct with the desired error handler
+    * functions.  If you want to use the default stderr and longjump method,
+    * you can supply NULL for the last three parameters.  We also supply the
+    * the compiler header file version, so that we know if the application
+    * was compiled with a compatible version of the library.  REQUIRED
+    */
+   png_ptr = png_create_read_struct(PNG_LIBPNG_VER_STRING,
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04528604688589537,ScoreOutOfRange,913,930,35204,35849,0.0004982972664760971,"
+   /* Note that if sRGB is present the gAMA and cHRM chunks must be ignored
+    * on read and, if your application chooses to write them, they must
+    * be written in accordance with the sRGB profile
+    */
+
+   /* Write the file header information.  REQUIRED */
+   png_write_info(png_ptr, info_ptr);
+
+   /* If you want, you can write the info in two steps, in case you need to
+    * write your private chunk ahead of PLTE:
+    *
+    *   png_write_info_before_PLTE(write_ptr, write_info_ptr);
+    *   write_my_chunk();
+    *   png_write_info(png_ptr, info_ptr);
+    *
+    * However, given the level of known- and unknown-chunk support in 1.2.0
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,LGPLLR,0.043514328641516206,ScoreOutOfRange,166,206,7511,9713,0.00044632747376253457," *    Regardless of the setting of this flag the alpha channel is always linear,
+ *    although it will be 8 bits or 16 bits wide as specified by the flag.
+ *
+ * PNG_FORMAT_FLAG_BGR: if set the components of a color pixel will be returned
+ *    in the order blue, then green, then red.  If not set the pixel components
+ *    are in the order red, then green, then blue.
+ *
+ * PNG_FORMAT_FLAG_AFIRST: if set the alpha channel (if present) precedes the
+ *    color or grayscale components.  If not set the alpha channel follows the
+ *    components.
+ *
+ * You do not have to read directly from a file.  You can read from memory or,
+ * on systems that support it, from a <stdio.h> FILE*.  This is controlled by
+ * the particular png_image_read_from_ function you call at the start.  Likewise
+ * on write you can write to a FILE* if your system supports it.  Check the
+ * macro PNG_STDIO_SUPPORTED to see if stdio support has been included in your
+ * libpng build.
+ *
+ * If you read 16-bit (PNG_FORMAT_FLAG_LINEAR) data you may need to write it in
+ * the 8-bit format for display.  You do this by setting the convert_to_8bit
+ * flag to 'true'.
+ *
+ * Don't repeatedly convert between the 8-bit and 16-bit forms.  There is
+ * significant data loss when 16-bit data is converted to the 8-bit encoding and
+ * the current libpng implementation of conversion to 16-bit is also
+ * significantly lossy.  The latter will be fixed in the future, but the former
+ * is unavoidable - the 8-bit format just doesn't have enough resolution.
+ */
+
+/* If your program needs more information from the PNG data it reads, or if you
+ * need to do more complex transformations, or minimize transformations, on the
+ * data you read, then you must use one of the several lower level libpng
+ * interfaces.
+ *
+ * All these interfaces require that you do your own error handling - your
+ * program must be able to arrange for control to return to your own code any
+ * time libpng encounters a problem.  There are several ways to do this, but the
+ * standard way is to use the ANSI-C (C90) <setjmp.h> interface to establish a
+ * return point within your own code.  You must do this if you do not use the
+ * simplified interface (above).
+"
+/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04546349256050531,ScoreOutOfRange,211,215,9919,10087,0.0003655370142000073,"#include <png.h>
+
+ /* The png_jmpbuf() macro, used in error handling, became available in
+  * libpng version 1.0.6.  If you want to be able to run your code with older
+"
+/libpng-1.6.34.tar.gz_extracted/install-sh,X11,0.6415427862393729,4,9,31,268,1580,0.20109389063071795,"# Copyright (C) 1994 X Consortium
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the ""Software""), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+# X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+# AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+# TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#
+# Except as contained in this notice, the name of the X Consortium shall not
+# be used in advertising or otherwise to promote the sale, use or other deal-
+# ings in this Software without prior written authorization from the X Consor-
+"
+/libpng-1.6.34.tar.gz_extracted/libpng.3,Libpng,0.14499329703704417,3,6105,6226,268521,273072,0.08619333007809463,"
+This copy of the libpng notices is provided for your convenience.  In case of
+any discrepancy between this copy and the notices in the file png.h that is
+included in the libpng distribution, the latter shall prevail.
+
+COPYRIGHT NOTICE, DISCLAIMER, and LICENSE:
+
+If you modify libpng you may insert additional notices immediately following
+this sentence.
+
+This code is released under the libpng license.
+
+libpng versions 1.0.7, July 1, 2000 through 1.6.34, September 29, 2017 are
+Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson, are
+derived from libpng-1.0.6, and are distributed according to the same
+disclaimer and license as libpng-1.0.6 with the following individuals
+added to the list of Contributing Authors:
+
+   Simon-Pierre Cadieux
+   Eric S. Raymond
+   Mans Rullgard
+   Cosmin Truta
+   Gilles Vollant
+   James Yu
+   Mandar Sahastrabuddhe
+   Google Inc.
+   Vadim Barkov
+
+and with the following additions to the disclaimer:
+
+   There is no warranty against interference with your enjoyment of the
+   library or against infringement.  There is no warranty that our
+   efforts or the library will fulfill any of your particular purposes
+   or needs.  This library is provided with all faults, and the entire
+   risk of satisfactory quality, performance, accuracy, and effort is with
+   the user.
+
+Some files in the ""contrib"" directory and some configure-generated
+files that are distributed with libpng have other copyright owners and
+are released under other open source licenses.
+
+libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are
+Copyright (c) 1998-2000 Glenn Randers-Pehrson, are derived from
+libpng-0.96, and are distributed according to the same disclaimer and
+license as libpng-0.96, with the following individuals added to the list
+of Contributing Authors:
+
+   Tom Lane
+   Glenn Randers-Pehrson
+   Willem van Schaik
+
+libpng versions 0.89, June 1996, through 0.96, May 1997, are
+Copyright (c) 1996-1997 Andreas Dilger, are derived from libpng-0.88,
+and are distributed according to the same disclaimer and license as
+libpng-0.88, with the following individuals added to the list of
+Contributing Authors:
+
+   John Bowler
+   Kevin Bracey
+   Sam Bushell
+   Magnus Holmgren
+   Greg Roelofs
+   Tom Tanner
+
+Some files in the ""scripts"" directory have other copyright owners
+but are released under this license.
+
+libpng versions 0.5, May 1995, through 0.88, January 1996, are
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+
+For the purposes of this copyright and license, ""Contributing Authors""
+is defined as the following set of individuals:
+
+   Andreas Dilger
+   Dave Martindale
+   Guy Eric Schalnat
+   Paul Schmidt
+   Tim Wegner
+
+The PNG Reference Library is supplied ""AS IS"".  The Contributing Authors
+and Group 42, Inc. disclaim all warranties, expressed or implied,
+including, without limitation, the warranties of merchantability and of
+fitness for any purpose.  The Contributing Authors and Group 42, Inc.
+assume no liability for direct, indirect, incidental, special, exemplary,
+or consequential damages, which may result from the use of the PNG
+Reference Library, even if advised of the possibility of such damage.
+
+Permission is hereby granted to use, copy, modify, and distribute this
+source code, or portions hereof, for any purpose, without fee, subject
+to the following restrictions:
+
+  1. The origin of this source code must not be misrepresented.
+
+  2. Altered versions must be plainly marked as such and must not
+     be misrepresented as being the original source.
+
+  3. This Copyright notice may not be removed or altered from any
+     source or altered source distribution.
+
+The Contributing Authors and Group 42, Inc. specifically permit, without
+fee, and encourage the use of this source code as a component to
+supporting the PNG file format in commercial products.  If you use this
+source code in a product, acknowledgment is not required but would be
+appreciated.
+
+END OF COPYRIGHT NOTICE, DISCLAIMER, and LICENSE.
+
+TRADEMARK:
+
+The name ""libpng"" has not been registered by the Copyright owner
+as a trademark in any jurisdiction.  However, because libpng has
+been distributed and maintained world-wide, continually since 1995,
+the Copyright owner claims ""common-law trademark protection"" in any
+jurisdiction where common-law trademark is recognized.
+
+OSI CERTIFICATION:
+
+Libpng is OSI Certified Open Source Software.  OSI Certified Open Source is
+a certification mark of the Open Source Initiative. OSI has not addressed
+the additional disclaimers inserted at version 1.0.7.
+
+"
+/libpng-1.6.34.tar.gz_extracted/libpng.3,Libpng,0.059141986861387844,ScoreOutOfRange,6226,6247,273072,273791,0.0021563771279407506,"EXPORT CONTROL:
+
+The Copyright owner believes that the Export Control Classification
+Number (ECCN) for libpng is EAR99, which means not subject to export
+controls or International Traffic in Arms Regulations (ITAR) because
+it is open source, publicly available software, that does not contain
+any encryption software.  See the EAR, paragraphs 734.3(b)(3) and
+734.7(b).
+
+A ""png_get_copyright"" function is available, for convenient use in ""about""
+boxes and the like:
+
+   printf(""%s"", png_get_copyright(NULL));
+
+Also, the PNG logo (in PNG format, of course) is supplied in the
+files ""pngbar.png"" and ""pngbar.jpg (88x31) and ""pngnow.png"" (98x31).
+
+Glenn Randers-Pehrson
+glennrp at users.sourceforge.net
+September 29, 2017
+
+"
+/libpng-1.6.34.tar.gz_extracted/ltmain.sh,GPL-3.0-or-later,0.07139156215368263,1,1376,1394,40520,41367,0.2937897855613248,"
+# Copyright (C) 2010-2015 Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.  There is NO
+# warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+"
+/libpng-1.6.34.tar.gz_extracted/ltmain.sh,GPL-3.0-or-later,0.06028221577884486,1,70,93,2390,3497,0.2258292327319118,"
+# Copyright (C) 2004-2015 Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.  There is NO
+# warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+
+# As a special exception to the GNU General Public License, if you distribute
+# this file as part of a program or library that is built using GNU Libtool,
+# you may include this file under the same distribution terms that you use
+# for the rest of that program.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNES FOR A PARTICULAR PURPOSE. See the GNU
+# General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+"
+/libpng-1.6.34.tar.gz_extracted/ltmain.sh,GPL-3.0+,0.05144277131868788,ScoreOutOfRange,7,31,271,1383,0.19066920510143504,"
+# Copyright (C) 1996-2015 Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.  There is NO
+# warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# GNU Libtool is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# As a special exception to the GNU General Public License,
+# if you distribute this file as part of a program or library that
+# is built using GNU Libtool, you may include this file under the
+# same distribution terms that you use for the rest of that program.
+#
+# GNU Libtool is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+"
+/libpng-1.6.34.tar.gz_extracted/missing,GPL-3.0+,0.3850093704636901,3,4,21,108,859,0.2919607241485119,"
+# Copyright (C) 1996-2014 Free Software Foundation, Inc.
+# Originally written by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
+
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+"
+/libpng-1.6.34.tar.gz_extracted/missing,Libtool-exception,0.3031469257275709,3,21,26,859,1131,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+# distribute this file as part of a program that contains a
+# configuration script generated by Autoconf, you may include it under
+# the same distribution terms that you use for the rest of that program.
+
+"
+/libpng-1.6.34.tar.gz_extracted/png.c,Libpng,0.04612329399769111,ScoreOutOfRange,0,16,0,558,0.0013105189483434995,"
+/* png.c - location for general purpose libpng functions
+ *
+ * Last changed in libpng 1.6.33 [September 28, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+#include ""pngpriv.h""
+
+/* Generate a compiler error if there is an old png.h in the search path. */
+"
+/libpng-1.6.34.tar.gz_extracted/png.c,CECILL-B,0.04417739731694161,ScoreOutOfRange,2053,2101,69322,71689,0.0003696825152294932,"
+   /* This is just a warning because the profile may be valid in future
+    * versions.
+    */
+   if (temp >= PNG_sRGB_INTENT_LAST)
+      (void)png_icc_profile_error(png_ptr, NULL, name, temp,
+          ""intent outside defined range"");
+
+   /* At this point the tag table can't be checked because it hasn't necessarily
+    * been loaded; however, various header fields can be checked.  These checks
+    * are for values permitted by the PNG spec in an ICC profile; the PNG spec
+    * restricts the profiles that can be passed in an iCCP chunk (they must be
+    * appropriate to processing PNG data!)
+    */
+
+   /* Data checks (could be skipped).  These checks must be independent of the
+    * version number; however, the version number doesn't accomodate changes in
+    * the header fields (just the known tags and the interpretation of the
+    * data.)
+    */
+   temp = png_get_uint_32(profile+36); /* signature 'ascp' */
+   if (temp != 0x61637370)
+      return png_icc_profile_error(png_ptr, colorspace, name, temp,
+          ""invalid signature"");
+
+   /* Currently the PCS illuminant/adopted white point (the computational
+    * white point) are required to be D50,
+    * however the profile contains a record of the illuminant so perhaps ICC
+    * expects to be able to change this in the future (despite the rationale in
+    * the introduction for using a fixed PCS adopted white.)  Consequently the
+    * following is just a warning.
+    */
+   if (memcmp(profile+68, D50_nCIEXYZ, 12) != 0)
+      (void)png_icc_profile_error(png_ptr, NULL, name, 0/*no tag value*/,
+          ""PCS illuminant is not D50"");
+
+   /* The PNG spec requires this:
+    * ""If the iCCP chunk is present, the image samples conform to the colour
+    * space represented by the embedded ICC profile as defined by the
+    * International Color Consortium [ICC]. The colour space of the ICC profile
+    * shall be an RGB colour space for colour images (PNG colour types 2, 3, and
+    * 6), or a greyscale colour space for greyscale images (PNG colour types 0
+    * and 4).""
+    *
+    * This checking code ensures the embedded profile (on either read or write)
+    * conforms to the specification requirements.  Notice that an ICC 'gray'
+    * color-space profile contains the information to transform the monochrome
+    * data to XYZ or L*a*b (according to which PCS the profile uses) and this
+"
+/libpng-1.6.34.tar.gz_extracted/png.c,PDDL-1.0,0.04307186415037786,ScoreOutOfRange,3671,3693,124284,125290,0.0003326512915918734," * get an approximation then multiply the approximation by a correction factor
+ * determined by the remaining up to 8 bits.  This requires an additional step
+ * in the 16-bit case.
+ *
+ * We want log2(value/65535), we have log2(v'/255), where:
+ *
+ *    value = v' * 256 + v''
+ *          = v' * f
+ *
+ * So f is value/v', which is equal to (256+v''/v') since v' is in the range 128
+ * to 255 and v'' is in the range 0 to 255 f will be in the range 256 to less
+ * than 258.  The final factor also needs to correct for the fact that our 8-bit
+ * value is scaled by 255, whereas the 16-bit values must be scaled by 65535.
+ *
+ * This gives a final formula using a calculated value 'x' which is value/v' and
+ * scaling by 65536 to match the above table:
+ *
+ *   log2(x/257) * 65536
+ *
+ * Since these numbers are so close to '1' we can use simple linear
+ * interpolation between the two end values 256/257 (result -368.61) and 258/257
+ * (result 367.179).  The values used below are scaled by a further 64 to give
+"
+/libpng-1.6.34.tar.gz_extracted/png.c,LGPLLR,0.04141501219997176,ScoreOutOfRange,237,315,7391,10061,0.0002738908883565213,"
+      return 0;
+   }
+
+   /* Success return. */
+   return 1;
+}
+
+/* Generic function to create a png_struct for either read or write - this
+ * contains the common initialization.
+ */
+PNG_FUNCTION(png_structp /* PRIVATE */,
+png_create_png_struct,(png_const_charp user_png_ver, png_voidp error_ptr,
+    png_error_ptr error_fn, png_error_ptr warn_fn, png_voidp mem_ptr,
+    png_malloc_ptr malloc_fn, png_free_ptr free_fn),PNG_ALLOCATED)
+{
+   png_struct create_struct;
+#  ifdef PNG_SETJMP_SUPPORTED
+      jmp_buf create_jmp_buf;
+#  endif
+
+   /* This temporary stack-allocated structure is used to provide a place to
+    * build enough context to allow the user provided memory allocator (if any)
+    * to be called.
+    */
+   memset(&create_struct, 0, (sizeof create_struct));
+
+   /* Added at libpng-1.2.6 */
+#  ifdef PNG_USER_LIMITS_SUPPORTED
+      create_struct.user_width_max = PNG_USER_WIDTH_MAX;
+      create_struct.user_height_max = PNG_USER_HEIGHT_MAX;
+
+#     ifdef PNG_USER_CHUNK_CACHE_MAX
+      /* Added at libpng-1.2.43 and 1.4.0 */
+      create_struct.user_chunk_cache_max = PNG_USER_CHUNK_CACHE_MAX;
+#     endif
+
+#     ifdef PNG_USER_CHUNK_MALLOC_MAX
+      /* Added at libpng-1.2.43 and 1.4.1, required only for read but exists
+       * in png_struct regardless.
+       */
+      create_struct.user_chunk_malloc_max = PNG_USER_CHUNK_MALLOC_MAX;
+#     endif
+#  endif
+
+   /* The following two API calls simply set fields in png_struct, so it is safe
+    * to do them now even though error handling is not yet set up.
+    */
+#  ifdef PNG_USER_MEM_SUPPORTED
+      png_set_mem_fn(&create_struct, mem_ptr, malloc_fn, free_fn);
+#  else
+      PNG_UNUSED(mem_ptr)
+      PNG_UNUSED(malloc_fn)
+      PNG_UNUSED(free_fn)
+#  endif
+
+   /* (*error_fn) can return control to the caller after the error_ptr is set,
+    * this will result in a memory leak unless the error_fn does something
+    * extremely sophisticated.  The design lacks merit but is implicit in the
+    * API.
+    */
+   png_set_error_fn(&create_struct, error_ptr, error_fn, warn_fn);
+
+#  ifdef PNG_SETJMP_SUPPORTED
+      if (!setjmp(create_jmp_buf))
+#  endif
+      {
+#  ifdef PNG_SETJMP_SUPPORTED
+         /* Temporarily fake out the longjmp information until we have
+          * successfully completed this function.  This only works if we have
+          * setjmp() support compiled in, but it is safe - this stuff should
+          * never happen.
+          */
+         create_struct.jmp_buf_ptr = &create_jmp_buf;
+         create_struct.jmp_buf_size = 0; /*stack allocation*/
+         create_struct.longjmp_fn = longjmp;
+#  endif
+         /* Call the general version checker (shared with read and write code):
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Libpng,0.26755221891939746,3,9,125,303,4861,0.05421000460264385," * This code is released under the libpng license (See LICENSE, below)
+ *
+ * Authors and maintainers:
+ *   libpng versions 0.71, May 1995, through 0.88, January 1996: Guy Schalnat
+ *   libpng versions 0.89, June 1996, through 0.96, May 1997: Andreas Dilger
+ *   libpng versions 0.97, January 1998, through 1.6.34, September 29, 2017:
+ *     Glenn Randers-Pehrson.
+ *   See also ""Contributing Authors"", below.
+ */
+
+/*
+ * COPYRIGHT NOTICE, DISCLAIMER, and LICENSE:
+ *
+ * If you modify libpng you may insert additional notices immediately following
+ * this sentence.
+ *
+ * This code is released under the libpng license.
+ *
+ * libpng versions 1.0.7, July 1, 2000 through 1.6.34, September 29, 2017 are
+ * Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson, are
+ * derived from libpng-1.0.6, and are distributed according to the same
+ * disclaimer and license as libpng-1.0.6 with the following individuals
+ * added to the list of Contributing Authors:
+ *
+ *    Simon-Pierre Cadieux
+ *    Eric S. Raymond
+ *    Mans Rullgard
+ *    Cosmin Truta
+ *    Gilles Vollant
+ *    James Yu
+ *    Mandar Sahastrabuddhe
+ *    Google Inc.
+ *    Vadim Barkov
+ *
+ * and with the following additions to the disclaimer:
+ *
+ *    There is no warranty against interference with your enjoyment of the
+ *    library or against infringement.  There is no warranty that our
+ *    efforts or the library will fulfill any of your particular purposes
+ *    or needs.  This library is provided with all faults, and the entire
+ *    risk of satisfactory quality, performance, accuracy, and effort is with
+ *    the user.
+ *
+ * Some files in the ""contrib"" directory and some configure-generated
+ * files that are distributed with libpng have other copyright owners and
+ * are released under other open source licenses.
+ *
+ * libpng versions 0.97, January 1998, through 1.0.6, March 20, 2000, are
+ * Copyright (c) 1998-2000 Glenn Randers-Pehrson, are derived from
+ * libpng-0.96, and are distributed according to the same disclaimer and
+ * license as libpng-0.96, with the following individuals added to the list
+ * of Contributing Authors:
+ *
+ *    Tom Lane
+ *    Glenn Randers-Pehrson
+ *    Willem van Schaik
+ *
+ * libpng versions 0.89, June 1996, through 0.96, May 1997, are
+ * Copyright (c) 1996-1997 Andreas Dilger, are derived from libpng-0.88,
+ * and are distributed according to the same disclaimer and license as
+ * libpng-0.88, with the following individuals added to the list of
+ * Contributing Authors:
+ *
+ *    John Bowler
+ *    Kevin Bracey
+ *    Sam Bushell
+ *    Magnus Holmgren
+ *    Greg Roelofs
+ *    Tom Tanner
+ *
+ * Some files in the ""scripts"" directory have other copyright owners
+ * but are released under this license.
+ *
+ * libpng versions 0.5, May 1995, through 0.88, January 1996, are
+ * Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+ *
+ * For the purposes of this copyright and license, ""Contributing Authors""
+ * is defined as the following set of individuals:
+ *
+ *    Andreas Dilger
+ *    Dave Martindale
+ *    Guy Eric Schalnat
+ *    Paul Schmidt
+ *    Tim Wegner
+ *
+ * The PNG Reference Library is supplied ""AS IS"".  The Contributing Authors
+ * and Group 42, Inc. disclaim all warranties, expressed or implied,
+ * including, without limitation, the warranties of merchantability and of
+ * fitness for any purpose.  The Contributing Authors and Group 42, Inc.
+ * assume no liability for direct, indirect, incidental, special, exemplary,
+ * or consequential damages, which may result from the use of the PNG
+ * Reference Library, even if advised of the possibility of such damage.
+ *
+ * Permission is hereby granted to use, copy, modify, and distribute this
+ * source code, or portions hereof, for any purpose, without fee, subject
+ * to the following restrictions:
+ *
+ *   1. The origin of this source code must not be misrepresented.
+ *
+ *   2. Altered versions must be plainly marked as such and must not
+ *      be misrepresented as being the original source.
+ *
+ *   3. This Copyright notice may not be removed or altered from any
+ *      source or altered source distribution.
+ *
+ * The Contributing Authors and Group 42, Inc. specifically permit, without
+ * fee, and encourage the use of this source code as a component to
+ * supporting the PNG file format in commercial products.  If you use this
+ * source code in a product, acknowledgment is not required but would be
+ * appreciated.
+ *
+ * END OF COPYRIGHT NOTICE, DISCLAIMER, and LICENSE.
+ *
+ * TRADEMARK:
+ *
+ * The name ""libpng"" has not been registered by the Copyright owner
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Libpng,0.04798479011841238,ScoreOutOfRange,133,154,5236,6065,0.002119009169632434," * a certification mark of the Open Source Initiative. OSI has not addressed
+ * the additional disclaimers inserted at version 1.0.7.
+ *
+ * EXPORT CONTROL:
+ *
+ * The Copyright owner believes that the Export Control Classification
+ * Number (ECCN) for libpng is EAR99, which means not subject to export
+ * controls or International Traffic in Arms Regulations (ITAR) because
+ * it is open source, publicly available software, that does not contain
+ * any encryption software.  See the EAR, paragraphs 734.3(b)(3) and
+ * 734.7(b).
+ */
+
+/*
+ * A ""png_get_copyright"" function is available, for convenient use in ""about""
+ * boxes and the like:
+ *
+ *    printf(""%s"", png_get_copyright(NULL));
+ *
+ * Also, the PNG logo (in PNG format, of course) is supplied in the
+ * files ""pngbar.png"" and ""pngbar.jpg (88x31) and ""pngnow.png"" (98x31).
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04078555974795939,ScoreOutOfRange,3022,3047,131806,133108,0.0008801568076529277,"   png_const_voidp memory, png_size_t size));
+   /* The PNG header is read from the given memory buffer. */
+
+PNG_EXPORT(237, int, png_image_finish_read, (png_imagep image,
+   png_const_colorp background, void *buffer, png_int_32 row_stride,
+   void *colormap));
+   /* Finish reading the image into the supplied buffer and clean up the
+    * png_image structure.
+    *
+    * row_stride is the step, in byte or 2-byte units as appropriate,
+    * between adjacent rows.  A positive stride indicates that the top-most row
+    * is first in the buffer - the normal top-down arrangement.  A negative
+    * stride indicates that the bottom-most row is first in the buffer.
+    *
+    * background need only be supplied if an alpha channel must be removed from
+    * a png_byte format and the removal is to be done by compositing on a solid
+    * color; otherwise it may be NULL and any composition will be done directly
+    * onto the buffer.  The value is an sRGB color to use for the background,
+    * for grayscale output the green channel is used.
+    *
+    * background must be supplied when an alpha channel must be removed from a
+    * single byte color-mapped output format, in other words if:
+    *
+    * 1) The original format from png_image_begin_read_from_* had
+    *    PNG_FORMAT_FLAG_ALPHA set.
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.0423833632216173,ScoreOutOfRange,848,869,35280,36399,0.0007681970138423549," * must include this before png.h to obtain the definition of jmp_buf.  The
+ * function is required to be PNG_NORETURN, but this is not checked.  If the
+ * function does return the application will crash via an abort() or similar
+ * system level call.
+ *
+ * If you get a warning here while building the library you may need to make
+ * changes to ensure that pnglibconf.h records the calling convention used by
+ * your compiler.  This may be very difficult - try using a different compiler
+ * to build the library!
+ */
+PNG_FUNCTION(void, (PNGCAPI *png_longjmp_ptr), PNGARG((jmp_buf, int)), typedef);
+#endif
+
+/* Transform masks for the high-level interface */
+#define PNG_TRANSFORM_IDENTITY       0x0000    /* read and write */
+#define PNG_TRANSFORM_STRIP_16       0x0001    /* read only */
+#define PNG_TRANSFORM_STRIP_ALPHA    0x0002    /* read only */
+#define PNG_TRANSFORM_PACKING        0x0004    /* read and write */
+#define PNG_TRANSFORM_PACKSWAP       0x0008    /* read and write */
+#define PNG_TRANSFORM_EXPAND         0x0010    /* read only */
+#define PNG_TRANSFORM_INVERT_MONO    0x0020    /* read and write */
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.043190555893819156,ScoreOutOfRange,3102,3117,135702,136444,0.0007431223510900185," * the format is linear the written PNG color-map will be converted to sRGB
+ * regardless of the convert_to_8_bit flag.
+ *
+ * With all APIs row_stride is handled as in the read APIs - it is the spacing
+ * from one row to the next in component sized units (1 or 2 bytes) and if
+ * negative indicates a bottom-up row layout in the buffer.  If row_stride is
+ * zero, libpng will calculate it for you from the image width and number of
+ * channels.
+ *
+ * Note that the write API does not support interlacing, sub-8-bit pixels or
+ * most ancillary chunks.  If you need to write text chunks (e.g. for copyright
+ * notices) you need to use one of the other APIs.
+ */
+
+PNG_EXPORT(245, int, png_image_write_to_memory, (png_imagep image, void *memory,
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04028832688384934,ScoreOutOfRange,1677,1690,72539,73193,0.0005797166867603626,"/* This callback is called only for *unknown* chunks.  If
+ * PNG_HANDLE_AS_UNKNOWN_SUPPORTED is set then it is possible to set known
+ * chunks to be treated as unknown, however in this case the callback must do
+ * any processing required by the chunk (e.g. by calling the appropriate
+ * png_set_ APIs.)
+ *
+ * There is no write support - on write, by default, all the chunks in the
+ * 'unknown' list are written in the specified position.
+ *
+ * The integer return from the callback function is interpreted thus:
+ *
+ * negative: An error occurred; png_chunk_error will be called.
+ *     zero: The chunk was not handled, the chunk will be saved. A critical
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.042877201313392226,ScoreOutOfRange,1130,1143,47276,48021,0.0005511711601262244," * This has no effect on the way pixels are written into a PNG output
+ * datastream. The color samples in a PNG datastream are never premultiplied
+ * with the alpha samples.
+ *
+ * The default is to return data according to the PNG specification: the alpha
+ * channel is a linear measure of the contribution of the pixel to the
+ * corresponding composited pixel, and the color channels are unassociated
+ * (not premultiplied).  The gamma encoded color channels must be scaled
+ * according to the contribution and to do this it is necessary to undo
+ * the encoding, scale the color values, perform the composition and reencode
+ * the values.  This is the 'PNG' mode.
+ *
+ * The alternative is to 'associate' the alpha with the color information by
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04092075527206615,ScoreOutOfRange,2673,2680,115740,116080,0.0004984343144683577," * 5) Call png_image_finish_read to read the image and, if required, the
+ *    color-map into your buffers.
+ *
+ * There are no restrictions on the format of the PNG input itself; all valid
+ * color types, bit depths, and interlace methods are acceptable, and the
+ * input image is transformed as necessary to the requested in-memory format
+ * during the png_image_finish_read() step.  The only caveat is that if you
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,CECILL-B,0.04546011574300316,ScoreOutOfRange,2871,2933,125261,127876,0.000454885362562493," * Similarly the macros are also pre-processor constants (sizeof is not used) so
+ * they can be used in #if tests.
+ *
+ * First the information about the samples.
+ */
+#define PNG_IMAGE_SAMPLE_CHANNELS(fmt)\
+   (((fmt)&(PNG_FORMAT_FLAG_COLOR|PNG_FORMAT_FLAG_ALPHA))+1)
+   /* Return the total number of channels in a given format: 1..4 */
+
+#define PNG_IMAGE_SAMPLE_COMPONENT_SIZE(fmt)\
+   ((((fmt) & PNG_FORMAT_FLAG_LINEAR) >> 2)+1)
+   /* Return the size in bytes of a single component of a pixel or color-map
+    * entry (as appropriate) in the image: 1 or 2.
+    */
+
+#define PNG_IMAGE_SAMPLE_SIZE(fmt)\
+   (PNG_IMAGE_SAMPLE_CHANNELS(fmt) * PNG_IMAGE_SAMPLE_COMPONENT_SIZE(fmt))
+   /* This is the size of the sample data for one sample.  If the image is
+    * color-mapped it is the size of one color-map entry (and image pixels are
+    * one byte in size), otherwise it is the size of one image pixel.
+    */
+
+#define PNG_IMAGE_MAXIMUM_COLORMAP_COMPONENTS(fmt)\
+   (PNG_IMAGE_SAMPLE_CHANNELS(fmt) * 256)
+   /* The maximum size of the color-map required by the format expressed in a
+    * count of components.  This can be used to compile-time allocate a
+    * color-map:
+    *
+    * png_uint_16 colormap[PNG_IMAGE_MAXIMUM_COLORMAP_COMPONENTS(linear_fmt)];
+    *
+    * png_byte colormap[PNG_IMAGE_MAXIMUM_COLORMAP_COMPONENTS(sRGB_fmt)];
+    *
+    * Alternatively use the PNG_IMAGE_COLORMAP_SIZE macro below to use the
+    * information from one of the png_image_begin_read_ APIs and dynamically
+    * allocate the required memory.
+    */
+
+/* Corresponding information about the pixels */
+#define PNG_IMAGE_PIXEL_(test,fmt)\
+   (((fmt)&PNG_FORMAT_FLAG_COLORMAP)?1:test(fmt))
+
+#define PNG_IMAGE_PIXEL_CHANNELS(fmt)\
+   PNG_IMAGE_PIXEL_(PNG_IMAGE_SAMPLE_CHANNELS,fmt)
+   /* The number of separate channels (components) in a pixel; 1 for a
+    * color-mapped image.
+    */
+
+#define PNG_IMAGE_PIXEL_COMPONENT_SIZE(fmt)\
+   PNG_IMAGE_PIXEL_(PNG_IMAGE_SAMPLE_COMPONENT_SIZE,fmt)
+   /* The size, in bytes, of each component in a pixel; 1 for a color-mapped
+    * image.
+    */
+
+#define PNG_IMAGE_PIXEL_SIZE(fmt) PNG_IMAGE_PIXEL_(PNG_IMAGE_SAMPLE_SIZE,fmt)
+   /* The size, in bytes, of a complete pixel; 1 for a color-mapped image. */
+
+/* Information about the whole row, or whole image */
+#define PNG_IMAGE_ROW_STRIDE(image)\
+   (PNG_IMAGE_PIXEL_CHANNELS((image).format) * (image).width)
+   /* Return the total number of components in a single row of the image; this
+    * is the minimum 'row stride', the minimum count of components between each
+    * row.  For a color-mapped image this is the minimum number of bytes in a
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,CECILL-C,0.04755435010355461,ScoreOutOfRange,2680,2721,116156,118096,0.0004258931130602349," * request a color-mapped image from a PNG that is full-color or makes
+ * complex use of an alpha channel the transformation is extremely lossy and the
+ * result may look terrible.
+ *
+ * To write a PNG file using the simplified API:
+ *
+ * 1) Declare a 'png_image' structure on the stack and memset() it to all zero.
+ * 2) Initialize the members of the structure that describe the image, setting
+ *    the 'format' member to the format of the image samples.
+ * 3) Call the appropriate png_image_write... function with a pointer to the
+ *    image and, if necessary, the color-map to write the PNG data.
+ *
+ * png_image is a structure that describes the in-memory format of an image
+ * when it is being read or defines the in-memory format of an image that you
+ * need to write:
+ */
+#if defined(PNG_SIMPLIFIED_READ_SUPPORTED) || \
+    defined(PNG_SIMPLIFIED_WRITE_SUPPORTED)
+
+#define PNG_IMAGE_VERSION 1
+
+typedef struct png_control *png_controlp;
+typedef struct
+{
+   png_controlp opaque;    /* Initialize to NULL, free with png_image_free */
+   png_uint_32  version;   /* Set to PNG_IMAGE_VERSION */
+   png_uint_32  width;     /* Image width in pixels (columns) */
+   png_uint_32  height;    /* Image height in pixels (rows) */
+   png_uint_32  format;    /* Image format as defined below */
+   png_uint_32  flags;     /* A bit mask containing informational flags */
+   png_uint_32  colormap_entries;
+                           /* Number of entries in the color-map */
+
+   /* In the event of an error or warning the following field will be set to a
+    * non-zero value and the 'message' field will contain a '\0' terminated
+    * string with the libpng error or warning message.  If both warnings and
+    * an error were encountered, only the error is recorded.  If there
+    * are multiple warnings, only the first one is recorded.
+    *
+    * The upper 30 bits of this value are reserved, the low two bits contain
+    * a value as follows:
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.044782644807916855,ScoreOutOfRange,1225,1235,52499,53173,0.00041764046675748525," *    If neither the PNG nor the standard linear encoding work for you because
+ *    of the software or hardware you use then you have a big problem.  The PNG
+ *    case will probably result in halos around the image.  The linear encoding
+ *    will probably result in a washed out, too bright, image (it's actually too
+ *    contrasty.)  Try the ALPHA_OPTIMIZED mode above - this will probably
+ *    substantially reduce the halos.  Alternatively try:
+ *
+ * png_set_alpha_mode(pp, PNG_ALPHA_BROKEN, PNG_DEFAULT_sRGB);
+ *    This option will also reduce the halos, but there will be slight dark
+ *    halos round the opaque parts of the image where the background is light.
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,LGPL-3.0+,0.04308594377636629,ScoreOutOfRange,634,655,26125,26981,0.0003923364802837471,"   png_byte day;     /* day of month, 1 - 31 */
+   png_byte hour;    /* hour of day, 0 - 23 */
+   png_byte minute;  /* minute of hour, 0 - 59 */
+   png_byte second;  /* second of minute, 0 - 60 (for leap seconds) */
+} png_time;
+typedef png_time * png_timep;
+typedef const png_time * png_const_timep;
+typedef png_time * * png_timepp;
+
+#if defined(PNG_STORE_UNKNOWN_CHUNKS_SUPPORTED) ||\
+   defined(PNG_USER_CHUNKS_SUPPORTED)
+/* png_unknown_chunk is a structure to hold queued chunks for which there is
+ * no specific support.  The idea is that we can use this to queue
+ * up private chunks for output even though the library doesn't actually
+ * know about their semantics.
+ *
+ * The data in the structure is set by libpng on read and used on write.
+ */
+typedef struct png_unknown_chunk_t
+{
+   png_byte name[5]; /* Textual chunk name with '\0' terminator */
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04136250760387793,ScoreOutOfRange,758,761,31472,31683,0.0003912367143617736," * from the PNG header, or if the application has filled in the corresponding
+ * data in the info_struct to be written into the output file.  The values
+ * of the PNG_INFO_<chunk> defines should NOT be changed.
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04461946274439003,ScoreOutOfRange,1753,1768,76089,76802,0.00034218145215685866,"PNG_EXPORTA(96, png_voidp, png_malloc_warn, (png_const_structrp png_ptr,
+    png_alloc_size_t size), PNG_ALLOCATED);
+
+/* Frees a pointer allocated by png_malloc() */
+PNG_EXPORT(97, void, png_free, (png_const_structrp png_ptr, png_voidp ptr));
+
+/* Free data that was allocated internally */
+PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
+    png_inforp info_ptr, png_uint_32 free_me, int num));
+
+/* Reassign responsibility for freeing existing data, whether allocated
+ * by libpng or by the application; this works on the png_info structure passed
+ * in, it does not change the state for other png_info structures.
+ *
+ * It is unlikely that this function works correctly as of 1.6.0 and using it
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04345457967696346,ScoreOutOfRange,1310,1314,56560,56800,0.000338559658602988," * MUST be called before png_read_update_info or png_start_read_image,
+ * otherwise it will not have the desired effect.  Note that it is still
+ * necessary to call png_read_row or png_read_rows png_get_image_height
+ * times for each pass.
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,AGPL-1.0,0.044065769023752886,ScoreOutOfRange,1200,1223,51035,52481,0.0003094612700938059," *    environments where everything is done by the book.  It has the shortcoming
+ *    of assuming that input PNG data with no gamma information is linear - this
+ *    is unlikely to be correct unless the PNG files where generated locally.
+ *    Most of the time the output precision will be so low as to show
+ *    significant banding in dark areas of the image.
+ *
+ * png_set_expand_16(pp);
+ * png_set_alpha_mode(pp, PNG_ALPHA_STANDARD, PNG_DEFAULT_sRGB);
+ *    This is a somewhat more realistic Jim Blinn inspired approach.  PNG files
+ *    are assumed to have the sRGB encoding if not marked with a gamma value and
+ *    the output is always 16 bits per component.  This permits accurate scaling
+ *    and processing of the data.  If you know that your input PNG files were
+ *    generated locally you might need to replace PNG_DEFAULT_sRGB with the
+ *    correct value for your system.
+ *
+ * png_set_alpha_mode(pp, PNG_ALPHA_OPTIMIZED, PNG_DEFAULT_sRGB);
+ *    If you just need to composite the PNG image onto an existing background
+ *    and if you control the code that does this you can use the optimization
+ *    setting.  In this case you just copy completely opaque pixels to the
+ *    output.  For pixels that are not completely transparent (you just skip
+ *    those) you do the composition math using png_composite or png_composite_16
+ *    below then encode the resultant 8-bit or 16-bit values to match the output
+ *    encoding.
+"
+/libpng-1.6.34.tar.gz_extracted/png.h,LGPLLR,0.04185961434954818,ScoreOutOfRange,2257,2287,97209,98716,0.0002988995595379335," *    If this is *not* set known chunks will always be handled by libpng and
+ *    will never be stored in the unknown chunk list.  Known chunks listed to
+ *    png_set_keep_unknown_chunks will have no effect.  If it is set then known
+ *    chunks listed with a keep other than AS_DEFAULT will *never* be processed
+ *    by libpng, in addition critical chunks must either be processed by the
+ *    callback or saved.
+ *
+ *    The IHDR and IEND chunks must not be listed.  Because this turns off the
+ *    default handling for chunks that would otherwise be recognized the
+ *    behavior of libpng transformations may well become incorrect!
+ *
+ * WRITE:
+ *    When writing chunks the options only apply to the chunks specified by
+ *    png_set_unknown_chunks (below), libpng will *always* write known chunks
+ *    required by png_set_ calls and will always write the core critical chunks
+ *    (as required for PLTE).
+ *
+ *    Each chunk in the png_set_unknown_chunks list is looked up in the
+ *    png_set_keep_unknown_chunks list to find the keep setting, this is then
+ *    interpreted as follows:
+ *
+ *    PNG_HANDLE_CHUNK_AS_DEFAULT:
+ *       Write safe-to-copy chunks and write other chunks if the global
+ *       default is set to _ALWAYS, otherwise don't write this chunk.
+ *    PNG_HANDLE_CHUNK_NEVER:
+ *       Do not write the chunk.
+ *    PNG_HANDLE_CHUNK_IF_SAFE:
+ *       Write the chunk if it is safe-to-copy, otherwise do not write it.
+ *    PNG_HANDLE_CHUNK_ALWAYS:
+ *       Write the chunk.
+"
+/libpng-1.6.34.tar.gz_extracted/pngconf.h,Libpng,0.04671559083149203,ScoreOutOfRange,0,15,0,591,0.0013103944401654326,"
+/* pngconf.h - machine configurable file for libpng
+ *
+ * libpng version 1.6.34, September 29, 2017
+ *
+ * Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * Any machine specific code is near the front of this file, so if you
+ * are configuring libpng for a machine, you may want to read the section
+"
+/libpng-1.6.34.tar.gz_extracted/pngdebug.h,Libpng,0.04039329125759701,ScoreOutOfRange,0,14,0,539,0.0013108117815406935,"
+/* pngdebug.h - Debugging macros for libpng, also used in pngtest.c
+ *
+ * Last changed in libpng 1.6.8 [December 19, 2013]
+ * Copyright (c) 1998-2002,2004,2006-2013 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+/* Define PNG_DEBUG at compile time for debugging information.  Higher
+"
+/libpng-1.6.34.tar.gz_extracted/pngerror.c,Libpng,0.04680881055464597,ScoreOutOfRange,0,13,0,524,0.0013101756658867698,"
+/* pngerror.c - stub functions for i/o and memory allocation
+ *
+ * Last changed in libpng 1.6.31 [July 27, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This file provides a location for all error handling.  Users who
+"
+/libpng-1.6.34.tar.gz_extracted/pngerror.c,Vim,0.043606509182947215,ScoreOutOfRange,321,344,10279,11197,0.0005788384222877959,"            /* Append this parameter */
+            png_const_charp parm = p[parameter];
+            png_const_charp pend = p[parameter] + (sizeof p[parameter]);
+
+            /* No need to copy the trailing '\0' here, but there is no guarantee
+             * that parm[] has been initialized, so there is no guarantee of a
+             * trailing '\0':
+             */
+            while (i<(sizeof msg)-1 && *parm != '\0' && parm < pend)
+               msg[i++] = *parm++;
+
+            /* Consume the parameter digit too: */
+            ++message;
+            continue;
+         }
+
+         /* else not a parameter and there is a character after the @ sign; just
+          * copy that.  This is known not to be '\0' because of the test above.
+          */
+      }
+
+      /* At this point *message can't be '\0', even in the bad parameter case
+       * above where there is a lone '@' at the end of the message string.
+"
+/libpng-1.6.34.tar.gz_extracted/pngget.c,Libpng,0.04242855367824749,ScoreOutOfRange,0,20,0,628,0.001243840991118861,"
+/* pngget.c - retrieval of values from info struct
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ */
+
+#include ""pngpriv.h""
+
+#if defined(PNG_READ_SUPPORTED) || defined(PNG_WRITE_SUPPORTED)
+
+png_uint_32 PNGAPI
+png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
+"
+/libpng-1.6.34.tar.gz_extracted/pnginfo.h,Libpng,0.051665881753584685,ScoreOutOfRange,0,18,0,808,0.0015825932738500244,"
+/* pnginfo.h - header file for PNG reference library
+ *
+ * Last changed in libpng 1.6.1 [March 28, 2013]
+ * Copyright (c) 1998-2002,2004,2006-2013 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+ /* png_info is a structure that holds the information in a PNG file so
+ * that the application can find out the characteristics of the image.
+ * If you are reading the file, this structure will tell you what is
+ * in the PNG file.  If you are writing the file, fill in the information
+ * you want to put into the PNG file, using png_set_*() functions, then
+"
+/libpng-1.6.34.tar.gz_extracted/pngmem.c,Libpng,0.04190552644659936,ScoreOutOfRange,0,13,0,525,0.0013102589589194717,"
+/* pngmem.c - stub functions for memory allocation
+ *
+ * Last changed in libpng 1.6.26 [October 20, 2016]
+ * Copyright (c) 1998-2002,2004,2006-2014,2016 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This file provides a location for all memory allocation.  Users who
+"
+/libpng-1.6.34.tar.gz_extracted/pngmem.c,Qwt-exception-1.0,0.04010662037015196,ScoreOutOfRange,60,63,1926,2085,0.000577803713466851,"
+/* png_malloc_base, an internal function added at libpng 1.6.0, does the work of
+ * allocating memory, taking into account limits and PNG_USER_MEM_SUPPORTED.
+"
+/libpng-1.6.34.tar.gz_extracted/pngpread.c,Libpng,0.051110786736990974,ScoreOutOfRange,0,15,0,466,0.0012436443088535494,"
+/* pngpread.c - read a png file in push mode
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+#include ""pngpriv.h""
+
+"
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Libpng,0.04189893266190046,ScoreOutOfRange,0,15,0,595,0.0013103948565413139,"
+/* pngpriv.h - private declarations for use inside libpng
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+/* The symbols declared in this file (including the functions declared
+ * as extern) are PRIVATE.  They are not part of the libpng public
+"
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Vim,0.04083098549854462,ScoreOutOfRange,283,308,11564,12536,0.0006597227795933824,"          * isn't visible in the Visual Studio UI) so it is a fairly reliable
+          * indication that PNG_IMPEXP needs to be set to the DLL export
+          * attributes.
+          */
+#        define PNG_BUILD_DLL
+#     else
+#        ifdef __DLL__
+            /* This is set by the Borland C system when compiling for a DLL
+             * (as above.)
+             */
+#           define PNG_BUILD_DLL
+#        else
+            /* Add additional compiler cases here. */
+#        endif
+#     endif
+#  endif
+#endif /* Setting PNG_BUILD_DLL if required */
+
+/* See pngconf.h for more details: the builder of the library may set this on
+ * the command line to the right thing for the specific compilation system or it
+ * may be automagically set above (at present we know of no system where it does
+ * need to be set on the command line.)
+ *
+ * PNG_IMPEXP must be set here when building the library to prevent pngconf.h
+ * setting it to the ""import"" setting for a DLL build.
+"
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Vim,0.04013671080722674,ScoreOutOfRange,144,156,6168,6878,0.0004979637074639662,"    * if possible - if __ARM_NEON__ is set and the compiler version is not known
+    * to be broken.  This is controlled by PNG_ARM_NEON_IMPLEMENTATION which can
+    * be:
+    *
+    *    1  The intrinsics code (the default with __ARM_NEON__)
+    *    2  The hand coded assembler (the default without __ARM_NEON__)
+    *
+    * It is possible to set PNG_ARM_NEON_IMPLEMENTATION in CPPFLAGS, however
+    * this is *NOT* supported and may cease to work even after a minor revision
+    * to libpng.  It *is* valid to do this for testing purposes, e.g. speed
+    * testing or a new compiler, but the results should be communicated to the
+    * libpng implementation list for incorporation in the next minor release.
+"
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Vim,0.04174600314706313,ScoreOutOfRange,737,744,29811,30241,0.00047202735094175593," * (8-TRAILBITS), but 0 when TRAILBITS is 0.
+ *
+ * NOTE: these macros are intended to be self-evidently correct and never
+ * overflow on the assumption that pixel_bits is in the range 0..255.  The
+ * arguments are evaluated only once and they can be signed (e.g. as a result of
+ * the integral promotions).  The result of the expression always has type
+ * (png_uint_32), however the compiler always knows it is in the range 0..7.
+"
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Aladdin,0.041651784864666606,ScoreOutOfRange,899,947,37343,39408,0.00045380768281700284," * non-C code (so long as it is C-preprocessed) the rest of this stuff cannot.
+ */
+#ifndef PNG_VERSION_INFO_ONLY
+
+#include ""pngstruct.h""
+#include ""pnginfo.h""
+
+/* Validate the include paths - the include path used to generate pnglibconf.h
+ * must match that used in the build, or we must be using pnglibconf.h.prebuilt:
+ */
+#if PNG_ZLIB_VERNUM != 0 && PNG_ZLIB_VERNUM != ZLIB_VERNUM
+#  error ZLIB_VERNUM != PNG_ZLIB_VERNUM \
+      ""-I (include path) error: see the notes in pngpriv.h""
+   /* This means that when pnglibconf.h was built the copy of zlib.h that it
+    * used is not the same as the one being used here.  Because the build of
+    * libpng makes decisions to use inflateInit2 and inflateReset2 based on the
+    * zlib version number and because this affects handling of certain broken
+    * PNG files the -I directives must match.
+    *
+    * The most likely explanation is that you passed a -I in CFLAGS. This will
+    * not work; all the preprocessor directories and in particular all the -I
+    * directives must be in CPPFLAGS.
+    */
+#endif
+
+/* This is used for 16-bit gamma tables -- only the top level pointers are
+ * const; this could be changed:
+ */
+typedef const png_uint_16p * png_const_uint_16pp;
+
+/* Added to libpng-1.5.7: sRGB conversion tables */
+#if defined(PNG_SIMPLIFIED_READ_SUPPORTED) ||\
+   defined(PNG_SIMPLIFIED_WRITE_SUPPORTED)
+#ifdef PNG_SIMPLIFIED_READ_SUPPORTED
+PNG_INTERNAL_DATA(const png_uint_16, png_sRGB_table, [256]);
+   /* Convert from an sRGB encoded value 0..255 to a 16-bit linear value,
+    * 0..65535.  This table gives the closest 16-bit answers (no errors).
+    */
+#endif
+
+PNG_INTERNAL_DATA(const png_uint_16, png_sRGB_base, [512]);
+PNG_INTERNAL_DATA(const png_byte, png_sRGB_delta, [512]);
+
+#define PNG_sRGB_FROM_LINEAR(linear) \
+  ((png_byte)(0xff & ((png_sRGB_base[(linear)>>15] \
+   + ((((linear) & 0x7fff)*png_sRGB_delta[(linear)>>15])>>12)) >> 8)))
+   /* Given a value 'linear' in the range 0..255*65535 calculate the 8-bit sRGB
+    * encoded value with maximum error 0.646365.  Note that the input is not a
+"
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h,LGPLLR,0.04410692862044932,ScoreOutOfRange,1935,1955,81445,82571,0.00035912888032866436," * is no point calling the parser any more if it fails to advance to
+ * the end of the string - it is stuck on an invalid character (or
+ * terminated by '\0').
+ *
+ * Note that the pointer will consume an E or even an E+ and then leave
+ * a 'maybe' state even though a preceding integer.fraction is valid.
+ * The PNG_FP_WAS_VALID flag indicates that a preceding substring was
+ * a valid number.  It's possible to recover from this by calling
+ * the parser again (from the start, with state 0) but with a string
+ * that omits the last character (i.e. set the size to the index of
+ * the problem character.)  This has not been tested within libpng.
+ */
+PNG_INTERNAL_FUNCTION(int,png_check_fp_number,(png_const_charp string,
+   png_size_t size, int *statep, png_size_tp whereami),PNG_EMPTY);
+
+/* This is the same but it checks a complete string and returns true
+ * only if it just contains a floating point number.  As of 1.5.4 this
+ * function also returns the state at the end of parsing the number if
+ * it was valid (otherwise it returns 0.)  This can be used for testing
+ * for negative or zero values using the sticky flag.
+"
+/libpng-1.6.34.tar.gz_extracted/pngpriv.h,AGPL-1.0,0.04150716037823702,ScoreOutOfRange,814,839,33329,34661,0.0003482554153641661,"
+/* Constants for known chunk types.
+ *
+ * MAINTAINERS: If you need to add a chunk, define the name here.
+ * For historical reasons these constants have the form png_<name>; i.e.
+ * the prefix is lower case.  Please use decimal values as the parameters to
+ * match the ISO PNG specification and to avoid relying on the C locale
+ * interpretation of character values.  Please keep the list sorted.
+ *
+ * Notice that PNG_U32 is used to define a 32-bit value for the 4 byte chunk
+ * type.  In fact the specification does not express chunk types this way,
+ * however using a 32-bit value means that the chunk type can be read from the
+ * stream using exactly the same code as used for a 32-bit unsigned value and
+ * can be examined far more efficiently (using one arithmetic compare).
+ *
+ * Prior to 1.5.6 the chunk type constants were expressed as C strings.  The
+ * libpng API still uses strings for 'unknown' chunks and a macro,
+ * PNG_STRING_FROM_CHUNK, allows a string to be generated if required.  Notice
+ * that for portable code numeric values must still be used; the string ""IHDR""
+ * is not portable and neither is PNG_U32('I', 'H', 'D', 'R').
+ *
+ * In 1.7.0 the definitions will be made public in png.h to avoid having to
+ * duplicate the same definitions in application code.
+ */
+#define png_IDAT PNG_U32( 73,  68,  65,  84)
+"
+/libpng-1.6.34.tar.gz_extracted/pngread.c,Libpng,0.04981772001008642,ScoreOutOfRange,0,24,0,761,0.0013455225589739674,"
+/* pngread.c - read a PNG file
+ *
+ * Last changed in libpng 1.6.33 [September 28, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This file contains routines that an application calls directly to
+ * read a PNG file or stream.
+ */
+
+#include ""pngpriv.h""
+#if defined(PNG_SIMPLIFIED_READ_SUPPORTED) && defined(PNG_STDIO_SUPPORTED)
+#  include <errno.h>
+#endif
+
+#ifdef PNG_READ_SUPPORTED
+
+/* Create a PNG structure for reading, and allocate any memory needed. */
+"
+/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04287010854458037,ScoreOutOfRange,629,645,19647,20465,0.00030089873680896217," * ""chunky"" progressive image, with finer detail added as it becomes
+ * available.  If you do not want this ""chunky"" display, you may pass
+ * NULL for display_row.  If you do not want the sparkle display, and
+ * you have not called png_handle_alpha(), you may pass NULL for rows.
+ * If you have called png_handle_alpha(), and the image has either an
+ * alpha channel or a transparency chunk, you must provide a buffer for
+ * rows.  In this case, you do not have to provide a display_row buffer
+ * also, but you may.  If the image is not interlaced, or if you have
+ * not called png_set_interlace_handling(), the display_row buffer will
+ * be ignored, so pass NULL to it.
+ *
+ * [*] png_handle_alpha() does not exist yet, as of this version of libpng
+ */
+
+void PNGAPI
+png_read_rows(png_structrp png_ptr, png_bytepp row,
+"
+/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04196773333730096,ScoreOutOfRange,2106,2131,64221,65275,0.000220558052717459,"
+   /* Exclude the NYI feature of compositing onto a color-mapped buffer; it is
+    * very difficult to do, the results look awful, and it is difficult to see
+    * what possible use it is because the application can't control the
+    * color-map.
+    */
+   if (((png_ptr->color_type & PNG_COLOR_MASK_ALPHA) != 0 ||
+         png_ptr->num_trans > 0) /* alpha in input */ &&
+      ((output_format & PNG_FORMAT_FLAG_ALPHA) == 0) /* no alpha in output */)
+   {
+      if (output_encoding == P_LINEAR) /* compose on black */
+         back_b = back_g = back_r = 0;
+
+      else if (display->background == NULL /* no way to remove it */)
+         png_error(png_ptr,
+             ""background color must be supplied to remove alpha/transparency"");
+
+      /* Get a copy of the background color (this avoids repeating the checks
+       * below.)  The encoding is 8-bit sRGB or 16-bit linear, depending on the
+       * output format.
+       */
+      else
+      {
+         back_g = display->background->green;
+         if ((output_format & PNG_FORMAT_FLAG_COLOR) != 0)
+"
+/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04280507176699996,ScoreOutOfRange,686,707,21285,22168,0.00018103440029943984,"/* Read the entire image.  If the image has an alpha channel or a tRNS
+ * chunk, and you have called png_handle_alpha()[*], you will need to
+ * initialize the image to the current image that PNG will be overlaying.
+ * We set the num_rows again here, in case it was incorrectly set in
+ * png_read_start_row() by a call to png_read_update_info() or
+ * png_start_read_image() if png_set_interlace_handling() wasn't called
+ * prior to either of these functions like it should have been.  You can
+ * only call this function once.  If you desire to have an image for
+ * each pass of a interlaced image, use png_read_rows() instead.
+ *
+ * [*] png_handle_alpha() does not exist yet, as of this version of libpng
+ */
+void PNGAPI
+png_read_image(png_structrp png_ptr, png_bytepp image)
+{
+   png_uint_32 i, image_height;
+   int pass, j;
+   png_bytepp rp;
+
+   png_debug(1, ""in png_read_image"");
+
+"
+/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04236097406553066,ScoreOutOfRange,4110,4119,138133,138617,0.00013358827015163795,"      const unsigned int channels = PNG_IMAGE_PIXEL_CHANNELS(image->format);
+
+      /* The following checks just the 'row_stride' calculation to ensure it
+       * fits in a signed 32-bit value.  Because channels/components can be
+       * either 1 or 2 bytes in size the length of a row can still overflow 32
+       * bits; this is just to verify that the 'row_stride' argument can be
+       * represented.
+       */
+      if (image->width <= 0x7fffffffU/channels) /* no overflow */
+"
+/libpng-1.6.34.tar.gz_extracted/pngrio.c,Libpng,0.04014829100822194,ScoreOutOfRange,0,13,0,499,0.0012765247043394858,"
+/* pngrio.c - functions for data input
+ *
+ * Last changed in libpng 1.6.24 [August 4, 2016]
+ * Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This file provides a location for all input.  Users who need
+"
+/libpng-1.6.34.tar.gz_extracted/pngrtran.c,Libpng,0.042911870608642905,ScoreOutOfRange,0,16,0,678,0.0013098105252994476,"
+/* pngrtran.c - transforms the data in a row for PNG readers
+ *
+ * Last changed in libpng 1.6.33 [September 28, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This file contains functions optionally called by an application
+ * in order to tell libpng how to handle data when reading a PNG.
+ * Transformations that are used in both reading and writing are
+ * in pngtrans.c.
+"
+/libpng-1.6.34.tar.gz_extracted/pngrtran.c,PDDL-1.0,0.041101902658254925,ScoreOutOfRange,1306,1329,43729,44877,0.000260820920072948,"         if (png_ptr->screen_gamma != 0) /* screen set too */
+            gamma_correction = png_gamma_threshold(png_ptr->colorspace.gamma,
+                png_ptr->screen_gamma);
+
+         else
+            /* Assume the output matches the input; a long time default behavior
+             * of libpng, although the standard has nothing to say about this.
+             */
+            png_ptr->screen_gamma = png_reciprocal(png_ptr->colorspace.gamma);
+      }
+
+      else if (png_ptr->screen_gamma != 0)
+         /* The converse - assume the file matches the screen, note that this
+          * perhaps undesireable default can (from 1.5.4) be changed by calling
+          * png_set_alpha_mode (even if the alpha handling mode isn't required
+          * or isn't changed from the default.)
+          */
+         png_ptr->colorspace.gamma = png_reciprocal(png_ptr->screen_gamma);
+
+      else /* neither are set */
+         /* Just in case the following prevents any processing - file and screen
+          * are both assumed to be linear and there is no way to introduce a
+          * third gamma value other than png_set_background with 'UNIQUE', and,
+"
+/libpng-1.6.34.tar.gz_extracted/pngrutil.c,Libpng,0.04080137378056363,ScoreOutOfRange,0,18,0,592,0.0012762932105198537,"
+/* pngrutil.c - utilities to read a PNG file
+ *
+ * Last changed in libpng 1.6.33 [September 28, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This file contains routines that are only called from within
+ * libpng itself during the course of reading an image.
+ */
+
+#include ""pngpriv.h""
+
+"
+/libpng-1.6.34.tar.gz_extracted/pngrutil.c,CECILL-2.0,0.04259259033782285,ScoreOutOfRange,3251,3285,101209,103309,0.0003582485507231263,"         /* For pixel depths up to 4 bpp the 8-pixel mask can be expanded to fit
+          * into 32 bits, then a single loop over the bytes using the four byte
+          * values in the 32-bit mask can be used.  For the 'display' option the
+          * expanded mask may also not require any masking within a byte.  To
+          * make this work the PACKSWAP option must be taken into account - it
+          * simply requires the pixels to be reversed in each byte.
+          *
+          * The 'regular' case requires a mask for each of the first 6 passes,
+          * the 'display' case does a copy for the even passes in the range
+          * 0..6.  This has already been handled in the test above.
+          *
+          * The masks are arranged as four bytes with the first byte to use in
+          * the lowest bits (little-endian) regardless of the order (PACKSWAP or
+          * not) of the pixels in each byte.
+          *
+          * NOTE: the whole of this logic depends on the caller of this function
+          * only calling it on rows appropriate to the pass.  This function only
+          * understands the 'x' logic; the 'y' logic is handled by the caller.
+          *
+          * The following defines allow generation of compile time constant bit
+          * masks for each pixel depth and each possibility of swapped or not
+          * swapped bytes.  Pass 'p' is in the range 0..6; 'x', a pixel index,
+          * is in the range 0..7; and the result is 1 if the pixel is to be
+          * copied in the pass, 0 if not.  'S' is for the sparkle method, 'B'
+          * for the block method.
+          *
+          * With some compilers a compile time expression of the general form:
+          *
+          *    (shift >= 32) ? (a >> (shift-32)) : (b >> shift)
+          *
+          * Produces warnings with values of 'shift' in the range 33 to 63
+          * because the right hand side of the ?: expression is evaluated by
+          * the compiler even though it isn't used.  Microsoft Visual C (various
+          * versions) and the Intel C compiler are known to do this.  To avoid
+"
+/libpng-1.6.34.tar.gz_extracted/pngrutil.c,PDDL-1.0,0.04129114679916335,ScoreOutOfRange,1326,1388,42050,44065,0.00023003659230544086,"
+   if (length != 1)
+   {
+      png_crc_finish(png_ptr, length);
+      png_chunk_benign_error(png_ptr, ""invalid"");
+      return;
+   }
+
+   png_crc_read(png_ptr, &intent, 1);
+
+   if (png_crc_finish(png_ptr, 0) != 0)
+      return;
+
+   /* If a colorspace error has already been output skip this chunk */
+   if ((png_ptr->colorspace.flags & PNG_COLORSPACE_INVALID) != 0)
+      return;
+
+   /* Only one sRGB or iCCP chunk is allowed, use the HAVE_INTENT flag to detect
+    * this.
+    */
+   if ((png_ptr->colorspace.flags & PNG_COLORSPACE_HAVE_INTENT) != 0)
+   {
+      png_ptr->colorspace.flags |= PNG_COLORSPACE_INVALID;
+      png_colorspace_sync(png_ptr, info_ptr);
+      png_chunk_benign_error(png_ptr, ""too many profiles"");
+      return;
+   }
+
+   (void)png_colorspace_set_sRGB(png_ptr, &png_ptr->colorspace, intent);
+   png_colorspace_sync(png_ptr, info_ptr);
+}
+#endif /* READ_sRGB */
+
+#ifdef PNG_READ_iCCP_SUPPORTED
+void /* PRIVATE */
+png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
+/* Note: this does not properly handle profiles that are > 64K under DOS */
+{
+   png_const_charp errmsg = NULL; /* error message output, or no error */
+   int finished = 0; /* crc checked */
+
+   png_debug(1, ""in png_handle_iCCP"");
+
+   if ((png_ptr->mode & PNG_HAVE_IHDR) == 0)
+      png_chunk_error(png_ptr, ""missing IHDR"");
+
+   else if ((png_ptr->mode & (PNG_HAVE_IDAT|PNG_HAVE_PLTE)) != 0)
+   {
+      png_crc_finish(png_ptr, length);
+      png_chunk_benign_error(png_ptr, ""out of place"");
+      return;
+   }
+
+   /* Consistent with all the above colorspace handling an obviously *invalid*
+    * chunk is just ignored, so does not invalidate the color space.  An
+    * alternative is to set the 'invalid' flags at the start of this routine
+    * and only clear them in they were not set before and all the tests pass.
+    */
+
+   /* The keyword must be at least one character and there is a
+    * terminator (0) byte and the compression method byte, and the
+    * 'zlib' datastream is at least 11 bytes.
+"
+/libpng-1.6.34.tar.gz_extracted/pngrutil.c,PDDL-1.0,0.04511634149963352,ScoreOutOfRange,2904,2931,88381,89539,0.0002211122014425627,"png_handle_unknown(png_structrp png_ptr, png_inforp info_ptr,
+    png_uint_32 length, int keep)
+{
+   int handled = 0; /* the chunk was handled */
+
+   png_debug(1, ""in png_handle_unknown"");
+
+#ifdef PNG_READ_UNKNOWN_CHUNKS_SUPPORTED
+   /* NOTE: this code is based on the code in libpng-1.4.12 except for fixing
+    * the bug which meant that setting a non-default behavior for a specific
+    * chunk would be ignored (the default was always used unless a user
+    * callback was installed).
+    *
+    * 'keep' is the value from the png_chunk_unknown_handling, the setting for
+    * this specific chunk_name, if PNG_HANDLE_AS_UNKNOWN_SUPPORTED, if not it
+    * will always be PNG_HANDLE_CHUNK_AS_DEFAULT and it needs to be set here.
+    * This is just an optimization to avoid multiple calls to the lookup
+    * function.
+    */
+#  ifndef PNG_HANDLE_AS_UNKNOWN_SUPPORTED
+#     ifdef PNG_SET_UNKNOWN_CHUNKS_SUPPORTED
+   keep = png_chunk_unknown_handling(png_ptr, png_ptr->chunk_name);
+#     endif
+#  endif
+
+   /* One of the following methods will read the chunk or skip it (at least one
+    * of these is always defined because this is the only way to switch on
+"
+/libpng-1.6.34.tar.gz_extracted/pngset.c,Libpng,0.05376051569262574,ScoreOutOfRange,0,22,0,814,0.001445889517556568,"
+/* pngset.c - storage of image information into info struct
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * The functions here are used during reads to store data from the file
+ * into the info struct, and during writes to store application data
+ * into the info struct for writing into the file.  This abstracts the
+ * info struct and allows us to change the structure in the future.
+ */
+
+#include ""pngpriv.h""
+
+#if defined(PNG_READ_SUPPORTED) || defined(PNG_WRITE_SUPPORTED)
+
+"
+/libpng-1.6.34.tar.gz_extracted/pngstruct.h,Libpng,0.049286433147894396,ScoreOutOfRange,0,32,0,1155,0.0015472024919283706,"
+/* pngstruct.h - header file for PNG reference library
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+/* The structure that holds the information to read and write PNG files.
+ * The only people who need to care about what is inside of this are the
+ * people who will be modifying the library for their own special needs.
+ * It should NOT be accessed directly by an application.
+ */
+
+#ifndef PNGSTRUCT_H
+#define PNGSTRUCT_H
+/* zlib.h defines the structure z_stream, an instance of which is included
+ * in this structure and is required for decompressing the LZ compressed
+ * data in PNG files.
+ */
+#ifndef ZLIB_CONST
+   /* We must ensure that zlib uses 'const' in declarations. */
+#  define ZLIB_CONST
+#endif
+#include ""zlib.h""
+#ifdef const
+   /* zlib.h sometimes #defines const to nothing, undo this. */
+"
+/libpng-1.6.34.tar.gz_extracted/pngtest.c,Libpng,0.045440399728759885,ScoreOutOfRange,0,16,0,738,0.0014805786867081413,"
+/* pngtest.c - a simple test program to test libpng
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This program reads in a PNG image, writes it out again, and then
+ * compares the two files.  If the files are identical, this shows that
+ * the basic chunk handling, filtering, and (de)compression code is working
+ * properly.  It does not currently test all of the transforms, although
+"
+/libpng-1.6.34.tar.gz_extracted/pngtrans.c,Libpng,0.04698703734555373,ScoreOutOfRange,0,17,0,569,0.0012772506584584138,"
+/* pngtrans.c - transforms the data in a row (used by both readers and writers)
+ *
+ * Last changed in libpng 1.6.33 [September 28, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+#include ""pngpriv.h""
+
+#if defined(PNG_READ_SUPPORTED) || defined(PNG_WRITE_SUPPORTED)
+
+"
+/libpng-1.6.34.tar.gz_extracted/pngwio.c,Libpng,0.04204643121460754,ScoreOutOfRange,0,13,0,506,0.0012764837854504333,"
+/* pngwio.c - functions for data output
+ *
+ * Last changed in libpng 1.6.24 [August 4, 2016]
+ * Copyright (c) 1998-2002,2004,2006-2014,2016 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ *
+ * This file provides a location for all output.  Users who need
+"
+/libpng-1.6.34.tar.gz_extracted/pngwrite.c,Libpng,0.04138609691294597,ScoreOutOfRange,0,24,0,797,0.0012766953315317107,"
+/* pngwrite.c - general routines to write a PNG file
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+#include ""pngpriv.h""
+#ifdef PNG_SIMPLIFIED_WRITE_STDIO_SUPPORTED
+#  include <errno.h>
+#endif /* SIMPLIFIED_WRITE_STDIO */
+
+#ifdef PNG_WRITE_SUPPORTED
+
+#ifdef PNG_WRITE_UNKNOWN_CHUNKS_SUPPORTED
+/* Write out all the unknown chunks for the current given location */
+static void
+write_unknown_chunks(png_structrp png_ptr, png_const_inforp info_ptr,
+"
+/libpng-1.6.34.tar.gz_extracted/pngwtran.c,Libpng,0.040500265920219665,ScoreOutOfRange,0,15,0,483,0.0013450331688873195,"
+/* pngwtran.c - transforms the data in a row for PNG writers
+ *
+ * Last changed in libpng 1.6.26 [October 20, 2016]
+ * Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+#include ""pngpriv.h""
+
+"
+/libpng-1.6.34.tar.gz_extracted/pngwutil.c,Libpng,0.04500803312360662,ScoreOutOfRange,0,20,0,668,0.0012766433889378928,"
+/* pngwutil.c - utilities to write a PNG file
+ *
+ * Last changed in libpng 1.6.32 [August 24, 2017]
+ * Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+ * (Version 0.96 Copyright (c) 1996, 1997 Andreas Dilger)
+ * (Version 0.88 Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.)
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+#include ""pngpriv.h""
+
+#ifdef PNG_WRITE_SUPPORTED
+
+#ifdef PNG_WRITE_INT_FUNCTIONS_SUPPORTED
+/* Place a 32-bit number into a buffer in PNG byte order.  We work
+ * with unsigned numbers for convenience, although one supported
+"
+/libpng-1.6.34.tar.gz_extracted/pngwutil.c,PDDL-1.0,0.04044048024728488,ScoreOutOfRange,167,193,5102,6115,0.000245005505741702," * length, and does not need to be null terminated.  To be safe, pass the
+ * pre-defined chunk names here, and if you need a new one, define it
+ * where the others are defined.  The length is the length of the data.
+ * All the data must be present.  If that is not possible, use the
+ * png_write_chunk_start(), png_write_chunk_data(), and png_write_chunk_end()
+ * functions instead.
+ */
+static void
+png_write_complete_chunk(png_structrp png_ptr, png_uint_32 chunk_name,
+    png_const_bytep data, png_size_t length)
+{
+   if (png_ptr == NULL)
+      return;
+
+   /* On 64-bit architectures 'length' may not fit in a png_uint_32. */
+   if (length > PNG_UINT_31_MAX)
+      png_error(png_ptr, ""length exceeds PNG maximum"");
+
+   png_write_chunk_header(png_ptr, chunk_name, (png_uint_32)length);
+   png_write_chunk_data(png_ptr, data, length);
+   png_write_chunk_end(png_ptr);
+}
+
+/* This is the API that calls the internal function above. */
+void PNGAPI
+png_write_chunk(png_structrp png_ptr, png_const_bytep chunk_string,
+"
+/libpng-1.6.34.tar.gz_extracted/test-driver,GPL-3.0+,0.4973121627231217,3,4,20,94,774,0.30264664715612677,"
+# Copyright (C) 2011-2014 Free Software Foundation, Inc.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+"
+/libpng-1.6.34.tar.gz_extracted/test-driver,Libtool-exception,0.483244137279225,3,20,25,774,1046,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+# distribute this file as part of a program that contains a
+# configuration script generated by Autoconf, you may include it under
+# the same distribution terms that you use for the rest of that program.
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/examples/README.txt,LZMA-exception,0.044372757860540665,ScoreOutOfRange,10,15,385,627,0.003590185458723125,"parts of the files be used in other libpng-using programs without any need for
+the authors of the using code to seek copyright or license from the original
+authors.
+
+The source code and comments in this directory are the original work of the
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,GPL-1.0+,0.2041452066805255,3,298,315,15859,16625,0.2307074634434959,"    Copyright (C) <year>  <name of author>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,AGPL-1.0,0.7670646555694148,4,0,283,0,15176,0.18651212436450026,"                    GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+Foundation's software and to any other program whose authors commit to
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Library General Public License instead.)  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+this service if you wish), that you receive source code or can get it
+if you want it, that you can change the software or use pieces of it
+in new free programs; and that you know you can do these things.
+
+  To protect your rights, we need to make restrictions that forbid
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+distribute copies of the software, or if you modify it.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must give the recipients all the rights that
+you have.  You must make sure that they, too, receive or can get the
+source code.  And you must show them these terms so they know their
+rights.
+
+  We protect your rights with two steps: (1) copyright the software, and
+(2) offer you this license which gives you legal permission to copy,
+distribute and/or modify the software.
+
+  Also, for each author's protection and ours, we want to make certain
+that everyone understands that there is no warranty for this free
+software.  If the software is modified by someone else and passed on, we
+want its recipients to know that what they have is not the original, so
+that any problems introduced by others will not reflect on the original
+authors' reputations.
+
+  Finally, any free program is threatened constantly by software
+patents.  We wish to avoid the danger that redistributors of a free
+program will individually obtain patent licenses, in effect making the
+program proprietary.  To prevent this, we have made it clear that any
+patent must be licensed for everyone's free use or not licensed at all.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+
+                    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. This License applies to any program or other work which contains
+a notice placed by the copyright holder saying it may be distributed
+under the terms of this General Public License.  The ""Program"", below,
+refers to any such program or work, and a ""work based on the Program""
+means either the Program or any derivative work under copyright law:
+that is to say, a work containing the Program or a portion of it,
+either verbatim or with modifications and/or translated into another
+language.  (Hereinafter, translation is included without limitation in
+the term ""modification"".)  Each licensee is addressed as ""you"".
+
+Activities other than copying, distribution and modification are not
+covered by this License; they are outside its scope.  The act of
+running the Program is not restricted, and the output from the Program
+is covered only if its contents constitute a work based on the
+Program (independent of having been made by running the Program).
+Whether that is true depends on what the Program does.
+
+  1. You may copy and distribute verbatim copies of the Program's
+source code as you receive it, in any medium, provided that you
+conspicuously and appropriately publish on each copy an appropriate
+copyright notice and disclaimer of warranty; keep intact all the
+notices that refer to this License and to the absence of any warranty;
+and give any other recipients of the Program a copy of this License
+along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and
+you may at your option offer warranty protection in exchange for a fee.
+
+  2. You may modify your copy or copies of the Program or any portion
+of it, thus forming a work based on the Program, and copy and
+distribute such modifications or work under the terms of Section 1
+above, provided that you also meet all of these conditions:
+
+    a) You must cause the modified files to carry prominent notices
+    stating that you changed the files and the date of any change.
+
+    b) You must cause any work that you distribute or publish, that in
+    whole or in part contains or is derived from the Program or any
+    part thereof, to be licensed as a whole at no charge to all third
+    parties under the terms of this License.
+
+    c) If the modified program normally reads commands interactively
+    when run, you must cause it, when started running for such
+    interactive use in the most ordinary way, to print or display an
+    announcement including an appropriate copyright notice and a
+    notice that there is no warranty (or else, saying that you provide
+    a warranty) and that users may redistribute the program under
+    these conditions, and telling the user how to view a copy of this
+    License.  (Exception: if the Program itself is interactive but
+    does not normally print such an announcement, your work based on
+    the Program is not required to print an announcement.)
+
+
+These requirements apply to the modified work as a whole.  If
+identifiable sections of that work are not derived from the Program,
+and can be reasonably considered independent and separate works in
+themselves, then this License, and its terms, do not apply to those
+sections when you distribute them as separate works.  But when you
+distribute the same sections as part of a whole which is a work based
+on the Program, the distribution of the whole must be on the terms of
+this License, whose permissions for other licensees extend to the
+entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest
+your rights to work written entirely by you; rather, the intent is to
+exercise the right to control the distribution of derivative or
+collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program
+with the Program (or with a work based on the Program) on a volume of
+a storage or distribution medium does not bring the other work under
+the scope of this License.
+
+  3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+Sections 1 and 2 above provided that you also do one of the following:
+
+    a) Accompany it with the complete corresponding machine-readable
+    source code, which must be distributed under the terms of Sections
+    1 and 2 above on a medium customarily used for software interchange; or,
+
+    b) Accompany it with a written offer, valid for at least three
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    machine-readable copy of the corresponding source code, to be
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+    c) Accompany it with the information you received as to the offer
+    to distribute corresponding source code.  (This alternative is
+    allowed only for noncommercial distribution and only if you
+    received the program in object code or executable form with such
+    an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for
+making modifications to it.  For an executable work, complete source
+code means all the source code for all modules it contains, plus any
+associated interface definition files, plus the scripts used to
+control compilation and installation of the executable.  However, as a
+special exception, the source code distributed need not include
+anything that is normally distributed (in either source or binary
+form) with the major components (compiler, kernel, and so on) of the
+operating system on which the executable runs, unless that component
+itself accompanies the executable.
+
+If distribution of executable or object code is made by offering
+access to copy from a designated place, then offering equivalent
+access to copy the source code from the same place counts as
+distribution of the source code, even though third parties are not
+compelled to copy the source along with the object code.
+
+
+  4. You may not copy, modify, sublicense, or distribute the Program
+except as expressly provided under this License.  Any attempt
+otherwise to copy, modify, sublicense or distribute the Program is
+void, and will automatically terminate your rights under this License.
+However, parties who have received copies, or rights, from you under
+this License will not have their licenses terminated so long as such
+parties remain in full compliance.
+
+  5. You are not required to accept this License, since you have not
+signed it.  However, nothing else grants you permission to modify or
+distribute the Program or its derivative works.  These actions are
+prohibited by law if you do not accept this License.  Therefore, by
+modifying or distributing the Program (or any work based on the
+Program), you indicate your acceptance of this License to do so, and
+all its terms and conditions for copying, distributing or modifying
+the Program or works based on it.
+
+  6. Each time you redistribute the Program (or any work based on the
+Program), the recipient automatically receives a license from the
+original licensor to copy, distribute or modify the Program subject to
+these terms and conditions.  You may not impose any further
+restrictions on the recipients' exercise of the rights granted herein.
+You are not responsible for enforcing compliance by third parties to
+this License.
+
+  7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+distribute so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+license would not permit royalty-free redistribution of the Program by
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under
+any particular circumstance, the balance of the section is intended to
+apply and the section as a whole is intended to apply in other
+circumstances.
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+such claims; this section has the sole purpose of protecting the
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+generous contributions to the wide range of software distributed
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+to distribute software through any other system and a licensee cannot
+impose that choice.
+
+This section is intended to make thoroughly clear what is believed to
+be a consequence of the rest of this License.
+
+
+  8. If the distribution and/or use of the Program is restricted in
+certain countries either by patents or by copyrighted interfaces, the
+original copyright holder who places the Program under this License
+may add an explicit geographical distribution limitation excluding
+those countries, so that distribution is permitted only in or among
+countries not thus excluded.  In such case, this License incorporates
+the limitation as if written in the body of this License.
+
+  9. The Free Software Foundation may publish revised and/or new versions
+of the General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+Each version is given a distinguishing version number.  If the Program
+specifies a version number of this License which applies to it and ""any
+later version"", you have the option of following the terms and conditions
+either of that version or of any later version published by the Free
+Software Foundation.  If the Program does not specify a version number of
+this License, you may choose any version ever published by the Free Software
+Foundation.
+
+  10. If you wish to incorporate parts of the Program into other free
+programs whose distribution conditions are different, write to the author
+to ask for permission.  For software which is copyrighted by the Free
+Software Foundation, write to the Free Software Foundation; we sometimes
+make exceptions for this.  Our decision will be guided by the two goals
+of preserving the free status of all derivatives of our free software and
+of promoting the sharing and reuse of software generally.
+
+                            NO WARRANTY
+
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM ""AS IS"" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,LGPL-2.0+,0.05078571709398349,ScoreOutOfRange,319,335,16809,17618,0.006619877394496416,"
+    Gnomovision version 69, Copyright (C) year  name of author
+    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate
+parts of the General Public License.  Of course, the commands you use may
+be called something other than `show w' and `show c'; they could even be
+mouse-clicks or menu items--whatever suits your program.
+
+You should also get your employer (if you work as a programmer) or your
+school, if any, to sign a ""copyright disclaimer"" for the program, if
+necessary.  Here is a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,GCC-exception-2.0,0.0464291067146283,ScoreOutOfRange,342,345,17911,18057,0.003400803207884917,"consider it more useful to permit linking proprietary applications with the
+library.  If this is what you want to do, use the GNU Library General
+Public License instead of this License.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/LICENSE,GPL-1.0+,0.3615179147094041,3,34,49,1551,2295,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/LICENSE,Zlib,0.20292800174806072,3,1,25,78,1187,0.017850406572218962,"
+      Copyright (c) 1998-2008 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/LICENSE,BSD-4-Clause,0.07537115552863585,1,25,30,1187,1460,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.c,GPL-1.0+,0.31679313061932957,3,38,53,1712,2456,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.c,Zlib,0.20343392535853735,3,5,29,234,1348,0.017845684848453107,"
+      Copyright (c) 1998-2007,2017 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.c,BSD-4-Clause,0.07537115552863585,1,29,34,1348,1621,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.h,GPL-1.0+,0.36080150693417273,3,38,53,1707,2451,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.h,Zlib,0.20343392535853735,3,5,29,234,1343,0.017850406572218962,"
+      Copyright (c) 1998-2007 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.c,GPL-1.0+,0.2549527729220626,3,38,53,1707,2451,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.c,Zlib,0.2035235221728728,3,5,29,234,1343,0.017850406572218962,"
+      Copyright (c) 1998-2015 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.c,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.h,GPL-1.0+,0.35854098952690505,3,38,53,1707,2451,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.h,Zlib,0.20265699903803364,3,5,29,234,1343,0.017850406572218962,"
+      Copyright (c) 1998-2008 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readppm.c,GPL-1.0+,0.341420548778596,3,43,58,1914,2658,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readppm.c,Zlib,0.19822638604554418,3,10,34,436,1550,0.017845684848453107,"
+      Copyright (c) 1998-2007,2017 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readppm.c,BSD-4-Clause,0.07537115552863585,1,34,39,1550,1823,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-win.c,GPL-1.0+,0.2789326479543082,3,62,77,2848,3592,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-win.c,Zlib,0.193588258117441,3,29,53,1369,2484,0.017845684848453107,"
+      Copyright (c) 1998-2008, 2017 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-win.c,BSD-4-Clause,0.07537115552863585,1,53,58,2484,2757,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-x.c,GPL-1.0+,0.2802045864953066,3,66,81,3142,3886,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-x.c,Zlib,0.189837413324139,3,33,57,1663,2778,0.017845684848453107,"
+      Copyright (c) 1998-2008, 2017 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-x.c,BSD-4-Clause,0.07537115552863585,1,57,62,2778,3051,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-win.c,GPL-1.0+,0.24456991396266486,3,71,86,3493,4237,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-win.c,Zlib,0.19058966249403828,3,38,62,2014,3129,0.017845684848453107,"
+      Copyright (c) 1998-2008, 2017 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-win.c,BSD-4-Clause,0.07537115552863585,1,62,67,3129,3402,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-x.c,GPL-1.0+,0.22184506679448515,3,82,97,4231,4975,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-x.c,Zlib,0.18323471775475728,3,48,73,2735,3867,0.017836248890796824,"
+      Copyright (c) 1998-2010, 2014-2015, 2017 Greg Roelofs.  All rights
+      reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-x.c,BSD-4-Clause,0.07537115552863585,1,73,78,3867,4140,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/wpng.c,GPL-1.0+,0.27427241976734595,3,73,88,3429,4173,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/wpng.c,Zlib,0.18679222745571528,3,40,64,1950,3065,0.017845684848453107,"
+      Copyright (c) 1998-2007, 2017 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/wpng.c,BSD-4-Clause,0.07537115552863585,1,64,69,3065,3338,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.c,GPL-1.0+,0.2917647195222587,3,38,53,1713,2457,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.c,Zlib,0.20361385338732582,3,5,29,234,1349,0.017845684848453107,"
+      Copyright (c) 1998-2007, 2017 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.c,BSD-4-Clause,0.07537115552863585,1,29,34,1349,1622,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.h,GPL-1.0+,0.3603650953404911,3,38,53,1707,2451,0.14503327856526219,"
+      This program is free software; you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation; either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program; if not, write to the Free Software Foundation,
+      Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.h,Zlib,0.20361385338732582,3,5,29,234,1343,0.017850406572218962,"
+      Copyright (c) 1998-2007 Greg Roelofs.  All rights reserved.
+
+      This software is provided ""as is,"" without warranty of any kind,
+      express or implied.  In no event shall the author or contributors
+      be held liable for any damages arising in any way from the use of
+      this software.
+
+      The contents of this file are DUAL-LICENSED.  You may modify and/or
+      redistribute this software according to the terms of one of the
+      following two licenses (at your option):
+
+
+      LICENSE 1 (""BSD-like with advertising clause""):
+
+      Permission is granted to anyone to use this software for any purpose,
+      including commercial applications, and to alter it and redistribute
+      it freely, subject to the following restrictions:
+
+      1. Redistributions of source code must retain the above copyright
+         notice, disclaimer, and this list of conditions.
+      2. Redistributions in binary form must reproduce the above copyright
+         notice, disclaimer, and this list of conditions in the documenta-
+         tion and/or other materials provided with the distribution.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+         software must display the following acknowledgment:
+
+            This product includes software developed by Greg Roelofs
+            and contributors for the book, ""PNG: The Definitive Guide,""
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,AGPL-1.0,0.04034573669206316,ScoreOutOfRange,4881,4940,149863,152262,0.00036295031540548343,"         png_error(pp, ""png_convert_to_rfc1123 failed"");
+
+      if (strcmp(result, correct) != 0)
+      {
+         size_t pos = 0;
+         char msg[128];
+
+         pos = safecat(msg, sizeof msg, pos, ""png_convert_to_rfc1123("");
+         pos = safecat(msg, sizeof msg, pos, correct);
+         pos = safecat(msg, sizeof msg, pos, "") returned: '"");
+         pos = safecat(msg, sizeof msg, pos, result);
+         pos = safecat(msg, sizeof msg, pos, ""'"");
+
+         png_error(pp, msg);
+      }
+
+      store_write_reset(ps);
+   }
+
+   Catch(fault)
+   {
+      store_write_reset(fault);
+   }
+#else
+   UNUSED(ps)
+#endif
+}
+
+#ifdef PNG_READ_SUPPORTED
+/* Because we want to use the same code in both the progressive reader and the
+ * sequential reader it is necessary to deal with the fact that the progressive
+ * reader callbacks only have one parameter (png_get_progressive_ptr()), so this
+ * must contain all the test parameters and all the local variables directly
+ * accessible to the sequential reader implementation.
+ *
+ * The technique adopted is to reinvent part of what Dijkstra termed a
+ * 'display'; an array of pointers to the stack frames of enclosing functions so
+ * that a nested function definition can access the local (C auto) variables of
+ * the functions that contain its definition.  In fact C provides the first
+ * pointer (the local variables - the stack frame pointer) and the last (the
+ * global variables - the BCPL global vector typically implemented as global
+ * addresses), this code requires one more pointer to make the display - the
+ * local variables (and function call parameters) of the function that actually
+ * invokes either the progressive or sequential reader.
+ *
+ * Perhaps confusingly this technique is confounded with classes - the
+ * 'standard_display' defined here is sub-classed as the 'gamma_display' below.
+ * A gamma_display is a standard_display, taking advantage of the ANSI-C
+ * requirement that the pointer to the first member of a structure must be the
+ * same as the pointer to the structure.  This allows us to reuse standard_
+ * functions in the gamma test code; something that could not be done with
+ * nested functions!
+ */
+typedef struct standard_display
+{
+   png_store*  ps;             /* Test parameters (passed to the function) */
+   png_byte    colour_type;
+   png_byte    bit_depth;
+   png_byte    red_sBIT;       /* Input data sBIT values. */
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,PDDL-1.0,0.040848767468523374,ScoreOutOfRange,2427,2466,72003,73596,0.0003568633960116662,"   /* Whether to call png_read_update_info, not png_read_start_image, and how
+    * many times to call it.
+    */
+   int                      use_update_info;
+
+   /* Whether or not to interlace. */
+   int                      interlace_type :9; /* int, but must store '1' */
+
+   /* Run the standard tests? */
+   unsigned int             test_standard :1;
+
+   /* Run the odd-sized image and interlace read/write tests? */
+   unsigned int             test_size :1;
+
+   /* Run tests on reading with a combination of transforms, */
+   unsigned int             test_transform :1;
+   unsigned int             test_tRNS :1; /* Includes tRNS images */
+
+   /* When to use the use_input_precision option, this controls the gamma
+    * validation code checks.  If set any value that is within the transformed
+    * range input-.5 to input+.5 will be accepted, otherwise the value must be
+    * within the normal limits.  It should not be necessary to set this; the
+    * result should always be exact within the permitted error limits.
+    */
+   unsigned int             use_input_precision :1;
+   unsigned int             use_input_precision_sbit :1;
+   unsigned int             use_input_precision_16to8 :1;
+
+   /* If set assume that the calculation bit depth is set by the input
+    * precision, not the output precision.
+    */
+   unsigned int             calculations_use_input_precision :1;
+
+   /* If set assume that the calculations are done in 16 bits even if the sample
+    * depth is 8 bits.
+    */
+   unsigned int             assume_16_bit_calculations :1;
+
+   /* Which gamma tests to run: */
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,PDDL-1.0,0.04198198368704979,ScoreOutOfRange,9846,9878,308337,309748,0.00028476417154697835,"
+         /* pass is set at this point if either of the tests above would have
+          * passed.  Don't do these additional tests here - just log the
+          * original [es_lo..es_hi] values.
+          */
+         if (pass == 0 && vi->use_input_precision && vi->dp->sbit)
+         {
+            /* Ok, something is wrong - this actually happens in current libpng
+             * 16-to-8 processing.  Assume that the input value (id, adjusted
+             * for sbit) can be anywhere between value-.5 and value+.5 - quite a
+             * large range if sbit is low.
+             *
+             * NOTE: at present because the libpng gamma table stuff has been
+             * changed to use a rounding algorithm to correct errors in 8-bit
+             * calculations the precise sbit calculation (a shift) has been
+             * lost.  This can result in up to a +/-1 error in the presence of
+             * an sbit less than the bit depth.
+             */
+#           if PNG_LIBPNG_VER < 10700
+#              define SBIT_ERROR .5
+#           else
+#              define SBIT_ERROR 1.
+#           endif
+            double tmp = (isbit - SBIT_ERROR)/sbit_max;
+
+            if (tmp <= 0)
+               tmp = 0;
+
+            else if (alpha >= 0 && vi->file_inverse > 0 && tmp < 1)
+               tmp = pow(tmp, vi->file_inverse);
+
+            tmp = gamma_component_compose(do_background, tmp, alpha, background,
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,PDDL-1.0,0.04065364046265015,ScoreOutOfRange,3966,3997,120609,121741,0.00024488532540808717,"
+   png_error(pp, ""internal error"");
+}
+
+/* This is just to do the right cast - could be changed to a function to check
+ * 'bd' but there isn't much point.
+ */
+#define DEPTH(bd) ((png_byte)(1U << (bd)))
+
+/* This is just a helper for compiling on minimal systems with no write
+ * interlacing support.  If there is no write interlacing we can't generate test
+ * cases with interlace:
+ */
+#ifdef PNG_WRITE_INTERLACING_SUPPORTED
+#  define INTERLACE_LAST PNG_INTERLACE_LAST
+#  define check_interlace_type(type) ((void)(type))
+#  define set_write_interlace_handling(pp,type) png_set_interlace_handling(pp)
+#  define do_own_interlace 0
+#elif PNG_LIBPNG_VER < 10700
+#  define set_write_interlace_handling(pp,type) (1)
+static void
+check_interlace_type(int const interlace_type)
+{
+   /* Prior to 1.7.0 libpng does not support the write of an interlaced image
+    * unless PNG_WRITE_INTERLACING_SUPPORTED, even with do_interlace so the
+    * code here does the pixel interlace itself, so:
+    */
+   if (interlace_type != PNG_INTERLACE_NONE)
+   {
+      /* This is an internal error - --interlace tests should be skipped, not
+       * attempted.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,ODbL-1.0,0.04196668531132666,ScoreOutOfRange,6308,6351,196849,198575,0.0002447438143147807,"
+   /* The next transform in the list, each transform must call its own next
+    * transform after it has processed the pixel successfully.
+    */
+   const struct image_transform *next;
+
+   /* A single transform for the image, expressed as a series of function
+    * callbacks and some space for values.
+    *
+    * First a callback to add any required modifications to the png_modifier;
+    * this gets called just before the modifier is set up for read.
+    */
+   void (*ini)(const struct image_transform *this,
+      struct transform_display *that);
+
+   /* And a callback to set the transform on the current png_read_struct:
+    */
+   void (*set)(const struct image_transform *this,
+      struct transform_display *that, png_structp pp, png_infop pi);
+
+   /* Then a transform that takes an input pixel in one PNG format or another
+    * and modifies it by a pngvalid implementation of the transform (thus
+    * duplicating the libpng intent without, we hope, duplicating the bugs
+    * in the libpng implementation!)  The png_structp is solely to allow error
+    * reporting via png_error and png_warning.
+    */
+   void (*mod)(const struct image_transform *this, image_pixel *that,
+      png_const_structp pp, const struct transform_display *display);
+
+   /* Add this transform to the list and return true if the transform is
+    * meaningful for this colour type and bit depth - if false then the
+    * transform should have no effect on the image so there's not a lot of
+    * point running it.
+    */
+   int (*add)(struct image_transform *this,
+      const struct image_transform **that, png_byte colour_type,
+      png_byte bit_depth);
+} image_transform;
+
+typedef struct transform_display
+{
+   standard_display this;
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,CECILL-2.0,0.04352234048423849,ScoreOutOfRange,2586,2629,77947,79394,0.00020255545332774404,"   /* 'value' is in the range 0 to 1, the result is the same value rounded to a
+    * multiple of the digitization factor - 8 or 16 bits depending on both the
+    * sample depth and the 'assume' setting.  Digitization is normally by
+    * rounding and 'do_round' should be 1, if it is 0 the digitized value will
+    * be truncated.
+    */
+   const unsigned int digitization_factor = (1U << depth) -1;
+
+   /* Limiting the range is done as a convenience to the caller - it's easier to
+    * do it once here than every time at the call site.
+    */
+   if (value <= 0)
+      value = 0;
+
+   else if (value >= 1)
+      value = 1;
+
+   value *= digitization_factor;
+   if (do_round) value += .5;
+   return floor(value)/digitization_factor;
+}
+#endif
+#endif /* RGB_TO_GRAY */
+
+#ifdef PNG_READ_GAMMA_SUPPORTED
+static double abserr(const png_modifier *pm, int in_depth, int out_depth)
+{
+   /* Absolute error permitted in linear values - affected by the bit depth of
+    * the calculations.
+    */
+   if (pm->assume_16_bit_calculations ||
+      (pm->calculations_use_input_precision ? in_depth : out_depth) == 16)
+      return pm->maxabs16;
+   else
+      return pm->maxabs8;
+}
+
+static double calcerr(const png_modifier *pm, int in_depth, int out_depth)
+{
+   /* Error in the linear composition arithmetic - only relevant when
+    * composition actually happens (0 < alpha < 1).
+    */
+   if ((pm->calculations_use_input_precision ? in_depth : out_depth) == 16)
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,ODbL-1.0,0.040834843389910315,ScoreOutOfRange,10275,10297,325624,326530,7.320300068395422e-05,"                  sample(std, in_ct, in_bd, x, samples_per_pixel, 0, 0);
+
+               unsigned int output_alpha = 65536 /* as a flag value */;
+
+               if (out_ct == 3)
+               {
+                  if (out_is_transparent)
+                     output_alpha = out_palette[out_index].alpha;
+               }
+
+               else if ((out_ct & PNG_COLOR_MASK_ALPHA) != 0)
+                  output_alpha = sample(pRow, out_ct, out_bd, x,
+                     samples_per_pixel, 0, 0);
+
+               if (output_alpha != 65536)
+                  alpha = gamma_component_validate(""alpha"", &vi, input_alpha,
+                     output_alpha, -1/*alpha*/, 0/*background*/);
+
+               else /* no alpha in output */
+               {
+                  /* This is a copy of the calculation of 'i' above in order to
+                   * have the alpha value to use in the background calculation.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz/Dockerfile,Apache-2.0,0.9087615769199247,4,0,13,0,576,0.2590032527881041,"# Copyright 2016 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the ""License"");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an ""AS IS"" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz/build.sh,Apache-2.0,0.8703411229150549,4,2,15,55,631,0.2590032527881041,"# Copyright 2016 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the ""License"");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an ""AS IS"" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/README,NTP,0.19800899028912478,3,3,16,54,442,0.01953208369210842,"
+
+License
+-------
+
+Permission to use, copy, modify, and distribute this software and
+its documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and
+that both that copyright notice and this permission notice appear in
+supporting documentation. This software is provided ""as is"" without
+express or implied warranty.
+
+
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/png2pnm.c,NTP,0.2917450642860479,3,8,16,390,853,0.018790363583258512," *          1.3 - 2017.08.28 - Add PNGMINUS_UNUSED (Christian Hesse)
+ *
+ *  Permission to use, copy, modify, and distribute this software and
+ *  its documentation for any purpose and without fee is hereby granted,
+ *  provided that the above copyright notice appear in all copies and
+ *  that both that copyright notice and this permission notice appear in
+ *  supporting documentation. This software is provided ""as is"" without
+ *  express or implied warranty.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/png2pnm.c,OSL-1.0,0.04512820512820513,ScoreOutOfRange,4,5,137,183,0.00977050670302204," *  version 1.0 - 1999.10.15 - First version.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/pnm2png.c,NTP,0.28284534534534533,3,8,17,387,905,0.01949531606042704," *                             (Glenn Randers-Pehrson)
+ *          1.4 - 2017.08.28 - Add PNGMINUS_UNUSED (Christian Hesse)
+ *
+ *  Permission to use, copy, modify, and distribute this software and
+ *  its documentation for any purpose and without fee is hereby granted,
+ *  provided that the above copyright notice appear in all copies and
+ *  that both that copyright notice and this permission notice appear in
+ *  supporting documentation. This software is provided ""as is"" without
+ *  express or implied warranty.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite/README,NTP,0.08072317360848504,2,3,11,19,402,0.004596702266334302,"Copyright (c) Willem van Schaik, 1999, 2011, 2012
+Two images (ftbbn0g01.png and ftbbn0g02.png) are by Glenn Randers-Pehrson, 2012
+
+Permission to use, copy, modify, and distribute these images for any
+purpose and without fee is hereby granted.
+
+The 15 ""bas*.png"" images are part of the much larger PngSuite test-set of
+images, available for developers of PNG supporting software. The
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngcp.c,LGPLLR,0.04077666310368306,ScoreOutOfRange,633,653,20503,21254,0.0002643832118190687,"         longjmp(dp->error_return, level);
+
+      else
+         exit(99);
+   }
+}
+
+#if PNG_LIBPNG_VER < 10700 && defined PNG_TEXT_SUPPORTED
+static void
+text_stash(struct display *dp)
+{
+   /* libpng 1.6 and earlier fixed a bug whereby text chunks were written
+    * multiple times by png_write_png; the issue was that png_write_png passed
+    * the same png_info to both png_write_info and png_write_end.  Rather than
+    * fixing it by recording the information in the png_struct, or by recording
+    * where to write the chunks, the fix made was to change the 'compression'
+    * field of the chunk to invalid values, rendering the png_info somewhat
+    * useless.
+    *
+    * The only fix for this given that we use the png_info more than once is to
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,EUPL-1.1,0.04117715024781648,ScoreOutOfRange,1952,2005,59254,61104,0.00037706316315748743,"
+   /* The type of the next chunk was recorded in the file control structure by
+    * the caller, if this is png_IDAT return 'skip' to the caller.
+    */
+   if (file->type == png_IDAT)
+      return 0; /* skip this for the moment */
+
+   /* This is the final IDAT chunk, so run the tests to check for the too far
+    * back error and possibly optimize the window bits.  This means going back
+    * to the start of the first chunk data, which is stored in the original
+    * chunk allocation.
+    */
+   setpos(file->chunk);
+
+   if (zlib_check(file, 0))
+   {
+      struct IDAT *idat;
+      int cmp;
+
+      /* The IDAT stream was successfully uncompressed; see whether it
+       * contained the correct number of bytes of image data.
+       */
+      cmp = uarb_cmp(file->image_bytes, file->image_digits,
+         file->chunk->uncompressed_bytes, file->chunk->uncompressed_digits);
+
+      if (cmp < 0)
+         type_message(file, png_IDAT, ""extra uncompressed data"");
+
+      else if (cmp > 0)
+         stop(file, LIBPNG_ERROR_CODE, ""IDAT: uncompressed data too small"");
+
+      /* Return the stream to the start of the first IDAT chunk; the length
+       * is set in the write case below but the input chunk variables must be
+       * set (once) here:
+       */
+      setpos(file->chunk);
+
+      idat = file->idat;
+      idat->idat_cur = idat->idat_list_head;
+      idat->idat_length = idat->idat_cur->lengths[0];
+      idat->idat_count = 0; /* Count of chunks read in current list */
+      idat->idat_index = 0; /* Index into chunk data */
+
+      /* Update the chunk length to the correct value for the IDAT chunk: */
+      file->chunk->chunk_length = rechunk_length(idat, 1/*start*/);
+
+      /* Change the state to writing IDAT chunks */
+      file->state = STATE_IDAT;
+
+      return 1;
+   }
+
+   else /* Failure to decompress the IDAT stream; give up. */
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,LGPL-3.0+,0.040939537626171044,ScoreOutOfRange,3092,3114,96225,96919,0.0003585649329680518,"    * of the IEND chunk will have been read.
+    */
+{
+   png_uint_32 length = file->length;
+   png_uint_32 type = file->type;
+
+   /* After IEND file::type is set to 0, if libpng attempts to read
+    * more data at this point this is a bug in libpng.
+    */
+   if (type == 0)
+      stop(file, UNEXPECTED_ERROR_CODE, ""read beyond IEND"");
+
+   if (file->global->verbose > 2)
+   {
+      fputs(""   "", stderr);
+      type_name(type, stderr);
+      fprintf(stderr, "" %lu\n"", (unsigned long)length);
+   }
+
+   /* Start the read_crc calculation with the chunk type, then read to the end
+    * of the chunk data (without processing it in any way) to check that it is
+    * all there and calculate the CRC.
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,EUPL-1.1,0.041342627088496224,ScoreOutOfRange,3806,3834,122305,124079,0.00029309218245428465,"""     chunk ERR status code read-errno write-errno message file"",
+""     chunk SKP comp-level file-bits zlib-rc compressed message file"",
+""     chunk ??? comp-level file-bits ok-bits compressed uncompress file"",
+0,
+""  The various fields are"",
+0,
+""$1 chunk:      The chunk type of a chunk in the file or 'HEAD' if a problem"",
+""               is reported by libpng at the start of the IDAT stream."",
+""$2 reason:     One of:"",
+""          CHK: A zlib header checksum was detected and fixed."",
+""          TFB: The zlib too far back error was detected and fixed."",
+""          OK : No errors were detected in the zlib stream and optimization"",
+""               was not requested, or was not possible."",
+""          OPT: The zlib stream window bits value could be improved (and was)."",
+""          SKP: The chunk was skipped because of a zlib issue (zlib-rc) with"",
+""               explanation 'message'"",
+""          ERR: The read of the file was aborted.  The parameters explain why."",
+""$3 status:     For 'ERR' the accumulated status code from 'EXIT CODES' above."",
+""               This is printed as a 2 digit hexadecimal value"",
+""   comp-level: The recorded compression level (FLEVEL) of a zlib stream"",
+""               expressed as a string {supfast,stdfast,default,maximum}"",
+""$4 code:       The file exit code; where stop was called, as a fairly terse"",
+""               string {warning,libpng,zlib,invalid,read,write,unexpected}."",
+""   file-bits:  The zlib window bits recorded in the file."",
+""$5 read-errno: A system errno value from a read translated by strerror(3)."",
+""   zlib-rc:    A zlib return code as a string (see zlib.h)."",
+""   ok-bits:    The smallest zlib window bits value that works."",
+""$6 write-errno:A system errno value from a write translated by strerror(3)."",
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,CECILL-2.0,0.0462279390820433,ScoreOutOfRange,1907,1934,57424,58763,0.0002738572279900613,"   /* Process the IDAT stream, this is the more complex than the preceding
+    * cases because the compressed data is spread across multiple IDAT chunks
+    * (typically).  Rechunking of the data is not handled here; all this
+    * function does is establish whether the zlib header needs to be modified.
+    *
+    * Initially the function returns false, indicating that the chunk should not
+    * be written.  It does this until the last IDAT chunk is passed in, then it
+    * checks the zlib data and returns true.
+    *
+    * It does not return false on a fatal error; it calls stop instead.
+    *
+    * The caller must have an instantiated (IDAT) control structure and it must
+    * have extent over the whole read of the IDAT stream.  For a PNG this means
+    * the whole PNG read, for MNG it could have lesser extent.
+    */
+{
+   struct IDAT_list *list;
+
+   assert(file->idat != NULL && file->chunk != NULL);
+
+   /* We need to first check the entire sequence of IDAT chunks to ensure the
+    * stream is in sync.  Do this by building a list of all the chunks and
+    * recording the length of each because the length may have been fixed up by
+    * sync_stream below.
+    *
+    * At the end of the list of chunks, where the type of the next chunk is not
+    * png_IDAT, process the whole stream using the list data to check validity
+"
+/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,PDDL-1.0,0.04053261525401863,ScoreOutOfRange,857,879,27378,28529,0.00025217816332177953,"
+   /* PROTECTED PER-FILE VARIABLES: USED BY THE READ CODE */
+   FILE *         file;          /* Original PNG file */
+   FILE *         out;           /* If a new one is being written */
+   jmp_buf        jmpbuf;        /* Set while reading a PNG */
+
+   /* PROTECTED CHUNK SPECIFIC VARIABLES: USED BY CHUNK CODE */
+   /* The following variables are used during reading to record the length, type
+    * and data position of the *next* chunk or, right at the start, the
+    * signature (in length,type).
+    *
+    * When a chunk control structure is instantiated these values are copied
+    * into the structure and can then be overritten with the data for the next
+    * chunk.
+    */
+   fpos_t         data_pos;      /* Position of first byte of chunk data */
+   png_uint_32    length;        /* First word (length or signature start) */
+   png_uint_32    type;          /* Second word (type or signature end) */
+   png_uint_32    crc;           /* Running chunk CRC (used by read_chunk) */
+
+   /* These counts are maintained by the read and write routines below and are
+    * reset by the chunk handling code.  They record the total number of bytes
+"
+/libpng-1.6.34.tar.gz_extracted/projects/owatcom/pngconfig.mak,SPL-1.0,0.04189174954301825,ScoreOutOfRange,103,124,3692,4679,0.0025968058345655592,"$# The libpng project is incompletely configured.  To complete configuration
+$# please complete the following steps:
+$#
+$#   1) Edit the 'before' rule of libpng.wpj (from the IDE) to define the
+$#      locations of the zlib include file zlib.h and the built zlib library,
+$#      zlib.lib.
+$#
+$#   2) If you want to change libpng to a non-standard configuration also
+$#      change the definition of 'awk' in the before rule to the name of your
+$#      awk command.  For more instructions on configuration read
+$#      pngconfig.dfa.
+$#
+$#   3) Delete this file (config.inf).
+<<
+ @$(COPY) << pngconfig.dfa
+$# pngconfig.dfa: this file contains configuration options for libpng.
+$# If emtpy the standard configuration will be built.  For this file to be
+$# used a working version of the program 'awk' is required and the program
+$# must be identified in the 'before' rule of the project.
+$#
+$# If you don't already have 'awk', or the version of awk you have seems not
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/libtool.m4,FSFULLR,0.8523809523809524,4,2,9,71,371,0.3724386877587854,"#   Copyright (C) 1996-2001, 2003-2015 Free Software Foundation, Inc.
+#   Written by Gordon Matzigkeit, 1996
+#
+# This file is free software; the Free Software Foundation gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/libtool.m4,GPL-3.0+,0.07060665824079211,1,10,31,401,1509,0.19067310841794954,"# Copyright (C) 2014 Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.  There is NO
+# warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# GNU Libtool is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of of the License, or
+# (at your option) any later version.
+#
+# As a special exception to the GNU General Public License, if you
+# distribute this file as part of a program or library that is built
+# using GNU Libtool, you may include this file under the  same
+# distribution terms that you use for the rest of that program.
+#
+# GNU Libtool is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/ltoptions.m4,FSFULLR,0.4693232556512002,3,2,10,78,391,0.23147456360796034,"#   Copyright (C) 2004-2005, 2007-2009, 2011-2015 Free Software
+#   Foundation, Inc.
+#   Written by Gary V. Vaughan, 2004
+#
+# This file is free software; the Free Software Foundation gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/ltsugar.m4,FSFULLR,0.5922161279379403,4,2,10,80,387,0.23147456360796034,"# Copyright (C) 2004-2005, 2007-2008, 2011-2015 Free Software
+# Foundation, Inc.
+# Written by Gary V. Vaughan, 2004
+#
+# This file is free software; the Free Software Foundation gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/ltversion.m4,FSFULLR,0.7674074074074074,4,2,9,55,352,0.23637120266333747,"#   Copyright (C) 2004, 2011-2015 Free Software Foundation, Inc.
+#   Written by Scott James Remnant, 2004
+#
+# This file is free software; the Free Software Foundation gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/ltversion.m4,FSFAP,0.04441256177267656,ScoreOutOfRange,10,14,372,436,0.0018654750763853168,"
+# serial 4179 ltversion.m4
+# This file is part of GNU Libtool
+
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/lt~obsolete.m4,FSFULLR,0.5660286535702925,4,2,10,81,400,0.23147456360796034,"#   Copyright (C) 2004-2005, 2007, 2009, 2011-2015 Free Software
+#   Foundation, Inc.
+#   Written by Scott James Remnant, 2004.
+#
+# This file is free software; the Free Software Foundation gives
+# unlimited permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/pnglibconf.dfa,Artistic-2.0,0.040425529955951216,ScoreOutOfRange,456,478,18678,19796,0.0004436240418022532,"
+# Read gamma handling.  Gamma processing is a core part of libpng and many of
+# the capabilities are dependent on libpng performing gamma correction.
+#
+# In libpng 1.6 disabling gamma processing (setting PNG_NO_READ_GAMMA)
+# consistently disables those parts of the API that depend on it.  Prior to
+# 1.6.0 this was not true; the results were unpredictable and varied between
+# releases.
+#
+# If you disable gamma processing and your program no longer compiles you need
+# to ask whether you really need the APIs that are missing.  If you do then you
+# almost certainly need the gamma processing.
+#
+# If you handle gamma issues outside libpng then you do not need the libpng
+# gamma processing; and it is an enormous waste of space.  You just need to
+# remove the use of libpng APIs that depend on it.
+option READ_GAMMA requires READ_TRANSFORMS, READ_gAMA, READ_sRGB
+
+option READ_ALPHA_MODE requires READ_TRANSFORMS, READ_GAMMA
+option READ_BACKGROUND requires READ_TRANSFORMS, READ_STRIP_ALPHA, READ_GAMMA
+option READ_BGR requires READ_TRANSFORMS
+option READ_EXPAND_16 requires READ_TRANSFORMS, READ_16BIT, READ_EXPAND
+"
+/libpng-1.6.34.tar.gz_extracted/scripts/pnglibconf.dfa,PDDL-1.0,0.04594146529081263,ScoreOutOfRange,124,161,4867,6456,0.00031652426229852144,"# to cause pngusr.h to be read while constructing pnglibconf.h
+#
+# If you create a private DLL you need to define the following
+# macros in the file 'pngusr.h' and set -DPNG_USER_CONFIG for
+# compilation (i.e. in CPPFLAGS.)
+# #define PNG_USER_PRIVATEBUILD \
+#     <Describes by whom and why this version of the DLL was built>
+#  e.g. #define PNG_USER_PRIVATEBUILD ""Build by MyCompany for xyz reasons.""
+# #define PNG_USER_DLLFNAME_POSTFIX <two-letter postfix that serve to
+#        distinguish your DLL from those of the official release. These
+#        correspond to the trailing letters that come after the version
+#        number and must match your private DLL name>
+#  e.g. // private DLL ""libpng13gx.dll""
+#       #define PNG_USER_DLLFNAME_POSTFIX ""gx""
+#
+# The following macros are also at your disposal if you want to complete the
+# DLL VERSIONINFO structure.
+# - PNG_USER_VERSIONINFO_COMMENTS
+# - PNG_USER_VERSIONINFO_COMPANYNAME
+# - PNG_USER_VERSIONINFO_LEGALTRADEMARKS
+
+# It is necessary to include configures definitions here so that AC_DEFINE
+# in configure.ac works in a comprehensible way
+@#if defined(HAVE_CONFIG_H) && !defined(PNG_NO_CONFIG_H)
+@#  include ""config.h""
+@#endif
+
+@#ifdef PNG_USER_CONFIG
+@#  include ""pngusr.h""
+@#endif
+
+# This is a special fixup for the Watcom C compiler on Windows, which has
+# multiple procedure call standards.  Unless PNG_API_RULE is set explicitly
+# (i.e. if it is not defined at this point) it will be forced to '2' here when
+# using Watcom.  This indicates to the other header files that Watcom behaviour
+# is required where appropriate.
+
+"

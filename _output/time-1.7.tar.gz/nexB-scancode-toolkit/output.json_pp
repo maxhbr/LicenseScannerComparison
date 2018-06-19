@@ -1,0 +1,1487 @@
+{
+    "files": [
+        {
+            "base_name": "time-1.7.tar.gz_extracted",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": null,
+            "files_count": 29,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "time-1.7.tar.gz_extracted",
+            "path": "time-1.7.tar.gz_extracted",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 351397,
+            "type": "directory"
+        },
+        {
+            "base_name": "AUTHORS",
+            "copyrights": [],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "99ef6da89f10497cc3c14e8f197a0cd1",
+            "mime_type": "text/plain",
+            "name": "AUTHORS",
+            "path": "time-1.7.tar.gz_extracted/AUTHORS",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "7951f4ceffdb030ec617eddf7bba22523cc1a67f",
+            "size": 263,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "ChangeLog",
+            "copyrights": [],
+            "date": "1996-07-11",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "4b302acdb3976dc4045a772071d0e9f3",
+            "mime_type": "text/plain",
+            "name": "ChangeLog",
+            "path": "time-1.7.tar.gz_extracted/ChangeLog",
+            "programming_language": "JavaScript+Lasso",
+            "scan_errors": [],
+            "sha1": "4a972ee2c972e38b502b22837c2513ecc2647339",
+            "size": 7304,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "configure",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 5,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 4,
+                    "statements": [
+                        "Copyright (c) 1992, 93, 94, 95, 96 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "POSIX shell script, ASCII text executable",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": true,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Public Domain",
+                    "end_line": 8,
+                    "homepage_url": "http://www.fsf.org/licensing/licenses/",
+                    "key": "fsf-free",
+                    "matched_rule": {
+                        "identifier": "fsf-free.LICENSE",
+                        "license_expression": "fsf-free",
+                        "licenses": [
+                            "fsf-free"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:fsf-free",
+                    "score": 95.0,
+                    "short_name": "FSF Free Software License",
+                    "spdx_license_key": "FSFUL",
+                    "spdx_url": "https://spdx.org/licenses/FSFUL",
+                    "start_line": 7,
+                    "text_url": "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License"
+                }
+            ],
+            "md5": "4b6cd4ab656af30e1691b52957044712",
+            "mime_type": "text/x-shellscript",
+            "name": "configure",
+            "path": "time-1.7.tar.gz_extracted/configure",
+            "programming_language": "Bash",
+            "scan_errors": [],
+            "sha1": "a54a5e0a7321967322e7e71a5f0e23b59f2bbb15",
+            "size": 48264,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "configure",
+            "copyrights": [],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".in",
+            "file_type": "M4 macro processor script, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": true,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "55897354be376ccf8c5fa7710a46e508",
+            "mime_type": "text/x-m4",
+            "name": "configure.in",
+            "path": "time-1.7.tar.gz_extracted/configure.in",
+            "programming_language": "JavaScript+Lasso",
+            "scan_errors": [],
+            "sha1": "63f77f68e8e90b3e6fdde4be3b585b72a0635bbf",
+            "size": 946,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "COPYING",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 7,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 4,
+                    "statements": [
+                        "Copyright (c) 1989, 1991 Free Software Foundation, Inc."
+                    ]
+                },
+                {
+                    "authors": [],
+                    "end_line": 256,
+                    "holders": [
+                        "the Free Software Foundation"
+                    ],
+                    "start_line": 250,
+                    "statements": [
+                        "copyrighted by the Free Software Foundation"
+                    ]
+                },
+                {
+                    "authors": [
+                        "James Hacker."
+                    ],
+                    "end_line": 330,
+                    "holders": [],
+                    "start_line": 329,
+                    "statements": []
+                }
+            ],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 339,
+                    "homepage_url": "http://www.gnu.org/licenses/gpl-2.0.html",
+                    "key": "gpl-2.0",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0_92.RULE",
+                        "license_expression": "gpl-2.0",
+                        "licenses": [
+                            "gpl-2.0"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0",
+                    "score": 99.9,
+                    "short_name": "GPL 2.0",
+                    "spdx_license_key": "GPL-2.0-only",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-only",
+                    "start_line": 1,
+                    "text_url": "http://www.gnu.org/licenses/gpl-2.0.txt"
+                }
+            ],
+            "md5": "8ca43cbc842c2336e835926c2166c28b",
+            "mime_type": "text/plain",
+            "name": "COPYING",
+            "path": "time-1.7.tar.gz_extracted/COPYING",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "075d599585584bb0e4b526f5c40cb6b17e0da35a",
+            "size": 17982,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "error",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 2,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright (c) 1990, 91, 92, 93, 94, 95, 96 Free Software Foundation, Inc."
+                    ]
+                },
+                {
+                    "authors": [
+                        "David MacKenzie <djm@gnu.ai.mit.edu>"
+                    ],
+                    "end_line": 19,
+                    "holders": [],
+                    "start_line": 19,
+                    "statements": []
+                }
+            ],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".c",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 17,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 4,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "be796e591950f97904444b9f9d9d1880",
+            "mime_type": "text/x-c",
+            "name": "error.c",
+            "path": "time-1.7.tar.gz_extracted/error.c",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "97bfd964aae09d71b7fa89bd48b2110cb8d3e12d",
+            "size": 5158,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "getopt",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 7,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 6,
+                    "statements": [
+                        "Copyright (c) 1987, 88, 89, 90, 91, 92, 93, 94, 95, 1996 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-07-11",
+            "dirs_count": 0,
+            "extension": ".c",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 22,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 9,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "f761b8034250defeb6b89ec423fd5af3",
+            "mime_type": "text/x-c",
+            "name": "getopt.c",
+            "path": "time-1.7.tar.gz_extracted/getopt.c",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "4eec2f371cdea3fa5f96a37b44b200445609bc75",
+            "size": 23982,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "getopt",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 2,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright (c) 1989, 90, 91, 92, 93, 94 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": ".h",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 17,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 4,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "66a28c47ea56e28df202a0bba4252fcf",
+            "mime_type": "text/x-c",
+            "name": "getopt.h",
+            "path": "time-1.7.tar.gz_extracted/getopt.h",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "512169aaccccc1c0fe20de76af4a5ff347aacc05",
+            "size": 4464,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "getopt1",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 3,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright (c) 1987, 88, 89, 90, 91, 92, 1993, 1994 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": ".c",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 18,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 5,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "ffadf47a08cfdf420b9104d682b3b60f",
+            "mime_type": "text/x-c",
+            "name": "getopt1.c",
+            "path": "time-1.7.tar.gz_extracted/getopt1.c",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "177c2f08aad7203fa875ae63c0ec92fbb3c9f600",
+            "size": 4280,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "getpagesize",
+            "copyrights": [],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": ".h",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "e555590101cd5d1383450d3c747f1579",
+            "mime_type": "text/x-c",
+            "name": "getpagesize.h",
+            "path": "time-1.7.tar.gz_extracted/getpagesize.h",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "1ef18700b72387bf6322695bb1aec2ca5e18cb00",
+            "size": 700,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "INSTALL",
+            "copyrights": [],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "29344ac65ace9c9223d96056bd1fa33c",
+            "mime_type": "text/plain",
+            "name": "INSTALL",
+            "path": "time-1.7.tar.gz_extracted/INSTALL",
+            "programming_language": "reStructuredText",
+            "scan_errors": [],
+            "sha1": "bd0ce8678f58293afc2069e6ba9ab42a6c3e23bc",
+            "size": 7721,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "install-sh",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 6,
+                    "holders": [
+                        "the Massachusetts Institute of Technology"
+                    ],
+                    "start_line": 6,
+                    "statements": [
+                        "Copyright 1991 by the Massachusetts Institute of Technology"
+                    ]
+                }
+            ],
+            "date": "1996-07-11",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "POSIX shell script, ASCII text executable",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": true,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Permissive",
+                    "end_line": 16,
+                    "homepage_url": "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style_.28no_advertising_without_permission.29",
+                    "key": "mit-old-style-no-advert",
+                    "matched_rule": {
+                        "identifier": "mit-old-style-no-advert_3.RULE",
+                        "license_expression": "mit-old-style-no-advert",
+                        "licenses": [
+                            "mit-old-style-no-advert"
+                        ]
+                    },
+                    "owner": "MIT",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:mit-old-style-no-advert",
+                    "score": 100.0,
+                    "short_name": "MIT Old Style no advertising",
+                    "spdx_license_key": "",
+                    "spdx_url": "",
+                    "start_line": 8,
+                    "text_url": ""
+                }
+            ],
+            "md5": "c69d800d4f1d530d318129f2b7ab7cd3",
+            "mime_type": "text/x-shellscript",
+            "name": "install-sh",
+            "path": "time-1.7.tar.gz_extracted/install-sh",
+            "programming_language": "Bash",
+            "scan_errors": [],
+            "sha1": "c5c249a2dd763530ae65d28bc1c64bb754cd0750",
+            "size": 5490,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "Makefile",
+            "copyrights": [],
+            "date": "1996-06-19",
+            "dirs_count": 0,
+            "extension": ".am",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "e408646f95f87de58d69ba9402b4530b",
+            "mime_type": "text/plain",
+            "name": "Makefile.am",
+            "path": "time-1.7.tar.gz_extracted/Makefile.am",
+            "programming_language": "Makefile",
+            "scan_errors": [],
+            "sha1": "013f7d712aefd2409a2310714257ad77e62ca205",
+            "size": 497,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "Makefile",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 5,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 3,
+                    "statements": [
+                        "Copyright (c) 1994, 1995, 1996 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-07-11",
+            "dirs_count": 0,
+            "extension": ".in",
+            "file_type": "makefile script, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": true,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Public Domain",
+                    "end_line": 5,
+                    "homepage_url": "http://www.fsf.org/licensing/licenses/",
+                    "key": "fsf-free",
+                    "matched_rule": {
+                        "identifier": "fsf-free.LICENSE",
+                        "license_expression": "fsf-free",
+                        "licenses": [
+                            "fsf-free"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:fsf-free",
+                    "score": 80.0,
+                    "short_name": "FSF Free Software License",
+                    "spdx_license_key": "FSFUL",
+                    "spdx_url": "https://spdx.org/licenses/FSFUL",
+                    "start_line": 4,
+                    "text_url": "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License"
+                }
+            ],
+            "md5": "fd3821c4d488fbc142fb94cf9ba4ad4d",
+            "mime_type": "text/x-makefile",
+            "name": "Makefile.in",
+            "path": "time-1.7.tar.gz_extracted/Makefile.in",
+            "programming_language": "Makefile",
+            "scan_errors": [],
+            "sha1": "8b548f3a4c3719b30e0a5db65dd53adbda180db0",
+            "size": 8909,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "mdate-sh",
+            "copyrights": [
+                {
+                    "authors": [
+                        "Ulrich Drepper <drepper@gnu.ai.mit.edu>"
+                    ],
+                    "end_line": 4,
+                    "holders": [
+                        "Software Foundation, Inc."
+                    ],
+                    "start_line": 2,
+                    "statements": [
+                        "Copyright (c) 1995 Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "POSIX shell script, ASCII text executable",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": true,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 18,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 6,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "eb6e466ff7f500d5fc42bf6771950ee6",
+            "mime_type": "text/x-shellscript",
+            "name": "mdate-sh",
+            "path": "time-1.7.tar.gz_extracted/mdate-sh",
+            "programming_language": "Bash",
+            "scan_errors": [],
+            "sha1": "7a4fcb88fd92b03e9dd69f04dba7ed442b33086c",
+            "size": 2559,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "mkinstalldirs",
+            "copyrights": [
+                {
+                    "authors": [
+                        "Noah Friedman <friedman@prep.ai.mit.edu>"
+                    ],
+                    "end_line": 5,
+                    "holders": [],
+                    "start_line": 2,
+                    "statements": []
+                }
+            ],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "POSIX shell script, ASCII text executable",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": true,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Public Domain",
+                    "end_line": 5,
+                    "homepage_url": "http://www.linfo.org/publicdomain.html",
+                    "key": "public-domain",
+                    "matched_rule": {
+                        "identifier": "public-domain.LICENSE",
+                        "license_expression": "public-domain",
+                        "licenses": [
+                            "public-domain"
+                        ]
+                    },
+                    "owner": "Unspecified",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:public-domain",
+                    "score": 10.0,
+                    "short_name": "Public Domain",
+                    "spdx_license_key": "",
+                    "spdx_url": "",
+                    "start_line": 5,
+                    "text_url": ""
+                }
+            ],
+            "md5": "da4020e592851ae9d775611ec3cd426d",
+            "mime_type": "text/x-shellscript",
+            "name": "mkinstalldirs",
+            "path": "time-1.7.tar.gz_extracted/mkinstalldirs",
+            "programming_language": "Bash",
+            "scan_errors": [],
+            "sha1": "8bc81b299f7f9a483a21ae36c7a5661d832974ef",
+            "size": 732,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "NEWS",
+            "copyrights": [],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "0ad5e82cfb2ac82b2bfc3bb998150ed6",
+            "mime_type": "text/plain",
+            "name": "NEWS",
+            "path": "time-1.7.tar.gz_extracted/NEWS",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "9a94d3fd8be03e1947b8c43de83211fe4f8ea38c",
+            "size": 811,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "port",
+            "copyrights": [],
+            "date": "1996-06-11",
+            "dirs_count": 0,
+            "extension": ".h",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "feaea0d6843925cd2914328b7f9a90de",
+            "mime_type": "text/x-c",
+            "name": "port.h",
+            "path": "time-1.7.tar.gz_extracted/port.h",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "966e3dc7bae8b140bedc52d8f3ab3a87f1815656",
+            "size": 517,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "README",
+            "copyrights": [],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "44e9fc77c32600526ed39343511914a1",
+            "mime_type": "text/plain",
+            "name": "README",
+            "path": "time-1.7.tar.gz_extracted/README",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "69cfac803ed960fb0d24dc39afa095e408fb845f",
+            "size": 663,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "resuse",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 2,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright (c) 1993, 1996 Free Software Foundation, Inc."
+                    ]
+                },
+                {
+                    "authors": [
+                        "David MacKenzie"
+                    ],
+                    "end_line": 21,
+                    "holders": [],
+                    "start_line": 19,
+                    "statements": []
+                }
+            ],
+            "date": "1996-06-13",
+            "dirs_count": 0,
+            "extension": ".c",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 17,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 4,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "e01231296b7b7c236234fec18727e5f8",
+            "mime_type": "text/x-c",
+            "name": "resuse.c",
+            "path": "time-1.7.tar.gz_extracted/resuse.c",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "3860d431a5dba8146b119952e4262a4a3eb4b8c6",
+            "size": 3283,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "resuse",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 2,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright (c) 1993, 1996 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".h",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 17,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 4,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "9654c04fd572947bf2c824c84bd1fac4",
+            "mime_type": "text/x-c",
+            "name": "resuse.h",
+            "path": "time-1.7.tar.gz_extracted/resuse.h",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "fcf57d1f09b29d241d462e044a671e25bbee4173",
+            "size": 2055,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "stamp-vti",
+            "copyrights": [],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "1ded054093de910d9786c62bc4fe8cc6",
+            "mime_type": "text/plain",
+            "name": "stamp-vti",
+            "path": "time-1.7.tar.gz_extracted/stamp-vti",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "8e5113f6f47ce34e0437c2105441dbb70f01491a",
+            "size": 10,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "texinfo",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 4,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 3,
+                    "statements": [
+                        "Copyright (c) 1985, 86, 88, 90, 91, 92, 93, 94, 95, 1996 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-07-11",
+            "dirs_count": 0,
+            "extension": ".tex",
+            "file_type": "data",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 19,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_239.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 96.52,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 6,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "07ac8384cde102a9059c83d1f10050dc",
+            "mime_type": "application/octet-stream",
+            "name": "texinfo.tex",
+            "path": "time-1.7.tar.gz_extracted/texinfo.tex",
+            "programming_language": "TeX",
+            "scan_errors": [],
+            "sha1": "e3a7d7a426d5b970f53561f73df9929f8d35cc7f",
+            "size": 152426,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "time",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 2,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright (c) 1990, 91, 92, 93, 96 Free Software Foundation, Inc."
+                    ]
+                },
+                {
+                    "authors": [
+                        "David Keppel <pardo@cs.washington.edu>",
+                        "David MacKenzie <djm@gnu.ai.mit.edu>"
+                    ],
+                    "end_line": 20,
+                    "holders": [],
+                    "start_line": 19,
+                    "statements": []
+                }
+            ],
+            "date": "1996-06-13",
+            "dirs_count": 0,
+            "extension": ".c",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 17,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 4,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "87d3275a153a0e7f88e32e6c06adeefc",
+            "mime_type": "text/x-c",
+            "name": "time.c",
+            "path": "time-1.7.tar.gz_extracted/time.c",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "712d7f9dfde674283596ae2088550e3ff23ae1ba",
+            "size": 19679,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "time",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 7,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 7,
+                    "statements": [
+                        "Copyright (c) 1991, 92, 93, 96 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".info",
+            "file_type": "data",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 21,
+                    "homepage_url": "http://www.math.utah.edu/docs/info/elib_1.html",
+                    "key": "elib-gpl",
+                    "matched_rule": {
+                        "identifier": "elib-gpl.RULE",
+                        "license_expression": "elib-gpl",
+                        "licenses": [
+                            "elib-gpl"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:elib-gpl",
+                    "score": 71.77,
+                    "short_name": "GPL-Elib",
+                    "spdx_license_key": "",
+                    "spdx_url": "",
+                    "start_line": 9,
+                    "text_url": "http://www.math.utah.edu/docs/info/elib_1.html#SEC1"
+                }
+            ],
+            "md5": "14d7ad984a5127f7137d100c0495b8c9",
+            "mime_type": "application/octet-stream",
+            "name": "time.info",
+            "path": "time-1.7.tar.gz_extracted/time.info",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "f4373161d4e5c152c970000e5cad9e6316060e5f",
+            "size": 15120,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "time",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 18,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 18,
+                    "statements": [
+                        "Copyright 1991, 92, 93, 96 Free Software Foundation, Inc."
+                    ]
+                },
+                {
+                    "authors": [
+                        "David MacKenzie"
+                    ],
+                    "end_line": 50,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 46,
+                    "statements": [
+                        "Copyright 1991, 92, 93, 96 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".texi",
+            "file_type": "TeX document, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 39,
+                    "homepage_url": "http://www.math.utah.edu/docs/info/elib_1.html",
+                    "key": "elib-gpl",
+                    "matched_rule": {
+                        "identifier": "elib-gpl.RULE",
+                        "license_expression": "elib-gpl",
+                        "licenses": [
+                            "elib-gpl"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:elib-gpl",
+                    "score": 71.77,
+                    "short_name": "GPL-Elib",
+                    "spdx_license_key": "",
+                    "spdx_url": "",
+                    "start_line": 20,
+                    "text_url": "http://www.math.utah.edu/docs/info/elib_1.html#SEC1"
+                },
+                {
+                    "category": "Permissive",
+                    "end_line": 62,
+                    "homepage_url": "https://fedoraproject.org/wiki/Licensing/Latex2e",
+                    "key": "latex2e",
+                    "matched_rule": {
+                        "identifier": "latex2e.LICENSE",
+                        "license_expression": "latex2e",
+                        "licenses": [
+                            "latex2e"
+                        ]
+                    },
+                    "owner": "LaTeX",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:latex2e",
+                    "score": 79.25,
+                    "short_name": "Latex2e License",
+                    "spdx_license_key": "Latex2e",
+                    "spdx_url": "https://spdx.org/licenses/Latex2e",
+                    "start_line": 52,
+                    "text_url": ""
+                }
+            ],
+            "md5": "0c86797128eba19a1896820ff379a595",
+            "mime_type": "text/x-tex",
+            "name": "time.texi",
+            "path": "time-1.7.tar.gz_extracted/time.texi",
+            "programming_language": "Objective-C",
+            "scan_errors": [],
+            "sha1": "4c27ef0f772256fe13d386358a5eb6c924536803",
+            "size": 16151,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "version",
+            "copyrights": [],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".c",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "522463bd01ad7fa395e1c18760fc9efc",
+            "mime_type": "text/plain",
+            "name": "version.c",
+            "path": "time-1.7.tar.gz_extracted/version.c",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "8093e0e529387817b260523cf90a392fe9d0c209",
+            "size": 45,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "version",
+            "copyrights": [],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".texi",
+            "file_type": "DOS batch file, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "1fb52057dffc0c48d689476057c3e853",
+            "mime_type": "text/x-msdos-batch",
+            "name": "version.texi",
+            "path": "time-1.7.tar.gz_extracted/version.texi",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "73bee64bd2b02dcf6978ec14d8dba9d4e74e2ca7",
+            "size": 60,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "wait",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 2,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright (c) 1990 Free Software Foundation, Inc."
+                    ]
+                }
+            ],
+            "date": "1996-06-12",
+            "dirs_count": 0,
+            "extension": ".h",
+            "file_type": "C source, ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 17,
+                    "homepage_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+                    "key": "gpl-2.0-plus",
+                    "matched_rule": {
+                        "identifier": "gpl-2.0-plus_49.RULE",
+                        "license_expression": "gpl-2.0-plus",
+                        "licenses": [
+                            "gpl-2.0-plus"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:gpl-2.0-plus",
+                    "score": 100.0,
+                    "short_name": "GPL 2.0 or later",
+                    "spdx_license_key": "GPL-2.0-or-later",
+                    "spdx_url": "https://spdx.org/licenses/GPL-2.0-or-later",
+                    "start_line": 4,
+                    "text_url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                }
+            ],
+            "md5": "720be314943a13d2d1df9c964f37455c",
+            "mime_type": "text/x-c",
+            "name": "wait.h",
+            "path": "time-1.7.tar.gz_extracted/wait.h",
+            "programming_language": "C",
+            "scan_errors": [],
+            "sha1": "821331ad27b49e2c341d7761bccfd77152b1031d",
+            "size": 1326,
+            "size_count": 0,
+            "type": "file"
+        }
+    ],
+    "files_count": 29,
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_options": {
+        "--copyright": true,
+        "--csv": "/output.csv",
+        "--info": true,
+        "--json": "/output.json",
+        "--license": true,
+        "--spdx-rdf": "/output.rdf.xml",
+        "--spdx-tv": "/output.spdx",
+        "input": "/time-1.7.tar.gz_extracted/"
+    },
+    "scancode_version": "2.9.2"
+}

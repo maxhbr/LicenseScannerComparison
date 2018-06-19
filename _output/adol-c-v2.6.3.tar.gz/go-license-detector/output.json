@@ -1,0 +1,39 @@
+[
+	{
+		"project": "/adol-c-v2.6.3.tar.gz_extracted/",
+		"matches": [
+			{
+				"license": "EPL-1.0",
+				"confidence": 0.9803454
+			},
+			{
+				"license": "CPL-1.0",
+				"confidence": 0.94454384
+			},
+			{
+				"license": "AGPL-1.0",
+				"confidence": 0.8750491
+			},
+			{
+				"license": "IPL-1.0",
+				"confidence": 0.8583383
+			},
+			{
+				"license": "deprecated_GPL-2.0",
+				"confidence": 0.78848416
+			},
+			{
+				"license": "GPL-2.0-or-later",
+				"confidence": 0.78848416
+			},
+			{
+				"license": "deprecated_GPL-2.0+",
+				"confidence": 0.78848416
+			},
+			{
+				"license": "GPL-2.0-only",
+				"confidence": 0.78848416
+			}
+		]
+	}
+]

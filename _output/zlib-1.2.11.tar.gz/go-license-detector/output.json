@@ -1,0 +1,15 @@
+[
+	{
+		"project": "/zlib-1.2.11.tar.gz_extracted/",
+		"matches": [
+			{
+				"license": "CECILL-C",
+				"confidence": 0.5
+			},
+			{
+				"license": "W3C",
+				"confidence": 0.33333334
+			}
+		]
+	}
+]

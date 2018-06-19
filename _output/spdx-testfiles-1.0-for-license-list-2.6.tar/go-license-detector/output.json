@@ -1,0 +1,203 @@
+[
+	{
+		"project": "/spdx-testfiles-1.0-for-license-list-2.6.tar_extracted/",
+		"matches": [
+			{
+				"license": "JSON",
+				"confidence": 1
+			},
+			{
+				"license": "OSL-3.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_GPL-3.0+",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "GPL-3.0-or-later",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "GPL-3.0-only",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "AGPL-3.0-only",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "PHP-3.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "LGPL-3.0-or-later",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "AGPL-3.0-or-later",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_LGPL-3.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_GPL-3.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "AFL-3.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_LGPL-3.0+",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_AGPL-3.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "OLDAP-2.6",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "NPOSL-3.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "LGPL-3.0-only",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "0BSD",
+				"confidence": 0.5
+			},
+			{
+				"license": "CC-BY-3.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "BSD-Protection",
+				"confidence": 0.5
+			},
+			{
+				"license": "CECILL-C",
+				"confidence": 0.5
+			},
+			{
+				"license": "BSD-2-Clause",
+				"confidence": 0.5
+			},
+			{
+				"license": "BSD-4-Clause",
+				"confidence": 0.5
+			},
+			{
+				"license": "BSD-3-Clause",
+				"confidence": 0.5
+			},
+			{
+				"license": "BSD-1-Clause",
+				"confidence": 0.5
+			},
+			{
+				"license": "Autoconf-exception-3.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "GPL-3.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "bzip2-1.0.6",
+				"confidence": 0.4
+			},
+			{
+				"license": "CC-BY-ND-3.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "GPL-3.0+",
+				"confidence": 0.4
+			},
+			{
+				"license": "CC-BY-NC-3.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "CC-BY-SA-3.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "LGPL-3.0+",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "CC-BY-NC-ND-3.0",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "LGPL-3.0",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-3-Clause-Clear",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_GPL-3.0-with-GCC-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "Adobe-Glyph",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-4-Clause-UC",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_GPL-3.0-with-autoconf-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-2-Clause-Patent",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "CC-BY-NC-SA-3.0",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-3-Clause-Attribution",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-Source-Code",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-2-Clause-FreeBSD",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "W3C",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-2-Clause-NetBSD",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-3-Clause-LBNL",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "AGPL-3.0",
+				"confidence": 0.33333334
+			}
+		]
+	}
+]

@@ -1,0 +1,4717 @@
+[
+    {
+        "Bytes": 8099,
+        "BytesHuman": "7.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "CMakeLists.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "03bf3ba8089f4bf475ef4035cf316a47",
+        "Sha1Hash": "ade23b9417a586a0974e48fda589491fceb85c16",
+        "Sha256Hash": "b87275731cc3ebdfea144187875cea204f555c343279c0f35f2d46d661bfe34a"
+    },
+    {
+        "Bytes": 78553,
+        "BytesHuman": "76.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "ChangeLog",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "5b1b3f8b1fc98209b9492717ee39719c",
+        "Sha1Hash": "e59e031b1a8b9f128fefde07c9d596db4a4c50e8",
+        "Sha256Hash": "4c9f1a65b9b4be8bf164a97775ef50e4db4e02ea8c9933fdbe629a640691375e"
+    },
+    {
+        "Bytes": 16573,
+        "BytesHuman": "16.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "FAQ",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b7a1991f01daea3efe108a215c5514a5",
+        "Sha1Hash": "832bb73adff252fa426a141ee4756daa9b8a4db4",
+        "Sha256Hash": "1e8a0078be0ff1b60d57561a9e4a8cad72892318a8831946cba1abd30d65521c"
+    },
+    {
+        "Bytes": 1988,
+        "BytesHuman": "1.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "INDEX",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "3b6b6f9e88f2319b75e6ccb8c2823b13",
+        "Sha1Hash": "74611a0f2bcc004caa1fa07bdeb4c44b01f0a5d6",
+        "Sha256Hash": "3b4e325d47ae66456d43fcf143ba21ab67a02a4f81be7ef2da480ba30d774266"
+    },
+    {
+        "Bytes": 100,
+        "BytesHuman": "100B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "Makefile",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "673574278a68806348d4b57c090f38d4",
+        "Sha1Hash": "b04f62dd1002b9ca07068c90651432dec60029f3",
+        "Sha256Hash": "ef23b08ce01239843f1ded3f373bfc432627a477d62f945cbf63b2ac03db118a"
+    },
+    {
+        "Bytes": 13680,
+        "BytesHuman": "13.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "Makefile.in",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "31e13357403fe2f42e2dacfa8909bc03",
+        "Sha1Hash": "023e127b48d292316614f604c1bacda043ba3bb5",
+        "Sha256Hash": "5021b2bac4164f48b17c91c8a2e3c225be7ad31d8bfab1bbaadd90370afe9991"
+    },
+    {
+        "Bytes": 5187,
+        "BytesHuman": "5.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "README",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "0ff45db88393c3152e458a047bba0ff1",
+        "Sha1Hash": "e1e1b075ae4ad6d628468e7dd40d9ec512ff9d10",
+        "Sha256Hash": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15"
+    },
+    {
+        "Bytes": 5204,
+        "BytesHuman": "5.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "adler32.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "4dc406b7d1b6e49c22eee2e01177c195",
+        "Sha1Hash": "6c1114794db137af50f9b060aaade1a1a35ed784",
+        "Sha256Hash": "d7f1b6e44fee20ab41cef1d650776a039a2348935eb96bcbd294a4096139be3a"
+    },
+    {
+        "Bytes": 1981,
+        "BytesHuman": "1.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/amiga",
+        "Filename": "Makefile.pup",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f16cd4621f5561cf147b5e56a8af1946",
+        "Sha1Hash": "79461cdcf8eda434edca3c32781982d2082af5fe",
+        "Sha256Hash": "a65cb3cd40b1b8ec77e288974dd9dc53d91ed78bbe495e94ccc84ddd423edf1f"
+    },
+    {
+        "Bytes": 1847,
+        "BytesHuman": "1.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/amiga",
+        "Filename": "Makefile.sas",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "315c9e3e7dd1d24aeb9d6bc55b7de5fd",
+        "Sha1Hash": "64787face2d527df6c78ba8754eb54c53dda6ac2",
+        "Sha256Hash": "0e63cf88b505a1a04327bb666af3a985c5e11835c0c00aed4058c0dcc315d60e"
+    },
+    {
+        "Bytes": 2699,
+        "BytesHuman": "2.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "compress.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "bca8dc2f982dfce8944aec9f4a83626c",
+        "Sha1Hash": "bd40f3ba8567a21560dc307d99c810de6f2d0533",
+        "Sha256Hash": "5c11e1fc22e219cb986f6fa9e4ba939315227e84aef042737d38ec668b89b6d2"
+    },
+    {
+        "Bytes": 28244,
+        "BytesHuman": "27.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "configure",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "551e3f81bb7dad9adc058c9138119b02",
+        "Sha1Hash": "bdc2fac491ea3431c733cf8be5b8c17ff60207ab",
+        "Sha256Hash": "86b38f27f31d2fec76d9355872550dc63cb3949774473fd6313c5a3fd1def0e2"
+    },
+    {
+        "Bytes": 3186,
+        "BytesHuman": "3.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib",
+        "Filename": "README.contrib",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "417c6b266549b949b958733f95d075ef",
+        "Sha1Hash": "6b6a2a76495304808f5e13df25face2089124fe6",
+        "Sha256Hash": "ca39b78bd7ad84f1df7b0da90770c5b3fa4c8e2c75d132e9222812fac8839630"
+    },
+    {
+        "Bytes": 3717,
+        "BytesHuman": "3.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "buffer_demo.adb",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "cd14a97dd8a0613bb1244a68c0c764d6",
+        "Sha1Hash": "1d8fba99362b0973535a759097f7893d4551c4e7",
+        "Sha256Hash": "469cf566a6965767fee6b987a239ed8cedcc66614940d45a9b434331fbb435ce"
+    },
+    {
+        "Bytes": 4467,
+        "BytesHuman": "4.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "mtest.adb",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "20f2b8d64f3507ea0eb67bf4be048599",
+        "Sha1Hash": "f1c968146ba1a8f07c7070a2af72ab8a84c82e3d",
+        "Sha256Hash": "41b6f31684770334afdc4375871eb1408542f37a823a073556fdbfdb63753160"
+    },
+    {
+        "Bytes": 4248,
+        "BytesHuman": "4.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "read.adb",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "a223bf66e23cc79eba08eadd40ee269b",
+        "Sha1Hash": "a5a6682ef169a7429d9bf9f8acbda6ffb756fec4",
+        "Sha256Hash": "fa5b989aef0c5715a3fcb15de93985f7f10aeb0a7f5716745c95ed820eb9af9c"
+    },
+    {
+        "Bytes": 2178,
+        "BytesHuman": "2.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "readme.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "c998583cdc1fe9d7f8f6b92d1a9551a3",
+        "Sha1Hash": "1fd4ae8ee39ef80117dca454e1951ecaf0d1d290",
+        "Sha256Hash": "8fe9e5303f2e8e8b746c78250e74b7c4aeb7ce6212fdce751fc3a0ce56a47fe2"
+    },
+    {
+        "Bytes": 13180,
+        "BytesHuman": "12.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "test.adb",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "8197c8e51a900ed2a1e98d9c1455dba0",
+        "Sha1Hash": "5eebe86bd398dade5340cc4af24685bf02df671f",
+        "Sha256Hash": "5e3abe79b387e09a9a42bd0543105e228f39a335240cffc33d71f0ba66ff2511"
+    },
+    {
+        "Bytes": 5996,
+        "BytesHuman": "5.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "zlib-streams.adb",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "5d67ffc3a8cbe706d47d25f8124c72dd",
+        "Sha1Hash": "70f5981b0c3c5de023ea3485ea7e81231a42ce7f",
+        "Sha256Hash": "f45988e2bac76eb25a0dc981f46576e7432c35dde1790bbc2b650f0090b7fa72"
+    },
+    {
+        "Bytes": 4329,
+        "BytesHuman": "4.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "zlib-streams.ads",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "9659f0be883fe948d584bc969cbd8564",
+        "Sha1Hash": "fadb4623dc2469cc4fd571a9fac302798735c40b",
+        "Sha256Hash": "969e8edb0611810fb52159dcb7c40228f4e5da810a7a3576b778116a93038c6b"
+    },
+    {
+        "Bytes": 3329,
+        "BytesHuman": "3.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "zlib-thin.adb",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "d520a330ed13ea54e7b20c8e5de64579",
+        "Sha1Hash": "43c7e58eb582ce078f6ff76aa4f4eb09892ff92b",
+        "Sha256Hash": "03d89244ee5ec9771d9b5050e586c609f851af551b2e64eb151f1d5be0b63ae9"
+    },
+    {
+        "Bytes": 15819,
+        "BytesHuman": "15.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "zlib-thin.ads",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "92b08ae0238ed5046f1a84959e6e8a54",
+        "Sha1Hash": "faf47e35174e1e76edb85ea602779084e535df69",
+        "Sha256Hash": "631ef170bde16c3ca8d412b54a0e519815b80197d208f8f393e6fe017bb0968e"
+    },
+    {
+        "Bytes": 20400,
+        "BytesHuman": "19.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "zlib.adb",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "f46bd97cccf4719989ee553daa36f8c6",
+        "Sha1Hash": "3961008f51def7ffcd692453df7b0f1d8b680645",
+        "Sha256Hash": "c9ca5dc34fbcdf06e2dc777b7e9dcd0ba31085b772b440eb0e12421323ab672c"
+    },
+    {
+        "Bytes": 13594,
+        "BytesHuman": "13.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "zlib.ads",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "71de2670f2e588b51c62e7f6a9046399",
+        "Sha1Hash": "0245a91806d804bf9f0907a3a001a141e9adb61b",
+        "Sha256Hash": "02634bec0d5e4c69d8d2859124380074a57de8d8bd928398379bfacc514236d2"
+    },
+    {
+        "Bytes": 511,
+        "BytesHuman": "511B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Filename": "zlib.gpr",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 109
+            }
+        ],
+        "Md5Hash": "38044e8f5f88e1f70ade036779d56ee8",
+        "Sha1Hash": "c36c2cf069e930eb81ee0c89bfe70c20c8d0511a",
+        "Sha256Hash": "859bb69dce38dbe9dca06753cf7ae7bd16d48f4fece8b87582dab8e30681d3de"
+    },
+    {
+        "Bytes": 12418,
+        "BytesHuman": "12.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/amd64",
+        "Filename": "amd64-match.S",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "5f6c5b314559290786a59c0320b800d5",
+        "Sha1Hash": "4ac2676fb0393520f0d051965529c39139e7de8c",
+        "Sha256Hash": "166007f7e9adb58fe8b83d85bbfe823f5e05858ba1d06edf637b78886caa2c69"
+    },
+    {
+        "Bytes": 1622,
+        "BytesHuman": "1.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/asm686",
+        "Filename": "README.686",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c28b5c0d295403ec6c6ba001238ec648",
+        "Sha1Hash": "ac08681935257d53b3fd1793788a1406a781ee22",
+        "Sha256Hash": "c21cc7147c956ecae17dd084cb41a206b086216fa521012871fb07fafd203c6d"
+    },
+    {
+        "Bytes": 10365,
+        "BytesHuman": "10.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/asm686",
+        "Filename": "match.S",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "35c8e3cc241cef1605bd108b5319ca63",
+        "Sha1Hash": "f1023ae9dab5691291f42b180551bae164086492",
+        "Sha256Hash": "873799062495629f21cd3f779ea4b927add7aae0144e32d3594d9ce70185e99d"
+    },
+    {
+        "Bytes": 127,
+        "BytesHuman": "127B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Filename": "Makefile",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "5cd923d6c5e717cdc43180aaa2eeed18",
+        "Sha1Hash": "c18cae8b163b2fc351bc59b8efad7a190d1ead78",
+        "Sha256Hash": "17d5d26c24bf51cad51045a38ffb73cc3539d29e89885aa249fcfd45a8659d5c"
+    },
+    {
+        "Bytes": 74,
+        "BytesHuman": "74B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Filename": "README",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b93c34189a9302e6f43c53c7d0277637",
+        "Sha1Hash": "69a33e70f88cc1f3520e2154ed38d3f690ee26e5",
+        "Sha256Hash": "baa763ae03d88ef7ece6eb80d9a099b43d0b57639d6d281e1c7c6ca79d81daba"
+    },
+    {
+        "Bytes": 18162,
+        "BytesHuman": "17.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Filename": "blast.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "fc91693deab323a4810a4cbd3c923c4a",
+        "Sha1Hash": "809a3404b6e9e1bc120ff0313c31c4bd2b776823",
+        "Sha256Hash": "1ab3e479d342bfc144167b808fb00142264bc50f24a110ca88cc774e351c218e"
+    },
+    {
+        "Bytes": 3865,
+        "BytesHuman": "3.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Filename": "blast.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 55
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "aa831d52e70bab6b0319724628e4acce",
+        "Sha1Hash": "b20eb7c03966462cafbf896c97263632004bd867",
+        "Sha256Hash": "4d4e3e6f893316f0be77bfd642c857a77f1fa2925acb5df9753e543d35aa3a6a"
+    },
+    {
+        "Bytes": 8,
+        "BytesHuman": "8B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Filename": "test.pk",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f8dd3560a13a68bd15f5ca5a53c94ce9",
+        "Sha1Hash": "00d07b4c71bad842d7e04210f966e55977efd9c3",
+        "Sha256Hash": "5f5c262c545574a5c221132d5ef832478d222d70b015341795b3860204140d7c"
+    },
+    {
+        "Bytes": 13,
+        "BytesHuman": "13B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Filename": "test.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "1201a93782f0542d6fbf5134c1a5a4c6",
+        "Sha1Hash": "aed9b9fc86b2b47a4c46053df53feb544ecf31ce",
+        "Sha256Hash": "9679b2c98e1283222d0782b25a1c198dc64ba9ebd1addd6dc6f643a45947cda3"
+    },
+    {
+        "Bytes": 16413,
+        "BytesHuman": "16K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Filename": "ZLib.pas",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "bcc04a52a768c648243ede04a1d417ac",
+        "Sha1Hash": "25133131cac8eeed1962e7a9072b06591481a520",
+        "Sha256Hash": "1b20e173443a68c189cdaa4795620fb1ac165d9e61a27a1ed2cf690f13530d6f"
+    },
+    {
+        "Bytes": 186,
+        "BytesHuman": "186B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Filename": "ZLibConst.pas",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b02c46423595bd6358de3b7c5a148a88",
+        "Sha1Hash": "e0ff4d3c14a4dcdbf170692ce0fec86939b500d0",
+        "Sha256Hash": "84bcc580bdf397e570f86f3f5a5b8c7bf537828f30b4b72648b81911f6bf5095"
+    },
+    {
+        "Bytes": 2500,
+        "BytesHuman": "2.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Filename": "readme.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e43e458c50d36075813a1533d05a0bdc",
+        "Sha1Hash": "366e08eaa227cd3d09810c45639aedf4879b7ecf",
+        "Sha256Hash": "f7420ed2de77d4b498eefbbe6402a1d17dc2d411735289c78a265c7f10fdaee5"
+    },
+    {
+        "Bytes": 2360,
+        "BytesHuman": "2.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Filename": "zlibd32.mak",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b2cc80e48f2aa69be40b6f52ba3480c4",
+        "Sha1Hash": "ddf83b34d4c7d41ace39f96b5cb13fb390c8d2eb",
+        "Sha256Hash": "850e91b6c9ea05de61a411cbda16fa0f10118cd88bb32c4b7226988776f8d511"
+    },
+    {
+        "Bytes": 1175,
+        "BytesHuman": "1.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Filename": "DotZLib.build",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "b1aaa7c52472b3cb4bc9ffd50de23c4c",
+        "Sha1Hash": "6f87ba12d786feca35738d0e9ce1f0f03f292881",
+        "Sha256Hash": "b96137097669644ecb9f42cdd3399d1fce9c512788374609303f7e50abf597f0"
+    },
+    {
+        "Bytes": 72726,
+        "BytesHuman": "71K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Filename": "DotZLib.chm",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "87982cfd077364bc596aecebb7668297",
+        "Sha1Hash": "a1245c21c7e918fa2919fd10bbe5604fc81faf49",
+        "Sha256Hash": "20d0e3edd57f849143255a7f0df1cd59d41db464a72c0d5ab42846438a729579"
+    },
+    {
+        "Bytes": 907,
+        "BytesHuman": "907B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Filename": "DotZLib.sln",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "46821b590c4a11eab8409b1d3f1c6fca",
+        "Sha1Hash": "4946bdb71b79bff62f9217802b7524010c669408",
+        "Sha256Hash": "a979198c5b8d144c1ac8f993bfb6f4085d135aa58ca9dcf63ebabf52b5c695f7"
+    },
+    {
+        "Bytes": 2500,
+        "BytesHuman": "2.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "AssemblyInfo.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "23d0d7c18846fc31655b6aa89b7c8038",
+        "Sha1Hash": "9f1db1177b2e9a014f72bb3cd80be17133e06d16",
+        "Sha256Hash": "314afcfb339ea95f5431047b7ab24631b11c3532c7ce5dc2094ed0cf80a7c16d"
+    },
+    {
+        "Bytes": 8040,
+        "BytesHuman": "7.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "ChecksumImpl.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "d01b3cb2e75da9b15f05b92b42f6bd33",
+        "Sha1Hash": "3807a0e24a57b92ea301559cab7307b8eab52c51",
+        "Sha256Hash": "e7c047a2c3bcf88d3d002ee3d2d05af414acf53cb4451efacc0f2e95a474ea0f"
+    },
+    {
+        "Bytes": 2246,
+        "BytesHuman": "2.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "CircularBuffer.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "0f21c8a8e81b9409c3cc82200210b977",
+        "Sha1Hash": "1e646570737b175729a916da13b23fe88fcbd0e8",
+        "Sha256Hash": "be84c9736fe7bdc2bfae70466d8fff582504e928d5b5e110fd758090090c8cb7"
+    },
+    {
+        "Bytes": 6335,
+        "BytesHuman": "6.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "CodecBase.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "24dc08da7a2f4ae283334414effe4342",
+        "Sha1Hash": "2106c80ed4607f10400ceed9aa8f635efdea9345",
+        "Sha256Hash": "259bdda1b7d6052134e631fa24bfd9dca6e2362563496c8b85257b56c848908c"
+    },
+    {
+        "Bytes": 3992,
+        "BytesHuman": "3.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "Deflater.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "1fdc6f77f6fcf582ab011646db1b8080",
+        "Sha1Hash": "11f6bf695e4b8ddac0d8553640ef303d9b7cab72",
+        "Sha256Hash": "06ba6696a3c15c53ba5fd5a1c2bf50b51f217010228fc1e4c8495ee578f480de"
+    },
+    {
+        "Bytes": 9927,
+        "BytesHuman": "9.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "DotZLib.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "250192c134de2a3c9c1d11eaa490bce1",
+        "Sha1Hash": "e9c7c49791d38b49a39aab76f593b2ea229fa940",
+        "Sha256Hash": "9837fe993fd631233cc5e53ff084d86754b97f05ec77c54b0764c2706f186134"
+    },
+    {
+        "Bytes": 5396,
+        "BytesHuman": "5.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "DotZLib.csproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "1549ce82a2662e77a22625f68c0a5d36",
+        "Sha1Hash": "99238c2ad633a641687d722e8c80aaa0a8c8bdd2",
+        "Sha256Hash": "21606db31dfef6410dd438b73f1db68856eacabcce6c0f0411fc4f17e17001f3"
+    },
+    {
+        "Bytes": 11162,
+        "BytesHuman": "10.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "GZipStream.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "0c83e2409077960456b040ce13fa1fd4",
+        "Sha1Hash": "731206b5721b9a7be5a1cbc98e3cc969bd176b4b",
+        "Sha256Hash": "8d1de9755c77046b4ac71340a0a54434ebf4fd11b085c44454d7663a9b4df1c5"
+    },
+    {
+        "Bytes": 3740,
+        "BytesHuman": "3.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "Inflater.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "6071d8412268ff9765540c491a26de1a",
+        "Sha1Hash": "25f788ff0015c08fcd74d6e4552e01792c559350",
+        "Sha256Hash": "9016ca73818f5b6a28791abc3af6da7c4d2773b6a3804f593f6d5737a62b99ad"
+    },
+    {
+        "Bytes": 7685,
+        "BytesHuman": "7.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Filename": "UnitTests.cs",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "7bd54b47c37a88cc11c8e92c89be5a66",
+        "Sha1Hash": "8d35d4a5b28e472f5618185c295d1964c1459d07",
+        "Sha256Hash": "ad66ac08de34d253e9615b96a745f3dfeda93f4a978d65d5d3ddb9d0d9b3e099"
+    },
+    {
+        "Bytes": 1359,
+        "BytesHuman": "1.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Filename": "LICENSE_1_0.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "81543b22c36f10d20ac9712f8d80ef8d",
+        "Sha1Hash": "892b34f7865d90a6f949f50d95e49625a10bc7f0",
+        "Sha256Hash": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+    },
+    {
+        "Bytes": 2358,
+        "BytesHuman": "2.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Filename": "readme.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSL-1.0",
+                "Percentage": 196
+            }
+        ],
+        "Md5Hash": "1f20f3168ee63d90de033edac2ce383c",
+        "Sha1Hash": "b1229b826f0096808628474538cea8fec2922a9b",
+        "Sha256Hash": "d04972a91b1563fb4b7acab4b9ff2b84e57368953cc0596d5f5ea17d97315fd0"
+    },
+    {
+        "Bytes": 16413,
+        "BytesHuman": "16K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/gcc_gvmat64",
+        "Filename": "gvmat64.S",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "5e772d7302475e5473d0c4c57b9861e8",
+        "Sha1Hash": "742603cba1af98a1432cc02efb019b1a5760adf2",
+        "Sha256Hash": "22ff411b8b1d1b04aeaa8418b68245400267dc43c6f44104f6ccd37f0daee89f"
+    },
+    {
+        "Bytes": 51,
+        "BytesHuman": "51B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Filename": "README",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "84ff1d06483d3da2af928cddcab88a1b",
+        "Sha1Hash": "b3905a8a31f7c61114b5fa6e203682b250e029d6",
+        "Sha256Hash": "890288f02bb3b1f9cc654b87a07fcea695f90f6b9bd672d25bf6be1da2ec1688"
+    },
+    {
+        "Bytes": 21629,
+        "BytesHuman": "21.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Filename": "infback9.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "23ff5edec0817da303cb1294c1e4205c",
+        "Sha1Hash": "17fb362c03755b12f2dda5b12a68cf38162674bd",
+        "Sha256Hash": "0a715c85a1ce3bb8b5a18d60941ffabc0186a886bcc66ba2ee0c4115a8e274e9"
+    },
+    {
+        "Bytes": 1594,
+        "BytesHuman": "1.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Filename": "infback9.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "52b1ed99960d3ed7ed60cd20295e64a8",
+        "Sha1Hash": "d0486a32b558dcaceded5f0746fad62e680a4734",
+        "Sha256Hash": "dda2302f28157fe43a6143f84802af1740393572c2766559593996fd7a5a3245"
+    },
+    {
+        "Bytes": 6599,
+        "BytesHuman": "6.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Filename": "inffix9.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "1558f49aeca6376b7aa331add59e0e06",
+        "Sha1Hash": "7a57a5901d920d1d3fcf4f8d6bedf8c9c68b41a7",
+        "Sha256Hash": "84a2ba4727767c18af6505f0e81d9c814489c8b9ed330a25dad433db72997e43"
+    },
+    {
+        "Bytes": 1991,
+        "BytesHuman": "1.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Filename": "inflate9.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "8a4de1bca6c4182d025ea55062d125d9",
+        "Sha1Hash": "c7541490d97f70268010ae1baeb98a10302f3df8",
+        "Sha256Hash": "32a907676cc36e27d0fdc0d99adb83a0b23f20ab61896269216d40fecf08d349"
+    },
+    {
+        "Bytes": 13406,
+        "BytesHuman": "13.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Filename": "inftree9.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "24ad6e3224225202cc5d359440c2f4d9",
+        "Sha1Hash": "2729fd3758fb3eb6e84ec51d1c118bd5888ee874",
+        "Sha256Hash": "0c7f10396703b230c504207fe1595a2f2f8ba9c43158c4bd79d5b22ca36e04e0"
+    },
+    {
+        "Bytes": 2901,
+        "BytesHuman": "2.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Filename": "inftree9.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "be5cf855a19b76feb28468e5b46145b7",
+        "Sha1Hash": "cfb5d10e9b79029c758cf0428875f9cffa9d6cdf",
+        "Sha256Hash": "8ae61d52e50d2dbdb0378548ecc54fcd88f108c8b6fc30562a3ebec1ca6a599e"
+    },
+    {
+        "Bytes": 40608,
+        "BytesHuman": "39.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/inflate86",
+        "Filename": "inffas86.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "06aaf02bb8b5a73503774d78760b191f",
+        "Sha1Hash": "d9dfc1538fb2bf1daef2fec42e68472ede564abc",
+        "Sha256Hash": "6f266f3c7e0faca653256d0189c0f00d7dc0b062d02e25df4e1202e49369595c"
+    },
+    {
+        "Bytes": 42842,
+        "BytesHuman": "41.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/inflate86",
+        "Filename": "inffast.S",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "56cc7e752a85f9d6489892aad226976b",
+        "Sha1Hash": "e5c30f2fc07023d7024571c9882383236d2a1cb0",
+        "Sha256Hash": "70777bd21526680005fc34f086d108af49e2668ad86d1749e8e8100a81bfb288"
+    },
+    {
+        "Bytes": 526,
+        "BytesHuman": "526B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream",
+        "Filename": "test.cpp",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a20e40dae1e8b28ef2ec9ed98fdc8a03",
+        "Sha1Hash": "0074186cc98585f48eb8d18c2be887955238b741",
+        "Sha256Hash": "0f3c77e013949eb9c91e6b690ea894e19d97944d6b0885b82806fc3ad99680cf"
+    },
+    {
+        "Bytes": 5112,
+        "BytesHuman": "5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream",
+        "Filename": "zfstream.cpp",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a73c28679044fdf0a8057c5193db8da0",
+        "Sha1Hash": "a8f677a8e32a4923a8a57c61e60ecb899eca5cab",
+        "Sha256Hash": "8ebb9b3d521cc3392953f27658cf1f6dcb763216079f69a1518ec5ca0e42a63b"
+    },
+    {
+        "Bytes": 2467,
+        "BytesHuman": "2.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream",
+        "Filename": "zfstream.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "93f90ecc4d5299d820c3da08f7c7e7d2",
+        "Sha1Hash": "57f03c37ca952cec5e58c827995365c18c728285",
+        "Sha256Hash": "4369c35e66f63f52ca4a5e1759bf720507ccabb8f3f132e2f18e68686c812401"
+    },
+    {
+        "Bytes": 9283,
+        "BytesHuman": "9.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream2",
+        "Filename": "zstream.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a980b61c1e8be68d5cdb1236ba6b43e7",
+        "Sha1Hash": "fca4540d490fff36bb90fd801cf9cd8fc695bb17",
+        "Sha256Hash": "d0343e0c57ff58008b6f29643d289c72713aa2d653fe3dcd2e939fc77e7e20b6"
+    },
+    {
+        "Bytes": 711,
+        "BytesHuman": "711B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream2",
+        "Filename": "zstream_test.cpp",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "d32476bde4e6d5f889092fdff6f8cdb0",
+        "Sha1Hash": "e18a6d55cbbd8b832f8d795530553467e5c74fcf",
+        "Sha256Hash": "f789df183cc58b78751985466380c656308490a9036eb48a7ef79704c3d3f229"
+    },
+    {
+        "Bytes": 1490,
+        "BytesHuman": "1.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Filename": "README",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7ec7295bc3b6fe132dba702e0f1f8892",
+        "Sha1Hash": "d4a3dfd7a48721d6e7d12da226855bab19f6e8c1",
+        "Sha256Hash": "43ec48ecbd95a8c45db20b107fac73b740bb11595a4737329188f06b713972cc"
+    },
+    {
+        "Bytes": 491,
+        "BytesHuman": "491B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Filename": "TODO",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "06be56f0740f2a8dd9b9e04824709ad8",
+        "Sha1Hash": "c40d91b8e4051c4fac646e0213dee173e207bcee",
+        "Sha256Hash": "af5ebc83fb88f69706c8af896733784753dead147687e1c046f410c0997fd88b"
+    },
+    {
+        "Bytes": 1490,
+        "BytesHuman": "1.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Filename": "test.cc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "8e843c6f8614b260b153091edf9af3ec",
+        "Sha1Hash": "b81342fb774937c210f5718ad5783f1eed13f7a7",
+        "Sha256Hash": "8e17fc48dfdbc6e268838b8b427491b5843b6d18bc97caa6924de9fad7abe3da"
+    },
+    {
+        "Bytes": 13447,
+        "BytesHuman": "13.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Filename": "zfstream.cc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "dda5e85498fe3936fabd955b5504c74e",
+        "Sha1Hash": "19b83e921e89a638ebf978ca2beea7aefd78f9c2",
+        "Sha256Hash": "8cdd67ed0b13c192c11e5ea90e9d5782d6627eb303fbc4aa5ebda2531ec00ff8"
+    },
+    {
+        "Bytes": 12240,
+        "BytesHuman": "12K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Filename": "zfstream.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "938f58c179fabf6ff9ffb85395ada81f",
+        "Sha1Hash": "351a3f5bfb93196701cc86b27db866a18ca54105",
+        "Sha256Hash": "1bd74778fac45ee090dfc0f182a23e8a849152deb630606884b2635987b357b1"
+    },
+    {
+        "Bytes": 86,
+        "BytesHuman": "86B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Filename": "bld_ml64.bat",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "94027d9beeb5a59503ac3978f9999e90",
+        "Sha1Hash": "1d723acf46ecfb6e16922ea55309cee9c77b9d49",
+        "Sha256Hash": "1c0561908a07ebdff271b12ed757241e1813d3db0f3551501b2595c23f0833aa"
+    },
+    {
+        "Bytes": 16443,
+        "BytesHuman": "16.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Filename": "gvmat64.asm",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "43cb3b368ada48e0ca4608ddb7df69e6",
+        "Sha1Hash": "3c72c7b7f6c82e72b25a700eebccd0a987e7ba7b",
+        "Sha256Hash": "390c1e6d63cb615b5ba042842738953f9cdc688b2fe35aaca981fd3fae213f3f"
+    },
+    {
+        "Bytes": 7577,
+        "BytesHuman": "7.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Filename": "inffas8664.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "755094d8835608c4652ca43a44af47ec",
+        "Sha1Hash": "a179f3e1a04b5db58eaf6fcc473567794e0391f8",
+        "Sha256Hash": "f6c585e43e6e524107566b1f10104949d0ef902159ac8203e1d98e50d4bedd62"
+    },
+    {
+        "Bytes": 10583,
+        "BytesHuman": "10.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Filename": "inffasx64.asm",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "9a1aeac37f1a15c0ef1fd68f10d24b3d",
+        "Sha1Hash": "249b0329964e35481e8e6217220f474e3076d35a",
+        "Sha256Hash": "8448d0041fe6e8f4188fe5916181a1b274c6d35d75cfb28da60cf4f1edde44ec"
+    },
+    {
+        "Bytes": 1237,
+        "BytesHuman": "1.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Filename": "readme.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "81c1080ed3661200c166e00394703f94",
+        "Sha1Hash": "3f2e049fdd6fc4c914a0d9a099dfe735cd0e3b86",
+        "Sha256Hash": "9bb66b5028100855683853f12da0be479c7bccf74365fdbf37da2542edff9927"
+    },
+    {
+        "Bytes": 92,
+        "BytesHuman": "92B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Filename": "bld_ml32.bat",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b71c12c57e5a63630a759e728e92668e",
+        "Sha1Hash": "d2bcdd2fcb5e43ee260f510c25cf2b98318e9b0c",
+        "Sha256Hash": "b0b05b62715d4a81a7db5b7ca4a372d109ec95634c9d3bef9e0041ff52de22fc"
+    },
+    {
+        "Bytes": 16392,
+        "BytesHuman": "16K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Filename": "inffas32.asm",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "65a7df71a9aa477681e9559c779db941",
+        "Sha1Hash": "6f42ac182d48c31346bb6dc04ab74f85157eb0b9",
+        "Sha256Hash": "78d2cc88f8ed0e32ef960efc987c257bc1688afe7d031a8ba18761e95a6a7c3f"
+    },
+    {
+        "Bytes": 15825,
+        "BytesHuman": "15.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Filename": "match686.asm",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "84c3c6d7025dfd97ad53b9dd93768f54",
+        "Sha1Hash": "34529073d91211b48f2d8d6cad58202f50cb2047",
+        "Sha256Hash": "9e9bea3b5517b089da7d39caded07982746a33f94f0907ca7e8afefed7be36b6"
+    },
+    {
+        "Bytes": 873,
+        "BytesHuman": "873B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Filename": "readme.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a809d4d52fc0a9d792b0d4e3c557836c",
+        "Sha1Hash": "287dd9febd8dc4b56b07ca84e4cfcf90d21dc09d",
+        "Sha256Hash": "1f29a04e0227b74e20ba1b7c764b3ca5bf596dd2c06e89bc19a05fb8f9689778"
+    },
+    {
+        "Bytes": 457,
+        "BytesHuman": "457B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "Makefile",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "064c9424ffab4af58c685140bb0fc3a0",
+        "Sha1Hash": "b1b85a0f99bf296c58326a80bc0bf220080778cd",
+        "Sha256Hash": "087034de3dc0223b29e64bb3a4fc3eda7b948e93d2a9ff154aecf9fed2a1eb5b"
+    },
+    {
+        "Bytes": 818,
+        "BytesHuman": "818B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "Makefile.am",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "3a50713bdffd399cba168843314850f4",
+        "Sha1Hash": "f978d26b0069ef66a560bcba8fd204ed70026f2a",
+        "Sha256Hash": "2313a3480a2c3745fa7ce216829cd0367058907d3a0902e5832c66c84a2fdfc6"
+    },
+    {
+        "Bytes": 109,
+        "BytesHuman": "109B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "MiniZip64_Changes.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "ec302a2b5e19af31263ce77260dd49d0",
+        "Sha1Hash": "cb10d2af06d59532c6d462ab0dbd2b79c55a5834",
+        "Sha256Hash": "302c62b328647f5472fb7755249a83459be7f8ffb1fae07e8ba318fce8f4126c"
+    },
+    {
+        "Bytes": 3048,
+        "BytesHuman": "3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "MiniZip64_info.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 74
+            },
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 52
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "ab61e7d58c5c7114a6c531ce36ccc3e5",
+        "Sha1Hash": "e1f5511bbdf9715bb2f18e4d24924cca3275fb24",
+        "Sha256Hash": "122719c32ef1763a5f6ba9c8cdefc1d78a76f7156b09e7b6f69b73f968e0dac3"
+    },
+    {
+        "Bytes": 787,
+        "BytesHuman": "787B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "configure.ac",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "41b1495a0615dc17dbc5f4c74941fc63",
+        "Sha1Hash": "9f3a1689b5b848b0b21035783601b97155a0a691",
+        "Sha256Hash": "35330dc0c6188127afd339829d91b19739d23bf3b7301bfb04f775a6fcbbdad7"
+    },
+    {
+        "Bytes": 4735,
+        "BytesHuman": "4.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "crypt.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "6e72c46776f0db175ec8f15144a3c250",
+        "Sha1Hash": "94f289e1b0403b01289b10c6b32ed7d1471fa0ca",
+        "Sha256Hash": "8e872b60255b8447da99885c7159c2e1f1bb8143523bdbe71784e60f98bfd67b"
+    },
+    {
+        "Bytes": 8225,
+        "BytesHuman": "8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "ioapi.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e8a6cc43207a37d631d9e90bbec6e6ed",
+        "Sha1Hash": "2846a21ba725da90aa3a67024d8107daa793f5f7",
+        "Sha256Hash": "66b39c27042f6ad12cc12efb0c82cdf100c6640b5fa959b8b866e252966113a9"
+    },
+    {
+        "Bytes": 7051,
+        "BytesHuman": "6.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "ioapi.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7d6c0585719ba47fd356795801befc6d",
+        "Sha1Hash": "e71518ae9f172eab44a2d8f52b3f80b0552070d5",
+        "Sha256Hash": "8655408534b78dc0889a45f9359fc6d2d5c8e8d8443b81ede596f954c720ef48"
+    },
+    {
+        "Bytes": 14223,
+        "BytesHuman": "13.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "iowin32.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "840ce05a6f75ee1683460b9873b120b6",
+        "Sha1Hash": "ca25851a0d1dfc989aceb2461dd2d5ec88649b8d",
+        "Sha256Hash": "2c05bc374d3d847c6a9f29eac9d674abba7659d1e91e34e172248fcb5c274d51"
+    },
+    {
+        "Bytes": 851,
+        "BytesHuman": "851B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "iowin32.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "818e2950cc00d787eaa9b710007dc53f",
+        "Sha1Hash": "4fedf239afafc20e420c5fec678dba91c1dd0074",
+        "Sha256Hash": "586f22b9c3c64da253ce2b518e0fad61f19a7b47b289fc704cc9708242294c49"
+    },
+    {
+        "Bytes": 901,
+        "BytesHuman": "901B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "make_vms.com",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7db484a6aa910e703838859f33867d02",
+        "Sha1Hash": "79d9e7c5d124fbcf79bff4509b51c09600b33a34",
+        "Sha256Hash": "65736d9c4888f2373d3db0a13864d150c5040453f5bc2a5c8784379a7ea67590"
+    },
+    {
+        "Bytes": 17763,
+        "BytesHuman": "17.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "miniunz.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "254fe0695464d4cbbaa1fdc0c83c6a3c",
+        "Sha1Hash": "54e7b5392ee6600c91c9c423561941a571aaf715",
+        "Sha256Hash": "ced49f20c62536a8ffb270b35cfa4994a1dcdce45f8cf059b941c94ca0022666"
+    },
+    {
+        "Bytes": 1861,
+        "BytesHuman": "1.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "miniunzip.1",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "1f4ccb34373f0b46ae4fa7f3c731ae3b",
+        "Sha1Hash": "e925714d46251f192d3266ef4a4cb64d292eb787",
+        "Sha256Hash": "66d8684392167091ef0fe01598d6a0daa26e7e448e2df6c3cb257487735b83f7"
+    },
+    {
+        "Bytes": 1462,
+        "BytesHuman": "1.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "minizip.1",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c7758789cc7e9e99f07d0e758475ea28",
+        "Sha1Hash": "17a13c717cd030c037a407f59d0d14d2c25e4e05",
+        "Sha256Hash": "5404596e8e5587a52f563906119f32ceee30a6d97a966afa5c7afbe4d373e210"
+    },
+    {
+        "Bytes": 15034,
+        "BytesHuman": "14.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "minizip.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e2a4a0c1cad4ceb1f77fb3b7e813bb35",
+        "Sha1Hash": "f47c6866b347bfff1a54c680b6c393d7c02e1d8d",
+        "Sha256Hash": "fdfcf83979ef2324c1455d369e8add8678c804939d412ce53f8b024578ceabad"
+    },
+    {
+        "Bytes": 263,
+        "BytesHuman": "263B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "minizip.pc.in",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "bcbe781316bdbd05584063176b90d672",
+        "Sha1Hash": "6a19e706e976d4e7b300d7ae294973fa8278ab14",
+        "Sha256Hash": "8b6670b42d8e5e519e1cc89db093efc07ba23cb1ddfedd3c93ff2df08c3ce8ac"
+    },
+    {
+        "Bytes": 8146,
+        "BytesHuman": "8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "mztools.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "174c6f2a32dad5023616fc45855d8c59",
+        "Sha1Hash": "0f6dad6443b0f347ac6b17563014f50c7b4fd17f",
+        "Sha256Hash": "cd887c4af6d20823bd15f24008b10acf01969b4165d7848656bde843a92428d7"
+    },
+    {
+        "Bytes": 708,
+        "BytesHuman": "708B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "mztools.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7caac7503f8f002d61e0f0e5b7f33bc6",
+        "Sha1Hash": "907243f7cea46d38ad12f6a6d6e01adb4d74f1b3",
+        "Sha256Hash": "6f82c52279e8f79165f4446be652e5741a49992ac58632470335aa34c564072a"
+    },
+    {
+        "Bytes": 71055,
+        "BytesHuman": "69.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "unzip.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e6ee69414e1309f0669ae661ca56a7b3",
+        "Sha1Hash": "279d344d1b214a74bc98409dffb69047e6887220",
+        "Sha256Hash": "497adf676b1cae2a7afa834e4aba86383f7b697f5fdd03a8179ea9024a431cf9"
+    },
+    {
+        "Bytes": 16352,
+        "BytesHuman": "16K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "unzip.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "11ae6a9d654c95c47da55fe16772a1e5",
+        "Sha1Hash": "4236476513b299f00f9637f7ad3e3631ebdec2b9",
+        "Sha256Hash": "d8dc58fc0121b6a4b98f3028205bb253f956b1ddf791e9ced3cf44892502a01f"
+    },
+    {
+        "Bytes": 65842,
+        "BytesHuman": "64.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "zip.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "4fb98be7d5558dd0e8bb210c18f2ba1e",
+        "Sha1Hash": "885d9e822859c3b6a6f0656e3d0c8c97af6f6fe7",
+        "Sha256Hash": "00f403cb7810578b4b2687dd55fb132c850c3630fba2f3704a8ab896fcc8209a"
+    },
+    {
+        "Bytes": 15366,
+        "BytesHuman": "15K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Filename": "zip.h",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e1495f151b00503a64aae7b375cc3b80",
+        "Sha1Hash": "8cef828db4766401b91bec9b47ca56a3118705fc",
+        "Sha256Hash": "96163fc140e4bf08752e014d20a1eac3f5adcdc408366f6d79c1895f2599cf08"
+    },
+    {
+        "Bytes": 15687,
+        "BytesHuman": "15.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Filename": "example.pas",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "Md5Hash": "6e41517081b62c5045e67146c2b5c3ec",
+        "Sha1Hash": "51c42c32667ef6fc0b4b51867afac971fe11c15c",
+        "Sha256Hash": "d842d456ecb6ff80e34cee2da31deb2072cc69ca837497bea8b8bee203403474"
+    },
+    {
+        "Bytes": 3004,
+        "BytesHuman": "2.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Filename": "readme.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "Md5Hash": "6f8616a2ea8e227457c9f191b4c71018",
+        "Sha1Hash": "c47cc3ccdb450bd0d3d1d0e6f52746a2c0ca8541",
+        "Sha256Hash": "02f997c37991ddae0cb986039f7b4f6fc816b3fd0ffd332cad371d04c12cf1b9"
+    },
+    {
+        "Bytes": 2360,
+        "BytesHuman": "2.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Filename": "zlibd32.mak",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "Md5Hash": "b2cc80e48f2aa69be40b6f52ba3480c4",
+        "Sha1Hash": "ddf83b34d4c7d41ace39f96b5cb13fb390c8d2eb",
+        "Sha256Hash": "850e91b6c9ea05de61a411cbda16fa0f10118cd88bb32c4b7226988776f8d511"
+    },
+    {
+        "Bytes": 10127,
+        "BytesHuman": "9.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Filename": "zlibpas.pas",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "bzip2-1.0.5",
+                "Percentage": 72
+            }
+        ],
+        "Md5Hash": "026e00db1f7988e09ba4b6069adc3957",
+        "Sha1Hash": "6366310dff32cfb18b9e950f8c530304a9fd83fa",
+        "Sha256Hash": "28b90aeeb3da8d1f6a98ab9f5f1603d08aba5bfabc50827d3f15e661268a51cf"
+    },
+    {
+        "Bytes": 1899,
+        "BytesHuman": "1.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Filename": "Makefile",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "82987a599277217cedc2ff78b2c3a63d",
+        "Sha1Hash": "6c9c12d0e19be923abf86e2584a23a781d81cb06",
+        "Sha256Hash": "d9d738030464aaae354196c14fd928adf591832fce7d71ac1977c1d8d4923a4b"
+    },
+    {
+        "Bytes": 3076,
+        "BytesHuman": "3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Filename": "README",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "948659135181da512e6c37dd759d142d",
+        "Sha1Hash": "8f68ce02019463af0813a0db20c98bfc8e3c2ef7",
+        "Sha256Hash": "aceca4bc1bce7d9445b8bc9b6640c672d95708185f6070d3a3baae7a9d102caf"
+    },
+    {
+        "Bytes": 37883,
+        "BytesHuman": "37K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Filename": "puff.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b34af8b5903cf6dcd5c9e665cfed84e1",
+        "Sha1Hash": "3c31e70c07929fabd5b3454ad8da39e8492633f6",
+        "Sha256Hash": "6d0eef92e115a42e570b79d8b07a04af5ccbd6b3f3fbca9cbc61c49db9c9df43"
+    },
+    {
+        "Bytes": 1415,
+        "BytesHuman": "1.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Filename": "puff.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Zlib",
+                "Percentage": 151
+            },
+            {
+                "LicenseId": "Cube",
+                "Percentage": 128
+            },
+            {
+                "LicenseId": "zlib-acknowledgement",
+                "Percentage": 121
+            },
+            {
+                "LicenseId": "Nunit",
+                "Percentage": 118
+            },
+            {
+                "LicenseId": "Eurosym",
+                "Percentage": 116
+            },
+            {
+                "LicenseId": "Spencer-94",
+                "Percentage": 71
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7ecbeeb67e09a843961187673974f86d",
+        "Sha1Hash": "ce8b988a404446fc8558b198d3cfeabcad6d16c5",
+        "Sha256Hash": "969b7be2a930db0cdcb19b0e5b29ae6741f5a8f663b6dba6d647e12ec60cfa8e"
+    },
+    {
+        "Bytes": 4917,
+        "BytesHuman": "4.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Filename": "pufftest.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "897a1a43df17f320444e8d386fecf1c0",
+        "Sha1Hash": "e2318f2de8c7355385dca2c9d9422500f4927fc8",
+        "Sha256Hash": "8ee0da78a1221a3c2036e22eed06c2faa27a671a46565a60e10111d4ee9c30ee"
+    },
+    {
+        "Bytes": 2517,
+        "BytesHuman": "2.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Filename": "zeros.raw",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "ae1471955182e98038420cdd6a4ad028",
+        "Sha1Hash": "2477f0a2d20cfc6272b91fa36d45c90dcda386ab",
+        "Sha256Hash": "b7b0887089f7af1f6d1e0b4c0a1e8eddd10223b23554299455c6c9be71b653a3"
+    },
+    {
+        "Bytes": 7643,
+        "BytesHuman": "7.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/testzlib",
+        "Filename": "testzlib.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "9e59472f7750d8d727a5cbdf94d8ce2b",
+        "Sha1Hash": "6833222dcd2b5ee1c7241f00efa6edfde4991ffa",
+        "Sha256Hash": "c6c37b35c6ecc9986a9041f86d879cc37a9e4d8315af9d725071eb3b2cade0c5"
+    },
+    {
+        "Bytes": 205,
+        "BytesHuman": "205B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/testzlib",
+        "Filename": "testzlib.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "9fc09497cd386635010c5b665cac77b4",
+        "Sha1Hash": "89f8964acc535861273f1f156a24ed2ac4cfa37a",
+        "Sha256Hash": "2359bbdc84eb8a04e0f1cd16cd81a2896e957f2ad58dab3ca78ef55b7d0dc577"
+    },
+    {
+        "Bytes": 234,
+        "BytesHuman": "234B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/untgz",
+        "Filename": "Makefile",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "45070687ecca4a8953f666b91a4b54f4",
+        "Sha1Hash": "b31cf680ad6e873da3c897c6b123a5fde4cd5151",
+        "Sha256Hash": "8f5ab1564813e091cea8f1bb63da32fd80ac763d029277b0cabf50f60aceefe1"
+    },
+    {
+        "Bytes": 281,
+        "BytesHuman": "281B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/untgz",
+        "Filename": "Makefile.msc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "d3be2a78c4fd759d1578b6d91f8430c1",
+        "Sha1Hash": "3d3a312c38dd7e3316ddb553e894734f42d28205",
+        "Sha256Hash": "d0f537de11d9e0e36e2a98b3971c537265f4b533b4c48797094365ad9ae8388b"
+    },
+    {
+        "Bytes": 16542,
+        "BytesHuman": "16.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/untgz",
+        "Filename": "untgz.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "1ff457742eb3588db60fd059d56a5dd5",
+        "Sha1Hash": "260f16a4110f43071b376af97c4119f5ecf902af",
+        "Sha256Hash": "9a12d774301d252dcd38bba07ac369319da4c04c4fef8a50fcbf40aebf29c2a1"
+    },
+    {
+        "Bytes": 3109,
+        "BytesHuman": "3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio",
+        "Filename": "readme.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "59ccc97a1d79963cdec10a7005f21133",
+        "Sha1Hash": "066affe7fd1e8a9e54ef08d63abee644bb821c03",
+        "Sha256Hash": "2a9ca40b68274f4d37649dfab9e5e867a000883592b4ab8fdaec8425a63052c3"
+    },
+    {
+        "Bytes": 18969,
+        "BytesHuman": "18.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "miniunz.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "fa427177a54ab86e4b126116f34ecf8a",
+        "Sha1Hash": "70048ae1ef9a404d49ae943878fd30ddee54c121",
+        "Sha256Hash": "dd607d43c64581172c20c22112821924dfe862f56b2e5eb8780bdd0714d9527b"
+    },
+    {
+        "Bytes": 921,
+        "BytesHuman": "921B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "miniunz.vcxproj.filters",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "048091db0ef98c95b4674d4d4a46c964",
+        "Sha1Hash": "320d0a38475bbfe13314956d0ac7927cb7d1f975",
+        "Sha256Hash": "c3db9f97952683e688ad83c13bb94c816ac3e6b5f277fdea545b0650c125aa6d"
+    },
+    {
+        "Bytes": 18549,
+        "BytesHuman": "18.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "minizip.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "5b6ea18f33d45f32c7c52f9b63c56d73",
+        "Sha1Hash": "530a1f4869bfa4cedf0f878fff4480535bd5b1bf",
+        "Sha256Hash": "af73f2cf8ae51e65e85342faeb40849a2310c97bc77def42b38d7070460a6cf0"
+    },
+    {
+        "Bytes": 921,
+        "BytesHuman": "921B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "minizip.vcxproj.filters",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "72131998544b1d1ce5c35fff7ae69db0",
+        "Sha1Hash": "21845c87ed7730c73605e936de851eaa23222f30",
+        "Sha256Hash": "83db58d87f5d7ca84b6087aa1f62b15cbc296194c8cf76e47a271f9077b4f3bd"
+    },
+    {
+        "Bytes": 27312,
+        "BytesHuman": "26.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "testzlib.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "0879c03e97afa7051526dd972718b475",
+        "Sha1Hash": "da5c9e1922fa655c534811676563df7c31fb36a7",
+        "Sha256Hash": "1525ed0893db56db44ec68675c8da3c229dc7867166dfc0428816783d16ad43b"
+    },
+    {
+        "Bytes": 2139,
+        "BytesHuman": "2.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "testzlib.vcxproj.filters",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "02632e0bdde13c80630d75ad130af599",
+        "Sha1Hash": "76e2f85e212116be3a0142703c2d68b09b9b79d3",
+        "Sha256Hash": "d7e04ffa467d417dfa3c0f1c64234cadc84882101bbae483f0a0f5d3d6b566a7"
+    },
+    {
+        "Bytes": 19022,
+        "BytesHuman": "18.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "testzlibdll.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e6abb2e275cb6d056b0b49ffca125fc4",
+        "Sha1Hash": "d3a849fce0bca235516932604c5c9bcbd2fce125",
+        "Sha256Hash": "3f317d8964f17901c3e68bff5deaec10b6ccc50a572235999e8097292692984c"
+    },
+    {
+        "Bytes": 923,
+        "BytesHuman": "923B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "testzlibdll.vcxproj.filters",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "35e42b8be068e38e6642a3bde8d20299",
+        "Sha1Hash": "d14872425639811364dc265fce04045bcdb11ead",
+        "Sha256Hash": "682a485f0184aabba94e12e1b284499195f37c176d43ecee0484f31e4d636f6f"
+    },
+    {
+        "Bytes": 957,
+        "BytesHuman": "957B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "zlib.rc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7e770b6d4d11f5a912458d5f5cd8e7b8",
+        "Sha1Hash": "e67b5d0e28bda140346388d087b2c13cf7680a1f",
+        "Sha256Hash": "e8b581eb16930e0213d37143a5f17868839b22c758b23981a29484e17093c494"
+    },
+    {
+        "Bytes": 28012,
+        "BytesHuman": "27.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "zlibstat.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "002fa9b3f7f92ca6c8558474d291df19",
+        "Sha1Hash": "2dfa4c3f4422c58c7e8d142c7fc9c4c11191f705",
+        "Sha256Hash": "2a38222d6c034d7e0b843c3f0540dc6c53dd48f942ae29f31620ca0327248c8e"
+    },
+    {
+        "Bytes": 2514,
+        "BytesHuman": "2.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "zlibstat.vcxproj.filters",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "fa684ecb9b7ddd26f01523bce078b18f",
+        "Sha1Hash": "e9fa98820edf15ae1eedc2101f30c3cef2d935e8",
+        "Sha256Hash": "d9a2c381e51e4d6f027f3517db7db81656e43cec02ed9abf267a0fde6f360180"
+    },
+    {
+        "Bytes": 7211,
+        "BytesHuman": "7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "zlibvc.def",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2271100b7757c4693b11cf0774e4db5e",
+        "Sha1Hash": "e869e83b39cc26f7323352081f777b3e72a53c93",
+        "Sha256Hash": "0124fea28bfee49c8a19dad0ed5a49277d451018b4affda5a389e64ad15f44d7"
+    },
+    {
+        "Bytes": 10153,
+        "BytesHuman": "9.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "zlibvc.sln",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "0346af46dff2a59b22e51aaf67930201",
+        "Sha1Hash": "4f2ed833f8ff01bdfb27c65d88de1957aea598d3",
+        "Sha256Hash": "e659860f705f31b87ea9139a3cb4ebe1561e120bce495383a54614fc82b49990"
+    },
+    {
+        "Bytes": 40243,
+        "BytesHuman": "39.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "zlibvc.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "ca5ae9c4b8558f8c4d303b46e694a8f2",
+        "Sha1Hash": "ae00729a7c8f1041498b6fe354aff1713c7fe325",
+        "Sha256Hash": "3108badf710e2f4a64eab4e7deae6642fb68cc0d94018e537149f1761e215133"
+    },
+    {
+        "Bytes": 4039,
+        "BytesHuman": "3.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Filename": "zlibvc.vcxproj.filters",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "16267b153514d3f39d1b7c48527372ee",
+        "Sha1Hash": "79d4ef79d8a67a831264e1542d13070619c6eade",
+        "Sha256Hash": "58404ba7703c68025bec64b8a17ff1fc7f3a35d15d17ae3bcc4fa753f1348425"
+    },
+    {
+        "Bytes": 19150,
+        "BytesHuman": "18.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "miniunz.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "86f17e0090299a0470d5ee59073406db",
+        "Sha1Hash": "1b465b8db5b2651282cc0da57a27f76801a05cbc",
+        "Sha256Hash": "746e4c11fb8af4bcd6a9d68ba81ed1dc366a5de3bed56b291ee969ad733a7bb0"
+    },
+    {
+        "Bytes": 18730,
+        "BytesHuman": "18.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "minizip.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c4b2a63a1f59196dc1b105c89dcb4816",
+        "Sha1Hash": "eafb9f2fa4f89d876f3819e756799b69cb9b2e1a",
+        "Sha256Hash": "340617cae9cf4fcb003308021d3782ec3639e60d62d79a3aafc0a50bb55b061e"
+    },
+    {
+        "Bytes": 27583,
+        "BytesHuman": "26.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "testzlib.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "33a7b27fe1d9aec556781db0c4ecb5bc",
+        "Sha1Hash": "24acf8bef08c985c250f0eb555ad94f7e2f04846",
+        "Sha256Hash": "589eec6ef6d818564ead938a629fda50abb6cbf8054b9f66ea780765c1a1b3db"
+    },
+    {
+        "Bytes": 19203,
+        "BytesHuman": "18.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "testzlibdll.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "cd0082879b0e215569c605266a8afaa0",
+        "Sha1Hash": "9c4618693842092678ae885ff0a44139c1f6a4ac",
+        "Sha256Hash": "583bdef522b0176829f0d8139ea2a88b9cbc14379d1334f3a863989ed3df9b67"
+    },
+    {
+        "Bytes": 957,
+        "BytesHuman": "957B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "zlib.rc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7e770b6d4d11f5a912458d5f5cd8e7b8",
+        "Sha1Hash": "e67b5d0e28bda140346388d087b2c13cf7680a1f",
+        "Sha256Hash": "e8b581eb16930e0213d37143a5f17868839b22c758b23981a29484e17093c494"
+    },
+    {
+        "Bytes": 27927,
+        "BytesHuman": "27.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "zlibstat.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "68876762bd4a6a95a6caa2a9ea357de8",
+        "Sha1Hash": "223df1a7f2b79131c10230eb98d2112c93b9f977",
+        "Sha256Hash": "51aa752698d96df065a9ece02e293492f681b59a8077f036a5a60367dc621e87"
+    },
+    {
+        "Bytes": 7211,
+        "BytesHuman": "7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "zlibvc.def",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2271100b7757c4693b11cf0774e4db5e",
+        "Sha1Hash": "e869e83b39cc26f7323352081f777b3e72a53c93",
+        "Sha256Hash": "0124fea28bfee49c8a19dad0ed5a49277d451018b4affda5a389e64ad15f44d7"
+    },
+    {
+        "Bytes": 8539,
+        "BytesHuman": "8.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "zlibvc.sln",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "6f61e1b1973401a8d09a3883bc1d4ecd",
+        "Sha1Hash": "7fface057a73d5ad706203d3f6f1e37b59bce3b4",
+        "Sha256Hash": "27389b515997defd080519f95aff87e89fcbe8b26d73c5ebb73c544cfef4d60e"
+    },
+    {
+        "Bytes": 42016,
+        "BytesHuman": "41K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Filename": "zlibvc.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "67a8a72530d1797e2f4711115a19b3a2",
+        "Sha1Hash": "947f29a61b08c158a960687a75b548769a5e1d32",
+        "Sha256Hash": "c3dd05e56159aba411475b83656275872524cb3c2fd24d690397d8b634e7e0ed"
+    },
+    {
+        "Bytes": 18926,
+        "BytesHuman": "18.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "miniunz.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "71cfe0a7366431ef50ac350f898e0a61",
+        "Sha1Hash": "78d7b8fa17322e2be5d6e36a6b09515e489ba97e",
+        "Sha256Hash": "1494af54570f6e93852932956d49a8c25e57b5abc1ac979945605ca9143df9f8"
+    },
+    {
+        "Bytes": 18509,
+        "BytesHuman": "18.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "minizip.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "61959b86fba2f58c84bc9a441ad0cbe0",
+        "Sha1Hash": "701b614bbab070519b0837758c69aa0443804eb7",
+        "Sha256Hash": "9bf128ed6760ca5f019006f178b1c65f4c7ff122dba8d297b64b0eb72feeb120"
+    },
+    {
+        "Bytes": 27366,
+        "BytesHuman": "26.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "testzlib.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "fa8301e3d625a36575542248d14c94e3",
+        "Sha1Hash": "fec99dd6b063416ef0a48662adad3a421c1a049a",
+        "Sha256Hash": "367a06caa399bd09f6b9cb60706820943dd6a6cf05794275baaf421da9c2a0b7"
+    },
+    {
+        "Bytes": 18979,
+        "BytesHuman": "18.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "testzlibdll.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "d3121fbcce2ad9726a34ab2992c02b18",
+        "Sha1Hash": "0e1bb13edb71d4e1857aa02e1075742fa726490a",
+        "Sha256Hash": "93416510256935d79625dc9fd349cfce6968c062d42a138bec404a26b2f92f5e"
+    },
+    {
+        "Bytes": 925,
+        "BytesHuman": "925B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "zlib.rc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e3255b9ba8a2e6772034a7f2779547dd",
+        "Sha1Hash": "2d3f0ee9f7cc18feff62eb78f064f4b4f45415d9",
+        "Sha256Hash": "92d5d3a4938a6350395934153416a7eb74353cdfb2321f45b9ee0b9b16257f39"
+    },
+    {
+        "Bytes": 27597,
+        "BytesHuman": "27K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "zlibstat.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f34ae747f6d75f8417ffb70a71c102a3",
+        "Sha1Hash": "38e7d39967856e2a95661f9b5758d93085178d3d",
+        "Sha256Hash": "744ff6ac0d4e2dcdf74c7d33b979fbfd2b18550947eb99bfd46dc6a73eb1c68d"
+    },
+    {
+        "Bytes": 7211,
+        "BytesHuman": "7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "zlibvc.def",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2271100b7757c4693b11cf0774e4db5e",
+        "Sha1Hash": "e869e83b39cc26f7323352081f777b3e72a53c93",
+        "Sha256Hash": "0124fea28bfee49c8a19dad0ed5a49277d451018b4affda5a389e64ad15f44d7"
+    },
+    {
+        "Bytes": 8499,
+        "BytesHuman": "8.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "zlibvc.sln",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "ab4ae9b904012b1566ee5a307613d2aa",
+        "Sha1Hash": "17e1c07bb0a9d02fc3b1a1ec9c4b1d6c5f2ac0a4",
+        "Sha256Hash": "162e0faa80a56d89eea71a0b89377708eec2faa0dc72091cc0abb07fbdea49a0"
+    },
+    {
+        "Bytes": 41537,
+        "BytesHuman": "40.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Filename": "zlibvc.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "5b779ef8ec6c75419d1fee9a6ebaa954",
+        "Sha1Hash": "eca6032321210ba1df7f8743f9fc41c0ccaa1a02",
+        "Sha256Hash": "754671c59d8996a846241af76082cc8be1aa5fc079eff530d91a9ab15a0bee5b"
+    },
+    {
+        "Bytes": 18926,
+        "BytesHuman": "18.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "miniunz.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c1bf6aeed421962812df7bc8d9c42632",
+        "Sha1Hash": "453b68e1108b382b4d755c9b08a5af37f538d3ba",
+        "Sha256Hash": "0312511d4a30cea979c4e36edf994a537ed8a9d924f6b5c536cbcd094773c11f"
+    },
+    {
+        "Bytes": 18509,
+        "BytesHuman": "18.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "minizip.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "1f9392b57090712e57df751932b9cbe6",
+        "Sha1Hash": "f55c663c7ecaea0aa8c53523f887f680388c2cd1",
+        "Sha256Hash": "9e7bb7a6ac723e4b2db900627c366f9bb93a351381995d9c69a50c0126f64233"
+    },
+    {
+        "Bytes": 27366,
+        "BytesHuman": "26.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "testzlib.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b3fc89a41918b28d8757a1d25f0ce629",
+        "Sha1Hash": "3c61f30ff4ef922fd1c14484bb31c8e52e9b9305",
+        "Sha256Hash": "c3a9369670af4ebea13d036b452be7418591fbb4c03a675699facac5d8dff5d0"
+    },
+    {
+        "Bytes": 18979,
+        "BytesHuman": "18.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "testzlibdll.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b0e3975c1939940c9566847afc003a9c",
+        "Sha1Hash": "63b622b44827ded02a631bec50e4d1f772f4b799",
+        "Sha256Hash": "69f544898b4275cd3d8e19b8f1f8cb39c1cb98a30cdb033242e4b94c57bfa150"
+    },
+    {
+        "Bytes": 925,
+        "BytesHuman": "925B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "zlib.rc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "e3255b9ba8a2e6772034a7f2779547dd",
+        "Sha1Hash": "2d3f0ee9f7cc18feff62eb78f064f4b4f45415d9",
+        "Sha256Hash": "92d5d3a4938a6350395934153416a7eb74353cdfb2321f45b9ee0b9b16257f39"
+    },
+    {
+        "Bytes": 27597,
+        "BytesHuman": "27K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "zlibstat.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "efcc2393089500f1776f71fd5db5cc86",
+        "Sha1Hash": "20ee6f367909b5b555c0d76476049b21ec46c2f5",
+        "Sha256Hash": "9c7c096b47e7875412c98525efcd16db62e094215f0011b9cd739a33ab35d48c"
+    },
+    {
+        "Bytes": 7211,
+        "BytesHuman": "7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "zlibvc.def",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2271100b7757c4693b11cf0774e4db5e",
+        "Sha1Hash": "e869e83b39cc26f7323352081f777b3e72a53c93",
+        "Sha256Hash": "0124fea28bfee49c8a19dad0ed5a49277d451018b4affda5a389e64ad15f44d7"
+    },
+    {
+        "Bytes": 8497,
+        "BytesHuman": "8.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "zlibvc.sln",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "5198a1fde5c1e369764dcba9a08ee102",
+        "Sha1Hash": "5a492dc0bb0a953753f6cff5dd005b3f17f8ad95",
+        "Sha256Hash": "47a50bbde8ca6336cecd8c0e4b65e515fc46ae84c7b61008ac9864162f777286"
+    },
+    {
+        "Bytes": 41537,
+        "BytesHuman": "40.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Filename": "zlibvc.vcxproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "68f9d89ce57252e0a4d2975fd1cc862f",
+        "Sha1Hash": "89afb166f7b1e1c5b1f97c495f27e2167b5cc0da",
+        "Sha256Hash": "71fb6ef3b079bfdf4182af17e74c3361ead757467edfc591d9cbe303ccc47b52"
+    },
+    {
+        "Bytes": 12939,
+        "BytesHuman": "12.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "miniunz.vcproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "39acac8b09fad25c73403d812887cfc9",
+        "Sha1Hash": "40de34c1a26fe1fa14efb992d217c84bacea7ef1",
+        "Sha256Hash": "b2b53bd9e704bfbe769b863acdc2a3368692ca149c4b4ed2a0761b0cd16c6726"
+    },
+    {
+        "Bytes": 12753,
+        "BytesHuman": "12.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "minizip.vcproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a70e977e002d0df86a123ba7b02bed4d",
+        "Sha1Hash": "88d892514b4afba218dec574ea241904d263e29e",
+        "Sha256Hash": "80a701fb41a61871ce1d25f6b03e571edb6c3abf0aa45375554b6fac52115eb6"
+    },
+    {
+        "Bytes": 18951,
+        "BytesHuman": "18.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "testzlib.vcproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a2ab8c8ebdca681348ab0d721f4f0ea9",
+        "Sha1Hash": "42b4b89271adf184abb594d092bf4ae4c2431ac9",
+        "Sha256Hash": "05fc5a87682b17690d199f424f57f6ad7767b8dabb29a1039bfcb88bca1b302f"
+    },
+    {
+        "Bytes": 12978,
+        "BytesHuman": "12.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "testzlibdll.vcproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "3bd3847ddb393360355d1012338c638e",
+        "Sha1Hash": "086ea8214cfcb33f3512a847f3dfde6154a7137d",
+        "Sha256Hash": "25c1cc5319f1c4b7dbdb595c3cfd6ec3ba217818b03b7055ef5ef440b575a43d"
+    },
+    {
+        "Bytes": 957,
+        "BytesHuman": "957B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "zlib.rc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7e770b6d4d11f5a912458d5f5cd8e7b8",
+        "Sha1Hash": "e67b5d0e28bda140346388d087b2c13cf7680a1f",
+        "Sha256Hash": "e8b581eb16930e0213d37143a5f17868839b22c758b23981a29484e17093c494"
+    },
+    {
+        "Bytes": 19532,
+        "BytesHuman": "19.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "zlibstat.vcproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2324ada784731ab79fd384114d73c727",
+        "Sha1Hash": "235725a6f6285f12aa3ecc248b0afbcaeaa3367c",
+        "Sha256Hash": "e8653eea37f3bef097eec2caa55e1f698c3c74c959689bc4e97568e88d2bbc60"
+    },
+    {
+        "Bytes": 7211,
+        "BytesHuman": "7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "zlibvc.def",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2271100b7757c4693b11cf0774e4db5e",
+        "Sha1Hash": "e869e83b39cc26f7323352081f777b3e72a53c93",
+        "Sha256Hash": "0124fea28bfee49c8a19dad0ed5a49277d451018b4affda5a389e64ad15f44d7"
+    },
+    {
+        "Bytes": 10612,
+        "BytesHuman": "10.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "zlibvc.sln",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b34a55b36004333a0bec3a5da1ff25a3",
+        "Sha1Hash": "8b46b3778372dbb718fd0f00ff1ee55266b18892",
+        "Sha256Hash": "26e58d4b2cfcd941c367fb2a18537b3b9f002f2ac1278b700ea1129c50501452"
+    },
+    {
+        "Bytes": 28028,
+        "BytesHuman": "27.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Filename": "zlibvc.vcproj",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f3fd4bfc77606539f961b0aee7e57c4f",
+        "Sha1Hash": "82379594550bf43deb4a5114d938ad8ca06fd763",
+        "Sha256Hash": "86aa6e33db104c0a0ed4a9f21f0db8572cc7755170217aef18219fdd74b75e9d"
+    },
+    {
+        "Bytes": 14053,
+        "BytesHuman": "13.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "crc32.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f9a17af8e4efe8019fca94827ea1c0db",
+        "Sha1Hash": "88ea76a1b42bfc247680dd50b450923858f945fe",
+        "Sha256Hash": "a04af273e83ecc351bf3794974ab2098d8d960df4044b7b44734c41443ee26d0"
+    },
+    {
+        "Bytes": 30562,
+        "BytesHuman": "29.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "crc32.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f28d16b67efecdfafa0d816a7d982124",
+        "Sha1Hash": "db9e88b8332953972c9120c73389fa2ce03dd8f8",
+        "Sha256Hash": "407af59d0abfea84a6507c603eb29809411797f98249614fe76a661def783ce1"
+    },
+    {
+        "Bytes": 78889,
+        "BytesHuman": "77K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "deflate.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "9e645d2cc17f3e324028b90d25edc969",
+        "Sha1Hash": "436dc72ccb798bf1ac3e30cd9b580799f8bbb441",
+        "Sha256Hash": "11fd6b0328b65c4ad4b5c204d892a97a9083628a7e77dc47836c8e0c799f8da0"
+    },
+    {
+        "Bytes": 13150,
+        "BytesHuman": "12.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "deflate.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c5839b3f66d79c5aa0daa5062de59bd5",
+        "Sha1Hash": "d54ac3369732bc45463c254851809a0062382b3d",
+        "Sha256Hash": "0ca7fb0cf1dd63001c6e9e4ff93c8dbff2fe521199be51a4dda38a11b44919f6"
+    },
+    {
+        "Bytes": 9335,
+        "BytesHuman": "9.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Filename": "algorithm.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "63be46f443f80cc9081ed765198d4b8a",
+        "Sha1Hash": "8f58cd212772b622c71345ca5d7dd93648b8ab94",
+        "Sha256Hash": "992590931e982c0765286c2d83f6e9ff0a95aabb08e28c30c52bae3e8c4bd5ad"
+    },
+    {
+        "Bytes": 20502,
+        "BytesHuman": "20K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Filename": "rfc1950.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c9680de1a6b8939e16fd5e2a4f4785b8",
+        "Sha1Hash": "58f11c3e7778ca30e9c9330ab248107371429dd8",
+        "Sha256Hash": "8f0475a5c984657bf26277f73df9456c9b97f175084f0c1748f1eb1f0b9b10b9"
+    },
+    {
+        "Bytes": 36944,
+        "BytesHuman": "36.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Filename": "rfc1951.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "SPL-1.0",
+                "Percentage": 53
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "fe89c9b2d3b621452c4f868590635c5f",
+        "Sha1Hash": "b13d37ad6b3855f3a2eaf6c325eddaa7815355b0",
+        "Sha256Hash": "5ebf4b5b7fe1c3a0c0ab9aa3ac8c0f3853a7dc484905e76e03b0b0f301350009"
+    },
+    {
+        "Bytes": 25037,
+        "BytesHuman": "24.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Filename": "rfc1952.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7c4ee539faa6c908c3860588df424be1",
+        "Sha1Hash": "b2346a9c1e9cd011370595a292154ca83eff4ddb",
+        "Sha256Hash": "164ef0897b4cbec63abf1b57f069f3599bd0fb7c72c2a4dee21bd7e03ec9af67"
+    },
+    {
+        "Bytes": 5193,
+        "BytesHuman": "5.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Filename": "txtvsbin.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "33a7749453d872da575e01c2c62fe877",
+        "Sha1Hash": "0b5f765b6151da46d356493278fd873e4c99ce80",
+        "Sha256Hash": "47c273bb22c9773248d380549a330e5c262266b1292154b0d3014f731cc73f47"
+    },
+    {
+        "Bytes": 1817,
+        "BytesHuman": "1.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "README.examples",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7d040e322c50440b203bd70b3a448470",
+        "Sha1Hash": "f793f7b378233d7e644754e603695966487576b5",
+        "Sha256Hash": "402d72eb69c2e03a25034f4b3c02b110f0f67149ecfa4fa0e4b2bf0ceb49a8b3"
+    },
+    {
+        "Bytes": 24338,
+        "BytesHuman": "23.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "enough.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "6ac79bd8913b81b91a5dfbbe372331dc",
+        "Sha1Hash": "1bcc3f9743bcfdfb77fb6736ece06c666dd1787e",
+        "Sha256Hash": "704e273f65b62c5d2eb06d5bb10c4ccffba56544aa477f0e3957e2296c501b78"
+    },
+    {
+        "Bytes": 8594,
+        "BytesHuman": "8.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "fitblk.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "4061e63cf68f479ebbd4bab90178a774",
+        "Sha1Hash": "b69d9b6eeadd680fe37ab8ba54d781f46fe80420",
+        "Sha256Hash": "950769163c41aff897ee41746a8685d9aa41073b1307f42da19dabe9d3fc8b85"
+    },
+    {
+        "Bytes": 25943,
+        "BytesHuman": "25.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "gun.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "3ae3e8df2161c8d00d586396fc419c2b",
+        "Sha1Hash": "66c4ce6e2e4cc86dbe346a7cc1bc921002335929",
+        "Sha256Hash": "d60ca6eb0a3e62ee7fb4a1ab69e8d1525ff06b06ce46889cbdfc13fb8f7534c2"
+    },
+    {
+        "Bytes": 16977,
+        "BytesHuman": "16.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "gzappend.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "cba90a61087e9d9c6bbb45a005543468",
+        "Sha1Hash": "a22e75fe1bb392ce8516794d6e810fd0dfcf8dca",
+        "Sha256Hash": "4182d38bf97ffbdf1110df7f65c0e8fab0b28b1ea36ebba8621c14e8e76f1caa"
+    },
+    {
+        "Bytes": 14132,
+        "BytesHuman": "13.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "gzjoin.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "d6c05757d17814110c93151ab5c1c910",
+        "Sha1Hash": "9c34287cf18b05b761daf6457fc5efbf501358d2",
+        "Sha256Hash": "90b9d6c39a5fc91cf1cc9b96b025a508a8015dc502cd9374c754b44078593f57"
+    },
+    {
+        "Bytes": 41479,
+        "BytesHuman": "40.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "gzlog.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2140627edcd840671f03eced0741c520",
+        "Sha1Hash": "32d9e430fe8725def0a036f86a526e7b3214eaf0",
+        "Sha256Hash": "433d34b71b4e769ece1cceb8bd7d902d2c0a24ccd7550ab1856a5ba87f84f835"
+    },
+    {
+        "Bytes": 4557,
+        "BytesHuman": "4.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "gzlog.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 59
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7d497747a90370d3b13320bbf97e65dc",
+        "Sha1Hash": "deab1fb6de11e3145dfea71254d0c363a3415e04",
+        "Sha256Hash": "309556e2d7d39250924946b78e2cce0ac927857d6e1a02cab64e438f533c20c3"
+    },
+    {
+        "Bytes": 29824,
+        "BytesHuman": "29.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "zlib_how.html",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f4912cf5a1ade2e862e193983c02b3ee",
+        "Sha1Hash": "35f85759bc23add6a8507c76d05f73131823a9b3",
+        "Sha256Hash": "80fb647be8450bd7a07d8495244e1f061dfbdbdb53172ca24e7ffff8ace9c72f"
+    },
+    {
+        "Bytes": 6323,
+        "BytesHuman": "6.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "zpipe.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2baa24dfcde30e5378ebc823b9546fc5",
+        "Sha1Hash": "b59f2d5676cc135ac0af040d90c3e7b366fcce93",
+        "Sha256Hash": "68140a82582ede938159630bca0fb13a93b4bf1cb2e85b08943c26242cf8f3a6"
+    },
+    {
+        "Bytes": 15438,
+        "BytesHuman": "15.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Filename": "zran.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b21de2ad7c6a8dd26d58c831970e4efe",
+        "Sha1Hash": "db2e8f8daa77cf6536bf516f194c422f5db8310d",
+        "Sha256Hash": "840ebeb058cd0ca9e92dcb1db665932462a4695fc649b34e865b8d1ad7c5bf77"
+    },
+    {
+        "Bytes": 678,
+        "BytesHuman": "678B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "gzclose.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "29d02cff161bde3e4e717b25a2ab7050",
+        "Sha1Hash": "4698124c166f59728db9ae229f8467459b458ef3",
+        "Sha256Hash": "94446cf8cde67c30e64d0a335b0c941fd3fbad2e77f30180d12e61f9c2a5a6b8"
+    },
+    {
+        "Bytes": 6819,
+        "BytesHuman": "6.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "gzguts.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "de472a3069a84c6e6b1eb083c3f91b53",
+        "Sha1Hash": "637240f7e6ac7249e161083b450fb9f4e1f2b088",
+        "Sha256Hash": "1ef4741cf10441feeca5c8dde2b6c754f0cbd96fcae697d54a604757289a5e9b"
+    },
+    {
+        "Bytes": 16599,
+        "BytesHuman": "16.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "gzlib.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2c08acd5014596272031fdd1a36d0f1c",
+        "Sha1Hash": "4bd4f2745936d396899a7ba09290d6b17fab4a3c",
+        "Sha256Hash": "5daf11e44149e0aba2956d35f73f04f35dca99c3dfa43f5ad43ec20b336e4a1b"
+    },
+    {
+        "Bytes": 20428,
+        "BytesHuman": "19.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "gzread.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c999b14aab6322655059b2f1146fb935",
+        "Sha1Hash": "dfbd4eef919b6eded7e59ae420642ddf8bc848b8",
+        "Sha256Hash": "6f928512cb1792cfeab31a51ff0b211814d2e455bc75290eb31079dc1e5ad2ec"
+    },
+    {
+        "Bytes": 19253,
+        "BytesHuman": "18.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "gzwrite.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a407d2308188e881b49c32d586d0da82",
+        "Sha1Hash": "d2e11857ffe5e792f5d89b927bb47ed726b65031",
+        "Sha256Hash": "ba3b7b7ad2ff7ef0c19319b8408c333491a4cd495da55d0b156bc73d9ddb4df4"
+    },
+    {
+        "Bytes": 22715,
+        "BytesHuman": "22.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "infback.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f2adcadab3504b146be9c4928821f233",
+        "Sha1Hash": "6b7d6a93d4429068f1af3c10a11de42ece950edd",
+        "Sha256Hash": "abe44873b5af2ea68ea1d281d915b2800f1832f846d2c05442a4711adbe6f269"
+    },
+    {
+        "Bytes": 12978,
+        "BytesHuman": "12.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "inffast.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "20d7b26f5ae64f4e8501f846beab550c",
+        "Sha1Hash": "fe2fdfb8f51d9f84881cc453ba64f60e3d7c9cbc",
+        "Sha256Hash": "4d496ab2a3d29df5fadc3dbff6067e039806aaceae6cfcd09ea77d46c2b848fd"
+    },
+    {
+        "Bytes": 427,
+        "BytesHuman": "427B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "inffast.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f3669099d3f571dbc0426401ed5f50e3",
+        "Sha1Hash": "4fc803c43a562b2b92a97e22300754ddfe44c603",
+        "Sha256Hash": "7d8c1c873ce9bc346ad6005bb9d75cce5c6352aaf7395385be216a9452a34908"
+    },
+    {
+        "Bytes": 6332,
+        "BytesHuman": "6.2K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "inffixed.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7fa3e91804601b6618c915b76a8dc332",
+        "Sha1Hash": "8770ab43c9050b824c646f6e6cee8b3c0628cbda",
+        "Sha256Hash": "237ba710f090e432b62ebf963bee8b302867e9691406b2d3f8ee89ee7bfef9b0"
+    },
+    {
+        "Bytes": 54800,
+        "BytesHuman": "53.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "inflate.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "c892c303a1be104ed0efb628e18ed85a",
+        "Sha1Hash": "d5cfffd5a037697867a78566d583e73f6d0f91b9",
+        "Sha256Hash": "8b6c599c3563c14c447c47db0d7dc9a16e8c246a078ec95a169ddcebaaebd811"
+    },
+    {
+        "Bytes": 6618,
+        "BytesHuman": "6.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "inflate.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "12c1f3adaf005c8a4cfb629f2e266d30",
+        "Sha1Hash": "628d8395fc7f67e6d7a9a6cecba64f6594d64eb9",
+        "Sha256Hash": "8ec9ac297790276f7e46a961d4c6f9f944fb1dec92401339ec2666973cc5983c"
+    },
+    {
+        "Bytes": 12999,
+        "BytesHuman": "12.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "inftrees.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "34a634c4c6e1de2e357f18c170e6b96c",
+        "Sha1Hash": "a152b76b78f9245ca67db2729de72d51ecc234b0",
+        "Sha256Hash": "1960ca67384376f65b6ce8c08fdb501f8eb33923e11ef5f61a855708c6cb0a8a"
+    },
+    {
+        "Bytes": 2928,
+        "BytesHuman": "2.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "inftrees.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "ec87be89b9bcca8ced80a70f857e823b",
+        "Sha1Hash": "3c63a7707d83991f3e074391c047b3136ff3e558",
+        "Sha256Hash": "c510b36402784b1f898be3b049b923469aa92701de2d9195aed19f6b65c0dce2"
+    },
+    {
+        "Bytes": 26402,
+        "BytesHuman": "25.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "make_vms.com",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "0e5c38a1ec38448cfc594efc152d32f7",
+        "Sha1Hash": "dc817ba3a5335de14bde5b81b1a3365734757625",
+        "Sha256Hash": "3064eb153a7684115f1494364f80759bc5a2c227799fdf08df7b9e6e50884720"
+    },
+    {
+        "Bytes": 3098,
+        "BytesHuman": "3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Filename": "Makefile.bor",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "80adf0a73c836697ef02cd8cc19733cd",
+        "Sha1Hash": "85d42a140e556d3b659f7e26c834b5574ea51754",
+        "Sha256Hash": "292ab363f7ffbc4ae84d37cd9bdffd2dac1003bee52d223a8489844870f20702"
+    },
+    {
+        "Bytes": 2620,
+        "BytesHuman": "2.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Filename": "Makefile.dj2",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "ddcc308923bda1742d6c6638367da0dd",
+        "Sha1Hash": "815d082068e07e22195e446ea8a880a1b03e425a",
+        "Sha256Hash": "9208450c2ae6dcbfcc25560b5b9ca763f461e7246e37b0552474edf8fa898906"
+    },
+    {
+        "Bytes": 1447,
+        "BytesHuman": "1.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Filename": "Makefile.emx",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "bcd5df6ee3272ea5a3a17feb90ad148d",
+        "Sha1Hash": "2cf0c4a2b98fc59c63bc5daee5d26e26dc15c81e",
+        "Sha256Hash": "c749d6ec7f88e8e639d4f03bdbdcbbe9d1c304210be4c4be621ceb22961d3d64"
+    },
+    {
+        "Bytes": 2924,
+        "BytesHuman": "2.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Filename": "Makefile.msc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "2a7a661ce2d463e3876704786fd8dfdd",
+        "Sha1Hash": "39f6df7982b02e1c8b72298c6cc58bf02d9d9f77",
+        "Sha256Hash": "0e021a6f42212415b060e4ad468eb415d0a8c1f343137fb9dff2cb8f9ead3027"
+    },
+    {
+        "Bytes": 2657,
+        "BytesHuman": "2.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Filename": "Makefile.tc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b8ec8ac0dac9fe62dd4934fb4b9f772c",
+        "Sha1Hash": "98e97dcbaf0e7da0531f7a0367b052adc382fb29",
+        "Sha256Hash": "2ae12ee2a3e62f7c5a0520d0fbe4adee772bc07fe816002b07ccb43db3daa76a"
+    },
+    {
+        "Bytes": 4741,
+        "BytesHuman": "4.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/nintendods",
+        "Filename": "Makefile",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "7589c1379ed922ffe60a9963c50ffe64",
+        "Sha1Hash": "4b2d315c399a4db63f6380e9172d93ad0f500edf",
+        "Sha256Hash": "ea5823efe6830132294eddf2f56dbd7db8712244c210bb4968c431b1a91bd066"
+    },
+    {
+        "Bytes": 209,
+        "BytesHuman": "209B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/nintendods",
+        "Filename": "README",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "486dd2758187aaeb071f6a0ad5094fda",
+        "Sha1Hash": "f585a53f8a8d0415cbd7166f8c44a11a802ee39c",
+        "Sha256Hash": "e362426c47b39ff6a7d6c75c6660b20abf076cdfa5e1e421716dc629a71aef95"
+    },
+    {
+        "Bytes": 1456,
+        "BytesHuman": "1.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Filename": "Makefile.emx",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "1aeeebbf2e64523db78f02c744dd425d",
+        "Sha1Hash": "821cd8913362531cfd915b4c2bcb0777aa7d2f11",
+        "Sha256Hash": "d811f032272aae50123a889297af3a02fbd60d1e42bbef11466462f627ff7b5b"
+    },
+    {
+        "Bytes": 3767,
+        "BytesHuman": "3.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Filename": "Makefile.riscos",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "281c9a86ce42a799859a5978bc732cc5",
+        "Sha1Hash": "2a3285389419eb244671143cc8c6333c7cbfdd2c",
+        "Sha256Hash": "d1a488b160fbfd53272b68a913283a4be08ba9d490796b196dddb2ba535b41e0"
+    },
+    {
+        "Bytes": 133,
+        "BytesHuman": "133B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Filename": "README",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "bbfa7b4766eb254d816bcd7faf48f0f5",
+        "Sha1Hash": "6967642b887ba82a9041bddce73254c42000d4d9",
+        "Sha256Hash": "551a0f4d91fe0f827a31cbdfbb4a71d1f3dc4d06564d80a3f526b749dd104d11"
+    },
+    {
+        "Bytes": 1545,
+        "BytesHuman": "1.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Filename": "descrip.mms",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "cbf38eb0d95e0f43faf627cf42a680a7",
+        "Sha1Hash": "940475beeeb76576feb22c2d8b7b97d493ab3d79",
+        "Sha256Hash": "8ff08c35c056df9c986f23c09cf8936db63ccf12c3c42f7d18a48b36f060cff7"
+    },
+    {
+        "Bytes": 4109,
+        "BytesHuman": "4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/old/os2",
+        "Filename": "Makefile.os2",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "52748c82e9464e36daec6caa3f50b7d9",
+        "Sha1Hash": "4127401d329a7e421112ae14ec4e7dd995ea6e30",
+        "Sha256Hash": "6ad247c00f00ff42fd2d62555e86251cef06e4079378241b5f320c227507d51d"
+    },
+    {
+        "Bytes": 778,
+        "BytesHuman": "778B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/old/os2",
+        "Filename": "zlib.def",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b917eb81b8d4b72931282aeedc167f83",
+        "Sha1Hash": "108527bad780aecce1c75efa9210f4b1173f4139",
+        "Sha256Hash": "ea9c61876d2e20b67ef2d9495991a32798eb40d13ede95859a2f4f03b65b9b61"
+    },
+    {
+        "Bytes": 6060,
+        "BytesHuman": "5.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Filename": "visual-basic.txt",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "94928575e535e4057290970b885627f0",
+        "Sha1Hash": "1cf5886f7fcee4019ef529f8f19dd8000be01229",
+        "Sha256Hash": "1727650acbde9a9e6aec9438896377e46a12699cca5d46c5399cef524dedc614"
+    },
+    {
+        "Bytes": 1871,
+        "BytesHuman": "1.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Filename": "README400",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "cd5db617d9a470452431ef50bcd2d07d",
+        "Sha1Hash": "51d77ab7eeaa1d92a57a2a405b6ff985373bdaaa",
+        "Sha256Hash": "6f95a1beb0fbf943a3312eaa3dd2c279f1cef93062bebbff63dd37ac9e2aa8d6"
+    },
+    {
+        "Bytes": 3986,
+        "BytesHuman": "3.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Filename": "bndsrc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a60b56782ba1f108b3c1fa232f95fd1a",
+        "Sha1Hash": "8b47a80813ee6c9afcad0defe645efa3b5998aa0",
+        "Sha256Hash": "cfe00b1528d5c27813cd6b1ad7aa34b493fd63d615623fb21fd1a7bf99d2255e"
+    },
+    {
+        "Bytes": 10727,
+        "BytesHuman": "10.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Filename": "make.sh",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "4d8dfda2096227d68f03499480c3740c",
+        "Sha1Hash": "c5baf22e2de7d01ca1fea649e832f9d827cf6064",
+        "Sha256Hash": "143394d1e3876c61c29078c0e47310e726e1f5bd42739fe92df9ece65711655f"
+    },
+    {
+        "Bytes": 32795,
+        "BytesHuman": "32K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Filename": "zlib.inc",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "88375497cf85550425cedb3f1a0a05e8",
+        "Sha1Hash": "a911b361a568f6d0e07024149eaa17e9815c8fef",
+        "Sha256Hash": "c501c522185ba1f0506caf90d72f1088b34b2addc169471e949e443ab65e8a75"
+    },
+    {
+        "Bytes": 6432,
+        "BytesHuman": "6.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/qnx",
+        "Filename": "package.qpg",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "041a9be530eca6d4b057404cf1cc9350",
+        "Sha1Hash": "3f3e8a85343976d3f6115797f7ac9e379a97bf67",
+        "Sha256Hash": "90b5c8364d9dc5ef67405b352c19710ebad2905f3f20b9e56ded74661f96743b"
+    },
+    {
+        "Bytes": 16888,
+        "BytesHuman": "16.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/test",
+        "Filename": "example.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "850825a7e5ddc45e520909406d25bdff",
+        "Sha1Hash": "bde9391a495a7b962cc63aaf8288b02159a5f68a",
+        "Sha256Hash": "520799662a8286725540d6d5a356efe6f595618e5fe2e591972491d719bd99aa"
+    },
+    {
+        "Bytes": 24723,
+        "BytesHuman": "24.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/test",
+        "Filename": "infcover.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "629a048f0edd2a18c6c18a11679628d8",
+        "Sha1Hash": "e9ced1a5ecc8badd5bc14cd96ef859cc346ec3dd",
+        "Sha256Hash": "f654f3fcc74b33bd95cda63d13fe0ce589bcfe965544e0c17ee597d75efbd090"
+    },
+    {
+        "Bytes": 15797,
+        "BytesHuman": "15.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/test",
+        "Filename": "minigzip.c",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "929d15e7fc86ced153a5b0feae168b4e",
+        "Sha1Hash": "2ff91a2d1d191233dea5741a1aee5095f577a93e",
+        "Sha256Hash": "91089b21e692797bb6208b2b45eeb90f5f1f1e4f6b67b99dea5676f51b811193"
+    },
+    {
+        "Bytes": 3142,
+        "BytesHuman": "3.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "treebuild.xml",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "a018d7e9e40c63ce8e1be3f6fa26e8a7",
+        "Sha1Hash": "bdcfc455f66ef2b108b0a10c6dbe7837f54f59b3",
+        "Sha256Hash": "d816c764c8ec2d5b2ebfa7f053f747097926c13fce7fa8628c5d14c991411421"
+    },
+    {
+        "Bytes": 43761,
+        "BytesHuman": "42.7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "trees.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "fddcbf441ed0140dec23927ee34de9a7",
+        "Sha1Hash": "ab030a33e399e7284b9ddf9bba64d0dd2730b417",
+        "Sha256Hash": "f2a5f949ea70dde7c23a54c793aeed630a03df4bb72417cd3aa008000c44699b"
+    },
+    {
+        "Bytes": 8472,
+        "BytesHuman": "8.3K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "trees.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "51fdcb3e2ccf60ca13c06920c89296a3",
+        "Sha1Hash": "5d8a9c42f902d2418a7e63b539c0f319373e9400",
+        "Sha256Hash": "bb0a9d3ca88ee00c81adb7c636e73b97085f6ef1b52d6d58edbe2b6dc3adeb4d"
+    },
+    {
+        "Bytes": 2966,
+        "BytesHuman": "2.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "uncompr.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "dc210f08738914519d15edf1bb6e5141",
+        "Sha1Hash": "90f92698d7de79341e85bd3ca411a6b165c58848",
+        "Sha256Hash": "31922aa982ee12fd28d1ce5fe6a94a3f07c2a941c821b566a881ca21845cdfaf"
+    },
+    {
+        "Bytes": 1439,
+        "BytesHuman": "1.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/watcom",
+        "Filename": "watcom_f.mak",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "6f80451b702a08fa8d149161e1d75313",
+        "Sha1Hash": "1a6af1350f3ffbbff44273a7b661563f095b3234",
+        "Sha256Hash": "7e039b912f9cffaa40835281430bb284fa9042b0a0d12f6b34700a06bca6576e"
+    },
+    {
+        "Bytes": 1407,
+        "BytesHuman": "1.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/watcom",
+        "Filename": "watcom_l.mak",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "f6a102e1a91215f0e249b266053e9956",
+        "Sha1Hash": "e1deb6874b6162d2607dff14c2fccb7a37ce97b0",
+        "Sha256Hash": "d11b4064604a034725860e63e3f6d347056372e4b1675b183e20a93533b20cc9"
+    },
+    {
+        "Bytes": 17921,
+        "BytesHuman": "17.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "DLL_FAQ.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "1d9871d4ffd71645ac3d029d8de0e03a",
+        "Sha1Hash": "743c9da800bb73a7a30e7c5ce76b5bafd1256ba8",
+        "Sha256Hash": "9e00778319381e6275691dd3a89410c99065b8c0c5db96473abe8c859cbdefd8"
+    },
+    {
+        "Bytes": 2587,
+        "BytesHuman": "2.5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "Makefile.bor",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "fc5b8a38022995608b2a04fb7ebd17d7",
+        "Sha1Hash": "23262888e43719d398dea043e2bd09c23a9ba5da",
+        "Sha256Hash": "e878fed2313417db085fea621c110889f6a32233b5b6db46e3c4e824c1d0ed6b"
+    },
+    {
+        "Bytes": 5122,
+        "BytesHuman": "5K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "Makefile.gcc",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "bc2d8d3fda87e41e7f3e2536ab6ae806",
+        "Sha1Hash": "ea8204bc36bb1d25c28e0176eb777d1174965fc6",
+        "Sha256Hash": "ea8feddce7b9707253b9bf86623cf7ebe5294d7aea2b3b0b1b1c1b8cfd73009d"
+    },
+    {
+        "Bytes": 4937,
+        "BytesHuman": "4.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "Makefile.msc",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "257272e4cea1c919fe86edcdf5c2dd57",
+        "Sha1Hash": "03ac9a052f553e99d5c122a9adb9cf61c1059cda",
+        "Sha256Hash": "7c495d63c5afea1d77d162a41b73bab89cee952c12e4647e9684a7ac79bfc3f5"
+    },
+    {
+        "Bytes": 4870,
+        "BytesHuman": "4.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "README-WIN32.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "0b80cb8a4ec18437ea653c67f466cb5b",
+        "Sha1Hash": "7fec4ff7048956a2c556c199ac4989b9372250b7",
+        "Sha256Hash": "b71f1f4e4760812c3a11b2bae6f40d1066741a90e6646010a32ce50a0e348cde"
+    },
+    {
+        "Bytes": 124,
+        "BytesHuman": "124B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "VisualC.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "41825008c400d365b2a660175bec4ad1",
+        "Sha1Hash": "ba666fb015a257ab0182f10bc20409a2ec61169f",
+        "Sha256Hash": "9ec0babd46eaa012371dee2d3a8a55d9c7130f7895512c3371c737e4a7f6a997"
+    },
+    {
+        "Bytes": 1618,
+        "BytesHuman": "1.6K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "zlib.def",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "9ea63abcc97a099dc00876ae13dee279",
+        "Sha1Hash": "756d27ffaa18b488fca960ff0797bcbc2ffc811f",
+        "Sha256Hash": "24fa6dd00f3f4c0d14507a03ddbfa42707a04e3901bb9ff6f90096037a75185a"
+    },
+    {
+        "Bytes": 1138,
+        "BytesHuman": "1.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Filename": "zlib1.rc",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 60
+            }
+        ],
+        "Md5Hash": "311d9cf5cbf7538b8b8120f13c6c1385",
+        "Sha1Hash": "c21721e51d162fcc8880290001d9e150d3511dd6",
+        "Sha256Hash": "8fc5f2b5abee40ad66e6d6cfc9f926c2f446e13a7c9ee7df8bf58a266d8cade5"
+    },
+    {
+        "Bytes": 16298,
+        "BytesHuman": "15.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zconf.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "66c6b3953f574eca8b709dd5f6865745",
+        "Sha1Hash": "0ef05b0d12bf2cfbbf1aa84cff0e8dcf4fc5b731",
+        "Sha256Hash": "9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360"
+    },
+    {
+        "Bytes": 16349,
+        "BytesHuman": "16K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zconf.h.cmakein",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "26ab763d924e6ffc50701c71a408ce39",
+        "Sha1Hash": "cbd5ddffb39904669e115e270b23138106bb0ac2",
+        "Sha256Hash": "d740b750e9c98e6a4b4529cc2a857a3fa8001514b1ce91e0e1d9d293652bf388"
+    },
+    {
+        "Bytes": 16298,
+        "BytesHuman": "15.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zconf.h.in",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "66c6b3953f574eca8b709dd5f6865745",
+        "Sha1Hash": "0ef05b0d12bf2cfbbf1aa84cff0e8dcf4fc5b731",
+        "Sha256Hash": "9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360"
+    },
+    {
+        "Bytes": 4477,
+        "BytesHuman": "4.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zlib.3",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "8e4658ab605826672b98422b973305b6",
+        "Sha1Hash": "8b7c3c050d8cfdd1e8455c98a4767bf98752cb74",
+        "Sha256Hash": "5abef003e545566e5599e5ab2e7528e978be59d54546b19d763d062f7a69bac7"
+    },
+    {
+        "Bytes": 19318,
+        "BytesHuman": "18.9K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zlib.3.pdf",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "22a44610601666b7ddbd6cabc43b0f9f",
+        "Sha1Hash": "8c3040d78eb9dd1bdc83d687f5b601465ff22583",
+        "Sha256Hash": "7f0f633641d782e360eff9fe831716c5767faf1000e38382a8a8c65b0b67f374"
+    },
+    {
+        "Bytes": 96239,
+        "BytesHuman": "94K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zlib.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "0338828e9d00c94645648b1517108324",
+        "Sha1Hash": "473b29ab06e2be461fe4aa74952fcb9bd08d9fa0",
+        "Sha256Hash": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8"
+    },
+    {
+        "Bytes": 1457,
+        "BytesHuman": "1.4K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zlib.map",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "8914872466a77551efb3898272ed98e0",
+        "Sha1Hash": "513816d1574deea0e966ad82ed0d304959a5ad17",
+        "Sha256Hash": "7eb1070ba6bf12e6895e5da06b84a92af683827587afaa72bdd45e80b9d8e4e9"
+    },
+    {
+        "Bytes": 294,
+        "BytesHuman": "294B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zlib.pc.cmakein",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "9d7ec0d0fe9134c725fc8b688ff673f4",
+        "Sha1Hash": "c80d6efe2a2991a1836ee797f75b12c9d60b6783",
+        "Sha256Hash": "2f1d0b18ce37c2af415a469857f02aee2c41a58877aff21d29e9c6db32b55cb7"
+    },
+    {
+        "Bytes": 254,
+        "BytesHuman": "254B",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zlib.pc.in",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "60674eee456b5cab09b25a4bfd55d533",
+        "Sha1Hash": "3ebc107b34d82b134e9f5933c2a569eb6e952ce4",
+        "Sha256Hash": "04c01cc2e1a0ed123518b5855f585c93a24526dd88982c414111ea1fc9f07997"
+    },
+    {
+        "Bytes": 3895,
+        "BytesHuman": "3.8K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zlib2ansi",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "381f96b09b247fbe8f4c329a89bd5bd3",
+        "Sha1Hash": "e9859eecf47ae66280573d73969c061989615134",
+        "Sha256Hash": "d316e3e79054f5f9fe921d35f4bbf4bf0a37b859d29d2b34ae4d7d92afc3e55c"
+    },
+    {
+        "Bytes": 7304,
+        "BytesHuman": "7.1K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zutil.c",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "69d0e0950d3ab5c1938d8566257c33a3",
+        "Sha1Hash": "2f1fcc93488ac84acf984415b6ea0bd63c72aa49",
+        "Sha256Hash": "f7fdc9ef326a2683eb33c794face54e83c751ec17f3d1ba581847a62af36ddcd"
+    },
+    {
+        "Bytes": 7127,
+        "BytesHuman": "7K",
+        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Filename": "zutil.h",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Info-ZIP",
+                "Percentage": 57
+            }
+        ],
+        "Md5Hash": "b8a47cd8873cbfa8daf689f88dd62f75",
+        "Sha1Hash": "f32dab3880d47eca1b71c308cf6542b32941b23c",
+        "Sha256Hash": "9a63f6690fac1620aa3cecee5752af618806da438a256b4a047fbcd289cac159"
+    }
+]

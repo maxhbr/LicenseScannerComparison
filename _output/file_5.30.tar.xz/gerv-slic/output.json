@@ -1,0 +1,154 @@
+[
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/COPYING", 
+      "/file_5.30.tar.xz_extracted/tests/test.c", 
+      "/file_5.30.tar.xz_extracted/src/readcdf.c", 
+      "/file_5.30.tar.xz_extracted/src/print.c", 
+      "/file_5.30.tar.xz_extracted/src/tar.h", 
+      "/file_5.30.tar.xz_extracted/src/elfclass.h", 
+      "/file_5.30.tar.xz_extracted/src/readelf.h", 
+      "/file_5.30.tar.xz_extracted/src/fsmagic.c", 
+      "/file_5.30.tar.xz_extracted/src/funcs.c", 
+      "/file_5.30.tar.xz_extracted/src/vasprintf.c", 
+      "/file_5.30.tar.xz_extracted/src/ascmagic.c", 
+      "/file_5.30.tar.xz_extracted/src/apprentice.c", 
+      "/file_5.30.tar.xz_extracted/src/file.h", 
+      "/file_5.30.tar.xz_extracted/src/compress.c", 
+      "/file_5.30.tar.xz_extracted/src/encoding.c", 
+      "/file_5.30.tar.xz_extracted/src/dprintf.c", 
+      "/file_5.30.tar.xz_extracted/src/magic.c", 
+      "/file_5.30.tar.xz_extracted/src/fmtcheck.c", 
+      "/file_5.30.tar.xz_extracted/src/cdf_time.c", 
+      "/file_5.30.tar.xz_extracted/src/readelf.c", 
+      "/file_5.30.tar.xz_extracted/src/cdf.c", 
+      "/file_5.30.tar.xz_extracted/src/magic.h.in", 
+      "/file_5.30.tar.xz_extracted/src/der.c", 
+      "/file_5.30.tar.xz_extracted/src/softmagic.c", 
+      "/file_5.30.tar.xz_extracted/src/der.h", 
+      "/file_5.30.tar.xz_extracted/src/file.c", 
+      "/file_5.30.tar.xz_extracted/src/cdf.h", 
+      "/file_5.30.tar.xz_extracted/src/getopt_long.c", 
+      "/file_5.30.tar.xz_extracted/src/is_tar.c", 
+      "/file_5.30.tar.xz_extracted/src/getline.c", 
+      "/file_5.30.tar.xz_extracted/src/asprintf.c", 
+      "/file_5.30.tar.xz_extracted/doc/libmagic.man"
+    ], 
+    "tag": "BSD-2-Clause"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/src/vasprintf.c", 
+      "/file_5.30.tar.xz_extracted/src/strcasestr.c"
+    ], 
+    "tag": "BSD-3-Clause"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/src/mygetopt.h"
+    ], 
+    "tag": "BSD-4-Clause_NetBSD"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/missing", 
+      "/file_5.30.tar.xz_extracted/compile", 
+      "/file_5.30.tar.xz_extracted/depcomp"
+    ], 
+    "tag": "GPL-2.0+"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/ltmain.sh", 
+      "/file_5.30.tar.xz_extracted/m4/libtool.m4"
+    ], 
+    "tag": "GPL-2.0+-with-libtool-exception"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/missing", 
+      "/file_5.30.tar.xz_extracted/compile", 
+      "/file_5.30.tar.xz_extracted/depcomp"
+    ], 
+    "tag": "GPL-2.0-with-autoconf-exception_1"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/config.sub", 
+      "/file_5.30.tar.xz_extracted/config.guess"
+    ], 
+    "tag": "GPL-3.0-with-autoconf-exception_2"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/install-sh", 
+      "/file_5.30.tar.xz_extracted/src/strlcat.c", 
+      "/file_5.30.tar.xz_extracted/src/strlcpy.c"
+    ], 
+    "tag": "HPND"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/src/apptype.c", 
+      "/file_5.30.tar.xz_extracted/src/tar.h", 
+      "/file_5.30.tar.xz_extracted/src/is_tar.c"
+    ], 
+    "tag": "PD"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/Makefile.in", 
+      "/file_5.30.tar.xz_extracted/aclocal.m4", 
+      "/file_5.30.tar.xz_extracted/m4/ltsugar.m4", 
+      "/file_5.30.tar.xz_extracted/m4/libtool.m4", 
+      "/file_5.30.tar.xz_extracted/m4/ltversion.m4", 
+      "/file_5.30.tar.xz_extracted/m4/ltoptions.m4", 
+      "/file_5.30.tar.xz_extracted/m4/lt~obsolete.m4", 
+      "/file_5.30.tar.xz_extracted/magic/Makefile.in", 
+      "/file_5.30.tar.xz_extracted/tests/Makefile.in", 
+      "/file_5.30.tar.xz_extracted/src/Makefile.in", 
+      "/file_5.30.tar.xz_extracted/python/Makefile.in", 
+      "/file_5.30.tar.xz_extracted/doc/Makefile.in"
+    ], 
+    "tag": "Permissive_GNU2"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/config.h.in", 
+      "/file_5.30.tar.xz_extracted/Makefile.am", 
+      "/file_5.30.tar.xz_extracted/configure.ac", 
+      "/file_5.30.tar.xz_extracted/acinclude.m4", 
+      "/file_5.30.tar.xz_extracted/magic/Makefile.am", 
+      "/file_5.30.tar.xz_extracted/magic/Magdir/varied.script", 
+      "/file_5.30.tar.xz_extracted/magic/Magdir/varied.out", 
+      "/file_5.30.tar.xz_extracted/tests/Makefile.am", 
+      "/file_5.30.tar.xz_extracted/tests/README", 
+      "/file_5.30.tar.xz_extracted/src/file_opts.h", 
+      "/file_5.30.tar.xz_extracted/src/ctime_r.c", 
+      "/file_5.30.tar.xz_extracted/src/pread.c", 
+      "/file_5.30.tar.xz_extracted/src/localtime_r.c", 
+      "/file_5.30.tar.xz_extracted/src/Makefile.am", 
+      "/file_5.30.tar.xz_extracted/src/asctime_r.c", 
+      "/file_5.30.tar.xz_extracted/src/gmtime_r.c", 
+      "/file_5.30.tar.xz_extracted/python/setup.py", 
+      "/file_5.30.tar.xz_extracted/python/example.py", 
+      "/file_5.30.tar.xz_extracted/python/Makefile.am", 
+      "/file_5.30.tar.xz_extracted/python/magic.py", 
+      "/file_5.30.tar.xz_extracted/doc/Makefile.am", 
+      "/file_5.30.tar.xz_extracted/doc/magic.man"
+    ], 
+    "tag": "none"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/README"
+    ], 
+    "tag": "suspiciousCopyright"
+  }, 
+  {
+    "files": [
+      "/file_5.30.tar.xz_extracted/doc/file.man"
+    ], 
+    "tag": "suspiciousLicensey"
+  }
+]

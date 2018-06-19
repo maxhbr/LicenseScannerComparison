@@ -1,0 +1,1392 @@
+input file path,matched license type,Score using whole input test,Rank based on score,Start line number,End line number,Start byte offset,End byte offset,Score using only the license text portion,Found license text
+/zlib-1.2.11.tar.gz_extracted/FAQ,Vim,0.0512375108408281,ScoreOutOfRange,343,364,15451,16418,0.0010765995336792153,"
+41. I'm having a problem with the zip functions in zlib, can you help?
+
+    There are no zip functions in zlib.  You are probably using minizip by
+    Giles Vollant, which is found in the contrib directory of zlib.  It is not
+    part of zlib.  In fact none of the stuff in contrib is part of zlib.  The
+    files in there are not supported by the zlib authors.  You need to contact
+    the authors of the respective contribution for help.
+
+42. The match.asm code in contrib is under the GNU General Public License.
+    Since it's part of zlib, doesn't that mean that all of zlib falls under the
+    GNU GPL?
+
+    No.  The files in contrib are not part of zlib.  They were contributed by
+    other authors and are provided as a convenience to the user within the zlib
+    distribution.  Each item in contrib has its own license.
+
+43. Is zlib subject to export controls?  What is its ECCN?
+
+    zlib is not subject to export controls, and so is classified as EAR99.
+
+"
+/zlib-1.2.11.tar.gz_extracted/FAQ,Vim,0.04707545459334994,ScoreOutOfRange,171,193,6659,7946,0.0007133469612709741,"    what exactly do I need to do to meet that requirement?
+
+    You need to change the ZLIB_VERSION and ZLIB_VERNUM #defines in zlib.h.  In
+    particular, the final version number needs to be changed to ""f"", and an
+    identification string should be appended to ZLIB_VERSION.  Version numbers
+    x.x.x.f are reserved for modifications to zlib by others than the zlib
+    maintainers.  For example, if the version of the base zlib you are altering
+    is ""1.2.3.4"", then in zlib.h you should change ZLIB_VERNUM to 0x123f, and
+    ZLIB_VERSION to something like ""1.2.3.f-zachary-mods-v3"".  You can also
+    update the version strings in deflate.c and inftrees.c.
+
+    For altered source distributions, you should also note the origin and
+    nature of the changes in zlib.h, as well as in ChangeLog and README, along
+    with the dates of the alterations.  The origin should include at least your
+    name (or your company's name), and an email address to contact for help or
+    issues with the library.
+
+    Note that distributing a compiled zlib library along with zlib.h and
+    zconf.h is also a source distribution, and so you should change
+    ZLIB_VERSION and ZLIB_VERNUM and note the origin and nature of the changes
+    in zlib.h as you would for a full source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/FAQ,Vim,0.04748989659605957,ScoreOutOfRange,99,110,3437,3944,0.0004721093810588567,"    Before going to the trouble of compiling a shared version of zlib and
+    trying to install it, you may want to check if it's already there!  If you
+    can #include <zlib.h>, it's there.  The -lz option will probably link to
+    it.  You can check the version at the top of zlib.h or with the
+    ZLIB_VERSION symbol defined in zlib.h .
+
+15. I have a question about OttoPDF.
+
+    We are not the authors of OttoPDF. The real author is on the OttoPDF web
+    site: Joel Hainley, jhainley@myndkryme.com.
+
+"
+/zlib-1.2.11.tar.gz_extracted/README,Zlib,0.5238756403462286,4,81,104,3542,4569,0.32878696439348215,"  people who reported problems and suggested various improvements in zlib; they
+  are too numerous to cite here.
+
+Copyright notice:
+
+ (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/inffast.h,MPL-2.0,0.050708546415785705,ScoreOutOfRange,6,7,229,293,0.002089318359885087,"   part of the implementation of the compression library and is
+"
+/zlib-1.2.11.tar.gz_extracted/inffixed.h,MPL-2.0,0.046272655634357764,ScoreOutOfRange,5,6,172,235,0.0026802465826856066,"       It is part of the implementation of this library and is
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.3,Zlib,0.5398115345299634,4,104,130,2909,3996,0.24559412916567538,"Send questions and/or comments to zlib@gzip.org,
+or (for the Windows DLL version) to Gilles Vollant (info@winimage.com).
+.SH AUTHORS AND LICENSE
+Version 1.2.11
+.LP
+Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
+.LP
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+.LP
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+.LP
+.nr step 1 1
+.IP \n[step]. 3
+The origin of this software must not be misrepresented; you must not
+claim that you wrote the original software. If you use this software
+in a product, an acknowledgment in the product documentation would be
+appreciated but is not required.
+.IP \n+[step].
+Altered source versions must be plainly marked as such, and must not be
+misrepresented as being the original software.
+.IP \n+[step].
+This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,Zlib,0.10045015798892004,3,0,21,0,1016,0.3279635917069999,"/* zlib.h -- interface of the 'zlib' general purpose compression library
+  version 1.2.11, January 15th, 2017
+
+  Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.040792402315233865,ScoreOutOfRange,932,975,48925,50934,0.0009604540811983998,"   Z_BUF_ERROR if no more input was provided, Z_DATA_ERROR if no flush point
+   has been found, or Z_STREAM_ERROR if the stream structure was inconsistent.
+   In the success case, the application may save the current current value of
+   total_in which indicates where valid compressed data was found.  In the
+   error case, the application may repeatedly call inflateSync, providing more
+   input each time, until success or end of the input data.
+*/
+
+ZEXTERN int ZEXPORT inflateCopy OF((z_streamp dest,
+                                    z_streamp source));
+/*
+     Sets the destination stream as a complete copy of the source stream.
+
+     This function can be useful when randomly accessing a large stream.  The
+   first pass through the stream can periodically record the inflate state,
+   allowing restarting inflate at those points when randomly accessing the
+   stream.
+
+     inflateCopy returns Z_OK if success, Z_MEM_ERROR if there was not
+   enough memory, Z_STREAM_ERROR if the source stream state was inconsistent
+   (such as zalloc being Z_NULL).  msg is left unchanged in both source and
+   destination.
+*/
+
+ZEXTERN int ZEXPORT inflateReset OF((z_streamp strm));
+/*
+     This function is equivalent to inflateEnd followed by inflateInit,
+   but does not free and reallocate the internal decompression state.  The
+   stream will keep attributes that may have been set by inflateInit2.
+
+     inflateReset returns Z_OK if success, or Z_STREAM_ERROR if the source
+   stream state was inconsistent (such as zalloc or state being Z_NULL).
+*/
+
+ZEXTERN int ZEXPORT inflateReset2 OF((z_streamp strm,
+                                      int windowBits));
+/*
+     This function is the same as inflateReset, but it also permits changing
+   the wrap and window size requests.  The windowBits parameter is interpreted
+   the same as it is for inflateInit2.  If the window size is changed, then the
+   memory allocated for the window is freed, and the window will be reallocated
+   by inflate() if needed.
+
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.041722296295268115,ScoreOutOfRange,835,847,43233,43936,0.0007976859948448648,"   fields next_in, avail_in, zalloc, zfree and opaque must be initialized
+   before by the caller.
+
+     The windowBits parameter is the base two logarithm of the maximum window
+   size (the size of the history buffer).  It should be in the range 8..15 for
+   this version of the library.  The default value is 15 if inflateInit is used
+   instead.  windowBits must be greater than or equal to the windowBits value
+   provided to deflateInit2() while compressing, or it must be equal to 15 if
+   deflateInit2() was not used.  If a compressed stream with a larger window
+   size is given as input, inflate() will return with the error code
+   Z_DATA_ERROR instead of trying to allocate a larger window.
+
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.04254802977343023,ScoreOutOfRange,434,448,20783,21772,0.0007689121597814799,"  stop if and when it gets to the next deflate block boundary.  When decoding
+  the zlib or gzip format, this will cause inflate() to return immediately
+  after the header and before the first block.  When doing a raw inflate,
+  inflate() will go ahead and process the first block, and will return when it
+  gets to the end of that block, or when it runs out of data.
+
+    The Z_BLOCK option assists in appending to or combining deflate streams.
+  To assist in this, on return inflate() always sets strm->data_type to the
+  number of unused bits in the last byte taken from strm->next_in, plus 64 if
+  inflate() is currently decoding the last block in the deflate stream, plus
+  128 if inflate() returned immediately after decoding an end-of-block code or
+  decoding the complete header up to just before the first byte of the deflate
+  stream.  The end-of-block will not be indicated until all of the uncompressed
+  data from that block has been written to strm->next_out.  The number of
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,EUPL-1.0,0.043029226052805805,ScoreOutOfRange,450,485,21923,24160,0.0007634891851250507,"  eight.  data_type is set as noted here every time inflate() returns for all
+  flush options, and so can be used to determine the amount of currently
+  consumed input in bits.
+
+    The Z_TREES option behaves as Z_BLOCK does, but it also returns when the
+  end of each deflate block header is reached, before any actual data in that
+  block is decoded.  This allows the caller to determine the length of the
+  deflate block header for later use in random access within a deflate block.
+  256 is added to the value of strm->data_type when inflate() returns
+  immediately after reaching the end of the deflate block header.
+
+    inflate() should normally be called until it returns Z_STREAM_END or an
+  error.  However if all decompression is to be performed in a single step (a
+  single call of inflate), the parameter flush should be set to Z_FINISH.  In
+  this case all pending input is processed and all pending output is flushed;
+  avail_out must be large enough to hold all of the uncompressed data for the
+  operation to complete.  (The size of the uncompressed data may have been
+  saved by the compressor for this purpose.)  The use of Z_FINISH is not
+  required to perform an inflation in one step.  However it may be used to
+  inform inflate that a faster approach can be used for the single inflate()
+  call.  Z_FINISH also informs inflate to not maintain a sliding window if the
+  stream completes, which reduces inflate's memory footprint.  If the stream
+  does not complete, either because not all of the stream is provided or not
+  enough output space is provided, then a sliding window will be allocated and
+  inflate() can be called again to continue the operation as if Z_NO_FLUSH had
+  been used.
+
+     In this implementation, inflate() always flushes as much output as
+  possible to the output buffer, and always uses the faster approach on the
+  first call.  So the effects of the flush parameter in this implementation are
+  on the return value of inflate() as noted below, when inflate() returns early
+  when Z_BLOCK or Z_TREES is used, and when inflate() avoids the allocation of
+  memory for a sliding window when Z_FINISH is used.
+
+     If a preset dictionary is needed after this call (see inflateSetDictionary
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,EUPL-1.1,0.04057983261162157,ScoreOutOfRange,622,674,31742,34840,0.0007381927375667975,"   compressor and decompressor must use exactly the same dictionary (see
+   inflateSetDictionary).
+
+     The dictionary should consist of strings (byte sequences) that are likely
+   to be encountered later in the data to be compressed, with the most commonly
+   used strings preferably put towards the end of the dictionary.  Using a
+   dictionary is most useful when the data to be compressed is short and can be
+   predicted with good accuracy; the data can then be compressed better than
+   with the default empty dictionary.
+
+     Depending on the size of the compression data structures selected by
+   deflateInit or deflateInit2, a part of the dictionary may in effect be
+   discarded, for example if the dictionary is larger than the window size
+   provided in deflateInit or deflateInit2.  Thus the strings most likely to be
+   useful should be put at the end of the dictionary, not at the front.  In
+   addition, the current implementation of deflate will use at most the window
+   size minus 262 bytes of the provided dictionary.
+
+     Upon return of this function, strm->adler is set to the Adler-32 value
+   of the dictionary; the decompressor may later use this value to determine
+   which dictionary has been used by the compressor.  (The Adler-32 value
+   applies to the whole dictionary even if only a subset of the dictionary is
+   actually used by the compressor.) If a raw deflate was requested, then the
+   Adler-32 value is not computed and strm->adler is not set.
+
+     deflateSetDictionary returns Z_OK if success, or Z_STREAM_ERROR if a
+   parameter is invalid (e.g.  dictionary being Z_NULL) or the stream state is
+   inconsistent (for example if deflate has already been called for this stream
+   or if not at a block boundary for raw deflate).  deflateSetDictionary does
+   not perform any compression: this will be done by deflate().
+*/
+
+ZEXTERN int ZEXPORT deflateGetDictionary OF((z_streamp strm,
+                                             Bytef *dictionary,
+                                             uInt  *dictLength));
+/*
+     Returns the sliding dictionary being maintained by deflate.  dictLength is
+   set to the number of bytes in the dictionary, and that many bytes are copied
+   to dictionary.  dictionary must have enough space, where 32768 bytes is
+   always enough.  If deflateGetDictionary() is called with dictionary equal to
+   Z_NULL, then only the dictionary length is returned, and nothing is copied.
+   Similary, if dictLength is Z_NULL, then it is not set.
+
+     deflateGetDictionary() may return a length less than the window size, even
+   when more than the window size in input has been provided. It may return up
+   to 258 bytes less in that case, due to how zlib's implementation of deflate
+   manages the sliding window and lookahead for matches, where matches can be
+   up to 258 bytes long. If the application needs the last window-size bytes of
+   input, then that would need to be saved by the application outside of zlib.
+
+     deflateGetDictionary returns Z_OK on success, or Z_STREAM_ERROR if the
+   stream state is inconsistent.
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.042410640734744626,ScoreOutOfRange,309,326,14174,15085,0.0007142548055865439,"  block to be emitted.  This is for advanced applications that need to control
+  the emission of deflate blocks.
+
+    If flush is set to Z_FULL_FLUSH, all output is flushed as with
+  Z_SYNC_FLUSH, and the compression state is reset so that decompression can
+  restart from this point if previous compressed data has been damaged or if
+  random access is desired.  Using Z_FULL_FLUSH too often can seriously degrade
+  compression.
+
+    If deflate returns with avail_out == 0, this function must be called again
+  with the same value of the flush parameter and more output space (updated
+  avail_out), until the flush is complete (deflate returns with non-zero
+  avail_out).  In the case of a Z_FULL_FLUSH or Z_SYNC_FLUSH, make sure that
+  avail_out is greater than six to avoid repeated flush markers due to
+  avail_out == 0 on return.
+
+    If the parameter flush is set to Z_FINISH, pending input is processed,
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,CECILL-C,0.04169426117126848,ScoreOutOfRange,1399,1443,73097,75781,0.0005463934578411939,"   that remaining trailing garbage is ignored (and no error is returned).
+
+     gzread can be used to read a gzip file that is being concurrently written.
+   Upon reaching the end of the input, gzread will return with the available
+   data.  If the error code returned by gzerror is Z_OK or Z_BUF_ERROR, then
+   gzclearerr can be used to clear the end of file indicator in order to permit
+   gzread to be tried again.  Z_OK indicates that a gzip stream was completed
+   on the last gzread.  Z_BUF_ERROR indicates that the input file ended in the
+   middle of a gzip stream.  Note that gzread does not return -1 in the event
+   of an incomplete gzip stream.  This error is deferred until gzclose(), which
+   will return Z_BUF_ERROR if the last gzread ended in the middle of a gzip
+   stream.  Alternatively, gzerror can be used before gzclose to detect this
+   case.
+
+     gzread returns the number of uncompressed bytes actually read, less than
+   len for end of file, or -1 for error.  If len is too large to fit in an int,
+   then nothing is read, -1 is returned, and the error state is set to
+   Z_STREAM_ERROR.
+*/
+
+ZEXTERN z_size_t ZEXPORT gzfread OF((voidp buf, z_size_t size, z_size_t nitems,
+                                     gzFile file));
+/*
+     Read up to nitems items of size size from file to buf, otherwise operating
+   as gzread() does.  This duplicates the interface of stdio's fread(), with
+   size_t request and return types.  If the library defines size_t, then
+   z_size_t is identical to size_t.  If not, then z_size_t is an unsigned
+   integer type that can contain a pointer.
+
+     gzfread() returns the number of full items read of size size, or zero if
+   the end of the file was reached and a full item could not be read, or if
+   there was an error.  gzerror() must be consulted if zero is returned in
+   order to determine if there was an error.  If the multiplication of size and
+   nitems overflows, i.e. the product does not fit in a z_size_t, then nothing
+   is read, zero is returned, and the error state is set to Z_STREAM_ERROR.
+
+     In the event that the end of file is reached and only a partial item is
+   available at the end, i.e. the remaining uncompressed data length is not a
+   multiple of size, then the final partial item is nevetheless read into buf
+   and the end-of-file flag is set.  The length of the partial item read is not
+   provided, but could be inferred from the result of gztell().  This behavior
+   is the same as the behavior of fread() implementations in common libraries,
+   but it prevents the direct use of gzfread() to read a concurrently written
+   file, reseting and retrying on end-of-file, when size is not 1.
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,CECILL-2.1,0.04465138661516792,ScoreOutOfRange,995,1044,52044,54705,0.0005453163372840273,"   to feeding inflate codes.
+
+     inflatePrime returns Z_OK if success, or Z_STREAM_ERROR if the source
+   stream state was inconsistent.
+*/
+
+ZEXTERN long ZEXPORT inflateMark OF((z_streamp strm));
+/*
+     This function returns two values, one in the lower 16 bits of the return
+   value, and the other in the remaining upper bits, obtained by shifting the
+   return value down 16 bits.  If the upper value is -1 and the lower value is
+   zero, then inflate() is currently decoding information outside of a block.
+   If the upper value is -1 and the lower value is non-zero, then inflate is in
+   the middle of a stored block, with the lower value equaling the number of
+   bytes from the input remaining to copy.  If the upper value is not -1, then
+   it is the number of bits back from the current bit position in the input of
+   the code (literal or length/distance pair) currently being processed.  In
+   that case the lower value is the number of bytes already emitted for that
+   code.
+
+     A code is being processed if inflate is waiting for more input to complete
+   decoding of the code, or if it has completed decoding but is waiting for
+   more output space to write the literal or match data.
+
+     inflateMark() is used to mark locations in the input data for random
+   access, which may be at bit positions, and to note those cases where the
+   output of a code may span boundaries of random access blocks.  The current
+   location in the input stream can be determined from avail_in and data_type
+   as noted in the description for the Z_BLOCK flush parameter for inflate.
+
+     inflateMark returns the value noted above, or -65536 if the provided
+   source stream state was inconsistent.
+*/
+
+ZEXTERN int ZEXPORT inflateGetHeader OF((z_streamp strm,
+                                         gz_headerp head));
+/*
+     inflateGetHeader() requests that gzip header information be stored in the
+   provided gz_header structure.  inflateGetHeader() may be called after
+   inflateInit2() or inflateReset(), and before the first call of inflate().
+   As inflate() processes the gzip stream, head->done is zero until the header
+   is completed, at which time head->done is set to one.  If a zlib stream is
+   being decoded, then head->done is set to -1 to indicate that there will be
+   no gzip header information forthcoming.  Note that Z_BLOCK or Z_TREES can be
+   used to force inflate() to return immediately after header processing is
+   complete and before any actual data is decompressed.
+
+     The text, time, xflags, and os fields are filled in with the gzip header
+   contents.  hcrc is set to true if there is a header CRC.  (The header CRC
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,LGPL-3.0+,0.04125334761413278,ScoreOutOfRange,1272,1296,66579,67689,0.0005273275707710984,"   mechanism outside the scope of this compression library.) Upon exit, destLen
+   is the actual size of the uncompressed data.
+
+     uncompress returns Z_OK if success, Z_MEM_ERROR if there was not
+   enough memory, Z_BUF_ERROR if there was not enough room in the output
+   buffer, or Z_DATA_ERROR if the input data was corrupted or incomplete.  In
+   the case where there is not enough room, uncompress() will fill the output
+   buffer with the uncompressed data up to that point.
+*/
+
+ZEXTERN int ZEXPORT uncompress2 OF((Bytef *dest,   uLongf *destLen,
+                                    const Bytef *source, uLong *sourceLen));
+/*
+     Same as uncompress, except that sourceLen is a pointer, where the
+   length of the source is *sourceLen.  On return, *sourceLen is the number of
+   source bytes consumed.
+*/
+
+                        /* gzip file access functions */
+
+/*
+     This library supports reading and writing files in gzip (.gz) format with
+   an interface similar to that of stdio, using the functions that start with
+   ""gz"".  The gzip format is different from the zlib format.  gzip is a gzip
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.040989813132523124,ScoreOutOfRange,749,757,38721,39246,0.0004992990458654169,"   used by someone who understands the algorithm used by zlib's deflate for
+   searching for the best matching string, and even then only by the most
+   fanatic optimizer trying to squeeze out the last compressed bit for their
+   specific input data.  Read the deflate.c source code for the meaning of the
+   max_lazy, good_length, nice_length, and max_chain parameters.
+
+     deflateTune() can be called after deflateInit() or deflateInit2(), and
+   returns Z_OK on success, or Z_STREAM_ERROR for an invalid deflate stream.
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,PDDL-1.0,0.04681275611103478,ScoreOutOfRange,293,309,13198,14174,0.0004458062331080612,"  (00 00 ff ff).
+
+    If flush is set to Z_PARTIAL_FLUSH, all pending output is flushed to the
+  output buffer, but the output is not aligned to a byte boundary.  All of the
+  input data so far will be available to the decompressor, as for Z_SYNC_FLUSH.
+  This completes the current deflate block and follows it with an empty fixed
+  codes block that is 10 bits long.  This assures that enough bytes are output
+  in order for the decompressor to finish the block before the empty fixed
+  codes block.
+
+    If flush is set to Z_BLOCK, a deflate block is completed and emitted, as
+  for Z_SYNC_FLUSH, but the output is not aligned on a byte boundary, and up to
+  seven bits of the current block are held to be written as the next byte after
+  the next deflate block is completed.  In this case, the decompressor may not
+  be provided enough bits at this point in order to complete decompression of
+  the data provided so far to the compressor.  It may need to wait for the next
+"
+/zlib-1.2.11.tar.gz_extracted/zlib.h,PDDL-1.0,0.04458036838822701,ScoreOutOfRange,799,823,41458,42772,0.00039751051810930086,"   will be inserted in the output.
+
+     deflatePrime returns Z_OK if success, Z_BUF_ERROR if there was not enough
+   room in the internal buffer to insert the bits, or Z_STREAM_ERROR if the
+   source stream state was inconsistent.
+*/
+
+ZEXTERN int ZEXPORT deflateSetHeader OF((z_streamp strm,
+                                         gz_headerp head));
+/*
+     deflateSetHeader() provides gzip header information for when a gzip
+   stream is requested by deflateInit2().  deflateSetHeader() may be called
+   after deflateInit2() or deflateReset() and before the first call of
+   deflate().  The text, time, os, extra field, name, and comment information
+   in the provided gz_header structure are written to the gzip header (xflag is
+   ignored -- the extra flags are set according to the compression level).  The
+   caller must assure that, if not Z_NULL, name and comment are terminated with
+   a zero byte, and that if extra is not Z_NULL, that extra_len bytes are
+   available there.  If hcrc is true, a gzip header crc is included.  Note that
+   the current versions of the command-line version of gzip (up through version
+   1.3.x) do not support header crc's, and will report that it is a ""multi-part
+   gzip file"" and give up.
+
+     If deflateSetHeader is not used, the default gzip header has text false,
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/README.contrib,LZMA-exception,0.040225481506895006,ScoreOutOfRange,1,6,67,261,0.0016583904412545264,"provided by users of zlib and were not tested by the authors of zlib.
+Use at your own risk. Please contact the authors of the contributions
+for help about these, not the zlib authors. Thanks.
+
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib.ads,gnu-javamail-exception,0.3920748765002121,3,19,25,1501,1975,0.23906215439062153," --  As a special exception, if other files instantiate generics from this   --
+--  unit, or you link this unit with other files to produce an executable,  --
+--  this  unit  does not  by itself cause  the resulting executable to be   --
+--  covered by the GNU General Public License. This exception does not      --
+--  however invalidate any other reasons why the executable file  might be  --
+--  covered by the  GNU Public License.                                     --
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib.ads,GPL-1.0+,0.3529067047228024,3,3,18,237,1422,0.12864141206387195," --              Copyright (C) 2002-2004 Dmitriy Anisimkov                   --
+--                                                                          --
+--  This library is free software; you can redistribute it and/or modify    --
+--  it under the terms of the GNU General Public License as published by    --
+--  the Free Software Foundation; either version 2 of the License, or (at   --
+--  your option) any later version.                                         --
+--                                                                          --
+--  This library is distributed in the hope that it will be useful, but     --
+--  WITHOUT ANY WARRANTY; without even the implied warranty of              --
+--  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU       --
+--  General Public License for more details.                                --
+--                                                                          --
+--  You should have received a copy of the GNU General Public License       --
+--  along with this library; if not, write to the Free Software Foundation, --
+--  Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.          --
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/amd64/amd64-match.S,GPL-1.0-only,0.10245560629122273,3,1,6,3,272,0.004497980063371442," * match.S -- optimized version of longest_match()
+ * based on the similar work by Gilles Vollant, and Brian Raiter, written 1998
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the BSD License. Use by owners of Che Guevarra
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/asm686/match.S,Zlib,0.6555034883797773,4,0,20,0,1062,0.28925920379917425,"/* match.S -- x86 assembly version of the zlib longest_match() function.
+ * Optimized for the Intel 686 chips (PPro and later).
+ *
+ * Copyright (C) 1998, 2007 Brian Raiter <breadbox@muppetlabs.com>
+ *
+ * This software is provided 'as-is', without any express or implied
+ * warranty.  In no event will the author be held liable for any damages
+ * arising from the use of this software.
+ *
+ * Permission is granted to anyone to use this software for any purpose,
+ * including commercial applications, and to alter it and redistribute it
+ * freely, subject to the following restrictions:
+ *
+ * 1. The origin of this software must not be misrepresented; you must not
+ *    claim that you wrote the original software. If you use this software
+ *    in a product, an acknowledgment in the product documentation would be
+ *    appreciated but is not required.
+ * 2. Altered source versions must be plainly marked as such, and must not be
+ *    misrepresented as being the original software.
+ * 3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/blast/blast.h,Zlib,0.6449422920152744,4,1,20,36,953,0.26880858905536414,"  Copyright (C) 2003, 2012, 2013 Mark Adler
+  version 1.3, 24 Aug 2013
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/LICENSE_1_0.txt,BSL-1.0,1.0,5,0,23,0,1359,1.0,"Boost Software License - Version 1.0 - August 17th, 2003
+
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the ""Software"") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/Deflater.cs,MPL-2.0,0.043091575091575095,ScoreOutOfRange,3,5,41,228,0.006161912520442727,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+// (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/GZipStream.cs,LZMA-exception,0.04153393191717157,ScoreOutOfRange,3,4,41,136,0.0016662558307103039,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/Inflater.cs,MPL-2.0,0.04440898728860963,ScoreOutOfRange,3,5,41,228,0.006161912520442727,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+// (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/gcc_gvmat64/gvmat64.S,Zlib,0.5826073301520871,4,12,31,566,1624,0.29012040952115214,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
+;  and by taking inspiration on asm686 with masm, optimised assembly code
+;        from Brian Raiter, written 1998
+;
+;  This software is provided 'as-is', without any express or implied
+;  warranty.  In no event will the authors be held liable for any damages
+;  arising from the use of this software.
+;
+;  Permission is granted to anyone to use this software for any purpose,
+;  including commercial applications, and to alter it and redistribute it
+;  freely, subject to the following restrictions:
+;
+;  1. The origin of this software must not be misrepresented; you must not
+;     claim that you wrote the original software. If you use this software
+;     in a product, an acknowledgment in the product documentation would be
+;     appreciated but is not required.
+;  2. Altered source versions must be plainly marked as such, and must not be
+;     misrepresented as being the original software
+;  3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/infback9/inffix9.h,MPL-2.0,0.046272655634357764,ScoreOutOfRange,5,6,182,245,0.0026802465826856066,"       It is part of the implementation of this library and is
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/infback9/inflate9.h,MPL-2.0,0.05092322045540758,ScoreOutOfRange,6,7,234,298,0.002089318359885087,"   part of the implementation of the compression library and is
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/iostream2/zstream.h,NTP,0.26942814576601637,3,2,15,6,642,0.027024557495170298," * Copyright (c) 1997
+ * Christian Michelsen Research AS
+ * Advanced Computing
+ * Fantoftvegen 38, 5036 BERGEN, Norway
+ * http://www.cmr.no
+ *
+ * Permission to use, copy, modify, distribute and sell this software
+ * and its documentation for any purpose is hereby granted without fee,
+ * provided that the above copyright notice appear in all copies and
+ * that both that copyright notice and this permission notice appear
+ * in supporting documentation.  Christian Michelsen Research AS makes no
+ * representations about the suitability of this software for any
+ * purpose.  It is provided ""as is"" without express or implied warranty.
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/iostream3/README,NTP,0.04743490043596088,ScoreOutOfRange,24,31,1231,1395,0.0023091698680474363,"
+The code is provided ""as is"", with the permission to use, copy, modify, distribute
+and sell it for any purpose without fee.
+
+Ludwig Schwardt
+<schwardt@sun.ac.za>
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/masmx64/gvmat64.asm,Zlib,0.5702574557661005,4,10,30,487,1548,0.2901141826923077,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
+;
+;  and by taking inspiration on asm686 with masm, optimised assembly code
+;        from Brian Raiter, written 1998
+;
+;  This software is provided 'as-is', without any express or implied
+;  warranty.  In no event will the authors be held liable for any damages
+;  arising from the use of this software.
+;
+;  Permission is granted to anyone to use this software for any purpose,
+;  including commercial applications, and to alter it and redistribute it
+;  freely, subject to the following restrictions:
+;
+;  1. The origin of this software must not be misrepresented; you must not
+;     claim that you wrote the original software. If you use this software
+;     in a product, an acknowledgment in the product documentation would be
+;     appreciated but is not required.
+;  2. Altered source versions must be plainly marked as such, and must not be
+;     misrepresented as being the original software
+;  3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/masmx86/match686.asm,Zlib,0.577691405948569,4,162,182,6339,7408,0.3139926233287229,";;; Written for zlib 1.1.2
+;;; Copyright (C) 1998 Brian Raiter <breadbox@muppetlabs.com>
+;;; You can look at http://www.muppetlabs.com/~breadbox/software/assembly.html
+;;;
+;;
+;;  This software is provided 'as-is', without any express or implied
+;;  warranty.  In no event will the authors be held liable for any damages
+;;  arising from the use of this software.
+;;
+;;  Permission is granted to anyone to use this software for any purpose,
+;;  including commercial applications, and to alter it and redistribute it
+;;  freely, subject to the following restrictions:
+;;
+;;  1. The origin of this software must not be misrepresented; you must not
+;;     claim that you wrote the original software. If you use this software
+;;     in a product, an acknowledgment in the product documentation would be
+;;     appreciated but is not required.
+;;  2. Altered source versions must be plainly marked as such, and must not be
+;;     misrepresented as being the original software
+;;  3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/masmx86/match686.asm,psfrag,0.040408684546615586,ScoreOutOfRange,25,36,1138,1646,0.0021217863118392507,"; note: contrib of zLib 1.2.3 and earlier contained both a deprecated version for
+;  Pentium (prior Pentium Pro) and this version for Pentium Pro and modern processor
+;  with autoselect (with cpu detection code)
+;  if you want support the old pentium optimization, you can still use these version
+;
+; this file is not optimized for old pentium, but it compatible with all x86 32 bits
+; processor (starting 80386)
+;
+;
+; see below : zlib1222add must be adjuster if you use a zlib version < 1.2.2.2
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/masmx86/match686.asm,psfrag,0.042149896474360134,ScoreOutOfRange,1,4,78,292,0.0018608358716366382,"; Copyright (C) 1995-1996 Jean-loup Gailly, Brian Raiter and Gilles Vollant.
+; File written by Gilles Vollant, by converting match686.S from Brian Raiter
+; for MASM. This is as assembly version of longest_match
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/minizip/MiniZip64_info.txt,Zlib,0.7967713365539453,4,54,72,2079,2988,0.3022876182383327,"   Condition of use and distribution are the same than zlib :
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/minizip/unzip.h,Zlib,0.48326799104317175,3,15,34,644,1559,0.3022876182383327,"
+        Condition of use and distribution are the same than zlib :
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/minizip/zip.h,Zlib,0.6648243087124283,4,12,31,513,1423,0.3022876182383327,"
+   Condition of use and distribution are the same than zlib :
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/pascal/readme.txt,Zlib,0.710456725828535,4,58,76,2120,3004,0.2726478535584405,"  Copyright (C) 2003 by Cosmin Truta.
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/contrib/puff/puff.h,Zlib,0.8855639494958657,4,1,20,10,941,0.26773601468358466,"  Copyright (C) 2002-2013 Mark Adler, all rights reserved
+  version 2.3, 21 Jan 2013
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/doc/algorithm.txt,Vim,0.041238623471096615,ScoreOutOfRange,69,95,3688,5119,0.00065738806375222,"code is that many bits or less and how many, and if it is, it will tell
+the value, else it will point to the next level table for which inflate()
+grabs more bits and tries to decode a longer code.
+
+How many bits to make the first lookup is a tradeoff between the time it
+takes to decode and the time it takes to build the table.  If building the
+table took no time (and if you had infinite memory), then there would only
+be a first level table to cover all the way to the longest code.  However,
+building the table ends up taking a lot longer for more bits since short
+codes are replicated many times in such a table.  What inflate() does is
+simply to make the number of bits in the first table a variable, and  then
+to set that variable for the maximum speed.
+
+For inflate, which has 286 possible codes for the literal/length tree, the size
+of the first table is nine bits.  Also the distance trees have 30 possible
+values, and the size of the first table is six bits.  Note that for each of
+those cases, the table ended up one bit longer than the ``average'' code
+length, i.e. the code length of an approximately flat code which would be a
+little more than eight bits for 286 symbols and a little less than five bits
+for 30 symbols.
+
+
+2.2 More details on the inflate table lookup
+
+Ok, you want to know what this cleverly obfuscated inflate tree actually
+looks like.  You are correct that it's not a Huffman tree.  It is simply a
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1950.txt,Abstyles,0.046975313431388804,ScoreOutOfRange,16,34,457,1104,0.004426566129195139,"
+   This memo provides information for the Internet community.  This memo
+   does not specify an Internet standard of any kind.  Distribution of
+   this memo is unlimited.
+
+IESG Note:
+
+   The IESG takes no position on the validity of any Intellectual
+   Property Rights statements contained in this document.
+
+Notices
+
+   Copyright (c) 1996 L. Peter Deutsch and Jean-Loup Gailly
+
+   Permission is granted to copy and distribute this document for any
+   purpose and without charge, including translations into other
+   languages and incorporation into compilations, provided that the
+   copyright notice and this notice are preserved, and that any
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1950.txt,LGPL-3.0+,0.047639748115935875,ScoreOutOfRange,349,374,12369,13843,0.0007471474021476182,"
+      A compliant compressor must produce streams with correct CMF, FLG
+      and ADLER32, but need not support preset dictionaries.  When the
+      zlib data format is used as part of another standard data format,
+      the compressor may use only preset dictionaries that are specified
+      by this other data format.  If this other format does not use the
+      preset dictionary feature, the compressor must not set the FDICT
+      flag.
+
+      A compliant decompressor must check CMF, FLG, and ADLER32, and
+      provide an error indication if any of these have incorrect values.
+      A compliant decompressor must give an error indication if CM is
+      not one of the values defined in this specification (only the
+      value 8 is permitted in this version), since another value could
+      indicate the presence of new features that would cause subsequent
+      data to be interpreted incorrectly.  A compliant decompressor must
+      give an error indication if FDICT is set and DICTID is not the
+      identifier of a known preset dictionary.  A decompressor may
+      ignore FLEVEL and still be compliant.  When the zlib data format
+      is being used as a part of another standard format, a compliant
+      decompressor must support all the preset dictionaries specified by
+      the other format. When the other format does not use the preset
+      dictionary feature, a compliant decompressor must reject any
+      stream in which the FDICT flag is set.
+
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04030531666207049,ScoreOutOfRange,304,342,11973,13416,0.0007645039522567779,"               significant bit of the code.
+
+         In other words, if one were to print out the compressed data as
+         a sequence of bytes, starting with the first byte at the
+         *right* margin and proceeding to the *left*, with the most-
+         significant bit of each byte on the left as usual, one would be
+         able to parse the result from right to left, with fixed-width
+         elements in the correct MSB-to-LSB order and Huffman codes in
+         bit-reversed order (i.e., with the first bit of the code in the
+         relative LSB position).
+
+   3.2. Compressed block format
+
+      3.2.1. Synopsis of prefix and Huffman coding
+
+         Prefix coding represents symbols from an a priori known
+         alphabet by bit sequences (codes), one code for each symbol, in
+         a manner such that different symbols may be represented by bit
+         sequences of different lengths, but a parser can always parse
+         an encoded string unambiguously symbol-by-symbol.
+
+         We define a prefix code in terms of a binary tree in which the
+         two edges descending from each non-leaf node are labeled 0 and
+         1 and in which the leaf nodes correspond one-for-one with (are
+         labeled with) the symbols of the alphabet; then the code for a
+         symbol is the sequence of 0's and 1's on the edges leading from
+         the root to the leaf labeled with that symbol.  For example:
+
+
+
+
+
+
+
+
+
+
+
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04474888603601822,ScoreOutOfRange,25,57,631,1726,0.0006790162821826459,"
+   Copyright (c) 1996 L. Peter Deutsch
+
+   Permission is granted to copy and distribute this document for any
+   purpose and without charge, including translations into other
+   languages and incorporation into compilations, provided that the
+   copyright notice and this notice are preserved, and that any
+   substantive changes or deletions from the original are clearly
+   marked.
+
+   A pointer to the latest version of this and related documentation in
+   HTML format can be found at the URL
+   <ftp://ftp.uu.net/graphics/png/documents/zlib/zdoc-index.html>.
+
+Abstract
+
+   This specification defines a lossless compressed data format that
+   compresses data using a combination of the LZ77 algorithm and Huffman
+   coding, with efficiency comparable to the best currently available
+   general-purpose compression methods.  The data can be produced or
+   consumed, even for an arbitrarily long sequentially presented input
+   data stream, using only an a priori bounded amount of intermediate
+   storage.  The format can be implemented readily in a manner not
+   covered by patents.
+
+
+
+
+
+
+
+
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04198461788216656,ScoreOutOfRange,777,798,30319,31248,0.0004587765707415977,"      limit the range of backward pointers to some value smaller than
+      32K.  Similarly, a compressor may limit the size of blocks so that
+      a compressible block fits in memory.
+
+      A compliant decompressor must accept the full range of possible
+      values defined in the previous section, and must accept blocks of
+      arbitrary size.
+
+4. Compression algorithm details
+
+   While it is the intent of this document to define the ""deflate""
+   compressed data format without reference to any particular
+   compression algorithm, the format is related to the compressed
+   formats produced by LZ77 (Lempel-Ziv 1977, see reference [2] below);
+   since many variations of LZ77 are patented, it is strongly
+   recommended that the implementor of a compressor follow the general
+   algorithm presented here, which is known not to be patented per se.
+   The material in this section is not part of the definition of the
+
+
+
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPLLR,0.04428644613513708,ScoreOutOfRange,862,903,34215,35836,0.00032675778357563965,"
+   [1] Huffman, D. A., ""A Method for the Construction of Minimum
+       Redundancy Codes"", Proceedings of the Institute of Radio
+       Engineers, September 1952, Volume 40, Number 9, pp. 1098-1101.
+
+   [2] Ziv J., Lempel A., ""A Universal Algorithm for Sequential Data
+       Compression"", IEEE Transactions on Information Theory, Vol. 23,
+       No. 3, pp. 337-343.
+
+   [3] Gailly, J.-L., and Adler, M., ZLIB documentation and sources,
+       available in ftp://ftp.uu.net/pub/archiving/zip/doc/
+
+   [4] Gailly, J.-L., and Adler, M., GZIP documentation and sources,
+       available as gzip-*.tar in ftp://prep.ai.mit.edu/pub/gnu/
+
+   [5] Schwartz, E. S., and Kallick, B. ""Generating a canonical prefix
+       encoding."" Comm. ACM, 7,3 (Mar. 1964), pp. 166-169.
+
+   [6] Hirschberg and Lelewer, ""Efficient decoding of prefix codes,""
+       Comm. ACM, 33,4, April 1990, pp. 449-459.
+
+6. Security Considerations
+
+   Any data compression method involves the reduction of redundancy in
+   the data.  Consequently, any corruption of the data is likely to have
+   severe effects and be difficult to correct.  Uncompressed text, on
+   the other hand, will probably still be readable despite the presence
+   of some corrupted bytes.
+
+   It is recommended that systems using this data format provide some
+   means of validating the integrity of the compressed data.  See
+   reference [3], for example.
+
+7. Source code
+
+   Source code for a C language implementation of a ""deflate"" compliant
+   compressor and decompressor is available within the zlib package at
+   ftp://ftp.uu.net/pub/archiving/zip/zlib/.
+
+8. Acknowledgements
+
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04025087795221104,ScoreOutOfRange,745,760,28955,29616,0.0002612181614033314,"
+
+               (HCLEN + 4) x 3 bits: code lengths for the code length
+                  alphabet given just above, in the order: 16, 17, 18,
+                  0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15
+
+                  These code lengths are interpreted as 3-bit integers
+                  (0-7); as above, a code length of 0 means the
+                  corresponding symbol (literal/length or distance code
+                  length) is not used.
+
+               HLIT + 257 code lengths for the literal/length alphabet,
+                  encoded using the code length Huffman code
+
+               HDIST + 1 code lengths for the distance alphabet,
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1952.txt,LGPL-3.0+,0.04937206439232004,ScoreOutOfRange,25,57,624,1623,0.0006962508792027879,"
+   Copyright (c) 1996 L. Peter Deutsch
+
+   Permission is granted to copy and distribute this document for any
+   purpose and without charge, including translations into other
+   languages and incorporation into compilations, provided that the
+   copyright notice and this notice are preserved, and that any
+   substantive changes or deletions from the original are clearly
+   marked.
+
+   A pointer to the latest version of this and related documentation in
+   HTML format can be found at the URL
+   <ftp://ftp.uu.net/graphics/png/documents/zlib/zdoc-index.html>.
+
+Abstract
+
+   This specification defines a lossless compressed data format that is
+   compatible with the widely used GZIP utility.  The format includes a
+   cyclic redundancy check value for detecting data corruption.  The
+   format presently uses the DEFLATE method of compression but can be
+   easily extended to use other compression methods.  The format can be
+   implemented readily in a manner not covered by patents.
+
+
+
+
+
+
+
+
+
+
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1952.txt,NLOD-1.0,0.0418240718806135,ScoreOutOfRange,460,484,17381,18449,0.00043405551292953655,"
+
+            SI1         SI2         Data
+            ----------  ----------  ----
+            0x41 ('A')  0x70 ('P')  Apollo file type information
+
+         LEN gives the length of the subfield data, excluding the 4
+         initial bytes.
+
+      2.3.1.2. Compliance
+
+         A compliant compressor must produce files with correct ID1,
+         ID2, CM, CRC32, and ISIZE, but may set all the other fields in
+         the fixed-length part of the header to default values (255 for
+         OS, 0 for all others).  The compressor must set all reserved
+         bits to zero.
+
+         A compliant decompressor must check ID1, ID2, and CM, and
+         provide an error indication if any of these have incorrect
+         values.  It must examine FEXTRA/XLEN, FNAME, FCOMMENT and FHCRC
+         at least so it can skip over the optional fields if they are
+         present.  It need not examine any other part of the header or
+         trailer; in particular, a decompressor may ignore FTEXT and OS
+         and always produce binary output, and still be compliant.  A
+"
+/zlib-1.2.11.tar.gz_extracted/doc/rfc1952.txt,LGPL-3.0+,0.04190344736796047,ScoreOutOfRange,420,449,15754,16981,0.0003602417376565161,"
+         XLEN (eXtra LENgth)
+            If FLG.FEXTRA is set, this gives the length of the optional
+            extra field.  See below for details.
+
+         CRC32 (CRC-32)
+            This contains a Cyclic Redundancy Check value of the
+            uncompressed data computed according to CRC-32 algorithm
+            used in the ISO 3309 standard and in section 8.1.1.6.2 of
+            ITU-T recommendation V.42.  (See http://www.iso.ch for
+            ordering ISO documents. See gopher://info.itu.ch for an
+            online version of ITU-T V.42.)
+
+         ISIZE (Input SIZE)
+            This contains the size of the original (uncompressed) input
+            data modulo 2^32.
+
+      2.3.1.1. Extra field
+
+         If the FLG.FEXTRA bit is set, an ""extra field"" is present in
+         the header, with total length XLEN bytes.  It consists of a
+         series of subfields, each of the form:
+
+            +---+---+---+---+==================================+
+            |SI1|SI2|  LEN  |... LEN bytes of subfield data ...|
+            +---+---+---+---+==================================+
+
+         SI1 and SI2 provide a subfield ID, typically two ASCII letters
+         with some mnemonic value.  Jean-Loup Gailly
+"
+/zlib-1.2.11.tar.gz_extracted/examples/gzappend.c,Zlib,0.5559134204656269,4,1,21,48,981,0.26773601468358466,"
+  Copyright (C) 2003, 2012 Mark Adler, all rights reserved
+  version 1.2, 11 Oct 2012
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/examples/gzjoin.c,Zlib,0.5814062978906364,4,1,21,59,998,0.2671976107516177,"
+  Copyright (C) 2004, 2005, 2012 Mark Adler, all rights reserved
+  version 1.2, 14 Aug 2012
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/examples/gzlog.c,CECILL-C,0.040056344886585125,ScoreOutOfRange,67,104,3394,5873,0.0005640686401099682,"   to be compressed is missing due to some external force, a gzip file with
+   just the previous compressed data will be reconstructed.  In this case, all
+   of the data that was to be compressed is lost (approximately one megabyte).
+   This will not occur if all that happened was an interruption of the compress
+   operation.
+
+   The third state that is marked is the replacement of the old dictionary with
+   the new dictionary after a compress operation.  Once compression is
+   complete, the gzip file is marked as being in the replace state.  This
+   completes the gzip file, so an interrupt after being so marked does not
+   result in recompression.  Then the dictionary file is replaced, and the gzip
+   file is marked as completed.  This state prevents the possibility of
+   restarting compression with the wrong dictionary file.
+
+   All three operations are wrapped by a lock/unlock procedure.  In order to
+   gain exclusive access to the log files, first a foo.lock file must be
+   exclusively created.  When all operations are complete, the lock is
+   released by deleting the foo.lock file.  If when attempting to create the
+   lock file, it already exists and the modify time of the lock file is more
+   than five minutes old (set by the PATIENCE define below), then the old
+   lock file is considered stale and deleted, and the exclusive creation of
+   the lock file is retried.  To assure that there are no false assessments
+   of the staleness of the lock file, the operations periodically touch the
+   lock file to update the modified date.
+
+   Following is the definition of the extra field with all of the information
+   required to enable the above append and compress operations and their
+   recovery if interrupted.  Multi-byte values are stored little endian
+   (consistent with the gzip format).  File pointers are eight bytes long.
+   The crc's and lengths for the gzip trailer are four bytes long.  (Note that
+   the length at the end of a gzip file is used for error checking only, and
+   for large files is actually the length modulo 2^32.)  The stored block
+   length is two bytes long.  The gzip extra field two-byte identification is
+   ""ap"" for append.  It is assumed that writing the extra field to the file is
+   an ""atomic"" operation.  That is, either all of the extra field is written
+   to the file, or none of it is, if the operation is interrupted right at the
+   point of updating the extra field.  This is a reasonable assumption, since
+"
+/zlib-1.2.11.tar.gz_extracted/examples/gzlog.h,Zlib,0.6233747412008283,4,1,20,11,949,0.2671976107516177,"  Copyright (C) 2004, 2008, 2012 Mark Adler, all rights reserved
+  version 2.2, 14 Aug 2012
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz_extracted/examples/zlib_how.html,LGPL-3.0+,0.04022388236020786,ScoreOutOfRange,111,158,6101,8882,0.0010555738832327616,"(See <a href=""zlib_tech.html""><em>zlib Technical Details</em></a>.)
+<p>
+<tt>deflateInit()</tt> is called with a pointer to the structure to be initialized and
+the compression level, which is an integer in the range of -1 to 9.  Lower compression
+levels result in faster execution, but less compression.  Higher levels result in
+greater compression, but slower execution.  The <em>zlib</em> constant Z_DEFAULT_COMPRESSION,
+equal to -1,
+provides a good compromise between compression and speed and is equivalent to level 6.
+Level 0 actually does no compression at all, and in fact expands the data slightly to produce
+the <em>zlib</em> format (it is not a byte-for-byte copy of the input).
+More advanced applications of <em>zlib</em>
+may use <tt>deflateInit2()</tt> here instead.  Such an application may want to reduce how
+much memory will be used, at some price in compression.  Or it may need to request a
+<em>gzip</em> header and trailer instead of a <em>zlib</em> header and trailer, or raw
+encoding with no header or trailer at all.
+<p>
+We must check the return value of <tt>deflateInit()</tt> against the <em>zlib</em> constant
+<tt>Z_OK</tt> to make sure that it was able to
+allocate memory for the internal state, and that the provided arguments were valid.
+<tt>deflateInit()</tt> will also check that the version of <em>zlib</em> that the <tt>zlib.h</tt>
+file came from matches the version of <em>zlib</em> actually linked with the program.  This
+is especially important for environments in which <em>zlib</em> is a shared library.
+<p>
+Note that an application can initialize multiple, independent <em>zlib</em> streams, which can
+operate in parallel.  The state information maintained in the structure allows the <em>zlib</em>
+routines to be reentrant.
+<pre><b>
+    /* allocate deflate state */
+    strm.zalloc = Z_NULL;
+    strm.zfree = Z_NULL;
+    strm.opaque = Z_NULL;
+    ret = deflateInit(&amp;strm, level);
+    if (ret != Z_OK)
+        return ret;
+</b></pre><!-- -->
+With the pleasantries out of the way, now we can get down to business.  The outer <tt>do</tt>-loop
+reads all of the input file and exits at the bottom of the loop once end-of-file is reached.
+This loop contains the only call of <tt>deflate()</tt>.  So we must make sure that all of the
+input data has been processed and that all of the output data has been generated and consumed
+before we fall out of the loop at the bottom.
+<pre><b>
+    /* compress until end of file */
+    do {
+</b></pre>
+We start off by reading data from the input file.  The number of bytes read is put directly
+into <tt>avail_in</tt>, and a pointer to those bytes is put into <tt>next_in</tt>.  We also
+check to see if end-of-file on the input has been reached.  If we are at the end of file, then <tt>flush</tt> is set to the
+"
+/zlib-1.2.11.tar.gz_extracted/examples/zlib_how.html,LGPLLR,0.04017771546468729,ScoreOutOfRange,389,422,23017,25031,0.00029855811046191293,"provided input.
+<pre><b>
+        /* run inflate() on input until output buffer not full */
+        do {
+</b></pre>
+Just like in <tt>def()</tt>, the same output space is provided for each call of <tt>inflate()</tt>.
+<pre><b>
+            strm.avail_out = CHUNK;
+            strm.next_out = out;
+</b></pre>
+Now we run the decompression engine itself.  There is no need to adjust the flush parameter, since
+the <em>zlib</em> format is self-terminating. The main difference here is that there are
+return values that we need to pay attention to.  <tt>Z_DATA_ERROR</tt>
+indicates that <tt>inflate()</tt> detected an error in the <em>zlib</em> compressed data format,
+which means that either the data is not a <em>zlib</em> stream to begin with, or that the data was
+corrupted somewhere along the way since it was compressed.  The other error to be processed is
+<tt>Z_MEM_ERROR</tt>, which can occur since memory allocation is deferred until <tt>inflate()</tt>
+needs it, unlike <tt>deflate()</tt>, whose memory is allocated at the start by <tt>deflateInit()</tt>.
+<p>
+Advanced applications may use
+<tt>deflateSetDictionary()</tt> to prime <tt>deflate()</tt> with a set of likely data to improve the
+first 32K or so of compression.  This is noted in the <em>zlib</em> header, so <tt>inflate()</tt>
+requests that that dictionary be provided before it can start to decompress.  Without the dictionary,
+correct decompression is not possible.  For this routine, we have no idea what the dictionary is,
+so the <tt>Z_NEED_DICT</tt> indication is converted to a <tt>Z_DATA_ERROR</tt>.
+<p>
+<tt>inflate()</tt> can also return <tt>Z_STREAM_ERROR</tt>, which should not be possible here,
+but could be checked for as noted above for <tt>def()</tt>.  <tt>Z_BUF_ERROR</tt> does not need to be
+checked for here, for the same reasons noted for <tt>def()</tt>.  <tt>Z_STREAM_END</tt> will be
+checked for later.
+<pre><b>
+            ret = inflate(&amp;strm, Z_NO_FLUSH);
+            assert(ret != Z_STREAM_ERROR);  /* state not clobbered */
+"
+/zlib-1.2.11.tar.gz_extracted/old/os2/zlib.def,dvipdfm,0.04632477409818086,ScoreOutOfRange,1,2,2,52,0.0019907012427002107,"; Slightly modified version of ../nt/zlib.dnt :-)
+"
+/zlib-1.2.11.tar.gz_extracted/win32/DLL_FAQ.txt,Vim,0.040149371054497604,ScoreOutOfRange,52,95,2085,4029,0.000960543560278361,"    Incorrect handling of this macro was silently accepted at
+    build time, resulting in two major problems:
+
+    * ZLIB_DLL was missing from the old makefile.  When building
+      the DLL, not all people added it to the build options.  In
+      consequence, incompatible incarnations of ZLIB.DLL started
+      to circulate around the net.
+
+    * When switching from using the static library to using the
+      DLL, applications had to define the ZLIB_DLL macro and
+      to recompile all the sources that contained calls to zlib
+      functions.  Failure to do so resulted in creating binaries
+      that were unable to run with the official ZLIB.DLL build.
+
+    The only possible solution that we could foresee was to make
+    a binary-incompatible change in the DLL interface, in order to
+    remove the dependency on the ZLIB_DLL macro, and to release
+    the new DLL under a different name.
+
+    We chose the name ZLIB1.DLL, where '1' indicates the major
+    zlib version number.  We hope that we will not have to break
+    the binary compatibility again, at least not as long as the
+    zlib-1.x series will last.
+
+    There is still a ZLIB_DLL macro, that can trigger a more
+    efficient build and use of the DLL, but compatibility no
+    longer dependents on it.
+
+
+ 3. Can I build ZLIB.DLL from the new zlib sources, and replace
+    an old ZLIB.DLL, that was built from zlib-1.1.4 or earlier?
+
+  - In principle, you can do it by assigning calling convention
+    keywords to the macros ZEXPORT and ZEXPORTVA.  In practice,
+    it depends on what you mean by ""an old ZLIB.DLL"", because the
+    old DLL exists in several mutually-incompatible versions.
+    You have to find out first what kind of calling convention is
+    being used in your particular ZLIB.DLL build, and to use the
+    same one in the new build.  If you don't know what this is all
+    about, you might be better off if you would just leave the old
+    DLL intact.
+
+
+"
+/zlib-1.2.11.tar.gz_extracted/win32/DLL_FAQ.txt,Vim,0.04157733788455163,ScoreOutOfRange,320,351,14576,16047,0.0009062911422454883,"    how can I build/use ZLIB1.DLL in Microsoft Visual C++ 7.0
+    (Visual Studio .NET) or newer?
+
+  - Due to the problems explained in the Microsoft Knowledge Base
+    article KB326922 (see the previous answer), the C runtime that
+    comes with the VC7 environment is no longer considered a
+    system component.  That is, it should not be assumed that this
+    runtime exists, or may be installed in a system directory.
+    Since ZLIB1.DLL is supposed to be a system component, it may
+    not depend on a non-system component.
+
+    In order to link ZLIB1.DLL and your application to MSVCRT.DLL
+    in VC7, you need the library of Visual C++ 6.0 or older.  If
+    you don't have this library at hand, it's probably best not to
+    use ZLIB1.DLL.
+
+    We are hoping that, in the future, Microsoft will provide a
+    way to build applications linked to a proper system runtime,
+    from the Visual C++ environment.  Until then, you have a
+    couple of alternatives, such as linking zlib in statically.
+    If your application requires dynamic linking, you may proceed
+    as explained in the answer to Question 14.
+
+
+14. I need to link my own DLL build to a CRT different than
+    MSVCRT.DLL.  What can I do?
+
+  - Feel free to rebuild the DLL from the zlib sources, and link
+    it the way you want.  You should, however, clearly state that
+    your build is unofficial.  You should give it a different file
+    name, and/or install it in a private directory that can be
+"
+/zlib-1.2.11.tar.gz_extracted/win32/README-WIN32.txt,Zlib,0.5763434125823369,4,68,92,3227,4252,0.32878696439348215,"people who reported problems and suggested various improvements in zlib; they
+are too numerous to cite here.
+
+
+Copyright notice:
+
+  (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"

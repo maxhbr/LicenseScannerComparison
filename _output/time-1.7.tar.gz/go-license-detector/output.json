@@ -1,0 +1,23 @@
+[
+	{
+		"project": "/time-1.7.tar.gz_extracted/",
+		"matches": [
+			{
+				"license": "deprecated_GPL-2.0",
+				"confidence": 0.9650685
+			},
+			{
+				"license": "GPL-2.0-or-later",
+				"confidence": 0.9650685
+			},
+			{
+				"license": "deprecated_GPL-2.0+",
+				"confidence": 0.9650685
+			},
+			{
+				"license": "GPL-2.0-only",
+				"confidence": 0.9650685
+			}
+		]
+	}
+]

@@ -1,0 +1,3784 @@
+# Document Information
+
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+
+
+# Creation Info
+
+Creator: Tool: ScanCode 2.9.2
+Created: 2018-06-19T13:23:09Z
+
+
+# Package
+
+PackageName: file_5.30.tar.xz_extracted
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 3584649bc00a91bc39141918d99590e2151c405c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Autoconf-exception-2.0
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-2-Clause-NetBSD
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-4-Clause
+PackageLicenseInfoFromFiles: FSFAP
+PackageLicenseInfoFromFiles: FSFUL
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: ISC
+PackageLicenseInfoFromFiles: Libtool-exception
+PackageLicenseInfoFromFiles: LicenseRef-autoconf-simple-exception
+PackageLicenseInfoFromFiles: LicenseRef-bsd-simplified-darwin
+PackageLicenseInfoFromFiles: LicenseRef-free-unknown
+PackageLicenseInfoFromFiles: LicenseRef-fsf-mit
+PackageLicenseInfoFromFiles: LicenseRef-mit-old-style-no-advert
+PackageLicenseInfoFromFiles: LicenseRef-proprietary
+PackageLicenseInfoFromFiles: LicenseRef-public-domain
+PackageCopyrightText: <text>(c) 1993-2004 Gilles Vollant
+(c) STEPANYUK ARS-Sfx
+(c), FILE , LINE
+Copr', not Corp.
+Copr. Self-extracting PKZIP
+Copyright (c) 1984,1998
+Copyright (c) 1990, 1993 The Regents of the University of California.
+Copyright (c) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (c) 1994, 1995, 1996, 1999, 2000, 2001, 2002, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+Copyright (c) 1994-2014 Free Software Foundation, Inc.
+Copyright (c) 1996 Ignatios Souvatzis.
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 1997-2014 Free Software Foundation, Inc.
+Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 2000 The NetBSD Foundation, Inc.
+Copyright (c) 2001 by Martin Pool.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 2002-2005 David TAILLANDIER
+Copyright (c) 2002-2014 Free Software Foundation, Inc.
+Copyright (c) 2003 by Andrew Tridgell.
+Copyright (c) 2003-2014 Free Software Foundation, Inc.
+Copyright (c) 2004 Free Software Foundation, Inc.
+Copyright (c) 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+Copyright (c) 2004, 2005, 2007, 2008, 2009 Free Software Foundation, Inc.
+Copyright (c) 2004, 2005, 2007, 2009 Free Software Foundation, Inc.
+Copyright (c) 2004-2014 Free Software Foundation, Inc.
+Copyright (c) 2005, 2008, 2010-2014 Free Software Foundation, Inc.
+Copyright (c) 2006-2014 Free Software Foundation, Inc.
+Copyright (c) 2008 Christos Zoulas
+Copyright (c) 2008, 2016 Christos Zoulas
+Copyright (c) 2009-2014 Free Software Foundation, Inc.
+Copyright (c) 2011 Free Software Foundation, Inc.
+Copyright (c) 2011 The NetBSD Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 2016 Christos Zoulas
+Copyright (c) Christos Zoulas 2003.
+Copyright (c) Christos Zoulas 2008.
+Copyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992, 1994, 1995. Software
+Copyright (c) Ian F. Darwin 1986-1995. Software
+Copyright (c) Ian F. Darwin, Toronto, Canada, 1986-1999. Covered
+Copyright 1989-1990 PKWARE Inc. Self-extracting PKZIP
+Copyright 1991 by the Massachusetts Institute of Technology
+Copyright 1992-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/AUTHORS
+FileChecksum: SHA1: 028dbc1396386827afdc43c80645fb67867cd19e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/COPYING
+FileChecksum: SHA1: adcc6ae0ba0e1e4fae77bd2b98db0d5a1aae2e75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-bsd-simplified-darwin
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986, 1987, 1989, 1990, 1991, 1992, 1994, 1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/ChangeLog
+FileChecksum: SHA1: a7802b77f4220d04289e5cf792128a9245e4b87b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/INSTALL
+FileChecksum: SHA1: bbc89f8fc9083ae797f39d0369f1b0ef3788c80a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFAP
+FileCopyrightText: <text>Copyright (c) 1994, 1995, 1996, 1999, 2000, 2001, 2002, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/MAINT
+FileChecksum: SHA1: 6b5382f19ed83c6e16e8fd4bf9d6cae935552a64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/Makefile.am
+FileChecksum: SHA1: f5ca0a22bb89259084d8540417fd2eeb2cdbe373
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/Makefile.in
+FileChecksum: SHA1: 405bc6b34f68e720541f9bb9cf5e594a18aefb50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/NEWS
+FileChecksum: SHA1: f72aa36a7f93ae330cbbd7e9b0d545ff432bcdba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/README
+FileChecksum: SHA1: 3957d4cf6aea39b4d7ea06fa554526b033101313
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/TODO
+FileChecksum: SHA1: 6b41bf882aadd982df4e39856d2112296532300f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/acinclude.m4
+FileChecksum: SHA1: 70f5de292b1d232cf99697ab5de2f75d04a17896
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/aclocal.m4
+FileChecksum: SHA1: d6c872e43568c3770eda4ba69a5b06553aa2fad8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 2005, 2008, 2010-2014 Free Software Foundation, Inc.
+Copyright (c) 2002-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1997-2014 Free Software Foundation, Inc.
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 2003-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1997-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 2009-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 2006-2014 Free Software Foundation, Inc.
+Copyright (c) 2004-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/compile
+FileChecksum: SHA1: 03a05e37267c2f1c9fea4f2a6a15f8a7beb91c0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1999-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/config.guess
+FileChecksum: SHA1: 873653bf1bd19f3534aa788a3f4cacac973b08c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-autoconf-simple-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright 1992-2015 Free Software Foundation, Inc.
+Copyright 1992-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/config.h.in
+FileChecksum: SHA1: c4bd3eade3ef7ccc92f02afdcd3d02d82f6ae646
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/config.sub
+FileChecksum: SHA1: 17c4f8628ea435c999be66ee4c2967fdaf3b2955
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-autoconf-simple-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright 1992-2015 Free Software Foundation, Inc.
+Copyright 1992-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/configure
+FileChecksum: SHA1: 55906b663c4cffd323eb700f930bcc22e59a7497
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text>Copyright (c) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/configure.ac
+FileChecksum: SHA1: b5f85fd90458ce093055d5592b29b89498ae9ea6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/depcomp
+FileChecksum: SHA1: 44f711c72acb3fb13ece5b665aaf9d6449ad2574
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1999-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/doc/Makefile.am
+FileChecksum: SHA1: fb24ded9f9cf14898c5019e0ed9944aec3652016
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/doc/Makefile.in
+FileChecksum: SHA1: b43d92a9a217d760c90fc094e6bbf6715a326abb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/doc/file.man
+FileChecksum: SHA1: 55e22fe990718a4d5538da363a813aa56539ac76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: LicenseRef-public-domain
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin, Toronto, Canada, 1986-1999. Covered
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/doc/libmagic.man
+FileChecksum: SHA1: 752d4454cfbc5e65545682d5802a7fd436c407fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2003.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/doc/magic.man
+FileChecksum: SHA1: 685972598c4e23424d06a2a48c8103d6ad7480c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/install-sh
+FileChecksum: SHA1: 0c2b7145fde960a8f3b8e988a7489f61a1766703
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-mit-old-style-no-advert
+FileCopyrightText: <text>Copyright 1991 by the Massachusetts Institute of Technology
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/ltmain.sh
+FileChecksum: SHA1: 3dfefae05b59ca7740b500338f53041f43782ff6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/m4/libtool.m4
+FileChecksum: SHA1: 8830458492769decb22fc3820d33b73c1d17792a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text>Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (c) 2011 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/m4/ltoptions.m4
+FileChecksum: SHA1: 05ec66892c8b30f20aa5278e1671ae4925a9c063
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004, 2005, 2007, 2008, 2009 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/m4/ltsugar.m4
+FileChecksum: SHA1: d6d1ea1fd251ced66ba87ceb6f9e3846124691c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/m4/ltversion.m4
+FileChecksum: SHA1: 25c2435fa4cb5dc86ffad28bf9b1a6a14dd53a68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/m4/lt~obsolete.m4
+FileChecksum: SHA1: c0c6afe569131b4015d221bc853053cf884b2699
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004, 2005, 2007, 2009 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Header
+FileChecksum: SHA1: 56d39a2667a44f93988a323c5f836e249c71fbe3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Localstuff
+FileChecksum: SHA1: 0dd107dfc06fef15cdcef964861c31e2ab3cabdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/acorn
+FileChecksum: SHA1: 04a0c55e2b0d11971ea7e12362934d8682725677
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/adi
+FileChecksum: SHA1: 2371d888633bf69da62c326b50d14a9b97a66e3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/adventure
+FileChecksum: SHA1: fbecd2bbb06cb3346eef49a1295c7a4ba3ebc487
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/algol68
+FileChecksum: SHA1: b301e4840ad58e3664dbad6365ec29dac294b89c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/allegro
+FileChecksum: SHA1: fa3f1eef5456c8935882ac227b22ac61a9a3fde6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/alliant
+FileChecksum: SHA1: 2cd2c15e6693f568dc08543871187db03b70e28f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/amanda
+FileChecksum: SHA1: 3a4914aafb4f31baf441b755ac5f8a69d60908a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/amigaos
+FileChecksum: SHA1: 20ed3cd35c86df6301372336467126360de14d81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/android
+FileChecksum: SHA1: a70b3da7b5c07b7c8642ce4de525d941d38c260f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/animation
+FileChecksum: SHA1: 0408a0a8e1c106636a1eabe700f68f4102291d0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-proprietary
+LicenseInfoInFile: LicenseRef-proprietary
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/aout
+FileChecksum: SHA1: 28fdd604d7af9eed081ad540f7de7f554fcfb80f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/apl
+FileChecksum: SHA1: 3f7770fc27683441a04c469641ead17adb2008b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/apple
+FileChecksum: SHA1: e8259f53e13a4d3ee1818fd0eff6f76b6b433651
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/application
+FileChecksum: SHA1: 366ed9654125d6ec880c1b069ec5bb6d2c9f0cc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/applix
+FileChecksum: SHA1: a51397c782730a8cfbdac45ce3e96092d81e54df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/apt
+FileChecksum: SHA1: 3fed1cf054a52367f476986784a956fbb465946c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/archive
+FileChecksum: SHA1: 9adea14d80e38f0b985b402f347cc7a940f1ac39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>(c) STEPANYUK ARS-Sfx
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/assembler
+FileChecksum: SHA1: 085c8426c7d8a2f64a994deb8ff3e0eafcd0d0a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/asterix
+FileChecksum: SHA1: 87b2394a84e1d858ac0b55b400fad9932737533d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/att3b
+FileChecksum: SHA1: eab2421f738070e15835d99a9d3a28824a6d538b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/audio
+FileChecksum: SHA1: 7b62788733ef5203896b3d4f0dfa3fc7c849ad3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/basis
+FileChecksum: SHA1: e7c359877661ec939af31545db6182bcde3c44ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ber
+FileChecksum: SHA1: 2fdb16b7ae9531f9504b78ce78bfe9e154b1816a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/bflt
+FileChecksum: SHA1: 9d54252f7892043962faefb9c27b5cc5270cc891
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/bioinformatics
+FileChecksum: SHA1: ed2acbd746fd8f9fe5e126f604dbf2c48b6b3389
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/blackberry
+FileChecksum: SHA1: 10d8e99643c234aff53f2acdc6a4be2ea255884d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/blcr
+FileChecksum: SHA1: 9c3f20e3954db63c8746b85b7af6056b818d775f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/blender
+FileChecksum: SHA1: c5ad3e9388dc268aa0f846e9d9c1c82b8fa6dd45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/blit
+FileChecksum: SHA1: d80432c82e48f84a7f44ab24e8567c24b2055155
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/bout
+FileChecksum: SHA1: 57cfbd4c71f50da1ab7430ae5710c5fc23072942
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/bsdi
+FileChecksum: SHA1: d1cd89d29dca6a15b94d0c0888e6fb98269c8533
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/bsi
+FileChecksum: SHA1: b81fc2749b0036d56d14f25c5c4179164d6a55cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/btsnoop
+FileChecksum: SHA1: 43fbbe459f3523e4fe6c3ce304595276b0548d28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/c-lang
+FileChecksum: SHA1: fea253934a5993d4e2faf02ea9fdc62d322f6440
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/c64
+FileChecksum: SHA1: 0d6f42f8cf66d2cbaab801505353a9880bd6873a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cad
+FileChecksum: SHA1: 2cf22e291f2e06ce9ace900654c1c595a2f2e2d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cafebabe
+FileChecksum: SHA1: e61e010e9007ff021c6ca24f3c6c6817f444871a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cbor
+FileChecksum: SHA1: b91ed5e4a59a6eee1e0750edef431f5ad3e9707d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cddb
+FileChecksum: SHA1: 7fe3f4eaa92f196b42fc09ffcc305a747c03f557
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/chord
+FileChecksum: SHA1: ef49bfc684b6f786f572eed6cf252ce761104be8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cisco
+FileChecksum: SHA1: a17c946af8b436156eb374529c87042e4188931c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/citrus
+FileChecksum: SHA1: 90806c72e03dbef78d6916c506ebecbad0ac8655
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/clarion
+FileChecksum: SHA1: aee13cb3b5b159193acfb9b7ec5335629ec89134
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/claris
+FileChecksum: SHA1: 4027d40ab2f21f20994e2631be3b586a92026a3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/clipper
+FileChecksum: SHA1: 312833bfa3af89919010d6be792d924bb3409887
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/coff
+FileChecksum: SHA1: 7a0d0f689df2e419c576a87e9b66cc1954aad448
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/commands
+FileChecksum: SHA1: ada55e3da87883a6c3ebf3c70514221e9c9671dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/communications
+FileChecksum: SHA1: e46f701bec1275634a4dfcf803b23418c9672993
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/compress
+FileChecksum: SHA1: 8660c780626845f74fbefa2fa3724cc3a1eab469
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) 2003 by Andrew Tridgell.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/console
+FileChecksum: SHA1: ac7eb2e43f36f5d3d2f516f83e6aa5835244327f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/convex
+FileChecksum: SHA1: 2e888642837b6862fb608b417765852bcda9c06d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/coverage
+FileChecksum: SHA1: 8ed252aeb677cc98b21ffe9308a0c13085d3bd30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cracklib
+FileChecksum: SHA1: 128529ffbcd0f7fcd4aa4aca67515c0f13e51ef2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ctags
+FileChecksum: SHA1: ce2fdb05d70cf1243dbf24801fa0b0ff92c7d90a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ctf
+FileChecksum: SHA1: 0a4884a14f4eaa16a65f55d661fcdff8f529a5fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cubemap
+FileChecksum: SHA1: 9260a595806db71339d939eb6d89f880622c3a3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/cups
+FileChecksum: SHA1: f65906a3f56054ee0735628db0230f3b4964c276
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/dact
+FileChecksum: SHA1: 2c5e1a2d0bbbeffabae7e5e1ff254771da74f9ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/database
+FileChecksum: SHA1: 0ce24535da01fd8fa4dd1d960f416fcd8ed4f324
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/der
+FileChecksum: SHA1: 8eb5b9926c81a05613da9c6a16af3033e51707aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/diamond
+FileChecksum: SHA1: 5c3e90900c7685b3837c6b8e3fabf605695d436d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/diff
+FileChecksum: SHA1: f3f774d19286a2a90c53acca2055444a92e47c2a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) 2001 by Martin Pool.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/digital
+FileChecksum: SHA1: 0454da2ddb6de44dccb471d89a788fdf9c93447d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/dolby
+FileChecksum: SHA1: f7313c54fa40d228110418e889b425c365e86013
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/dump
+FileChecksum: SHA1: b0c0d22edd64edacbc024adc77d2da2fd8d8baae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/dyadic
+FileChecksum: SHA1: 567d2519f42d6dabf4b7c4cdde04696febcf55ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ebml
+FileChecksum: SHA1: 660b01e902628de9909e7ea6e3ac0f9300daff27
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/editors
+FileChecksum: SHA1: ff6932b5a5458810d5c10a839a0dd0f558432a37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/efi
+FileChecksum: SHA1: 2e7b24a5a175dbe70504f60f28aa991f5b2142b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/elf
+FileChecksum: SHA1: 509bbe8fea973f241767ea50318e3c33caec44a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/encore
+FileChecksum: SHA1: 4fe8128d7e795cddb08ba9b5ca6adeeed23fa7ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/epoc
+FileChecksum: SHA1: 5d64d4a6035fc0441bed45b539aea660f853e147
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/erlang
+FileChecksum: SHA1: c69d5c4c92daa2465bab36902a9b978530c7e24d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/esri
+FileChecksum: SHA1: b3d8298d3bd078a4b51782b5fd04dd72033e6810
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/fcs
+FileChecksum: SHA1: 8af2d10c011f96ec466be96bce842b94818ed15e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/filesystems
+FileChecksum: SHA1: 4d64be478cf4cb676e88c62d3d9dd6ae3f09ffc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) 1984,1998
+(c) 1993-2004 Gilles Vollant
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/finger
+FileChecksum: SHA1: e093d3e6a7b939d8eb0433d9f920b581e856226b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/flash
+FileChecksum: SHA1: abb961f4b5caf1a6cf3beb81cb33101377b422be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/flif
+FileChecksum: SHA1: 83a4bad908c4d77760dedbce85b34d926609d178
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/fonts
+FileChecksum: SHA1: 1f6e9763babc282b0728c887a2f0d3f977f7d68f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/fortran
+FileChecksum: SHA1: 2c7ffa1a0033309e22c4b7aa1d137ae42097b8c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/frame
+FileChecksum: SHA1: 198cff4cb73c2a3bb6d60e337550c7d923a223e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/freebsd
+FileChecksum: SHA1: 5d9e3166126054010c1fea39763e5d6b1b022149
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/fsav
+FileChecksum: SHA1: b5ae35e54b7668ec844585aecb7ce3ad760e8dfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/fusecompress
+FileChecksum: SHA1: 873cdf90bdaa786d6b3b070c06c7b297089d2973
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/games
+FileChecksum: SHA1: b33a10cafaffa7cd1c2a7acc23c6c5695403398c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gcc
+FileChecksum: SHA1: 3644f0cfc56de546061955e04b26c3f98140ed33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/geo
+FileChecksum: SHA1: 835ae6b87ca9dd008bc343e7e9d3f5cba27c6215
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/geos
+FileChecksum: SHA1: bc6433da3eebb388f8221914726ca48aec46871d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gimp
+FileChecksum: SHA1: cfd069725c53f87b05ca0dfce4ca6811206749a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gnome
+FileChecksum: SHA1: 0a81708cd59bfa6f95e02bd89fe970e3cf666444
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gnu
+FileChecksum: SHA1: 2037b22ff49d523626d2bb961e7586ba51d6c2db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gnumeric
+FileChecksum: SHA1: d47c1530837cb6132f9255f6b5209337ad044c13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gpt
+FileChecksum: SHA1: 532117d9f94f59dbfe1ec7ba9c4ecee4c7b67c60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gpu
+FileChecksum: SHA1: a87d79d1198df7bf4bbf34fafc9c923cc141bc5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/grace
+FileChecksum: SHA1: 87f7ea906f415a82251487f59a705dd47d5a9856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/graphviz
+FileChecksum: SHA1: 062f82e253049476f2659cd321b0e855caa509ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/gringotts
+FileChecksum: SHA1: 6818c1f9b03fc923975cee2d11529b482e4bed87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/guile
+FileChecksum: SHA1: 23dacfa5e07c4dee91505ff7bcdbe40f5a33918a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/hitachi-sh
+FileChecksum: SHA1: 4136d49f28f89b93fae4ccd863c3bb4470343afd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/hp
+FileChecksum: SHA1: 0faea166ce3f8417443e5ecb37be7f941a8385c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/human68k
+FileChecksum: SHA1: ac7ebeb1bd4f70a56281c431dd05f3d88ced67ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ibm370
+FileChecksum: SHA1: 36db8b2634d32dd4bc53df233023fefc0bca26f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ibm6000
+FileChecksum: SHA1: fae8f2357e555a1ba9d3f5d7b1b5aedb8975152f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/icc
+FileChecksum: SHA1: f3846189524e842bb737765d453e62fa5b987886
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/iff
+FileChecksum: SHA1: 3cef20d45b56319cf47597bcfbf80a29cf4fafe8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/images
+FileChecksum: SHA1: 3150913e88e80bc90fc15c2acdbafeb866b7f248
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/inform
+FileChecksum: SHA1: 62d71014a60060e3caf77872fd6b8d8b0e16020a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/intel
+FileChecksum: SHA1: b8bc06b5dfadcdf4d34106bc1ddc76f5cbd64ab9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/interleaf
+FileChecksum: SHA1: 2692b663ffce1175def3f47605a95fc8da72a3e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/island
+FileChecksum: SHA1: 10ca18eecbc9feb1c31687c3fbcfb4acef935d1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ispell
+FileChecksum: SHA1: 0a7baf178c00c8ba13dbebf8c1fd8dcef512e617
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/isz
+FileChecksum: SHA1: 976e95884a4cb91673b4998e0ed390794eb3f10f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/java
+FileChecksum: SHA1: ee15fe9f4cd78f1f84193d5500b903a96dcc01a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/javascript
+FileChecksum: SHA1: 4d6a93dd0e692a069fbc2bfa14b07160f5e3befe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/jpeg
+FileChecksum: SHA1: 8eba2d64ee99439976ec03aba79c2350b3ec6c3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/karma
+FileChecksum: SHA1: f012f60d05146cc4c2a20e4bc42f5716163a055c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/kde
+FileChecksum: SHA1: ba1711bd935d1696084b9bd94bd620faaf239aa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/keepass
+FileChecksum: SHA1: 3a7b961a9bb39c23e1a011b6c143a2a76162d9ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/kerberos
+FileChecksum: SHA1: 93257301d855cd796dfcba3be86d1384feb93618
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/kml
+FileChecksum: SHA1: a2b3e049eb14eb0250144657c85bc0b0628de595
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/lecter
+FileChecksum: SHA1: a6b6ae4454c0276689519d82d84e0de329a62a65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/lex
+FileChecksum: SHA1: 25e06cda6689779778415ff3dcec5cc55d0666fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/lif
+FileChecksum: SHA1: 009a752536e0aa8324c852c8a7b1b85f6a3c5e4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/linux
+FileChecksum: SHA1: 5faaa0aea090827ee040b3028312d816694de59b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/lisp
+FileChecksum: SHA1: 80b8d31d1182904888e183ee16a31e71ee2f459e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/llvm
+FileChecksum: SHA1: e4a013725bd82eaf3958a364b8e93b0ba3d89730
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/lua
+FileChecksum: SHA1: 501e0b2eb1b4f789f7b69b1176e3479835eb6d42
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/luks
+FileChecksum: SHA1: 4bbf9850017442a622edce07c28598636f24d516
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/m4
+FileChecksum: SHA1: 0d20ffed348760bb17eee50deb982966366749fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mach
+FileChecksum: SHA1: 0732bef3a5f403f3a7e9e2adc0e195ddf03c57f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/macintosh
+FileChecksum: SHA1: 0a7b0e0e1798ce0c1b20150c6e37d1d2ae4d41b3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/macos
+FileChecksum: SHA1: 70b70113e316cf57a9798a0163d6841cde9c5c50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/magic
+FileChecksum: SHA1: c6e99a26d2d4865dbaef0958cea8ea1a13694a2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mail.news
+FileChecksum: SHA1: 1dfe714815c187d5340a40c3d2be50495d9cff8b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/make
+FileChecksum: SHA1: becf03da1fa1e70a68dcaa6c0ba9e00970686c72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/map
+FileChecksum: SHA1: 895d76cb0a88112743aae99d75b7674ac4e0d729
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/maple
+FileChecksum: SHA1: e0c738cb19b7b8a64bec9ae612a5512f2ab1532e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/marc21
+FileChecksum: SHA1: ec51e5aae366d79a964d653f49d02ca689907122
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mathcad
+FileChecksum: SHA1: 93e659c8cc5a56c1d9d8c8fbdcbda95a03a9394b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mathematica
+FileChecksum: SHA1: 26daa9b7beb87c724c38e98ef537d1d5db827bcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/matroska
+FileChecksum: SHA1: 5ed41759d826e454b12d266b487a03f0b68dab50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mcrypt
+FileChecksum: SHA1: 08286a5e962536268a31b2d819c87cf327e86784
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mercurial
+FileChecksum: SHA1: 5fa769e2fe7634dab2b25b3a426cef50f51ed170
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/metastore
+FileChecksum: SHA1: d87946f245eac038d26f09fb26c8873db2e33193
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/meteorological
+FileChecksum: SHA1: d08be5e25714c9a5c2780dbc189bc4cf86114f2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/microfocus
+FileChecksum: SHA1: e650bc80abbda329f98fef581f28b854937f9dd2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mime
+FileChecksum: SHA1: 15291ec9ed5a06ef6beca4b48ddd7553cf9a1553
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mips
+FileChecksum: SHA1: b820394c82d0f2f57ec96e45110f4c1cc7bc751a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mirage
+FileChecksum: SHA1: ad57609202e1cb3690796fbda6641ec2386b6ce7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/misctools
+FileChecksum: SHA1: da9626f355a5b9cd490a355a290d70f493a32674
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mkid
+FileChecksum: SHA1: 4b05e8990286ac599c31cf7234f55e132c086572
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mlssa
+FileChecksum: SHA1: 1e52a6f7159de26b03dcd43317db0acf05e1cbfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mmdf
+FileChecksum: SHA1: 8ec303676b76ef346155b7d90b1a6f3ab3ba938b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/modem
+FileChecksum: SHA1: a9c23173cf1326642182c2e6f5b414f4752dd0a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/motorola
+FileChecksum: SHA1: 27420594c43e1b0980d43f69a787ec025642df72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mozilla
+FileChecksum: SHA1: fe6e117c2e198e4a66c651b8040701f919d59ffc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/msdos
+FileChecksum: SHA1: 3e4803633f5403bd91bf28a54adefcc4f84d62b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright 1989-1990 PKWARE Inc. Self-extracting PKZIP
+Copr', not Corp.
+Copr. Self-extracting PKZIP
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/msooxml
+FileChecksum: SHA1: ce59900937615036dca07e26ce98e85ff8b0b8d9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/msvc
+FileChecksum: SHA1: 5e5cba511d4005aac655580233b258a9069cf35e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/msx
+FileChecksum: SHA1: b715a1fd739209c71e448ee81a4713b0b0d07242
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/mup
+FileChecksum: SHA1: 33f6e5920d800db54b18b03d7b3cf3bb8aeaefe3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/music
+FileChecksum: SHA1: 505a7b3b9c27b4cb402ba85083d8fd0a5ec1e2b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/nasa
+FileChecksum: SHA1: 05f3194fe2a8eac4ff2109b58feef0e06d49abc7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/natinst
+FileChecksum: SHA1: a954e25ca47b8036e4fc46d0fce7958c9bf02f3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ncr
+FileChecksum: SHA1: 986a42da002e2b6e5a25fb6aaa775bf355fa29f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/neko
+FileChecksum: SHA1: 19569322c473ccd913ca4ebd93d1c63c99ee4688
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/netbsd
+FileChecksum: SHA1: 92cc6438ff29dae81b105a0c3e4eef62001b41e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/netscape
+FileChecksum: SHA1: 13691e80d0ffe66bd078c11b25aca8d8c9043f38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/netware
+FileChecksum: SHA1: 6d6208f36ba93773ba2cd0f859a7f4af194682b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/news
+FileChecksum: SHA1: 89c90b252cddfdb8ca6490a93de8e024df7d7c14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/nitpicker
+FileChecksum: SHA1: 3662c474d73bdd3cf55ca13386ac957d493827ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/oasis
+FileChecksum: SHA1: 92dc3cdb7f2c7b2c4674025017a0f2853426d619
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ocaml
+FileChecksum: SHA1: f2936bd7a0fa3014d5f8852cb4257e6686831b38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/octave
+FileChecksum: SHA1: 2c0187a61ab3f7d2401ee357c335b65f02821f44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ole2compounddocs
+FileChecksum: SHA1: a89133e78d31f2349b1aff31216ae47c1c25935f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/olf
+FileChecksum: SHA1: 9d5ab8d78eeca147786cf9df686d3b7c798e6c62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/os2
+FileChecksum: SHA1: e51dd0e0349eaf28ecc982ec6ed2948517a1754a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/os400
+FileChecksum: SHA1: a2ea71605cdb5d91fca91adb24c98eb71e053b85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/os9
+FileChecksum: SHA1: 4c54c9d032b4a6c82222199b0e0461108d52b253
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) 1996 Ignatios Souvatzis.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/osf1
+FileChecksum: SHA1: 6586f113a7c4921840a425cfa857c65b5d8caa9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/palm
+FileChecksum: SHA1: e2df841ae9bb06d2cf7f54d643d92322539a1a1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/parix
+FileChecksum: SHA1: 450a2317bf0941bf81d44ad42473e1759f87014b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/parrot
+FileChecksum: SHA1: e248176760b1d45bda577847c1a4bc038c316de9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pascal
+FileChecksum: SHA1: 4e0fd577c9fa21a2a66fb651a4470a09dd7f7d05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pbf
+FileChecksum: SHA1: 39e946b9a5661452898a5257612f48d77ae403fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pbm
+FileChecksum: SHA1: 21e930ae4929f761655e64f27cbdb50c4e80a9ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pc88
+FileChecksum: SHA1: 5ba78cd1edbfd76e240a9da1dd8f0fcbfe61574e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pc98
+FileChecksum: SHA1: dc7932b5b1a80a89bd5dd4322fd2a7cf6db4faf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pdf
+FileChecksum: SHA1: 0f6a72303acad316bbcc6bab2d4203db62bb3921
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pdp
+FileChecksum: SHA1: 5d16852fd63d0e68acd0f9c701d5b37768701074
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/perl
+FileChecksum: SHA1: 1030a82764b320cdfb4383776e71463ab96bc393
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pgf
+FileChecksum: SHA1: 1e9112398192d412b8fefc42e77a4b987bf51f25
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pgp
+FileChecksum: SHA1: 51dfa8600569eaa87b8c7ae9998c45c808e8f9bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pkgadd
+FileChecksum: SHA1: fae8d0ff060d5c56bde7678513189f8fd7dd6781
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/plan9
+FileChecksum: SHA1: dd4e0c3e26fbe4a0cedc02b688f3c1fe36d7b8b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/plus5
+FileChecksum: SHA1: daf617d957409f11ac7d923fbba9ed17ead979e1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/polyml
+FileChecksum: SHA1: 58a98264d8d4d352971be087a9f83a0aba8f5364
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/printer
+FileChecksum: SHA1: c83c974d9351e58bc420568bcabb2f86e74a50f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/project
+FileChecksum: SHA1: 81351585bfbf35fe307ef26e225a7f870d71db0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/psdbms
+FileChecksum: SHA1: 55a1fa99191e0e2cdb453841fcb152284bf593c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/psl
+FileChecksum: SHA1: 6f438ba6e83b563f2147d502ff22c3fc15cbe58d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pulsar
+FileChecksum: SHA1: ec328113f28ee2fc4d95329d1ae5a6b7608e6e2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pwsafe
+FileChecksum: SHA1: 98ec999da2949df5ff7ca402c533f620b38c7ebe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/pyramid
+FileChecksum: SHA1: 9ad70867038a7a71fe65ad9cbea31baaf2d3d48a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/python
+FileChecksum: SHA1: 6796c45b12761f4f714c440f7418564db162eedd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/qt
+FileChecksum: SHA1: 594e3a6b2aed84a76b6a524899dffbf95f11a8fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/revision
+FileChecksum: SHA1: a492493e9908fdac7fe86d0eed6954e67aac64a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/riff
+FileChecksum: SHA1: bd564b56e648dc92072f984f8a1e7c8d7edf6c7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/rpm
+FileChecksum: SHA1: d1dfbe0453e97d1479209ca82842c07979a4f82d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/rtf
+FileChecksum: SHA1: c01ed1db716d2f03cd7a698d82bc7da0bc0aa570
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ruby
+FileChecksum: SHA1: 1adeedc0b478131c83486c76b3ad8bdb30594767
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sc
+FileChecksum: SHA1: 500454d05abb34fb6a00cc2984e57b23e6b50d11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/scientific
+FileChecksum: SHA1: d257967c949e1b531123e7db148a5169c704cc08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/securitycerts
+FileChecksum: SHA1: bf7b071416082abff15ea8016c1784a26243dad1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/selinux
+FileChecksum: SHA1: c6b5802bc14140676d015701c4c0ab3c633da40f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sendmail
+FileChecksum: SHA1: de457954a89402b1bc75ee68b508a9b032b328d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sequent
+FileChecksum: SHA1: e810d1ea53b77fda8eaa3d6e7bd481c639aa3d1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sereal
+FileChecksum: SHA1: 7dc405defe50c5b369d22c1abd753083ab6b5669
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sgi
+FileChecksum: SHA1: 9a2562d751167fe46cd01fe2c190135069f9570e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sgml
+FileChecksum: SHA1: 3652f19bb711e3bdaa50d2ea39f1942e1ecb4086
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sharc
+FileChecksum: SHA1: bef231119736133741377d50dbbac169ef3f4b59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sinclair
+FileChecksum: SHA1: 8be748238a785237d0c4cac7f11cb1eede01cf6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sisu
+FileChecksum: SHA1: bd6258fd7a4a83508debc7c2eddfcc824b9fa2da
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sketch
+FileChecksum: SHA1: 1b8a8012a2c9475f7bc0353f5d4361809af101e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/smalltalk
+FileChecksum: SHA1: 68c2c35e0d77846ef24edc31054379499adcd6cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/smile
+FileChecksum: SHA1: f5eca1f21460636a5ec101070e23798ae678ed3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sniffer
+FileChecksum: SHA1: 45e98a03923db0083daabdcd48d16f1275762816
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/softquad
+FileChecksum: SHA1: f303bfe506b660d5831515332924ff5762cc5afa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/spec
+FileChecksum: SHA1: 86756414aedf57288072325748176a94617cd5f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/spectrum
+FileChecksum: SHA1: 65c30a4f60a1508310cd1a173f4e0b2a96d9b12c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sql
+FileChecksum: SHA1: cf53d5703b1529cba02bd22e0d558e60c8ec502a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ssh
+FileChecksum: SHA1: c0c430ea869670092424abb1fcc104a112b1cac8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ssl
+FileChecksum: SHA1: 78f3276199b4222fed213a31c0774013354e03ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sun
+FileChecksum: SHA1: 2d6b0a8f53f2420ba33b4f5984d267a0085ff2a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/symbos
+FileChecksum: SHA1: 31665f51022eca4bea5c59d254a8636b0ba3f606
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/sysex
+FileChecksum: SHA1: f06b2c6714410962b48350559e272b92f8bbebd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/tcl
+FileChecksum: SHA1: 97b59fd6e7aef850d9f495f50479116bf3786f6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/teapot
+FileChecksum: SHA1: 0ee31d342a81c3f7304d30c90806ce933069b021
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/terminfo
+FileChecksum: SHA1: f19b70e2b3f36487a9b2a1bcb810528ee48ba6ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/tex
+FileChecksum: SHA1: 5eadecaf685f3e5502eb36be76aa58822f010ad7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/tgif
+FileChecksum: SHA1: 7151e502588af9b780a3706e1df127b8541ff496
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/ti-8x
+FileChecksum: SHA1: 68c98cef4e42e3b4df73496bb5869212bd7eb628
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/timezone
+FileChecksum: SHA1: 4a57f30c6cb2b718813968857b8ad21a813bab8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/troff
+FileChecksum: SHA1: 9aa0a7c9845cfeb07a5054b4438bf39f6cc96267
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/tuxedo
+FileChecksum: SHA1: 1c6d0f75b793f15dd7f41789a4a7f3c1680e5188
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/typeset
+FileChecksum: SHA1: 1d865a733efdf21459de8ef066de705c451aa43a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/unicode
+FileChecksum: SHA1: 4ccba48f9951e5e812a166e07bf8db313d7ca0ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/unknown
+FileChecksum: SHA1: 78129426deec428374ed37ef9c49ddb0f5d251fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/uterus
+FileChecksum: SHA1: 5a45d57d95126de4d25c43cd8b4d994d56c8bb55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/uuencode
+FileChecksum: SHA1: 499477c54e04e1f437def8d99ac57cbefec05797
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/vacuum-cleaner
+FileChecksum: SHA1: d359ad974869e64af18a058b1872531cd2954ae9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/varied.out
+FileChecksum: SHA1: 0fbceca4b0a5fa09374395d80f438d2c66eef230
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/varied.script
+FileChecksum: SHA1: c6d0560c2eb2004e0e62be3162d9b49cbaa30390
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/vax
+FileChecksum: SHA1: 8b966cd629aa0b36bcd67ad606c25ef1b57f5c55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/vicar
+FileChecksum: SHA1: 3f4fd816c22505d48d599f672a864fd1d41b5e03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/virtual
+FileChecksum: SHA1: 94aa8af55aee2578998e1167977ac47ced442051
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/virtutech
+FileChecksum: SHA1: cfb5011bec08bcf0e9844fa5d1c3e62ff116df81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/visx
+FileChecksum: SHA1: 230685ddac9745f68a9a86b398035931d565c225
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/vms
+FileChecksum: SHA1: 6f8b1f4162c07cfb2f6b28d2fe9c6fae91b5b37e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/vmware
+FileChecksum: SHA1: 8c3d52e5932e6d4166ce04910a12a3f33f5daaeb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/vorbis
+FileChecksum: SHA1: 0845f2fa9b5d60f96106a8b1806e98793bed129a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/vxl
+FileChecksum: SHA1: 3265674d32f13b6fb1b48dc7a00a2a36065592d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/warc
+FileChecksum: SHA1: e68c6d1c9a9219d66e4434a55ec522fb80094117
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/weak
+FileChecksum: SHA1: 8229fc3de5a90843b390e4604f6bf87a83d51cb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/windows
+FileChecksum: SHA1: 179524850ebcf4cc1c3d93e9622e9b9785a9c194
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/wireless
+FileChecksum: SHA1: ac4739e75004569dc2a8e1f302e62f003645e63f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/wordprocessors
+FileChecksum: SHA1: 716831044540269285c5bc1e5c3361560e7860e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/wsdl
+FileChecksum: SHA1: 79aa1bc92ee299a74824c5359a654e3c9b4ab12a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/x68000
+FileChecksum: SHA1: adbb5b9e43f848a97d9258fe43485e9c390127f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/xdelta
+FileChecksum: SHA1: 50f47c34cb32b8220c978b30283f1223cbb7ca80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/xenix
+FileChecksum: SHA1: 2a3225a6d7513eb84e294652c7e46f40e8d4a367
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/xilinx
+FileChecksum: SHA1: 05299368c8c115e748876b2216c0d6facae103ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/xo65
+FileChecksum: SHA1: 6b09f451fbe57ef9e7692469dbe05f79cb65299c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/xwindows
+FileChecksum: SHA1: 2bfa68d049387bf480afe5f4507d3bb80840578a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/yara
+FileChecksum: SHA1: 2b7b30be2a2455a7c89f5151e4429b8de8abd72c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/zfs
+FileChecksum: SHA1: 42dfefca54a1dbdac44884a9476490aec0ea44cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/zilog
+FileChecksum: SHA1: d64c155ca6ac3ac5f8bbb380552d33dc7310f22b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Magdir/zyxel
+FileChecksum: SHA1: 18834b1aecfdb347931c6be58c1297844c284af7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Makefile.am
+FileChecksum: SHA1: fa0abdd40a82835a061126605a5963670fb62840
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/magic/Makefile.in
+FileChecksum: SHA1: 127fa27c946b2cba041f120f2b0547107b681cee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/missing
+FileChecksum: SHA1: fced81554799feb0f10fb56e3a06acb92c7ce7b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1996-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/python/Makefile.am
+FileChecksum: SHA1: a5860974412a8b1bfb983e3c7acb1cde4e0560c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/python/Makefile.in
+FileChecksum: SHA1: 88930be219b0b1a2c940c367af0366a12a9e66d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/python/example.py
+FileChecksum: SHA1: 30305fb6a8174282d6f173371a9ff2245f8399cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/python/magic.py
+FileChecksum: SHA1: e3c5c983478867b23f5a510cb00188bdbbf84c71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/python/setup.py
+FileChecksum: SHA1: 02a4e5ae906f17e8a06ed3c5feae9c7d13abfedb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/Makefile.am
+FileChecksum: SHA1: 849ed3c62e0f24af5f532abecbee96036515ebc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/Makefile.in
+FileChecksum: SHA1: 0265c14dc2ee4b1553bd1eb8fda0f8ec70b9c5e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/apprentice.c
+FileChecksum: SHA1: 9163693278759956551ccc9a79f49e7664e965b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/apptype.c
+FileChecksum: SHA1: ca0d2beeab28ff833174572d6f537dc9bc18df16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-public-domain
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/ascmagic.c
+FileChecksum: SHA1: 2fe5595528b4d4a603fba8569158616dc33febf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/asctime_r.c
+FileChecksum: SHA1: 4ceb1c217f1dcc4c66263cb4ba1c74c5c0cee12c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/asprintf.c
+FileChecksum: SHA1: c74cf77d9c57446fd5189ad7bd48a6d6e67c3f20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/cdf.c
+FileChecksum: SHA1: 41e937b172440c8eee9765966e66c5487b4ab872
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2008 Christos Zoulas
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/cdf.h
+FileChecksum: SHA1: 7b4942489abc84a77ed146176980daef5cfa949d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2008 Christos Zoulas
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/cdf_time.c
+FileChecksum: SHA1: e101a6492a3406b630ca44758b8555d4f2e16188
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2008 Christos Zoulas
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/compress.c
+FileChecksum: SHA1: ca6cd6e8736c2225f44743e821469bbe24a743ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/ctime_r.c
+FileChecksum: SHA1: 8fd163951cefdfa981d635a597aa11923b2199cd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/der.c
+FileChecksum: SHA1: 92a3d6f33b5d9eac0cfb314867b0b6577cef2a83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2016 Christos Zoulas
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/der.h
+FileChecksum: SHA1: 26df145539f908c9c30c9b347da8dd923c717f3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2016 Christos Zoulas
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/dprintf.c
+FileChecksum: SHA1: 7aaa093fc85a1d1832ffcfced726a09d47bcf441
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/elfclass.h
+FileChecksum: SHA1: ba16143f6124ecf941ad549b79da4dc6525cc931
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2008.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/encoding.c
+FileChecksum: SHA1: f4c5b10b3d1040967ec7ca2378377a2e31f43719
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/file.c
+FileChecksum: SHA1: 380a1b62b34e4d938fea8c62aa1ac31e71cfde07
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/file.h
+FileChecksum: SHA1: 17a254d65c02d162753fefeffb6ccc27cdbbbe2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/file_opts.h
+FileChecksum: SHA1: 63b4a6a70e11ece70922185d22669e5f542a7f2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/fmtcheck.c
+FileChecksum: SHA1: 02a207acf129f138e904fcdd9bb91f550abbc6f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2000 The NetBSD Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/fsmagic.c
+FileChecksum: SHA1: cff002c44211535aaa11297fc68a44a950a47b0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/funcs.c
+FileChecksum: SHA1: 46cdddd1eb9994e1122336f82c1fd412bf2bce0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2003.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/getline.c
+FileChecksum: SHA1: 1358d174041c8cc6715e341af9232c14b5293adb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2011 The NetBSD Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/getopt_long.c
+FileChecksum: SHA1: d438e300f955741ee988a017a0ff886f91461ab1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2000 The NetBSD Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/gmtime_r.c
+FileChecksum: SHA1: ff378fc428f378a6b84e759161d884384350debc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/is_tar.c
+FileChecksum: SHA1: b1bd799aa7b67be7aae463b65988fe49a9f99b6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: LicenseRef-public-domain
+LicenseInfoInFile: LicenseRef-public-domain
+LicenseInfoInFile: LicenseRef-public-domain
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/localtime_r.c
+FileChecksum: SHA1: 3966e689e8877b6f4a12e76a1c9f08a18a6e903c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/magic.c
+FileChecksum: SHA1: 7133c6dabf14a2cb06b0c05b77507adb16baba0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2003.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/magic.h.in
+FileChecksum: SHA1: fb0780c07d6060564bbffe18786bc835e5033259
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2003.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/mygetopt.h
+FileChecksum: SHA1: 441a4e4c7361ff70805fa7303b56109bf4430ab8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-4-Clause
+FileCopyrightText: <text>Copyright (c) 2000 The NetBSD Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/pread.c
+FileChecksum: SHA1: 906eadd3620b9a2223dd3a1f32b73e1e2ef0f12a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/print.c
+FileChecksum: SHA1: d02b98fe6839bc16902ab3613264eede8a04a1a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/readcdf.c
+FileChecksum: SHA1: eaf3f570cad2a1511b41072a2ea2f71191e5c02a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause-NetBSD
+FileCopyrightText: <text>Copyright (c) 2008, 2016 Christos Zoulas
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/readelf.c
+FileChecksum: SHA1: 579144af545bd9523f4fa29980b3d0d48729ee50
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2003.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/readelf.h
+FileChecksum: SHA1: c7fa4f959662e46a58abf74753138c5d82896e5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2003.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/softmagic.c
+FileChecksum: SHA1: 41a0652d71c9ca19214b7f2792317550c6026eff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+(c), FILE , LINE
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/strcasestr.c
+FileChecksum: SHA1: f14200cd7877a3fcf7d799b7bcf41b2dd4a94263
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 1990, 1993 The Regents of the University of California.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/strlcat.c
+FileChecksum: SHA1: 3e9dd08b220aa8ac8a5e914afb5952e781484890
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/strlcpy.c
+FileChecksum: SHA1: ceab5990afe751942a102db74fcc62d5f42c22e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: ISC
+FileCopyrightText: <text>Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/tar.h
+FileChecksum: SHA1: 380114b7bdf736312ec4cb4d0e3b2eec38e20fae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: LicenseRef-public-domain
+LicenseInfoInFile: LicenseRef-public-domain
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/src/vasprintf.c
+FileChecksum: SHA1: f972ce9777c1f8a85d15023f3df6f27479d59445
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: GPL-1.0-or-later
+FileCopyrightText: <text>Copyright (c) Ian F. Darwin 1986-1995. Software
+Copyright (c) 2002-2005 David TAILLANDIER
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/Makefile.am
+FileChecksum: SHA1: 4802b70f9147fd30b89b7deafe8e6bb4768e0839
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/Makefile.in
+FileChecksum: SHA1: 2d9cee53a02212d50c85d6426c14e7d7e2336c32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/README
+FileChecksum: SHA1: 8a1fd29f977a6519dffaaa5d48c5d87175a6bd7f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/escapevel.result
+FileChecksum: SHA1: 671f8a82167d2aeadc87aeedd5158207f23d4af8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/escapevel.testfile
+FileChecksum: SHA1: 0bf669a98b88b8a810a4701e33344b180517a9cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/gedcom.result
+FileChecksum: SHA1: d277b81c4c4f4dcc6dd37dd313c985975534d65d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/gedcom.testfile
+FileChecksum: SHA1: 8801a145e7070195434632ebb522a06ebe98b1ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/issue311docx.result
+FileChecksum: SHA1: c210e95a9da934ebbce3d4394e00d99e87bd7d1a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/issue311docx.testfile
+FileChecksum: SHA1: e361398b9cd7e1cf9d5b71b9b7ed0be2d25c23cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./file_5.30.tar.xz_extracted/tests/test.c
+FileChecksum: SHA1: f65f3bcf0ffa229da5c227407f385b8a695a9470
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright (c) Christos Zoulas 2003.
+</text>
+
+
+# Extracted Licenses
+
+LicenseID: LicenseRef-autoconf-simple-exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-autoconf-simple-exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-bsd-simplified-darwin
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-simplified-darwin.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/bsd-simplified-darwin.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-mit-old-style-no-advert
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</text>
+
+
+LicenseID: LicenseRef-proprietary
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary.yml
+</text>
+
+
+LicenseID: LicenseRef-proprietary
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/proprietary.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

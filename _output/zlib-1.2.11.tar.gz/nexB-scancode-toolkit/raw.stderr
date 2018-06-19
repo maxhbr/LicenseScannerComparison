@@ -1,0 +1,18 @@
+Setup plugins...
+Collect file inventory...
+Scan files for: info, licenses, copyrights with 1 process(es)...
+Scanning done.
+Summary:        info, copyrights, licenses with 1 process(es)
+Errors count:   0
+Scan Speed:     4.37 files/sec. 50.31 KB/sec.
+Initial counts: 293 resource(s): 253 file(s) and 40 directorie(s) 
+Final counts:   293 resource(s): 253 file(s) and 40 directorie(s) for 2.85 MB
+Timings:
+  setup_scan:licenses: 54.37s
+  setup: 54.37s
+  scan: 57.92s
+  output:spdx-rdf: 2.02s
+  output:spdx-tv: 1.62s
+  output:csv: 0.13s
+  output: 3.83s
+  total: 116.17s
