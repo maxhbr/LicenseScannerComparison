@@ -22,23 +22,24 @@
 
 ## License Statement Scanner
 
-| Name                     | Scanns for / via        | Wrapped | Produce          | Pinned |
-|--------------------------|-------------------------|---------|------------------|--------|
-| askalono                 | Top level license files | X       | X                |        |
-| benbalter-licensee       |                         | X       | X                |        |
-| boyter-lc                |                         | X       | X                |        |
-| codeauroraforum-lid      |                         | X       | X                |        |
-| debian-licensecheck      |                         | X       | X                |        |
-| ninka                    | Scanns single file      | X       | single file only |        |
-| gerv-slic                |                         | X       | X                |        |
-| go-license-detector      | Top level license files | X       | X                |        |
-| google-licenseclassifier | Scanns single file      | X       | single file only |        |
-| nexB-scancode-toolkit    |                         | X       | X                |        |
+| Name                     | Scanns for / via        | Wrapped | Produce | Pinned |
+|--------------------------|-------------------------|---------|---------|--------|
+| askalono                 | Top level license files | X       | X       |        |
+| benbalter-licensee       |                         | X       | X       |        |
+| boyter-lc                |                         | X       | X       |        |
+| codeauroraforum-lid      |                         | X       | X       |        |
+| debian-licensecheck      |                         | X       | X       |        |
+| ninka                    | Scanns single file      | X       | X       |        |
+| gerv-slic                |                         | X       | X       |        |
+| go-license-detector      | Top level license files | X       | X       |        |
+| google-licenseclassifier | Scanns single file      | X       | X       |        |
+| nexB-scancode-toolkit    |                         | X       | X       |        |
 
 ### TODO
 - pin scanner versions / build deterministically
-  - or preserve the images
 - add OutputDataTransformation
+- parse expected output
+- compare
 #### missing scanners
 | Name                    |          |
 |-------------------------|----------|

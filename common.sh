@@ -57,6 +57,7 @@ docker_run() {
     done
 
     $docker run \
+            --rm \
             --name=$name \
             "${dockerArgs[@]}" \
             $imageName "${args[@]}"

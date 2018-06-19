@@ -10,20 +10,22 @@ build() {
 FROM golang:1.8
 RUN groupadd -r user && useradd --no-log-init -r -g user user
 RUN go get -v github.com/google/licenseclassifier/...
+RUN set -x \
+ && echo '#!/usr/bin/env bash' >/entrypoint.sh \
+ && echo 'if [[ -d \$1 ]]; then' >>/entrypoint.sh \
+ && echo '    find \$1 -type f -exec identify_license -headers {} \\;' >>/entrypoint.sh \
+ && echo 'else' >>/entrypoint.sh \
+ && echo '    exec identify_license \$@' >>/entrypoint.sh \
+ && echo 'fi' >>/entrypoint.sh \
+ && chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
 USER user
-ENTRYPOINT ["identify_license"]
 CMD ["--help"]
 EOF
 }
 
 run() {
     docker_rm
-
-    if [[ -d "$1" ]]; then
-        echo "this scanner [$name] only works on files, not folders"
-        exit 1
-    fi
-
     docker_run $@
 }
 

@@ -12,9 +12,7 @@ test() {
     mkdir -p $outputDir
 
     docker_rm
-    docker_run detect --json  $input > $outputDir/output.json
-
-    ppJson "$outputDir/output.json"
+    docker_run $input > $outputDir/output.csv
 }
 
 test $@
