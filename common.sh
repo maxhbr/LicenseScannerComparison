@@ -64,6 +64,7 @@ docker_run() {
     done
 
     $docker run \
+            -it \
             --rm \
             --name=$name \
             "${dockerArgs[@]}" \

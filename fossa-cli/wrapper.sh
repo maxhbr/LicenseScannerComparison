@@ -11,6 +11,7 @@ build() {
     cd $gitDir
     git checkout 9447e2d0f63306af8e9da5fc5b4e54d6ae5d5552
 
+    # TODO: docker image does not build
     docker_build_here
 
     docker_build_stdin <<EOF

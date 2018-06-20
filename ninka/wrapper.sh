@@ -19,7 +19,7 @@ RUN groupadd -r user && useradd --no-log-init -r -m -g user user
 RUN set -x \
  && echo '#!/usr/bin/env bash' >/entrypoint.sh \
  && echo 'if [[ -d \$1 ]]; then' >>/entrypoint.sh \
- && echo '    find \$1 -type f -exec /usr/local/bin/ninka {} \\;' >>/entrypoint.sh \
+ && echo '    exec find \$1 -type f -exec /usr/local/bin/ninka {} \\;' >>/entrypoint.sh \
  && echo 'else' >>/entrypoint.sh \
  && echo '    exec /usr/local/bin/ninka \$@' >>/entrypoint.sh \
  && echo 'fi' >>/entrypoint.sh \

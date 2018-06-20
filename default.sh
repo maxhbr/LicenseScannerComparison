@@ -12,6 +12,8 @@ scanners=(
     "debian-licensecheck"
     "google-licenseclassifier"
     # "fossa-cli"
+    "fossology-nomos"
+    "fossology-monk"
     "gerv-slic"
     "boyter-lc"
     "askalono"

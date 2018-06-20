@@ -1,0 +1,625 @@
+/libpng-1.6.34.tar.gz/configure;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/ANNOUNCE;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/libpng/libpng.vcxproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/zlib/zlib.vcxproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/vstudio.sln;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/pngstest/pngstest.vcxproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/pngvalid/pngvalid.vcxproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/pngtest/pngtest.vcxproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/pngunknown/pngunknown.vcxproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/pnglibconf/pnglibconf.vcxproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/vstudio/zlib.props;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/visualc71/PRJ0041.mak;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/visualc71/pngtest.vcproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/visualc71/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/visualc71/libpng.vcproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/visualc71/libpng.sln;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/visualc71/README_zlib.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/visualc71/zlib.vcproj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/owatcom/libpng.wpj;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/owatcom/libpng.tgt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/owatcom/pngconfig.mak;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/owatcom/pngtest.tgt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/owatcom/pngvalid.tgt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/projects/owatcom/pngstest.tgt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngrutil.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/install-sh;[{"type":"diff","license":"MIT","ref-pk":311,"rank":94,"diffs":"t[306+808] M0 s[0+797], t[1117+12] MR s[799+28], t[1130+134] M0 s[828+134], t[1265+14] MR s[963+10], t[1280+63] M0 s[974+64]"},{"type":"diff","license":"X11","ref-pk":253,"rank":89,"diffs":"t[317] M- s[0+45], t[317+947] M0 s[46+924], t[1265+14] MR s[971+10], t[1280+214] M0 s[982+211], t[1495+12] MR s[1194+8], t[1508+63] M0 s[1203+63], t[1572] M- s[1267+67]"}]
+/libpng-1.6.34.tar.gz/pngconf.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngtrans.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/powerpc/powerpc_init.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/powerpc/filter_vsx_intrinsics.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/libpng-manual.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/CMakeLists.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/config.h.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngnow.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/pngnow.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/config.sub;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngstruct.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/missing;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngget.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngwrite.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pnginfo.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngrtran.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngpread.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/LICENSE;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngusr.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngread.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/arm/arm_init.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/arm/filter_neon_intrinsics.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/arm/filter_neon.S;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngmem.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngimage-quick;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-progressive-interlace-standard;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngunknown-IDAT;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-linear;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-transform;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-progressive-size;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-1.8;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-none-alpha;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngunknown-sTER;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-sRGB;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-linear-alpha;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-threshold;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngtest-badpngs;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngunknown-if-safe;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-16-to-8;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-background;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngunknown-discard;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-sRGB-alpha;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngimage-full;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-background;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-alpha-mode;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-alpha-mode;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngunknown-vpAg;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-transform;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-progressive-standard;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngunknown-save;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-none;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngstest-1.8-alpha;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-sbit;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngtest;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngunknown-sAPI;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-standard;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-transform;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngpriv.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/INSTALL;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/config.guess;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/Makefile.am;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/png.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/configure.ac;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngwio.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngbar.jpg;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/pngbar.jpg', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/libpng-config.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/compile;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngset.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/intel/filter_sse2_intrinsics.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/intel/intel_init.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/Makefile.in;[{"type":"diff","license":"FSF","ref-pk":493,"rank":83,"diffs":"t[106] M- s[0+29], t[106+38] M0 s[30+36], t[145+11] MR s[67+4], t[157+175] M0 s[72+173]"}]
+/libpng-1.6.34.tar.gz/pngerror.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/CHANGES;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/mips/filter_msa_intrinsics.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/mips/mips_init.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngwtran.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/png.5;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/ltmain.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/png.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngrio.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/example.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/libpng.3;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/autogen.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/depcomp;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngbar.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/pngbar.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/libpngpf.3;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/test-driver;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/TODO;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngdebug.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/libpng.pc.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/ltsugar.m4;[{"type":"diff","license":"FSF","ref-pk":493,"rank":77,"diffs":"t[200] M- s[0+60], t[200+185] M0 s[62+183]"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.darwin;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/pnglibconf.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.std;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.solaris-x86;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.ibmc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.aix;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.acorn;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/genchk.cmake.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.amiga;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/genout.cmake.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/libpng-config-head.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/libtool.m4;[{"type":"diff","license":"FSF","ref-pk":493,"rank":78,"diffs":"t[110] M- s[0+29], t[110+30] M0 s[30+30], t[145+34] M+ s[62], t[184+185] M0 s[62+183]"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.gcc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/pnglibconf.mak;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.cegcc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.bor;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.bc32;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.hp64;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.so9;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/def.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.sco;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/test.cmake.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.knr;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.sgi;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/libpng-config-body.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.tc3;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/sym.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.64sunu;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makevms.com;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.msys;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/pngwin.rc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/vers.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/symbols.def;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.hpgcc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.32sunu;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.vcwin32;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.linux-opt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.solaris;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/ltversion.m4;[{"type":"diff","license":"FSF","ref-pk":493,"rank":77,"diffs":"t[165] M- s[0+60], t[165+185] M0 s[62+183]"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.sunos;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.hpux;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.ne12bsd;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/SCOPTIONS.ppc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.intel;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.mips;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.beos;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.msc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/symbols.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/options.awk;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/dfn.awk;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.sggcc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.openbsd;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/ltoptions.m4;[{"type":"diff","license":"FSF","ref-pk":493,"rank":77,"diffs":"t[204] M- s[0+60], t[204+185] M0 s[62+183]"}]
+/libpng-1.6.34.tar.gz/scripts/checksym.awk;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.atari;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.linux;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/libpng.pc.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.freebsd;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.dec;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/descrip.mms;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.netbsd;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/gensrc.cmake.in;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/makefile.dj2;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/macro.lst;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/intprefix.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/pnglibconf.h.prebuilt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/lt~obsolete.m4;[{"type":"diff","license":"FSF","ref-pk":493,"rank":77,"diffs":"t[213] M- s[0+60], t[213+185] M0 s[62+183]"}]
+/libpng-1.6.34.tar.gz/scripts/prefix.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/scripts/smakefile.ppc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngwutil.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iCCP_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iCCP_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_bKGD_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_bKGD_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pCAL_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pCAL_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pHYs_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pHYs_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_zTXt_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_zTXt_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tIME_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tIME_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sTER_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sTER_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sPLT_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sPLT_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_cHRM_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_cHRM_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/empty_ancillary_chunks.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/empty_ancillary_chunks.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badadler.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badadler.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tEXt_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tEXt_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sRGB_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sRGB_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNk_safe_to_copy.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNk_safe_to_copy.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badcrc.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badcrc.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iTXt_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iTXt_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_eXIf_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_eXIf_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/bad_iCCP.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/bad_iCCP.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNK_unsafe_to_copy.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNK_unsafe_to_copy.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sCAL_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sCAL_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_hIST_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_hIST_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_IDAT.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_IDAT.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_gAMA_chunk.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_gAMA_chunk.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/makepngs.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear-tRNS.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear-tRNS.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/gray-2.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/testpngs/palette-4.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/examples/pngtopng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/examples/simpleover.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/examples/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/examples/iccfrompng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/examples/pngpixel.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/pngstest.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/pngimage.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/timepng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/pngunknown.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/makepng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/pngstest-errors.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/tarith.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/gentests.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/fakepng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/libtests/readpng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/checksum-icc.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/pngfix.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/reindent;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/intgamma.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/cvtcolor.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/chkfmt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/pngcp.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/png-fix-itxt.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/makesRGB.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/sRGB.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/tools/genpng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.sgi;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.mingw32;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.unx;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/makevms.com;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/COPYING;[{"type":"diff","license":"GPL-2.0","ref-pk":317,"rank":88,"diffs":"t[484+18] M0 s[0+18], t[503+139] MR s[19+132], t[643+22] M0 s[152+22], t[666+194] MR s[175+35], t[861+22] M0 s[211+22], t[884+154] MR s[234+661], t[1039+15] M0 s[896+15], t[1055] M- s[912+629], t[1055+1836] M0 s[1542+1831], t[2914+26] M+ s[3377], t[2944+12837] M0 s[3377+12652], t[15787+4] MR s[16033+3], t[15792+35] M0 s[16037+35], t[15828+7] MR s[16073+2], t[15836+15] M0 s[16076+15], t[15852+49] MR s[16092+41], t[15907+659] M0 s[16137+631], t[16567+55] MR s[16769+61], t[16625+1067] M0 s[16832+1062], t[17696+23] MR s[17898+21], t[17720+320] M0 s[17920+317], t[18041+7] MR s[18238+6], t[18049+47] M0 s[18245+47]"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.w32;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/toucan.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/gregbook/toucan.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn2c16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn2c16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p04.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p04.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn3p08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn3p08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n3p08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n3p08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn2c16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn2c16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn3p08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn3p08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n2c08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n2c08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g04.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g04.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn3p08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn3p08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn0g16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn0g16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g02.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g02.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p01.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p01.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n0g08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n0g08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a16.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a16.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g01.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g01.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g04.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g04.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp1n3p08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftp1n3p08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p02.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p02.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g01.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g01.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbrn2c08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbrn2c08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g02.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g02.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbyn3p08.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/pngsuite/ftbyn3p08.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/arm-neon/android-ndk.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/arm-neon/linux-auxv.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/arm-neon/linux.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/arm-neon/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/resource.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/PngFile.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/cexcept.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.dsw;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.ico;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.ico', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.rc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/PngFile.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.dsp;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/encoder/makefile;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/encoder/pngusr.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/encoder/pngusr.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/encoder/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/decoder/makefile;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/decoder/pngusr.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/decoder/pngusr.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/decoder/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/preader/makefile;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/preader/pngusr.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/preader/pngusr.h;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/preader/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminim/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/mips-msa/linux.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/mips-msa/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux_aux.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/powerpc-vsx/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/libpng_read_fuzzer.cc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/libpng_read_fuzzer.options;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/README.txt;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/png.dict;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/build.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/newcc;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/Dockerfile;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/makefile.std;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.bat;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/makefile.tc3;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/makevms.com;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.c;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.sh;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.bat;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.bat;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/conftest/s_write.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/conftest/write.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/conftest/s_read.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/conftest/simple.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/conftest/read.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/conftest/pngcp.dfa;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/contrib/conftest/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/pngtest.png;WARNING: cannot re-encode '/libpng-1.6.34.tar.gz/pngtest.png', going binary from now on
+[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/README;[{"type":"no-match"}]
+/libpng-1.6.34.tar.gz/aclocal.m4;[{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[86] M- s[0+29], t[86+219] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[1125] M- s[0+29], t[1125+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[2687] M- s[0+29], t[2687+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[3455] M- s[0+29], t[3455+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[5863] M- s[0+29], t[5863+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[6822] M- s[0+29], t[6822+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[14105] M- s[0+29], t[14105+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[17104] M- s[0+29], t[17104+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[25056] M- s[0+29], t[25056+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[25661] M- s[0+29], t[25661+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[26324] M- s[0+29], t[26324+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[27956] M- s[0+29], t[27956+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[29297] M- s[0+29], t[29297+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[30453] M- s[0+29], t[30453+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[31466] M- s[0+29], t[31466+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[33081] M- s[0+29], t[33081+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[33801] M- s[0+29], t[33801+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[36370] M- s[0+29], t[36370+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[38205] M- s[0+29], t[38205+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[39521] M- s[0+29], t[39521+220] M0 s[30+215]"},{"type":"diff","license":"FSF","ref-pk":493,"rank":88,"diffs":"t[40198] M- s[0+29], t[40198+220] M0 s[30+215]"}]
+/libpng-1.6.34.tar.gz/pngtest.c;[{"type":"no-match"}]
