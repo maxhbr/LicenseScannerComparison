@@ -44,6 +44,7 @@ docker_run() {
         if [[ -e $arg ]] && [[ "$toScan" != "/dev/"* ]]; then
             outerName="$(readlink -f "$arg")"
             innerName="/$(basename $outerName)"
+            innerName="${innerName%_extracted}"
             dockerArgs+=("-v")
             dockerArgs+=("$outerName:$innerName")
             if [[ -d $arg ]]; then

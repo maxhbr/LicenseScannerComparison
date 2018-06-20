@@ -2,7 +2,7 @@
     {
         "Bytes": 263,
         "BytesHuman": "263B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "AUTHORS",
         "LicenseGuesses": [
             {
@@ -24,7 +24,7 @@
     {
         "Bytes": 17982,
         "BytesHuman": "17.6K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "COPYING",
         "LicenseGuesses": [
             {
@@ -46,7 +46,7 @@
     {
         "Bytes": 7304,
         "BytesHuman": "7.1K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "ChangeLog",
         "LicenseGuesses": [
             {
@@ -68,7 +68,7 @@
     {
         "Bytes": 7721,
         "BytesHuman": "7.5K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "INSTALL",
         "LicenseGuesses": [
             {
@@ -90,7 +90,7 @@
     {
         "Bytes": 497,
         "BytesHuman": "497B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "Makefile.am",
         "LicenseGuesses": [
             {
@@ -112,7 +112,7 @@
     {
         "Bytes": 8909,
         "BytesHuman": "8.7K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -134,7 +134,7 @@
     {
         "Bytes": 811,
         "BytesHuman": "811B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "NEWS",
         "LicenseGuesses": [
             {
@@ -156,7 +156,7 @@
     {
         "Bytes": 663,
         "BytesHuman": "663B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "README",
         "LicenseGuesses": [
             {
@@ -178,7 +178,7 @@
     {
         "Bytes": 48264,
         "BytesHuman": "47.1K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "configure",
         "LicenseGuesses": [
             {
@@ -200,7 +200,7 @@
     {
         "Bytes": 946,
         "BytesHuman": "946B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "configure.in",
         "LicenseGuesses": [
             {
@@ -222,7 +222,7 @@
     {
         "Bytes": 5158,
         "BytesHuman": "5K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "error.c",
         "LicenseGuesses": [
             {
@@ -244,7 +244,7 @@
     {
         "Bytes": 23982,
         "BytesHuman": "23.4K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "getopt.c",
         "LicenseGuesses": [
             {
@@ -266,7 +266,7 @@
     {
         "Bytes": 4464,
         "BytesHuman": "4.4K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "getopt.h",
         "LicenseGuesses": [
             {
@@ -288,7 +288,7 @@
     {
         "Bytes": 4280,
         "BytesHuman": "4.2K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "getopt1.c",
         "LicenseGuesses": [
             {
@@ -310,7 +310,7 @@
     {
         "Bytes": 700,
         "BytesHuman": "700B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "getpagesize.h",
         "LicenseGuesses": [
             {
@@ -332,7 +332,7 @@
     {
         "Bytes": 5490,
         "BytesHuman": "5.4K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "install-sh",
         "LicenseGuesses": [
             {
@@ -354,7 +354,7 @@
     {
         "Bytes": 2559,
         "BytesHuman": "2.5K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "mdate-sh",
         "LicenseGuesses": [
             {
@@ -376,7 +376,7 @@
     {
         "Bytes": 732,
         "BytesHuman": "732B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "mkinstalldirs",
         "LicenseGuesses": [
             {
@@ -398,7 +398,7 @@
     {
         "Bytes": 517,
         "BytesHuman": "517B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "port.h",
         "LicenseGuesses": [
             {
@@ -420,7 +420,7 @@
     {
         "Bytes": 3283,
         "BytesHuman": "3.2K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "resuse.c",
         "LicenseGuesses": [
             {
@@ -442,7 +442,7 @@
     {
         "Bytes": 2055,
         "BytesHuman": "2K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "resuse.h",
         "LicenseGuesses": [
             {
@@ -464,7 +464,7 @@
     {
         "Bytes": 10,
         "BytesHuman": "10B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "stamp-vti",
         "LicenseGuesses": [
             {
@@ -486,7 +486,7 @@
     {
         "Bytes": 152426,
         "BytesHuman": "148.9K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "texinfo.tex",
         "LicenseGuesses": [
             {
@@ -508,7 +508,7 @@
     {
         "Bytes": 19679,
         "BytesHuman": "19.2K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "time.c",
         "LicenseGuesses": [
             {
@@ -530,7 +530,7 @@
     {
         "Bytes": 15120,
         "BytesHuman": "14.8K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "time.info",
         "LicenseGuesses": [
             {
@@ -552,7 +552,7 @@
     {
         "Bytes": 16151,
         "BytesHuman": "15.8K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "time.texi",
         "LicenseGuesses": [
             {
@@ -574,7 +574,7 @@
     {
         "Bytes": 45,
         "BytesHuman": "45B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "version.c",
         "LicenseGuesses": [
             {
@@ -596,7 +596,7 @@
     {
         "Bytes": 60,
         "BytesHuman": "60B",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "version.texi",
         "LicenseGuesses": [
             {
@@ -618,7 +618,7 @@
     {
         "Bytes": 1326,
         "BytesHuman": "1.3K",
-        "Directory": "/time-1.7.tar.gz_extracted/",
+        "Directory": "/time-1.7.tar.gz/",
         "Filename": "wait.h",
         "LicenseGuesses": [
             {

@@ -63,7 +63,7 @@ produce() {
                 stdoutFilePath="$outputPath/raw.stdout"
                 stderrFilePath="$outputPath/raw.stderr"
                 time="$(time ( $produce $extractedArchive $outputPath > $stdoutFilePath  2> $stderrFilePath || echo "#### failed" ) 2>&1 1>/dev/null )"
-                echo $time > "$outputPath/time"
+                echo $time | tee "$outputPath/time"
                 removeEmptyFiles $outputPath
             fi
         done

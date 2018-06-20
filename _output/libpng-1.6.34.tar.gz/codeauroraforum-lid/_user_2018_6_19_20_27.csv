@@ -1,5 +1,5 @@
 input file path,matched license type,Score using whole input test,Rank based on score,Start line number,End line number,Start byte offset,End byte offset,Score using only the license text portion,Found license text
-/libpng-1.6.34.tar.gz_extracted/INSTALL,CrystalStacker,0.041762382475525835,ScoreOutOfRange,35,49,1066,1649,0.0025398728065794294,"
+/libpng-1.6.34.tar.gz/INSTALL,CrystalStacker,0.041762382475525835,ScoreOutOfRange,35,49,1066,1649,0.0025398728065794294,"
 If you downloaded a GIT clone, you will need to run ./autogen.sh before
 running ./configure, to create ""configure"" and ""Makefile.in"" which are
 not included in the GIT repository.
@@ -14,7 +14,7 @@ II. Rebuilding the configure scripts
 If configure does not work on your system, or if you have a need to
 change configure.ac or Makefile.am, and you have a reasonably
 "
-/libpng-1.6.34.tar.gz_extracted/INSTALL,Vim,0.04354553599875833,ScoreOutOfRange,259,281,9911,11258,0.001158236576073043,"or all four, along with directives to turn on any of the capabilities that
+/libpng-1.6.34.tar.gz/INSTALL,Vim,0.04354553599875833,ScoreOutOfRange,259,281,9911,11258,0.001158236576073043,"or all four, along with directives to turn on any of the capabilities that
 you do want.  The PNG_NO_READ[or WRITE]_TRANSFORMS directives disable the
 extra transformations but still leave the library fully capable of reading
 and writing PNG files with all known public chunks. Use of the
@@ -37,7 +37,7 @@ or DLL file), you should not remove or disable any parts of the library,
 as this will cause applications linked with different versions of the
 library to fail if they call functions not available in your library.
 "
-/libpng-1.6.34.tar.gz_extracted/INSTALL,Vim,0.04411872261377235,ScoreOutOfRange,209,238,7454,8863,0.0009626397258913339,"call.  See zlib.h or zconf.h in the zlib library for more information.
+/libpng-1.6.34.tar.gz/INSTALL,Vim,0.04411872261377235,ScoreOutOfRange,209,238,7454,8863,0.0009626397258913339,"call.  See zlib.h or zconf.h in the zlib library for more information.
 
 X. Configuring for Medium Model
 
@@ -67,12 +67,12 @@ All includes for libpng are in pngconf.h.  If you need to add, change
 or delete an include, this is the place to do it.
 The includes that are not needed outside libpng are placed in pngpriv.h,
 "
-/libpng-1.6.34.tar.gz_extracted/INSTALL,CrystalStacker,0.04080718943156578,ScoreOutOfRange,63,67,2159,2252,0.0007442678373508522,"
+/libpng-1.6.34.tar.gz/INSTALL,CrystalStacker,0.04080718943156578,ScoreOutOfRange,63,67,2159,2252,0.0007442678373508522,"
 III. Using scripts/makefile*
 
 Instead, you can use one of the custom-built makefiles in the
 "
-/libpng-1.6.34.tar.gz_extracted/INSTALL,Vim,0.04251572438664678,ScoreOutOfRange,70,91,2323,3218,0.0007149401653121058,"    cp scripts/makefile.system makefile
+/libpng-1.6.34.tar.gz/INSTALL,Vim,0.04251572438664678,ScoreOutOfRange,70,91,2323,3218,0.0007149401653121058,"    cp scripts/makefile.system makefile
     make test
     make install
 
@@ -94,7 +94,7 @@ If you wish to test with a particular zlib that is not first in the
 standard library search path, put ZLIBLIB, ZLIBINC, CPPFLAGS, LDFLAGS,
 and LD_LIBRARY_PATH in your environment before running ""make test""
 "
-/libpng-1.6.34.tar.gz_extracted/LICENSE,Libpng,0.7517240619811675,4,0,121,0,4551,0.08619333007809463,"
+/libpng-1.6.34.tar.gz/LICENSE,Libpng,0.7517240619811675,4,0,121,0,4551,0.08619333007809463,"
 This copy of the libpng notices is provided for your convenience.  In case of
 any discrepancy between this copy and the notices in the file png.h that is
 included in the libpng distribution, the latter shall prevail.
@@ -216,7 +216,7 @@ a certification mark of the Open Source Initiative. OSI has not addressed
 the additional disclaimers inserted at version 1.0.7.
 
 "
-/libpng-1.6.34.tar.gz_extracted/Makefile.in,FSFULLR,0.1643905792461822,3,2,9,79,334,0.17581716715386658,"
+/libpng-1.6.34.tar.gz/Makefile.in,FSFULLR,0.1643905792461822,3,2,9,79,334,0.17581716715386658,"
 # Copyright (C) 1994-2014 Free Software Foundation, Inc.
 
 # This Makefile.in is free software; the Free Software Foundation
@@ -224,13 +224,13 @@ the additional disclaimers inserted at version 1.0.7.
 # with or without modifications, as long as this notice is preserved.
 
 "
-/libpng-1.6.34.tar.gz_extracted/Makefile.in,W3C,0.12282936975010274,3,9,14,334,555,0.01610845478368811,"# This program is distributed in the hope that it will be useful,
+/libpng-1.6.34.tar.gz/Makefile.in,W3C,0.12282936975010274,3,9,14,334,555,0.01610845478368811,"# This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY, to the extent permitted by law; without
 # even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.
 
 "
-/libpng-1.6.34.tar.gz_extracted/README,Vim,0.04776264248094459,ScoreOutOfRange,79,104,4106,5448,0.0009088827753699673,"some images.  You will definitely need zlib 1.0.4 or later if you are
+/libpng-1.6.34.tar.gz/README,Vim,0.04776264248094459,ScoreOutOfRange,79,104,4106,5448,0.0009088827753699673,"some images.  You will definitely need zlib 1.0.4 or later if you are
 taking advantage of the MS-DOS ""far"" structure allocation for the small
 and medium memory models.  You should also note that zlib is a
 compression library that is useful for more things than just PNG files.
@@ -256,7 +256,7 @@ encryption software.  See the EAR, paragraphs 734.3(b)(3) and 734.7(b).
 If you have any code changes, requests, problems, etc., please e-mail
 them to me.  Also, I'd appreciate any make files or project files,
 "
-/libpng-1.6.34.tar.gz_extracted/compile,GPL-3.0+,0.4342775090091605,3,4,21,104,829,0.29558869214041633,"
+/libpng-1.6.34.tar.gz/compile,GPL-3.0+,0.4342775090091605,3,4,21,104,829,0.29558869214041633,"
 # Copyright (C) 1999-2014 Free Software Foundation, Inc.
 # Written by Tom Tromey <tromey@cygnus.com>.
 #
@@ -274,13 +274,13 @@ them to me.  Also, I'd appreciate any make files or project files,
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 "
-/libpng-1.6.34.tar.gz_extracted/compile,Libtool-exception,0.38820746240075427,3,21,26,829,1101,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+/libpng-1.6.34.tar.gz/compile,Libtool-exception,0.38820746240075427,3,21,26,829,1101,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
 # distribute this file as part of a program that contains a
 # configuration script generated by Autoconf, you may include it under
 # the same distribution terms that you use for the rest of that program.
 
 "
-/libpng-1.6.34.tar.gz_extracted/config.guess,GPL-1.0+,0.2835459463898899,3,2,20,55,834,0.08482517050618059,"#   Copyright 1992-2014 Free Software Foundation, Inc.
+/libpng-1.6.34.tar.gz/config.guess,GPL-1.0+,0.2835459463898899,3,2,20,55,834,0.08482517050618059,"#   Copyright 1992-2014 Free Software Foundation, Inc.
 
 timestamp='2014-11-04'
 
@@ -299,12 +299,12 @@ timestamp='2014-11-04'
 #
 # As a special exception to the GNU General Public License, if you
 "
-/libpng-1.6.34.tar.gz_extracted/config.guess,Libtool-exception,0.12547483830588066,3,20,24,834,1100,0.02379384761695746,"# distribute this file as part of a program that contains a
+/libpng-1.6.34.tar.gz/config.guess,Libtool-exception,0.12547483830588066,3,20,24,834,1100,0.02379384761695746,"# distribute this file as part of a program that contains a
 # configuration script generated by Autoconf, you may include it under
 # the same distribution terms that you use for the rest of that
 # program.  This Exception is an additional permission under section 7
 "
-/libpng-1.6.34.tar.gz_extracted/config.guess,GPL-3.0+,0.054125652369827956,ScoreOutOfRange,38,60,1497,2130,0.005556438330596731,"
+/libpng-1.6.34.tar.gz/config.guess,GPL-3.0+,0.054125652369827956,ScoreOutOfRange,38,60,1497,2130,0.005556438330596731,"
 Output the configuration name of the system \`$me' is run on.
 
 Operation modes:
@@ -327,13 +327,13 @@ help=""
 Try \`$me --help' for more information.""
 
 "
-/libpng-1.6.34.tar.gz_extracted/config.guess,GPL-2.0-with-GCC-exception,0.06161067719675194,1,24,29,1100,1292,0.0027159830583434403,"# of the GNU General Public License, version 3 (""GPLv3"").
+/libpng-1.6.34.tar.gz/config.guess,GPL-2.0-with-GCC-exception,0.06161067719675194,1,24,29,1100,1292,0.0027159830583434403,"# of the GNU General Public License, version 3 (""GPLv3"").
 #
 # Originally written by Per Bothner; maintained since 2000 by Ben Elliston.
 #
 # You can get the latest version of this script from:
 "
-/libpng-1.6.34.tar.gz_extracted/config.sub,AGPL-3.0-or-later,0.28457614062598674,3,2,18,57,767,0.1426832305010652,"#   Copyright 1992-2014 Free Software Foundation, Inc.
+/libpng-1.6.34.tar.gz/config.sub,AGPL-3.0-or-later,0.28457614062598674,3,2,18,57,767,0.1426832305010652,"#   Copyright 1992-2014 Free Software Foundation, Inc.
 
 timestamp='2014-12-03'
 
@@ -350,13 +350,13 @@ timestamp='2014-12-03'
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, see <http://www.gnu.org/licenses/>.
 "
-/libpng-1.6.34.tar.gz_extracted/config.sub,Libtool-exception,0.19692338768054693,3,19,24,769,1102,0.07529500277183813,"# As a special exception to the GNU General Public License, if you
+/libpng-1.6.34.tar.gz/config.sub,Libtool-exception,0.19692338768054693,3,19,24,769,1102,0.07529500277183813,"# As a special exception to the GNU General Public License, if you
 # distribute this file as part of a program that contains a
 # configuration script generated by Autoconf, you may include it under
 # the same distribution terms that you use for the rest of that
 # program.  This Exception is an additional permission under section 7
 "
-/libpng-1.6.34.tar.gz_extracted/config.sub,GPL-2.0-with-GCC-exception,0.06823154194842423,1,24,47,1102,2161,0.005250728862973762,"# of the GNU General Public License, version 3 (""GPLv3"").
+/libpng-1.6.34.tar.gz/config.sub,GPL-2.0-with-GCC-exception,0.06823154194842423,1,24,47,1102,2161,0.005250728862973762,"# of the GNU General Public License, version 3 (""GPLv3"").
 
 
 # Please send patches to <config-patches@gnu.org>.
@@ -380,7 +380,7 @@ timestamp='2014-12-03'
 # The goal of this file is to map all the various variations of a given
 # machine specification into a single specification in the form:
 "
-/libpng-1.6.34.tar.gz_extracted/config.sub,GPL-3.0+,0.05830949661935578,ScoreOutOfRange,62,78,2556,3023,0.004655429703745383,"  -t, --time-stamp   print date of last modification, then exit
+/libpng-1.6.34.tar.gz/config.sub,GPL-3.0+,0.05830949661935578,ScoreOutOfRange,62,78,2556,3023,0.004655429703745383,"  -t, --time-stamp   print date of last modification, then exit
   -v, --version      print version number, then exit
 
 Report bugs and patches to <config-patches@gnu.org>.""
@@ -397,7 +397,7 @@ help=""
 Try \`$me --help' for more information.""
 
 "
-/libpng-1.6.34.tar.gz_extracted/configure,GPL-3.0+,0.05650434212312725,ScoreOutOfRange,15563,15587,466435,467546,0.19067310841794954,"
+/libpng-1.6.34.tar.gz/configure,GPL-3.0+,0.05650434212312725,ScoreOutOfRange,15563,15587,466435,467546,0.19067310841794954,"
 # Copyright (C) 2014 Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.  There is NO
 # warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -422,7 +422,7 @@ Try \`$me --help' for more information.""
 
 
 "
-/libpng-1.6.34.tar.gz_extracted/depcomp,GPL-3.0+,0.24958405920429882,3,4,20,117,794,0.30267553208411546,"
+/libpng-1.6.34.tar.gz/depcomp,GPL-3.0+,0.24958405920429882,3,4,20,117,794,0.30267553208411546,"
 # Copyright (C) 1999-2014 Free Software Foundation, Inc.
 
 # This program is free software; you can redistribute it and/or modify
@@ -439,13 +439,13 @@ Try \`$me --help' for more information.""
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 "
-/libpng-1.6.34.tar.gz_extracted/depcomp,Libtool-exception,0.15784998731427305,3,20,25,794,1066,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+/libpng-1.6.34.tar.gz/depcomp,Libtool-exception,0.15784998731427305,3,20,25,794,1066,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
 # distribute this file as part of a program that contains a
 # configuration script generated by Autoconf, you may include it under
 # the same distribution terms that you use for the rest of that program.
 
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04747251628170872,ScoreOutOfRange,719,759,28242,29914,0.001045973110420447,"    * data to the corresponding row data.
+/libpng-1.6.34.tar.gz/example.c,Vim,0.04747251628170872,ScoreOutOfRange,719,759,28242,29914,0.001045973110420447,"    * data to the corresponding row data.
     */
    if ((old_row != NULL) && (new_row != NULL))
    png_progressive_combine_row(png_ptr, old_row, new_row);
@@ -486,7 +486,7 @@ end_callback(png_structp png_ptr, png_infop info)
     * Most people won't do much here, perhaps setting a flag that
     * marks the image as finished.
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04447349275178111,ScoreOutOfRange,224,267,10365,12275,0.0009065161814463705," * returns zero if the image is a PNG and nonzero if it isn't a PNG.
+/libpng-1.6.34.tar.gz/example.c,Vim,0.04447349275178111,ScoreOutOfRange,224,267,10365,12275,0.0009065161814463705," * returns zero if the image is a PNG and nonzero if it isn't a PNG.
  *
  * The function check_if_png() shown here, but not used, returns nonzero (true)
  * if the file can be opened and is a PNG, 0 (false) otherwise.
@@ -530,7 +530,7 @@ int check_if_png(char *file_name, FILE **fp)
  * file, and the other where we are given an open file (possibly with
  * some or all of the magic bytes read - see comments above).
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04412302654604207,ScoreOutOfRange,313,350,13716,15192,0.0007949163408690063,"
+/libpng-1.6.34.tar.gz/example.c,Vim,0.04412302654604207,ScoreOutOfRange,313,350,13716,15192,0.0007949163408690063,"
    /* Set error handling if you are using the setjmp/longjmp method (this is
     * the normal method of doing things with libpng).  REQUIRED unless you
     * set up your own error handlers in the png_create_read_struct() earlier.
@@ -568,7 +568,7 @@ int check_if_png(char *file_name, FILE **fp)
     * with one of the PNG_TRANSFORM_* bits (this presently excludes
     * quantizing, filling, setting background, and doing gamma
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.042458737362521155,ScoreOutOfRange,60,81,2410,3515,0.0007686740716131257,"          * store most images.
+/libpng-1.6.34.tar.gz/example.c,Vim,0.042458737362521155,ScoreOutOfRange,60,81,2410,3515,0.0007686740716131257,"          * store most images.
           */
          image.format = PNG_FORMAT_RGBA;
 
@@ -590,7 +590,7 @@ int check_if_png(char *file_name, FILE **fp)
           * this is the number of components allocated for the image in each
           * row.  It has to be at least as big as the value returned by
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04380838580649144,ScoreOutOfRange,282,297,12643,13325,0.0004996762955238835,"void read_png(FILE *fp, int sig_read)  /* File is already open */
+/libpng-1.6.34.tar.gz/example.c,Vim,0.04380838580649144,ScoreOutOfRange,282,297,12643,13325,0.0004996762955238835,"void read_png(FILE *fp, int sig_read)  /* File is already open */
 {
    png_structp png_ptr;
    png_infop info_ptr;
@@ -606,7 +606,7 @@ int check_if_png(char *file_name, FILE **fp)
     */
    png_ptr = png_create_read_struct(PNG_LIBPNG_VER_STRING,
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04528604688589537,ScoreOutOfRange,913,930,35204,35849,0.0004982972664760971,"
+/libpng-1.6.34.tar.gz/example.c,Vim,0.04528604688589537,ScoreOutOfRange,913,930,35204,35849,0.0004982972664760971,"
    /* Note that if sRGB is present the gAMA and cHRM chunks must be ignored
     * on read and, if your application chooses to write them, they must
     * be written in accordance with the sRGB profile
@@ -624,7 +624,7 @@ int check_if_png(char *file_name, FILE **fp)
     *
     * However, given the level of known- and unknown-chunk support in 1.2.0
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,LGPLLR,0.043514328641516206,ScoreOutOfRange,166,206,7511,9713,0.00044632747376253457," *    Regardless of the setting of this flag the alpha channel is always linear,
+/libpng-1.6.34.tar.gz/example.c,LGPLLR,0.043514328641516206,ScoreOutOfRange,166,206,7511,9713,0.00044632747376253457," *    Regardless of the setting of this flag the alpha channel is always linear,
  *    although it will be 8 bits or 16 bits wide as specified by the flag.
  *
  * PNG_FORMAT_FLAG_BGR: if set the components of a color pixel will be returned
@@ -665,12 +665,12 @@ int check_if_png(char *file_name, FILE **fp)
  * return point within your own code.  You must do this if you do not use the
  * simplified interface (above).
 "
-/libpng-1.6.34.tar.gz_extracted/example.c,Vim,0.04546349256050531,ScoreOutOfRange,211,215,9919,10087,0.0003655370142000073,"#include <png.h>
+/libpng-1.6.34.tar.gz/example.c,Vim,0.04546349256050531,ScoreOutOfRange,211,215,9919,10087,0.0003655370142000073,"#include <png.h>
 
  /* The png_jmpbuf() macro, used in error handling, became available in
   * libpng version 1.0.6.  If you want to be able to run your code with older
 "
-/libpng-1.6.34.tar.gz_extracted/install-sh,X11,0.6415427862393729,4,9,31,268,1580,0.20109389063071795,"# Copyright (C) 1994 X Consortium
+/libpng-1.6.34.tar.gz/install-sh,X11,0.6415427862393729,4,9,31,268,1580,0.20109389063071795,"# Copyright (C) 1994 X Consortium
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the ""Software""), to
@@ -693,7 +693,7 @@ int check_if_png(char *file_name, FILE **fp)
 # be used in advertising or otherwise to promote the sale, use or other deal-
 # ings in this Software without prior written authorization from the X Consor-
 "
-/libpng-1.6.34.tar.gz_extracted/libpng.3,Libpng,0.14499329703704417,3,6105,6226,268521,273072,0.08619333007809463,"
+/libpng-1.6.34.tar.gz/libpng.3,Libpng,0.14499329703704417,3,6105,6226,268521,273072,0.08619333007809463,"
 This copy of the libpng notices is provided for your convenience.  In case of
 any discrepancy between this copy and the notices in the file png.h that is
 included in the libpng distribution, the latter shall prevail.
@@ -815,7 +815,7 @@ a certification mark of the Open Source Initiative. OSI has not addressed
 the additional disclaimers inserted at version 1.0.7.
 
 "
-/libpng-1.6.34.tar.gz_extracted/libpng.3,Libpng,0.059141986861387844,ScoreOutOfRange,6226,6247,273072,273791,0.0021563771279407506,"EXPORT CONTROL:
+/libpng-1.6.34.tar.gz/libpng.3,Libpng,0.059141986861387844,ScoreOutOfRange,6226,6247,273072,273791,0.0021563771279407506,"EXPORT CONTROL:
 
 The Copyright owner believes that the Export Control Classification
 Number (ECCN) for libpng is EAR99, which means not subject to export
@@ -837,7 +837,7 @@ glennrp at users.sourceforge.net
 September 29, 2017
 
 "
-/libpng-1.6.34.tar.gz_extracted/ltmain.sh,GPL-3.0-or-later,0.07139156215368263,1,1376,1394,40520,41367,0.2937897855613248,"
+/libpng-1.6.34.tar.gz/ltmain.sh,GPL-3.0-or-later,0.07139156215368263,1,1376,1394,40520,41367,0.2937897855613248,"
 # Copyright (C) 2010-2015 Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.  There is NO
 # warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -856,7 +856,7 @@ September 29, 2017
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 "
-/libpng-1.6.34.tar.gz_extracted/ltmain.sh,GPL-3.0-or-later,0.06028221577884486,1,70,93,2390,3497,0.2258292327319118,"
+/libpng-1.6.34.tar.gz/ltmain.sh,GPL-3.0-or-later,0.06028221577884486,1,70,93,2390,3497,0.2258292327319118,"
 # Copyright (C) 2004-2015 Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.  There is NO
 # warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -880,7 +880,7 @@ September 29, 2017
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 "
-/libpng-1.6.34.tar.gz_extracted/ltmain.sh,GPL-3.0+,0.05144277131868788,ScoreOutOfRange,7,31,271,1383,0.19066920510143504,"
+/libpng-1.6.34.tar.gz/ltmain.sh,GPL-3.0+,0.05144277131868788,ScoreOutOfRange,7,31,271,1383,0.19066920510143504,"
 # Copyright (C) 1996-2015 Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.  There is NO
 # warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -905,7 +905,7 @@ September 29, 2017
 
 
 "
-/libpng-1.6.34.tar.gz_extracted/missing,GPL-3.0+,0.3850093704636901,3,4,21,108,859,0.2919607241485119,"
+/libpng-1.6.34.tar.gz/missing,GPL-3.0+,0.3850093704636901,3,4,21,108,859,0.2919607241485119,"
 # Copyright (C) 1996-2014 Free Software Foundation, Inc.
 # Originally written by Fran,cois Pinard <pinard@iro.umontreal.ca>, 1996.
 
@@ -923,13 +923,13 @@ September 29, 2017
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 "
-/libpng-1.6.34.tar.gz_extracted/missing,Libtool-exception,0.3031469257275709,3,21,26,859,1131,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+/libpng-1.6.34.tar.gz/missing,Libtool-exception,0.3031469257275709,3,21,26,859,1131,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
 # distribute this file as part of a program that contains a
 # configuration script generated by Autoconf, you may include it under
 # the same distribution terms that you use for the rest of that program.
 
 "
-/libpng-1.6.34.tar.gz_extracted/png.c,Libpng,0.04612329399769111,ScoreOutOfRange,0,16,0,558,0.0013105189483434995,"
+/libpng-1.6.34.tar.gz/png.c,Libpng,0.04612329399769111,ScoreOutOfRange,0,16,0,558,0.0013105189483434995,"
 /* png.c - location for general purpose libpng functions
  *
  * Last changed in libpng 1.6.33 [September 28, 2017]
@@ -946,7 +946,7 @@ September 29, 2017
 
 /* Generate a compiler error if there is an old png.h in the search path. */
 "
-/libpng-1.6.34.tar.gz_extracted/png.c,CECILL-B,0.04417739731694161,ScoreOutOfRange,2053,2101,69322,71689,0.0003696825152294932,"
+/libpng-1.6.34.tar.gz/png.c,CECILL-B,0.04417739731694161,ScoreOutOfRange,2053,2101,69322,71689,0.0003696825152294932,"
    /* This is just a warning because the profile may be valid in future
     * versions.
     */
@@ -995,7 +995,7 @@ September 29, 2017
     * color-space profile contains the information to transform the monochrome
     * data to XYZ or L*a*b (according to which PCS the profile uses) and this
 "
-/libpng-1.6.34.tar.gz_extracted/png.c,PDDL-1.0,0.04307186415037786,ScoreOutOfRange,3671,3693,124284,125290,0.0003326512915918734," * get an approximation then multiply the approximation by a correction factor
+/libpng-1.6.34.tar.gz/png.c,PDDL-1.0,0.04307186415037786,ScoreOutOfRange,3671,3693,124284,125290,0.0003326512915918734," * get an approximation then multiply the approximation by a correction factor
  * determined by the remaining up to 8 bits.  This requires an additional step
  * in the 16-bit case.
  *
@@ -1018,7 +1018,7 @@ September 29, 2017
  * interpolation between the two end values 256/257 (result -368.61) and 258/257
  * (result 367.179).  The values used below are scaled by a further 64 to give
 "
-/libpng-1.6.34.tar.gz_extracted/png.c,LGPLLR,0.04141501219997176,ScoreOutOfRange,237,315,7391,10061,0.0002738908883565213,"
+/libpng-1.6.34.tar.gz/png.c,LGPLLR,0.04141501219997176,ScoreOutOfRange,237,315,7391,10061,0.0002738908883565213,"
       return 0;
    }
 
@@ -1097,7 +1097,7 @@ png_create_png_struct,(png_const_charp user_png_ver, png_voidp error_ptr,
 #  endif
          /* Call the general version checker (shared with read and write code):
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Libpng,0.26755221891939746,3,9,125,303,4861,0.05421000460264385," * This code is released under the libpng license (See LICENSE, below)
+/libpng-1.6.34.tar.gz/png.h,Libpng,0.26755221891939746,3,9,125,303,4861,0.05421000460264385," * This code is released under the libpng license (See LICENSE, below)
  *
  * Authors and maintainers:
  *   libpng versions 0.71, May 1995, through 0.88, January 1996: Guy Schalnat
@@ -1214,7 +1214,7 @@ png_create_png_struct,(png_const_charp user_png_ver, png_voidp error_ptr,
  *
  * The name ""libpng"" has not been registered by the Copyright owner
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Libpng,0.04798479011841238,ScoreOutOfRange,133,154,5236,6065,0.002119009169632434," * a certification mark of the Open Source Initiative. OSI has not addressed
+/libpng-1.6.34.tar.gz/png.h,Libpng,0.04798479011841238,ScoreOutOfRange,133,154,5236,6065,0.002119009169632434," * a certification mark of the Open Source Initiative. OSI has not addressed
  * the additional disclaimers inserted at version 1.0.7.
  *
  * EXPORT CONTROL:
@@ -1236,7 +1236,7 @@ png_create_png_struct,(png_const_charp user_png_ver, png_voidp error_ptr,
  * Also, the PNG logo (in PNG format, of course) is supplied in the
  * files ""pngbar.png"" and ""pngbar.jpg (88x31) and ""pngnow.png"" (98x31).
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04078555974795939,ScoreOutOfRange,3022,3047,131806,133108,0.0008801568076529277,"   png_const_voidp memory, png_size_t size));
+/libpng-1.6.34.tar.gz/png.h,Vim,0.04078555974795939,ScoreOutOfRange,3022,3047,131806,133108,0.0008801568076529277,"   png_const_voidp memory, png_size_t size));
    /* The PNG header is read from the given memory buffer. */
 
 PNG_EXPORT(237, int, png_image_finish_read, (png_imagep image,
@@ -1262,7 +1262,7 @@ PNG_EXPORT(237, int, png_image_finish_read, (png_imagep image,
     * 1) The original format from png_image_begin_read_from_* had
     *    PNG_FORMAT_FLAG_ALPHA set.
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.0423833632216173,ScoreOutOfRange,848,869,35280,36399,0.0007681970138423549," * must include this before png.h to obtain the definition of jmp_buf.  The
+/libpng-1.6.34.tar.gz/png.h,Vim,0.0423833632216173,ScoreOutOfRange,848,869,35280,36399,0.0007681970138423549," * must include this before png.h to obtain the definition of jmp_buf.  The
  * function is required to be PNG_NORETURN, but this is not checked.  If the
  * function does return the application will crash via an abort() or similar
  * system level call.
@@ -1284,7 +1284,7 @@ PNG_FUNCTION(void, (PNGCAPI *png_longjmp_ptr), PNGARG((jmp_buf, int)), typedef);
 #define PNG_TRANSFORM_EXPAND         0x0010    /* read only */
 #define PNG_TRANSFORM_INVERT_MONO    0x0020    /* read and write */
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.043190555893819156,ScoreOutOfRange,3102,3117,135702,136444,0.0007431223510900185," * the format is linear the written PNG color-map will be converted to sRGB
+/libpng-1.6.34.tar.gz/png.h,Vim,0.043190555893819156,ScoreOutOfRange,3102,3117,135702,136444,0.0007431223510900185," * the format is linear the written PNG color-map will be converted to sRGB
  * regardless of the convert_to_8_bit flag.
  *
  * With all APIs row_stride is handled as in the read APIs - it is the spacing
@@ -1300,7 +1300,7 @@ PNG_FUNCTION(void, (PNGCAPI *png_longjmp_ptr), PNGARG((jmp_buf, int)), typedef);
 
 PNG_EXPORT(245, int, png_image_write_to_memory, (png_imagep image, void *memory,
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04028832688384934,ScoreOutOfRange,1677,1690,72539,73193,0.0005797166867603626,"/* This callback is called only for *unknown* chunks.  If
+/libpng-1.6.34.tar.gz/png.h,Vim,0.04028832688384934,ScoreOutOfRange,1677,1690,72539,73193,0.0005797166867603626,"/* This callback is called only for *unknown* chunks.  If
  * PNG_HANDLE_AS_UNKNOWN_SUPPORTED is set then it is possible to set known
  * chunks to be treated as unknown, however in this case the callback must do
  * any processing required by the chunk (e.g. by calling the appropriate
@@ -1314,7 +1314,7 @@ PNG_EXPORT(245, int, png_image_write_to_memory, (png_imagep image, void *memory,
  * negative: An error occurred; png_chunk_error will be called.
  *     zero: The chunk was not handled, the chunk will be saved. A critical
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.042877201313392226,ScoreOutOfRange,1130,1143,47276,48021,0.0005511711601262244," * This has no effect on the way pixels are written into a PNG output
+/libpng-1.6.34.tar.gz/png.h,Vim,0.042877201313392226,ScoreOutOfRange,1130,1143,47276,48021,0.0005511711601262244," * This has no effect on the way pixels are written into a PNG output
  * datastream. The color samples in a PNG datastream are never premultiplied
  * with the alpha samples.
  *
@@ -1328,7 +1328,7 @@ PNG_EXPORT(245, int, png_image_write_to_memory, (png_imagep image, void *memory,
  *
  * The alternative is to 'associate' the alpha with the color information by
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04092075527206615,ScoreOutOfRange,2673,2680,115740,116080,0.0004984343144683577," * 5) Call png_image_finish_read to read the image and, if required, the
+/libpng-1.6.34.tar.gz/png.h,Vim,0.04092075527206615,ScoreOutOfRange,2673,2680,115740,116080,0.0004984343144683577," * 5) Call png_image_finish_read to read the image and, if required, the
  *    color-map into your buffers.
  *
  * There are no restrictions on the format of the PNG input itself; all valid
@@ -1336,7 +1336,7 @@ PNG_EXPORT(245, int, png_image_write_to_memory, (png_imagep image, void *memory,
  * input image is transformed as necessary to the requested in-memory format
  * during the png_image_finish_read() step.  The only caveat is that if you
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,CECILL-B,0.04546011574300316,ScoreOutOfRange,2871,2933,125261,127876,0.000454885362562493," * Similarly the macros are also pre-processor constants (sizeof is not used) so
+/libpng-1.6.34.tar.gz/png.h,CECILL-B,0.04546011574300316,ScoreOutOfRange,2871,2933,125261,127876,0.000454885362562493," * Similarly the macros are also pre-processor constants (sizeof is not used) so
  * they can be used in #if tests.
  *
  * First the information about the samples.
@@ -1399,7 +1399,7 @@ PNG_EXPORT(245, int, png_image_write_to_memory, (png_imagep image, void *memory,
     * is the minimum 'row stride', the minimum count of components between each
     * row.  For a color-mapped image this is the minimum number of bytes in a
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,CECILL-C,0.04755435010355461,ScoreOutOfRange,2680,2721,116156,118096,0.0004258931130602349," * request a color-mapped image from a PNG that is full-color or makes
+/libpng-1.6.34.tar.gz/png.h,CECILL-C,0.04755435010355461,ScoreOutOfRange,2680,2721,116156,118096,0.0004258931130602349," * request a color-mapped image from a PNG that is full-color or makes
  * complex use of an alpha channel the transformation is extremely lossy and the
  * result may look terrible.
  *
@@ -1441,7 +1441,7 @@ typedef struct
     * The upper 30 bits of this value are reserved, the low two bits contain
     * a value as follows:
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.044782644807916855,ScoreOutOfRange,1225,1235,52499,53173,0.00041764046675748525," *    If neither the PNG nor the standard linear encoding work for you because
+/libpng-1.6.34.tar.gz/png.h,Vim,0.044782644807916855,ScoreOutOfRange,1225,1235,52499,53173,0.00041764046675748525," *    If neither the PNG nor the standard linear encoding work for you because
  *    of the software or hardware you use then you have a big problem.  The PNG
  *    case will probably result in halos around the image.  The linear encoding
  *    will probably result in a washed out, too bright, image (it's actually too
@@ -1452,7 +1452,7 @@ typedef struct
  *    This option will also reduce the halos, but there will be slight dark
  *    halos round the opaque parts of the image where the background is light.
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,LGPL-3.0+,0.04308594377636629,ScoreOutOfRange,634,655,26125,26981,0.0003923364802837471,"   png_byte day;     /* day of month, 1 - 31 */
+/libpng-1.6.34.tar.gz/png.h,LGPL-3.0+,0.04308594377636629,ScoreOutOfRange,634,655,26125,26981,0.0003923364802837471,"   png_byte day;     /* day of month, 1 - 31 */
    png_byte hour;    /* hour of day, 0 - 23 */
    png_byte minute;  /* minute of hour, 0 - 59 */
    png_byte second;  /* second of minute, 0 - 60 (for leap seconds) */
@@ -1474,11 +1474,11 @@ typedef struct png_unknown_chunk_t
 {
    png_byte name[5]; /* Textual chunk name with '\0' terminator */
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04136250760387793,ScoreOutOfRange,758,761,31472,31683,0.0003912367143617736," * from the PNG header, or if the application has filled in the corresponding
+/libpng-1.6.34.tar.gz/png.h,Vim,0.04136250760387793,ScoreOutOfRange,758,761,31472,31683,0.0003912367143617736," * from the PNG header, or if the application has filled in the corresponding
  * data in the info_struct to be written into the output file.  The values
  * of the PNG_INFO_<chunk> defines should NOT be changed.
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04461946274439003,ScoreOutOfRange,1753,1768,76089,76802,0.00034218145215685866,"PNG_EXPORTA(96, png_voidp, png_malloc_warn, (png_const_structrp png_ptr,
+/libpng-1.6.34.tar.gz/png.h,Vim,0.04461946274439003,ScoreOutOfRange,1753,1768,76089,76802,0.00034218145215685866,"PNG_EXPORTA(96, png_voidp, png_malloc_warn, (png_const_structrp png_ptr,
     png_alloc_size_t size), PNG_ALLOCATED);
 
 /* Frees a pointer allocated by png_malloc() */
@@ -1494,12 +1494,12 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
  *
  * It is unlikely that this function works correctly as of 1.6.0 and using it
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,Vim,0.04345457967696346,ScoreOutOfRange,1310,1314,56560,56800,0.000338559658602988," * MUST be called before png_read_update_info or png_start_read_image,
+/libpng-1.6.34.tar.gz/png.h,Vim,0.04345457967696346,ScoreOutOfRange,1310,1314,56560,56800,0.000338559658602988," * MUST be called before png_read_update_info or png_start_read_image,
  * otherwise it will not have the desired effect.  Note that it is still
  * necessary to call png_read_row or png_read_rows png_get_image_height
  * times for each pass.
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,AGPL-1.0,0.044065769023752886,ScoreOutOfRange,1200,1223,51035,52481,0.0003094612700938059," *    environments where everything is done by the book.  It has the shortcoming
+/libpng-1.6.34.tar.gz/png.h,AGPL-1.0,0.044065769023752886,ScoreOutOfRange,1200,1223,51035,52481,0.0003094612700938059," *    environments where everything is done by the book.  It has the shortcoming
  *    of assuming that input PNG data with no gamma information is linear - this
  *    is unlikely to be correct unless the PNG files where generated locally.
  *    Most of the time the output precision will be so low as to show
@@ -1523,7 +1523,7 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
  *    below then encode the resultant 8-bit or 16-bit values to match the output
  *    encoding.
 "
-/libpng-1.6.34.tar.gz_extracted/png.h,LGPLLR,0.04185961434954818,ScoreOutOfRange,2257,2287,97209,98716,0.0002988995595379335," *    If this is *not* set known chunks will always be handled by libpng and
+/libpng-1.6.34.tar.gz/png.h,LGPLLR,0.04185961434954818,ScoreOutOfRange,2257,2287,97209,98716,0.0002988995595379335," *    If this is *not* set known chunks will always be handled by libpng and
  *    will never be stored in the unknown chunk list.  Known chunks listed to
  *    png_set_keep_unknown_chunks will have no effect.  If it is set then known
  *    chunks listed with a keep other than AS_DEFAULT will *never* be processed
@@ -1554,7 +1554,7 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
  *    PNG_HANDLE_CHUNK_ALWAYS:
  *       Write the chunk.
 "
-/libpng-1.6.34.tar.gz_extracted/pngconf.h,Libpng,0.04671559083149203,ScoreOutOfRange,0,15,0,591,0.0013103944401654326,"
+/libpng-1.6.34.tar.gz/pngconf.h,Libpng,0.04671559083149203,ScoreOutOfRange,0,15,0,591,0.0013103944401654326,"
 /* pngconf.h - machine configurable file for libpng
  *
  * libpng version 1.6.34, September 29, 2017
@@ -1570,7 +1570,7 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
  * Any machine specific code is near the front of this file, so if you
  * are configuring libpng for a machine, you may want to read the section
 "
-/libpng-1.6.34.tar.gz_extracted/pngdebug.h,Libpng,0.04039329125759701,ScoreOutOfRange,0,14,0,539,0.0013108117815406935,"
+/libpng-1.6.34.tar.gz/pngdebug.h,Libpng,0.04039329125759701,ScoreOutOfRange,0,14,0,539,0.0013108117815406935,"
 /* pngdebug.h - Debugging macros for libpng, also used in pngtest.c
  *
  * Last changed in libpng 1.6.8 [December 19, 2013]
@@ -1585,7 +1585,7 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
 
 /* Define PNG_DEBUG at compile time for debugging information.  Higher
 "
-/libpng-1.6.34.tar.gz_extracted/pngerror.c,Libpng,0.04680881055464597,ScoreOutOfRange,0,13,0,524,0.0013101756658867698,"
+/libpng-1.6.34.tar.gz/pngerror.c,Libpng,0.04680881055464597,ScoreOutOfRange,0,13,0,524,0.0013101756658867698,"
 /* pngerror.c - stub functions for i/o and memory allocation
  *
  * Last changed in libpng 1.6.31 [July 27, 2017]
@@ -1599,7 +1599,7 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
  *
  * This file provides a location for all error handling.  Users who
 "
-/libpng-1.6.34.tar.gz_extracted/pngerror.c,Vim,0.043606509182947215,ScoreOutOfRange,321,344,10279,11197,0.0005788384222877959,"            /* Append this parameter */
+/libpng-1.6.34.tar.gz/pngerror.c,Vim,0.043606509182947215,ScoreOutOfRange,321,344,10279,11197,0.0005788384222877959,"            /* Append this parameter */
             png_const_charp parm = p[parameter];
             png_const_charp pend = p[parameter] + (sizeof p[parameter]);
 
@@ -1623,7 +1623,7 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
       /* At this point *message can't be '\0', even in the bad parameter case
        * above where there is a lone '@' at the end of the message string.
 "
-/libpng-1.6.34.tar.gz_extracted/pngget.c,Libpng,0.04242855367824749,ScoreOutOfRange,0,20,0,628,0.001243840991118861,"
+/libpng-1.6.34.tar.gz/pngget.c,Libpng,0.04242855367824749,ScoreOutOfRange,0,20,0,628,0.001243840991118861,"
 /* pngget.c - retrieval of values from info struct
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -1644,7 +1644,7 @@ PNG_EXPORT(98, void, png_free_data, (png_const_structrp png_ptr,
 png_uint_32 PNGAPI
 png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
 "
-/libpng-1.6.34.tar.gz_extracted/pnginfo.h,Libpng,0.051665881753584685,ScoreOutOfRange,0,18,0,808,0.0015825932738500244,"
+/libpng-1.6.34.tar.gz/pnginfo.h,Libpng,0.051665881753584685,ScoreOutOfRange,0,18,0,808,0.0015825932738500244,"
 /* pnginfo.h - header file for PNG reference library
  *
  * Last changed in libpng 1.6.1 [March 28, 2013]
@@ -1663,7 +1663,7 @@ png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
  * in the PNG file.  If you are writing the file, fill in the information
  * you want to put into the PNG file, using png_set_*() functions, then
 "
-/libpng-1.6.34.tar.gz_extracted/pngmem.c,Libpng,0.04190552644659936,ScoreOutOfRange,0,13,0,525,0.0013102589589194717,"
+/libpng-1.6.34.tar.gz/pngmem.c,Libpng,0.04190552644659936,ScoreOutOfRange,0,13,0,525,0.0013102589589194717,"
 /* pngmem.c - stub functions for memory allocation
  *
  * Last changed in libpng 1.6.26 [October 20, 2016]
@@ -1677,11 +1677,11 @@ png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
  *
  * This file provides a location for all memory allocation.  Users who
 "
-/libpng-1.6.34.tar.gz_extracted/pngmem.c,Qwt-exception-1.0,0.04010662037015196,ScoreOutOfRange,60,63,1926,2085,0.000577803713466851,"
+/libpng-1.6.34.tar.gz/pngmem.c,Qwt-exception-1.0,0.04010662037015196,ScoreOutOfRange,60,63,1926,2085,0.000577803713466851,"
 /* png_malloc_base, an internal function added at libpng 1.6.0, does the work of
  * allocating memory, taking into account limits and PNG_USER_MEM_SUPPORTED.
 "
-/libpng-1.6.34.tar.gz_extracted/pngpread.c,Libpng,0.051110786736990974,ScoreOutOfRange,0,15,0,466,0.0012436443088535494,"
+/libpng-1.6.34.tar.gz/pngpread.c,Libpng,0.051110786736990974,ScoreOutOfRange,0,15,0,466,0.0012436443088535494,"
 /* pngpread.c - read a png file in push mode
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -1697,7 +1697,7 @@ png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
 #include ""pngpriv.h""
 
 "
-/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Libpng,0.04189893266190046,ScoreOutOfRange,0,15,0,595,0.0013103948565413139,"
+/libpng-1.6.34.tar.gz/pngpriv.h,Libpng,0.04189893266190046,ScoreOutOfRange,0,15,0,595,0.0013103948565413139,"
 /* pngpriv.h - private declarations for use inside libpng
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -1713,7 +1713,7 @@ png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
 /* The symbols declared in this file (including the functions declared
  * as extern) are PRIVATE.  They are not part of the libpng public
 "
-/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Vim,0.04083098549854462,ScoreOutOfRange,283,308,11564,12536,0.0006597227795933824,"          * isn't visible in the Visual Studio UI) so it is a fairly reliable
+/libpng-1.6.34.tar.gz/pngpriv.h,Vim,0.04083098549854462,ScoreOutOfRange,283,308,11564,12536,0.0006597227795933824,"          * isn't visible in the Visual Studio UI) so it is a fairly reliable
           * indication that PNG_IMPEXP needs to be set to the DLL export
           * attributes.
           */
@@ -1739,7 +1739,7 @@ png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
  * PNG_IMPEXP must be set here when building the library to prevent pngconf.h
  * setting it to the ""import"" setting for a DLL build.
 "
-/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Vim,0.04013671080722674,ScoreOutOfRange,144,156,6168,6878,0.0004979637074639662,"    * if possible - if __ARM_NEON__ is set and the compiler version is not known
+/libpng-1.6.34.tar.gz/pngpriv.h,Vim,0.04013671080722674,ScoreOutOfRange,144,156,6168,6878,0.0004979637074639662,"    * if possible - if __ARM_NEON__ is set and the compiler version is not known
     * to be broken.  This is controlled by PNG_ARM_NEON_IMPLEMENTATION which can
     * be:
     *
@@ -1752,7 +1752,7 @@ png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
     * testing or a new compiler, but the results should be communicated to the
     * libpng implementation list for incorporation in the next minor release.
 "
-/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Vim,0.04174600314706313,ScoreOutOfRange,737,744,29811,30241,0.00047202735094175593," * (8-TRAILBITS), but 0 when TRAILBITS is 0.
+/libpng-1.6.34.tar.gz/pngpriv.h,Vim,0.04174600314706313,ScoreOutOfRange,737,744,29811,30241,0.00047202735094175593," * (8-TRAILBITS), but 0 when TRAILBITS is 0.
  *
  * NOTE: these macros are intended to be self-evidently correct and never
  * overflow on the assumption that pixel_bits is in the range 0..255.  The
@@ -1760,7 +1760,7 @@ png_get_valid(png_const_structrp png_ptr, png_const_inforp info_ptr,
  * the integral promotions).  The result of the expression always has type
  * (png_uint_32), however the compiler always knows it is in the range 0..7.
 "
-/libpng-1.6.34.tar.gz_extracted/pngpriv.h,Aladdin,0.041651784864666606,ScoreOutOfRange,899,947,37343,39408,0.00045380768281700284," * non-C code (so long as it is C-preprocessed) the rest of this stuff cannot.
+/libpng-1.6.34.tar.gz/pngpriv.h,Aladdin,0.041651784864666606,ScoreOutOfRange,899,947,37343,39408,0.00045380768281700284," * non-C code (so long as it is C-preprocessed) the rest of this stuff cannot.
  */
 #ifndef PNG_VERSION_INFO_ONLY
 
@@ -1809,7 +1809,7 @@ PNG_INTERNAL_DATA(const png_byte, png_sRGB_delta, [512]);
    /* Given a value 'linear' in the range 0..255*65535 calculate the 8-bit sRGB
     * encoded value with maximum error 0.646365.  Note that the input is not a
 "
-/libpng-1.6.34.tar.gz_extracted/pngpriv.h,LGPLLR,0.04410692862044932,ScoreOutOfRange,1935,1955,81445,82571,0.00035912888032866436," * is no point calling the parser any more if it fails to advance to
+/libpng-1.6.34.tar.gz/pngpriv.h,LGPLLR,0.04410692862044932,ScoreOutOfRange,1935,1955,81445,82571,0.00035912888032866436," * is no point calling the parser any more if it fails to advance to
  * the end of the string - it is stuck on an invalid character (or
  * terminated by '\0').
  *
@@ -1830,7 +1830,7 @@ PNG_INTERNAL_FUNCTION(int,png_check_fp_number,(png_const_charp string,
  * it was valid (otherwise it returns 0.)  This can be used for testing
  * for negative or zero values using the sticky flag.
 "
-/libpng-1.6.34.tar.gz_extracted/pngpriv.h,AGPL-1.0,0.04150716037823702,ScoreOutOfRange,814,839,33329,34661,0.0003482554153641661,"
+/libpng-1.6.34.tar.gz/pngpriv.h,AGPL-1.0,0.04150716037823702,ScoreOutOfRange,814,839,33329,34661,0.0003482554153641661,"
 /* Constants for known chunk types.
  *
  * MAINTAINERS: If you need to add a chunk, define the name here.
@@ -1856,7 +1856,7 @@ PNG_INTERNAL_FUNCTION(int,png_check_fp_number,(png_const_charp string,
  */
 #define png_IDAT PNG_U32( 73,  68,  65,  84)
 "
-/libpng-1.6.34.tar.gz_extracted/pngread.c,Libpng,0.04981772001008642,ScoreOutOfRange,0,24,0,761,0.0013455225589739674,"
+/libpng-1.6.34.tar.gz/pngread.c,Libpng,0.04981772001008642,ScoreOutOfRange,0,24,0,761,0.0013455225589739674,"
 /* pngread.c - read a PNG file
  *
  * Last changed in libpng 1.6.33 [September 28, 2017]
@@ -1881,7 +1881,7 @@ PNG_INTERNAL_FUNCTION(int,png_check_fp_number,(png_const_charp string,
 
 /* Create a PNG structure for reading, and allocate any memory needed. */
 "
-/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04287010854458037,ScoreOutOfRange,629,645,19647,20465,0.00030089873680896217," * ""chunky"" progressive image, with finer detail added as it becomes
+/libpng-1.6.34.tar.gz/pngread.c,PDDL-1.0,0.04287010854458037,ScoreOutOfRange,629,645,19647,20465,0.00030089873680896217," * ""chunky"" progressive image, with finer detail added as it becomes
  * available.  If you do not want this ""chunky"" display, you may pass
  * NULL for display_row.  If you do not want the sparkle display, and
  * you have not called png_handle_alpha(), you may pass NULL for rows.
@@ -1898,7 +1898,7 @@ PNG_INTERNAL_FUNCTION(int,png_check_fp_number,(png_const_charp string,
 void PNGAPI
 png_read_rows(png_structrp png_ptr, png_bytepp row,
 "
-/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04196773333730096,ScoreOutOfRange,2106,2131,64221,65275,0.000220558052717459,"
+/libpng-1.6.34.tar.gz/pngread.c,PDDL-1.0,0.04196773333730096,ScoreOutOfRange,2106,2131,64221,65275,0.000220558052717459,"
    /* Exclude the NYI feature of compositing onto a color-mapped buffer; it is
     * very difficult to do, the results look awful, and it is difficult to see
     * what possible use it is because the application can't control the
@@ -1924,7 +1924,7 @@ png_read_rows(png_structrp png_ptr, png_bytepp row,
          back_g = display->background->green;
          if ((output_format & PNG_FORMAT_FLAG_COLOR) != 0)
 "
-/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04280507176699996,ScoreOutOfRange,686,707,21285,22168,0.00018103440029943984,"/* Read the entire image.  If the image has an alpha channel or a tRNS
+/libpng-1.6.34.tar.gz/pngread.c,PDDL-1.0,0.04280507176699996,ScoreOutOfRange,686,707,21285,22168,0.00018103440029943984,"/* Read the entire image.  If the image has an alpha channel or a tRNS
  * chunk, and you have called png_handle_alpha()[*], you will need to
  * initialize the image to the current image that PNG will be overlaying.
  * We set the num_rows again here, in case it was incorrectly set in
@@ -1946,7 +1946,7 @@ png_read_image(png_structrp png_ptr, png_bytepp image)
    png_debug(1, ""in png_read_image"");
 
 "
-/libpng-1.6.34.tar.gz_extracted/pngread.c,PDDL-1.0,0.04236097406553066,ScoreOutOfRange,4110,4119,138133,138617,0.00013358827015163795,"      const unsigned int channels = PNG_IMAGE_PIXEL_CHANNELS(image->format);
+/libpng-1.6.34.tar.gz/pngread.c,PDDL-1.0,0.04236097406553066,ScoreOutOfRange,4110,4119,138133,138617,0.00013358827015163795,"      const unsigned int channels = PNG_IMAGE_PIXEL_CHANNELS(image->format);
 
       /* The following checks just the 'row_stride' calculation to ensure it
        * fits in a signed 32-bit value.  Because channels/components can be
@@ -1956,7 +1956,7 @@ png_read_image(png_structrp png_ptr, png_bytepp image)
        */
       if (image->width <= 0x7fffffffU/channels) /* no overflow */
 "
-/libpng-1.6.34.tar.gz_extracted/pngrio.c,Libpng,0.04014829100822194,ScoreOutOfRange,0,13,0,499,0.0012765247043394858,"
+/libpng-1.6.34.tar.gz/pngrio.c,Libpng,0.04014829100822194,ScoreOutOfRange,0,13,0,499,0.0012765247043394858,"
 /* pngrio.c - functions for data input
  *
  * Last changed in libpng 1.6.24 [August 4, 2016]
@@ -1970,7 +1970,7 @@ png_read_image(png_structrp png_ptr, png_bytepp image)
  *
  * This file provides a location for all input.  Users who need
 "
-/libpng-1.6.34.tar.gz_extracted/pngrtran.c,Libpng,0.042911870608642905,ScoreOutOfRange,0,16,0,678,0.0013098105252994476,"
+/libpng-1.6.34.tar.gz/pngrtran.c,Libpng,0.042911870608642905,ScoreOutOfRange,0,16,0,678,0.0013098105252994476,"
 /* pngrtran.c - transforms the data in a row for PNG readers
  *
  * Last changed in libpng 1.6.33 [September 28, 2017]
@@ -1987,7 +1987,7 @@ png_read_image(png_structrp png_ptr, png_bytepp image)
  * Transformations that are used in both reading and writing are
  * in pngtrans.c.
 "
-/libpng-1.6.34.tar.gz_extracted/pngrtran.c,PDDL-1.0,0.041101902658254925,ScoreOutOfRange,1306,1329,43729,44877,0.000260820920072948,"         if (png_ptr->screen_gamma != 0) /* screen set too */
+/libpng-1.6.34.tar.gz/pngrtran.c,PDDL-1.0,0.041101902658254925,ScoreOutOfRange,1306,1329,43729,44877,0.000260820920072948,"         if (png_ptr->screen_gamma != 0) /* screen set too */
             gamma_correction = png_gamma_threshold(png_ptr->colorspace.gamma,
                 png_ptr->screen_gamma);
 
@@ -2011,7 +2011,7 @@ png_read_image(png_structrp png_ptr, png_bytepp image)
           * are both assumed to be linear and there is no way to introduce a
           * third gamma value other than png_set_background with 'UNIQUE', and,
 "
-/libpng-1.6.34.tar.gz_extracted/pngrutil.c,Libpng,0.04080137378056363,ScoreOutOfRange,0,18,0,592,0.0012762932105198537,"
+/libpng-1.6.34.tar.gz/pngrutil.c,Libpng,0.04080137378056363,ScoreOutOfRange,0,18,0,592,0.0012762932105198537,"
 /* pngrutil.c - utilities to read a PNG file
  *
  * Last changed in libpng 1.6.33 [September 28, 2017]
@@ -2030,7 +2030,7 @@ png_read_image(png_structrp png_ptr, png_bytepp image)
 #include ""pngpriv.h""
 
 "
-/libpng-1.6.34.tar.gz_extracted/pngrutil.c,CECILL-2.0,0.04259259033782285,ScoreOutOfRange,3251,3285,101209,103309,0.0003582485507231263,"         /* For pixel depths up to 4 bpp the 8-pixel mask can be expanded to fit
+/libpng-1.6.34.tar.gz/pngrutil.c,CECILL-2.0,0.04259259033782285,ScoreOutOfRange,3251,3285,101209,103309,0.0003582485507231263,"         /* For pixel depths up to 4 bpp the 8-pixel mask can be expanded to fit
           * into 32 bits, then a single loop over the bytes using the four byte
           * values in the 32-bit mask can be used.  For the 'display' option the
           * expanded mask may also not require any masking within a byte.  To
@@ -2065,7 +2065,7 @@ png_read_image(png_structrp png_ptr, png_bytepp image)
           * the compiler even though it isn't used.  Microsoft Visual C (various
           * versions) and the Intel C compiler are known to do this.  To avoid
 "
-/libpng-1.6.34.tar.gz_extracted/pngrutil.c,PDDL-1.0,0.04129114679916335,ScoreOutOfRange,1326,1388,42050,44065,0.00023003659230544086,"
+/libpng-1.6.34.tar.gz/pngrutil.c,PDDL-1.0,0.04129114679916335,ScoreOutOfRange,1326,1388,42050,44065,0.00023003659230544086,"
    if (length != 1)
    {
       png_crc_finish(png_ptr, length);
@@ -2128,7 +2128,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
     * terminator (0) byte and the compression method byte, and the
     * 'zlib' datastream is at least 11 bytes.
 "
-/libpng-1.6.34.tar.gz_extracted/pngrutil.c,PDDL-1.0,0.04511634149963352,ScoreOutOfRange,2904,2931,88381,89539,0.0002211122014425627,"png_handle_unknown(png_structrp png_ptr, png_inforp info_ptr,
+/libpng-1.6.34.tar.gz/pngrutil.c,PDDL-1.0,0.04511634149963352,ScoreOutOfRange,2904,2931,88381,89539,0.0002211122014425627,"png_handle_unknown(png_structrp png_ptr, png_inforp info_ptr,
     png_uint_32 length, int keep)
 {
    int handled = 0; /* the chunk was handled */
@@ -2156,7 +2156,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
    /* One of the following methods will read the chunk or skip it (at least one
     * of these is always defined because this is the only way to switch on
 "
-/libpng-1.6.34.tar.gz_extracted/pngset.c,Libpng,0.05376051569262574,ScoreOutOfRange,0,22,0,814,0.001445889517556568,"
+/libpng-1.6.34.tar.gz/pngset.c,Libpng,0.05376051569262574,ScoreOutOfRange,0,22,0,814,0.001445889517556568,"
 /* pngset.c - storage of image information into info struct
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -2179,7 +2179,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
 #if defined(PNG_READ_SUPPORTED) || defined(PNG_WRITE_SUPPORTED)
 
 "
-/libpng-1.6.34.tar.gz_extracted/pngstruct.h,Libpng,0.049286433147894396,ScoreOutOfRange,0,32,0,1155,0.0015472024919283706,"
+/libpng-1.6.34.tar.gz/pngstruct.h,Libpng,0.049286433147894396,ScoreOutOfRange,0,32,0,1155,0.0015472024919283706,"
 /* pngstruct.h - header file for PNG reference library
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -2212,7 +2212,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
 #ifdef const
    /* zlib.h sometimes #defines const to nothing, undo this. */
 "
-/libpng-1.6.34.tar.gz_extracted/pngtest.c,Libpng,0.045440399728759885,ScoreOutOfRange,0,16,0,738,0.0014805786867081413,"
+/libpng-1.6.34.tar.gz/pngtest.c,Libpng,0.045440399728759885,ScoreOutOfRange,0,16,0,738,0.0014805786867081413,"
 /* pngtest.c - a simple test program to test libpng
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -2229,7 +2229,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
  * the basic chunk handling, filtering, and (de)compression code is working
  * properly.  It does not currently test all of the transforms, although
 "
-/libpng-1.6.34.tar.gz_extracted/pngtrans.c,Libpng,0.04698703734555373,ScoreOutOfRange,0,17,0,569,0.0012772506584584138,"
+/libpng-1.6.34.tar.gz/pngtrans.c,Libpng,0.04698703734555373,ScoreOutOfRange,0,17,0,569,0.0012772506584584138,"
 /* pngtrans.c - transforms the data in a row (used by both readers and writers)
  *
  * Last changed in libpng 1.6.33 [September 28, 2017]
@@ -2247,7 +2247,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
 #if defined(PNG_READ_SUPPORTED) || defined(PNG_WRITE_SUPPORTED)
 
 "
-/libpng-1.6.34.tar.gz_extracted/pngwio.c,Libpng,0.04204643121460754,ScoreOutOfRange,0,13,0,506,0.0012764837854504333,"
+/libpng-1.6.34.tar.gz/pngwio.c,Libpng,0.04204643121460754,ScoreOutOfRange,0,13,0,506,0.0012764837854504333,"
 /* pngwio.c - functions for data output
  *
  * Last changed in libpng 1.6.24 [August 4, 2016]
@@ -2261,7 +2261,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
  *
  * This file provides a location for all output.  Users who need
 "
-/libpng-1.6.34.tar.gz_extracted/pngwrite.c,Libpng,0.04138609691294597,ScoreOutOfRange,0,24,0,797,0.0012766953315317107,"
+/libpng-1.6.34.tar.gz/pngwrite.c,Libpng,0.04138609691294597,ScoreOutOfRange,0,24,0,797,0.0012766953315317107,"
 /* pngwrite.c - general routines to write a PNG file
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -2286,7 +2286,7 @@ png_handle_iCCP(png_structrp png_ptr, png_inforp info_ptr, png_uint_32 length)
 static void
 write_unknown_chunks(png_structrp png_ptr, png_const_inforp info_ptr,
 "
-/libpng-1.6.34.tar.gz_extracted/pngwtran.c,Libpng,0.040500265920219665,ScoreOutOfRange,0,15,0,483,0.0013450331688873195,"
+/libpng-1.6.34.tar.gz/pngwtran.c,Libpng,0.040500265920219665,ScoreOutOfRange,0,15,0,483,0.0013450331688873195,"
 /* pngwtran.c - transforms the data in a row for PNG writers
  *
  * Last changed in libpng 1.6.26 [October 20, 2016]
@@ -2302,7 +2302,7 @@ write_unknown_chunks(png_structrp png_ptr, png_const_inforp info_ptr,
 #include ""pngpriv.h""
 
 "
-/libpng-1.6.34.tar.gz_extracted/pngwutil.c,Libpng,0.04500803312360662,ScoreOutOfRange,0,20,0,668,0.0012766433889378928,"
+/libpng-1.6.34.tar.gz/pngwutil.c,Libpng,0.04500803312360662,ScoreOutOfRange,0,20,0,668,0.0012766433889378928,"
 /* pngwutil.c - utilities to write a PNG file
  *
  * Last changed in libpng 1.6.32 [August 24, 2017]
@@ -2323,7 +2323,7 @@ write_unknown_chunks(png_structrp png_ptr, png_const_inforp info_ptr,
 /* Place a 32-bit number into a buffer in PNG byte order.  We work
  * with unsigned numbers for convenience, although one supported
 "
-/libpng-1.6.34.tar.gz_extracted/pngwutil.c,PDDL-1.0,0.04044048024728488,ScoreOutOfRange,167,193,5102,6115,0.000245005505741702," * length, and does not need to be null terminated.  To be safe, pass the
+/libpng-1.6.34.tar.gz/pngwutil.c,PDDL-1.0,0.04044048024728488,ScoreOutOfRange,167,193,5102,6115,0.000245005505741702," * length, and does not need to be null terminated.  To be safe, pass the
  * pre-defined chunk names here, and if you need a new one, define it
  * where the others are defined.  The length is the length of the data.
  * All the data must be present.  If that is not possible, use the
@@ -2350,7 +2350,7 @@ png_write_complete_chunk(png_structrp png_ptr, png_uint_32 chunk_name,
 void PNGAPI
 png_write_chunk(png_structrp png_ptr, png_const_bytep chunk_string,
 "
-/libpng-1.6.34.tar.gz_extracted/test-driver,GPL-3.0+,0.4973121627231217,3,4,20,94,774,0.30264664715612677,"
+/libpng-1.6.34.tar.gz/test-driver,GPL-3.0+,0.4973121627231217,3,4,20,94,774,0.30264664715612677,"
 # Copyright (C) 2011-2014 Free Software Foundation, Inc.
 #
 # This program is free software; you can redistribute it and/or modify
@@ -2367,19 +2367,19 @@ png_write_chunk(png_structrp png_ptr, png_const_bytep chunk_string,
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 "
-/libpng-1.6.34.tar.gz_extracted/test-driver,Libtool-exception,0.483244137279225,3,20,25,774,1046,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
+/libpng-1.6.34.tar.gz/test-driver,Libtool-exception,0.483244137279225,3,20,25,774,1046,0.0766625677827726,"# As a special exception to the GNU General Public License, if you
 # distribute this file as part of a program that contains a
 # configuration script generated by Autoconf, you may include it under
 # the same distribution terms that you use for the rest of that program.
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/examples/README.txt,LZMA-exception,0.044372757860540665,ScoreOutOfRange,10,15,385,627,0.003590185458723125,"parts of the files be used in other libpng-using programs without any need for
+/libpng-1.6.34.tar.gz/contrib/examples/README.txt,LZMA-exception,0.044372757860540665,ScoreOutOfRange,10,15,385,627,0.003590185458723125,"parts of the files be used in other libpng-using programs without any need for
 the authors of the using code to seek copyright or license from the original
 authors.
 
 The source code and comments in this directory are the original work of the
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,GPL-1.0+,0.2041452066805255,3,298,315,15859,16625,0.2307074634434959,"    Copyright (C) <year>  <name of author>
+/libpng-1.6.34.tar.gz/contrib/gregbook/COPYING,GPL-1.0+,0.2041452066805255,3,298,315,15859,16625,0.2307074634434959,"    Copyright (C) <year>  <name of author>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -2397,7 +2397,7 @@ The source code and comments in this directory are the original work of the
 
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,AGPL-1.0,0.7670646555694148,4,0,283,0,15176,0.18651212436450026,"                    GNU GENERAL PUBLIC LICENSE
+/libpng-1.6.34.tar.gz/contrib/gregbook/COPYING,AGPL-1.0,0.7670646555694148,4,0,283,0,15176,0.18651212436450026,"                    GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
  Copyright (C) 1989, 1991 Free Software Foundation, Inc.
@@ -2681,7 +2681,7 @@ PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGES.
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,LGPL-2.0+,0.05078571709398349,ScoreOutOfRange,319,335,16809,17618,0.006619877394496416,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/COPYING,LGPL-2.0+,0.05078571709398349,ScoreOutOfRange,319,335,16809,17618,0.006619877394496416,"
     Gnomovision version 69, Copyright (C) year  name of author
     Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
@@ -2698,11 +2698,11 @@ necessary.  Here is a sample; alter the names:
 
   Yoyodyne, Inc., hereby disclaims all copyright interest in the program
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/COPYING,GCC-exception-2.0,0.0464291067146283,ScoreOutOfRange,342,345,17911,18057,0.003400803207884917,"consider it more useful to permit linking proprietary applications with the
+/libpng-1.6.34.tar.gz/contrib/gregbook/COPYING,GCC-exception-2.0,0.0464291067146283,ScoreOutOfRange,342,345,17911,18057,0.003400803207884917,"consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Library General
 Public License instead of this License.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/LICENSE,GPL-1.0+,0.3615179147094041,3,34,49,1551,2295,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE,GPL-1.0+,0.3615179147094041,3,34,49,1551,2295,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -2718,7 +2718,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/LICENSE,Zlib,0.20292800174806072,3,1,25,78,1187,0.017850406572218962,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE,Zlib,0.20292800174806072,3,1,25,78,1187,0.017850406572218962,"
       Copyright (c) 1998-2008 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -2743,13 +2743,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/LICENSE,BSD-4-Clause,0.07537115552863585,1,25,30,1187,1460,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE,BSD-4-Clause,0.07537115552863585,1,25,30,1187,1460,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.c,GPL-1.0+,0.31679313061932957,3,38,53,1712,2456,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c,GPL-1.0+,0.31679313061932957,3,38,53,1712,2456,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -2765,7 +2765,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.c,Zlib,0.20343392535853735,3,5,29,234,1348,0.017845684848453107,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c,Zlib,0.20343392535853735,3,5,29,234,1348,0.017845684848453107,"
       Copyright (c) 1998-2007,2017 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -2790,13 +2790,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.c,BSD-4-Clause,0.07537115552863585,1,29,34,1348,1621,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c,BSD-4-Clause,0.07537115552863585,1,29,34,1348,1621,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.h,GPL-1.0+,0.36080150693417273,3,38,53,1707,2451,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h,GPL-1.0+,0.36080150693417273,3,38,53,1707,2451,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -2812,7 +2812,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.h,Zlib,0.20343392535853735,3,5,29,234,1343,0.017850406572218962,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h,Zlib,0.20343392535853735,3,5,29,234,1343,0.017850406572218962,"
       Copyright (c) 1998-2007 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -2837,13 +2837,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.c,GPL-1.0+,0.2549527729220626,3,38,53,1707,2451,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c,GPL-1.0+,0.2549527729220626,3,38,53,1707,2451,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -2859,7 +2859,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.c,Zlib,0.2035235221728728,3,5,29,234,1343,0.017850406572218962,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c,Zlib,0.2035235221728728,3,5,29,234,1343,0.017850406572218962,"
       Copyright (c) 1998-2015 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -2884,13 +2884,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.c,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.h,GPL-1.0+,0.35854098952690505,3,38,53,1707,2451,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h,GPL-1.0+,0.35854098952690505,3,38,53,1707,2451,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -2906,7 +2906,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.h,Zlib,0.20265699903803364,3,5,29,234,1343,0.017850406572218962,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h,Zlib,0.20265699903803364,3,5,29,234,1343,0.017850406572218962,"
       Copyright (c) 1998-2008 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -2931,13 +2931,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readpng2.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readppm.c,GPL-1.0+,0.341420548778596,3,43,58,1914,2658,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c,GPL-1.0+,0.341420548778596,3,43,58,1914,2658,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -2953,7 +2953,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readppm.c,Zlib,0.19822638604554418,3,10,34,436,1550,0.017845684848453107,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c,Zlib,0.19822638604554418,3,10,34,436,1550,0.017845684848453107,"
       Copyright (c) 1998-2007,2017 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -2978,13 +2978,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/readppm.c,BSD-4-Clause,0.07537115552863585,1,34,39,1550,1823,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c,BSD-4-Clause,0.07537115552863585,1,34,39,1550,1823,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-win.c,GPL-1.0+,0.2789326479543082,3,62,77,2848,3592,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c,GPL-1.0+,0.2789326479543082,3,62,77,2848,3592,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -3000,7 +3000,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-win.c,Zlib,0.193588258117441,3,29,53,1369,2484,0.017845684848453107,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c,Zlib,0.193588258117441,3,29,53,1369,2484,0.017845684848453107,"
       Copyright (c) 1998-2008, 2017 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -3025,13 +3025,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-win.c,BSD-4-Clause,0.07537115552863585,1,53,58,2484,2757,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c,BSD-4-Clause,0.07537115552863585,1,53,58,2484,2757,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-x.c,GPL-1.0+,0.2802045864953066,3,66,81,3142,3886,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c,GPL-1.0+,0.2802045864953066,3,66,81,3142,3886,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -3047,7 +3047,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-x.c,Zlib,0.189837413324139,3,33,57,1663,2778,0.017845684848453107,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c,Zlib,0.189837413324139,3,33,57,1663,2778,0.017845684848453107,"
       Copyright (c) 1998-2008, 2017 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -3072,13 +3072,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng-x.c,BSD-4-Clause,0.07537115552863585,1,57,62,2778,3051,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c,BSD-4-Clause,0.07537115552863585,1,57,62,2778,3051,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-win.c,GPL-1.0+,0.24456991396266486,3,71,86,3493,4237,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c,GPL-1.0+,0.24456991396266486,3,71,86,3493,4237,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -3094,7 +3094,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-win.c,Zlib,0.19058966249403828,3,38,62,2014,3129,0.017845684848453107,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c,Zlib,0.19058966249403828,3,38,62,2014,3129,0.017845684848453107,"
       Copyright (c) 1998-2008, 2017 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -3119,13 +3119,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-win.c,BSD-4-Clause,0.07537115552863585,1,62,67,3129,3402,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c,BSD-4-Clause,0.07537115552863585,1,62,67,3129,3402,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-x.c,GPL-1.0+,0.22184506679448515,3,82,97,4231,4975,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c,GPL-1.0+,0.22184506679448515,3,82,97,4231,4975,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -3141,7 +3141,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-x.c,Zlib,0.18323471775475728,3,48,73,2735,3867,0.017836248890796824,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c,Zlib,0.18323471775475728,3,48,73,2735,3867,0.017836248890796824,"
       Copyright (c) 1998-2010, 2014-2015, 2017 Greg Roelofs.  All rights
       reserved.
 
@@ -3167,13 +3167,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/rpng2-x.c,BSD-4-Clause,0.07537115552863585,1,73,78,3867,4140,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c,BSD-4-Clause,0.07537115552863585,1,73,78,3867,4140,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/wpng.c,GPL-1.0+,0.27427241976734595,3,73,88,3429,4173,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c,GPL-1.0+,0.27427241976734595,3,73,88,3429,4173,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -3189,7 +3189,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/wpng.c,Zlib,0.18679222745571528,3,40,64,1950,3065,0.017845684848453107,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c,Zlib,0.18679222745571528,3,40,64,1950,3065,0.017845684848453107,"
       Copyright (c) 1998-2007, 2017 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -3214,13 +3214,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/wpng.c,BSD-4-Clause,0.07537115552863585,1,64,69,3065,3338,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c,BSD-4-Clause,0.07537115552863585,1,64,69,3065,3338,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.c,GPL-1.0+,0.2917647195222587,3,38,53,1713,2457,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c,GPL-1.0+,0.2917647195222587,3,38,53,1713,2457,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -3236,7 +3236,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.c,Zlib,0.20361385338732582,3,5,29,234,1349,0.017845684848453107,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c,Zlib,0.20361385338732582,3,5,29,234,1349,0.017845684848453107,"
       Copyright (c) 1998-2007, 2017 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -3261,13 +3261,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.c,BSD-4-Clause,0.07537115552863585,1,29,34,1349,1622,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c,BSD-4-Clause,0.07537115552863585,1,29,34,1349,1622,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.h,GPL-1.0+,0.3603650953404911,3,38,53,1707,2451,0.14503327856526219,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h,GPL-1.0+,0.3603650953404911,3,38,53,1707,2451,0.14503327856526219,"
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
       the Free Software Foundation; either version 2 of the License, or
@@ -3283,7 +3283,7 @@ Public License instead of this License.
       Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.h,Zlib,0.20361385338732582,3,5,29,234,1343,0.017850406572218962,"
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h,Zlib,0.20361385338732582,3,5,29,234,1343,0.017850406572218962,"
       Copyright (c) 1998-2007 Greg Roelofs.  All rights reserved.
 
       This software is provided ""as is,"" without warranty of any kind,
@@ -3308,13 +3308,13 @@ Public License instead of this License.
          notice, disclaimer, and this list of conditions in the documenta-
          tion and/or other materials provided with the distribution.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/gregbook/writepng.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
+/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h,BSD-4-Clause,0.07537115552863585,1,29,34,1343,1616,0.001983603531408557,"      3. All advertising materials mentioning features or use of this
          software must display the following acknowledgment:
 
             This product includes software developed by Greg Roelofs
             and contributors for the book, ""PNG: The Definitive Guide,""
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,AGPL-1.0,0.04034573669206316,ScoreOutOfRange,4881,4940,149863,152262,0.00036295031540548343,"         png_error(pp, ""png_convert_to_rfc1123 failed"");
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c,AGPL-1.0,0.04034573669206316,ScoreOutOfRange,4881,4940,149863,152262,0.00036295031540548343,"         png_error(pp, ""png_convert_to_rfc1123 failed"");
 
       if (strcmp(result, correct) != 0)
       {
@@ -3374,7 +3374,7 @@ typedef struct standard_display
    png_byte    bit_depth;
    png_byte    red_sBIT;       /* Input data sBIT values. */
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,PDDL-1.0,0.040848767468523374,ScoreOutOfRange,2427,2466,72003,73596,0.0003568633960116662,"   /* Whether to call png_read_update_info, not png_read_start_image, and how
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c,PDDL-1.0,0.040848767468523374,ScoreOutOfRange,2427,2466,72003,73596,0.0003568633960116662,"   /* Whether to call png_read_update_info, not png_read_start_image, and how
     * many times to call it.
     */
    int                      use_update_info;
@@ -3414,7 +3414,7 @@ typedef struct standard_display
 
    /* Which gamma tests to run: */
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,PDDL-1.0,0.04198198368704979,ScoreOutOfRange,9846,9878,308337,309748,0.00028476417154697835,"
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c,PDDL-1.0,0.04198198368704979,ScoreOutOfRange,9846,9878,308337,309748,0.00028476417154697835,"
          /* pass is set at this point if either of the tests above would have
           * passed.  Don't do these additional tests here - just log the
           * original [es_lo..es_hi] values.
@@ -3447,7 +3447,7 @@ typedef struct standard_display
 
             tmp = gamma_component_compose(do_background, tmp, alpha, background,
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,PDDL-1.0,0.04065364046265015,ScoreOutOfRange,3966,3997,120609,121741,0.00024488532540808717,"
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c,PDDL-1.0,0.04065364046265015,ScoreOutOfRange,3966,3997,120609,121741,0.00024488532540808717,"
    png_error(pp, ""internal error"");
 }
 
@@ -3479,7 +3479,7 @@ check_interlace_type(int const interlace_type)
       /* This is an internal error - --interlace tests should be skipped, not
        * attempted.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,ODbL-1.0,0.04196668531132666,ScoreOutOfRange,6308,6351,196849,198575,0.0002447438143147807,"
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c,ODbL-1.0,0.04196668531132666,ScoreOutOfRange,6308,6351,196849,198575,0.0002447438143147807,"
    /* The next transform in the list, each transform must call its own next
     * transform after it has processed the pixel successfully.
     */
@@ -3523,7 +3523,7 @@ typedef struct transform_display
    standard_display this;
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,CECILL-2.0,0.04352234048423849,ScoreOutOfRange,2586,2629,77947,79394,0.00020255545332774404,"   /* 'value' is in the range 0 to 1, the result is the same value rounded to a
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c,CECILL-2.0,0.04352234048423849,ScoreOutOfRange,2586,2629,77947,79394,0.00020255545332774404,"   /* 'value' is in the range 0 to 1, the result is the same value rounded to a
     * multiple of the digitization factor - 8 or 16 bits depending on both the
     * sample depth and the 'assume' setting.  Digitization is normally by
     * rounding and 'do_round' should be 1, if it is 0 the digitized value will
@@ -3567,7 +3567,7 @@ static double calcerr(const png_modifier *pm, int in_depth, int out_depth)
     */
    if ((pm->calculations_use_input_precision ? in_depth : out_depth) == 16)
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/libtests/pngvalid.c,ODbL-1.0,0.040834843389910315,ScoreOutOfRange,10275,10297,325624,326530,7.320300068395422e-05,"                  sample(std, in_ct, in_bd, x, samples_per_pixel, 0, 0);
+/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c,ODbL-1.0,0.040834843389910315,ScoreOutOfRange,10275,10297,325624,326530,7.320300068395422e-05,"                  sample(std, in_ct, in_bd, x, samples_per_pixel, 0, 0);
 
                unsigned int output_alpha = 65536 /* as a flag value */;
 
@@ -3590,7 +3590,7 @@ static double calcerr(const png_modifier *pm, int in_depth, int out_depth)
                   /* This is a copy of the calculation of 'i' above in order to
                    * have the alpha value to use in the background calculation.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz/Dockerfile,Apache-2.0,0.9087615769199247,4,0,13,0,576,0.2590032527881041,"# Copyright 2016 Google Inc.
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/Dockerfile,Apache-2.0,0.9087615769199247,4,0,13,0,576,0.2590032527881041,"# Copyright 2016 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the ""License"");
 # you may not use this file except in compliance with the License.
@@ -3604,7 +3604,7 @@ static double calcerr(const png_modifier *pm, int in_depth, int out_depth)
 # See the License for the specific language governing permissions and
 # limitations under the License.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz/build.sh,Apache-2.0,0.8703411229150549,4,2,15,55,631,0.2590032527881041,"# Copyright 2016 Google Inc.
+/libpng-1.6.34.tar.gz/contrib/oss-fuzz/build.sh,Apache-2.0,0.8703411229150549,4,2,15,55,631,0.2590032527881041,"# Copyright 2016 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the ""License"");
 # you may not use this file except in compliance with the License.
@@ -3618,7 +3618,7 @@ static double calcerr(const png_modifier *pm, int in_depth, int out_depth)
 # See the License for the specific language governing permissions and
 # limitations under the License.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/README,NTP,0.19800899028912478,3,3,16,54,442,0.01953208369210842,"
+/libpng-1.6.34.tar.gz/contrib/pngminus/README,NTP,0.19800899028912478,3,3,16,54,442,0.01953208369210842,"
 
 License
 -------
@@ -3632,7 +3632,7 @@ express or implied warranty.
 
 
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/png2pnm.c,NTP,0.2917450642860479,3,8,16,390,853,0.018790363583258512," *          1.3 - 2017.08.28 - Add PNGMINUS_UNUSED (Christian Hesse)
+/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.c,NTP,0.2917450642860479,3,8,16,390,853,0.018790363583258512," *          1.3 - 2017.08.28 - Add PNGMINUS_UNUSED (Christian Hesse)
  *
  *  Permission to use, copy, modify, and distribute this software and
  *  its documentation for any purpose and without fee is hereby granted,
@@ -3641,9 +3641,9 @@ express or implied warranty.
  *  supporting documentation. This software is provided ""as is"" without
  *  express or implied warranty.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/png2pnm.c,OSL-1.0,0.04512820512820513,ScoreOutOfRange,4,5,137,183,0.00977050670302204," *  version 1.0 - 1999.10.15 - First version.
+/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.c,OSL-1.0,0.04512820512820513,ScoreOutOfRange,4,5,137,183,0.00977050670302204," *  version 1.0 - 1999.10.15 - First version.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/pngminus/pnm2png.c,NTP,0.28284534534534533,3,8,17,387,905,0.01949531606042704," *                             (Glenn Randers-Pehrson)
+/libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.c,NTP,0.28284534534534533,3,8,17,387,905,0.01949531606042704," *                             (Glenn Randers-Pehrson)
  *          1.4 - 2017.08.28 - Add PNGMINUS_UNUSED (Christian Hesse)
  *
  *  Permission to use, copy, modify, and distribute this software and
@@ -3653,7 +3653,7 @@ express or implied warranty.
  *  supporting documentation. This software is provided ""as is"" without
  *  express or implied warranty.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite/README,NTP,0.08072317360848504,2,3,11,19,402,0.004596702266334302,"Copyright (c) Willem van Schaik, 1999, 2011, 2012
+/libpng-1.6.34.tar.gz/contrib/pngsuite/README,NTP,0.08072317360848504,2,3,11,19,402,0.004596702266334302,"Copyright (c) Willem van Schaik, 1999, 2011, 2012
 Two images (ftbbn0g01.png and ftbbn0g02.png) are by Glenn Randers-Pehrson, 2012
 
 Permission to use, copy, modify, and distribute these images for any
@@ -3662,7 +3662,7 @@ purpose and without fee is hereby granted.
 The 15 ""bas*.png"" images are part of the much larger PngSuite test-set of
 images, available for developers of PNG supporting software. The
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngcp.c,LGPLLR,0.04077666310368306,ScoreOutOfRange,633,653,20503,21254,0.0002643832118190687,"         longjmp(dp->error_return, level);
+/libpng-1.6.34.tar.gz/contrib/tools/pngcp.c,LGPLLR,0.04077666310368306,ScoreOutOfRange,633,653,20503,21254,0.0002643832118190687,"         longjmp(dp->error_return, level);
 
       else
          exit(99);
@@ -3683,7 +3683,7 @@ text_stash(struct display *dp)
     *
     * The only fix for this given that we use the png_info more than once is to
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,EUPL-1.1,0.04117715024781648,ScoreOutOfRange,1952,2005,59254,61104,0.00037706316315748743,"
+/libpng-1.6.34.tar.gz/contrib/tools/pngfix.c,EUPL-1.1,0.04117715024781648,ScoreOutOfRange,1952,2005,59254,61104,0.00037706316315748743,"
    /* The type of the next chunk was recorded in the file control structure by
     * the caller, if this is png_IDAT return 'skip' to the caller.
     */
@@ -3737,7 +3737,7 @@ text_stash(struct display *dp)
 
    else /* Failure to decompress the IDAT stream; give up. */
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,LGPL-3.0+,0.040939537626171044,ScoreOutOfRange,3092,3114,96225,96919,0.0003585649329680518,"    * of the IEND chunk will have been read.
+/libpng-1.6.34.tar.gz/contrib/tools/pngfix.c,LGPL-3.0+,0.040939537626171044,ScoreOutOfRange,3092,3114,96225,96919,0.0003585649329680518,"    * of the IEND chunk will have been read.
     */
 {
    png_uint_32 length = file->length;
@@ -3760,7 +3760,7 @@ text_stash(struct display *dp)
     * of the chunk data (without processing it in any way) to check that it is
     * all there and calculate the CRC.
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,EUPL-1.1,0.041342627088496224,ScoreOutOfRange,3806,3834,122305,124079,0.00029309218245428465,"""     chunk ERR status code read-errno write-errno message file"",
+/libpng-1.6.34.tar.gz/contrib/tools/pngfix.c,EUPL-1.1,0.041342627088496224,ScoreOutOfRange,3806,3834,122305,124079,0.00029309218245428465,"""     chunk ERR status code read-errno write-errno message file"",
 ""     chunk SKP comp-level file-bits zlib-rc compressed message file"",
 ""     chunk ??? comp-level file-bits ok-bits compressed uncompress file"",
 0,
@@ -3789,7 +3789,7 @@ text_stash(struct display *dp)
 ""   ok-bits:    The smallest zlib window bits value that works."",
 ""$6 write-errno:A system errno value from a write translated by strerror(3)."",
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,CECILL-2.0,0.0462279390820433,ScoreOutOfRange,1907,1934,57424,58763,0.0002738572279900613,"   /* Process the IDAT stream, this is the more complex than the preceding
+/libpng-1.6.34.tar.gz/contrib/tools/pngfix.c,CECILL-2.0,0.0462279390820433,ScoreOutOfRange,1907,1934,57424,58763,0.0002738572279900613,"   /* Process the IDAT stream, this is the more complex than the preceding
     * cases because the compressed data is spread across multiple IDAT chunks
     * (typically).  Rechunking of the data is not handled here; all this
     * function does is establish whether the zlib header needs to be modified.
@@ -3817,7 +3817,7 @@ text_stash(struct display *dp)
     * At the end of the list of chunks, where the type of the next chunk is not
     * png_IDAT, process the whole stream using the list data to check validity
 "
-/libpng-1.6.34.tar.gz_extracted/contrib/tools/pngfix.c,PDDL-1.0,0.04053261525401863,ScoreOutOfRange,857,879,27378,28529,0.00025217816332177953,"
+/libpng-1.6.34.tar.gz/contrib/tools/pngfix.c,PDDL-1.0,0.04053261525401863,ScoreOutOfRange,857,879,27378,28529,0.00025217816332177953,"
    /* PROTECTED PER-FILE VARIABLES: USED BY THE READ CODE */
    FILE *         file;          /* Original PNG file */
    FILE *         out;           /* If a new one is being written */
@@ -3840,7 +3840,7 @@ text_stash(struct display *dp)
    /* These counts are maintained by the read and write routines below and are
     * reset by the chunk handling code.  They record the total number of bytes
 "
-/libpng-1.6.34.tar.gz_extracted/projects/owatcom/pngconfig.mak,SPL-1.0,0.04189174954301825,ScoreOutOfRange,103,124,3692,4679,0.0025968058345655592,"$# The libpng project is incompletely configured.  To complete configuration
+/libpng-1.6.34.tar.gz/projects/owatcom/pngconfig.mak,SPL-1.0,0.04189174954301825,ScoreOutOfRange,103,124,3692,4679,0.0025968058345655592,"$# The libpng project is incompletely configured.  To complete configuration
 $# please complete the following steps:
 $#
 $#   1) Edit the 'before' rule of libpng.wpj (from the IDE) to define the
@@ -3862,7 +3862,7 @@ $# must be identified in the 'before' rule of the project.
 $#
 $# If you don't already have 'awk', or the version of awk you have seems not
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/libtool.m4,FSFULLR,0.8523809523809524,4,2,9,71,371,0.3724386877587854,"#   Copyright (C) 1996-2001, 2003-2015 Free Software Foundation, Inc.
+/libpng-1.6.34.tar.gz/scripts/libtool.m4,FSFULLR,0.8523809523809524,4,2,9,71,371,0.3724386877587854,"#   Copyright (C) 1996-2001, 2003-2015 Free Software Foundation, Inc.
 #   Written by Gordon Matzigkeit, 1996
 #
 # This file is free software; the Free Software Foundation gives
@@ -3870,7 +3870,7 @@ $# If you don't already have 'awk', or the version of awk you have seems not
 # modifications, as long as this notice is preserved.
 
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/libtool.m4,GPL-3.0+,0.07060665824079211,1,10,31,401,1509,0.19067310841794954,"# Copyright (C) 2014 Free Software Foundation, Inc.
+/libpng-1.6.34.tar.gz/scripts/libtool.m4,GPL-3.0+,0.07060665824079211,1,10,31,401,1509,0.19067310841794954,"# Copyright (C) 2014 Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.  There is NO
 # warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
@@ -3892,7 +3892,7 @@ $# If you don't already have 'awk', or the version of awk you have seems not
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/ltoptions.m4,FSFULLR,0.4693232556512002,3,2,10,78,391,0.23147456360796034,"#   Copyright (C) 2004-2005, 2007-2009, 2011-2015 Free Software
+/libpng-1.6.34.tar.gz/scripts/ltoptions.m4,FSFULLR,0.4693232556512002,3,2,10,78,391,0.23147456360796034,"#   Copyright (C) 2004-2005, 2007-2009, 2011-2015 Free Software
 #   Foundation, Inc.
 #   Written by Gary V. Vaughan, 2004
 #
@@ -3901,7 +3901,7 @@ $# If you don't already have 'awk', or the version of awk you have seems not
 # modifications, as long as this notice is preserved.
 
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/ltsugar.m4,FSFULLR,0.5922161279379403,4,2,10,80,387,0.23147456360796034,"# Copyright (C) 2004-2005, 2007-2008, 2011-2015 Free Software
+/libpng-1.6.34.tar.gz/scripts/ltsugar.m4,FSFULLR,0.5922161279379403,4,2,10,80,387,0.23147456360796034,"# Copyright (C) 2004-2005, 2007-2008, 2011-2015 Free Software
 # Foundation, Inc.
 # Written by Gary V. Vaughan, 2004
 #
@@ -3910,7 +3910,7 @@ $# If you don't already have 'awk', or the version of awk you have seems not
 # modifications, as long as this notice is preserved.
 
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/ltversion.m4,FSFULLR,0.7674074074074074,4,2,9,55,352,0.23637120266333747,"#   Copyright (C) 2004, 2011-2015 Free Software Foundation, Inc.
+/libpng-1.6.34.tar.gz/scripts/ltversion.m4,FSFULLR,0.7674074074074074,4,2,9,55,352,0.23637120266333747,"#   Copyright (C) 2004, 2011-2015 Free Software Foundation, Inc.
 #   Written by Scott James Remnant, 2004
 #
 # This file is free software; the Free Software Foundation gives
@@ -3918,12 +3918,12 @@ $# If you don't already have 'awk', or the version of awk you have seems not
 # modifications, as long as this notice is preserved.
 
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/ltversion.m4,FSFAP,0.04441256177267656,ScoreOutOfRange,10,14,372,436,0.0018654750763853168,"
+/libpng-1.6.34.tar.gz/scripts/ltversion.m4,FSFAP,0.04441256177267656,ScoreOutOfRange,10,14,372,436,0.0018654750763853168,"
 # serial 4179 ltversion.m4
 # This file is part of GNU Libtool
 
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/lt~obsolete.m4,FSFULLR,0.5660286535702925,4,2,10,81,400,0.23147456360796034,"#   Copyright (C) 2004-2005, 2007, 2009, 2011-2015 Free Software
+/libpng-1.6.34.tar.gz/scripts/lt~obsolete.m4,FSFULLR,0.5660286535702925,4,2,10,81,400,0.23147456360796034,"#   Copyright (C) 2004-2005, 2007, 2009, 2011-2015 Free Software
 #   Foundation, Inc.
 #   Written by Scott James Remnant, 2004.
 #
@@ -3932,7 +3932,7 @@ $# If you don't already have 'awk', or the version of awk you have seems not
 # modifications, as long as this notice is preserved.
 
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/pnglibconf.dfa,Artistic-2.0,0.040425529955951216,ScoreOutOfRange,456,478,18678,19796,0.0004436240418022532,"
+/libpng-1.6.34.tar.gz/scripts/pnglibconf.dfa,Artistic-2.0,0.040425529955951216,ScoreOutOfRange,456,478,18678,19796,0.0004436240418022532,"
 # Read gamma handling.  Gamma processing is a core part of libpng and many of
 # the capabilities are dependent on libpng performing gamma correction.
 #
@@ -3955,7 +3955,7 @@ option READ_BACKGROUND requires READ_TRANSFORMS, READ_STRIP_ALPHA, READ_GAMMA
 option READ_BGR requires READ_TRANSFORMS
 option READ_EXPAND_16 requires READ_TRANSFORMS, READ_16BIT, READ_EXPAND
 "
-/libpng-1.6.34.tar.gz_extracted/scripts/pnglibconf.dfa,PDDL-1.0,0.04594146529081263,ScoreOutOfRange,124,161,4867,6456,0.00031652426229852144,"# to cause pngusr.h to be read while constructing pnglibconf.h
+/libpng-1.6.34.tar.gz/scripts/pnglibconf.dfa,PDDL-1.0,0.04594146529081263,ScoreOutOfRange,124,161,4867,6456,0.00031652426229852144,"# to cause pngusr.h to be read while constructing pnglibconf.h
 #
 # If you create a private DLL you need to define the following
 # macros in the file 'pngusr.h' and set -DPNG_USER_CONFIG for

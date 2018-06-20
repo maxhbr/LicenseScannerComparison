@@ -2,7 +2,7 @@
     {
         "Bytes": 12,
         "BytesHuman": "12B",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "AUTHORS",
         "LicenseGuesses": [
             {
@@ -24,7 +24,7 @@
     {
         "Bytes": 1650,
         "BytesHuman": "1.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "COPYING",
         "LicenseGuesses": [
             {
@@ -46,7 +46,7 @@
     {
         "Bytes": 49364,
         "BytesHuman": "48.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "ChangeLog",
         "LicenseGuesses": [
             {
@@ -68,7 +68,7 @@
     {
         "Bytes": 15578,
         "BytesHuman": "15.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "INSTALL",
         "LicenseGuesses": [
             {
@@ -90,7 +90,7 @@
     {
         "Bytes": 1492,
         "BytesHuman": "1.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "MAINT",
         "LicenseGuesses": [
             {
@@ -112,7 +112,7 @@
     {
         "Bytes": 82,
         "BytesHuman": "82B",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "Makefile.am",
         "LicenseGuesses": [
             {
@@ -134,7 +134,7 @@
     {
         "Bytes": 25441,
         "BytesHuman": "24.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -156,7 +156,7 @@
     {
         "Bytes": 14,
         "BytesHuman": "14B",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "NEWS",
         "LicenseGuesses": [
             {
@@ -178,7 +178,7 @@
     {
         "Bytes": 6820,
         "BytesHuman": "6.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "README",
         "LicenseGuesses": [
             {
@@ -200,7 +200,7 @@
     {
         "Bytes": 1308,
         "BytesHuman": "1.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "TODO",
         "LicenseGuesses": [
             {
@@ -222,7 +222,7 @@
     {
         "Bytes": 2019,
         "BytesHuman": "2K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "acinclude.m4",
         "LicenseGuesses": [
             {
@@ -244,7 +244,7 @@
     {
         "Bytes": 45668,
         "BytesHuman": "44.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "aclocal.m4",
         "LicenseGuesses": [
             {
@@ -266,7 +266,7 @@
     {
         "Bytes": 7333,
         "BytesHuman": "7.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "compile",
         "LicenseGuesses": [
             {
@@ -288,7 +288,7 @@
     {
         "Bytes": 43423,
         "BytesHuman": "42.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "config.guess",
         "LicenseGuesses": [
             {
@@ -310,7 +310,7 @@
     {
         "Bytes": 11471,
         "BytesHuman": "11.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "config.h.in",
         "LicenseGuesses": [
             {
@@ -332,7 +332,7 @@
     {
         "Bytes": 36087,
         "BytesHuman": "35.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "config.sub",
         "LicenseGuesses": [
             {
@@ -354,7 +354,7 @@
     {
         "Bytes": 490602,
         "BytesHuman": "479.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "configure",
         "LicenseGuesses": [
             {
@@ -376,7 +376,7 @@
     {
         "Bytes": 5031,
         "BytesHuman": "4.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "configure.ac",
         "LicenseGuesses": [
             {
@@ -398,7 +398,7 @@
     {
         "Bytes": 23566,
         "BytesHuman": "23K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "depcomp",
         "LicenseGuesses": [
             {
@@ -420,7 +420,7 @@
     {
         "Bytes": 826,
         "BytesHuman": "826B",
-        "Directory": "/file_5.30.tar.xz_extracted/doc",
+        "Directory": "/file_5.30.tar.xz/doc",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -437,7 +437,7 @@
     {
         "Bytes": 21163,
         "BytesHuman": "20.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/doc",
+        "Directory": "/file_5.30.tar.xz/doc",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -467,7 +467,7 @@
     {
         "Bytes": 20083,
         "BytesHuman": "19.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/doc",
+        "Directory": "/file_5.30.tar.xz/doc",
         "Filename": "file.man",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -484,7 +484,7 @@
     {
         "Bytes": 10737,
         "BytesHuman": "10.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/doc",
+        "Directory": "/file_5.30.tar.xz/doc",
         "Filename": "libmagic.man",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -501,7 +501,7 @@
     {
         "Bytes": 22240,
         "BytesHuman": "21.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/doc",
+        "Directory": "/file_5.30.tar.xz/doc",
         "Filename": "magic.man",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -518,7 +518,7 @@
     {
         "Bytes": 6760,
         "BytesHuman": "6.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "install-sh",
         "LicenseGuesses": [
             {
@@ -540,7 +540,7 @@
     {
         "Bytes": 283850,
         "BytesHuman": "277.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "ltmain.sh",
         "LicenseGuesses": [
             {
@@ -562,7 +562,7 @@
     {
         "Bytes": 286350,
         "BytesHuman": "279.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/m4",
+        "Directory": "/file_5.30.tar.xz/m4",
         "Filename": "libtool.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -579,7 +579,7 @@
     {
         "Bytes": 12347,
         "BytesHuman": "12.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/m4",
+        "Directory": "/file_5.30.tar.xz/m4",
         "Filename": "ltoptions.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -596,7 +596,7 @@
     {
         "Bytes": 4372,
         "BytesHuman": "4.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/m4",
+        "Directory": "/file_5.30.tar.xz/m4",
         "Filename": "ltsugar.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -613,7 +613,7 @@
     {
         "Bytes": 690,
         "BytesHuman": "690B",
-        "Directory": "/file_5.30.tar.xz_extracted/m4",
+        "Directory": "/file_5.30.tar.xz/m4",
         "Filename": "ltversion.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -630,7 +630,7 @@
     {
         "Bytes": 6126,
         "BytesHuman": "6K",
-        "Directory": "/file_5.30.tar.xz_extracted/m4",
+        "Directory": "/file_5.30.tar.xz/m4",
         "Filename": "lt~obsolete.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -647,7 +647,7 @@
     {
         "Bytes": 245,
         "BytesHuman": "245B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic",
+        "Directory": "/file_5.30.tar.xz/magic",
         "Filename": "Header",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -664,7 +664,7 @@
     {
         "Bytes": 321,
         "BytesHuman": "321B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic",
+        "Directory": "/file_5.30.tar.xz/magic",
         "Filename": "Localstuff",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -681,7 +681,7 @@
     {
         "Bytes": 2197,
         "BytesHuman": "2.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "acorn",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -698,7 +698,7 @@
     {
         "Bytes": 425,
         "BytesHuman": "425B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "adi",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -715,7 +715,7 @@
     {
         "Bytes": 4466,
         "BytesHuman": "4.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "adventure",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -732,7 +732,7 @@
     {
         "Bytes": 684,
         "BytesHuman": "684B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "algol68",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -749,7 +749,7 @@
     {
         "Bytes": 402,
         "BytesHuman": "402B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "allegro",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -766,7 +766,7 @@
     {
         "Bytes": 760,
         "BytesHuman": "760B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "alliant",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -783,7 +783,7 @@
     {
         "Bytes": 386,
         "BytesHuman": "386B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "amanda",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -800,7 +800,7 @@
     {
         "Bytes": 2370,
         "BytesHuman": "2.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "amigaos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -817,7 +817,7 @@
     {
         "Bytes": 4973,
         "BytesHuman": "4.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "android",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -834,7 +834,7 @@
     {
         "Bytes": 45546,
         "BytesHuman": "44.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "animation",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -851,7 +851,7 @@
     {
         "Bytes": 1730,
         "BytesHuman": "1.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "aout",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -868,7 +868,7 @@
     {
         "Bytes": 276,
         "BytesHuman": "276B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "apl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -885,7 +885,7 @@
     {
         "Bytes": 16272,
         "BytesHuman": "15.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "apple",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -902,7 +902,7 @@
     {
         "Bytes": 273,
         "BytesHuman": "273B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "application",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -919,7 +919,7 @@
     {
         "Bytes": 428,
         "BytesHuman": "428B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "applix",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -936,7 +936,7 @@
     {
         "Bytes": 1610,
         "BytesHuman": "1.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "apt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -953,7 +953,7 @@
     {
         "Bytes": 38325,
         "BytesHuman": "37.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "archive",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -970,7 +970,7 @@
     {
         "Bytes": 700,
         "BytesHuman": "700B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "assembler",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -987,7 +987,7 @@
     {
         "Bytes": 584,
         "BytesHuman": "584B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "asterix",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1004,7 +1004,7 @@
     {
         "Bytes": 1259,
         "BytesHuman": "1.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "att3b",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1021,7 +1021,7 @@
     {
         "Bytes": 24864,
         "BytesHuman": "24.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "audio",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1038,7 +1038,7 @@
     {
         "Bytes": 570,
         "BytesHuman": "570B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "basis",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1055,7 +1055,7 @@
     {
         "Bytes": 2397,
         "BytesHuman": "2.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ber",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1072,7 +1072,7 @@
     {
         "Bytes": 414,
         "BytesHuman": "414B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "bflt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1089,7 +1089,7 @@
     {
         "Bytes": 7680,
         "BytesHuman": "7.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "bioinformatics",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1106,7 +1106,7 @@
     {
         "Bytes": 284,
         "BytesHuman": "284B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "blackberry",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1123,7 +1123,7 @@
     {
         "Bytes": 745,
         "BytesHuman": "745B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "blcr",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1140,7 +1140,7 @@
     {
         "Bytes": 1196,
         "BytesHuman": "1.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "blender",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1157,7 +1157,7 @@
     {
         "Bytes": 884,
         "BytesHuman": "884B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "blit",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1174,7 +1174,7 @@
     {
         "Bytes": 349,
         "BytesHuman": "349B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "bout",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1191,7 +1191,7 @@
     {
         "Bytes": 1159,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "bsdi",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1208,7 +1208,7 @@
     {
         "Bytes": 262,
         "BytesHuman": "262B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "bsi",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1225,7 +1225,7 @@
     {
         "Bytes": 429,
         "BytesHuman": "429B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "btsnoop",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1242,7 +1242,7 @@
     {
         "Bytes": 1894,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "c-lang",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1259,7 +1259,7 @@
     {
         "Bytes": 1472,
         "BytesHuman": "1.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "c64",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1276,7 +1276,7 @@
     {
         "Bytes": 6083,
         "BytesHuman": "5.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cad",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1293,7 +1293,7 @@
     {
         "Bytes": 2205,
         "BytesHuman": "2.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cafebabe",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1310,7 +1310,7 @@
     {
         "Bytes": 610,
         "BytesHuman": "610B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cbor",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1327,7 +1327,7 @@
     {
         "Bytes": 386,
         "BytesHuman": "386B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cddb",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1344,7 +1344,7 @@
     {
         "Bytes": 577,
         "BytesHuman": "577B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "chord",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1361,7 +1361,7 @@
     {
         "Bytes": 495,
         "BytesHuman": "495B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cisco",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1378,7 +1378,7 @@
     {
         "Bytes": 227,
         "BytesHuman": "227B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "citrus",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1395,7 +1395,7 @@
     {
         "Bytes": 769,
         "BytesHuman": "769B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "clarion",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1412,7 +1412,7 @@
     {
         "Bytes": 1724,
         "BytesHuman": "1.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "claris",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1429,7 +1429,7 @@
     {
         "Bytes": 2141,
         "BytesHuman": "2.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "clipper",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1446,7 +1446,7 @@
     {
         "Bytes": 2753,
         "BytesHuman": "2.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "coff",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1463,7 +1463,7 @@
     {
         "Bytes": 4514,
         "BytesHuman": "4.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "commands",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1480,7 +1480,7 @@
     {
         "Bytes": 853,
         "BytesHuman": "853B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "communications",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1497,7 +1497,7 @@
     {
         "Bytes": 10432,
         "BytesHuman": "10.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "compress",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1514,7 +1514,7 @@
     {
         "Bytes": 28610,
         "BytesHuman": "27.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "console",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1531,7 +1531,7 @@
     {
         "Bytes": 2641,
         "BytesHuman": "2.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "convex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1548,7 +1548,7 @@
     {
         "Bytes": 3051,
         "BytesHuman": "3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "coverage",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1565,7 +1565,7 @@
     {
         "Bytes": 531,
         "BytesHuman": "531B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cracklib",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1582,7 +1582,7 @@
     {
         "Bytes": 297,
         "BytesHuman": "297B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ctags",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1599,7 +1599,7 @@
     {
         "Bytes": 822,
         "BytesHuman": "822B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ctf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1616,7 +1616,7 @@
     {
         "Bytes": 403,
         "BytesHuman": "403B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cubemap",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1633,7 +1633,7 @@
     {
         "Bytes": 1796,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "cups",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1650,7 +1650,7 @@
     {
         "Bytes": 379,
         "BytesHuman": "379B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "dact",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1667,7 +1667,7 @@
     {
         "Bytes": 21653,
         "BytesHuman": "21.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "database",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1684,7 +1684,7 @@
     {
         "Bytes": 2875,
         "BytesHuman": "2.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "der",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1701,7 +1701,7 @@
     {
         "Bytes": 509,
         "BytesHuman": "509B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "diamond",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1718,7 +1718,7 @@
     {
         "Bytes": 1057,
         "BytesHuman": "1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "diff",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1735,7 +1735,7 @@
     {
         "Bytes": 1842,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "digital",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1752,7 +1752,7 @@
     {
         "Bytes": 2379,
         "BytesHuman": "2.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "dolby",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1769,7 +1769,7 @@
     {
         "Bytes": 2830,
         "BytesHuman": "2.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "dump",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1786,7 +1786,7 @@
     {
         "Bytes": 2548,
         "BytesHuman": "2.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "dyadic",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1803,7 +1803,7 @@
     {
         "Bytes": 349,
         "BytesHuman": "349B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ebml",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1820,7 +1820,7 @@
     {
         "Bytes": 1034,
         "BytesHuman": "1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "editors",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1837,7 +1837,7 @@
     {
         "Bytes": 547,
         "BytesHuman": "547B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "efi",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1854,7 +1854,7 @@
     {
         "Bytes": 10880,
         "BytesHuman": "10.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "elf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1871,7 +1871,7 @@
     {
         "Bytes": 725,
         "BytesHuman": "725B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "encore",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1888,7 +1888,7 @@
     {
         "Bytes": 2325,
         "BytesHuman": "2.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "epoc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1905,7 +1905,7 @@
     {
         "Bytes": 703,
         "BytesHuman": "703B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "erlang",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1922,7 +1922,7 @@
     {
         "Bytes": 825,
         "BytesHuman": "825B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "esri",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1939,7 +1939,7 @@
     {
         "Bytes": 516,
         "BytesHuman": "516B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "fcs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1956,7 +1956,7 @@
     {
         "Bytes": 92860,
         "BytesHuman": "90.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "filesystems",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1973,7 +1973,7 @@
     {
         "Bytes": 487,
         "BytesHuman": "487B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "finger",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1990,7 +1990,7 @@
     {
         "Bytes": 2030,
         "BytesHuman": "2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "flash",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2007,7 +2007,7 @@
     {
         "Bytes": 1107,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "flif",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2024,7 +2024,7 @@
     {
         "Bytes": 6639,
         "BytesHuman": "6.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "fonts",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2041,7 +2041,7 @@
     {
         "Bytes": 349,
         "BytesHuman": "349B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "fortran",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2058,7 +2058,7 @@
     {
         "Bytes": 1626,
         "BytesHuman": "1.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "frame",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2075,7 +2075,7 @@
     {
         "Bytes": 4904,
         "BytesHuman": "4.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "freebsd",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2092,7 +2092,7 @@
     {
         "Bytes": 2058,
         "BytesHuman": "2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "fsav",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2109,7 +2109,7 @@
     {
         "Bytes": 430,
         "BytesHuman": "430B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "fusecompress",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2126,7 +2126,7 @@
     {
         "Bytes": 11287,
         "BytesHuman": "11K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "games",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2143,7 +2143,7 @@
     {
         "Bytes": 505,
         "BytesHuman": "505B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gcc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2160,7 +2160,7 @@
     {
         "Bytes": 3692,
         "BytesHuman": "3.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "geo",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2177,7 +2177,7 @@
     {
         "Bytes": 584,
         "BytesHuman": "584B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "geos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2194,7 +2194,7 @@
     {
         "Bytes": 1812,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gimp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2211,7 +2211,7 @@
     {
         "Bytes": 2497,
         "BytesHuman": "2.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gnome",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2228,7 +2228,7 @@
     {
         "Bytes": 3014,
         "BytesHuman": "2.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gnu",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2245,7 +2245,7 @@
     {
         "Bytes": 411,
         "BytesHuman": "411B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gnumeric",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2262,7 +2262,7 @@
     {
         "Bytes": 9990,
         "BytesHuman": "9.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gpt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2279,7 +2279,7 @@
     {
         "Bytes": 559,
         "BytesHuman": "559B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gpu",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2296,7 +2296,7 @@
     {
         "Bytes": 892,
         "BytesHuman": "892B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "grace",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2313,7 +2313,7 @@
     {
         "Bytes": 579,
         "BytesHuman": "579B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "graphviz",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2330,7 +2330,7 @@
     {
         "Bytes": 1581,
         "BytesHuman": "1.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "gringotts",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2347,7 +2347,7 @@
     {
         "Bytes": 469,
         "BytesHuman": "469B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "guile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2364,7 +2364,7 @@
     {
         "Bytes": 1098,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "hitachi-sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2381,7 +2381,7 @@
     {
         "Bytes": 14333,
         "BytesHuman": "14K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "hp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2398,7 +2398,7 @@
     {
         "Bytes": 1004,
         "BytesHuman": "1004B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "human68k",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2415,7 +2415,7 @@
     {
         "Bytes": 1628,
         "BytesHuman": "1.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ibm370",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2432,7 +2432,7 @@
     {
         "Bytes": 1148,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ibm6000",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2449,7 +2449,7 @@
     {
         "Bytes": 7879,
         "BytesHuman": "7.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "icc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2466,7 +2466,7 @@
     {
         "Bytes": 2734,
         "BytesHuman": "2.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "iff",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2483,7 +2483,7 @@
     {
         "Bytes": 46002,
         "BytesHuman": "44.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "images",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2500,7 +2500,7 @@
     {
         "Bytes": 333,
         "BytesHuman": "333B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "inform",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2517,7 +2517,7 @@
     {
         "Bytes": 2733,
         "BytesHuman": "2.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "intel",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2534,7 +2534,7 @@
     {
         "Bytes": 333,
         "BytesHuman": "333B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "interleaf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2551,7 +2551,7 @@
     {
         "Bytes": 345,
         "BytesHuman": "345B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "island",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2568,7 +2568,7 @@
     {
         "Bytes": 2866,
         "BytesHuman": "2.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ispell",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2585,7 +2585,7 @@
     {
         "Bytes": 514,
         "BytesHuman": "514B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "isz",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2602,7 +2602,7 @@
     {
         "Bytes": 912,
         "BytesHuman": "912B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "java",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2619,7 +2619,7 @@
     {
         "Bytes": 748,
         "BytesHuman": "748B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "javascript",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2636,7 +2636,7 @@
     {
         "Bytes": 3501,
         "BytesHuman": "3.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "jpeg",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2653,7 +2653,7 @@
     {
         "Bytes": 291,
         "BytesHuman": "291B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "karma",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2670,7 +2670,7 @@
     {
         "Bytes": 390,
         "BytesHuman": "390B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "kde",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2687,7 +2687,7 @@
     {
         "Bytes": 689,
         "BytesHuman": "689B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "keepass",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2704,7 +2704,7 @@
     {
         "Bytes": 1461,
         "BytesHuman": "1.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "kerberos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2721,7 +2721,7 @@
     {
         "Bytes": 1465,
         "BytesHuman": "1.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "kml",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2738,7 +2738,7 @@
     {
         "Bytes": 269,
         "BytesHuman": "269B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "lecter",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2755,7 +2755,7 @@
     {
         "Bytes": 528,
         "BytesHuman": "528B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "lex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2772,7 +2772,7 @@
     {
         "Bytes": 240,
         "BytesHuman": "240B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "lif",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2789,7 +2789,7 @@
     {
         "Bytes": 17338,
         "BytesHuman": "16.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "linux",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2806,7 +2806,7 @@
     {
         "Bytes": 2850,
         "BytesHuman": "2.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "lisp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2823,7 +2823,7 @@
     {
         "Bytes": 722,
         "BytesHuman": "722B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "llvm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2840,7 +2840,7 @@
     {
         "Bytes": 753,
         "BytesHuman": "753B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "lua",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2857,7 +2857,7 @@
     {
         "Bytes": 419,
         "BytesHuman": "419B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "luks",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2874,7 +2874,7 @@
     {
         "Bytes": 233,
         "BytesHuman": "233B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2891,7 +2891,7 @@
     {
         "Bytes": 8682,
         "BytesHuman": "8.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mach",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2908,7 +2908,7 @@
     {
         "Bytes": 13615,
         "BytesHuman": "13.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "macintosh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2925,7 +2925,7 @@
     {
         "Bytes": 206,
         "BytesHuman": "206B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "macos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2942,7 +2942,7 @@
     {
         "Bytes": 426,
         "BytesHuman": "426B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "magic",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2959,7 +2959,7 @@
     {
         "Bytes": 2376,
         "BytesHuman": "2.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mail.news",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2976,7 +2976,7 @@
     {
         "Bytes": 1159,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "make",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2993,7 +2993,7 @@
     {
         "Bytes": 1131,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "map",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3010,7 +3010,7 @@
     {
         "Bytes": 1902,
         "BytesHuman": "1.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "maple",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3027,7 +3027,7 @@
     {
         "Bytes": 939,
         "BytesHuman": "939B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "marc21",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3044,7 +3044,7 @@
     {
         "Bytes": 300,
         "BytesHuman": "300B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mathcad",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3061,7 +3061,7 @@
     {
         "Bytes": 2752,
         "BytesHuman": "2.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mathematica",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3078,7 +3078,7 @@
     {
         "Bytes": 421,
         "BytesHuman": "421B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "matroska",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3095,7 +3095,7 @@
     {
         "Bytes": 1240,
         "BytesHuman": "1.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mcrypt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3112,7 +3112,7 @@
     {
         "Bytes": 423,
         "BytesHuman": "423B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mercurial",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3129,7 +3129,7 @@
     {
         "Bytes": 337,
         "BytesHuman": "337B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "metastore",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3146,7 +3146,7 @@
     {
         "Bytes": 1813,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "meteorological",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3163,7 +3163,7 @@
     {
         "Bytes": 741,
         "BytesHuman": "741B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "microfocus",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3180,7 +3180,7 @@
     {
         "Bytes": 278,
         "BytesHuman": "278B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mime",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3197,7 +3197,7 @@
     {
         "Bytes": 3038,
         "BytesHuman": "3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mips",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3214,7 +3214,7 @@
     {
         "Bytes": 258,
         "BytesHuman": "258B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mirage",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3231,7 +3231,7 @@
     {
         "Bytes": 2511,
         "BytesHuman": "2.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "misctools",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3248,7 +3248,7 @@
     {
         "Bytes": 318,
         "BytesHuman": "318B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mkid",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3265,7 +3265,7 @@
     {
         "Bytes": 277,
         "BytesHuman": "277B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mlssa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3282,7 +3282,7 @@
     {
         "Bytes": 220,
         "BytesHuman": "220B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mmdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3299,7 +3299,7 @@
     {
         "Bytes": 3030,
         "BytesHuman": "3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "modem",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3316,7 +3316,7 @@
     {
         "Bytes": 2688,
         "BytesHuman": "2.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "motorola",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3333,7 +3333,7 @@
     {
         "Bytes": 418,
         "BytesHuman": "418B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mozilla",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3350,7 +3350,7 @@
     {
         "Bytes": 43872,
         "BytesHuman": "42.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "msdos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3367,7 +3367,7 @@
     {
         "Bytes": 1798,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "msooxml",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3384,7 +3384,7 @@
     {
         "Bytes": 2173,
         "BytesHuman": "2.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "msvc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3401,7 +3401,7 @@
     {
         "Bytes": 9562,
         "BytesHuman": "9.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "msx",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3418,7 +3418,7 @@
     {
         "Bytes": 793,
         "BytesHuman": "793B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "mup",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3435,7 +3435,7 @@
     {
         "Bytes": 546,
         "BytesHuman": "546B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "music",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3452,7 +3452,7 @@
     {
         "Bytes": 273,
         "BytesHuman": "273B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "nasa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3469,7 +3469,7 @@
     {
         "Bytes": 1072,
         "BytesHuman": "1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "natinst",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3486,7 +3486,7 @@
     {
         "Bytes": 1733,
         "BytesHuman": "1.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ncr",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3503,7 +3503,7 @@
     {
         "Bytes": 372,
         "BytesHuman": "372B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "neko",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3520,7 +3520,7 @@
     {
         "Bytes": 11132,
         "BytesHuman": "10.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "netbsd",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3537,7 +3537,7 @@
     {
         "Bytes": 904,
         "BytesHuman": "904B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "netscape",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3554,7 +3554,7 @@
     {
         "Bytes": 306,
         "BytesHuman": "306B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "netware",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3571,7 +3571,7 @@
     {
         "Bytes": 555,
         "BytesHuman": "555B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "news",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3588,7 +3588,7 @@
     {
         "Bytes": 460,
         "BytesHuman": "460B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "nitpicker",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3605,7 +3605,7 @@
     {
         "Bytes": 471,
         "BytesHuman": "471B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "oasis",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3622,7 +3622,7 @@
     {
         "Bytes": 542,
         "BytesHuman": "542B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ocaml",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3639,7 +3639,7 @@
     {
         "Bytes": 323,
         "BytesHuman": "323B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "octave",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3656,7 +3656,7 @@
     {
         "Bytes": 753,
         "BytesHuman": "753B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ole2compounddocs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3673,7 +3673,7 @@
     {
         "Bytes": 3213,
         "BytesHuman": "3.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "olf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3690,7 +3690,7 @@
     {
         "Bytes": 1877,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "os2",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3707,7 +3707,7 @@
     {
         "Bytes": 1923,
         "BytesHuman": "1.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "os400",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3724,7 +3724,7 @@
     {
         "Bytes": 2616,
         "BytesHuman": "2.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "os9",
         "LicenseGuesses": [
             {
@@ -3760,11 +3760,11 @@
                 "Percentage": 86
             },
             {
-                "LicenseId": "TMate",
+                "LicenseId": "OLDAP-2.7",
                 "Percentage": 84
             },
             {
-                "LicenseId": "OLDAP-2.7",
+                "LicenseId": "TMate",
                 "Percentage": 84
             },
             {
@@ -3776,11 +3776,11 @@
                 "Percentage": 78
             },
             {
-                "LicenseId": "ZPL-1.1",
+                "LicenseId": "bzip2-1.0.6",
                 "Percentage": 76
             },
             {
-                "LicenseId": "bzip2-1.0.6",
+                "LicenseId": "ZPL-1.1",
                 "Percentage": 76
             },
             {
@@ -3804,11 +3804,11 @@
                 "Percentage": 74
             },
             {
-                "LicenseId": "Apache-1.1",
+                "LicenseId": "Zend-2.0",
                 "Percentage": 72
             },
             {
-                "LicenseId": "Zend-2.0",
+                "LicenseId": "Apache-1.1",
                 "Percentage": 72
             },
             {
@@ -3820,11 +3820,11 @@
                 "Percentage": 70
             },
             {
-                "LicenseId": "PHP-3.01",
+                "LicenseId": "xpp",
                 "Percentage": 69
             },
             {
-                "LicenseId": "xpp",
+                "LicenseId": "PHP-3.01",
                 "Percentage": 69
             },
             {
@@ -3840,11 +3840,11 @@
                 "Percentage": 65
             },
             {
-                "LicenseId": "XFree86-1.1",
+                "LicenseId": "AMPAS",
                 "Percentage": 62
             },
             {
-                "LicenseId": "AMPAS",
+                "LicenseId": "XFree86-1.1",
                 "Percentage": 62
             },
             {
@@ -3860,7 +3860,7 @@
                 "Percentage": 60
             },
             {
-                "LicenseId": "Plexus",
+                "LicenseId": "OLDAP-2.2",
                 "Percentage": 57
             },
             {
@@ -3868,7 +3868,7 @@
                 "Percentage": 57
             },
             {
-                "LicenseId": "OLDAP-2.2",
+                "LicenseId": "Plexus",
                 "Percentage": 57
             },
             {
@@ -3880,16 +3880,12 @@
                 "Percentage": 53
             },
             {
-                "LicenseId": "OLDAP-2.5",
-                "Percentage": 52
-            },
-            {
                 "LicenseId": "OLDAP-2.6",
                 "Percentage": 52
             },
             {
-                "LicenseId": "OLDAP-2.3",
-                "Percentage": 51
+                "LicenseId": "OLDAP-2.5",
+                "Percentage": 52
             },
             {
                 "LicenseId": "OLDAP-2.4",
@@ -3897,6 +3893,10 @@
             },
             {
                 "LicenseId": "OLDAP-2.2.2",
+                "Percentage": 51
+            },
+            {
+                "LicenseId": "OLDAP-2.3",
                 "Percentage": 51
             }
         ],
@@ -3914,7 +3914,7 @@
     {
         "Bytes": 254,
         "BytesHuman": "254B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "osf1",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3931,7 +3931,7 @@
     {
         "Bytes": 5277,
         "BytesHuman": "5.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "palm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3948,7 +3948,7 @@
     {
         "Bytes": 382,
         "BytesHuman": "382B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "parix",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3965,7 +3965,7 @@
     {
         "Bytes": 763,
         "BytesHuman": "763B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "parrot",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3982,7 +3982,7 @@
     {
         "Bytes": 372,
         "BytesHuman": "372B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pascal",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3999,7 +3999,7 @@
     {
         "Bytes": 443,
         "BytesHuman": "443B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pbf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4016,7 +4016,7 @@
     {
         "Bytes": 258,
         "BytesHuman": "258B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pbm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4033,7 +4033,7 @@
     {
         "Bytes": 727,
         "BytesHuman": "727B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pc88",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4050,7 +4050,7 @@
     {
         "Bytes": 2790,
         "BytesHuman": "2.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pc98",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4067,7 +4067,7 @@
     {
         "Bytes": 644,
         "BytesHuman": "644B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4084,7 +4084,7 @@
     {
         "Bytes": 1334,
         "BytesHuman": "1.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pdp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4101,7 +4101,7 @@
     {
         "Bytes": 3596,
         "BytesHuman": "3.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "perl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4118,7 +4118,7 @@
     {
         "Bytes": 1411,
         "BytesHuman": "1.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pgf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4135,7 +4135,7 @@
     {
         "Bytes": 12585,
         "BytesHuman": "12.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pgp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4152,7 +4152,7 @@
     {
         "Bytes": 297,
         "BytesHuman": "297B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pkgadd",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4169,7 +4169,7 @@
     {
         "Bytes": 866,
         "BytesHuman": "866B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "plan9",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4186,7 +4186,7 @@
     {
         "Bytes": 550,
         "BytesHuman": "550B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "plus5",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4203,7 +4203,7 @@
     {
         "Bytes": 743,
         "BytesHuman": "743B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "polyml",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4220,7 +4220,7 @@
     {
         "Bytes": 5980,
         "BytesHuman": "5.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "printer",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4237,7 +4237,7 @@
     {
         "Bytes": 390,
         "BytesHuman": "390B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "project",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4254,7 +4254,7 @@
     {
         "Bytes": 484,
         "BytesHuman": "484B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "psdbms",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4271,7 +4271,7 @@
     {
         "Bytes": 558,
         "BytesHuman": "558B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "psl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4288,7 +4288,7 @@
     {
         "Bytes": 370,
         "BytesHuman": "370B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pulsar",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4305,7 +4305,7 @@
     {
         "Bytes": 666,
         "BytesHuman": "666B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pwsafe",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4322,7 +4322,7 @@
     {
         "Bytes": 426,
         "BytesHuman": "426B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "pyramid",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4339,7 +4339,7 @@
     {
         "Bytes": 2483,
         "BytesHuman": "2.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "python",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4356,7 +4356,7 @@
     {
         "Bytes": 744,
         "BytesHuman": "744B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "qt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4373,7 +4373,7 @@
     {
         "Bytes": 1856,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "revision",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4390,7 +4390,7 @@
     {
         "Bytes": 11444,
         "BytesHuman": "11.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "riff",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4407,7 +4407,7 @@
     {
         "Bytes": 1113,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "rpm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4424,7 +4424,7 @@
     {
         "Bytes": 532,
         "BytesHuman": "532B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "rtf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4441,7 +4441,7 @@
     {
         "Bytes": 1107,
         "BytesHuman": "1.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ruby",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4458,7 +4458,7 @@
     {
         "Bytes": 245,
         "BytesHuman": "245B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4475,7 +4475,7 @@
     {
         "Bytes": 836,
         "BytesHuman": "836B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sccs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4492,7 +4492,7 @@
     {
         "Bytes": 3647,
         "BytesHuman": "3.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "scientific",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4509,7 +4509,7 @@
     {
         "Bytes": 366,
         "BytesHuman": "366B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "securitycerts",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4526,7 +4526,7 @@
     {
         "Bytes": 805,
         "BytesHuman": "805B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "selinux",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4543,7 +4543,7 @@
     {
         "Bytes": 1501,
         "BytesHuman": "1.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sendmail",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4560,7 +4560,7 @@
     {
         "Bytes": 1717,
         "BytesHuman": "1.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sequent",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4577,7 +4577,7 @@
     {
         "Bytes": 1274,
         "BytesHuman": "1.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sereal",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4594,7 +4594,7 @@
     {
         "Bytes": 3927,
         "BytesHuman": "3.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sgi",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4611,7 +4611,7 @@
     {
         "Bytes": 4090,
         "BytesHuman": "4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sgml",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4628,7 +4628,7 @@
     {
         "Bytes": 817,
         "BytesHuman": "817B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sharc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4645,7 +4645,7 @@
     {
         "Bytes": 1007,
         "BytesHuman": "1007B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sinclair",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4662,7 +4662,7 @@
     {
         "Bytes": 471,
         "BytesHuman": "471B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sisu",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4679,7 +4679,7 @@
     {
         "Bytes": 259,
         "BytesHuman": "259B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sketch",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4696,7 +4696,7 @@
     {
         "Bytes": 593,
         "BytesHuman": "593B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "smalltalk",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4713,7 +4713,7 @@
     {
         "Bytes": 1262,
         "BytesHuman": "1.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "smile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4730,7 +4730,7 @@
     {
         "Bytes": 8039,
         "BytesHuman": "7.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sniffer",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4747,7 +4747,7 @@
     {
         "Bytes": 1488,
         "BytesHuman": "1.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "softquad",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4764,7 +4764,7 @@
     {
         "Bytes": 600,
         "BytesHuman": "600B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "spec",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4781,7 +4781,7 @@
     {
         "Bytes": 2216,
         "BytesHuman": "2.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "spectrum",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4798,7 +4798,7 @@
     {
         "Bytes": 5276,
         "BytesHuman": "5.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sql",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4815,7 +4815,7 @@
     {
         "Bytes": 523,
         "BytesHuman": "523B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ssh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4832,7 +4832,7 @@
     {
         "Bytes": 930,
         "BytesHuman": "930B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ssl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4849,7 +4849,7 @@
     {
         "Bytes": 4798,
         "BytesHuman": "4.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sun",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4866,7 +4866,7 @@
     {
         "Bytes": 915,
         "BytesHuman": "915B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "symbos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4883,7 +4883,7 @@
     {
         "Bytes": 11807,
         "BytesHuman": "11.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "sysex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4900,7 +4900,7 @@
     {
         "Bytes": 1004,
         "BytesHuman": "1004B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "tcl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4917,7 +4917,7 @@
     {
         "Bytes": 266,
         "BytesHuman": "266B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "teapot",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4934,7 +4934,7 @@
     {
         "Bytes": 864,
         "BytesHuman": "864B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "terminfo",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4951,7 +4951,7 @@
     {
         "Bytes": 4663,
         "BytesHuman": "4.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "tex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4968,7 +4968,7 @@
     {
         "Bytes": 262,
         "BytesHuman": "262B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "tgif",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4985,7 +4985,7 @@
     {
         "Bytes": 7732,
         "BytesHuman": "7.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "ti-8x",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5002,7 +5002,7 @@
     {
         "Bytes": 1490,
         "BytesHuman": "1.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "timezone",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5019,7 +5019,7 @@
     {
         "Bytes": 1258,
         "BytesHuman": "1.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "troff",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5036,7 +5036,7 @@
     {
         "Bytes": 306,
         "BytesHuman": "306B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "tuxedo",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5053,7 +5053,7 @@
     {
         "Bytes": 286,
         "BytesHuman": "286B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "typeset",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5070,7 +5070,7 @@
     {
         "Bytes": 778,
         "BytesHuman": "778B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "unicode",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5087,7 +5087,7 @@
     {
         "Bytes": 1370,
         "BytesHuman": "1.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "unknown",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5104,7 +5104,7 @@
     {
         "Bytes": 468,
         "BytesHuman": "468B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "uterus",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5121,7 +5121,7 @@
     {
         "Bytes": 1333,
         "BytesHuman": "1.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "uuencode",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5138,7 +5138,7 @@
     {
         "Bytes": 2109,
         "BytesHuman": "2.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "vacuum-cleaner",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5155,7 +5155,7 @@
     {
         "Bytes": 1664,
         "BytesHuman": "1.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "varied.out",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5172,7 +5172,7 @@
     {
         "Bytes": 1409,
         "BytesHuman": "1.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "varied.script",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5189,7 +5189,7 @@
     {
         "Bytes": 863,
         "BytesHuman": "863B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "vax",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5206,7 +5206,7 @@
     {
         "Bytes": 759,
         "BytesHuman": "759B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "vicar",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5223,7 +5223,7 @@
     {
         "Bytes": 4392,
         "BytesHuman": "4.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "virtual",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5240,7 +5240,7 @@
     {
         "Bytes": 524,
         "BytesHuman": "524B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "virtutech",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5257,7 +5257,7 @@
     {
         "Bytes": 972,
         "BytesHuman": "972B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "visx",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5274,7 +5274,7 @@
     {
         "Bytes": 1444,
         "BytesHuman": "1.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "vms",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5291,7 +5291,7 @@
     {
         "Bytes": 284,
         "BytesHuman": "284B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "vmware",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5308,7 +5308,7 @@
     {
         "Bytes": 5739,
         "BytesHuman": "5.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "vorbis",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5325,7 +5325,7 @@
     {
         "Bytes": 489,
         "BytesHuman": "489B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "vxl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5342,7 +5342,7 @@
     {
         "Bytes": 595,
         "BytesHuman": "595B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "warc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5359,7 +5359,7 @@
     {
         "Bytes": 629,
         "BytesHuman": "629B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "weak",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5376,7 +5376,7 @@
     {
         "Bytes": 21545,
         "BytesHuman": "21K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "windows",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5393,7 +5393,7 @@
     {
         "Bytes": 295,
         "BytesHuman": "295B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "wireless",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5410,7 +5410,7 @@
     {
         "Bytes": 8528,
         "BytesHuman": "8.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "wordprocessors",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5427,7 +5427,7 @@
     {
         "Bytes": 813,
         "BytesHuman": "813B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "wsdl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5444,7 +5444,7 @@
     {
         "Bytes": 743,
         "BytesHuman": "743B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "x68000",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5461,7 +5461,7 @@
     {
         "Bytes": 548,
         "BytesHuman": "548B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "xdelta",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5478,7 +5478,7 @@
     {
         "Bytes": 3066,
         "BytesHuman": "3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "xenix",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5495,7 +5495,7 @@
     {
         "Bytes": 1296,
         "BytesHuman": "1.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "xilinx",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5512,7 +5512,7 @@
     {
         "Bytes": 987,
         "BytesHuman": "987B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "xo65",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5529,7 +5529,7 @@
     {
         "Bytes": 1063,
         "BytesHuman": "1K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "xwindows",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5546,7 +5546,7 @@
     {
         "Bytes": 458,
         "BytesHuman": "458B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "yara",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5563,7 +5563,7 @@
     {
         "Bytes": 2423,
         "BytesHuman": "2.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "zfs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5580,7 +5580,7 @@
     {
         "Bytes": 451,
         "BytesHuman": "451B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "zilog",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5597,7 +5597,7 @@
     {
         "Bytes": 613,
         "BytesHuman": "613B",
-        "Directory": "/file_5.30.tar.xz_extracted/magic/Magdir",
+        "Directory": "/file_5.30.tar.xz/magic/Magdir",
         "Filename": "zyxel",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5614,7 +5614,7 @@
     {
         "Bytes": 9861,
         "BytesHuman": "9.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic",
+        "Directory": "/file_5.30.tar.xz/magic",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5631,7 +5631,7 @@
     {
         "Bytes": 24203,
         "BytesHuman": "23.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/magic",
+        "Directory": "/file_5.30.tar.xz/magic",
         "Filename": "Makefile.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5648,7 +5648,7 @@
     {
         "Bytes": 6872,
         "BytesHuman": "6.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/",
+        "Directory": "/file_5.30.tar.xz/",
         "Filename": "missing",
         "LicenseGuesses": [
             {
@@ -5670,7 +5670,7 @@
     {
         "Bytes": 51,
         "BytesHuman": "51B",
-        "Directory": "/file_5.30.tar.xz_extracted/python",
+        "Directory": "/file_5.30.tar.xz/python",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5687,7 +5687,7 @@
     {
         "Bytes": 12050,
         "BytesHuman": "11.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/python",
+        "Directory": "/file_5.30.tar.xz/python",
         "Filename": "Makefile.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5704,7 +5704,7 @@
     {
         "Bytes": 0,
         "BytesHuman": "0",
-        "Directory": "/file_5.30.tar.xz_extracted/python",
+        "Directory": "/file_5.30.tar.xz/python",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5721,7 +5721,7 @@
     {
         "Bytes": 207,
         "BytesHuman": "207B",
-        "Directory": "/file_5.30.tar.xz_extracted/python",
+        "Directory": "/file_5.30.tar.xz/python",
         "Filename": "example.py",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5738,7 +5738,7 @@
     {
         "Bytes": 8041,
         "BytesHuman": "7.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/python",
+        "Directory": "/file_5.30.tar.xz/python",
         "Filename": "magic.py",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5755,7 +5755,7 @@
     {
         "Bytes": 659,
         "BytesHuman": "659B",
-        "Directory": "/file_5.30.tar.xz_extracted/python",
+        "Directory": "/file_5.30.tar.xz/python",
         "Filename": "setup.py",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5772,7 +5772,7 @@
     {
         "Bytes": 841,
         "BytesHuman": "841B",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5789,7 +5789,7 @@
     {
         "Bytes": 27441,
         "BytesHuman": "26.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -5839,7 +5839,7 @@
     {
         "Bytes": 72004,
         "BytesHuman": "70.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "apprentice.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5856,7 +5856,7 @@
     {
         "Bytes": 4527,
         "BytesHuman": "4.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "apptype.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5873,7 +5873,7 @@
     {
         "Bytes": 9798,
         "BytesHuman": "9.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "ascmagic.c",
         "LicenseGuesses": [
             {
@@ -5899,7 +5899,7 @@
     {
         "Bytes": 415,
         "BytesHuman": "415B",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "asctime_r.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5916,7 +5916,7 @@
     {
         "Bytes": 1814,
         "BytesHuman": "1.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "asprintf.c",
         "LicenseGuesses": [
             {
@@ -6062,7 +6062,7 @@
     {
         "Bytes": 40001,
         "BytesHuman": "39.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "cdf.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6079,7 +6079,7 @@
     {
         "Bytes": 11608,
         "BytesHuman": "11.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "cdf.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6096,7 +6096,7 @@
     {
         "Bytes": 4474,
         "BytesHuman": "4.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "cdf_time.c",
         "LicenseGuesses": [
             {
@@ -6142,7 +6142,7 @@
     {
         "Bytes": 17630,
         "BytesHuman": "17.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "compress.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6159,7 +6159,7 @@
     {
         "Bytes": 402,
         "BytesHuman": "402B",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "ctime_r.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6176,7 +6176,7 @@
     {
         "Bytes": 9796,
         "BytesHuman": "9.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "der.c",
         "LicenseGuesses": [
             {
@@ -6198,7 +6198,7 @@
     {
         "Bytes": 1500,
         "BytesHuman": "1.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "der.h",
         "LicenseGuesses": [
             {
@@ -6316,7 +6316,7 @@
     {
         "Bytes": 2072,
         "BytesHuman": "2K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "dprintf.c",
         "LicenseGuesses": [
             {
@@ -6502,7 +6502,7 @@
     {
         "Bytes": 3100,
         "BytesHuman": "3K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "elfclass.h",
         "LicenseGuesses": [
             {
@@ -6668,7 +6668,7 @@
     {
         "Bytes": 17987,
         "BytesHuman": "17.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "encoding.c",
         "LicenseGuesses": [
             {
@@ -6690,7 +6690,7 @@
     {
         "Bytes": 14165,
         "BytesHuman": "13.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "file.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6707,7 +6707,7 @@
     {
         "Bytes": 18186,
         "BytesHuman": "17.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "file.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6724,7 +6724,7 @@
     {
         "Bytes": 3686,
         "BytesHuman": "3.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "file_opts.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6741,7 +6741,7 @@
     {
         "Bytes": 5529,
         "BytesHuman": "5.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "fmtcheck.c",
         "LicenseGuesses": [
             {
@@ -6771,7 +6771,7 @@
     {
         "Bytes": 10533,
         "BytesHuman": "10.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "fsmagic.c",
         "LicenseGuesses": [
             {
@@ -6793,7 +6793,7 @@
     {
         "Bytes": 13369,
         "BytesHuman": "13.1K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "funcs.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6810,7 +6810,7 @@
     {
         "Bytes": 2810,
         "BytesHuman": "2.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "getline.c",
         "LicenseGuesses": [
             {
@@ -7008,7 +7008,7 @@
     {
         "Bytes": 12827,
         "BytesHuman": "12.5K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "getopt_long.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7025,7 +7025,7 @@
     {
         "Bytes": 436,
         "BytesHuman": "436B",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "gmtime_r.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7042,7 +7042,7 @@
     {
         "Bytes": 4465,
         "BytesHuman": "4.4K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "is_tar.c",
         "LicenseGuesses": [
             {
@@ -7076,7 +7076,7 @@
     {
         "Bytes": 448,
         "BytesHuman": "448B",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "localtime_r.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7093,7 +7093,7 @@
     {
         "Bytes": 14943,
         "BytesHuman": "14.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "magic.c",
         "LicenseGuesses": [
             {
@@ -7115,7 +7115,7 @@
     {
         "Bytes": 5025,
         "BytesHuman": "4.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "magic.h.in",
         "LicenseGuesses": [
             {
@@ -7149,7 +7149,7 @@
     {
         "Bytes": 2694,
         "BytesHuman": "2.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "mygetopt.h",
         "LicenseGuesses": [
             {
@@ -7343,7 +7343,7 @@
     {
         "Bytes": 424,
         "BytesHuman": "424B",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "pread.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7360,7 +7360,7 @@
     {
         "Bytes": 7418,
         "BytesHuman": "7.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "print.c",
         "LicenseGuesses": [
             {
@@ -7390,7 +7390,7 @@
     {
         "Bytes": 19355,
         "BytesHuman": "18.9K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "readcdf.c",
         "LicenseGuesses": [
             {
@@ -7412,7 +7412,7 @@
     {
         "Bytes": 40920,
         "BytesHuman": "40K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "readelf.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7429,7 +7429,7 @@
     {
         "Bytes": 10920,
         "BytesHuman": "10.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "readelf.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7446,7 +7446,7 @@
     {
         "Bytes": 47741,
         "BytesHuman": "46.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "softmagic.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7463,7 +7463,7 @@
     {
         "Bytes": 2827,
         "BytesHuman": "2.8K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "strcasestr.c",
         "LicenseGuesses": [
             {
@@ -7495,11 +7495,11 @@
                 "Percentage": 94
             },
             {
-                "LicenseId": "ZPL-2.0",
+                "LicenseId": "Apache-1.0",
                 "Percentage": 90
             },
             {
-                "LicenseId": "Apache-1.0",
+                "LicenseId": "ZPL-2.0",
                 "Percentage": 90
             },
             {
@@ -7507,7 +7507,7 @@
                 "Percentage": 89
             },
             {
-                "LicenseId": "VSL-1.0",
+                "LicenseId": "bzip2-1.0.6",
                 "Percentage": 88
             },
             {
@@ -7515,15 +7515,11 @@
                 "Percentage": 88
             },
             {
-                "LicenseId": "bzip2-1.0.6",
+                "LicenseId": "VSL-1.0",
                 "Percentage": 88
             },
             {
-                "LicenseId": "Entessa",
-                "Percentage": 87
-            },
-            {
-                "LicenseId": "OLDAP-2.8",
+                "LicenseId": "PHP-3.01",
                 "Percentage": 87
             },
             {
@@ -7531,7 +7527,11 @@
                 "Percentage": 87
             },
             {
-                "LicenseId": "PHP-3.01",
+                "LicenseId": "OLDAP-2.8",
+                "Percentage": 87
+            },
+            {
+                "LicenseId": "Entessa",
                 "Percentage": 87
             },
             {
@@ -7543,11 +7543,11 @@
                 "Percentage": 84
             },
             {
-                "LicenseId": "ZPL-2.1",
+                "LicenseId": "TMate",
                 "Percentage": 82
             },
             {
-                "LicenseId": "TMate",
+                "LicenseId": "ZPL-2.1",
                 "Percentage": 82
             },
             {
@@ -7555,19 +7555,19 @@
                 "Percentage": 81
             },
             {
-                "LicenseId": "OLDAP-2.1",
-                "Percentage": 80
-            },
-            {
                 "LicenseId": "OLDAP-2.0",
                 "Percentage": 80
             },
             {
-                "LicenseId": "ZPL-1.1",
-                "Percentage": 79
+                "LicenseId": "OLDAP-2.1",
+                "Percentage": 80
             },
             {
                 "LicenseId": "Apache-1.1",
+                "Percentage": 79
+            },
+            {
+                "LicenseId": "ZPL-1.1",
                 "Percentage": 79
             },
             {
@@ -7575,11 +7575,11 @@
                 "Percentage": 78
             },
             {
-                "LicenseId": "OLDAP-2.2",
+                "LicenseId": "Plexus",
                 "Percentage": 76
             },
             {
-                "LicenseId": "Plexus",
+                "LicenseId": "OLDAP-2.2",
                 "Percentage": 76
             },
             {
@@ -7591,11 +7591,11 @@
                 "Percentage": 73
             },
             {
-                "LicenseId": "xpp",
+                "LicenseId": "OLDAP-2.2.2",
                 "Percentage": 72
             },
             {
-                "LicenseId": "OLDAP-2.2.2",
+                "LicenseId": "xpp",
                 "Percentage": 72
             },
             {
@@ -7603,11 +7603,11 @@
                 "Percentage": 70
             },
             {
-                "LicenseId": "Caldera",
+                "LicenseId": "NCSA",
                 "Percentage": 69
             },
             {
-                "LicenseId": "NCSA",
+                "LicenseId": "Caldera",
                 "Percentage": 69
             },
             {
@@ -7657,7 +7657,7 @@
     {
         "Bytes": 1752,
         "BytesHuman": "1.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "strlcat.c",
         "LicenseGuesses": [
             {
@@ -7731,7 +7731,7 @@
     {
         "Bytes": 1641,
         "BytesHuman": "1.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "strlcpy.c",
         "LicenseGuesses": [
             {
@@ -7805,7 +7805,7 @@
     {
         "Bytes": 2618,
         "BytesHuman": "2.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "tar.h",
         "LicenseGuesses": [
             {
@@ -7999,7 +7999,7 @@
     {
         "Bytes": 19741,
         "BytesHuman": "19.3K",
-        "Directory": "/file_5.30.tar.xz_extracted/src",
+        "Directory": "/file_5.30.tar.xz/src",
         "Filename": "vasprintf.c",
         "LicenseGuesses": [
             {
@@ -8021,7 +8021,7 @@
     {
         "Bytes": 459,
         "BytesHuman": "459B",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8038,7 +8038,7 @@
     {
         "Bytes": 19659,
         "BytesHuman": "19.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -8088,7 +8088,7 @@
     {
         "Bytes": 402,
         "BytesHuman": "402B",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8105,7 +8105,7 @@
     {
         "Bytes": 64,
         "BytesHuman": "64B",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "escapevel.result",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8122,7 +8122,7 @@
     {
         "Bytes": 8813,
         "BytesHuman": "8.6K",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "escapevel.testfile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8139,7 +8139,7 @@
     {
         "Bytes": 45,
         "BytesHuman": "45B",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "gedcom.result",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8156,7 +8156,7 @@
     {
         "Bytes": 100,
         "BytesHuman": "100B",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "gedcom.testfile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8173,7 +8173,7 @@
     {
         "Bytes": 20,
         "BytesHuman": "20B",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "issue311docx.result",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8190,7 +8190,7 @@
     {
         "Bytes": 3770,
         "BytesHuman": "3.7K",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "issue311docx.testfile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8207,7 +8207,7 @@
     {
         "Bytes": 3264,
         "BytesHuman": "3.2K",
-        "Directory": "/file_5.30.tar.xz_extracted/tests",
+        "Directory": "/file_5.30.tar.xz/tests",
         "Filename": "test.c",
         "LicenseGuesses": [
             {

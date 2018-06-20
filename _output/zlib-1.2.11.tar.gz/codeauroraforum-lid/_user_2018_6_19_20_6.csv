@@ -1,5 +1,5 @@
 input file path,matched license type,Score using whole input test,Rank based on score,Start line number,End line number,Start byte offset,End byte offset,Score using only the license text portion,Found license text
-/zlib-1.2.11.tar.gz_extracted/FAQ,Vim,0.0512375108408281,ScoreOutOfRange,343,364,15451,16418,0.0010765995336792153,"
+/zlib-1.2.11.tar.gz/FAQ,Vim,0.0512375108408281,ScoreOutOfRange,343,364,15451,16418,0.0010765995336792153,"
 41. I'm having a problem with the zip functions in zlib, can you help?
 
     There are no zip functions in zlib.  You are probably using minizip by
@@ -21,7 +21,7 @@ input file path,matched license type,Score using whole input test,Rank based on 
     zlib is not subject to export controls, and so is classified as EAR99.
 
 "
-/zlib-1.2.11.tar.gz_extracted/FAQ,Vim,0.04707545459334994,ScoreOutOfRange,171,193,6659,7946,0.0007133469612709741,"    what exactly do I need to do to meet that requirement?
+/zlib-1.2.11.tar.gz/FAQ,Vim,0.04707545459334994,ScoreOutOfRange,171,193,6659,7946,0.0007133469612709741,"    what exactly do I need to do to meet that requirement?
 
     You need to change the ZLIB_VERSION and ZLIB_VERNUM #defines in zlib.h.  In
     particular, the final version number needs to be changed to ""f"", and an
@@ -44,7 +44,7 @@ input file path,matched license type,Score using whole input test,Rank based on 
     in zlib.h as you would for a full source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/FAQ,Vim,0.04748989659605957,ScoreOutOfRange,99,110,3437,3944,0.0004721093810588567,"    Before going to the trouble of compiling a shared version of zlib and
+/zlib-1.2.11.tar.gz/FAQ,Vim,0.04748989659605957,ScoreOutOfRange,99,110,3437,3944,0.0004721093810588567,"    Before going to the trouble of compiling a shared version of zlib and
     trying to install it, you may want to check if it's already there!  If you
     can #include <zlib.h>, it's there.  The -lz option will probably link to
     it.  You can check the version at the top of zlib.h or with the
@@ -56,7 +56,7 @@ input file path,matched license type,Score using whole input test,Rank based on 
     site: Joel Hainley, jhainley@myndkryme.com.
 
 "
-/zlib-1.2.11.tar.gz_extracted/README,Zlib,0.5238756403462286,4,81,104,3542,4569,0.32878696439348215,"  people who reported problems and suggested various improvements in zlib; they
+/zlib-1.2.11.tar.gz/README,Zlib,0.5238756403462286,4,81,104,3542,4569,0.32878696439348215,"  people who reported problems and suggested various improvements in zlib; they
   are too numerous to cite here.
 
 Copyright notice:
@@ -80,11 +80,11 @@ Copyright notice:
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/inffast.h,MPL-2.0,0.050708546415785705,ScoreOutOfRange,6,7,229,293,0.002089318359885087,"   part of the implementation of the compression library and is
+/zlib-1.2.11.tar.gz/inffast.h,MPL-2.0,0.050708546415785705,ScoreOutOfRange,6,7,229,293,0.002089318359885087,"   part of the implementation of the compression library and is
 "
-/zlib-1.2.11.tar.gz_extracted/inffixed.h,MPL-2.0,0.046272655634357764,ScoreOutOfRange,5,6,172,235,0.0026802465826856066,"       It is part of the implementation of this library and is
+/zlib-1.2.11.tar.gz/inffixed.h,MPL-2.0,0.046272655634357764,ScoreOutOfRange,5,6,172,235,0.0026802465826856066,"       It is part of the implementation of this library and is
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.3,Zlib,0.5398115345299634,4,104,130,2909,3996,0.24559412916567538,"Send questions and/or comments to zlib@gzip.org,
+/zlib-1.2.11.tar.gz/zlib.3,Zlib,0.5398115345299634,4,104,130,2909,3996,0.24559412916567538,"Send questions and/or comments to zlib@gzip.org,
 or (for the Windows DLL version) to Gilles Vollant (info@winimage.com).
 .SH AUTHORS AND LICENSE
 Version 1.2.11
@@ -111,7 +111,7 @@ misrepresented as being the original software.
 .IP \n+[step].
 This notice may not be removed or altered from any source distribution.
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,Zlib,0.10045015798892004,3,0,21,0,1016,0.3279635917069999,"/* zlib.h -- interface of the 'zlib' general purpose compression library
+/zlib-1.2.11.tar.gz/zlib.h,Zlib,0.10045015798892004,3,0,21,0,1016,0.3279635917069999,"/* zlib.h -- interface of the 'zlib' general purpose compression library
   version 1.2.11, January 15th, 2017
 
   Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
@@ -133,7 +133,7 @@ This notice may not be removed or altered from any source distribution.
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.040792402315233865,ScoreOutOfRange,932,975,48925,50934,0.0009604540811983998,"   Z_BUF_ERROR if no more input was provided, Z_DATA_ERROR if no flush point
+/zlib-1.2.11.tar.gz/zlib.h,Vim,0.040792402315233865,ScoreOutOfRange,932,975,48925,50934,0.0009604540811983998,"   Z_BUF_ERROR if no more input was provided, Z_DATA_ERROR if no flush point
    has been found, or Z_STREAM_ERROR if the stream structure was inconsistent.
    In the success case, the application may save the current current value of
    total_in which indicates where valid compressed data was found.  In the
@@ -177,7 +177,7 @@ ZEXTERN int ZEXPORT inflateReset2 OF((z_streamp strm,
    by inflate() if needed.
 
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.041722296295268115,ScoreOutOfRange,835,847,43233,43936,0.0007976859948448648,"   fields next_in, avail_in, zalloc, zfree and opaque must be initialized
+/zlib-1.2.11.tar.gz/zlib.h,Vim,0.041722296295268115,ScoreOutOfRange,835,847,43233,43936,0.0007976859948448648,"   fields next_in, avail_in, zalloc, zfree and opaque must be initialized
    before by the caller.
 
      The windowBits parameter is the base two logarithm of the maximum window
@@ -190,7 +190,7 @@ ZEXTERN int ZEXPORT inflateReset2 OF((z_streamp strm,
    Z_DATA_ERROR instead of trying to allocate a larger window.
 
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.04254802977343023,ScoreOutOfRange,434,448,20783,21772,0.0007689121597814799,"  stop if and when it gets to the next deflate block boundary.  When decoding
+/zlib-1.2.11.tar.gz/zlib.h,Vim,0.04254802977343023,ScoreOutOfRange,434,448,20783,21772,0.0007689121597814799,"  stop if and when it gets to the next deflate block boundary.  When decoding
   the zlib or gzip format, this will cause inflate() to return immediately
   after the header and before the first block.  When doing a raw inflate,
   inflate() will go ahead and process the first block, and will return when it
@@ -205,7 +205,7 @@ ZEXTERN int ZEXPORT inflateReset2 OF((z_streamp strm,
   stream.  The end-of-block will not be indicated until all of the uncompressed
   data from that block has been written to strm->next_out.  The number of
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,EUPL-1.0,0.043029226052805805,ScoreOutOfRange,450,485,21923,24160,0.0007634891851250507,"  eight.  data_type is set as noted here every time inflate() returns for all
+/zlib-1.2.11.tar.gz/zlib.h,EUPL-1.0,0.043029226052805805,ScoreOutOfRange,450,485,21923,24160,0.0007634891851250507,"  eight.  data_type is set as noted here every time inflate() returns for all
   flush options, and so can be used to determine the amount of currently
   consumed input in bits.
 
@@ -241,7 +241,7 @@ ZEXTERN int ZEXPORT inflateReset2 OF((z_streamp strm,
 
      If a preset dictionary is needed after this call (see inflateSetDictionary
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,EUPL-1.1,0.04057983261162157,ScoreOutOfRange,622,674,31742,34840,0.0007381927375667975,"   compressor and decompressor must use exactly the same dictionary (see
+/zlib-1.2.11.tar.gz/zlib.h,EUPL-1.1,0.04057983261162157,ScoreOutOfRange,622,674,31742,34840,0.0007381927375667975,"   compressor and decompressor must use exactly the same dictionary (see
    inflateSetDictionary).
 
      The dictionary should consist of strings (byte sequences) that are likely
@@ -294,7 +294,7 @@ ZEXTERN int ZEXPORT deflateGetDictionary OF((z_streamp strm,
      deflateGetDictionary returns Z_OK on success, or Z_STREAM_ERROR if the
    stream state is inconsistent.
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.042410640734744626,ScoreOutOfRange,309,326,14174,15085,0.0007142548055865439,"  block to be emitted.  This is for advanced applications that need to control
+/zlib-1.2.11.tar.gz/zlib.h,Vim,0.042410640734744626,ScoreOutOfRange,309,326,14174,15085,0.0007142548055865439,"  block to be emitted.  This is for advanced applications that need to control
   the emission of deflate blocks.
 
     If flush is set to Z_FULL_FLUSH, all output is flushed as with
@@ -312,7 +312,7 @@ ZEXTERN int ZEXPORT deflateGetDictionary OF((z_streamp strm,
 
     If the parameter flush is set to Z_FINISH, pending input is processed,
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,CECILL-C,0.04169426117126848,ScoreOutOfRange,1399,1443,73097,75781,0.0005463934578411939,"   that remaining trailing garbage is ignored (and no error is returned).
+/zlib-1.2.11.tar.gz/zlib.h,CECILL-C,0.04169426117126848,ScoreOutOfRange,1399,1443,73097,75781,0.0005463934578411939,"   that remaining trailing garbage is ignored (and no error is returned).
 
      gzread can be used to read a gzip file that is being concurrently written.
    Upon reaching the end of the input, gzread will return with the available
@@ -357,7 +357,7 @@ ZEXTERN z_size_t ZEXPORT gzfread OF((voidp buf, z_size_t size, z_size_t nitems,
    but it prevents the direct use of gzfread() to read a concurrently written
    file, reseting and retrying on end-of-file, when size is not 1.
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,CECILL-2.1,0.04465138661516792,ScoreOutOfRange,995,1044,52044,54705,0.0005453163372840273,"   to feeding inflate codes.
+/zlib-1.2.11.tar.gz/zlib.h,CECILL-2.1,0.04465138661516792,ScoreOutOfRange,995,1044,52044,54705,0.0005453163372840273,"   to feeding inflate codes.
 
      inflatePrime returns Z_OK if success, or Z_STREAM_ERROR if the source
    stream state was inconsistent.
@@ -407,7 +407,7 @@ ZEXTERN int ZEXPORT inflateGetHeader OF((z_streamp strm,
      The text, time, xflags, and os fields are filled in with the gzip header
    contents.  hcrc is set to true if there is a header CRC.  (The header CRC
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,LGPL-3.0+,0.04125334761413278,ScoreOutOfRange,1272,1296,66579,67689,0.0005273275707710984,"   mechanism outside the scope of this compression library.) Upon exit, destLen
+/zlib-1.2.11.tar.gz/zlib.h,LGPL-3.0+,0.04125334761413278,ScoreOutOfRange,1272,1296,66579,67689,0.0005273275707710984,"   mechanism outside the scope of this compression library.) Upon exit, destLen
    is the actual size of the uncompressed data.
 
      uncompress returns Z_OK if success, Z_MEM_ERROR if there was not
@@ -432,7 +432,7 @@ ZEXTERN int ZEXPORT uncompress2 OF((Bytef *dest,   uLongf *destLen,
    an interface similar to that of stdio, using the functions that start with
    ""gz"".  The gzip format is different from the zlib format.  gzip is a gzip
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,Vim,0.040989813132523124,ScoreOutOfRange,749,757,38721,39246,0.0004992990458654169,"   used by someone who understands the algorithm used by zlib's deflate for
+/zlib-1.2.11.tar.gz/zlib.h,Vim,0.040989813132523124,ScoreOutOfRange,749,757,38721,39246,0.0004992990458654169,"   used by someone who understands the algorithm used by zlib's deflate for
    searching for the best matching string, and even then only by the most
    fanatic optimizer trying to squeeze out the last compressed bit for their
    specific input data.  Read the deflate.c source code for the meaning of the
@@ -441,7 +441,7 @@ ZEXTERN int ZEXPORT uncompress2 OF((Bytef *dest,   uLongf *destLen,
      deflateTune() can be called after deflateInit() or deflateInit2(), and
    returns Z_OK on success, or Z_STREAM_ERROR for an invalid deflate stream.
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,PDDL-1.0,0.04681275611103478,ScoreOutOfRange,293,309,13198,14174,0.0004458062331080612,"  (00 00 ff ff).
+/zlib-1.2.11.tar.gz/zlib.h,PDDL-1.0,0.04681275611103478,ScoreOutOfRange,293,309,13198,14174,0.0004458062331080612,"  (00 00 ff ff).
 
     If flush is set to Z_PARTIAL_FLUSH, all pending output is flushed to the
   output buffer, but the output is not aligned to a byte boundary.  All of the
@@ -458,7 +458,7 @@ ZEXTERN int ZEXPORT uncompress2 OF((Bytef *dest,   uLongf *destLen,
   be provided enough bits at this point in order to complete decompression of
   the data provided so far to the compressor.  It may need to wait for the next
 "
-/zlib-1.2.11.tar.gz_extracted/zlib.h,PDDL-1.0,0.04458036838822701,ScoreOutOfRange,799,823,41458,42772,0.00039751051810930086,"   will be inserted in the output.
+/zlib-1.2.11.tar.gz/zlib.h,PDDL-1.0,0.04458036838822701,ScoreOutOfRange,799,823,41458,42772,0.00039751051810930086,"   will be inserted in the output.
 
      deflatePrime returns Z_OK if success, Z_BUF_ERROR if there was not enough
    room in the internal buffer to insert the bits, or Z_STREAM_ERROR if the
@@ -483,20 +483,20 @@ ZEXTERN int ZEXPORT deflateSetHeader OF((z_streamp strm,
 
      If deflateSetHeader is not used, the default gzip header has text false,
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/README.contrib,LZMA-exception,0.040225481506895006,ScoreOutOfRange,1,6,67,261,0.0016583904412545264,"provided by users of zlib and were not tested by the authors of zlib.
+/zlib-1.2.11.tar.gz/contrib/README.contrib,LZMA-exception,0.040225481506895006,ScoreOutOfRange,1,6,67,261,0.0016583904412545264,"provided by users of zlib and were not tested by the authors of zlib.
 Use at your own risk. Please contact the authors of the contributions
 for help about these, not the zlib authors. Thanks.
 
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib.ads,gnu-javamail-exception,0.3920748765002121,3,19,25,1501,1975,0.23906215439062153," --  As a special exception, if other files instantiate generics from this   --
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads,gnu-javamail-exception,0.3920748765002121,3,19,25,1501,1975,0.23906215439062153," --  As a special exception, if other files instantiate generics from this   --
 --  unit, or you link this unit with other files to produce an executable,  --
 --  this  unit  does not  by itself cause  the resulting executable to be   --
 --  covered by the GNU General Public License. This exception does not      --
 --  however invalidate any other reasons why the executable file  might be  --
 --  covered by the  GNU Public License.                                     --
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib.ads,GPL-1.0+,0.3529067047228024,3,3,18,237,1422,0.12864141206387195," --              Copyright (C) 2002-2004 Dmitriy Anisimkov                   --
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads,GPL-1.0+,0.3529067047228024,3,3,18,237,1422,0.12864141206387195," --              Copyright (C) 2002-2004 Dmitriy Anisimkov                   --
 --                                                                          --
 --  This library is free software; you can redistribute it and/or modify    --
 --  it under the terms of the GNU General Public License as published by    --
@@ -512,13 +512,13 @@ for help about these, not the zlib authors. Thanks.
 --  along with this library; if not, write to the Free Software Foundation, --
 --  Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.          --
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/amd64/amd64-match.S,GPL-1.0-only,0.10245560629122273,3,1,6,3,272,0.004497980063371442," * match.S -- optimized version of longest_match()
+/zlib-1.2.11.tar.gz/contrib/amd64/amd64-match.S,GPL-1.0-only,0.10245560629122273,3,1,6,3,272,0.004497980063371442," * match.S -- optimized version of longest_match()
  * based on the similar work by Gilles Vollant, and Brian Raiter, written 1998
  *
  * This is free software; you can redistribute it and/or modify it
  * under the terms of the BSD License. Use by owners of Che Guevarra
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/asm686/match.S,Zlib,0.6555034883797773,4,0,20,0,1062,0.28925920379917425,"/* match.S -- x86 assembly version of the zlib longest_match() function.
+/zlib-1.2.11.tar.gz/contrib/asm686/match.S,Zlib,0.6555034883797773,4,0,20,0,1062,0.28925920379917425,"/* match.S -- x86 assembly version of the zlib longest_match() function.
  * Optimized for the Intel 686 chips (PPro and later).
  *
  * Copyright (C) 1998, 2007 Brian Raiter <breadbox@muppetlabs.com>
@@ -539,7 +539,7 @@ for help about these, not the zlib authors. Thanks.
  *    misrepresented as being the original software.
  * 3. This notice may not be removed or altered from any source distribution.
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/blast/blast.h,Zlib,0.6449422920152744,4,1,20,36,953,0.26880858905536414,"  Copyright (C) 2003, 2012, 2013 Mark Adler
+/zlib-1.2.11.tar.gz/contrib/blast/blast.h,Zlib,0.6449422920152744,4,1,20,36,953,0.26880858905536414,"  Copyright (C) 2003, 2012, 2013 Mark Adler
   version 1.3, 24 Aug 2013
 
   This software is provided 'as-is', without any express or implied
@@ -559,7 +559,7 @@ for help about these, not the zlib authors. Thanks.
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/LICENSE_1_0.txt,BSL-1.0,1.0,5,0,23,0,1359,1.0,"Boost Software License - Version 1.0 - August 17th, 2003
+/zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt,BSL-1.0,1.0,5,0,23,0,1359,1.0,"Boost Software License - Version 1.0 - August 17th, 2003
 
 Permission is hereby granted, free of charge, to any person or organization
 obtaining a copy of the software and accompanying documentation covered by
@@ -583,15 +583,15 @@ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/Deflater.cs,MPL-2.0,0.043091575091575095,ScoreOutOfRange,3,5,41,228,0.006161912520442727,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Deflater.cs,MPL-2.0,0.043091575091575095,ScoreOutOfRange,3,5,41,228,0.006161912520442727,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
 // (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/GZipStream.cs,LZMA-exception,0.04153393191717157,ScoreOutOfRange,3,4,41,136,0.0016662558307103039,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/GZipStream.cs,LZMA-exception,0.04153393191717157,ScoreOutOfRange,3,4,41,136,0.0016662558307103039,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/Inflater.cs,MPL-2.0,0.04440898728860963,ScoreOutOfRange,3,5,41,228,0.006161912520442727,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Inflater.cs,MPL-2.0,0.04440898728860963,ScoreOutOfRange,3,5,41,228,0.006161912520442727,"// Use, modification and distribution are subject to the Boost Software License, Version 1.0.
 // (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/gcc_gvmat64/gvmat64.S,Zlib,0.5826073301520871,4,12,31,566,1624,0.29012040952115214,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
+/zlib-1.2.11.tar.gz/contrib/gcc_gvmat64/gvmat64.S,Zlib,0.5826073301520871,4,12,31,566,1624,0.29012040952115214,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
 ;  and by taking inspiration on asm686 with masm, optimised assembly code
 ;        from Brian Raiter, written 1998
 ;
@@ -611,11 +611,11 @@ DEALINGS IN THE SOFTWARE.
 ;     misrepresented as being the original software
 ;  3. This notice may not be removed or altered from any source distribution.
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/infback9/inffix9.h,MPL-2.0,0.046272655634357764,ScoreOutOfRange,5,6,182,245,0.0026802465826856066,"       It is part of the implementation of this library and is
+/zlib-1.2.11.tar.gz/contrib/infback9/inffix9.h,MPL-2.0,0.046272655634357764,ScoreOutOfRange,5,6,182,245,0.0026802465826856066,"       It is part of the implementation of this library and is
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/infback9/inflate9.h,MPL-2.0,0.05092322045540758,ScoreOutOfRange,6,7,234,298,0.002089318359885087,"   part of the implementation of the compression library and is
+/zlib-1.2.11.tar.gz/contrib/infback9/inflate9.h,MPL-2.0,0.05092322045540758,ScoreOutOfRange,6,7,234,298,0.002089318359885087,"   part of the implementation of the compression library and is
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/iostream2/zstream.h,NTP,0.26942814576601637,3,2,15,6,642,0.027024557495170298," * Copyright (c) 1997
+/zlib-1.2.11.tar.gz/contrib/iostream2/zstream.h,NTP,0.26942814576601637,3,2,15,6,642,0.027024557495170298," * Copyright (c) 1997
  * Christian Michelsen Research AS
  * Advanced Computing
  * Fantoftvegen 38, 5036 BERGEN, Norway
@@ -629,7 +629,7 @@ DEALINGS IN THE SOFTWARE.
  * representations about the suitability of this software for any
  * purpose.  It is provided ""as is"" without express or implied warranty.
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/iostream3/README,NTP,0.04743490043596088,ScoreOutOfRange,24,31,1231,1395,0.0023091698680474363,"
+/zlib-1.2.11.tar.gz/contrib/iostream3/README,NTP,0.04743490043596088,ScoreOutOfRange,24,31,1231,1395,0.0023091698680474363,"
 The code is provided ""as is"", with the permission to use, copy, modify, distribute
 and sell it for any purpose without fee.
 
@@ -637,7 +637,7 @@ Ludwig Schwardt
 <schwardt@sun.ac.za>
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/masmx64/gvmat64.asm,Zlib,0.5702574557661005,4,10,30,487,1548,0.2901141826923077,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
+/zlib-1.2.11.tar.gz/contrib/masmx64/gvmat64.asm,Zlib,0.5702574557661005,4,10,30,487,1548,0.2901141826923077,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
 ;
 ;  and by taking inspiration on asm686 with masm, optimised assembly code
 ;        from Brian Raiter, written 1998
@@ -658,7 +658,7 @@ Ludwig Schwardt
 ;     misrepresented as being the original software
 ;  3. This notice may not be removed or altered from any source distribution.
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/masmx86/match686.asm,Zlib,0.577691405948569,4,162,182,6339,7408,0.3139926233287229,";;; Written for zlib 1.1.2
+/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm,Zlib,0.577691405948569,4,162,182,6339,7408,0.3139926233287229,";;; Written for zlib 1.1.2
 ;;; Copyright (C) 1998 Brian Raiter <breadbox@muppetlabs.com>
 ;;; You can look at http://www.muppetlabs.com/~breadbox/software/assembly.html
 ;;;
@@ -679,7 +679,7 @@ Ludwig Schwardt
 ;;     misrepresented as being the original software
 ;;  3. This notice may not be removed or altered from any source distribution.
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/masmx86/match686.asm,psfrag,0.040408684546615586,ScoreOutOfRange,25,36,1138,1646,0.0021217863118392507,"; note: contrib of zLib 1.2.3 and earlier contained both a deprecated version for
+/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm,psfrag,0.040408684546615586,ScoreOutOfRange,25,36,1138,1646,0.0021217863118392507,"; note: contrib of zLib 1.2.3 and earlier contained both a deprecated version for
 ;  Pentium (prior Pentium Pro) and this version for Pentium Pro and modern processor
 ;  with autoselect (with cpu detection code)
 ;  if you want support the old pentium optimization, you can still use these version
@@ -691,11 +691,11 @@ Ludwig Schwardt
 ; see below : zlib1222add must be adjuster if you use a zlib version < 1.2.2.2
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/masmx86/match686.asm,psfrag,0.042149896474360134,ScoreOutOfRange,1,4,78,292,0.0018608358716366382,"; Copyright (C) 1995-1996 Jean-loup Gailly, Brian Raiter and Gilles Vollant.
+/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm,psfrag,0.042149896474360134,ScoreOutOfRange,1,4,78,292,0.0018608358716366382,"; Copyright (C) 1995-1996 Jean-loup Gailly, Brian Raiter and Gilles Vollant.
 ; File written by Gilles Vollant, by converting match686.S from Brian Raiter
 ; for MASM. This is as assembly version of longest_match
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/minizip/MiniZip64_info.txt,Zlib,0.7967713365539453,4,54,72,2079,2988,0.3022876182383327,"   Condition of use and distribution are the same than zlib :
+/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_info.txt,Zlib,0.7967713365539453,4,54,72,2079,2988,0.3022876182383327,"   Condition of use and distribution are the same than zlib :
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any damages
@@ -714,7 +714,7 @@ Ludwig Schwardt
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/minizip/unzip.h,Zlib,0.48326799104317175,3,15,34,644,1559,0.3022876182383327,"
+/zlib-1.2.11.tar.gz/contrib/minizip/unzip.h,Zlib,0.48326799104317175,3,15,34,644,1559,0.3022876182383327,"
         Condition of use and distribution are the same than zlib :
 
   This software is provided 'as-is', without any express or implied
@@ -734,7 +734,7 @@ Ludwig Schwardt
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/minizip/zip.h,Zlib,0.6648243087124283,4,12,31,513,1423,0.3022876182383327,"
+/zlib-1.2.11.tar.gz/contrib/minizip/zip.h,Zlib,0.6648243087124283,4,12,31,513,1423,0.3022876182383327,"
    Condition of use and distribution are the same than zlib :
 
   This software is provided 'as-is', without any express or implied
@@ -754,7 +754,7 @@ Ludwig Schwardt
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/pascal/readme.txt,Zlib,0.710456725828535,4,58,76,2120,3004,0.2726478535584405,"  Copyright (C) 2003 by Cosmin Truta.
+/zlib-1.2.11.tar.gz/contrib/pascal/readme.txt,Zlib,0.710456725828535,4,58,76,2120,3004,0.2726478535584405,"  Copyright (C) 2003 by Cosmin Truta.
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the author be held liable for any damages
@@ -773,7 +773,7 @@ Ludwig Schwardt
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/contrib/puff/puff.h,Zlib,0.8855639494958657,4,1,20,10,941,0.26773601468358466,"  Copyright (C) 2002-2013 Mark Adler, all rights reserved
+/zlib-1.2.11.tar.gz/contrib/puff/puff.h,Zlib,0.8855639494958657,4,1,20,10,941,0.26773601468358466,"  Copyright (C) 2002-2013 Mark Adler, all rights reserved
   version 2.3, 21 Jan 2013
 
   This software is provided 'as-is', without any express or implied
@@ -793,7 +793,7 @@ Ludwig Schwardt
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/doc/algorithm.txt,Vim,0.041238623471096615,ScoreOutOfRange,69,95,3688,5119,0.00065738806375222,"code is that many bits or less and how many, and if it is, it will tell
+/zlib-1.2.11.tar.gz/doc/algorithm.txt,Vim,0.041238623471096615,ScoreOutOfRange,69,95,3688,5119,0.00065738806375222,"code is that many bits or less and how many, and if it is, it will tell
 the value, else it will point to the next level table for which inflate()
 grabs more bits and tries to decode a longer code.
 
@@ -820,7 +820,7 @@ for 30 symbols.
 Ok, you want to know what this cleverly obfuscated inflate tree actually
 looks like.  You are correct that it's not a Huffman tree.  It is simply a
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1950.txt,Abstyles,0.046975313431388804,ScoreOutOfRange,16,34,457,1104,0.004426566129195139,"
+/zlib-1.2.11.tar.gz/doc/rfc1950.txt,Abstyles,0.046975313431388804,ScoreOutOfRange,16,34,457,1104,0.004426566129195139,"
    This memo provides information for the Internet community.  This memo
    does not specify an Internet standard of any kind.  Distribution of
    this memo is unlimited.
@@ -839,7 +839,7 @@ Notices
    languages and incorporation into compilations, provided that the
    copyright notice and this notice are preserved, and that any
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1950.txt,LGPL-3.0+,0.047639748115935875,ScoreOutOfRange,349,374,12369,13843,0.0007471474021476182,"
+/zlib-1.2.11.tar.gz/doc/rfc1950.txt,LGPL-3.0+,0.047639748115935875,ScoreOutOfRange,349,374,12369,13843,0.0007471474021476182,"
       A compliant compressor must produce streams with correct CMF, FLG
       and ADLER32, but need not support preset dictionaries.  When the
       zlib data format is used as part of another standard data format,
@@ -865,7 +865,7 @@ Notices
       stream in which the FDICT flag is set.
 
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04030531666207049,ScoreOutOfRange,304,342,11973,13416,0.0007645039522567779,"               significant bit of the code.
+/zlib-1.2.11.tar.gz/doc/rfc1951.txt,LGPL-3.0+,0.04030531666207049,ScoreOutOfRange,304,342,11973,13416,0.0007645039522567779,"               significant bit of the code.
 
          In other words, if one were to print out the compressed data as
          a sequence of bytes, starting with the first byte at the
@@ -904,7 +904,7 @@ Notices
 
 
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04474888603601822,ScoreOutOfRange,25,57,631,1726,0.0006790162821826459,"
+/zlib-1.2.11.tar.gz/doc/rfc1951.txt,LGPL-3.0+,0.04474888603601822,ScoreOutOfRange,25,57,631,1726,0.0006790162821826459,"
    Copyright (c) 1996 L. Peter Deutsch
 
    Permission is granted to copy and distribute this document for any
@@ -937,7 +937,7 @@ Abstract
 
 
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04198461788216656,ScoreOutOfRange,777,798,30319,31248,0.0004587765707415977,"      limit the range of backward pointers to some value smaller than
+/zlib-1.2.11.tar.gz/doc/rfc1951.txt,LGPL-3.0+,0.04198461788216656,ScoreOutOfRange,777,798,30319,31248,0.0004587765707415977,"      limit the range of backward pointers to some value smaller than
       32K.  Similarly, a compressor may limit the size of blocks so that
       a compressible block fits in memory.
 
@@ -959,7 +959,7 @@ Abstract
 
 
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPLLR,0.04428644613513708,ScoreOutOfRange,862,903,34215,35836,0.00032675778357563965,"
+/zlib-1.2.11.tar.gz/doc/rfc1951.txt,LGPLLR,0.04428644613513708,ScoreOutOfRange,862,903,34215,35836,0.00032675778357563965,"
    [1] Huffman, D. A., ""A Method for the Construction of Minimum
        Redundancy Codes"", Proceedings of the Institute of Radio
        Engineers, September 1952, Volume 40, Number 9, pp. 1098-1101.
@@ -1001,7 +1001,7 @@ Abstract
 8. Acknowledgements
 
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt,LGPL-3.0+,0.04025087795221104,ScoreOutOfRange,745,760,28955,29616,0.0002612181614033314,"
+/zlib-1.2.11.tar.gz/doc/rfc1951.txt,LGPL-3.0+,0.04025087795221104,ScoreOutOfRange,745,760,28955,29616,0.0002612181614033314,"
 
                (HCLEN + 4) x 3 bits: code lengths for the code length
                   alphabet given just above, in the order: 16, 17, 18,
@@ -1017,7 +1017,7 @@ Abstract
 
                HDIST + 1 code lengths for the distance alphabet,
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1952.txt,LGPL-3.0+,0.04937206439232004,ScoreOutOfRange,25,57,624,1623,0.0006962508792027879,"
+/zlib-1.2.11.tar.gz/doc/rfc1952.txt,LGPL-3.0+,0.04937206439232004,ScoreOutOfRange,25,57,624,1623,0.0006962508792027879,"
    Copyright (c) 1996 L. Peter Deutsch
 
    Permission is granted to copy and distribute this document for any
@@ -1050,7 +1050,7 @@ Abstract
 
 
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1952.txt,NLOD-1.0,0.0418240718806135,ScoreOutOfRange,460,484,17381,18449,0.00043405551292953655,"
+/zlib-1.2.11.tar.gz/doc/rfc1952.txt,NLOD-1.0,0.0418240718806135,ScoreOutOfRange,460,484,17381,18449,0.00043405551292953655,"
 
             SI1         SI2         Data
             ----------  ----------  ----
@@ -1075,7 +1075,7 @@ Abstract
          trailer; in particular, a decompressor may ignore FTEXT and OS
          and always produce binary output, and still be compliant.  A
 "
-/zlib-1.2.11.tar.gz_extracted/doc/rfc1952.txt,LGPL-3.0+,0.04190344736796047,ScoreOutOfRange,420,449,15754,16981,0.0003602417376565161,"
+/zlib-1.2.11.tar.gz/doc/rfc1952.txt,LGPL-3.0+,0.04190344736796047,ScoreOutOfRange,420,449,15754,16981,0.0003602417376565161,"
          XLEN (eXtra LENgth)
             If FLG.FEXTRA is set, this gives the length of the optional
             extra field.  See below for details.
@@ -1105,7 +1105,7 @@ Abstract
          SI1 and SI2 provide a subfield ID, typically two ASCII letters
          with some mnemonic value.  Jean-Loup Gailly
 "
-/zlib-1.2.11.tar.gz_extracted/examples/gzappend.c,Zlib,0.5559134204656269,4,1,21,48,981,0.26773601468358466,"
+/zlib-1.2.11.tar.gz/examples/gzappend.c,Zlib,0.5559134204656269,4,1,21,48,981,0.26773601468358466,"
   Copyright (C) 2003, 2012 Mark Adler, all rights reserved
   version 1.2, 11 Oct 2012
 
@@ -1126,7 +1126,7 @@ Abstract
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/examples/gzjoin.c,Zlib,0.5814062978906364,4,1,21,59,998,0.2671976107516177,"
+/zlib-1.2.11.tar.gz/examples/gzjoin.c,Zlib,0.5814062978906364,4,1,21,59,998,0.2671976107516177,"
   Copyright (C) 2004, 2005, 2012 Mark Adler, all rights reserved
   version 1.2, 14 Aug 2012
 
@@ -1147,7 +1147,7 @@ Abstract
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/examples/gzlog.c,CECILL-C,0.040056344886585125,ScoreOutOfRange,67,104,3394,5873,0.0005640686401099682,"   to be compressed is missing due to some external force, a gzip file with
+/zlib-1.2.11.tar.gz/examples/gzlog.c,CECILL-C,0.040056344886585125,ScoreOutOfRange,67,104,3394,5873,0.0005640686401099682,"   to be compressed is missing due to some external force, a gzip file with
    just the previous compressed data will be reconstructed.  In this case, all
    of the data that was to be compressed is lost (approximately one megabyte).
    This will not occur if all that happened was an interruption of the compress
@@ -1185,7 +1185,7 @@ Abstract
    to the file, or none of it is, if the operation is interrupted right at the
    point of updating the extra field.  This is a reasonable assumption, since
 "
-/zlib-1.2.11.tar.gz_extracted/examples/gzlog.h,Zlib,0.6233747412008283,4,1,20,11,949,0.2671976107516177,"  Copyright (C) 2004, 2008, 2012 Mark Adler, all rights reserved
+/zlib-1.2.11.tar.gz/examples/gzlog.h,Zlib,0.6233747412008283,4,1,20,11,949,0.2671976107516177,"  Copyright (C) 2004, 2008, 2012 Mark Adler, all rights reserved
   version 2.2, 14 Aug 2012
 
   This software is provided 'as-is', without any express or implied
@@ -1205,7 +1205,7 @@ Abstract
   3. This notice may not be removed or altered from any source distribution.
 
 "
-/zlib-1.2.11.tar.gz_extracted/examples/zlib_how.html,LGPL-3.0+,0.04022388236020786,ScoreOutOfRange,111,158,6101,8882,0.0010555738832327616,"(See <a href=""zlib_tech.html""><em>zlib Technical Details</em></a>.)
+/zlib-1.2.11.tar.gz/examples/zlib_how.html,LGPL-3.0+,0.04022388236020786,ScoreOutOfRange,111,158,6101,8882,0.0010555738832327616,"(See <a href=""zlib_tech.html""><em>zlib Technical Details</em></a>.)
 <p>
 <tt>deflateInit()</tt> is called with a pointer to the structure to be initialized and
 the compression level, which is an integer in the range of -1 to 9.  Lower compression
@@ -1253,7 +1253,7 @@ We start off by reading data from the input file.  The number of bytes read is p
 into <tt>avail_in</tt>, and a pointer to those bytes is put into <tt>next_in</tt>.  We also
 check to see if end-of-file on the input has been reached.  If we are at the end of file, then <tt>flush</tt> is set to the
 "
-/zlib-1.2.11.tar.gz_extracted/examples/zlib_how.html,LGPLLR,0.04017771546468729,ScoreOutOfRange,389,422,23017,25031,0.00029855811046191293,"provided input.
+/zlib-1.2.11.tar.gz/examples/zlib_how.html,LGPLLR,0.04017771546468729,ScoreOutOfRange,389,422,23017,25031,0.00029855811046191293,"provided input.
 <pre><b>
         /* run inflate() on input until output buffer not full */
         do {
@@ -1287,9 +1287,9 @@ checked for later.
             ret = inflate(&amp;strm, Z_NO_FLUSH);
             assert(ret != Z_STREAM_ERROR);  /* state not clobbered */
 "
-/zlib-1.2.11.tar.gz_extracted/old/os2/zlib.def,dvipdfm,0.04632477409818086,ScoreOutOfRange,1,2,2,52,0.0019907012427002107,"; Slightly modified version of ../nt/zlib.dnt :-)
+/zlib-1.2.11.tar.gz/old/os2/zlib.def,dvipdfm,0.04632477409818086,ScoreOutOfRange,1,2,2,52,0.0019907012427002107,"; Slightly modified version of ../nt/zlib.dnt :-)
 "
-/zlib-1.2.11.tar.gz_extracted/win32/DLL_FAQ.txt,Vim,0.040149371054497604,ScoreOutOfRange,52,95,2085,4029,0.000960543560278361,"    Incorrect handling of this macro was silently accepted at
+/zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt,Vim,0.040149371054497604,ScoreOutOfRange,52,95,2085,4029,0.000960543560278361,"    Incorrect handling of this macro was silently accepted at
     build time, resulting in two major problems:
 
     * ZLIB_DLL was missing from the old makefile.  When building
@@ -1333,7 +1333,7 @@ checked for later.
 
 
 "
-/zlib-1.2.11.tar.gz_extracted/win32/DLL_FAQ.txt,Vim,0.04157733788455163,ScoreOutOfRange,320,351,14576,16047,0.0009062911422454883,"    how can I build/use ZLIB1.DLL in Microsoft Visual C++ 7.0
+/zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt,Vim,0.04157733788455163,ScoreOutOfRange,320,351,14576,16047,0.0009062911422454883,"    how can I build/use ZLIB1.DLL in Microsoft Visual C++ 7.0
     (Visual Studio .NET) or newer?
 
   - Due to the problems explained in the Microsoft Knowledge Base
@@ -1365,7 +1365,7 @@ checked for later.
     your build is unofficial.  You should give it a different file
     name, and/or install it in a private directory that can be
 "
-/zlib-1.2.11.tar.gz_extracted/win32/README-WIN32.txt,Zlib,0.5763434125823369,4,68,92,3227,4252,0.32878696439348215,"people who reported problems and suggested various improvements in zlib; they
+/zlib-1.2.11.tar.gz/win32/README-WIN32.txt,Zlib,0.5763434125823369,4,68,92,3227,4252,0.32878696439348215,"people who reported problems and suggested various improvements in zlib; they
 are too numerous to cite here.
 
 

@@ -13,12 +13,12 @@ Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
 # Creation Info
 
 Creator: Tool: ScanCode 2.9.2
-Created: 2018-06-19T12:36:36Z
+Created: 2018-06-19T18:54:13Z
 
 
 # Package
 
-PackageName: time-1.7.tar.gz_extracted
+PackageName: time-1.7.tar.gz
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: dd5cf0b17bfef4284c6c22471b277de7beac407c
 PackageLicenseDeclared: NOASSERTION
@@ -51,7 +51,7 @@ copyrighted by the Free Software Foundation
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/AUTHORS
+FileName: ./time-1.7.tar.gz/AUTHORS
 FileChecksum: SHA1: 7951f4ceffdb030ec617eddf7bba22523cc1a67f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -60,7 +60,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/COPYING
+FileName: ./time-1.7.tar.gz/COPYING
 FileChecksum: SHA1: 075d599585584bb0e4b526f5c40cb6b17e0da35a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-only
@@ -71,7 +71,7 @@ copyrighted by the Free Software Foundation
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/ChangeLog
+FileName: ./time-1.7.tar.gz/ChangeLog
 FileChecksum: SHA1: 4a972ee2c972e38b502b22837c2513ecc2647339
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -80,7 +80,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/INSTALL
+FileName: ./time-1.7.tar.gz/INSTALL
 FileChecksum: SHA1: bd0ce8678f58293afc2069e6ba9ab42a6c3e23bc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -89,7 +89,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/Makefile.am
+FileName: ./time-1.7.tar.gz/Makefile.am
 FileChecksum: SHA1: 013f7d712aefd2409a2310714257ad77e62ca205
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -98,7 +98,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/Makefile.in
+FileName: ./time-1.7.tar.gz/Makefile.in
 FileChecksum: SHA1: 8b548f3a4c3719b30e0a5db65dd53adbda180db0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: FSFUL
@@ -108,7 +108,7 @@ FileCopyrightText: <text>Copyright (c) 1994, 1995, 1996 Free Software Foundation
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/NEWS
+FileName: ./time-1.7.tar.gz/NEWS
 FileChecksum: SHA1: 9a94d3fd8be03e1947b8c43de83211fe4f8ea38c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -117,7 +117,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/README
+FileName: ./time-1.7.tar.gz/README
 FileChecksum: SHA1: 69cfac803ed960fb0d24dc39afa095e408fb845f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -126,7 +126,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/configure
+FileName: ./time-1.7.tar.gz/configure
 FileChecksum: SHA1: a54a5e0a7321967322e7e71a5f0e23b59f2bbb15
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: FSFUL
@@ -136,7 +136,7 @@ FileCopyrightText: <text>Copyright (c) 1992, 93, 94, 95, 96 Free Software Founda
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/configure.in
+FileName: ./time-1.7.tar.gz/configure.in
 FileChecksum: SHA1: 63f77f68e8e90b3e6fdde4be3b585b72a0635bbf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -145,7 +145,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/error.c
+FileName: ./time-1.7.tar.gz/error.c
 FileChecksum: SHA1: 97bfd964aae09d71b7fa89bd48b2110cb8d3e12d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -155,7 +155,7 @@ FileCopyrightText: <text>Copyright (c) 1990, 91, 92, 93, 94, 95, 96 Free Softwar
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/getopt.c
+FileName: ./time-1.7.tar.gz/getopt.c
 FileChecksum: SHA1: 4eec2f371cdea3fa5f96a37b44b200445609bc75
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -165,7 +165,7 @@ FileCopyrightText: <text>Copyright (c) 1987, 88, 89, 90, 91, 92, 93, 94, 95, 199
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/getopt.h
+FileName: ./time-1.7.tar.gz/getopt.h
 FileChecksum: SHA1: 512169aaccccc1c0fe20de76af4a5ff347aacc05
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -175,7 +175,7 @@ FileCopyrightText: <text>Copyright (c) 1989, 90, 91, 92, 93, 94 Free Software Fo
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/getopt1.c
+FileName: ./time-1.7.tar.gz/getopt1.c
 FileChecksum: SHA1: 177c2f08aad7203fa875ae63c0ec92fbb3c9f600
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -185,7 +185,7 @@ FileCopyrightText: <text>Copyright (c) 1987, 88, 89, 90, 91, 92, 1993, 1994 Free
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/getpagesize.h
+FileName: ./time-1.7.tar.gz/getpagesize.h
 FileChecksum: SHA1: 1ef18700b72387bf6322695bb1aec2ca5e18cb00
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -194,7 +194,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/install-sh
+FileName: ./time-1.7.tar.gz/install-sh
 FileChecksum: SHA1: c5c249a2dd763530ae65d28bc1c64bb754cd0750
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-mit-old-style-no-advert
@@ -204,7 +204,7 @@ FileCopyrightText: <text>Copyright 1991 by the Massachusetts Institute of Techno
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/mdate-sh
+FileName: ./time-1.7.tar.gz/mdate-sh
 FileChecksum: SHA1: 7a4fcb88fd92b03e9dd69f04dba7ed442b33086c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -214,7 +214,7 @@ FileCopyrightText: <text>Copyright (c) 1995 Software Foundation, Inc.
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/mkinstalldirs
+FileName: ./time-1.7.tar.gz/mkinstalldirs
 FileChecksum: SHA1: 8bc81b299f7f9a483a21ae36c7a5661d832974ef
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-public-domain
@@ -224,7 +224,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/port.h
+FileName: ./time-1.7.tar.gz/port.h
 FileChecksum: SHA1: 966e3dc7bae8b140bedc52d8f3ab3a87f1815656
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -233,7 +233,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/resuse.c
+FileName: ./time-1.7.tar.gz/resuse.c
 FileChecksum: SHA1: 3860d431a5dba8146b119952e4262a4a3eb4b8c6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -243,7 +243,7 @@ FileCopyrightText: <text>Copyright (c) 1993, 1996 Free Software Foundation, Inc.
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/resuse.h
+FileName: ./time-1.7.tar.gz/resuse.h
 FileChecksum: SHA1: fcf57d1f09b29d241d462e044a671e25bbee4173
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -253,7 +253,7 @@ FileCopyrightText: <text>Copyright (c) 1993, 1996 Free Software Foundation, Inc.
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/stamp-vti
+FileName: ./time-1.7.tar.gz/stamp-vti
 FileChecksum: SHA1: 8e5113f6f47ce34e0437c2105441dbb70f01491a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -262,7 +262,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/texinfo.tex
+FileName: ./time-1.7.tar.gz/texinfo.tex
 FileChecksum: SHA1: e3a7d7a426d5b970f53561f73df9929f8d35cc7f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -272,7 +272,7 @@ FileCopyrightText: <text>Copyright (c) 1985, 86, 88, 90, 91, 92, 93, 94, 95, 199
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/time.c
+FileName: ./time-1.7.tar.gz/time.c
 FileChecksum: SHA1: 712d7f9dfde674283596ae2088550e3ff23ae1ba
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later
@@ -282,7 +282,7 @@ FileCopyrightText: <text>Copyright (c) 1990, 91, 92, 93, 96 Free Software Founda
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/time.info
+FileName: ./time-1.7.tar.gz/time.info
 FileChecksum: SHA1: f4373161d4e5c152c970000e5cad9e6316060e5f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-elib-gpl
@@ -292,7 +292,7 @@ FileCopyrightText: <text>Copyright (c) 1991, 92, 93, 96 Free Software Foundation
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/time.texi
+FileName: ./time-1.7.tar.gz/time.texi
 FileChecksum: SHA1: 4c27ef0f772256fe13d386358a5eb6c924536803
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Latex2e
@@ -304,7 +304,7 @@ Copyright 1991, 92, 93, 96 Free Software Foundation, Inc.
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/version.c
+FileName: ./time-1.7.tar.gz/version.c
 FileChecksum: SHA1: 8093e0e529387817b260523cf90a392fe9d0c209
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -313,7 +313,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/version.texi
+FileName: ./time-1.7.tar.gz/version.texi
 FileChecksum: SHA1: 73bee64bd2b02dcf6978ec14d8dba9d4e74e2ca7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -322,7 +322,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./time-1.7.tar.gz_extracted/wait.h
+FileName: ./time-1.7.tar.gz/wait.h
 FileChecksum: SHA1: 821331ad27b49e2c341d7761bccfd77152b1031d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-2.0-or-later

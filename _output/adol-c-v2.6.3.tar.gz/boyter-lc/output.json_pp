@@ -2,7 +2,7 @@
     {
         "Bytes": 1544,
         "BytesHuman": "1.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -19,27 +19,11 @@
     {
         "Bytes": 27006,
         "BytesHuman": "26.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "LGPL-2.1",
-                "Percentage": 53
-            },
-            {
-                "LicenseId": "GPL-2.0+",
-                "Percentage": 53
-            },
-            {
                 "LicenseId": "GPL-2.0",
-                "Percentage": 53
-            },
-            {
-                "LicenseId": "LGPL-2.1+",
-                "Percentage": 53
-            },
-            {
-                "LicenseId": "LGPL-2.1-only",
                 "Percentage": 53
             },
             {
@@ -48,6 +32,22 @@
             },
             {
                 "LicenseId": "GPL-2.0-or-later",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "GPL-2.0+",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "LGPL-2.1-only",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "LGPL-2.1+",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "LGPL-2.1",
                 "Percentage": 53
             },
             {
@@ -69,7 +69,7 @@
     {
         "Bytes": 7149,
         "BytesHuman": "7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "absdrivers.tex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -86,7 +86,7 @@
     {
         "Bytes": 566568,
         "BytesHuman": "553.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "adolc-manual.pdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -103,7 +103,7 @@
     {
         "Bytes": 1179455,
         "BytesHuman": "1.1M",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "adolc-manual.ps",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -120,7 +120,7 @@
     {
         "Bytes": 233304,
         "BytesHuman": "227.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "adolc-manual.tex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -137,7 +137,7 @@
     {
         "Bytes": 7783,
         "BytesHuman": "7.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "multiplexed.eps",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -154,7 +154,7 @@
     {
         "Bytes": 3532,
         "BytesHuman": "3.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "multiplexed.pdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -171,7 +171,7 @@
     {
         "Bytes": 203332,
         "BytesHuman": "198.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "short_ref.pdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -188,7 +188,7 @@
     {
         "Bytes": 407018,
         "BytesHuman": "397.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "short_ref.ps",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -205,7 +205,7 @@
     {
         "Bytes": 19267,
         "BytesHuman": "18.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "short_ref.tex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -222,7 +222,7 @@
     {
         "Bytes": 23278,
         "BytesHuman": "22.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "tap_point.eps",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -239,7 +239,7 @@
     {
         "Bytes": 14051,
         "BytesHuman": "13.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "tap_point.pdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -256,7 +256,7 @@
     {
         "Bytes": 4324,
         "BytesHuman": "4.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "tapeadv.eps",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -273,7 +273,7 @@
     {
         "Bytes": 5265,
         "BytesHuman": "5.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "tapeadv.pdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -290,7 +290,7 @@
     {
         "Bytes": 4726,
         "BytesHuman": "4.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "tapebasic.eps",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -307,7 +307,7 @@
     {
         "Bytes": 5906,
         "BytesHuman": "5.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "tapebasic.pdf",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -324,7 +324,7 @@
     {
         "Bytes": 124,
         "BytesHuman": "124B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "version.tex",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -341,7 +341,7 @@
     {
         "Bytes": 145,
         "BytesHuman": "145B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/doc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/doc",
         "Filename": "version.tex.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -358,7 +358,7 @@
     {
         "Bytes": 1669,
         "BytesHuman": "1.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -375,19 +375,11 @@
     {
         "Bytes": 26673,
         "BytesHuman": "26K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "LGPL-2.1-only",
-                "Percentage": 53
-            },
-            {
-                "LicenseId": "GPL-2.0-or-later",
-                "Percentage": 53
-            },
-            {
-                "LicenseId": "GPL-2.0-only",
+                "LicenseId": "GPL-2.0",
                 "Percentage": 53
             },
             {
@@ -399,11 +391,19 @@
                 "Percentage": 53
             },
             {
-                "LicenseId": "GPL-2.0",
+                "LicenseId": "GPL-2.0-only",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "GPL-2.0-or-later",
                 "Percentage": 53
             },
             {
                 "LicenseId": "GPL-2.0+",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "LGPL-2.1-only",
                 "Percentage": 53
             },
             {
@@ -425,7 +425,7 @@
     {
         "Bytes": 1491,
         "BytesHuman": "1.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -442,7 +442,7 @@
     {
         "Bytes": 302,
         "BytesHuman": "302B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "Readme_VC++.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -459,7 +459,7 @@
     {
         "Bytes": 1134,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -476,15 +476,15 @@
     {
         "Bytes": 20188,
         "BytesHuman": "19.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-1.0",
+                "LicenseId": "GPL-1.0-only",
                 "Percentage": 57
             },
             {
-                "LicenseId": "GPL-1.0-only",
+                "LicenseId": "GPL-1.0",
                 "Percentage": 57
             },
             {
@@ -492,11 +492,7 @@
                 "Percentage": 55
             },
             {
-                "LicenseId": "GPL-1.0+",
-                "Percentage": 53
-            },
-            {
-                "LicenseId": "GPL-2.0",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 53
             },
             {
@@ -504,11 +500,15 @@
                 "Percentage": 53
             },
             {
-                "LicenseId": "GPL-2.0+",
+                "LicenseId": "GPL-2.0-or-later",
                 "Percentage": 53
             },
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "GPL-2.0",
                 "Percentage": 53
             }
         ],
@@ -526,7 +526,7 @@
     {
         "Bytes": 916,
         "BytesHuman": "916B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/checkpointing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -543,7 +543,7 @@
     {
         "Bytes": 19144,
         "BytesHuman": "18.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/checkpointing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -593,7 +593,7 @@
     {
         "Bytes": 702,
         "BytesHuman": "702B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/checkpointing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -610,7 +610,7 @@
     {
         "Bytes": 2946,
         "BytesHuman": "2.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/checkpointing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing",
         "Filename": "checkpointing.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -627,7 +627,7 @@
     {
         "Bytes": 651,
         "BytesHuman": "651B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/clock",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -644,7 +644,7 @@
     {
         "Bytes": 19604,
         "BytesHuman": "19.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/clock",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -694,7 +694,7 @@
     {
         "Bytes": 1177,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/clock",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock",
         "Filename": "myclock.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -711,7 +711,7 @@
     {
         "Bytes": 1271,
         "BytesHuman": "1.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/clock",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock",
         "Filename": "myclock.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -728,7 +728,7 @@
     {
         "Bytes": 559,
         "BytesHuman": "559B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/cuda",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -745,7 +745,7 @@
     {
         "Bytes": 12977,
         "BytesHuman": "12.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/cuda",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -775,7 +775,7 @@
     {
         "Bytes": 7020,
         "BytesHuman": "6.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/cuda",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda",
         "Filename": "liborgpu.cu",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -792,7 +792,7 @@
     {
         "Bytes": 3221,
         "BytesHuman": "3.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/cuda",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda",
         "Filename": "traceless_cuda.cu",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -809,7 +809,7 @@
     {
         "Bytes": 997,
         "BytesHuman": "997B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/detexam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -826,7 +826,7 @@
     {
         "Bytes": 19569,
         "BytesHuman": "19.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/detexam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -876,7 +876,7 @@
     {
         "Bytes": 990,
         "BytesHuman": "990B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/detexam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -893,7 +893,7 @@
     {
         "Bytes": 6986,
         "BytesHuman": "6.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/detexam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam",
         "Filename": "detexam-old.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -910,7 +910,7 @@
     {
         "Bytes": 7582,
         "BytesHuman": "7.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/detexam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam",
         "Filename": "detexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -927,7 +927,7 @@
     {
         "Bytes": 925,
         "BytesHuman": "925B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ext_diff_func",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -944,7 +944,7 @@
     {
         "Bytes": 19144,
         "BytesHuman": "18.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ext_diff_func",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -994,7 +994,7 @@
     {
         "Bytes": 707,
         "BytesHuman": "707B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ext_diff_func",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1011,7 +1011,7 @@
     {
         "Bytes": 3962,
         "BytesHuman": "3.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ext_diff_func",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func",
         "Filename": "ext_diff_func.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1028,7 +1028,7 @@
     {
         "Bytes": 925,
         "BytesHuman": "925B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/fixpoint_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1045,7 +1045,7 @@
     {
         "Bytes": 19144,
         "BytesHuman": "18.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/fixpoint_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -1095,7 +1095,7 @@
     {
         "Bytes": 721,
         "BytesHuman": "721B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/fixpoint_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1112,7 +1112,7 @@
     {
         "Bytes": 2393,
         "BytesHuman": "2.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/fixpoint_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam",
         "Filename": "fixpoint_exam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1129,7 +1129,7 @@
     {
         "Bytes": 975,
         "BytesHuman": "975B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/helm",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1146,7 +1146,7 @@
     {
         "Bytes": 19557,
         "BytesHuman": "19.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/helm",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -1196,7 +1196,7 @@
     {
         "Bytes": 1127,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/helm",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1213,7 +1213,7 @@
     {
         "Bytes": 3657,
         "BytesHuman": "3.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/helm",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm",
         "Filename": "helm-auto-exam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1230,7 +1230,7 @@
     {
         "Bytes": 3595,
         "BytesHuman": "3.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/helm",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm",
         "Filename": "helm-diff-exam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1247,7 +1247,7 @@
     {
         "Bytes": 912,
         "BytesHuman": "912B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/hessmat",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1264,7 +1264,7 @@
     {
         "Bytes": 19017,
         "BytesHuman": "18.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/hessmat",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -1280,7 +1280,7 @@
                 "Percentage": 54
             },
             {
-                "LicenseId": "GPL-2.0",
+                "LicenseId": "GPL-1.0+",
                 "Percentage": 52
             },
             {
@@ -1292,11 +1292,11 @@
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-1.0+",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-2.0+",
+                "LicenseId": "GPL-2.0",
                 "Percentage": 52
             }
         ],
@@ -1314,7 +1314,7 @@
     {
         "Bytes": 632,
         "BytesHuman": "632B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/hessmat",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1331,7 +1331,7 @@
     {
         "Bytes": 8162,
         "BytesHuman": "8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/hessmat",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat",
         "Filename": "hessmat.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1348,7 +1348,7 @@
     {
         "Bytes": 7825,
         "BytesHuman": "7.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
         "Filename": "ADOL-C_NLP.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1365,7 +1365,7 @@
     {
         "Bytes": 5120,
         "BytesHuman": "5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
         "Filename": "ADOL-C_NLP.hpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1382,7 +1382,7 @@
     {
         "Bytes": 2091,
         "BytesHuman": "2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1399,7 +1399,7 @@
     {
         "Bytes": 1988,
         "BytesHuman": "1.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1",
         "Filename": "cpp_example.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1416,7 +1416,7 @@
     {
         "Bytes": 8111,
         "BytesHuman": "7.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
         "Filename": "ADOL-C_sparseNLP.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1433,7 +1433,7 @@
     {
         "Bytes": 5651,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
         "Filename": "ADOL-C_sparseNLP.hpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1450,7 +1450,7 @@
     {
         "Bytes": 2104,
         "BytesHuman": "2.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1467,7 +1467,7 @@
     {
         "Bytes": 2006,
         "BytesHuman": "2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse",
         "Filename": "cpp_example.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1484,7 +1484,7 @@
     {
         "Bytes": 10321,
         "BytesHuman": "10.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
         "Filename": "ADOL-C_NLP.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1501,7 +1501,7 @@
     {
         "Bytes": 5120,
         "BytesHuman": "5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
         "Filename": "ADOL-C_NLP.hpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1518,7 +1518,7 @@
     {
         "Bytes": 2089,
         "BytesHuman": "2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1535,7 +1535,7 @@
     {
         "Bytes": 1988,
         "BytesHuman": "1.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA",
         "Filename": "cpp_example.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1552,7 +1552,7 @@
     {
         "Bytes": 10619,
         "BytesHuman": "10.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
         "Filename": "ADOL-C_sparseNLP.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1569,7 +1569,7 @@
     {
         "Bytes": 5650,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
         "Filename": "ADOL-C_sparseNLP.hpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1586,7 +1586,7 @@
     {
         "Bytes": 2105,
         "BytesHuman": "2.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1603,7 +1603,7 @@
     {
         "Bytes": 2006,
         "BytesHuman": "2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse",
         "Filename": "cpp_example.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1620,7 +1620,7 @@
     {
         "Bytes": 1454,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ipopt",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1637,7 +1637,7 @@
     {
         "Bytes": 4918,
         "BytesHuman": "4.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lie",
         "Filename": "GantryCrane.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1654,7 +1654,7 @@
     {
         "Bytes": 924,
         "BytesHuman": "924B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lie",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1671,7 +1671,7 @@
     {
         "Bytes": 19070,
         "BytesHuman": "18.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lie",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -1687,7 +1687,7 @@
                 "Percentage": 54
             },
             {
-                "LicenseId": "GPL-2.0",
+                "LicenseId": "GPL-1.0+",
                 "Percentage": 52
             },
             {
@@ -1699,11 +1699,11 @@
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-1.0+",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-2.0+",
+                "LicenseId": "GPL-2.0",
                 "Percentage": 52
             }
         ],
@@ -1721,7 +1721,7 @@
     {
         "Bytes": 1056,
         "BytesHuman": "1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lighthouse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1738,7 +1738,7 @@
     {
         "Bytes": 20497,
         "BytesHuman": "20K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lighthouse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -1788,7 +1788,7 @@
     {
         "Bytes": 1649,
         "BytesHuman": "1.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lighthouse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1805,7 +1805,7 @@
     {
         "Bytes": 3875,
         "BytesHuman": "3.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lighthouse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse",
         "Filename": "cubic-2.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1822,7 +1822,7 @@
     {
         "Bytes": 3494,
         "BytesHuman": "3.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lighthouse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse",
         "Filename": "cubic-iter-2.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1839,7 +1839,7 @@
     {
         "Bytes": 3704,
         "BytesHuman": "3.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lighthouse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse",
         "Filename": "cubic-iter.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1856,7 +1856,7 @@
     {
         "Bytes": 5289,
         "BytesHuman": "5.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lighthouse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse",
         "Filename": "cubic.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1873,7 +1873,7 @@
     {
         "Bytes": 2439,
         "BytesHuman": "2.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lufact",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact",
         "Filename": "LU.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1890,7 +1890,7 @@
     {
         "Bytes": 1479,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lufact",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact",
         "Filename": "LU.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1907,7 +1907,7 @@
     {
         "Bytes": 5318,
         "BytesHuman": "5.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lufact",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact",
         "Filename": "LUdet.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1924,7 +1924,7 @@
     {
         "Bytes": 5488,
         "BytesHuman": "5.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lufact",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact",
         "Filename": "LUsolve.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1941,7 +1941,7 @@
     {
         "Bytes": 1100,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lufact",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1958,7 +1958,7 @@
     {
         "Bytes": 19558,
         "BytesHuman": "19.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lufact",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2008,7 +2008,7 @@
     {
         "Bytes": 1470,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/lufact",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2025,7 +2025,7 @@
     {
         "Bytes": 1457,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ode",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2042,7 +2042,7 @@
     {
         "Bytes": 21852,
         "BytesHuman": "21.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ode",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2092,7 +2092,7 @@
     {
         "Bytes": 1664,
         "BytesHuman": "1.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ode",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2109,7 +2109,7 @@
     {
         "Bytes": 8402,
         "BytesHuman": "8.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ode",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode",
         "Filename": "vfunc_eutroph.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2126,7 +2126,7 @@
     {
         "Bytes": 12362,
         "BytesHuman": "12.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ode",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode",
         "Filename": "vfunc_fic.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2143,7 +2143,7 @@
     {
         "Bytes": 4752,
         "BytesHuman": "4.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ode",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode",
         "Filename": "vfunc_robertson.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2160,7 +2160,7 @@
     {
         "Bytes": 12391,
         "BytesHuman": "12.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/ode",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode",
         "Filename": "vgenodemain.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2177,7 +2177,7 @@
     {
         "Bytes": 945,
         "BytesHuman": "945B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/openmp_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2194,7 +2194,7 @@
     {
         "Bytes": 19512,
         "BytesHuman": "19.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/openmp_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2244,7 +2244,7 @@
     {
         "Bytes": 1275,
         "BytesHuman": "1.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/openmp_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2261,7 +2261,7 @@
     {
         "Bytes": 5187,
         "BytesHuman": "5.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/openmp_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam",
         "Filename": "liborpar.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2278,7 +2278,7 @@
     {
         "Bytes": 4750,
         "BytesHuman": "4.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/openmp_exam",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam",
         "Filename": "liborser.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2295,7 +2295,7 @@
     {
         "Bytes": 1014,
         "BytesHuman": "1014B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/param",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/param",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2312,7 +2312,7 @@
     {
         "Bytes": 19132,
         "BytesHuman": "18.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/param",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/param",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2362,7 +2362,7 @@
     {
         "Bytes": 8113,
         "BytesHuman": "7.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/param",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/param",
         "Filename": "paramexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2379,7 +2379,7 @@
     {
         "Bytes": 912,
         "BytesHuman": "912B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/pow",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2396,15 +2396,15 @@
     {
         "Bytes": 19005,
         "BytesHuman": "18.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/pow",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-1.0-only",
+                "LicenseId": "GPL-1.0",
                 "Percentage": 56
             },
             {
-                "LicenseId": "GPL-1.0",
+                "LicenseId": "GPL-1.0-only",
                 "Percentage": 56
             },
             {
@@ -2413,10 +2413,6 @@
             },
             {
                 "LicenseId": "GPL-1.0+",
-                "Percentage": 52
-            },
-            {
-                "LicenseId": "GPL-2.0",
                 "Percentage": 52
             },
             {
@@ -2429,6 +2425,10 @@
             },
             {
                 "LicenseId": "GPL-2.0+",
+                "Percentage": 52
+            },
+            {
+                "LicenseId": "GPL-2.0",
                 "Percentage": 52
             }
         ],
@@ -2446,7 +2446,7 @@
     {
         "Bytes": 750,
         "BytesHuman": "750B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/pow",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2463,7 +2463,7 @@
     {
         "Bytes": 4267,
         "BytesHuman": "4.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/pow",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow",
         "Filename": "powexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2480,7 +2480,7 @@
     {
         "Bytes": 914,
         "BytesHuman": "914B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/scal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2497,7 +2497,7 @@
     {
         "Bytes": 19026,
         "BytesHuman": "18.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/scal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2547,7 +2547,7 @@
     {
         "Bytes": 801,
         "BytesHuman": "801B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/scal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2564,7 +2564,7 @@
     {
         "Bytes": 7385,
         "BytesHuman": "7.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/scal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal",
         "Filename": "scalexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2581,7 +2581,7 @@
     {
         "Bytes": 1135,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2598,7 +2598,7 @@
     {
         "Bytes": 20696,
         "BytesHuman": "20.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2648,7 +2648,7 @@
     {
         "Bytes": 1853,
         "BytesHuman": "1.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2665,7 +2665,7 @@
     {
         "Bytes": 20392,
         "BytesHuman": "19.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse",
         "Filename": "jacpatexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2682,7 +2682,7 @@
     {
         "Bytes": 7544,
         "BytesHuman": "7.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse",
         "Filename": "sparse_hessian.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2699,7 +2699,7 @@
     {
         "Bytes": 8819,
         "BytesHuman": "8.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse",
         "Filename": "sparse_jacobian.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2716,7 +2716,7 @@
     {
         "Bytes": 955,
         "BytesHuman": "955B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/speelpenning",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2733,7 +2733,7 @@
     {
         "Bytes": 19155,
         "BytesHuman": "18.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/speelpenning",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2783,7 +2783,7 @@
     {
         "Bytes": 737,
         "BytesHuman": "737B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/speelpenning",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2800,7 +2800,7 @@
     {
         "Bytes": 7603,
         "BytesHuman": "7.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/speelpenning",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning",
         "Filename": "speelpenning.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2817,7 +2817,7 @@
     {
         "Bytes": 962,
         "BytesHuman": "962B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/tapesave",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2834,7 +2834,7 @@
     {
         "Bytes": 19521,
         "BytesHuman": "19.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/tapesave",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -2884,7 +2884,7 @@
     {
         "Bytes": 1220,
         "BytesHuman": "1.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/tapesave",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2901,7 +2901,7 @@
     {
         "Bytes": 3639,
         "BytesHuman": "3.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/tapesave",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave",
         "Filename": "createTape.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2918,7 +2918,7 @@
     {
         "Bytes": 2886,
         "BytesHuman": "2.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/tapesave",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave",
         "Filename": "useTape.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2935,7 +2935,7 @@
     {
         "Bytes": 1114,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2952,7 +2952,7 @@
     {
         "Bytes": 21074,
         "BytesHuman": "20.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -3002,7 +3002,7 @@
     {
         "Bytes": 1637,
         "BytesHuman": "1.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3019,7 +3019,7 @@
     {
         "Bytes": 5263,
         "BytesHuman": "5.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "accessexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3036,7 +3036,7 @@
     {
         "Bytes": 3541,
         "BytesHuman": "3.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "coordinates.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3053,7 +3053,7 @@
     {
         "Bytes": 5576,
         "BytesHuman": "5.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "inversexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3070,7 +3070,7 @@
     {
         "Bytes": 5624,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "taylorexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3087,7 +3087,7 @@
     {
         "Bytes": 4832,
         "BytesHuman": "4.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/taylor",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor",
         "Filename": "trigger.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3104,7 +3104,7 @@
     {
         "Bytes": 3059,
         "BytesHuman": "3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3121,7 +3121,7 @@
     {
         "Bytes": 27987,
         "BytesHuman": "27.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -3145,15 +3145,15 @@
                 "Percentage": 52
             },
             {
-                "LicenseId": "LGPL-2.1",
-                "Percentage": 52
-            },
-            {
                 "LicenseId": "LGPL-2.1-only",
                 "Percentage": 52
             },
             {
                 "LicenseId": "LGPL-2.1+",
+                "Percentage": 52
+            },
+            {
+                "LicenseId": "LGPL-2.1",
                 "Percentage": 52
             }
         ],
@@ -3171,7 +3171,7 @@
     {
         "Bytes": 4372,
         "BytesHuman": "4.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3188,7 +3188,7 @@
     {
         "Bytes": 839,
         "BytesHuman": "839B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "detexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3205,7 +3205,7 @@
     {
         "Bytes": 801,
         "BytesHuman": "801B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "eutrophexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3222,7 +3222,7 @@
     {
         "Bytes": 840,
         "BytesHuman": "840B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "experimental.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3239,7 +3239,7 @@
     {
         "Bytes": 839,
         "BytesHuman": "839B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "ficexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3256,7 +3256,7 @@
     {
         "Bytes": 801,
         "BytesHuman": "801B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "gearexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3273,7 +3273,7 @@
     {
         "Bytes": 839,
         "BytesHuman": "839B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "griewankexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3290,7 +3290,7 @@
     {
         "Bytes": 838,
         "BytesHuman": "838B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "helmholtzexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3307,7 +3307,7 @@
     {
         "Bytes": 839,
         "BytesHuman": "839B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "michalewitzexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3324,7 +3324,7 @@
     {
         "Bytes": 801,
         "BytesHuman": "801B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "pargearexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3341,7 +3341,7 @@
     {
         "Bytes": 839,
         "BytesHuman": "839B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "powexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3358,7 +3358,7 @@
     {
         "Bytes": 801,
         "BytesHuman": "801B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "robertsonexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3375,7 +3375,7 @@
     {
         "Bytes": 839,
         "BytesHuman": "839B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "rosenbrockexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3392,7 +3392,7 @@
     {
         "Bytes": 12081,
         "BytesHuman": "11.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "rotations.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3409,7 +3409,7 @@
     {
         "Bytes": 3598,
         "BytesHuman": "3.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "rotations.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3426,7 +3426,7 @@
     {
         "Bytes": 6110,
         "BytesHuman": "6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_determinant.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3443,7 +3443,7 @@
     {
         "Bytes": 4559,
         "BytesHuman": "4.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_experimental.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3460,7 +3460,7 @@
     {
         "Bytes": 4774,
         "BytesHuman": "4.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_griewank.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3477,7 +3477,7 @@
     {
         "Bytes": 5456,
         "BytesHuman": "5.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_helmholtz.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3494,7 +3494,7 @@
     {
         "Bytes": 4576,
         "BytesHuman": "4.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_michalewitz.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3511,7 +3511,7 @@
     {
         "Bytes": 4789,
         "BytesHuman": "4.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_power.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3528,7 +3528,7 @@
     {
         "Bytes": 4758,
         "BytesHuman": "4.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_rosenbrock.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3545,7 +3545,7 @@
     {
         "Bytes": 4457,
         "BytesHuman": "4.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sfunc_speelpenning.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3562,7 +3562,7 @@
     {
         "Bytes": 43187,
         "BytesHuman": "42.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "sgenmain.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3579,7 +3579,7 @@
     {
         "Bytes": 801,
         "BytesHuman": "801B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "shuttlexam.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3596,7 +3596,7 @@
     {
         "Bytes": 801,
         "BytesHuman": "801B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "simplevec.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3613,7 +3613,7 @@
     {
         "Bytes": 840,
         "BytesHuman": "840B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "speelpenning.ctrl",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3630,7 +3630,7 @@
     {
         "Bytes": 11540,
         "BytesHuman": "11.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "vfunc_gear.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3647,7 +3647,7 @@
     {
         "Bytes": 22825,
         "BytesHuman": "22.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "vfunc_pargear.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3664,7 +3664,7 @@
     {
         "Bytes": 7790,
         "BytesHuman": "7.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "vfunc_shuttle.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3681,7 +3681,7 @@
     {
         "Bytes": 5261,
         "BytesHuman": "5.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "vfunc_simplevec.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3698,7 +3698,7 @@
     {
         "Bytes": 41508,
         "BytesHuman": "40.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples/additional_examples/timing",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing",
         "Filename": "vgenmain.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3715,7 +3715,7 @@
     {
         "Bytes": 5215,
         "BytesHuman": "5.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "adolc_examples.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3732,7 +3732,7 @@
     {
         "Bytes": 3844,
         "BytesHuman": "3.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "detexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3749,7 +3749,7 @@
     {
         "Bytes": 7841,
         "BytesHuman": "7.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "detexam.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3766,7 +3766,7 @@
     {
         "Bytes": 8007,
         "BytesHuman": "7.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "luexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3783,7 +3783,7 @@
     {
         "Bytes": 3665,
         "BytesHuman": "3.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "odexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3800,7 +3800,7 @@
     {
         "Bytes": 8366,
         "BytesHuman": "8.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "odexam.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3817,7 +3817,7 @@
     {
         "Bytes": 3788,
         "BytesHuman": "3.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "powexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3834,7 +3834,7 @@
     {
         "Bytes": 7841,
         "BytesHuman": "7.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "powexam.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3851,7 +3851,7 @@
     {
         "Bytes": 3013,
         "BytesHuman": "2.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "speelpenning.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3868,7 +3868,7 @@
     {
         "Bytes": 7846,
         "BytesHuman": "7.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "speelpenning.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3885,7 +3885,7 @@
     {
         "Bytes": 1963,
         "BytesHuman": "1.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "tapeless_scalar.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3902,7 +3902,7 @@
     {
         "Bytes": 7849,
         "BytesHuman": "7.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "tapeless_scalar.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3919,7 +3919,7 @@
     {
         "Bytes": 1992,
         "BytesHuman": "1.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "tapeless_vector.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3936,7 +3936,7 @@
     {
         "Bytes": 7849,
         "BytesHuman": "7.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "tapeless_vector.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3953,7 +3953,7 @@
     {
         "Bytes": 604,
         "BytesHuman": "604B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/examples",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/examples",
         "Filename": "winpackage.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3970,7 +3970,7 @@
     {
         "Bytes": 610,
         "BytesHuman": "610B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3987,20 +3987,24 @@
     {
         "Bytes": 19253,
         "BytesHuman": "18.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
-            {
-                "LicenseId": "GPL-1.0",
-                "Percentage": 57
-            },
             {
                 "LicenseId": "GPL-1.0-only",
                 "Percentage": 57
             },
             {
+                "LicenseId": "GPL-1.0",
+                "Percentage": 57
+            },
+            {
                 "LicenseId": "GPL-1.0-or-later",
                 "Percentage": 55
+            },
+            {
+                "LicenseId": "GPL-2.0+",
+                "Percentage": 53
             },
             {
                 "LicenseId": "GPL-2.0-only",
@@ -4012,10 +4016,6 @@
             },
             {
                 "LicenseId": "GPL-2.0",
-                "Percentage": 53
-            },
-            {
-                "LicenseId": "GPL-2.0+",
                 "Percentage": 53
             },
             {
@@ -4037,7 +4037,7 @@
     {
         "Bytes": 1023,
         "BytesHuman": "1023B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4054,7 +4054,7 @@
     {
         "Bytes": 22133,
         "BytesHuman": "21.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -4104,7 +4104,7 @@
     {
         "Bytes": 3392,
         "BytesHuman": "3.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adalloc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4121,7 +4121,7 @@
     {
         "Bytes": 3008,
         "BytesHuman": "2.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adolc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4138,7 +4138,7 @@
     {
         "Bytes": 1743,
         "BytesHuman": "1.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adolc_openmp.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4155,7 +4155,7 @@
     {
         "Bytes": 653,
         "BytesHuman": "653B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adolc_sparse.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4172,7 +4172,7 @@
     {
         "Bytes": 15449,
         "BytesHuman": "15.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adouble.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4189,7 +4189,7 @@
     {
         "Bytes": 26150,
         "BytesHuman": "25.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adoublecuda.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4206,7 +4206,7 @@
     {
         "Bytes": 51098,
         "BytesHuman": "49.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adtl.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4223,7 +4223,7 @@
     {
         "Bytes": 772,
         "BytesHuman": "772B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adutils.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4240,7 +4240,7 @@
     {
         "Bytes": 776,
         "BytesHuman": "776B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "adutilsc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4257,7 +4257,7 @@
     {
         "Bytes": 6397,
         "BytesHuman": "6.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "advector.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4274,7 +4274,7 @@
     {
         "Bytes": 4326,
         "BytesHuman": "4.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "checkpointing.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4291,7 +4291,7 @@
     {
         "Bytes": 3518,
         "BytesHuman": "3.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "convolut.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4308,7 +4308,7 @@
     {
         "Bytes": 675,
         "BytesHuman": "675B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4325,7 +4325,7 @@
     {
         "Bytes": 17575,
         "BytesHuman": "17.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -4359,7 +4359,7 @@
     {
         "Bytes": 5681,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers",
         "Filename": "drivers.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4376,7 +4376,7 @@
     {
         "Bytes": 5904,
         "BytesHuman": "5.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers",
         "Filename": "odedrivers.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4393,7 +4393,7 @@
     {
         "Bytes": 3494,
         "BytesHuman": "3.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers",
         "Filename": "psdrivers.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4410,7 +4410,7 @@
     {
         "Bytes": 3429,
         "BytesHuman": "3.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers",
         "Filename": "taylor.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4427,7 +4427,7 @@
     {
         "Bytes": 10948,
         "BytesHuman": "10.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "externfcts.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4444,7 +4444,7 @@
     {
         "Bytes": 6895,
         "BytesHuman": "6.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "externfcts2.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4461,7 +4461,7 @@
     {
         "Bytes": 1475,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "fixpoint.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4478,7 +4478,7 @@
     {
         "Bytes": 1447,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "fortutils.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4495,7 +4495,7 @@
     {
         "Bytes": 24647,
         "BytesHuman": "24.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "interfaces.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4512,7 +4512,7 @@
     {
         "Bytes": 758,
         "BytesHuman": "758B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4529,15 +4529,15 @@
     {
         "Bytes": 17899,
         "BytesHuman": "17.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-1.0-only",
+                "LicenseId": "GPL-1.0",
                 "Percentage": 56
             },
             {
-                "LicenseId": "GPL-1.0",
+                "LicenseId": "GPL-1.0-only",
                 "Percentage": 56
             },
             {
@@ -4545,7 +4545,7 @@
                 "Percentage": 54
             },
             {
-                "LicenseId": "GPL-2.0",
+                "LicenseId": "GPL-1.0+",
                 "Percentage": 52
             },
             {
@@ -4557,11 +4557,11 @@
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-1.0+",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-2.0+",
+                "LicenseId": "GPL-2.0",
                 "Percentage": 52
             }
         ],
@@ -4579,7 +4579,7 @@
     {
         "Bytes": 1293,
         "BytesHuman": "1.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "adolc_settings.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4596,7 +4596,7 @@
     {
         "Bytes": 1276,
         "BytesHuman": "1.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "adolc_settings.h.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4613,7 +4613,7 @@
     {
         "Bytes": 4870,
         "BytesHuman": "4.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "adubfunc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4630,7 +4630,7 @@
     {
         "Bytes": 3866,
         "BytesHuman": "3.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "common.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4647,7 +4647,7 @@
     {
         "Bytes": 6655,
         "BytesHuman": "6.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "paramfunc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4664,7 +4664,7 @@
     {
         "Bytes": 3256,
         "BytesHuman": "3.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/internal",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal",
         "Filename": "usrparms.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4681,7 +4681,7 @@
     {
         "Bytes": 643,
         "BytesHuman": "643B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/lie",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4698,7 +4698,7 @@
     {
         "Bytes": 17591,
         "BytesHuman": "17.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/lie",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -4732,7 +4732,7 @@
     {
         "Bytes": 1759,
         "BytesHuman": "1.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/lie",
         "Filename": "drivers.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4749,7 +4749,7 @@
     {
         "Bytes": 8012,
         "BytesHuman": "7.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "param.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4766,7 +4766,7 @@
     {
         "Bytes": 1448,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "revolve.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4783,7 +4783,7 @@
     {
         "Bytes": 661,
         "BytesHuman": "661B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4800,15 +4800,15 @@
     {
         "Bytes": 17538,
         "BytesHuman": "17.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-1.0",
+                "LicenseId": "GPL-1.0-only",
                 "Percentage": 56
             },
             {
-                "LicenseId": "GPL-1.0-only",
+                "LicenseId": "GPL-1.0",
                 "Percentage": 56
             },
             {
@@ -4834,7 +4834,7 @@
     {
         "Bytes": 4100,
         "BytesHuman": "4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse",
         "Filename": "sparse_fo_rev.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4851,7 +4851,7 @@
     {
         "Bytes": 5076,
         "BytesHuman": "5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse",
         "Filename": "sparsedrivers.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4868,7 +4868,7 @@
     {
         "Bytes": 641,
         "BytesHuman": "641B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/tapedoc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/tapedoc",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4885,7 +4885,7 @@
     {
         "Bytes": 17541,
         "BytesHuman": "17.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/tapedoc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/tapedoc",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -4919,7 +4919,7 @@
     {
         "Bytes": 1284,
         "BytesHuman": "1.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc/tapedoc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/tapedoc",
         "Filename": "tapedoc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4936,7 +4936,7 @@
     {
         "Bytes": 5231,
         "BytesHuman": "5.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/include/adolc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc",
         "Filename": "taping.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4953,7 +4953,7 @@
     {
         "Bytes": 2697,
         "BytesHuman": "2.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4970,7 +4970,7 @@
     {
         "Bytes": 34338,
         "BytesHuman": "33.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -5004,7 +5004,7 @@
     {
         "Bytes": 9222,
         "BytesHuman": "9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "adalloc.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5021,7 +5021,7 @@
     {
         "Bytes": 73058,
         "BytesHuman": "71.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "adouble.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5038,7 +5038,7 @@
     {
         "Bytes": 3543,
         "BytesHuman": "3.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "adouble_tl.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5055,7 +5055,7 @@
     {
         "Bytes": 18983,
         "BytesHuman": "18.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "advector.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5072,7 +5072,7 @@
     {
         "Bytes": 36808,
         "BytesHuman": "35.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "ampisupport.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5089,7 +5089,7 @@
     {
         "Bytes": 24632,
         "BytesHuman": "24.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "ampisupportAdolc.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5106,7 +5106,7 @@
     {
         "Bytes": 5042,
         "BytesHuman": "4.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "ampisupportAdolc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5123,7 +5123,7 @@
     {
         "Bytes": 4199,
         "BytesHuman": "4.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "buffer_temp.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5140,7 +5140,7 @@
     {
         "Bytes": 21402,
         "BytesHuman": "20.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "checkpointing.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5157,7 +5157,7 @@
     {
         "Bytes": 1561,
         "BytesHuman": "1.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "checkpointing_p.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5174,7 +5174,7 @@
     {
         "Bytes": 5186,
         "BytesHuman": "5.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "config.h.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5191,7 +5191,7 @@
     {
         "Bytes": 6216,
         "BytesHuman": "6.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "convolut.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5208,7 +5208,7 @@
     {
         "Bytes": 1077,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5225,7 +5225,7 @@
     {
         "Bytes": 19592,
         "BytesHuman": "19.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -5275,7 +5275,7 @@
     {
         "Bytes": 9984,
         "BytesHuman": "9.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "drivers.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5292,7 +5292,7 @@
     {
         "Bytes": 7336,
         "BytesHuman": "7.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "driversf.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5309,7 +5309,7 @@
     {
         "Bytes": 11096,
         "BytesHuman": "10.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "odedrivers.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5326,7 +5326,7 @@
     {
         "Bytes": 2966,
         "BytesHuman": "2.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "odedriversf.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5343,7 +5343,7 @@
     {
         "Bytes": 4988,
         "BytesHuman": "4.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "psdrivers.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5360,7 +5360,7 @@
     {
         "Bytes": 3269,
         "BytesHuman": "3.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "psdriversf.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5377,7 +5377,7 @@
     {
         "Bytes": 28244,
         "BytesHuman": "27.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/drivers",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers",
         "Filename": "taylor.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5394,7 +5394,7 @@
     {
         "Bytes": 1880,
         "BytesHuman": "1.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "dvlparms.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5411,7 +5411,7 @@
     {
         "Bytes": 8805,
         "BytesHuman": "8.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "externfcts.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5428,7 +5428,7 @@
     {
         "Bytes": 6900,
         "BytesHuman": "6.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "externfcts2.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5445,7 +5445,7 @@
     {
         "Bytes": 1211,
         "BytesHuman": "1.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "externfcts_p.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5462,7 +5462,7 @@
     {
         "Bytes": 8108,
         "BytesHuman": "7.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fixpoint.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5479,7 +5479,7 @@
     {
         "Bytes": 107188,
         "BytesHuman": "104.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fo_rev.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5496,7 +5496,7 @@
     {
         "Bytes": 2332,
         "BytesHuman": "2.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fortutils.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5513,7 +5513,7 @@
     {
         "Bytes": 5948,
         "BytesHuman": "5.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "forward_partx.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5530,7 +5530,7 @@
     {
         "Bytes": 757,
         "BytesHuman": "757B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fos_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5547,7 +5547,7 @@
     {
         "Bytes": 692,
         "BytesHuman": "692B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fos_pl_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5564,7 +5564,7 @@
     {
         "Bytes": 659,
         "BytesHuman": "659B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fos_pl_reverse.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5581,7 +5581,7 @@
     {
         "Bytes": 700,
         "BytesHuman": "700B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fos_pl_sig_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5598,7 +5598,7 @@
     {
         "Bytes": 662,
         "BytesHuman": "662B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fos_pl_sig_reverse.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5615,7 +5615,7 @@
     {
         "Bytes": 725,
         "BytesHuman": "725B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fos_reverse.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5632,7 +5632,7 @@
     {
         "Bytes": 741,
         "BytesHuman": "741B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fov_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5649,7 +5649,7 @@
     {
         "Bytes": 737,
         "BytesHuman": "737B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fov_offset_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5666,7 +5666,7 @@
     {
         "Bytes": 692,
         "BytesHuman": "692B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fov_pl_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5683,7 +5683,7 @@
     {
         "Bytes": 699,
         "BytesHuman": "699B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fov_pl_sig_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5700,7 +5700,7 @@
     {
         "Bytes": 725,
         "BytesHuman": "725B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "fov_reverse.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5717,7 +5717,7 @@
     {
         "Bytes": 109195,
         "BytesHuman": "106.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "ho_rev.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5734,7 +5734,7 @@
     {
         "Bytes": 759,
         "BytesHuman": "759B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "hos_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5751,7 +5751,7 @@
     {
         "Bytes": 639,
         "BytesHuman": "639B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "hos_ov_reverse.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5768,7 +5768,7 @@
     {
         "Bytes": 726,
         "BytesHuman": "726B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "hos_reverse.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5785,7 +5785,7 @@
     {
         "Bytes": 741,
         "BytesHuman": "741B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "hov_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5802,7 +5802,7 @@
     {
         "Bytes": 726,
         "BytesHuman": "726B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "hov_reverse.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5819,7 +5819,7 @@
     {
         "Bytes": 671,
         "BytesHuman": "671B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "hov_wk_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5836,7 +5836,7 @@
     {
         "Bytes": 754,
         "BytesHuman": "754B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "indopro_forward_pl.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5853,7 +5853,7 @@
     {
         "Bytes": 710,
         "BytesHuman": "710B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "indopro_forward_s.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5870,7 +5870,7 @@
     {
         "Bytes": 707,
         "BytesHuman": "707B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "indopro_forward_t.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5887,7 +5887,7 @@
     {
         "Bytes": 699,
         "BytesHuman": "699B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "int_forward_s.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5904,7 +5904,7 @@
     {
         "Bytes": 698,
         "BytesHuman": "698B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "int_forward_t.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5921,7 +5921,7 @@
     {
         "Bytes": 697,
         "BytesHuman": "697B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "int_reverse_s.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5938,7 +5938,7 @@
     {
         "Bytes": 695,
         "BytesHuman": "695B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "int_reverse_t.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5955,7 +5955,7 @@
     {
         "Bytes": 15614,
         "BytesHuman": "15.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "interfaces.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5972,7 +5972,7 @@
     {
         "Bytes": 6855,
         "BytesHuman": "6.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "interfacesf.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5989,7 +5989,7 @@
     {
         "Bytes": 983,
         "BytesHuman": "983B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/lie",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6006,7 +6006,7 @@
     {
         "Bytes": 21355,
         "BytesHuman": "20.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/lie",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -6022,6 +6022,10 @@
                 "Percentage": 54
             },
             {
+                "LicenseId": "GPL-1.0+",
+                "Percentage": 52
+            },
+            {
                 "LicenseId": "GPL-2.0-only",
                 "Percentage": 52
             },
@@ -6031,10 +6035,6 @@
             },
             {
                 "LicenseId": "GPL-2.0+",
-                "Percentage": 52
-            },
-            {
-                "LicenseId": "GPL-1.0+",
                 "Percentage": 52
             },
             {
@@ -6056,7 +6056,7 @@
     {
         "Bytes": 1447,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/lie",
         "Filename": "adolc_lie.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6073,7 +6073,7 @@
     {
         "Bytes": 13171,
         "BytesHuman": "12.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/lie",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/lie",
         "Filename": "adolc_lie_c.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6090,7 +6090,7 @@
     {
         "Bytes": 712,
         "BytesHuman": "712B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "nonl_ind_forward_s.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6107,7 +6107,7 @@
     {
         "Bytes": 711,
         "BytesHuman": "711B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "nonl_ind_forward_t.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6124,7 +6124,7 @@
     {
         "Bytes": 779,
         "BytesHuman": "779B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "nonl_ind_old_forward_s.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6141,7 +6141,7 @@
     {
         "Bytes": 778,
         "BytesHuman": "778B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "nonl_ind_old_forward_t.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6158,7 +6158,7 @@
     {
         "Bytes": 2694,
         "BytesHuman": "2.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "oplate.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6175,7 +6175,7 @@
     {
         "Bytes": 17665,
         "BytesHuman": "17.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "param.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6192,7 +6192,7 @@
     {
         "Bytes": 23000,
         "BytesHuman": "22.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "revolve.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6209,7 +6209,7 @@
     {
         "Bytes": 2053,
         "BytesHuman": "2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "rpl_malloc.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6226,7 +6226,7 @@
     {
         "Bytes": 2461,
         "BytesHuman": "2.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "rpl_malloc.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6243,7 +6243,7 @@
     {
         "Bytes": 953,
         "BytesHuman": "953B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6260,7 +6260,7 @@
     {
         "Bytes": 19175,
         "BytesHuman": "18.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -6276,7 +6276,7 @@
                 "Percentage": 54
             },
             {
-                "LicenseId": "GPL-2.0",
+                "LicenseId": "GPL-1.0+",
                 "Percentage": 52
             },
             {
@@ -6288,11 +6288,11 @@
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-1.0+",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-2.0+",
+                "LicenseId": "GPL-2.0",
                 "Percentage": 52
             }
         ],
@@ -6310,7 +6310,7 @@
     {
         "Bytes": 4132,
         "BytesHuman": "4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse",
         "Filename": "sparse_fo_rev.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6327,7 +6327,7 @@
     {
         "Bytes": 46543,
         "BytesHuman": "45.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse",
         "Filename": "sparsedrivers.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6344,7 +6344,7 @@
     {
         "Bytes": 9143,
         "BytesHuman": "8.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "storemanager.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6361,7 +6361,7 @@
     {
         "Bytes": 56485,
         "BytesHuman": "55.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "tape_handling.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6378,7 +6378,7 @@
     {
         "Bytes": 977,
         "BytesHuman": "977B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/tapedoc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/tapedoc",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6395,7 +6395,7 @@
     {
         "Bytes": 18964,
         "BytesHuman": "18.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/tapedoc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/tapedoc",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -6445,7 +6445,7 @@
     {
         "Bytes": 61264,
         "BytesHuman": "59.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src/tapedoc",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src/tapedoc",
         "Filename": "tapedoc.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6462,7 +6462,7 @@
     {
         "Bytes": 107678,
         "BytesHuman": "105.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "taping.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6479,7 +6479,7 @@
     {
         "Bytes": 23123,
         "BytesHuman": "22.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "taping_p.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6496,7 +6496,7 @@
     {
         "Bytes": 216797,
         "BytesHuman": "211.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "uni5_for.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6513,7 +6513,7 @@
     {
         "Bytes": 757,
         "BytesHuman": "757B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "zos_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6530,7 +6530,7 @@
     {
         "Bytes": 706,
         "BytesHuman": "706B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/src",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/src",
         "Filename": "zos_pl_forward.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6547,7 +6547,7 @@
     {
         "Bytes": 1420,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/test",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/test",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6564,7 +6564,7 @@
     {
         "Bytes": 20240,
         "BytesHuman": "19.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/test",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/test",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -6580,7 +6580,7 @@
                 "Percentage": 54
             },
             {
-                "LicenseId": "GPL-1.0+",
+                "LicenseId": "GPL-2.0",
                 "Percentage": 52
             },
             {
@@ -6592,11 +6592,11 @@
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-2.0+",
+                "LicenseId": "GPL-1.0+",
                 "Percentage": 52
             },
             {
-                "LicenseId": "GPL-2.0",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 52
             }
         ],
@@ -6614,7 +6614,7 @@
     {
         "Bytes": 170,
         "BytesHuman": "170B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/test",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/test",
         "Filename": "fminmax.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6631,7 +6631,7 @@
     {
         "Bytes": 4071,
         "BytesHuman": "4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/test",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/test",
         "Filename": "powexam.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6648,7 +6648,7 @@
     {
         "Bytes": 1447,
         "BytesHuman": "1.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/test",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/test",
         "Filename": "run_tests",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6665,7 +6665,7 @@
     {
         "Bytes": 3130,
         "BytesHuman": "3.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/ADOL-C/test",
+        "Directory": "/adol-c-v2.6.3.tar.gz/ADOL-C/test",
         "Filename": "speelpenning.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6682,7 +6682,7 @@
     {
         "Bytes": 896,
         "BytesHuman": "896B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "AUTHORS",
         "LicenseGuesses": [
             {
@@ -6704,7 +6704,7 @@
     {
         "Bytes": 419,
         "BytesHuman": "419B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "BUGS",
         "LicenseGuesses": [
             {
@@ -6726,7 +6726,7 @@
     {
         "Bytes": 7407,
         "BytesHuman": "7.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "ChangeLog",
         "LicenseGuesses": [
             {
@@ -6748,7 +6748,7 @@
     {
         "Bytes": 13582,
         "BytesHuman": "13.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "INSTALL",
         "LicenseGuesses": [
             {
@@ -6770,7 +6770,7 @@
     {
         "Bytes": 27604,
         "BytesHuman": "27K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "LICENSE",
         "LicenseGuesses": [
             {
@@ -6792,7 +6792,7 @@
     {
         "Bytes": 10633,
         "BytesHuman": "10.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14",
         "Filename": "ColPack.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6809,7 +6809,7 @@
     {
         "Bytes": 1071,
         "BytesHuman": "1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14",
         "Filename": "Readme_VC++.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6826,7 +6826,7 @@
     {
         "Bytes": 2254,
         "BytesHuman": "2.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14",
         "Filename": "adolc.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6843,7 +6843,7 @@
     {
         "Bytes": 17498,
         "BytesHuman": "17.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14",
         "Filename": "adolc.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6860,7 +6860,7 @@
     {
         "Bytes": 2235,
         "BytesHuman": "2.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14",
         "Filename": "installer.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6877,7 +6877,7 @@
     {
         "Bytes": 5501,
         "BytesHuman": "5.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/nosparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/nosparse",
         "Filename": "config.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6894,7 +6894,7 @@
     {
         "Bytes": 5604,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/nosparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/nosparse",
         "Filename": "config.h.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6911,7 +6911,7 @@
     {
         "Bytes": 5495,
         "BytesHuman": "5.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/sparse",
         "Filename": "config.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6928,7 +6928,7 @@
     {
         "Bytes": 5593,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/sparse",
         "Filename": "config.h.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6945,7 +6945,7 @@
     {
         "Bytes": 5501,
         "BytesHuman": "5.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/x64/nosparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/nosparse",
         "Filename": "config.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6962,7 +6962,7 @@
     {
         "Bytes": 5604,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/x64/nosparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/nosparse",
         "Filename": "config.h.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6979,7 +6979,7 @@
     {
         "Bytes": 5495,
         "BytesHuman": "5.4K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/x64/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/sparse",
         "Filename": "config.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6996,7 +6996,7 @@
     {
         "Bytes": 5598,
         "BytesHuman": "5.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/MSVisualStudio/v14/x64/sparse",
+        "Directory": "/adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/sparse",
         "Filename": "config.h.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7013,7 +7013,7 @@
     {
         "Bytes": 2355,
         "BytesHuman": "2.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "Makefile.am",
         "LicenseGuesses": [
             {
@@ -7035,7 +7035,7 @@
     {
         "Bytes": 31294,
         "BytesHuman": "30.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -7057,7 +7057,7 @@
     {
         "Bytes": 0,
         "BytesHuman": "0",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "NEWS",
         "LicenseGuesses": [
             {
@@ -7079,7 +7079,7 @@
     {
         "Bytes": 3326,
         "BytesHuman": "3.2K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "README",
         "LicenseGuesses": [
             {
@@ -7101,7 +7101,7 @@
     {
         "Bytes": 537,
         "BytesHuman": "537B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "TODO",
         "LicenseGuesses": [
             {
@@ -7123,7 +7123,7 @@
     {
         "Bytes": 39857,
         "BytesHuman": "38.9K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "aclocal.m4",
         "LicenseGuesses": [
             {
@@ -7145,7 +7145,7 @@
     {
         "Bytes": 4568,
         "BytesHuman": "4.5K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "adolc.spec",
         "LicenseGuesses": [
             {
@@ -7167,7 +7167,7 @@
     {
         "Bytes": 4676,
         "BytesHuman": "4.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "adolc.spec.in",
         "LicenseGuesses": [
             {
@@ -7189,7 +7189,7 @@
     {
         "Bytes": 290,
         "BytesHuman": "290B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "adolclib.pc.in",
         "LicenseGuesses": [
             {
@@ -7211,7 +7211,7 @@
     {
         "Bytes": 414,
         "BytesHuman": "414B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "acx_builtin.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7228,7 +7228,7 @@
     {
         "Bytes": 1082,
         "BytesHuman": "1.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "ampi.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7245,7 +7245,7 @@
     {
         "Bytes": 10810,
         "BytesHuman": "10.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "ax_boost_base.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7262,7 +7262,7 @@
     {
         "Bytes": 4188,
         "BytesHuman": "4.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "ax_boost_system.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7279,7 +7279,7 @@
     {
         "Bytes": 1759,
         "BytesHuman": "1.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "colpack.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7296,7 +7296,7 @@
     {
         "Bytes": 45640,
         "BytesHuman": "44.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "config.guess",
         "LicenseGuesses": [
             {
@@ -7374,7 +7374,7 @@
     {
         "Bytes": 35521,
         "BytesHuman": "34.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "config.sub",
         "LicenseGuesses": [
             {
@@ -7382,7 +7382,7 @@
                 "Percentage": 101
             },
             {
-                "LicenseId": "LGPL-2.1+",
+                "LicenseId": "LGPL-2.1-only",
                 "Percentage": 98
             },
             {
@@ -7394,7 +7394,7 @@
                 "Percentage": 98
             },
             {
-                "LicenseId": "LGPL-2.1-only",
+                "LicenseId": "LGPL-2.1+",
                 "Percentage": 98
             },
             {
@@ -7402,11 +7402,11 @@
                 "Percentage": 95
             },
             {
-                "LicenseId": "LGPL-2.0-only",
+                "LicenseId": "LGPL-2.0",
                 "Percentage": 95
             },
             {
-                "LicenseId": "LGPL-2.0",
+                "LicenseId": "LGPL-2.0-only",
                 "Percentage": 95
             }
         ],
@@ -7424,7 +7424,7 @@
     {
         "Bytes": 23566,
         "BytesHuman": "23K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "depcomp",
         "LicenseGuesses": [
             {
@@ -7458,7 +7458,7 @@
     {
         "Bytes": 13997,
         "BytesHuman": "13.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "install-sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7475,7 +7475,7 @@
     {
         "Bytes": 286440,
         "BytesHuman": "279.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "libtool.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7492,7 +7492,7 @@
     {
         "Bytes": 283474,
         "BytesHuman": "276.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "ltmain.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7509,7 +7509,7 @@
     {
         "Bytes": 12347,
         "BytesHuman": "12.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "ltoptions.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7526,7 +7526,7 @@
     {
         "Bytes": 4372,
         "BytesHuman": "4.3K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "ltsugar.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7543,7 +7543,7 @@
     {
         "Bytes": 690,
         "BytesHuman": "690B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "ltversion.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7560,7 +7560,7 @@
     {
         "Bytes": 6126,
         "BytesHuman": "6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "lt~obsolete.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7577,7 +7577,7 @@
     {
         "Bytes": 6873,
         "BytesHuman": "6.7K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "missing",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7594,7 +7594,7 @@
     {
         "Bytes": 2129,
         "BytesHuman": "2.1K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "mpi.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7611,7 +7611,7 @@
     {
         "Bytes": 4708,
         "BytesHuman": "4.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/autoconf",
+        "Directory": "/adol-c-v2.6.3.tar.gz/autoconf",
         "Filename": "stdcxx_11.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7628,7 +7628,7 @@
     {
         "Bytes": 656983,
         "BytesHuman": "641.6K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "configure",
         "LicenseGuesses": [
             {
@@ -7650,7 +7650,7 @@
     {
         "Bytes": 23301,
         "BytesHuman": "22.8K",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "configure.ac",
         "LicenseGuesses": [
             {
@@ -7672,7 +7672,7 @@
     {
         "Bytes": 237,
         "BytesHuman": "237B",
-        "Directory": "/adol-c-v2.6.3.tar.gz_extracted/",
+        "Directory": "/adol-c-v2.6.3.tar.gz/",
         "Filename": "update_versions.sh",
         "LicenseGuesses": [
             {

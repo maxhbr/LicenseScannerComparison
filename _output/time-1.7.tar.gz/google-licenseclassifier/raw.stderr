@@ -1,296 +1,296 @@
-2018/06/19 13:34:20 Classifying license(s): /time-1.7.tar.gz_extracted/configure
-2018/06/19 13:34:21 Finished Classifying License "/time-1.7.tar.gz_extracted/configure": 178.635913ms
-2018/06/19 13:34:21 Couldn't classify license(s)
-2018/06/19 13:34:21 Classifying license(s): /time-1.7.tar.gz_extracted/port.h
-2018/06/19 13:34:21 detected language: 4
-2018/06/19 13:34:21 " port.h -- portability declarations for GNU time "
-2018/06/19 13:34:21 Finished Classifying License "/time-1.7.tar.gz_extracted/port.h": 630.593µs
-2018/06/19 13:34:21 Couldn't classify license(s)
-2018/06/19 13:34:22 Classifying license(s): /time-1.7.tar.gz_extracted/resuse.h
-2018/06/19 13:34:22 detected language: 4
-2018/06/19 13:34:22 " resuse.h - declarations for child process resource use library\n   Copyright (C) 1993, 1996 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
-2018/06/19 13:34:22 " High resolution clock structure.  "
-2018/06/19 13:34:22 " Seconds.  \n Microseconds.  "
-2018/06/19 13:34:22 " This rusage structure measures nanoseconds instead of microseconds.  "
-2018/06/19 13:34:22 " Process resource usage structure.  "
-2018/06/19 13:34:22 " User time used.  \n System time used.  "
-2018/06/19 13:34:22 " Information on the resources used by a child process.  "
-2018/06/19 13:34:22 " Wallclock time of process.  "
-2018/06/19 13:34:22 " Prepare to measure a child process.  "
-2018/06/19 13:34:22 " Wait for and fill in data on child process PID.  "
-2018/06/19 13:34:22 " _RESUSE_H "
-2018/06/19 13:34:22 Finished Classifying License "/time-1.7.tar.gz_extracted/resuse.h": 9.115218ms
-2018/06/19 13:34:23 Classifying license(s): /time-1.7.tar.gz_extracted/install-sh
-2018/06/19 13:34:23 Finished Classifying License "/time-1.7.tar.gz_extracted/install-sh": 19.712217ms
-2018/06/19 13:34:23 Couldn't classify license(s)
-2018/06/19 13:34:24 Classifying license(s): /time-1.7.tar.gz_extracted/version.c
-2018/06/19 13:34:24 detected language: 4
-2018/06/19 13:34:24 Finished Classifying License "/time-1.7.tar.gz_extracted/version.c": 48.34µs
-2018/06/19 13:34:24 Couldn't classify license(s)
-2018/06/19 13:34:24 Classifying license(s): /time-1.7.tar.gz_extracted/time.c
-2018/06/19 13:34:24 detected language: 4
-2018/06/19 13:34:24 " `time' utility to display resource usage of processes.\n   Copyright (C) 1990, 91, 92, 93, 96 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
-2018/06/19 13:34:24 " Originally written by David Keppel <pardo@cs.washington.edu>.\n   Heavily modified by David MacKenzie <djm@gnu.ai.mit.edu>.  "
-2018/06/19 13:34:24 " For getpagesize, maybe.  "
-2018/06/19 13:34:24 " A Pointer to a signal handler.  "
-2018/06/19 13:34:24 " msec = milliseconds = 1/1,000 (1*10e-3) second.\n   usec = microseconds = 1/1,000,000 (1*10e-6) second.  "
-2018/06/19 13:34:24 " Systems known to fill in the average resident set size fields:\n   SunOS 4.1.3 (m68k and sparc)\n   Mt. Xinu 4.3BSD on HP9000/300 (m68k)\n   Ultrix 4.4 (mips)\n   IBM ACIS 4.3BSD (rt)\n   Sony NEWS-OS 4.1C (m68k)\n\n   Systems known to not fill them in:\n   OSF/1 1.3 (alpha)\n   BSD/386 1.1 (anything derived from NET-2)\n   NetBSD 1.0 (4.4BSD-derived)\n   Irix 5.2 (R4000)\n   Solaris 2.3\n   Linux 1.0\n\n   It doesn't matter how many clock ticks/second there are on\n   systems that don't fill in those fields.\n\n   If the avgresident (%t) we print is less than a power of 2 away from\n   the maxresident (%M), then we likely are using the right number.\n   Another good check is comparing the average text size with the\n   output of `size' on the executable.\n\n   According to the SunOS manual, there are 50 ticks/sec on the sun3\n   and 100 on the sun4.\n\n   Some manuals have an apparent error, claiming that units for average\n   sizes are kb*sec.  Judging by the contents of `struct rusage', it\n   looks like it should be kb*ticks, like on SunOS.  Ticks/sec seems\n   to be (empirically):\n   50 Mt. Xinu\n   250 Ultrix (mips)\n   50 ACIS\n   100 NEWS-OS\n\n   sysconf(_SC_CLK_TCK) is *unrelated*.  "
-2018/06/19 13:34:24 " The number of milliseconds in one `tick' used by the `rusage' structure.  "
-2018/06/19 13:34:24 " Return the number of clock ticks that occur in M milliseconds.  "
-2018/06/19 13:34:24 " The default output format.  "
-2018/06/19 13:34:24 " The output format for the -p option ."
-2018/06/19 13:34:24 " Format string for printing all statistics verbosely.\n   Keep this output to 24 lines so users on terminals can see it all.\n\n   The format string is used two ways: as a format string, and in\n   verbose mode, to document all the possible formatting possiblities.\n   When `longstats' is used as a format string, it has to be put into\n   one contiguous string (e.g., into a `char[]').  We could alternatively\n   store it as a `char *' and convert it into a `*char[]' when we need\n   it as documentation, but most compilers choke on very long strings.  "
-2018/06/19 13:34:24 " If true, show an English description next to each statistic.  "
-2018/06/19 13:34:24 " Name of output file.  Only used if -o option is given.  "
-2018/06/19 13:34:24 " Output stream, stderr by default.  "
-2018/06/19 13:34:24 " If true, append to `outfile' rather than truncating it.  "
-2018/06/19 13:34:24 " The output format string.  "
-2018/06/19 13:34:24 " The name this program was invoked by.  "
-2018/06/19 13:34:24 " Print ARGV to FP, with each entry in ARGV separated by FILLER.  "
-2018/06/19 13:34:24 " Return a null-terminated string containing the concatenation,\n   in order, of all of the elements of ARGV.\n   The '\\0' at the end of each ARGV-element is not copied.\n   Example:\tchar *argv[] = {\"12\", \"ab\", \".,\"};\n \t\tlinear_argv(argv) == \"12ab.,\"\n   Print a message and return NULL if memory allocation failed.  "
-2018/06/19 13:34:24 " Each string in ARGV.  \n Allocated space.  \n Copy in to destination.  \n Copy from source.  "
-2018/06/19 13:34:24 " Find length of ARGV and allocate.  "
-2018/06/19 13:34:24 " Copy each string in ARGV to the new string.  At the end of\n     each string copy, back up `dp' so that on the next string,\n     the `\\0' will be overwritten.  "
-2018/06/19 13:34:24 " Do nothing.  "
-2018/06/19 13:34:24 " Return the number of kilobytes corresponding to a number of pages PAGES.\n   (Actually, we use it to convert pages*ticks into kilobytes*ticks.)\n\n   Try to do arithmetic so that the risk of overflow errors is minimized.\n   This is funky since the pagesize could be less than 1K.\n   Note: Some machines express getrusage statistics in terms of K,\n   others in terms of pages.  "
-2018/06/19 13:34:24 " Initialization.  "
-2018/06/19 13:34:24 " Conversion.  "
-2018/06/19 13:34:24 " Could overflow.  \n Smaller first, \n then larger.  "
-2018/06/19 13:34:24 " Could underflow.  \n Larger first, \n then smaller.  "
-2018/06/19 13:34:24 " summarize: Report on the system use of a command.\n\n   Copy the FMT argument to FP except that `%' sequences\n   have special meaning, and `\\n' and `\\t' are translated into\n   newline and tab, respectively, and `\\\\' is translated into `\\'.\n\n   The character following a `%' can be:\n   (* means the tcsh time builtin also recognizes it)\n   % == a literal `%'\n   C == command name and arguments\n*  D == average unshared data size in K (ru_idrss+ru_isrss)\n*  E == elapsed real (wall clock) time in [hour:]min:sec\n*  F == major page faults (required physical I/O) (ru_majflt)\n*  I == file system inputs (ru_inblock)\n*  K == average total mem usage (ru_idrss+ru_isrss+ru_ixrss)\n*  M == maximum resident set size in K (ru_maxrss)\n*  O == file system outputs (ru_oublock)\n*  P == percent of CPU this job got (total cpu time / elapsed time)\n*  R == minor page faults (reclaims; no physical I/O involved) (ru_minflt)\n*  S == system (kernel) time (seconds) (ru_stime)\n*  U == user time (seconds) (ru_utime)\n*  W == times swapped out (ru_nswap)\n*  X == average amount of shared text in K (ru_ixrss)\n   Z == page size\n*  c == involuntary context switches (ru_nivcsw)\n   e == elapsed real time in seconds\n*  k == signals delivered (ru_nsignals)\n   p == average unshared stack size in K (ru_isrss)\n*  r == socket messages received (ru_msgrcv)\n*  s == socket messages sent (ru_msgsnd)\n   t == average resident set size in K (ru_idrss)\n*  w == voluntary context switches (ru_nvcsw)\n   x == exit status of command\n\n   Various memory usages are found by converting from page-seconds\n   to kbytes by multiplying by the page size, dividing by 1024,\n   and dividing by elapsed real time.\n\n   FP is the stream to print to.\n   FMT is the format string, interpreted as described above.\n   COMMAND is the command and args that are being summarized.\n   RESP is resource information on the command.  "
-2018/06/19 13:34:24 " Elapsed real milliseconds.  \n Elapsed virtual (CPU) milliseconds.  "
-2018/06/19 13:34:24 " Convert all times to milliseconds.  Occasionally, one of these values\n     comes out as zero.  Dividing by zero causes problems, so we first\n     check the time value.  If it is zero, then we take `evasive action'\n     instead of calculating a value.  "
-2018/06/19 13:34:24 " Literal '%'.  "
-2018/06/19 13:34:24 " The command that got timed.  "
-2018/06/19 13:34:24 " Average unshared data size.  "
-2018/06/19 13:34:24 " Elapsed real (wall clock) time.  \n One hour -> h:m:s.  "
-2018/06/19 13:34:24 " -> m:s.  "
-2018/06/19 13:34:24 " Major page faults.  "
-2018/06/19 13:34:24 " Inputs.  "
-2018/06/19 13:34:24 " Average mem usage == data+stack+text.  "
-2018/06/19 13:34:24 " Maximum resident set size.  "
-2018/06/19 13:34:24 " Outputs.  "
-2018/06/19 13:34:24 " Percent of CPU this job got.  \n % cpu is (total cpu time)/(elapsed time).  "
-2018/06/19 13:34:24 " Minor page faults (reclaims).  "
-2018/06/19 13:34:24 " System time.  "
-2018/06/19 13:34:24 " User time.  "
-2018/06/19 13:34:24 " Times swapped out.  "
-2018/06/19 13:34:24 " Average shared text size.  "
-2018/06/19 13:34:24 " Page size.  "
-2018/06/19 13:34:24 " Involuntary context switches.  "
-2018/06/19 13:34:24 " Elapsed real time in seconds.  "
-2018/06/19 13:34:24 " Signals delivered.  "
-2018/06/19 13:34:24 " Average stack segment.  "
-2018/06/19 13:34:24 " Incoming socket messages received.  "
-2018/06/19 13:34:24 " Outgoing socket messages sent.  "
-2018/06/19 13:34:24 " Average resident set size.  "
-2018/06/19 13:34:24 " Voluntary context switches.  "
-2018/06/19 13:34:24 " Exit status.  "
-2018/06/19 13:34:24 " Format escape.  "
-2018/06/19 13:34:24 " Initialize the options and parse the command line arguments.\n   Also note the position in ARGV where the command to time starts.\n\n   By default, output is to stderr.\n\n   ARGV is the array of command line arguments.\n   ARGC is the number of command line arguments.\n\n   Return the command line to run and gather statistics on.  "
-2018/06/19 13:34:24 " Format found in environment.  "
-2018/06/19 13:34:24 " Initialize the option flags.  "
-2018/06/19 13:34:24 " Set the format string from the environment.  Do this before checking\n     the args so that we won't clobber a user-specified format.  "
-2018/06/19 13:34:24 " If the user specified verbose output, we need to convert\n     `longstats' to a `char *'.  "
-2018/06/19 13:34:24 " Out of memory.  "
-2018/06/19 13:34:24 " Run command CMD and return statistics on it.\n   Put the statistics in *RESP.  "
-2018/06/19 13:34:24 " Pid of child.  "
-2018/06/19 13:34:24 " Run CMD as child process.  "
-2018/06/19 13:34:24 " If child.  \n Don't cast execvp arguments; that causes errors on some systems,\n\t versus merely warnings if the cast is left off.  "
-2018/06/19 13:34:24 " Have signals kill the child but not self (if possible).  "
-2018/06/19 13:34:24 " Re-enable signals.  "
-2018/06/19 13:34:24 Finished Classifying License "/time-1.7.tar.gz_extracted/time.c": 28.445745ms
-2018/06/19 13:34:25 Classifying license(s): /time-1.7.tar.gz_extracted/getopt1.c
-2018/06/19 13:34:25 detected language: 4
-2018/06/19 13:34:25 " getopt_long and getopt_long_only entry points for GNU getopt.\n   Copyright (C) 1987, 88, 89, 90, 91, 92, 1993, 1994\n\tFree Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify it\n   under the terms of the GNU General Public License as published by the\n   Free Software Foundation; either version 2, or (at your option) any\n   later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n   USA.  "
-2018/06/19 13:34:25 " This is a separate conditional since some stdc systems\n   reject `defined (const)'.  "
-2018/06/19 13:34:25 " Comment out all this code if we are using the GNU C Library, and are not\n   actually compiling the library itself.  This code is part of the GNU C\n   Library, but also included in many other GNU distributions.  Compiling\n   and linking in this code is a waste when using the GNU C library\n   (especially if it is a shared library).  Rather than having every GNU\n   program understand `configure --with-gnu-libc' and omit the object files,\n   it is simpler to just do this in the source for each such file.  "
-2018/06/19 13:34:25 " This needs to come after some library #include\n   to get __GNU_LIBRARY__ defined.  "
-2018/06/19 13:34:25 " Like getopt_long, but '-' as well as '--' can indicate a long option.\n   If an option that starts with '-' (not '--') doesn't match a long option,\n   but does match a short option, it is parsed as a short option\n   instead.  "
-2018/06/19 13:34:25 " _LIBC or not __GNU_LIBRARY__.  "
-2018/06/19 13:34:25 " TEST "
-2018/06/19 13:34:25 Finished Classifying License "/time-1.7.tar.gz_extracted/getopt1.c": 13.148336ms
-2018/06/19 13:34:26 Classifying license(s): /time-1.7.tar.gz_extracted/resuse.c
-2018/06/19 13:34:26 detected language: 4
-2018/06/19 13:34:26 " resuse.c - child process resource use library\n   Copyright (C) 1993, 1996 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
-2018/06/19 13:34:26 " Written by David MacKenzie, with help from\n   arnej@imf.unit.no (Arne Henrik Juul)\n   and pinard@iro.umontreal.ca (Francois Pinard).  "
-2018/06/19 13:34:26 " Prepare to measure a child process.  "
-2018/06/19 13:34:26 " Wait for and fill in data on child process PID.\n   Return 0 on error, 1 if ok.  "
-2018/06/19 13:34:26 " pid_t is short on BSDI, so don't try to promote it.  "
-2018/06/19 13:34:26 " Ignore signals, but don't ignore the children.  When wait3\n     returns the child process, set the time the command finished. "
-2018/06/19 13:34:26 " !HAVE_WAIT3 "
-2018/06/19 13:34:26 " !HAVE_WAIT3 "
-2018/06/19 13:34:26 " Manually carry a one from the seconds field.  "
-2018/06/19 13:34:26 Finished Classifying License "/time-1.7.tar.gz_extracted/resuse.c": 9.599675ms
-2018/06/19 13:34:27 Classifying license(s): /time-1.7.tar.gz_extracted/mdate-sh
-2018/06/19 13:34:27 Finished Classifying License "/time-1.7.tar.gz_extracted/mdate-sh": 12.605282ms
-2018/06/19 13:34:28 Classifying license(s): /time-1.7.tar.gz_extracted/getpagesize.h
-2018/06/19 13:34:28 detected language: 4
-2018/06/19 13:34:28 " Emulate getpagesize on systems that lack it.  "
-2018/06/19 13:34:28 " no CLSIZE \n no NBPG "
-2018/06/19 13:34:28 " no NBPC "
-2018/06/19 13:34:28 " NBPC \n no NBPG \n no EXEC_PAGESIZE \n no _SC_PAGESIZE "
-2018/06/19 13:34:28 " not HAVE_GETPAGESIZE "
-2018/06/19 13:34:28 Finished Classifying License "/time-1.7.tar.gz_extracted/getpagesize.h": 1.122965ms
-2018/06/19 13:34:28 Couldn't classify license(s)
-2018/06/19 13:34:28 Classifying license(s): /time-1.7.tar.gz_extracted/time.texi
-2018/06/19 13:34:28 Finished Classifying License "/time-1.7.tar.gz_extracted/time.texi": 48.985513ms
-2018/06/19 13:34:28 Couldn't classify license(s)
-2018/06/19 13:34:29 Classifying license(s): /time-1.7.tar.gz_extracted/error.c
-2018/06/19 13:34:29 detected language: 4
-2018/06/19 13:34:29 " error.c -- error handler for noninteractive utilities\n   Copyright (C) 1990, 91, 92, 93, 94, 95, 96 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
-2018/06/19 13:34:29 " Written by David MacKenzie <djm@gnu.ai.mit.edu>.  "
-2018/06/19 13:34:29 " If NULL, error will flush stdout, then print on stderr the program\n   name, a colon and a space.  Otherwise, error will call this\n   function without parameters instead.  "
-2018/06/19 13:34:29 " This variable is incremented each time `error' is called.  "
-2018/06/19 13:34:29 " In the GNU C library, there is a predefined variable for this.  "
-2018/06/19 13:34:29 " The calling program should define program_name and set it to the\n   name of the executing program.  "
-2018/06/19 13:34:29 " On some systems, strerror is a macro "
-2018/06/19 13:34:29 " HAVE_STRERROR \n _LIBC "
-2018/06/19 13:34:29 " Print the program name and error message MESSAGE, which is a printf-style\n   format string with optional args.\n   If ERRNUM is nonzero, print its corresponding system error message.\n   Exit with status STATUS if it is nonzero.  "
-2018/06/19 13:34:29 " VARARGS "
-2018/06/19 13:34:29 " Sometimes we want to have at most one error per line.  This\n   variable controls whether this mode is selected or not.  "
-2018/06/19 13:34:29 " Simply return and print nothing.  "
-2018/06/19 13:34:29 Finished Classifying License "/time-1.7.tar.gz_extracted/error.c": 11.060146ms
-2018/06/19 13:34:30 Classifying license(s): /time-1.7.tar.gz_extracted/time.info
-2018/06/19 13:34:30 Finished Classifying License "/time-1.7.tar.gz_extracted/time.info": 44.877793ms
-2018/06/19 13:34:30 Couldn't classify license(s)
-2018/06/19 13:34:31 Classifying license(s): /time-1.7.tar.gz_extracted/stamp-vti
-2018/06/19 13:34:31 Finished Classifying License "/time-1.7.tar.gz_extracted/stamp-vti": 417.262µs
-2018/06/19 13:34:31 Couldn't classify license(s)
-2018/06/19 13:34:32 Classifying license(s): /time-1.7.tar.gz_extracted/mkinstalldirs
-2018/06/19 13:34:32 Finished Classifying License "/time-1.7.tar.gz_extracted/mkinstalldirs": 1.609046ms
-2018/06/19 13:34:32 Couldn't classify license(s)
-2018/06/19 13:34:32 Classifying license(s): /time-1.7.tar.gz_extracted/INSTALL
-2018/06/19 13:34:32 Finished Classifying License "/time-1.7.tar.gz_extracted/INSTALL": 26.558518ms
-2018/06/19 13:34:32 Couldn't classify license(s)
-2018/06/19 13:34:33 Classifying license(s): /time-1.7.tar.gz_extracted/getopt.h
-2018/06/19 13:34:33 detected language: 4
-2018/06/19 13:34:33 " Declarations for getopt.\n   Copyright (C) 1989, 90, 91, 92, 93, 94 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify it\n   under the terms of the GNU General Public License as published by the\n   Free Software Foundation; either version 2, or (at your option) any\n   later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n   USA.  "
-2018/06/19 13:34:33 " For communication from `getopt' to the caller.\n   When `getopt' finds an option that takes an argument,\n   the argument value is returned here.\n   Also, when `ordering' is RETURN_IN_ORDER,\n   each non-option ARGV-element is returned here.  "
-2018/06/19 13:34:33 " Index in ARGV of the next element to be scanned.\n   This is used for communication to and from the caller\n   and for communication between successive calls to `getopt'.\n\n   On entry to `getopt', zero means this is the first call; initialize.\n\n   When `getopt' returns EOF, this is the index of the first of the\n   non-option elements that the caller should itself scan.\n\n   Otherwise, `optind' communicates from one call to the next\n   how much of ARGV has been scanned so far.  "
-2018/06/19 13:34:33 " Callers store zero here to inhibit the error message `getopt' prints\n   for unrecognized options.  "
-2018/06/19 13:34:33 " Set to an option character which was unrecognized.  "
-2018/06/19 13:34:33 " Describe the long-named options requested by the application.\n   The LONG_OPTIONS argument to getopt_long or getopt_long_only is a vector\n   of `struct option' terminated by an element containing a name which is\n   zero.\n\n   The field `has_arg' is:\n   no_argument\t\t(or 0) if the option does not take an argument,\n   required_argument\t(or 1) if the option requires an argument,\n   optional_argument \t(or 2) if the option takes an optional argument.\n\n   If the field `flag' is not NULL, it points to a variable that is set\n   to the value given in the field `val' when the option is found, but\n   left unchanged if the option is not found.\n\n   To have a long-named option do something other than set an `int' to\n   a compiled-in constant, such as set a value from `optarg', set the\n   option's `flag' field to zero and its `val' field to a nonzero\n   value (the equivalent single-letter option character, if there is\n   one).  For long options that have a zero `flag' field, `getopt'\n   returns the contents of the `val' field.  "
-2018/06/19 13:34:33 " has_arg can't be an enum because some compilers complain about\n     type mismatches in all the code that assumes it is an int.  "
-2018/06/19 13:34:33 " Names for the values of the `has_arg' field of `struct option'.  "
-2018/06/19 13:34:33 " Many other libraries have conflicting prototypes for getopt, with\n   differences in the consts, in stdlib.h.  To avoid compilation\n   errors, only prototype getopt for the GNU C library.  "
-2018/06/19 13:34:33 " not __GNU_LIBRARY__ "
-2018/06/19 13:34:33 " __GNU_LIBRARY__ "
-2018/06/19 13:34:33 " Internal only.  Users should not call this directly.  "
-2018/06/19 13:34:33 " not __STDC__ "
-2018/06/19 13:34:33 " __STDC__ "
-2018/06/19 13:34:33 " _GETOPT_H "
-2018/06/19 13:34:33 Finished Classifying License "/time-1.7.tar.gz_extracted/getopt.h": 15.778232ms
-2018/06/19 13:34:34 Classifying license(s): /time-1.7.tar.gz_extracted/Makefile.am
-2018/06/19 13:34:34 Finished Classifying License "/time-1.7.tar.gz_extracted/Makefile.am": 6.878169ms
-2018/06/19 13:34:34 Couldn't classify license(s)
-2018/06/19 13:34:35 Classifying license(s): /time-1.7.tar.gz_extracted/AUTHORS
-2018/06/19 13:34:35 Finished Classifying License "/time-1.7.tar.gz_extracted/AUTHORS": 6.221877ms
-2018/06/19 13:34:35 Couldn't classify license(s)
-2018/06/19 13:34:35 Classifying license(s): /time-1.7.tar.gz_extracted/getopt.c
-2018/06/19 13:34:35 detected language: 4
-2018/06/19 13:34:35 " Getopt for GNU.\n   NOTE: getopt is now part of the C library, so if you don't know what\n   \"Keep this file name-space clean\" means, talk to roland@gnu.ai.mit.edu\n   before changing it!\n\n   Copyright (C) 1987, 88, 89, 90, 91, 92, 93, 94, 95, 1996\n   \tFree Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify it\n   under the terms of the GNU General Public License as published by the\n   Free Software Foundation; either version 2, or (at your option) any\n   later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n   USA.  "
-2018/06/19 13:34:35 " This tells Alpha OSF/1 not to define a getopt prototype in <stdio.h>.\n   Ditto for AIX 3.2 and <stdlib.h>.  "
-2018/06/19 13:34:35 " This is a separate conditional since some stdc systems\n   reject `defined (const)'.  "
-2018/06/19 13:34:35 " Comment out all this code if we are using the GNU C Library, and are not\n   actually compiling the library itself.  This code is part of the GNU C\n   Library, but also included in many other GNU distributions.  Compiling\n   and linking in this code is a waste when using the GNU C library\n   (especially if it is a shared library).  Rather than having every GNU\n   program understand `configure --with-gnu-libc' and omit the object files,\n   it is simpler to just do this in the source for each such file.  "
-2018/06/19 13:34:35 " This needs to come after some library #include\n   to get __GNU_LIBRARY__ defined.  "
-2018/06/19 13:34:35 " Don't include stdlib.h for non-GNU C libraries because some of them\n   contain conflicting prototypes for getopt.  "
-2018/06/19 13:34:35 " GNU C library.  "
-2018/06/19 13:34:35 " It's not Unix, really.  See?  Capital letters.  "
-2018/06/19 13:34:35 " This is for other GNU distributions with internationalized messages.\n   When compiling libc, the _ macro is predefined.  "
-2018/06/19 13:34:35 " This version of `getopt' appears to the caller like standard Unix `getopt'\n   but it behaves differently for the user, since it allows the user\n   to intersperse the options with the other arguments.\n\n   As `getopt' works, it permutes the elements of ARGV so that,\n   when it is done, all the options precede everything else.  Thus\n   all application programs are extended to handle flexible argument order.\n\n   Setting the environment variable POSIXLY_CORRECT disables permutation.\n   Then the behavior is completely standard.\n\n   GNU application programs can use a third alternative mode in which\n   they can distinguish the relative order of options and other arguments.  "
-2018/06/19 13:34:35 " For communication from `getopt' to the caller.\n   When `getopt' finds an option that takes an argument,\n   the argument value is returned here.\n   Also, when `ordering' is RETURN_IN_ORDER,\n   each non-option ARGV-element is returned here.  "
-2018/06/19 13:34:35 " Index in ARGV of the next element to be scanned.\n   This is used for communication to and from the caller\n   and for communication between successive calls to `getopt'.\n\n   On entry to `getopt', zero means this is the first call; initialize.\n\n   When `getopt' returns EOF, this is the index of the first of the\n   non-option elements that the caller should itself scan.\n\n   Otherwise, `optind' communicates from one call to the next\n   how much of ARGV has been scanned so far.  "
-2018/06/19 13:34:35 " XXX 1003.2 says this must be 1 before any call.  "
-2018/06/19 13:34:35 " The next char to be scanned in the option-element\n   in which the last option character we returned was found.\n   This allows us to pick up the scan where we left off.\n\n   If this is zero, or a null string, it means resume the scan\n   by advancing to the next ARGV-element.  "
-2018/06/19 13:34:35 " Callers store zero here to inhibit the error message\n   for unrecognized options.  "
-2018/06/19 13:34:35 " Set to an option character which was unrecognized.\n   This must be initialized on some systems to avoid linking in the\n   system's own getopt implementation.  "
-2018/06/19 13:34:35 " Describe how to deal with options that follow non-option ARGV-elements.\n\n   If the caller did not specify anything,\n   the default is REQUIRE_ORDER if the environment variable\n   POSIXLY_CORRECT is defined, PERMUTE otherwise.\n\n   REQUIRE_ORDER means don't recognize them as options;\n   stop option processing when the first non-option is seen.\n   This is what Unix does.\n   This mode of operation is selected by either setting the environment\n   variable POSIXLY_CORRECT, or using `+' as the first character\n   of the list of option characters.\n\n   PERMUTE is the default.  We permute the contents of ARGV as we scan,\n   so that eventually all the non-options are at the end.  This allows options\n   to be given in any order, even with programs that were not written to\n   expect this.\n\n   RETURN_IN_ORDER is an option available to programs that were written\n   to expect options and other ARGV-elements in any order and that care about\n   the ordering of the two.  We describe each non-option ARGV-element\n   as if it were the argument of an option with character code 1.\n   Using `-' as the first character of the list of option characters\n   selects this mode of operation.\n\n   The special argument `--' forces an end of option-scanning regardless\n   of the value of `ordering'.  In the case of RETURN_IN_ORDER, only\n   `--' can cause `getopt' to return EOF with `optind' != ARGC.  "
-2018/06/19 13:34:35 " Value of POSIXLY_CORRECT environment variable.  "
-2018/06/19 13:34:35 " We want to avoid inclusion of string.h with non-GNU libraries\n   because there are many ways it can cause trouble.\n   On some systems, it contains special magic macros that don't work\n   in GCC.  "
-2018/06/19 13:34:35 " Avoid depending on library functions or files\n   whose names are inconsistent.  "
-2018/06/19 13:34:35 " If using GCC, we can safely declare strlen this way.\n   If not using GCC, it is ok not to declare it.  "
-2018/06/19 13:34:35 " Note that Motorola Delta 68k R3V7 comes with GCC but not stddef.h.\n   That was relevant to code that was here before.  "
-2018/06/19 13:34:35 " gcc with -traditional declares the built-in strlen to return int,\n   and has done so at least since version 2.4.5. -- rms.  "
-2018/06/19 13:34:35 " not __STDC__ \n __GNUC__ "
-2018/06/19 13:34:35 " not __GNU_LIBRARY__ "
-2018/06/19 13:34:35 " Handle permutation of arguments.  "
-2018/06/19 13:34:35 " Describe the part of ARGV that contains non-options that have\n   been skipped.  `first_nonopt' is the index in ARGV of the first of them;\n   `last_nonopt' is the index after the last of them.  "
-2018/06/19 13:34:35 " Bash 2.0 gives us an environment variable containing flags\n   indicating ARGV elements that should not be considered arguments.  "
-2018/06/19 13:34:35 " Exchange two adjacent subsequences of ARGV.\n   One subsequence is elements [first_nonopt,last_nonopt)\n   which contains all the non-options that have been skipped so far.\n   The other is elements [last_nonopt,optind), which contains all\n   the options processed since those non-options were skipped.\n\n   `first_nonopt' and `last_nonopt' are relocated so that they describe\n   the new indices of the non-options in ARGV after they are moved.  "
-2018/06/19 13:34:35 " Exchange the shorter segment with the far end of the longer segment.\n     That puts the shorter segment into the right place.\n     It leaves the longer segment in the right place overall,\n     but it consists of two parts that need to be swapped next.  "
-2018/06/19 13:34:35 " Bottom segment is the short one.  "
-2018/06/19 13:34:35 " Swap it with the top part of the top segment.  "
-2018/06/19 13:34:35 " Exclude the moved bottom segment from further swapping.  "
-2018/06/19 13:34:35 " Top segment is the short one.  "
-2018/06/19 13:34:35 " Swap it with the bottom part of the bottom segment.  "
-2018/06/19 13:34:35 " Exclude the moved top segment from further swapping.  "
-2018/06/19 13:34:35 " Update records for the slots the non-options now occupy.  "
-2018/06/19 13:34:35 " Initialize the internal data when the first call is made.  "
-2018/06/19 13:34:35 " Start processing options with ARGV-element 1 (since ARGV-element 0\n     is the program name); the sequence of previously skipped\n     non-option ARGV-elements is empty.  "
-2018/06/19 13:34:35 " Determine how to handle the ordering of options and nonoptions.  "
-2018/06/19 13:34:35 " Bash 2.0 puts a special variable in the environment for each\n\t command it runs, specifying which ARGV elements are the results of\n\t file name wildcard expansion and therefore should not be\n\t considered as options.  "
-2018/06/19 13:34:35 " Scan elements of ARGV (whose length is ARGC) for option characters\n   given in OPTSTRING.\n\n   If an element of ARGV starts with '-', and is not exactly \"-\" or \"--\",\n   then it is an option element.  The characters of this element\n   (aside from the initial '-') are option characters.  If `getopt'\n   is called repeatedly, it returns successively each of the option characters\n   from each of the option elements.\n\n   If `getopt' finds another option character, it returns that character,\n   updating `optind' and `nextchar' so that the next call to `getopt' can\n   resume the scan with the following option character or ARGV-element.\n\n   If there are no more option characters, `getopt' returns `EOF'.\n   Then `optind' is the index in ARGV of the first ARGV-element\n   that is not an option.  (The ARGV-elements have been permuted\n   so that those that are not options now come last.)\n\n   OPTSTRING is a string containing the legitimate option characters.\n   If an option character is seen that is not listed in OPTSTRING,\n   return '?' after printing an error message.  If you set `opterr' to\n   zero, the error message is suppressed but we still return '?'.\n\n   If a char in OPTSTRING is followed by a colon, that means it wants an arg,\n   so the following text in the same ARGV-element, or the text of the following\n   ARGV-element, is returned in `optarg'.  Two colons mean an option that\n   wants an optional arg; if there is text in the current ARGV-element,\n   it is returned in `optarg', otherwise `optarg' is set to zero.\n\n   If OPTSTRING starts with `-' or `+', it requests different methods of\n   handling the non-option ARGV-elements.\n   See the comments about RETURN_IN_ORDER and REQUIRE_ORDER, above.\n\n   Long-named options begin with `--' instead of `-'.\n   Their names may be abbreviated as long as the abbreviation is unique\n   or is an exact match for some defined option.  If they have an\n   argument, it follows the option name in the same ARGV-element, separated\n   from the option name by a `=', or else the in next ARGV-element.\n   When `getopt' finds a long-named option, it returns 0 if that option's\n   `flag' field is nonzero, the value of the option's `val' field\n   if the `flag' field is zero.\n\n   The elements of ARGV aren't really const, because we permute them.\n   But we pretend they're const in the prototype to be compatible\n   with other systems.\n\n   LONGOPTS is a vector of `struct option' terminated by an\n   element containing a name which is zero.\n\n   LONGIND returns the index in LONGOPT of the long-named option found.\n   It is only valid when a long-named option has been found by the most\n   recent call.\n\n   If LONG_ONLY is nonzero, '-' as well as '--' can introduce\n   long-named options.  "
-2018/06/19 13:34:35 " Don't scan ARGV[0], the program name.  "
-2018/06/19 13:34:35 " Test whether ARGV[optind] points to a non-option argument.\n     Either it does not have option syntax, or there is an environment flag\n     from the shell indicating it is not an option.  "
-2018/06/19 13:34:35 " Advance to the next ARGV-element.  "
-2018/06/19 13:34:35 " Give FIRST_NONOPT & LAST_NONOPT rational values if OPTIND has been\n\t moved back by the user (who may also have changed the arguments).  "
-2018/06/19 13:34:35 " If we have just processed some options following some non-options,\n\t     exchange them so that the options come first.  "
-2018/06/19 13:34:35 " Skip any additional non-options\n\t     and extend the range of non-options previously skipped.  "
-2018/06/19 13:34:35 " The special ARGV-element `--' means premature end of options.\n\t Skip it like a null option,\n\t then exchange with previous non-options as if it were an option,\n\t then skip everything else like a non-option.  "
-2018/06/19 13:34:35 " If we have done all the ARGV-elements, stop the scan\n\t and back over any non-options that we skipped and permuted.  "
-2018/06/19 13:34:35 " Set the next-arg-index to point at the non-options\n\t     that we previously skipped, so the caller will digest them.  "
-2018/06/19 13:34:35 " If we have come to a non-option and did not permute it,\n\t either stop the scan or describe it to the caller and pass it by.  "
-2018/06/19 13:34:35 " We have found another option-ARGV-element.\n\t Skip the initial punctuation.  "
-2018/06/19 13:34:35 " Decode the current option-ARGV-element.  "
-2018/06/19 13:34:35 " Check whether the ARGV-element is a long option.\n\n     If long_only and the ARGV-element has the form \"-f\", where f is\n     a valid short option, don't consider it an abbreviated form of\n     a long option that starts with f.  Otherwise there would be no\n     way to give the -f short option.\n\n     On the other hand, if there's a long option \"fubar\" and\n     the ARGV-element is \"-fu\", do consider that an abbreviation of\n     the long option, just like \"--fu\", and not \"-f\" with arg \"u\".\n\n     This distinction seems to be the most useful approach.  "
-2018/06/19 13:34:35 " Do nothing.  "
-2018/06/19 13:34:35 " Test all long options for either exact match\n\t or abbreviated matches.  "
-2018/06/19 13:34:35 " Exact match found.  "
-2018/06/19 13:34:35 " First nonexact match found.  "
-2018/06/19 13:34:35 " Second or later nonexact match found.  "
-2018/06/19 13:34:35 " Don't test has_arg with >, because some C compilers don't\n\t\t allow it to be used on enums.  "
-2018/06/19 13:34:35 " --option "
-2018/06/19 13:34:35 " +option or -option "
-2018/06/19 13:34:35 " Can't find it as a long option.  If this is not getopt_long_only,\n\t or the option starts with '--' or is not a valid short\n\t option, then it's an error.\n\t Otherwise interpret it as a short option.  "
-2018/06/19 13:34:35 " --option "
-2018/06/19 13:34:35 " +option or -option "
-2018/06/19 13:34:35 " Look at and handle the next short option-character.  "
-2018/06/19 13:34:35 " Increment `optind' when we start to process its last character.  "
-2018/06/19 13:34:35 " 1003.2 specifies the format of this message.  "
-2018/06/19 13:34:35 " This is an option that accepts an argument optionally.  "
-2018/06/19 13:34:35 " This is an option that requires an argument.  "
-2018/06/19 13:34:35 " If we end this ARGV-element by taking the rest as an arg,\n\t\t   we must advance to the next element now.  "
-2018/06/19 13:34:35 " 1003.2 specifies the format of this message.  "
-2018/06/19 13:34:35 " We already incremented `optind' once;\n\t\t increment it again when taking next ARGV-elt as argument.  "
-2018/06/19 13:34:35 " _LIBC or not __GNU_LIBRARY__.  "
-2018/06/19 13:34:35 " Compile with -DTEST to make an executable for use in testing\n   the above definition of `getopt'.  "
-2018/06/19 13:34:35 " TEST "
-2018/06/19 13:34:35 Finished Classifying License "/time-1.7.tar.gz_extracted/getopt.c": 52.001935ms
-2018/06/19 13:34:36 Classifying license(s): /time-1.7.tar.gz_extracted/NEWS
-2018/06/19 13:34:36 Finished Classifying License "/time-1.7.tar.gz_extracted/NEWS": 8.074952ms
-2018/06/19 13:34:36 Couldn't classify license(s)
-2018/06/19 13:34:37 Classifying license(s): /time-1.7.tar.gz_extracted/Makefile.in
-2018/06/19 13:34:37 Finished Classifying License "/time-1.7.tar.gz_extracted/Makefile.in": 29.151936ms
-2018/06/19 13:34:37 Couldn't classify license(s)
-2018/06/19 13:34:38 Classifying license(s): /time-1.7.tar.gz_extracted/COPYING
-2018/06/19 13:34:38 Finished Classifying License "/time-1.7.tar.gz_extracted/COPYING": 124.603855ms
-2018/06/19 13:34:39 Classifying license(s): /time-1.7.tar.gz_extracted/texinfo.tex
-2018/06/19 13:34:39 Finished Classifying License "/time-1.7.tar.gz_extracted/texinfo.tex": 586.016345ms
-2018/06/19 13:34:40 Classifying license(s): /time-1.7.tar.gz_extracted/version.texi
-2018/06/19 13:34:40 Finished Classifying License "/time-1.7.tar.gz_extracted/version.texi": 5.574212ms
-2018/06/19 13:34:40 Couldn't classify license(s)
-2018/06/19 13:34:41 Classifying license(s): /time-1.7.tar.gz_extracted/wait.h
-2018/06/19 13:34:41 detected language: 4
-2018/06/19 13:34:41 " wait.h -- POSIX macros for evaluating exit statuses\n   Copyright (C) 1990 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
-2018/06/19 13:34:41 " For pid_t. "
-2018/06/19 13:34:41 Finished Classifying License "/time-1.7.tar.gz_extracted/wait.h": 8.649044ms
-2018/06/19 13:34:42 Classifying license(s): /time-1.7.tar.gz_extracted/configure.in
-2018/06/19 13:34:42 Finished Classifying License "/time-1.7.tar.gz_extracted/configure.in": 8.182123ms
-2018/06/19 13:34:42 Couldn't classify license(s)
-2018/06/19 13:34:42 Classifying license(s): /time-1.7.tar.gz_extracted/ChangeLog
-2018/06/19 13:34:42 Finished Classifying License "/time-1.7.tar.gz_extracted/ChangeLog": 24.892608ms
-2018/06/19 13:34:42 Couldn't classify license(s)
-2018/06/19 13:34:43 Classifying license(s): /time-1.7.tar.gz_extracted/README
-2018/06/19 13:34:43 Finished Classifying License "/time-1.7.tar.gz_extracted/README": 7.576259ms
-2018/06/19 13:34:43 Couldn't classify license(s)
+2018/06/19 18:52:37 Classifying license(s): /time-1.7.tar.gz/configure
+2018/06/19 18:52:37 Finished Classifying License "/time-1.7.tar.gz/configure": 177.193997ms
+2018/06/19 18:52:37 Couldn't classify license(s)
+2018/06/19 18:52:38 Classifying license(s): /time-1.7.tar.gz/port.h
+2018/06/19 18:52:38 detected language: 4
+2018/06/19 18:52:38 " port.h -- portability declarations for GNU time "
+2018/06/19 18:52:38 Finished Classifying License "/time-1.7.tar.gz/port.h": 569.563µs
+2018/06/19 18:52:38 Couldn't classify license(s)
+2018/06/19 18:52:39 Classifying license(s): /time-1.7.tar.gz/resuse.h
+2018/06/19 18:52:39 detected language: 4
+2018/06/19 18:52:39 " resuse.h - declarations for child process resource use library\n   Copyright (C) 1993, 1996 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
+2018/06/19 18:52:39 " High resolution clock structure.  "
+2018/06/19 18:52:39 " Seconds.  \n Microseconds.  "
+2018/06/19 18:52:39 " This rusage structure measures nanoseconds instead of microseconds.  "
+2018/06/19 18:52:39 " Process resource usage structure.  "
+2018/06/19 18:52:39 " User time used.  \n System time used.  "
+2018/06/19 18:52:39 " Information on the resources used by a child process.  "
+2018/06/19 18:52:39 " Wallclock time of process.  "
+2018/06/19 18:52:39 " Prepare to measure a child process.  "
+2018/06/19 18:52:39 " Wait for and fill in data on child process PID.  "
+2018/06/19 18:52:39 " _RESUSE_H "
+2018/06/19 18:52:39 Finished Classifying License "/time-1.7.tar.gz/resuse.h": 9.109147ms
+2018/06/19 18:52:40 Classifying license(s): /time-1.7.tar.gz/install-sh
+2018/06/19 18:52:40 Finished Classifying License "/time-1.7.tar.gz/install-sh": 19.421976ms
+2018/06/19 18:52:40 Couldn't classify license(s)
+2018/06/19 18:52:40 Classifying license(s): /time-1.7.tar.gz/version.c
+2018/06/19 18:52:40 detected language: 4
+2018/06/19 18:52:40 Finished Classifying License "/time-1.7.tar.gz/version.c": 45.07µs
+2018/06/19 18:52:40 Couldn't classify license(s)
+2018/06/19 18:52:41 Classifying license(s): /time-1.7.tar.gz/time.c
+2018/06/19 18:52:41 detected language: 4
+2018/06/19 18:52:41 " `time' utility to display resource usage of processes.\n   Copyright (C) 1990, 91, 92, 93, 96 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
+2018/06/19 18:52:41 " Originally written by David Keppel <pardo@cs.washington.edu>.\n   Heavily modified by David MacKenzie <djm@gnu.ai.mit.edu>.  "
+2018/06/19 18:52:41 " For getpagesize, maybe.  "
+2018/06/19 18:52:41 " A Pointer to a signal handler.  "
+2018/06/19 18:52:41 " msec = milliseconds = 1/1,000 (1*10e-3) second.\n   usec = microseconds = 1/1,000,000 (1*10e-6) second.  "
+2018/06/19 18:52:41 " Systems known to fill in the average resident set size fields:\n   SunOS 4.1.3 (m68k and sparc)\n   Mt. Xinu 4.3BSD on HP9000/300 (m68k)\n   Ultrix 4.4 (mips)\n   IBM ACIS 4.3BSD (rt)\n   Sony NEWS-OS 4.1C (m68k)\n\n   Systems known to not fill them in:\n   OSF/1 1.3 (alpha)\n   BSD/386 1.1 (anything derived from NET-2)\n   NetBSD 1.0 (4.4BSD-derived)\n   Irix 5.2 (R4000)\n   Solaris 2.3\n   Linux 1.0\n\n   It doesn't matter how many clock ticks/second there are on\n   systems that don't fill in those fields.\n\n   If the avgresident (%t) we print is less than a power of 2 away from\n   the maxresident (%M), then we likely are using the right number.\n   Another good check is comparing the average text size with the\n   output of `size' on the executable.\n\n   According to the SunOS manual, there are 50 ticks/sec on the sun3\n   and 100 on the sun4.\n\n   Some manuals have an apparent error, claiming that units for average\n   sizes are kb*sec.  Judging by the contents of `struct rusage', it\n   looks like it should be kb*ticks, like on SunOS.  Ticks/sec seems\n   to be (empirically):\n   50 Mt. Xinu\n   250 Ultrix (mips)\n   50 ACIS\n   100 NEWS-OS\n\n   sysconf(_SC_CLK_TCK) is *unrelated*.  "
+2018/06/19 18:52:41 " The number of milliseconds in one `tick' used by the `rusage' structure.  "
+2018/06/19 18:52:41 " Return the number of clock ticks that occur in M milliseconds.  "
+2018/06/19 18:52:41 " The default output format.  "
+2018/06/19 18:52:41 " The output format for the -p option ."
+2018/06/19 18:52:41 " Format string for printing all statistics verbosely.\n   Keep this output to 24 lines so users on terminals can see it all.\n\n   The format string is used two ways: as a format string, and in\n   verbose mode, to document all the possible formatting possiblities.\n   When `longstats' is used as a format string, it has to be put into\n   one contiguous string (e.g., into a `char[]').  We could alternatively\n   store it as a `char *' and convert it into a `*char[]' when we need\n   it as documentation, but most compilers choke on very long strings.  "
+2018/06/19 18:52:41 " If true, show an English description next to each statistic.  "
+2018/06/19 18:52:41 " Name of output file.  Only used if -o option is given.  "
+2018/06/19 18:52:41 " Output stream, stderr by default.  "
+2018/06/19 18:52:41 " If true, append to `outfile' rather than truncating it.  "
+2018/06/19 18:52:41 " The output format string.  "
+2018/06/19 18:52:41 " The name this program was invoked by.  "
+2018/06/19 18:52:41 " Print ARGV to FP, with each entry in ARGV separated by FILLER.  "
+2018/06/19 18:52:41 " Return a null-terminated string containing the concatenation,\n   in order, of all of the elements of ARGV.\n   The '\\0' at the end of each ARGV-element is not copied.\n   Example:\tchar *argv[] = {\"12\", \"ab\", \".,\"};\n \t\tlinear_argv(argv) == \"12ab.,\"\n   Print a message and return NULL if memory allocation failed.  "
+2018/06/19 18:52:41 " Each string in ARGV.  \n Allocated space.  \n Copy in to destination.  \n Copy from source.  "
+2018/06/19 18:52:41 " Find length of ARGV and allocate.  "
+2018/06/19 18:52:41 " Copy each string in ARGV to the new string.  At the end of\n     each string copy, back up `dp' so that on the next string,\n     the `\\0' will be overwritten.  "
+2018/06/19 18:52:41 " Do nothing.  "
+2018/06/19 18:52:41 " Return the number of kilobytes corresponding to a number of pages PAGES.\n   (Actually, we use it to convert pages*ticks into kilobytes*ticks.)\n\n   Try to do arithmetic so that the risk of overflow errors is minimized.\n   This is funky since the pagesize could be less than 1K.\n   Note: Some machines express getrusage statistics in terms of K,\n   others in terms of pages.  "
+2018/06/19 18:52:41 " Initialization.  "
+2018/06/19 18:52:41 " Conversion.  "
+2018/06/19 18:52:41 " Could overflow.  \n Smaller first, \n then larger.  "
+2018/06/19 18:52:41 " Could underflow.  \n Larger first, \n then smaller.  "
+2018/06/19 18:52:41 " summarize: Report on the system use of a command.\n\n   Copy the FMT argument to FP except that `%' sequences\n   have special meaning, and `\\n' and `\\t' are translated into\n   newline and tab, respectively, and `\\\\' is translated into `\\'.\n\n   The character following a `%' can be:\n   (* means the tcsh time builtin also recognizes it)\n   % == a literal `%'\n   C == command name and arguments\n*  D == average unshared data size in K (ru_idrss+ru_isrss)\n*  E == elapsed real (wall clock) time in [hour:]min:sec\n*  F == major page faults (required physical I/O) (ru_majflt)\n*  I == file system inputs (ru_inblock)\n*  K == average total mem usage (ru_idrss+ru_isrss+ru_ixrss)\n*  M == maximum resident set size in K (ru_maxrss)\n*  O == file system outputs (ru_oublock)\n*  P == percent of CPU this job got (total cpu time / elapsed time)\n*  R == minor page faults (reclaims; no physical I/O involved) (ru_minflt)\n*  S == system (kernel) time (seconds) (ru_stime)\n*  U == user time (seconds) (ru_utime)\n*  W == times swapped out (ru_nswap)\n*  X == average amount of shared text in K (ru_ixrss)\n   Z == page size\n*  c == involuntary context switches (ru_nivcsw)\n   e == elapsed real time in seconds\n*  k == signals delivered (ru_nsignals)\n   p == average unshared stack size in K (ru_isrss)\n*  r == socket messages received (ru_msgrcv)\n*  s == socket messages sent (ru_msgsnd)\n   t == average resident set size in K (ru_idrss)\n*  w == voluntary context switches (ru_nvcsw)\n   x == exit status of command\n\n   Various memory usages are found by converting from page-seconds\n   to kbytes by multiplying by the page size, dividing by 1024,\n   and dividing by elapsed real time.\n\n   FP is the stream to print to.\n   FMT is the format string, interpreted as described above.\n   COMMAND is the command and args that are being summarized.\n   RESP is resource information on the command.  "
+2018/06/19 18:52:41 " Elapsed real milliseconds.  \n Elapsed virtual (CPU) milliseconds.  "
+2018/06/19 18:52:41 " Convert all times to milliseconds.  Occasionally, one of these values\n     comes out as zero.  Dividing by zero causes problems, so we first\n     check the time value.  If it is zero, then we take `evasive action'\n     instead of calculating a value.  "
+2018/06/19 18:52:41 " Literal '%'.  "
+2018/06/19 18:52:41 " The command that got timed.  "
+2018/06/19 18:52:41 " Average unshared data size.  "
+2018/06/19 18:52:41 " Elapsed real (wall clock) time.  \n One hour -> h:m:s.  "
+2018/06/19 18:52:41 " -> m:s.  "
+2018/06/19 18:52:41 " Major page faults.  "
+2018/06/19 18:52:41 " Inputs.  "
+2018/06/19 18:52:41 " Average mem usage == data+stack+text.  "
+2018/06/19 18:52:41 " Maximum resident set size.  "
+2018/06/19 18:52:41 " Outputs.  "
+2018/06/19 18:52:41 " Percent of CPU this job got.  \n % cpu is (total cpu time)/(elapsed time).  "
+2018/06/19 18:52:41 " Minor page faults (reclaims).  "
+2018/06/19 18:52:41 " System time.  "
+2018/06/19 18:52:41 " User time.  "
+2018/06/19 18:52:41 " Times swapped out.  "
+2018/06/19 18:52:41 " Average shared text size.  "
+2018/06/19 18:52:41 " Page size.  "
+2018/06/19 18:52:41 " Involuntary context switches.  "
+2018/06/19 18:52:41 " Elapsed real time in seconds.  "
+2018/06/19 18:52:41 " Signals delivered.  "
+2018/06/19 18:52:41 " Average stack segment.  "
+2018/06/19 18:52:41 " Incoming socket messages received.  "
+2018/06/19 18:52:41 " Outgoing socket messages sent.  "
+2018/06/19 18:52:41 " Average resident set size.  "
+2018/06/19 18:52:41 " Voluntary context switches.  "
+2018/06/19 18:52:41 " Exit status.  "
+2018/06/19 18:52:41 " Format escape.  "
+2018/06/19 18:52:41 " Initialize the options and parse the command line arguments.\n   Also note the position in ARGV where the command to time starts.\n\n   By default, output is to stderr.\n\n   ARGV is the array of command line arguments.\n   ARGC is the number of command line arguments.\n\n   Return the command line to run and gather statistics on.  "
+2018/06/19 18:52:41 " Format found in environment.  "
+2018/06/19 18:52:41 " Initialize the option flags.  "
+2018/06/19 18:52:41 " Set the format string from the environment.  Do this before checking\n     the args so that we won't clobber a user-specified format.  "
+2018/06/19 18:52:41 " If the user specified verbose output, we need to convert\n     `longstats' to a `char *'.  "
+2018/06/19 18:52:41 " Out of memory.  "
+2018/06/19 18:52:41 " Run command CMD and return statistics on it.\n   Put the statistics in *RESP.  "
+2018/06/19 18:52:41 " Pid of child.  "
+2018/06/19 18:52:41 " Run CMD as child process.  "
+2018/06/19 18:52:41 " If child.  \n Don't cast execvp arguments; that causes errors on some systems,\n\t versus merely warnings if the cast is left off.  "
+2018/06/19 18:52:41 " Have signals kill the child but not self (if possible).  "
+2018/06/19 18:52:41 " Re-enable signals.  "
+2018/06/19 18:52:41 Finished Classifying License "/time-1.7.tar.gz/time.c": 29.021525ms
+2018/06/19 18:52:42 Classifying license(s): /time-1.7.tar.gz/getopt1.c
+2018/06/19 18:52:42 detected language: 4
+2018/06/19 18:52:42 " getopt_long and getopt_long_only entry points for GNU getopt.\n   Copyright (C) 1987, 88, 89, 90, 91, 92, 1993, 1994\n\tFree Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify it\n   under the terms of the GNU General Public License as published by the\n   Free Software Foundation; either version 2, or (at your option) any\n   later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n   USA.  "
+2018/06/19 18:52:42 " This is a separate conditional since some stdc systems\n   reject `defined (const)'.  "
+2018/06/19 18:52:42 " Comment out all this code if we are using the GNU C Library, and are not\n   actually compiling the library itself.  This code is part of the GNU C\n   Library, but also included in many other GNU distributions.  Compiling\n   and linking in this code is a waste when using the GNU C library\n   (especially if it is a shared library).  Rather than having every GNU\n   program understand `configure --with-gnu-libc' and omit the object files,\n   it is simpler to just do this in the source for each such file.  "
+2018/06/19 18:52:42 " This needs to come after some library #include\n   to get __GNU_LIBRARY__ defined.  "
+2018/06/19 18:52:42 " Like getopt_long, but '-' as well as '--' can indicate a long option.\n   If an option that starts with '-' (not '--') doesn't match a long option,\n   but does match a short option, it is parsed as a short option\n   instead.  "
+2018/06/19 18:52:42 " _LIBC or not __GNU_LIBRARY__.  "
+2018/06/19 18:52:42 " TEST "
+2018/06/19 18:52:42 Finished Classifying License "/time-1.7.tar.gz/getopt1.c": 13.278198ms
+2018/06/19 18:52:43 Classifying license(s): /time-1.7.tar.gz/resuse.c
+2018/06/19 18:52:43 detected language: 4
+2018/06/19 18:52:43 " resuse.c - child process resource use library\n   Copyright (C) 1993, 1996 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
+2018/06/19 18:52:43 " Written by David MacKenzie, with help from\n   arnej@imf.unit.no (Arne Henrik Juul)\n   and pinard@iro.umontreal.ca (Francois Pinard).  "
+2018/06/19 18:52:43 " Prepare to measure a child process.  "
+2018/06/19 18:52:43 " Wait for and fill in data on child process PID.\n   Return 0 on error, 1 if ok.  "
+2018/06/19 18:52:43 " pid_t is short on BSDI, so don't try to promote it.  "
+2018/06/19 18:52:43 " Ignore signals, but don't ignore the children.  When wait3\n     returns the child process, set the time the command finished. "
+2018/06/19 18:52:43 " !HAVE_WAIT3 "
+2018/06/19 18:52:43 " !HAVE_WAIT3 "
+2018/06/19 18:52:43 " Manually carry a one from the seconds field.  "
+2018/06/19 18:52:43 Finished Classifying License "/time-1.7.tar.gz/resuse.c": 9.800338ms
+2018/06/19 18:52:44 Classifying license(s): /time-1.7.tar.gz/mdate-sh
+2018/06/19 18:52:44 Finished Classifying License "/time-1.7.tar.gz/mdate-sh": 12.832092ms
+2018/06/19 18:52:44 Classifying license(s): /time-1.7.tar.gz/getpagesize.h
+2018/06/19 18:52:44 detected language: 4
+2018/06/19 18:52:44 " Emulate getpagesize on systems that lack it.  "
+2018/06/19 18:52:44 " no CLSIZE \n no NBPG "
+2018/06/19 18:52:44 " no NBPC "
+2018/06/19 18:52:44 " NBPC \n no NBPG \n no EXEC_PAGESIZE \n no _SC_PAGESIZE "
+2018/06/19 18:52:44 " not HAVE_GETPAGESIZE "
+2018/06/19 18:52:44 Finished Classifying License "/time-1.7.tar.gz/getpagesize.h": 1.199395ms
+2018/06/19 18:52:44 Couldn't classify license(s)
+2018/06/19 18:52:45 Classifying license(s): /time-1.7.tar.gz/time.texi
+2018/06/19 18:52:45 Finished Classifying License "/time-1.7.tar.gz/time.texi": 50.297917ms
+2018/06/19 18:52:45 Couldn't classify license(s)
+2018/06/19 18:52:46 Classifying license(s): /time-1.7.tar.gz/error.c
+2018/06/19 18:52:46 detected language: 4
+2018/06/19 18:52:46 " error.c -- error handler for noninteractive utilities\n   Copyright (C) 1990, 91, 92, 93, 94, 95, 96 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
+2018/06/19 18:52:46 " Written by David MacKenzie <djm@gnu.ai.mit.edu>.  "
+2018/06/19 18:52:46 " If NULL, error will flush stdout, then print on stderr the program\n   name, a colon and a space.  Otherwise, error will call this\n   function without parameters instead.  "
+2018/06/19 18:52:46 " This variable is incremented each time `error' is called.  "
+2018/06/19 18:52:46 " In the GNU C library, there is a predefined variable for this.  "
+2018/06/19 18:52:46 " The calling program should define program_name and set it to the\n   name of the executing program.  "
+2018/06/19 18:52:46 " On some systems, strerror is a macro "
+2018/06/19 18:52:46 " HAVE_STRERROR \n _LIBC "
+2018/06/19 18:52:46 " Print the program name and error message MESSAGE, which is a printf-style\n   format string with optional args.\n   If ERRNUM is nonzero, print its corresponding system error message.\n   Exit with status STATUS if it is nonzero.  "
+2018/06/19 18:52:46 " VARARGS "
+2018/06/19 18:52:46 " Sometimes we want to have at most one error per line.  This\n   variable controls whether this mode is selected or not.  "
+2018/06/19 18:52:46 " Simply return and print nothing.  "
+2018/06/19 18:52:46 Finished Classifying License "/time-1.7.tar.gz/error.c": 10.814937ms
+2018/06/19 18:52:47 Classifying license(s): /time-1.7.tar.gz/time.info
+2018/06/19 18:52:47 Finished Classifying License "/time-1.7.tar.gz/time.info": 46.78037ms
+2018/06/19 18:52:47 Couldn't classify license(s)
+2018/06/19 18:52:48 Classifying license(s): /time-1.7.tar.gz/stamp-vti
+2018/06/19 18:52:48 Finished Classifying License "/time-1.7.tar.gz/stamp-vti": 498.131µs
+2018/06/19 18:52:48 Couldn't classify license(s)
+2018/06/19 18:52:48 Classifying license(s): /time-1.7.tar.gz/mkinstalldirs
+2018/06/19 18:52:48 Finished Classifying License "/time-1.7.tar.gz/mkinstalldirs": 1.490177ms
+2018/06/19 18:52:48 Couldn't classify license(s)
+2018/06/19 18:52:49 Classifying license(s): /time-1.7.tar.gz/INSTALL
+2018/06/19 18:52:49 Finished Classifying License "/time-1.7.tar.gz/INSTALL": 26.388462ms
+2018/06/19 18:52:49 Couldn't classify license(s)
+2018/06/19 18:52:50 Classifying license(s): /time-1.7.tar.gz/getopt.h
+2018/06/19 18:52:50 detected language: 4
+2018/06/19 18:52:50 " Declarations for getopt.\n   Copyright (C) 1989, 90, 91, 92, 93, 94 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify it\n   under the terms of the GNU General Public License as published by the\n   Free Software Foundation; either version 2, or (at your option) any\n   later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n   USA.  "
+2018/06/19 18:52:50 " For communication from `getopt' to the caller.\n   When `getopt' finds an option that takes an argument,\n   the argument value is returned here.\n   Also, when `ordering' is RETURN_IN_ORDER,\n   each non-option ARGV-element is returned here.  "
+2018/06/19 18:52:50 " Index in ARGV of the next element to be scanned.\n   This is used for communication to and from the caller\n   and for communication between successive calls to `getopt'.\n\n   On entry to `getopt', zero means this is the first call; initialize.\n\n   When `getopt' returns EOF, this is the index of the first of the\n   non-option elements that the caller should itself scan.\n\n   Otherwise, `optind' communicates from one call to the next\n   how much of ARGV has been scanned so far.  "
+2018/06/19 18:52:50 " Callers store zero here to inhibit the error message `getopt' prints\n   for unrecognized options.  "
+2018/06/19 18:52:50 " Set to an option character which was unrecognized.  "
+2018/06/19 18:52:50 " Describe the long-named options requested by the application.\n   The LONG_OPTIONS argument to getopt_long or getopt_long_only is a vector\n   of `struct option' terminated by an element containing a name which is\n   zero.\n\n   The field `has_arg' is:\n   no_argument\t\t(or 0) if the option does not take an argument,\n   required_argument\t(or 1) if the option requires an argument,\n   optional_argument \t(or 2) if the option takes an optional argument.\n\n   If the field `flag' is not NULL, it points to a variable that is set\n   to the value given in the field `val' when the option is found, but\n   left unchanged if the option is not found.\n\n   To have a long-named option do something other than set an `int' to\n   a compiled-in constant, such as set a value from `optarg', set the\n   option's `flag' field to zero and its `val' field to a nonzero\n   value (the equivalent single-letter option character, if there is\n   one).  For long options that have a zero `flag' field, `getopt'\n   returns the contents of the `val' field.  "
+2018/06/19 18:52:50 " has_arg can't be an enum because some compilers complain about\n     type mismatches in all the code that assumes it is an int.  "
+2018/06/19 18:52:50 " Names for the values of the `has_arg' field of `struct option'.  "
+2018/06/19 18:52:50 " Many other libraries have conflicting prototypes for getopt, with\n   differences in the consts, in stdlib.h.  To avoid compilation\n   errors, only prototype getopt for the GNU C library.  "
+2018/06/19 18:52:50 " not __GNU_LIBRARY__ "
+2018/06/19 18:52:50 " __GNU_LIBRARY__ "
+2018/06/19 18:52:50 " Internal only.  Users should not call this directly.  "
+2018/06/19 18:52:50 " not __STDC__ "
+2018/06/19 18:52:50 " __STDC__ "
+2018/06/19 18:52:50 " _GETOPT_H "
+2018/06/19 18:52:50 Finished Classifying License "/time-1.7.tar.gz/getopt.h": 15.531758ms
+2018/06/19 18:52:51 Classifying license(s): /time-1.7.tar.gz/Makefile.am
+2018/06/19 18:52:51 Finished Classifying License "/time-1.7.tar.gz/Makefile.am": 6.396152ms
+2018/06/19 18:52:51 Couldn't classify license(s)
+2018/06/19 18:52:51 Classifying license(s): /time-1.7.tar.gz/AUTHORS
+2018/06/19 18:52:51 Finished Classifying License "/time-1.7.tar.gz/AUTHORS": 5.639335ms
+2018/06/19 18:52:51 Couldn't classify license(s)
+2018/06/19 18:52:52 Classifying license(s): /time-1.7.tar.gz/getopt.c
+2018/06/19 18:52:52 detected language: 4
+2018/06/19 18:52:52 " Getopt for GNU.\n   NOTE: getopt is now part of the C library, so if you don't know what\n   \"Keep this file name-space clean\" means, talk to roland@gnu.ai.mit.edu\n   before changing it!\n\n   Copyright (C) 1987, 88, 89, 90, 91, 92, 93, 94, 95, 1996\n   \tFree Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify it\n   under the terms of the GNU General Public License as published by the\n   Free Software Foundation; either version 2, or (at your option) any\n   later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,\n   USA.  "
+2018/06/19 18:52:52 " This tells Alpha OSF/1 not to define a getopt prototype in <stdio.h>.\n   Ditto for AIX 3.2 and <stdlib.h>.  "
+2018/06/19 18:52:52 " This is a separate conditional since some stdc systems\n   reject `defined (const)'.  "
+2018/06/19 18:52:52 " Comment out all this code if we are using the GNU C Library, and are not\n   actually compiling the library itself.  This code is part of the GNU C\n   Library, but also included in many other GNU distributions.  Compiling\n   and linking in this code is a waste when using the GNU C library\n   (especially if it is a shared library).  Rather than having every GNU\n   program understand `configure --with-gnu-libc' and omit the object files,\n   it is simpler to just do this in the source for each such file.  "
+2018/06/19 18:52:52 " This needs to come after some library #include\n   to get __GNU_LIBRARY__ defined.  "
+2018/06/19 18:52:52 " Don't include stdlib.h for non-GNU C libraries because some of them\n   contain conflicting prototypes for getopt.  "
+2018/06/19 18:52:52 " GNU C library.  "
+2018/06/19 18:52:52 " It's not Unix, really.  See?  Capital letters.  "
+2018/06/19 18:52:52 " This is for other GNU distributions with internationalized messages.\n   When compiling libc, the _ macro is predefined.  "
+2018/06/19 18:52:52 " This version of `getopt' appears to the caller like standard Unix `getopt'\n   but it behaves differently for the user, since it allows the user\n   to intersperse the options with the other arguments.\n\n   As `getopt' works, it permutes the elements of ARGV so that,\n   when it is done, all the options precede everything else.  Thus\n   all application programs are extended to handle flexible argument order.\n\n   Setting the environment variable POSIXLY_CORRECT disables permutation.\n   Then the behavior is completely standard.\n\n   GNU application programs can use a third alternative mode in which\n   they can distinguish the relative order of options and other arguments.  "
+2018/06/19 18:52:52 " For communication from `getopt' to the caller.\n   When `getopt' finds an option that takes an argument,\n   the argument value is returned here.\n   Also, when `ordering' is RETURN_IN_ORDER,\n   each non-option ARGV-element is returned here.  "
+2018/06/19 18:52:52 " Index in ARGV of the next element to be scanned.\n   This is used for communication to and from the caller\n   and for communication between successive calls to `getopt'.\n\n   On entry to `getopt', zero means this is the first call; initialize.\n\n   When `getopt' returns EOF, this is the index of the first of the\n   non-option elements that the caller should itself scan.\n\n   Otherwise, `optind' communicates from one call to the next\n   how much of ARGV has been scanned so far.  "
+2018/06/19 18:52:52 " XXX 1003.2 says this must be 1 before any call.  "
+2018/06/19 18:52:52 " The next char to be scanned in the option-element\n   in which the last option character we returned was found.\n   This allows us to pick up the scan where we left off.\n\n   If this is zero, or a null string, it means resume the scan\n   by advancing to the next ARGV-element.  "
+2018/06/19 18:52:52 " Callers store zero here to inhibit the error message\n   for unrecognized options.  "
+2018/06/19 18:52:52 " Set to an option character which was unrecognized.\n   This must be initialized on some systems to avoid linking in the\n   system's own getopt implementation.  "
+2018/06/19 18:52:52 " Describe how to deal with options that follow non-option ARGV-elements.\n\n   If the caller did not specify anything,\n   the default is REQUIRE_ORDER if the environment variable\n   POSIXLY_CORRECT is defined, PERMUTE otherwise.\n\n   REQUIRE_ORDER means don't recognize them as options;\n   stop option processing when the first non-option is seen.\n   This is what Unix does.\n   This mode of operation is selected by either setting the environment\n   variable POSIXLY_CORRECT, or using `+' as the first character\n   of the list of option characters.\n\n   PERMUTE is the default.  We permute the contents of ARGV as we scan,\n   so that eventually all the non-options are at the end.  This allows options\n   to be given in any order, even with programs that were not written to\n   expect this.\n\n   RETURN_IN_ORDER is an option available to programs that were written\n   to expect options and other ARGV-elements in any order and that care about\n   the ordering of the two.  We describe each non-option ARGV-element\n   as if it were the argument of an option with character code 1.\n   Using `-' as the first character of the list of option characters\n   selects this mode of operation.\n\n   The special argument `--' forces an end of option-scanning regardless\n   of the value of `ordering'.  In the case of RETURN_IN_ORDER, only\n   `--' can cause `getopt' to return EOF with `optind' != ARGC.  "
+2018/06/19 18:52:52 " Value of POSIXLY_CORRECT environment variable.  "
+2018/06/19 18:52:52 " We want to avoid inclusion of string.h with non-GNU libraries\n   because there are many ways it can cause trouble.\n   On some systems, it contains special magic macros that don't work\n   in GCC.  "
+2018/06/19 18:52:52 " Avoid depending on library functions or files\n   whose names are inconsistent.  "
+2018/06/19 18:52:52 " If using GCC, we can safely declare strlen this way.\n   If not using GCC, it is ok not to declare it.  "
+2018/06/19 18:52:52 " Note that Motorola Delta 68k R3V7 comes with GCC but not stddef.h.\n   That was relevant to code that was here before.  "
+2018/06/19 18:52:52 " gcc with -traditional declares the built-in strlen to return int,\n   and has done so at least since version 2.4.5. -- rms.  "
+2018/06/19 18:52:52 " not __STDC__ \n __GNUC__ "
+2018/06/19 18:52:52 " not __GNU_LIBRARY__ "
+2018/06/19 18:52:52 " Handle permutation of arguments.  "
+2018/06/19 18:52:52 " Describe the part of ARGV that contains non-options that have\n   been skipped.  `first_nonopt' is the index in ARGV of the first of them;\n   `last_nonopt' is the index after the last of them.  "
+2018/06/19 18:52:52 " Bash 2.0 gives us an environment variable containing flags\n   indicating ARGV elements that should not be considered arguments.  "
+2018/06/19 18:52:52 " Exchange two adjacent subsequences of ARGV.\n   One subsequence is elements [first_nonopt,last_nonopt)\n   which contains all the non-options that have been skipped so far.\n   The other is elements [last_nonopt,optind), which contains all\n   the options processed since those non-options were skipped.\n\n   `first_nonopt' and `last_nonopt' are relocated so that they describe\n   the new indices of the non-options in ARGV after they are moved.  "
+2018/06/19 18:52:52 " Exchange the shorter segment with the far end of the longer segment.\n     That puts the shorter segment into the right place.\n     It leaves the longer segment in the right place overall,\n     but it consists of two parts that need to be swapped next.  "
+2018/06/19 18:52:52 " Bottom segment is the short one.  "
+2018/06/19 18:52:52 " Swap it with the top part of the top segment.  "
+2018/06/19 18:52:52 " Exclude the moved bottom segment from further swapping.  "
+2018/06/19 18:52:52 " Top segment is the short one.  "
+2018/06/19 18:52:52 " Swap it with the bottom part of the bottom segment.  "
+2018/06/19 18:52:52 " Exclude the moved top segment from further swapping.  "
+2018/06/19 18:52:52 " Update records for the slots the non-options now occupy.  "
+2018/06/19 18:52:52 " Initialize the internal data when the first call is made.  "
+2018/06/19 18:52:52 " Start processing options with ARGV-element 1 (since ARGV-element 0\n     is the program name); the sequence of previously skipped\n     non-option ARGV-elements is empty.  "
+2018/06/19 18:52:52 " Determine how to handle the ordering of options and nonoptions.  "
+2018/06/19 18:52:52 " Bash 2.0 puts a special variable in the environment for each\n\t command it runs, specifying which ARGV elements are the results of\n\t file name wildcard expansion and therefore should not be\n\t considered as options.  "
+2018/06/19 18:52:52 " Scan elements of ARGV (whose length is ARGC) for option characters\n   given in OPTSTRING.\n\n   If an element of ARGV starts with '-', and is not exactly \"-\" or \"--\",\n   then it is an option element.  The characters of this element\n   (aside from the initial '-') are option characters.  If `getopt'\n   is called repeatedly, it returns successively each of the option characters\n   from each of the option elements.\n\n   If `getopt' finds another option character, it returns that character,\n   updating `optind' and `nextchar' so that the next call to `getopt' can\n   resume the scan with the following option character or ARGV-element.\n\n   If there are no more option characters, `getopt' returns `EOF'.\n   Then `optind' is the index in ARGV of the first ARGV-element\n   that is not an option.  (The ARGV-elements have been permuted\n   so that those that are not options now come last.)\n\n   OPTSTRING is a string containing the legitimate option characters.\n   If an option character is seen that is not listed in OPTSTRING,\n   return '?' after printing an error message.  If you set `opterr' to\n   zero, the error message is suppressed but we still return '?'.\n\n   If a char in OPTSTRING is followed by a colon, that means it wants an arg,\n   so the following text in the same ARGV-element, or the text of the following\n   ARGV-element, is returned in `optarg'.  Two colons mean an option that\n   wants an optional arg; if there is text in the current ARGV-element,\n   it is returned in `optarg', otherwise `optarg' is set to zero.\n\n   If OPTSTRING starts with `-' or `+', it requests different methods of\n   handling the non-option ARGV-elements.\n   See the comments about RETURN_IN_ORDER and REQUIRE_ORDER, above.\n\n   Long-named options begin with `--' instead of `-'.\n   Their names may be abbreviated as long as the abbreviation is unique\n   or is an exact match for some defined option.  If they have an\n   argument, it follows the option name in the same ARGV-element, separated\n   from the option name by a `=', or else the in next ARGV-element.\n   When `getopt' finds a long-named option, it returns 0 if that option's\n   `flag' field is nonzero, the value of the option's `val' field\n   if the `flag' field is zero.\n\n   The elements of ARGV aren't really const, because we permute them.\n   But we pretend they're const in the prototype to be compatible\n   with other systems.\n\n   LONGOPTS is a vector of `struct option' terminated by an\n   element containing a name which is zero.\n\n   LONGIND returns the index in LONGOPT of the long-named option found.\n   It is only valid when a long-named option has been found by the most\n   recent call.\n\n   If LONG_ONLY is nonzero, '-' as well as '--' can introduce\n   long-named options.  "
+2018/06/19 18:52:52 " Don't scan ARGV[0], the program name.  "
+2018/06/19 18:52:52 " Test whether ARGV[optind] points to a non-option argument.\n     Either it does not have option syntax, or there is an environment flag\n     from the shell indicating it is not an option.  "
+2018/06/19 18:52:52 " Advance to the next ARGV-element.  "
+2018/06/19 18:52:52 " Give FIRST_NONOPT & LAST_NONOPT rational values if OPTIND has been\n\t moved back by the user (who may also have changed the arguments).  "
+2018/06/19 18:52:52 " If we have just processed some options following some non-options,\n\t     exchange them so that the options come first.  "
+2018/06/19 18:52:52 " Skip any additional non-options\n\t     and extend the range of non-options previously skipped.  "
+2018/06/19 18:52:52 " The special ARGV-element `--' means premature end of options.\n\t Skip it like a null option,\n\t then exchange with previous non-options as if it were an option,\n\t then skip everything else like a non-option.  "
+2018/06/19 18:52:52 " If we have done all the ARGV-elements, stop the scan\n\t and back over any non-options that we skipped and permuted.  "
+2018/06/19 18:52:52 " Set the next-arg-index to point at the non-options\n\t     that we previously skipped, so the caller will digest them.  "
+2018/06/19 18:52:52 " If we have come to a non-option and did not permute it,\n\t either stop the scan or describe it to the caller and pass it by.  "
+2018/06/19 18:52:52 " We have found another option-ARGV-element.\n\t Skip the initial punctuation.  "
+2018/06/19 18:52:52 " Decode the current option-ARGV-element.  "
+2018/06/19 18:52:52 " Check whether the ARGV-element is a long option.\n\n     If long_only and the ARGV-element has the form \"-f\", where f is\n     a valid short option, don't consider it an abbreviated form of\n     a long option that starts with f.  Otherwise there would be no\n     way to give the -f short option.\n\n     On the other hand, if there's a long option \"fubar\" and\n     the ARGV-element is \"-fu\", do consider that an abbreviation of\n     the long option, just like \"--fu\", and not \"-f\" with arg \"u\".\n\n     This distinction seems to be the most useful approach.  "
+2018/06/19 18:52:52 " Do nothing.  "
+2018/06/19 18:52:52 " Test all long options for either exact match\n\t or abbreviated matches.  "
+2018/06/19 18:52:52 " Exact match found.  "
+2018/06/19 18:52:52 " First nonexact match found.  "
+2018/06/19 18:52:52 " Second or later nonexact match found.  "
+2018/06/19 18:52:52 " Don't test has_arg with >, because some C compilers don't\n\t\t allow it to be used on enums.  "
+2018/06/19 18:52:52 " --option "
+2018/06/19 18:52:52 " +option or -option "
+2018/06/19 18:52:52 " Can't find it as a long option.  If this is not getopt_long_only,\n\t or the option starts with '--' or is not a valid short\n\t option, then it's an error.\n\t Otherwise interpret it as a short option.  "
+2018/06/19 18:52:52 " --option "
+2018/06/19 18:52:52 " +option or -option "
+2018/06/19 18:52:52 " Look at and handle the next short option-character.  "
+2018/06/19 18:52:52 " Increment `optind' when we start to process its last character.  "
+2018/06/19 18:52:52 " 1003.2 specifies the format of this message.  "
+2018/06/19 18:52:52 " This is an option that accepts an argument optionally.  "
+2018/06/19 18:52:52 " This is an option that requires an argument.  "
+2018/06/19 18:52:52 " If we end this ARGV-element by taking the rest as an arg,\n\t\t   we must advance to the next element now.  "
+2018/06/19 18:52:52 " 1003.2 specifies the format of this message.  "
+2018/06/19 18:52:52 " We already incremented `optind' once;\n\t\t increment it again when taking next ARGV-elt as argument.  "
+2018/06/19 18:52:52 " _LIBC or not __GNU_LIBRARY__.  "
+2018/06/19 18:52:52 " Compile with -DTEST to make an executable for use in testing\n   the above definition of `getopt'.  "
+2018/06/19 18:52:52 " TEST "
+2018/06/19 18:52:52 Finished Classifying License "/time-1.7.tar.gz/getopt.c": 52.716219ms
+2018/06/19 18:52:53 Classifying license(s): /time-1.7.tar.gz/NEWS
+2018/06/19 18:52:53 Finished Classifying License "/time-1.7.tar.gz/NEWS": 7.728866ms
+2018/06/19 18:52:53 Couldn't classify license(s)
+2018/06/19 18:52:54 Classifying license(s): /time-1.7.tar.gz/Makefile.in
+2018/06/19 18:52:54 Finished Classifying License "/time-1.7.tar.gz/Makefile.in": 29.993947ms
+2018/06/19 18:52:54 Couldn't classify license(s)
+2018/06/19 18:52:54 Classifying license(s): /time-1.7.tar.gz/COPYING
+2018/06/19 18:52:55 Finished Classifying License "/time-1.7.tar.gz/COPYING": 113.26147ms
+2018/06/19 18:52:55 Classifying license(s): /time-1.7.tar.gz/texinfo.tex
+2018/06/19 18:52:56 Finished Classifying License "/time-1.7.tar.gz/texinfo.tex": 580.351823ms
+2018/06/19 18:52:57 Classifying license(s): /time-1.7.tar.gz/version.texi
+2018/06/19 18:52:57 Finished Classifying License "/time-1.7.tar.gz/version.texi": 4.946779ms
+2018/06/19 18:52:57 Couldn't classify license(s)
+2018/06/19 18:52:57 Classifying license(s): /time-1.7.tar.gz/wait.h
+2018/06/19 18:52:57 detected language: 4
+2018/06/19 18:52:57 " wait.h -- POSIX macros for evaluating exit statuses\n   Copyright (C) 1990 Free Software Foundation, Inc.\n\n   This program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2, or (at your option)\n   any later version.\n\n   This program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   You should have received a copy of the GNU General Public License\n   along with this program; if not, write to the Free Software\n   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA\n   02111-1307, USA.  "
+2018/06/19 18:52:57 " For pid_t. "
+2018/06/19 18:52:57 Finished Classifying License "/time-1.7.tar.gz/wait.h": 8.280376ms
+2018/06/19 18:52:58 Classifying license(s): /time-1.7.tar.gz/configure.in
+2018/06/19 18:52:58 Finished Classifying License "/time-1.7.tar.gz/configure.in": 8.011312ms
+2018/06/19 18:52:58 Couldn't classify license(s)
+2018/06/19 18:52:59 Classifying license(s): /time-1.7.tar.gz/ChangeLog
+2018/06/19 18:52:59 Finished Classifying License "/time-1.7.tar.gz/ChangeLog": 24.656123ms
+2018/06/19 18:52:59 Couldn't classify license(s)
+2018/06/19 18:53:00 Classifying license(s): /time-1.7.tar.gz/README
+2018/06/19 18:53:00 Finished Classifying License "/time-1.7.tar.gz/README": 7.608543ms
+2018/06/19 18:53:00 Couldn't classify license(s)

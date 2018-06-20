@@ -2,7 +2,7 @@
     {
         "Bytes": 8099,
         "BytesHuman": "7.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "CMakeLists.txt",
         "LicenseGuesses": [
             {
@@ -24,7 +24,7 @@
     {
         "Bytes": 78553,
         "BytesHuman": "76.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "ChangeLog",
         "LicenseGuesses": [
             {
@@ -46,7 +46,7 @@
     {
         "Bytes": 16573,
         "BytesHuman": "16.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "FAQ",
         "LicenseGuesses": [
             {
@@ -68,7 +68,7 @@
     {
         "Bytes": 1988,
         "BytesHuman": "1.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "INDEX",
         "LicenseGuesses": [
             {
@@ -90,7 +90,7 @@
     {
         "Bytes": 100,
         "BytesHuman": "100B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "Makefile",
         "LicenseGuesses": [
             {
@@ -112,7 +112,7 @@
     {
         "Bytes": 13680,
         "BytesHuman": "13.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -134,7 +134,7 @@
     {
         "Bytes": 5187,
         "BytesHuman": "5.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "README",
         "LicenseGuesses": [
             {
@@ -156,7 +156,7 @@
     {
         "Bytes": 5204,
         "BytesHuman": "5.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "adler32.c",
         "LicenseGuesses": [
             {
@@ -178,7 +178,7 @@
     {
         "Bytes": 1981,
         "BytesHuman": "1.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/amiga",
+        "Directory": "/zlib-1.2.11.tar.gz/amiga",
         "Filename": "Makefile.pup",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -195,7 +195,7 @@
     {
         "Bytes": 1847,
         "BytesHuman": "1.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/amiga",
+        "Directory": "/zlib-1.2.11.tar.gz/amiga",
         "Filename": "Makefile.sas",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -212,7 +212,7 @@
     {
         "Bytes": 2699,
         "BytesHuman": "2.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "compress.c",
         "LicenseGuesses": [
             {
@@ -234,7 +234,7 @@
     {
         "Bytes": 28244,
         "BytesHuman": "27.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "configure",
         "LicenseGuesses": [
             {
@@ -256,7 +256,7 @@
     {
         "Bytes": 3186,
         "BytesHuman": "3.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib",
         "Filename": "README.contrib",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -273,7 +273,7 @@
     {
         "Bytes": 3717,
         "BytesHuman": "3.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "buffer_demo.adb",
         "LicenseGuesses": [
             {
@@ -295,7 +295,7 @@
     {
         "Bytes": 4467,
         "BytesHuman": "4.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "mtest.adb",
         "LicenseGuesses": [
             {
@@ -317,7 +317,7 @@
     {
         "Bytes": 4248,
         "BytesHuman": "4.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "read.adb",
         "LicenseGuesses": [
             {
@@ -339,7 +339,7 @@
     {
         "Bytes": 2178,
         "BytesHuman": "2.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "readme.txt",
         "LicenseGuesses": [
             {
@@ -361,7 +361,7 @@
     {
         "Bytes": 13180,
         "BytesHuman": "12.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "test.adb",
         "LicenseGuesses": [
             {
@@ -383,7 +383,7 @@
     {
         "Bytes": 5996,
         "BytesHuman": "5.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "zlib-streams.adb",
         "LicenseGuesses": [
             {
@@ -405,7 +405,7 @@
     {
         "Bytes": 4329,
         "BytesHuman": "4.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "zlib-streams.ads",
         "LicenseGuesses": [
             {
@@ -427,7 +427,7 @@
     {
         "Bytes": 3329,
         "BytesHuman": "3.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "zlib-thin.adb",
         "LicenseGuesses": [
             {
@@ -449,7 +449,7 @@
     {
         "Bytes": 15819,
         "BytesHuman": "15.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "zlib-thin.ads",
         "LicenseGuesses": [
             {
@@ -471,7 +471,7 @@
     {
         "Bytes": 20400,
         "BytesHuman": "19.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "zlib.adb",
         "LicenseGuesses": [
             {
@@ -493,7 +493,7 @@
     {
         "Bytes": 13594,
         "BytesHuman": "13.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "zlib.ads",
         "LicenseGuesses": [
             {
@@ -515,7 +515,7 @@
     {
         "Bytes": 511,
         "BytesHuman": "511B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/ada",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/ada",
         "Filename": "zlib.gpr",
         "LicenseGuesses": [
             {
@@ -537,7 +537,7 @@
     {
         "Bytes": 12418,
         "BytesHuman": "12.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/amd64",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/amd64",
         "Filename": "amd64-match.S",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -554,7 +554,7 @@
     {
         "Bytes": 1622,
         "BytesHuman": "1.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/asm686",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/asm686",
         "Filename": "README.686",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -571,7 +571,7 @@
     {
         "Bytes": 10365,
         "BytesHuman": "10.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/asm686",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/asm686",
         "Filename": "match.S",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -588,7 +588,7 @@
     {
         "Bytes": 127,
         "BytesHuman": "127B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/blast",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -605,7 +605,7 @@
     {
         "Bytes": 74,
         "BytesHuman": "74B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/blast",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -622,7 +622,7 @@
     {
         "Bytes": 18162,
         "BytesHuman": "17.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/blast",
         "Filename": "blast.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -639,7 +639,7 @@
     {
         "Bytes": 3865,
         "BytesHuman": "3.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/blast",
         "Filename": "blast.h",
         "LicenseGuesses": [
             {
@@ -661,7 +661,7 @@
     {
         "Bytes": 8,
         "BytesHuman": "8B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/blast",
         "Filename": "test.pk",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -678,7 +678,7 @@
     {
         "Bytes": 13,
         "BytesHuman": "13B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/blast",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/blast",
         "Filename": "test.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -695,7 +695,7 @@
     {
         "Bytes": 16413,
         "BytesHuman": "16K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/delphi",
         "Filename": "ZLib.pas",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -712,7 +712,7 @@
     {
         "Bytes": 186,
         "BytesHuman": "186B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/delphi",
         "Filename": "ZLibConst.pas",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -729,7 +729,7 @@
     {
         "Bytes": 2500,
         "BytesHuman": "2.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/delphi",
         "Filename": "readme.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -746,7 +746,7 @@
     {
         "Bytes": 2360,
         "BytesHuman": "2.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/delphi",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/delphi",
         "Filename": "zlibd32.mak",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -763,7 +763,7 @@
     {
         "Bytes": 1175,
         "BytesHuman": "1.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib",
         "Filename": "DotZLib.build",
         "LicenseGuesses": [
             {
@@ -785,7 +785,7 @@
     {
         "Bytes": 72726,
         "BytesHuman": "71K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib",
         "Filename": "DotZLib.chm",
         "LicenseGuesses": [
             {
@@ -807,7 +807,7 @@
     {
         "Bytes": 907,
         "BytesHuman": "907B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib",
         "Filename": "DotZLib.sln",
         "LicenseGuesses": [
             {
@@ -829,7 +829,7 @@
     {
         "Bytes": 2500,
         "BytesHuman": "2.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "AssemblyInfo.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -846,7 +846,7 @@
     {
         "Bytes": 8040,
         "BytesHuman": "7.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "ChecksumImpl.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -863,7 +863,7 @@
     {
         "Bytes": 2246,
         "BytesHuman": "2.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "CircularBuffer.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -880,7 +880,7 @@
     {
         "Bytes": 6335,
         "BytesHuman": "6.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "CodecBase.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -897,7 +897,7 @@
     {
         "Bytes": 3992,
         "BytesHuman": "3.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "Deflater.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -914,7 +914,7 @@
     {
         "Bytes": 9927,
         "BytesHuman": "9.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "DotZLib.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -931,7 +931,7 @@
     {
         "Bytes": 5396,
         "BytesHuman": "5.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "DotZLib.csproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -948,7 +948,7 @@
     {
         "Bytes": 11162,
         "BytesHuman": "10.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "GZipStream.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -965,7 +965,7 @@
     {
         "Bytes": 3740,
         "BytesHuman": "3.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "Inflater.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -982,7 +982,7 @@
     {
         "Bytes": 7685,
         "BytesHuman": "7.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib",
         "Filename": "UnitTests.cs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -999,7 +999,7 @@
     {
         "Bytes": 1359,
         "BytesHuman": "1.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib",
         "Filename": "LICENSE_1_0.txt",
         "LicenseGuesses": [
             {
@@ -1021,7 +1021,7 @@
     {
         "Bytes": 2358,
         "BytesHuman": "2.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/dotzlib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/dotzlib",
         "Filename": "readme.txt",
         "LicenseGuesses": [
             {
@@ -1043,7 +1043,7 @@
     {
         "Bytes": 16413,
         "BytesHuman": "16K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/gcc_gvmat64",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/gcc_gvmat64",
         "Filename": "gvmat64.S",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1060,7 +1060,7 @@
     {
         "Bytes": 51,
         "BytesHuman": "51B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/infback9",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1077,7 +1077,7 @@
     {
         "Bytes": 21629,
         "BytesHuman": "21.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/infback9",
         "Filename": "infback9.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1094,7 +1094,7 @@
     {
         "Bytes": 1594,
         "BytesHuman": "1.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/infback9",
         "Filename": "infback9.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1111,7 +1111,7 @@
     {
         "Bytes": 6599,
         "BytesHuman": "6.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/infback9",
         "Filename": "inffix9.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1128,7 +1128,7 @@
     {
         "Bytes": 1991,
         "BytesHuman": "1.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/infback9",
         "Filename": "inflate9.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1145,7 +1145,7 @@
     {
         "Bytes": 13406,
         "BytesHuman": "13.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/infback9",
         "Filename": "inftree9.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1162,7 +1162,7 @@
     {
         "Bytes": 2901,
         "BytesHuman": "2.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/infback9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/infback9",
         "Filename": "inftree9.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1179,7 +1179,7 @@
     {
         "Bytes": 40608,
         "BytesHuman": "39.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/inflate86",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/inflate86",
         "Filename": "inffas86.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1196,7 +1196,7 @@
     {
         "Bytes": 42842,
         "BytesHuman": "41.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/inflate86",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/inflate86",
         "Filename": "inffast.S",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1213,7 +1213,7 @@
     {
         "Bytes": 526,
         "BytesHuman": "526B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream",
         "Filename": "test.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1230,7 +1230,7 @@
     {
         "Bytes": 5112,
         "BytesHuman": "5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream",
         "Filename": "zfstream.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1247,7 +1247,7 @@
     {
         "Bytes": 2467,
         "BytesHuman": "2.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream",
         "Filename": "zfstream.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1264,7 +1264,7 @@
     {
         "Bytes": 9283,
         "BytesHuman": "9.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream2",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream2",
         "Filename": "zstream.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1281,7 +1281,7 @@
     {
         "Bytes": 711,
         "BytesHuman": "711B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream2",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream2",
         "Filename": "zstream_test.cpp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1298,7 +1298,7 @@
     {
         "Bytes": 1490,
         "BytesHuman": "1.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream3",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1315,7 +1315,7 @@
     {
         "Bytes": 491,
         "BytesHuman": "491B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream3",
         "Filename": "TODO",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1332,7 +1332,7 @@
     {
         "Bytes": 1490,
         "BytesHuman": "1.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream3",
         "Filename": "test.cc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1349,7 +1349,7 @@
     {
         "Bytes": 13447,
         "BytesHuman": "13.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream3",
         "Filename": "zfstream.cc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1366,7 +1366,7 @@
     {
         "Bytes": 12240,
         "BytesHuman": "12K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/iostream3",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/iostream3",
         "Filename": "zfstream.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1383,7 +1383,7 @@
     {
         "Bytes": 86,
         "BytesHuman": "86B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx64",
         "Filename": "bld_ml64.bat",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1400,7 +1400,7 @@
     {
         "Bytes": 16443,
         "BytesHuman": "16.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx64",
         "Filename": "gvmat64.asm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1417,7 +1417,7 @@
     {
         "Bytes": 7577,
         "BytesHuman": "7.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx64",
         "Filename": "inffas8664.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1434,7 +1434,7 @@
     {
         "Bytes": 10583,
         "BytesHuman": "10.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx64",
         "Filename": "inffasx64.asm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1451,7 +1451,7 @@
     {
         "Bytes": 1237,
         "BytesHuman": "1.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx64",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx64",
         "Filename": "readme.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1468,7 +1468,7 @@
     {
         "Bytes": 92,
         "BytesHuman": "92B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx86",
         "Filename": "bld_ml32.bat",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1485,7 +1485,7 @@
     {
         "Bytes": 16392,
         "BytesHuman": "16K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx86",
         "Filename": "inffas32.asm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1502,7 +1502,7 @@
     {
         "Bytes": 15825,
         "BytesHuman": "15.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx86",
         "Filename": "match686.asm",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1519,7 +1519,7 @@
     {
         "Bytes": 873,
         "BytesHuman": "873B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/masmx86",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/masmx86",
         "Filename": "readme.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1536,7 +1536,7 @@
     {
         "Bytes": 457,
         "BytesHuman": "457B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1553,7 +1553,7 @@
     {
         "Bytes": 818,
         "BytesHuman": "818B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "Makefile.am",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1570,7 +1570,7 @@
     {
         "Bytes": 109,
         "BytesHuman": "109B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "MiniZip64_Changes.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1587,7 +1587,7 @@
     {
         "Bytes": 3048,
         "BytesHuman": "3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "MiniZip64_info.txt",
         "LicenseGuesses": [
             {
@@ -1613,7 +1613,7 @@
     {
         "Bytes": 787,
         "BytesHuman": "787B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "configure.ac",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1630,7 +1630,7 @@
     {
         "Bytes": 4735,
         "BytesHuman": "4.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "crypt.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1647,7 +1647,7 @@
     {
         "Bytes": 8225,
         "BytesHuman": "8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "ioapi.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1664,7 +1664,7 @@
     {
         "Bytes": 7051,
         "BytesHuman": "6.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "ioapi.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1681,7 +1681,7 @@
     {
         "Bytes": 14223,
         "BytesHuman": "13.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "iowin32.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1698,7 +1698,7 @@
     {
         "Bytes": 851,
         "BytesHuman": "851B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "iowin32.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1715,7 +1715,7 @@
     {
         "Bytes": 901,
         "BytesHuman": "901B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "make_vms.com",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1732,7 +1732,7 @@
     {
         "Bytes": 17763,
         "BytesHuman": "17.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "miniunz.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1749,7 +1749,7 @@
     {
         "Bytes": 1861,
         "BytesHuman": "1.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "miniunzip.1",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1766,7 +1766,7 @@
     {
         "Bytes": 1462,
         "BytesHuman": "1.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "minizip.1",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1783,7 +1783,7 @@
     {
         "Bytes": 15034,
         "BytesHuman": "14.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "minizip.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1800,7 +1800,7 @@
     {
         "Bytes": 263,
         "BytesHuman": "263B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "minizip.pc.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1817,7 +1817,7 @@
     {
         "Bytes": 8146,
         "BytesHuman": "8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "mztools.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1834,7 +1834,7 @@
     {
         "Bytes": 708,
         "BytesHuman": "708B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "mztools.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1851,7 +1851,7 @@
     {
         "Bytes": 71055,
         "BytesHuman": "69.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "unzip.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1868,7 +1868,7 @@
     {
         "Bytes": 16352,
         "BytesHuman": "16K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "unzip.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1885,7 +1885,7 @@
     {
         "Bytes": 65842,
         "BytesHuman": "64.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "zip.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1902,7 +1902,7 @@
     {
         "Bytes": 15366,
         "BytesHuman": "15K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/minizip",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/minizip",
         "Filename": "zip.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1919,7 +1919,7 @@
     {
         "Bytes": 15687,
         "BytesHuman": "15.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/pascal",
         "Filename": "example.pas",
         "LicenseGuesses": [
             {
@@ -1941,7 +1941,7 @@
     {
         "Bytes": 3004,
         "BytesHuman": "2.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/pascal",
         "Filename": "readme.txt",
         "LicenseGuesses": [
             {
@@ -1963,7 +1963,7 @@
     {
         "Bytes": 2360,
         "BytesHuman": "2.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/pascal",
         "Filename": "zlibd32.mak",
         "LicenseGuesses": [
             {
@@ -1985,7 +1985,7 @@
     {
         "Bytes": 10127,
         "BytesHuman": "9.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/pascal",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/pascal",
         "Filename": "zlibpas.pas",
         "LicenseGuesses": [
             {
@@ -2007,7 +2007,7 @@
     {
         "Bytes": 1899,
         "BytesHuman": "1.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/puff",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2024,7 +2024,7 @@
     {
         "Bytes": 3076,
         "BytesHuman": "3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/puff",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2041,7 +2041,7 @@
     {
         "Bytes": 37883,
         "BytesHuman": "37K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/puff",
         "Filename": "puff.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2058,7 +2058,7 @@
     {
         "Bytes": 1415,
         "BytesHuman": "1.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/puff",
         "Filename": "puff.h",
         "LicenseGuesses": [
             {
@@ -2100,7 +2100,7 @@
     {
         "Bytes": 4917,
         "BytesHuman": "4.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/puff",
         "Filename": "pufftest.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2117,7 +2117,7 @@
     {
         "Bytes": 2517,
         "BytesHuman": "2.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/puff",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/puff",
         "Filename": "zeros.raw",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2134,7 +2134,7 @@
     {
         "Bytes": 7643,
         "BytesHuman": "7.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/testzlib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/testzlib",
         "Filename": "testzlib.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2151,7 +2151,7 @@
     {
         "Bytes": 205,
         "BytesHuman": "205B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/testzlib",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/testzlib",
         "Filename": "testzlib.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2168,7 +2168,7 @@
     {
         "Bytes": 234,
         "BytesHuman": "234B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/untgz",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/untgz",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2185,7 +2185,7 @@
     {
         "Bytes": 281,
         "BytesHuman": "281B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/untgz",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/untgz",
         "Filename": "Makefile.msc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2202,7 +2202,7 @@
     {
         "Bytes": 16542,
         "BytesHuman": "16.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/untgz",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/untgz",
         "Filename": "untgz.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2219,7 +2219,7 @@
     {
         "Bytes": 3109,
         "BytesHuman": "3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio",
         "Filename": "readme.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2236,7 +2236,7 @@
     {
         "Bytes": 18969,
         "BytesHuman": "18.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "miniunz.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2253,7 +2253,7 @@
     {
         "Bytes": 921,
         "BytesHuman": "921B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "miniunz.vcxproj.filters",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2270,7 +2270,7 @@
     {
         "Bytes": 18549,
         "BytesHuman": "18.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "minizip.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2287,7 +2287,7 @@
     {
         "Bytes": 921,
         "BytesHuman": "921B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "minizip.vcxproj.filters",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2304,7 +2304,7 @@
     {
         "Bytes": 27312,
         "BytesHuman": "26.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "testzlib.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2321,7 +2321,7 @@
     {
         "Bytes": 2139,
         "BytesHuman": "2.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "testzlib.vcxproj.filters",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2338,7 +2338,7 @@
     {
         "Bytes": 19022,
         "BytesHuman": "18.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "testzlibdll.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2355,7 +2355,7 @@
     {
         "Bytes": 923,
         "BytesHuman": "923B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "testzlibdll.vcxproj.filters",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2372,7 +2372,7 @@
     {
         "Bytes": 957,
         "BytesHuman": "957B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "zlib.rc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2389,7 +2389,7 @@
     {
         "Bytes": 28012,
         "BytesHuman": "27.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "zlibstat.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2406,7 +2406,7 @@
     {
         "Bytes": 2514,
         "BytesHuman": "2.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "zlibstat.vcxproj.filters",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2423,7 +2423,7 @@
     {
         "Bytes": 7211,
         "BytesHuman": "7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "zlibvc.def",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2440,7 +2440,7 @@
     {
         "Bytes": 10153,
         "BytesHuman": "9.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "zlibvc.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2457,7 +2457,7 @@
     {
         "Bytes": 40243,
         "BytesHuman": "39.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "zlibvc.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2474,7 +2474,7 @@
     {
         "Bytes": 4039,
         "BytesHuman": "3.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc10",
         "Filename": "zlibvc.vcxproj.filters",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2491,7 +2491,7 @@
     {
         "Bytes": 19150,
         "BytesHuman": "18.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "miniunz.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2508,7 +2508,7 @@
     {
         "Bytes": 18730,
         "BytesHuman": "18.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "minizip.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2525,7 +2525,7 @@
     {
         "Bytes": 27583,
         "BytesHuman": "26.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "testzlib.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2542,7 +2542,7 @@
     {
         "Bytes": 19203,
         "BytesHuman": "18.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "testzlibdll.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2559,7 +2559,7 @@
     {
         "Bytes": 957,
         "BytesHuman": "957B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "zlib.rc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2576,7 +2576,7 @@
     {
         "Bytes": 27927,
         "BytesHuman": "27.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "zlibstat.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2593,7 +2593,7 @@
     {
         "Bytes": 7211,
         "BytesHuman": "7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "zlibvc.def",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2610,7 +2610,7 @@
     {
         "Bytes": 8539,
         "BytesHuman": "8.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "zlibvc.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2627,7 +2627,7 @@
     {
         "Bytes": 42016,
         "BytesHuman": "41K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc11",
         "Filename": "zlibvc.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2644,7 +2644,7 @@
     {
         "Bytes": 18926,
         "BytesHuman": "18.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "miniunz.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2661,7 +2661,7 @@
     {
         "Bytes": 18509,
         "BytesHuman": "18.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "minizip.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2678,7 +2678,7 @@
     {
         "Bytes": 27366,
         "BytesHuman": "26.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "testzlib.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2695,7 +2695,7 @@
     {
         "Bytes": 18979,
         "BytesHuman": "18.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "testzlibdll.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2712,7 +2712,7 @@
     {
         "Bytes": 925,
         "BytesHuman": "925B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "zlib.rc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2729,7 +2729,7 @@
     {
         "Bytes": 27597,
         "BytesHuman": "27K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "zlibstat.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2746,7 +2746,7 @@
     {
         "Bytes": 7211,
         "BytesHuman": "7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "zlibvc.def",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2763,7 +2763,7 @@
     {
         "Bytes": 8499,
         "BytesHuman": "8.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "zlibvc.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2780,7 +2780,7 @@
     {
         "Bytes": 41537,
         "BytesHuman": "40.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc12",
         "Filename": "zlibvc.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2797,7 +2797,7 @@
     {
         "Bytes": 18926,
         "BytesHuman": "18.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "miniunz.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2814,7 +2814,7 @@
     {
         "Bytes": 18509,
         "BytesHuman": "18.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "minizip.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2831,7 +2831,7 @@
     {
         "Bytes": 27366,
         "BytesHuman": "26.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "testzlib.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2848,7 +2848,7 @@
     {
         "Bytes": 18979,
         "BytesHuman": "18.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "testzlibdll.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2865,7 +2865,7 @@
     {
         "Bytes": 925,
         "BytesHuman": "925B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "zlib.rc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2882,7 +2882,7 @@
     {
         "Bytes": 27597,
         "BytesHuman": "27K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "zlibstat.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2899,7 +2899,7 @@
     {
         "Bytes": 7211,
         "BytesHuman": "7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "zlibvc.def",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2916,7 +2916,7 @@
     {
         "Bytes": 8497,
         "BytesHuman": "8.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "zlibvc.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2933,7 +2933,7 @@
     {
         "Bytes": 41537,
         "BytesHuman": "40.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc14",
         "Filename": "zlibvc.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2950,7 +2950,7 @@
     {
         "Bytes": 12939,
         "BytesHuman": "12.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "miniunz.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2967,7 +2967,7 @@
     {
         "Bytes": 12753,
         "BytesHuman": "12.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "minizip.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2984,7 +2984,7 @@
     {
         "Bytes": 18951,
         "BytesHuman": "18.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "testzlib.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3001,7 +3001,7 @@
     {
         "Bytes": 12978,
         "BytesHuman": "12.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "testzlibdll.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3018,7 +3018,7 @@
     {
         "Bytes": 957,
         "BytesHuman": "957B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "zlib.rc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3035,7 +3035,7 @@
     {
         "Bytes": 19532,
         "BytesHuman": "19.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "zlibstat.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3052,7 +3052,7 @@
     {
         "Bytes": 7211,
         "BytesHuman": "7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "zlibvc.def",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3069,7 +3069,7 @@
     {
         "Bytes": 10612,
         "BytesHuman": "10.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "zlibvc.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3086,7 +3086,7 @@
     {
         "Bytes": 28028,
         "BytesHuman": "27.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9",
+        "Directory": "/zlib-1.2.11.tar.gz/contrib/vstudio/vc9",
         "Filename": "zlibvc.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3103,7 +3103,7 @@
     {
         "Bytes": 14053,
         "BytesHuman": "13.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "crc32.c",
         "LicenseGuesses": [
             {
@@ -3125,7 +3125,7 @@
     {
         "Bytes": 30562,
         "BytesHuman": "29.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "crc32.h",
         "LicenseGuesses": [
             {
@@ -3147,7 +3147,7 @@
     {
         "Bytes": 78889,
         "BytesHuman": "77K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "deflate.c",
         "LicenseGuesses": [
             {
@@ -3169,7 +3169,7 @@
     {
         "Bytes": 13150,
         "BytesHuman": "12.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "deflate.h",
         "LicenseGuesses": [
             {
@@ -3191,7 +3191,7 @@
     {
         "Bytes": 9335,
         "BytesHuman": "9.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Directory": "/zlib-1.2.11.tar.gz/doc",
         "Filename": "algorithm.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3208,7 +3208,7 @@
     {
         "Bytes": 20502,
         "BytesHuman": "20K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Directory": "/zlib-1.2.11.tar.gz/doc",
         "Filename": "rfc1950.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3225,7 +3225,7 @@
     {
         "Bytes": 36944,
         "BytesHuman": "36.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Directory": "/zlib-1.2.11.tar.gz/doc",
         "Filename": "rfc1951.txt",
         "LicenseGuesses": [
             {
@@ -3247,7 +3247,7 @@
     {
         "Bytes": 25037,
         "BytesHuman": "24.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Directory": "/zlib-1.2.11.tar.gz/doc",
         "Filename": "rfc1952.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3264,7 +3264,7 @@
     {
         "Bytes": 5193,
         "BytesHuman": "5.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/doc",
+        "Directory": "/zlib-1.2.11.tar.gz/doc",
         "Filename": "txtvsbin.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3281,7 +3281,7 @@
     {
         "Bytes": 1817,
         "BytesHuman": "1.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "README.examples",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3298,7 +3298,7 @@
     {
         "Bytes": 24338,
         "BytesHuman": "23.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "enough.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3315,7 +3315,7 @@
     {
         "Bytes": 8594,
         "BytesHuman": "8.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "fitblk.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3332,7 +3332,7 @@
     {
         "Bytes": 25943,
         "BytesHuman": "25.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "gun.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3349,7 +3349,7 @@
     {
         "Bytes": 16977,
         "BytesHuman": "16.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "gzappend.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3366,7 +3366,7 @@
     {
         "Bytes": 14132,
         "BytesHuman": "13.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "gzjoin.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3383,7 +3383,7 @@
     {
         "Bytes": 41479,
         "BytesHuman": "40.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "gzlog.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3400,7 +3400,7 @@
     {
         "Bytes": 4557,
         "BytesHuman": "4.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "gzlog.h",
         "LicenseGuesses": [
             {
@@ -3422,7 +3422,7 @@
     {
         "Bytes": 29824,
         "BytesHuman": "29.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "zlib_how.html",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3439,7 +3439,7 @@
     {
         "Bytes": 6323,
         "BytesHuman": "6.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "zpipe.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3456,7 +3456,7 @@
     {
         "Bytes": 15438,
         "BytesHuman": "15.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/examples",
+        "Directory": "/zlib-1.2.11.tar.gz/examples",
         "Filename": "zran.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3473,7 +3473,7 @@
     {
         "Bytes": 678,
         "BytesHuman": "678B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "gzclose.c",
         "LicenseGuesses": [
             {
@@ -3495,7 +3495,7 @@
     {
         "Bytes": 6819,
         "BytesHuman": "6.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "gzguts.h",
         "LicenseGuesses": [
             {
@@ -3517,7 +3517,7 @@
     {
         "Bytes": 16599,
         "BytesHuman": "16.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "gzlib.c",
         "LicenseGuesses": [
             {
@@ -3539,7 +3539,7 @@
     {
         "Bytes": 20428,
         "BytesHuman": "19.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "gzread.c",
         "LicenseGuesses": [
             {
@@ -3561,7 +3561,7 @@
     {
         "Bytes": 19253,
         "BytesHuman": "18.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "gzwrite.c",
         "LicenseGuesses": [
             {
@@ -3583,7 +3583,7 @@
     {
         "Bytes": 22715,
         "BytesHuman": "22.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "infback.c",
         "LicenseGuesses": [
             {
@@ -3605,7 +3605,7 @@
     {
         "Bytes": 12978,
         "BytesHuman": "12.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "inffast.c",
         "LicenseGuesses": [
             {
@@ -3627,7 +3627,7 @@
     {
         "Bytes": 427,
         "BytesHuman": "427B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "inffast.h",
         "LicenseGuesses": [
             {
@@ -3649,7 +3649,7 @@
     {
         "Bytes": 6332,
         "BytesHuman": "6.2K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "inffixed.h",
         "LicenseGuesses": [
             {
@@ -3671,7 +3671,7 @@
     {
         "Bytes": 54800,
         "BytesHuman": "53.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "inflate.c",
         "LicenseGuesses": [
             {
@@ -3693,7 +3693,7 @@
     {
         "Bytes": 6618,
         "BytesHuman": "6.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "inflate.h",
         "LicenseGuesses": [
             {
@@ -3715,7 +3715,7 @@
     {
         "Bytes": 12999,
         "BytesHuman": "12.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "inftrees.c",
         "LicenseGuesses": [
             {
@@ -3737,7 +3737,7 @@
     {
         "Bytes": 2928,
         "BytesHuman": "2.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "inftrees.h",
         "LicenseGuesses": [
             {
@@ -3759,7 +3759,7 @@
     {
         "Bytes": 26402,
         "BytesHuman": "25.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "make_vms.com",
         "LicenseGuesses": [
             {
@@ -3781,7 +3781,7 @@
     {
         "Bytes": 3098,
         "BytesHuman": "3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Directory": "/zlib-1.2.11.tar.gz/msdos",
         "Filename": "Makefile.bor",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3798,7 +3798,7 @@
     {
         "Bytes": 2620,
         "BytesHuman": "2.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Directory": "/zlib-1.2.11.tar.gz/msdos",
         "Filename": "Makefile.dj2",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3815,7 +3815,7 @@
     {
         "Bytes": 1447,
         "BytesHuman": "1.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Directory": "/zlib-1.2.11.tar.gz/msdos",
         "Filename": "Makefile.emx",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3832,7 +3832,7 @@
     {
         "Bytes": 2924,
         "BytesHuman": "2.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Directory": "/zlib-1.2.11.tar.gz/msdos",
         "Filename": "Makefile.msc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3849,7 +3849,7 @@
     {
         "Bytes": 2657,
         "BytesHuman": "2.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/msdos",
+        "Directory": "/zlib-1.2.11.tar.gz/msdos",
         "Filename": "Makefile.tc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3866,7 +3866,7 @@
     {
         "Bytes": 4741,
         "BytesHuman": "4.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/nintendods",
+        "Directory": "/zlib-1.2.11.tar.gz/nintendods",
         "Filename": "Makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3883,7 +3883,7 @@
     {
         "Bytes": 209,
         "BytesHuman": "209B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/nintendods",
+        "Directory": "/zlib-1.2.11.tar.gz/nintendods",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3900,7 +3900,7 @@
     {
         "Bytes": 1456,
         "BytesHuman": "1.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Directory": "/zlib-1.2.11.tar.gz/old",
         "Filename": "Makefile.emx",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3917,7 +3917,7 @@
     {
         "Bytes": 3767,
         "BytesHuman": "3.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Directory": "/zlib-1.2.11.tar.gz/old",
         "Filename": "Makefile.riscos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3934,7 +3934,7 @@
     {
         "Bytes": 133,
         "BytesHuman": "133B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Directory": "/zlib-1.2.11.tar.gz/old",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3951,7 +3951,7 @@
     {
         "Bytes": 1545,
         "BytesHuman": "1.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Directory": "/zlib-1.2.11.tar.gz/old",
         "Filename": "descrip.mms",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3968,7 +3968,7 @@
     {
         "Bytes": 4109,
         "BytesHuman": "4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/old/os2",
+        "Directory": "/zlib-1.2.11.tar.gz/old/os2",
         "Filename": "Makefile.os2",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3985,7 +3985,7 @@
     {
         "Bytes": 778,
         "BytesHuman": "778B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/old/os2",
+        "Directory": "/zlib-1.2.11.tar.gz/old/os2",
         "Filename": "zlib.def",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4002,7 +4002,7 @@
     {
         "Bytes": 6060,
         "BytesHuman": "5.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/old",
+        "Directory": "/zlib-1.2.11.tar.gz/old",
         "Filename": "visual-basic.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4019,7 +4019,7 @@
     {
         "Bytes": 1871,
         "BytesHuman": "1.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Directory": "/zlib-1.2.11.tar.gz/os400",
         "Filename": "README400",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4036,7 +4036,7 @@
     {
         "Bytes": 3986,
         "BytesHuman": "3.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Directory": "/zlib-1.2.11.tar.gz/os400",
         "Filename": "bndsrc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4053,7 +4053,7 @@
     {
         "Bytes": 10727,
         "BytesHuman": "10.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Directory": "/zlib-1.2.11.tar.gz/os400",
         "Filename": "make.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4070,7 +4070,7 @@
     {
         "Bytes": 32795,
         "BytesHuman": "32K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/os400",
+        "Directory": "/zlib-1.2.11.tar.gz/os400",
         "Filename": "zlib.inc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4087,7 +4087,7 @@
     {
         "Bytes": 6432,
         "BytesHuman": "6.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/qnx",
+        "Directory": "/zlib-1.2.11.tar.gz/qnx",
         "Filename": "package.qpg",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4104,7 +4104,7 @@
     {
         "Bytes": 16888,
         "BytesHuman": "16.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/test",
+        "Directory": "/zlib-1.2.11.tar.gz/test",
         "Filename": "example.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4121,7 +4121,7 @@
     {
         "Bytes": 24723,
         "BytesHuman": "24.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/test",
+        "Directory": "/zlib-1.2.11.tar.gz/test",
         "Filename": "infcover.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4138,7 +4138,7 @@
     {
         "Bytes": 15797,
         "BytesHuman": "15.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/test",
+        "Directory": "/zlib-1.2.11.tar.gz/test",
         "Filename": "minigzip.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4155,7 +4155,7 @@
     {
         "Bytes": 3142,
         "BytesHuman": "3.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "treebuild.xml",
         "LicenseGuesses": [
             {
@@ -4177,7 +4177,7 @@
     {
         "Bytes": 43761,
         "BytesHuman": "42.7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "trees.c",
         "LicenseGuesses": [
             {
@@ -4199,7 +4199,7 @@
     {
         "Bytes": 8472,
         "BytesHuman": "8.3K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "trees.h",
         "LicenseGuesses": [
             {
@@ -4221,7 +4221,7 @@
     {
         "Bytes": 2966,
         "BytesHuman": "2.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "uncompr.c",
         "LicenseGuesses": [
             {
@@ -4243,7 +4243,7 @@
     {
         "Bytes": 1439,
         "BytesHuman": "1.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/watcom",
+        "Directory": "/zlib-1.2.11.tar.gz/watcom",
         "Filename": "watcom_f.mak",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4260,7 +4260,7 @@
     {
         "Bytes": 1407,
         "BytesHuman": "1.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/watcom",
+        "Directory": "/zlib-1.2.11.tar.gz/watcom",
         "Filename": "watcom_l.mak",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4277,7 +4277,7 @@
     {
         "Bytes": 17921,
         "BytesHuman": "17.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "DLL_FAQ.txt",
         "LicenseGuesses": [
             {
@@ -4299,7 +4299,7 @@
     {
         "Bytes": 2587,
         "BytesHuman": "2.5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "Makefile.bor",
         "LicenseGuesses": [
             {
@@ -4321,7 +4321,7 @@
     {
         "Bytes": 5122,
         "BytesHuman": "5K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "Makefile.gcc",
         "LicenseGuesses": [
             {
@@ -4343,7 +4343,7 @@
     {
         "Bytes": 4937,
         "BytesHuman": "4.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "Makefile.msc",
         "LicenseGuesses": [
             {
@@ -4365,7 +4365,7 @@
     {
         "Bytes": 4870,
         "BytesHuman": "4.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "README-WIN32.txt",
         "LicenseGuesses": [
             {
@@ -4387,7 +4387,7 @@
     {
         "Bytes": 124,
         "BytesHuman": "124B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "VisualC.txt",
         "LicenseGuesses": [
             {
@@ -4409,7 +4409,7 @@
     {
         "Bytes": 1618,
         "BytesHuman": "1.6K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "zlib.def",
         "LicenseGuesses": [
             {
@@ -4431,7 +4431,7 @@
     {
         "Bytes": 1138,
         "BytesHuman": "1.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/win32",
+        "Directory": "/zlib-1.2.11.tar.gz/win32",
         "Filename": "zlib1.rc",
         "LicenseGuesses": [
             {
@@ -4453,7 +4453,7 @@
     {
         "Bytes": 16298,
         "BytesHuman": "15.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zconf.h",
         "LicenseGuesses": [
             {
@@ -4475,7 +4475,7 @@
     {
         "Bytes": 16349,
         "BytesHuman": "16K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zconf.h.cmakein",
         "LicenseGuesses": [
             {
@@ -4497,7 +4497,7 @@
     {
         "Bytes": 16298,
         "BytesHuman": "15.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zconf.h.in",
         "LicenseGuesses": [
             {
@@ -4519,7 +4519,7 @@
     {
         "Bytes": 4477,
         "BytesHuman": "4.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zlib.3",
         "LicenseGuesses": [
             {
@@ -4541,7 +4541,7 @@
     {
         "Bytes": 19318,
         "BytesHuman": "18.9K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zlib.3.pdf",
         "LicenseGuesses": [
             {
@@ -4563,7 +4563,7 @@
     {
         "Bytes": 96239,
         "BytesHuman": "94K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zlib.h",
         "LicenseGuesses": [
             {
@@ -4585,7 +4585,7 @@
     {
         "Bytes": 1457,
         "BytesHuman": "1.4K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zlib.map",
         "LicenseGuesses": [
             {
@@ -4607,7 +4607,7 @@
     {
         "Bytes": 294,
         "BytesHuman": "294B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zlib.pc.cmakein",
         "LicenseGuesses": [
             {
@@ -4629,7 +4629,7 @@
     {
         "Bytes": 254,
         "BytesHuman": "254B",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zlib.pc.in",
         "LicenseGuesses": [
             {
@@ -4651,7 +4651,7 @@
     {
         "Bytes": 3895,
         "BytesHuman": "3.8K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zlib2ansi",
         "LicenseGuesses": [
             {
@@ -4673,7 +4673,7 @@
     {
         "Bytes": 7304,
         "BytesHuman": "7.1K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zutil.c",
         "LicenseGuesses": [
             {
@@ -4695,7 +4695,7 @@
     {
         "Bytes": 7127,
         "BytesHuman": "7K",
-        "Directory": "/zlib-1.2.11.tar.gz_extracted/",
+        "Directory": "/zlib-1.2.11.tar.gz/",
         "Filename": "zutil.h",
         "LicenseGuesses": [
             {

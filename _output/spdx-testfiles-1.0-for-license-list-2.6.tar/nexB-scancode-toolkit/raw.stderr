@@ -4,16 +4,16 @@ Scan files for: info, licenses, copyrights with 1 process(es)...
 Scanning done.
 Summary:        info, copyrights, licenses with 1 process(es)
 Errors count:   0
-Scan Speed:     2.63 files/sec. 17.12 KB/sec.
+Scan Speed:     2.67 files/sec. 17.36 KB/sec.
 Initial counts: 690 resource(s): 687 file(s) and 3 directorie(s) 
 Final counts:   690 resource(s): 687 file(s) and 3 directorie(s) for 4.36 MB
 Timings:
-  setup_scan:licenses: 47.05s
-  setup: 47.05s
-  scan: 260.91s
-  output:spdx-rdf: 2.42s
-  output:spdx-tv: 1.45s
+  setup_scan:licenses: 45.82s
+  setup: 45.82s
+  scan: 257.33s
+  output:spdx-rdf: 2.45s
+  output:spdx-tv: 1.49s
   output:json: 0.12s
-  output:csv: 0.43s
-  output: 4.43s
-  total: 312.46s
+  output:csv: 0.45s
+  output: 4.51s
+  total: 307.73s

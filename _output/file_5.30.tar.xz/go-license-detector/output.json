@@ -1,17 +1,9 @@
 [
 	{
-		"project": "/file_5.30.tar.xz_extracted/",
+		"project": "/file_5.30.tar.xz/",
 		"matches": [
 			{
-				"license": "BSD-Protection",
-				"confidence": 0.5
-			},
-			{
 				"license": "BSD-3-Clause",
-				"confidence": 0.5
-			},
-			{
-				"license": "0BSD",
 				"confidence": 0.5
 			},
 			{
@@ -19,7 +11,15 @@
 				"confidence": 0.5
 			},
 			{
+				"license": "0BSD",
+				"confidence": 0.5
+			},
+			{
 				"license": "BSD-1-Clause",
+				"confidence": 0.5
+			},
+			{
+				"license": "BSD-Protection",
 				"confidence": 0.5
 			},
 			{
@@ -27,11 +27,7 @@
 				"confidence": 0.5
 			},
 			{
-				"license": "BSD-2-Clause-NetBSD",
-				"confidence": 0.33333334
-			},
-			{
-				"license": "BSD-2-Clause-FreeBSD",
+				"license": "LiLiQ-P-1.1",
 				"confidence": 0.33333334
 			},
 			{
@@ -39,7 +35,19 @@
 				"confidence": 0.33333334
 			},
 			{
+				"license": "BSD-3-Clause-LBNL",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-4-Clause-UC",
+				"confidence": 0.33333334
+			},
+			{
 				"license": "BSD-3-Clause-Clear",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-2-Clause-NetBSD",
 				"confidence": 0.33333334
 			},
 			{
@@ -47,23 +55,15 @@
 				"confidence": 0.33333334
 			},
 			{
-				"license": "BSD-2-Clause-Patent",
-				"confidence": 0.33333334
-			},
-			{
-				"license": "BSD-3-Clause-LBNL",
-				"confidence": 0.33333334
-			},
-			{
-				"license": "LiLiQ-P-1.1",
-				"confidence": 0.33333334
-			},
-			{
 				"license": "BSD-3-Clause-Attribution",
 				"confidence": 0.33333334
 			},
 			{
-				"license": "BSD-4-Clause-UC",
+				"license": "BSD-2-Clause-FreeBSD",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "BSD-2-Clause-Patent",
 				"confidence": 0.33333334
 			}
 		]

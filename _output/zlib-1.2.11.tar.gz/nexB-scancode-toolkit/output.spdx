@@ -13,12 +13,12 @@ Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
 # Creation Info
 
 Creator: Tool: ScanCode 2.9.2
-Created: 2018-06-19T12:47:29Z
+Created: 2018-06-19T20:12:15Z
 
 
 # Package
 
-PackageName: zlib-1.2.11.tar.gz_extracted
+PackageName: zlib-1.2.11.tar.gz
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: fbea378234cae76e7ea10277350b36e1e0e931ab
 PackageLicenseDeclared: NOASSERTION
@@ -114,7 +114,7 @@ copyright (c) 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/CMakeLists.txt
+FileName: ./zlib-1.2.11.tar.gz/CMakeLists.txt
 FileChecksum: SHA1: ade23b9417a586a0974e48fda589491fceb85c16
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -123,7 +123,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/ChangeLog
+FileName: ./zlib-1.2.11.tar.gz/ChangeLog
 FileChecksum: SHA1: e59e031b1a8b9f128fefde07c9d596db4a4c50e8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -133,7 +133,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/FAQ
+FileName: ./zlib-1.2.11.tar.gz/FAQ
 FileChecksum: SHA1: 832bb73adff252fa426a141ee4756daa9b8a4db4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: GPL-1.0-or-later
@@ -143,7 +143,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/INDEX
+FileName: ./zlib-1.2.11.tar.gz/INDEX
 FileChecksum: SHA1: 74611a0f2bcc004caa1fa07bdeb4c44b01f0a5d6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -152,7 +152,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/Makefile
+FileName: ./zlib-1.2.11.tar.gz/Makefile
 FileChecksum: SHA1: b04f62dd1002b9ca07068c90651432dec60029f3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -161,7 +161,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/Makefile.in
+FileName: ./zlib-1.2.11.tar.gz/Makefile.in
 FileChecksum: SHA1: 023e127b48d292316614f604c1bacda043ba3bb5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -171,7 +171,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2017 Jean-loup Gailly, Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/README
+FileName: ./zlib-1.2.11.tar.gz/README
 FileChecksum: SHA1: e1e1b075ae4ad6d628468e7dd40d9ec512ff9d10
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -181,7 +181,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/adler32.c
+FileName: ./zlib-1.2.11.tar.gz/adler32.c
 FileChecksum: SHA1: 6c1114794db137af50f9b060aaade1a1a35ed784
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -191,7 +191,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2011, 2016 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/amiga/Makefile.pup
+FileName: ./zlib-1.2.11.tar.gz/amiga/Makefile.pup
 FileChecksum: SHA1: 79461cdcf8eda434edca3c32781982d2082af5fe
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -201,7 +201,7 @@ FileCopyrightText: <text>Copyright (c) 1998 by Andreas R. Kleinert
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/amiga/Makefile.sas
+FileName: ./zlib-1.2.11.tar.gz/amiga/Makefile.sas
 FileChecksum: SHA1: 64787face2d527df6c78ba8754eb54c53dda6ac2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -211,7 +211,7 @@ FileCopyrightText: <text>Copyright Jean-loup Gailly Osma Ahvenlampi <Osma.Ahvenl
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/compress.c
+FileName: ./zlib-1.2.11.tar.gz/compress.c
 FileChecksum: SHA1: bd40f3ba8567a21560dc307d99c810de6f2d0533
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -221,7 +221,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2005, 2014, 2016 Jean-loup Gailly, M
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/configure
+FileName: ./zlib-1.2.11.tar.gz/configure
 FileChecksum: SHA1: bdc2fac491ea3431c733cf8be5b8c17ff60207ab
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -230,7 +230,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/README.contrib
+FileName: ./zlib-1.2.11.tar.gz/contrib/README.contrib
 FileChecksum: SHA1: 6b6a2a76495304808f5e13df25face2089124fe6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -240,7 +240,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/buffer_demo.adb
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/buffer_demo.adb
 FileChecksum: SHA1: 1d8fba99362b0973535a759097f7893d4551c4e7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -250,7 +250,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2004 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/mtest.adb
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/mtest.adb
 FileChecksum: SHA1: f1c968146ba1a8f07c7070a2af72ab8a84c82e3d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -260,7 +260,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2003 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/read.adb
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/read.adb
 FileChecksum: SHA1: a5a6682ef169a7429d9bf9f8acbda6ffb756fec4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -270,7 +270,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2003 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/readme.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/readme.txt
 FileChecksum: SHA1: 1fd4ae8ee39ef80117dca454e1951ecaf0d1d290
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -280,7 +280,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/test.adb
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/test.adb
 FileChecksum: SHA1: 5eebe86bd398dade5340cc4af24685bf02df671f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -290,7 +290,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2003 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib-streams.adb
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/zlib-streams.adb
 FileChecksum: SHA1: 70f5981b0c3c5de023ea3485ea7e81231a42ce7f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -300,7 +300,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2003 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib-streams.ads
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/zlib-streams.ads
 FileChecksum: SHA1: fadb4623dc2469cc4fd571a9fac302798735c40b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -310,7 +310,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2003 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib-thin.adb
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/zlib-thin.adb
 FileChecksum: SHA1: 43c7e58eb582ce078f6ff76aa4f4eb09892ff92b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -320,7 +320,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2003 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib-thin.ads
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/zlib-thin.ads
 FileChecksum: SHA1: faf47e35174e1e76edb85ea602779084e535df69
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -330,7 +330,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2003 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib.adb
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/zlib.adb
 FileChecksum: SHA1: 3961008f51def7ffcd692453df7b0f1d8b680645
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -340,7 +340,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2004 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib.ads
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/zlib.ads
 FileChecksum: SHA1: 0245a91806d804bf9f0907a3a001a141e9adb61b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LGPL-2.0-or-later
@@ -351,7 +351,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2004 Dmitriy Anisimkov
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/ada/zlib.gpr
+FileName: ./zlib-1.2.11.tar.gz/contrib/ada/zlib.gpr
 FileChecksum: SHA1: c36c2cf069e930eb81ee0c89bfe70c20c8d0511a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -360,7 +360,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/amd64/amd64-match.S
+FileName: ./zlib-1.2.11.tar.gz/contrib/amd64/amd64-match.S
 FileChecksum: SHA1: 4ac2676fb0393520f0d051965529c39139e7de8c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSD-3-Clause
@@ -369,7 +369,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/asm686/README.686
+FileName: ./zlib-1.2.11.tar.gz/contrib/asm686/README.686
 FileChecksum: SHA1: ac08681935257d53b3fd1793788a1406a781ee22
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -378,7 +378,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/asm686/match.S
+FileName: ./zlib-1.2.11.tar.gz/contrib/asm686/match.S
 FileChecksum: SHA1: f1023ae9dab5691291f42b180551bae164086492
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -388,7 +388,7 @@ FileCopyrightText: <text>Copyright (c) 1998, 2007 Brian Raiter <breadbox@muppetl
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/blast/Makefile
+FileName: ./zlib-1.2.11.tar.gz/contrib/blast/Makefile
 FileChecksum: SHA1: c18cae8b163b2fc351bc59b8efad7a190d1ead78
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -397,7 +397,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/blast/README
+FileName: ./zlib-1.2.11.tar.gz/contrib/blast/README
 FileChecksum: SHA1: 69a33e70f88cc1f3520e2154ed38d3f690ee26e5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -406,7 +406,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/blast/blast.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/blast/blast.c
 FileChecksum: SHA1: 809a3404b6e9e1bc120ff0313c31c4bd2b776823
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -416,7 +416,7 @@ FileCopyrightText: <text>Copyright (c) 2003, 2012, 2013 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/blast/blast.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/blast/blast.h
 FileChecksum: SHA1: b20eb7c03966462cafbf896c97263632004bd867
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -426,7 +426,7 @@ FileCopyrightText: <text>Copyright (c) 2003, 2012, 2013 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/blast/test.pk
+FileName: ./zlib-1.2.11.tar.gz/contrib/blast/test.pk
 FileChecksum: SHA1: 00d07b4c71bad842d7e04210f966e55977efd9c3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -435,7 +435,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/blast/test.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/blast/test.txt
 FileChecksum: SHA1: aed9b9fc86b2b47a4c46053df53feb544ecf31ce
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -444,7 +444,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/delphi/ZLib.pas
+FileName: ./zlib-1.2.11.tar.gz/contrib/delphi/ZLib.pas
 FileChecksum: SHA1: 25133131cac8eeed1962e7a9072b06591481a520
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -454,7 +454,7 @@ FileCopyrightText: <text>Copyright (c) 1997,99 Borland Corporation
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/delphi/ZLibConst.pas
+FileName: ./zlib-1.2.11.tar.gz/contrib/delphi/ZLibConst.pas
 FileChecksum: SHA1: e0ff4d3c14a4dcdbf170692ce0fec86939b500d0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -463,7 +463,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/delphi/readme.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/delphi/readme.txt
 FileChecksum: SHA1: 366e08eaa227cd3d09810c45639aedf4879b7ecf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -473,7 +473,7 @@ FileCopyrightText: <text>Copyright (c) 1997,99 Borland Corp.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/delphi/zlibd32.mak
+FileName: ./zlib-1.2.11.tar.gz/contrib/delphi/zlibd32.mak
 FileChecksum: SHA1: ddf83b34d4c7d41ace39f96b5cb13fb390c8d2eb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -482,7 +482,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib.build
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.build
 FileChecksum: SHA1: 6f87ba12d786feca35738d0e9ce1f0f03f292881
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -491,7 +491,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib.chm
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.chm
 FileChecksum: SHA1: a1245c21c7e918fa2919fd10bbe5604fc81faf49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -500,7 +500,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib.sln
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.sln
 FileChecksum: SHA1: 4946bdb71b79bff62f9217802b7524010c669408
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -509,7 +509,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/AssemblyInfo.cs
 FileChecksum: SHA1: 9f1db1177b2e9a014f72bb3cd80be17133e06d16
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -519,7 +519,7 @@ FileCopyrightText: <text>(c) 2004 by Henrik Ravn
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/ChecksumImpl.cs
 FileChecksum: SHA1: 3807a0e24a57b92ea301559cab7307b8eab52c51
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -529,7 +529,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/CircularBuffer.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CircularBuffer.cs
 FileChecksum: SHA1: 1e646570737b175729a916da13b23fe88fcbd0e8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -539,7 +539,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/CodecBase.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CodecBase.cs
 FileChecksum: SHA1: 2106c80ed4607f10400ceed9aa8f635efdea9345
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -549,7 +549,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/Deflater.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Deflater.cs
 FileChecksum: SHA1: 11f6bf695e4b8ddac0d8553640ef303d9b7cab72
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -559,7 +559,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/DotZLib.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.cs
 FileChecksum: SHA1: e9c7c49791d38b49a39aab76f593b2ea229fa940
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -569,7 +569,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/DotZLib.csproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.csproj
 FileChecksum: SHA1: 99238c2ad633a641687d722e8c80aaa0a8c8bdd2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -578,7 +578,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/GZipStream.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/GZipStream.cs
 FileChecksum: SHA1: 731206b5721b9a7be5a1cbc98e3cc969bd176b4b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -588,7 +588,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/Inflater.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Inflater.cs
 FileChecksum: SHA1: 25f788ff0015c08fcd74d6e4552e01792c559350
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -598,7 +598,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/DotZLib/UnitTests.cs
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/UnitTests.cs
 FileChecksum: SHA1: 8d35d4a5b28e472f5618185c295d1964c1459d07
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -608,7 +608,7 @@ FileCopyrightText: <text>(c) Copyright Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/LICENSE_1_0.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt
 FileChecksum: SHA1: 892b34f7865d90a6f949f50d95e49625a10bc7f0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -617,7 +617,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/dotzlib/readme.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/dotzlib/readme.txt
 FileChecksum: SHA1: b1229b826f0096808628474538cea8fec2922a9b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: BSL-1.0
@@ -627,7 +627,7 @@ FileCopyrightText: <text>Copyright (c) Henrik Ravn 2004
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/gcc_gvmat64/gvmat64.S
+FileName: ./zlib-1.2.11.tar.gz/contrib/gcc_gvmat64/gvmat64.S
 FileChecksum: SHA1: 742603cba1af98a1432cc02efb019b1a5760adf2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -637,7 +637,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2010 Jean-loup Gailly, Brian Raiter 
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/infback9/README
+FileName: ./zlib-1.2.11.tar.gz/contrib/infback9/README
 FileChecksum: SHA1: b3905a8a31f7c61114b5fa6e203682b250e029d6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -646,7 +646,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/infback9/infback9.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/infback9/infback9.c
 FileChecksum: SHA1: 17fb362c03755b12f2dda5b12a68cf38162674bd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -656,7 +656,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2008 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/infback9/infback9.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/infback9/infback9.h
 FileChecksum: SHA1: d0486a32b558dcaceded5f0746fad62e680a4734
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -666,7 +666,7 @@ FileCopyrightText: <text>Copyright (c) 2003 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/infback9/inffix9.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/infback9/inffix9.h
 FileChecksum: SHA1: 7a57a5901d920d1d3fcf4f8d6bedf8c9c68b41a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -675,7 +675,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/infback9/inflate9.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/infback9/inflate9.h
 FileChecksum: SHA1: c7541490d97f70268010ae1baeb98a10302f3df8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -685,7 +685,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2003 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/infback9/inftree9.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/infback9/inftree9.c
 FileChecksum: SHA1: 2729fd3758fb3eb6e84ec51d1c118bd5888ee874
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -696,7 +696,7 @@ Copyright 1995-2017 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/infback9/inftree9.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/infback9/inftree9.h
 FileChecksum: SHA1: cfb5d10e9b79029c758cf0428875f9cffa9d6cdf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -706,7 +706,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2008 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/inflate86/inffas86.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/inflate86/inffas86.c
 FileChecksum: SHA1: d9dfc1538fb2bf1daef2fec42e68472ede564abc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -717,7 +717,7 @@ Copyright (c) 2003 Chris Anderson <christop@charm.net>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/inflate86/inffast.S
+FileName: ./zlib-1.2.11.tar.gz/contrib/inflate86/inffast.S
 FileChecksum: SHA1: e5c30f2fc07023d7024571c9882383236d2a1cb0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -728,7 +728,7 @@ Copyright (c) 2003 Chris Anderson <christop@charm.net>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream/test.cpp
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream/test.cpp
 FileChecksum: SHA1: 0074186cc98585f48eb8d18c2be887955238b741
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -737,7 +737,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream/zfstream.cpp
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream/zfstream.cpp
 FileChecksum: SHA1: a8f677a8e32a4923a8a57c61e60ecb899eca5cab
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -746,7 +746,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream/zfstream.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream/zfstream.h
 FileChecksum: SHA1: 57f03c37ca952cec5e58c827995365c18c728285
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -755,7 +755,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream2/zstream.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream2/zstream.h
 FileChecksum: SHA1: fca4540d490fff36bb90fd801cf9cd8fc695bb17
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-cmr-no
@@ -765,7 +765,7 @@ FileCopyrightText: <text>Copyright (c) 1997 Christian Michelsen Research AS Adva
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream2/zstream_test.cpp
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream2/zstream_test.cpp
 FileChecksum: SHA1: e18a6d55cbbd8b832f8d795530553467e5c74fcf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -774,7 +774,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream3/README
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream3/README
 FileChecksum: SHA1: d4a3dfd7a48721d6e7d12da226855bab19f6e8c1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-mit-open-group
@@ -784,7 +784,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream3/TODO
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream3/TODO
 FileChecksum: SHA1: c40d91b8e4051c4fac646e0213dee173e207bcee
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -793,7 +793,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream3/test.cc
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream3/test.cc
 FileChecksum: SHA1: b81342fb774937c210f5718ad5783f1eed13f7a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -803,7 +803,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream3/zfstream.cc
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream3/zfstream.cc
 FileChecksum: SHA1: 19b83e921e89a638ebf978ca2beea7aefd78f9c2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -813,7 +813,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/iostream3/zfstream.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/iostream3/zfstream.h
 FileChecksum: SHA1: 351a3f5bfb93196701cc86b27db866a18ca54105
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -823,7 +823,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx64/bld_ml64.bat
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx64/bld_ml64.bat
 FileChecksum: SHA1: 1d723acf46ecfb6e16922ea55309cee9c77b9d49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -832,7 +832,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx64/gvmat64.asm
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx64/gvmat64.asm
 FileChecksum: SHA1: 3c72c7b7f6c82e72b25a700eebccd0a987e7ba7b
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -842,7 +842,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2010 Jean-loup Gailly, Brian Raiter 
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx64/inffas8664.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx64/inffas8664.c
 FileChecksum: SHA1: a179f3e1a04b5db58eaf6fcc473567794e0391f8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -853,7 +853,7 @@ Copyright (c) 2003 Chris Anderson <christop@charm.net>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx64/inffasx64.asm
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx64/inffasx64.asm
 FileChecksum: SHA1: 249b0329964e35481e8e6217220f474e3076d35a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -862,7 +862,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx64/readme.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx64/readme.txt
 FileChecksum: SHA1: 3f2e049fdd6fc4c914a0d9a099dfe735cd0e3b86
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -872,7 +872,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx86/bld_ml32.bat
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx86/bld_ml32.bat
 FileChecksum: SHA1: d2bcdd2fcb5e43ee260f510c25cf2b98318e9b0c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -881,7 +881,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx86/inffas32.asm
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx86/inffas32.asm
 FileChecksum: SHA1: 6f42ac182d48c31346bb6dc04ab74f85157eb0b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -892,7 +892,7 @@ Copyright (c) 2003 Chris Anderson <christop@charm.net>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx86/match686.asm
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm
 FileChecksum: SHA1: 34529073d91211b48f2d8d6cad58202f50cb2047
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -903,7 +903,7 @@ Copyright (c) 1998 Brian Raiter <breadbox@muppetlabs.com>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/masmx86/readme.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/masmx86/readme.txt
 FileChecksum: SHA1: 287dd9febd8dc4b56b07ca84e4cfcf90d21dc09d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -912,7 +912,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/Makefile
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/Makefile
 FileChecksum: SHA1: b1b85a0f99bf296c58326a80bc0bf220080778cd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -921,7 +921,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/Makefile.am
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/Makefile.am
 FileChecksum: SHA1: f978d26b0069ef66a560bcba8fd204ed70026f2a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -930,7 +930,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/MiniZip64_Changes.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_Changes.txt
 FileChecksum: SHA1: cb10d2af06d59532c6d462ab0dbd2b79c55a5834
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -939,7 +939,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/MiniZip64_info.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_info.txt
 FileChecksum: SHA1: e1f5511bbdf9715bb2f18e4d24924cca3275fb24
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -949,7 +949,7 @@ FileCopyrightText: <text>Copyright (c) 1998-2010 - by Gilles Vollant
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/configure.ac
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/configure.ac
 FileChecksum: SHA1: 9f3a1689b5b848b0b21035783601b97155a0a691
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -958,7 +958,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/crypt.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/crypt.h
 FileChecksum: SHA1: 94f289e1b0403b01289b10c6b32ed7d1471fa0ca
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -968,7 +968,7 @@ FileCopyrightText: <text>Copyright (c) 1998-2005 Gilles Vollant
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/ioapi.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/ioapi.c
 FileChecksum: SHA1: 2846a21ba725da90aa3a67024d8107daa793f5f7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -979,7 +979,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/ioapi.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/ioapi.h
 FileChecksum: SHA1: e71518ae9f172eab44a2d8f52b3f80b0552070d5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -990,7 +990,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/iowin32.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/iowin32.c
 FileChecksum: SHA1: ca25851a0d1dfc989aceb2461dd2d5ec88649b8d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1001,7 +1001,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/iowin32.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/iowin32.h
 FileChecksum: SHA1: 4fedf239afafc20e420c5fec678dba91c1dd0074
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1012,7 +1012,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/make_vms.com
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/make_vms.com
 FileChecksum: SHA1: 79d9e7c5d124fbcf79bff4509b51c09600b33a34
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1021,7 +1021,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/miniunz.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/miniunz.c
 FileChecksum: SHA1: 54e7b5392ee6600c91c9c423561941a571aaf715
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1033,7 +1033,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/miniunzip.1
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/miniunzip.1
 FileChecksum: SHA1: e925714d46251f192d3266ef4a4cb64d292eb787
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1043,7 +1043,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/minizip.1
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/minizip.1
 FileChecksum: SHA1: 17a13c717cd030c037a407f59d0d14d2c25e4e05
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1053,7 +1053,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/minizip.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/minizip.c
 FileChecksum: SHA1: f47c6866b347bfff1a54c680b6c393d7c02e1d8d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1065,7 +1065,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/minizip.pc.in
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/minizip.pc.in
 FileChecksum: SHA1: 6a19e706e976d4e7b300d7ae294973fa8278ab14
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1074,7 +1074,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/mztools.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/mztools.c
 FileChecksum: SHA1: 0f6dad6443b0f347ac6b17563014f50c7b4fd17f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1083,7 +1083,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/mztools.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/mztools.h
 FileChecksum: SHA1: 907243f7cea46d38ad12f6a6d6e01adb4d74f1b3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1092,7 +1092,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/unzip.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/unzip.c
 FileChecksum: SHA1: 279d344d1b214a74bc98409dffb69047e6887220
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-info-zip-2009-01
@@ -1108,7 +1108,7 @@ Copyright 1998-2004 Gilles Vollant
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/unzip.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/unzip.h
 FileChecksum: SHA1: 4236476513b299f00f9637f7ad3e3631ebdec2b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1120,7 +1120,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/zip.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/zip.c
 FileChecksum: SHA1: 885d9e822859c3b6a6f0656e3d0c8c97af6f6fe7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1132,7 +1132,7 @@ Copyright 1998-2004 Gilles Vollant
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/minizip/zip.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/minizip/zip.h
 FileChecksum: SHA1: 8cef828db4766401b91bec9b47ca56a3118705fc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1143,7 +1143,7 @@ Copyright (c) 2009-2010 Mathias Svensson http://result42.com
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/pascal/example.pas
+FileName: ./zlib-1.2.11.tar.gz/contrib/pascal/example.pas
 FileChecksum: SHA1: 51c42c32667ef6fc0b4b51867afac971fe11c15c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1157,7 +1157,7 @@ Copyright (c) 2003 by Cosmin Truta.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/pascal/readme.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/pascal/readme.txt
 FileChecksum: SHA1: c47cc3ccdb450bd0d3d1d0e6f52746a2c0ca8541
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1172,7 +1172,7 @@ Copyright (c) 2003 by Cosmin Truta.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/pascal/zlibd32.mak
+FileName: ./zlib-1.2.11.tar.gz/contrib/pascal/zlibd32.mak
 FileChecksum: SHA1: ddf83b34d4c7d41ace39f96b5cb13fb390c8d2eb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1181,7 +1181,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/pascal/zlibpas.pas
+FileName: ./zlib-1.2.11.tar.gz/contrib/pascal/zlibpas.pas
 FileChecksum: SHA1: 6366310dff32cfb18b9e950f8c530304a9fd83fa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-see-license
@@ -1191,7 +1191,7 @@ FileCopyrightText: <text>Copyright (c) 2003 Cosmin Truta. Derived
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/puff/Makefile
+FileName: ./zlib-1.2.11.tar.gz/contrib/puff/Makefile
 FileChecksum: SHA1: 6c9c12d0e19be923abf86e2584a23a781d81cb06
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1200,7 +1200,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/puff/README
+FileName: ./zlib-1.2.11.tar.gz/contrib/puff/README
 FileChecksum: SHA1: 8f68ce02019463af0813a0db20c98bfc8e3c2ef7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1209,7 +1209,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/puff/puff.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/puff/puff.c
 FileChecksum: SHA1: 3c31e70c07929fabd5b3454ad8da39e8492633f6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-see-license
@@ -1219,7 +1219,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2013 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/puff/puff.h
+FileName: ./zlib-1.2.11.tar.gz/contrib/puff/puff.h
 FileChecksum: SHA1: ce8b988a404446fc8558b198d3cfeabcad6d16c5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1229,7 +1229,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2013 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/puff/pufftest.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/puff/pufftest.c
 FileChecksum: SHA1: e2318f2de8c7355385dca2c9d9422500f4927fc8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-see-license
@@ -1239,7 +1239,7 @@ FileCopyrightText: <text>Copyright (c) 2002-2013 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/puff/zeros.raw
+FileName: ./zlib-1.2.11.tar.gz/contrib/puff/zeros.raw
 FileChecksum: SHA1: 2477f0a2d20cfc6272b91fa36d45c90dcda386ab
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1248,7 +1248,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/testzlib/testzlib.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/testzlib/testzlib.c
 FileChecksum: SHA1: 6833222dcd2b5ee1c7241f00efa6edfde4991ffa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1257,7 +1257,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/testzlib/testzlib.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/testzlib/testzlib.txt
 FileChecksum: SHA1: 89f8964acc535861273f1f156a24ed2ac4cfa37a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1266,7 +1266,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/untgz/Makefile
+FileName: ./zlib-1.2.11.tar.gz/contrib/untgz/Makefile
 FileChecksum: SHA1: b31cf680ad6e873da3c897c6b123a5fde4cd5151
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1275,7 +1275,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/untgz/Makefile.msc
+FileName: ./zlib-1.2.11.tar.gz/contrib/untgz/Makefile.msc
 FileChecksum: SHA1: 3d3a312c38dd7e3316ddb553e894734f42d28205
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1284,7 +1284,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/untgz/untgz.c
+FileName: ./zlib-1.2.11.tar.gz/contrib/untgz/untgz.c
 FileChecksum: SHA1: 260f16a4110f43071b376af97c4119f5ecf902af
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1294,7 +1294,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/readme.txt
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/readme.txt
 FileChecksum: SHA1: 066affe7fd1e8a9e54ef08d63abee644bb821c03
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1303,7 +1303,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/miniunz.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/miniunz.vcxproj
 FileChecksum: SHA1: 70048ae1ef9a404d49ae943878fd30ddee54c121
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1312,7 +1312,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/miniunz.vcxproj.filters
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/miniunz.vcxproj.filters
 FileChecksum: SHA1: 320d0a38475bbfe13314956d0ac7927cb7d1f975
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1321,7 +1321,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/minizip.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/minizip.vcxproj
 FileChecksum: SHA1: 530a1f4869bfa4cedf0f878fff4480535bd5b1bf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1330,7 +1330,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/minizip.vcxproj.filters
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/minizip.vcxproj.filters
 FileChecksum: SHA1: 21845c87ed7730c73605e936de851eaa23222f30
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1339,7 +1339,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/testzlib.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlib.vcxproj
 FileChecksum: SHA1: da5c9e1922fa655c534811676563df7c31fb36a7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1348,7 +1348,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/testzlib.vcxproj.filters
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlib.vcxproj.filters
 FileChecksum: SHA1: 76e2f85e212116be3a0142703c2d68b09b9b79d3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1357,7 +1357,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/testzlibdll.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlibdll.vcxproj
 FileChecksum: SHA1: d3a849fce0bca235516932604c5c9bcbd2fce125
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1366,7 +1366,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/testzlibdll.vcxproj.filters
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlibdll.vcxproj.filters
 FileChecksum: SHA1: d14872425639811364dc265fce04045bcdb11ead
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1375,7 +1375,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/zlib.rc
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlib.rc
 FileChecksum: SHA1: e67b5d0e28bda140346388d087b2c13cf7680a1f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1385,7 +1385,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly & Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/zlibstat.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibstat.vcxproj
 FileChecksum: SHA1: 2dfa4c3f4422c58c7e8d142c7fc9c4c11191f705
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1394,7 +1394,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/zlibstat.vcxproj.filters
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibstat.vcxproj.filters
 FileChecksum: SHA1: e9fa98820edf15ae1eedc2101f30c3cef2d935e8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1403,7 +1403,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/zlibvc.def
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.def
 FileChecksum: SHA1: e869e83b39cc26f7323352081f777b3e72a53c93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1412,7 +1412,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/zlibvc.sln
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.sln
 FileChecksum: SHA1: 4f2ed833f8ff01bdfb27c65d88de1957aea598d3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1421,7 +1421,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/zlibvc.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.vcxproj
 FileChecksum: SHA1: ae00729a7c8f1041498b6fe354aff1713c7fe325
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1430,7 +1430,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc10/zlibvc.vcxproj.filters
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.vcxproj.filters
 FileChecksum: SHA1: 79d4ef79d8a67a831264e1542d13070619c6eade
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1439,7 +1439,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/miniunz.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/miniunz.vcxproj
 FileChecksum: SHA1: 1b465b8db5b2651282cc0da57a27f76801a05cbc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1448,7 +1448,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/minizip.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/minizip.vcxproj
 FileChecksum: SHA1: eafb9f2fa4f89d876f3819e756799b69cb9b2e1a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1457,7 +1457,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/testzlib.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/testzlib.vcxproj
 FileChecksum: SHA1: 24acf8bef08c985c250f0eb555ad94f7e2f04846
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1466,7 +1466,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/testzlibdll.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/testzlibdll.vcxproj
 FileChecksum: SHA1: 9c4618693842092678ae885ff0a44139c1f6a4ac
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1475,7 +1475,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/zlib.rc
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlib.rc
 FileChecksum: SHA1: e67b5d0e28bda140346388d087b2c13cf7680a1f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1485,7 +1485,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly & Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/zlibstat.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibstat.vcxproj
 FileChecksum: SHA1: 223df1a7f2b79131c10230eb98d2112c93b9f977
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1494,7 +1494,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/zlibvc.def
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.def
 FileChecksum: SHA1: e869e83b39cc26f7323352081f777b3e72a53c93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1503,7 +1503,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/zlibvc.sln
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.sln
 FileChecksum: SHA1: 7fface057a73d5ad706203d3f6f1e37b59bce3b4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1512,7 +1512,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc11/zlibvc.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.vcxproj
 FileChecksum: SHA1: 947f29a61b08c158a960687a75b548769a5e1d32
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1521,7 +1521,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/miniunz.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/miniunz.vcxproj
 FileChecksum: SHA1: 78d7b8fa17322e2be5d6e36a6b09515e489ba97e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1530,7 +1530,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/minizip.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/minizip.vcxproj
 FileChecksum: SHA1: 701b614bbab070519b0837758c69aa0443804eb7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1539,7 +1539,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/testzlib.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/testzlib.vcxproj
 FileChecksum: SHA1: fec99dd6b063416ef0a48662adad3a421c1a049a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1548,7 +1548,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/testzlibdll.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/testzlibdll.vcxproj
 FileChecksum: SHA1: 0e1bb13edb71d4e1857aa02e1075742fa726490a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1557,7 +1557,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/zlib.rc
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlib.rc
 FileChecksum: SHA1: 2d3f0ee9f7cc18feff62eb78f064f4b4f45415d9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1567,7 +1567,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly & Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/zlibstat.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibstat.vcxproj
 FileChecksum: SHA1: 38e7d39967856e2a95661f9b5758d93085178d3d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1576,7 +1576,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/zlibvc.def
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.def
 FileChecksum: SHA1: e869e83b39cc26f7323352081f777b3e72a53c93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1585,7 +1585,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/zlibvc.sln
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.sln
 FileChecksum: SHA1: 17e1c07bb0a9d02fc3b1a1ec9c4b1d6c5f2ac0a4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1594,7 +1594,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc12/zlibvc.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.vcxproj
 FileChecksum: SHA1: eca6032321210ba1df7f8743f9fc41c0ccaa1a02
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1603,7 +1603,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/miniunz.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/miniunz.vcxproj
 FileChecksum: SHA1: 453b68e1108b382b4d755c9b08a5af37f538d3ba
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1612,7 +1612,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/minizip.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/minizip.vcxproj
 FileChecksum: SHA1: f55c663c7ecaea0aa8c53523f887f680388c2cd1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1621,7 +1621,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/testzlib.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/testzlib.vcxproj
 FileChecksum: SHA1: 3c61f30ff4ef922fd1c14484bb31c8e52e9b9305
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1630,7 +1630,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/testzlibdll.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/testzlibdll.vcxproj
 FileChecksum: SHA1: 63b622b44827ded02a631bec50e4d1f772f4b799
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1639,7 +1639,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/zlib.rc
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlib.rc
 FileChecksum: SHA1: 2d3f0ee9f7cc18feff62eb78f064f4b4f45415d9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1649,7 +1649,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly & Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/zlibstat.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibstat.vcxproj
 FileChecksum: SHA1: 20ee6f367909b5b555c0d76476049b21ec46c2f5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1658,7 +1658,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/zlibvc.def
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.def
 FileChecksum: SHA1: e869e83b39cc26f7323352081f777b3e72a53c93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1667,7 +1667,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/zlibvc.sln
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.sln
 FileChecksum: SHA1: 5a492dc0bb0a953753f6cff5dd005b3f17f8ad95
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1676,7 +1676,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc14/zlibvc.vcxproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.vcxproj
 FileChecksum: SHA1: 89afb166f7b1e1c5b1f97c495f27e2167b5cc0da
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1685,7 +1685,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/miniunz.vcproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/miniunz.vcproj
 FileChecksum: SHA1: 40de34c1a26fe1fa14efb992d217c84bacea7ef1
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1694,7 +1694,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/minizip.vcproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/minizip.vcproj
 FileChecksum: SHA1: 88d892514b4afba218dec574ea241904d263e29e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1703,7 +1703,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/testzlib.vcproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/testzlib.vcproj
 FileChecksum: SHA1: 42b4b89271adf184abb594d092bf4ae4c2431ac9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1712,7 +1712,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/testzlibdll.vcproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/testzlibdll.vcproj
 FileChecksum: SHA1: 086ea8214cfcb33f3512a847f3dfde6154a7137d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1721,7 +1721,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/zlib.rc
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlib.rc
 FileChecksum: SHA1: e67b5d0e28bda140346388d087b2c13cf7680a1f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1731,7 +1731,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly & Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/zlibstat.vcproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibstat.vcproj
 FileChecksum: SHA1: 235725a6f6285f12aa3ecc248b0afbcaeaa3367c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1740,7 +1740,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/zlibvc.def
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.def
 FileChecksum: SHA1: e869e83b39cc26f7323352081f777b3e72a53c93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1749,7 +1749,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/zlibvc.sln
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.sln
 FileChecksum: SHA1: 8b46b3778372dbb718fd0f00ff1ee55266b18892
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1758,7 +1758,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/contrib/vstudio/vc9/zlibvc.vcproj
+FileName: ./zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.vcproj
 FileChecksum: SHA1: 82379594550bf43deb4a5114d938ad8ca06fd763
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1767,7 +1767,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/crc32.c
+FileName: ./zlib-1.2.11.tar.gz/crc32.c
 FileChecksum: SHA1: 88ea76a1b42bfc247680dd50b450923858f945fe
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1777,7 +1777,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2006, 2010, 2011, 2012, 2016 Mark Ad
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/crc32.h
+FileName: ./zlib-1.2.11.tar.gz/crc32.h
 FileChecksum: SHA1: db9e88b8332953972c9120c73389fa2ce03dd8f8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1786,7 +1786,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/deflate.c
+FileName: ./zlib-1.2.11.tar.gz/deflate.c
 FileChecksum: SHA1: 436dc72ccb798bf1ac3e30cd9b580799f8bbb441
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1797,7 +1797,7 @@ Copyright 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/deflate.h
+FileName: ./zlib-1.2.11.tar.gz/deflate.h
 FileChecksum: SHA1: d54ac3369732bc45463c254851809a0062382b3d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1808,7 +1808,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2016 Jean-loup Gailly
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/doc/algorithm.txt
+FileName: ./zlib-1.2.11.tar.gz/doc/algorithm.txt
 FileChecksum: SHA1: 8f58cd212772b622c71345ca5d7dd93648b8ab94
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1817,7 +1817,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/doc/rfc1950.txt
+FileName: ./zlib-1.2.11.tar.gz/doc/rfc1950.txt
 FileChecksum: SHA1: 58f11c3e7778ca30e9c9330ab248107371429dd8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-peter-deutsch-document
@@ -1827,7 +1827,7 @@ FileCopyrightText: <text>Copyright (c) 1996 L. Peter Deutsch and Jean-Loup Gaill
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/doc/rfc1951.txt
+FileName: ./zlib-1.2.11.tar.gz/doc/rfc1951.txt
 FileChecksum: SHA1: b13d37ad6b3855f3a2eaf6c325eddaa7815355b0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-peter-deutsch-document
@@ -1837,7 +1837,7 @@ FileCopyrightText: <text>Copyright (c) 1996 L. Peter Deutsch
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/doc/rfc1952.txt
+FileName: ./zlib-1.2.11.tar.gz/doc/rfc1952.txt
 FileChecksum: SHA1: b2346a9c1e9cd011370595a292154ca83eff4ddb
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-peter-deutsch-document
@@ -1847,7 +1847,7 @@ FileCopyrightText: <text>Copyright (c) 1996 L. Peter Deutsch
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/doc/txtvsbin.txt
+FileName: ./zlib-1.2.11.tar.gz/doc/txtvsbin.txt
 FileChecksum: SHA1: 0b5f765b6151da46d356493278fd873e4c99ce80
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1856,7 +1856,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/README.examples
+FileName: ./zlib-1.2.11.tar.gz/examples/README.examples
 FileChecksum: SHA1: f793f7b378233d7e644754e603695966487576b5
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1865,7 +1865,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/enough.c
+FileName: ./zlib-1.2.11.tar.gz/examples/enough.c
 FileChecksum: SHA1: 1bcc3f9743bcfdfb77fb6736ece06c666dd1787e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -1875,7 +1875,7 @@ FileCopyrightText: <text>Copyright (c) 2007, 2008, 2012 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/fitblk.c
+FileName: ./zlib-1.2.11.tar.gz/examples/fitblk.c
 FileChecksum: SHA1: b69d9b6eeadd680fe37ab8ba54d781f46fe80420
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-public-domain
@@ -1884,7 +1884,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/gun.c
+FileName: ./zlib-1.2.11.tar.gz/examples/gun.c
 FileChecksum: SHA1: 66c4ce6e2e4cc86dbe346a7cc1bc921002335929
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1895,7 +1895,7 @@ Copyright (c) 2003-2010 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/gzappend.c
+FileName: ./zlib-1.2.11.tar.gz/examples/gzappend.c
 FileChecksum: SHA1: a22e75fe1bb392ce8516794d6e810fd0dfcf8dca
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1906,7 +1906,7 @@ Copyright (c) 2003, 2012 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/gzjoin.c
+FileName: ./zlib-1.2.11.tar.gz/examples/gzjoin.c
 FileChecksum: SHA1: 9c34287cf18b05b761daf6457fc5efbf501358d2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1916,7 +1916,7 @@ FileCopyrightText: <text>Copyright (c) 2004, 2005, 2012 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/gzlog.c
+FileName: ./zlib-1.2.11.tar.gz/examples/gzlog.c
 FileChecksum: SHA1: 32d9e430fe8725def0a036f86a526e7b3214eaf0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-see-license
@@ -1926,7 +1926,7 @@ FileCopyrightText: <text>Copyright (c) 2004, 2008, 2012, 2016 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/gzlog.h
+FileName: ./zlib-1.2.11.tar.gz/examples/gzlog.h
 FileChecksum: SHA1: deab1fb6de11e3145dfea71254d0c363a3415e04
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1936,7 +1936,7 @@ FileCopyrightText: <text>Copyright (c) 2004, 2008, 2012 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/zlib_how.html
+FileName: ./zlib-1.2.11.tar.gz/examples/zlib_how.html
 FileChecksum: SHA1: 35f85759bc23add6a8507c76d05f73131823a9b3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-public-domain
@@ -1947,7 +1947,7 @@ Copyright (c) 2004, 2005 by Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/zpipe.c
+FileName: ./zlib-1.2.11.tar.gz/examples/zpipe.c
 FileChecksum: SHA1: b59f2d5676cc135ac0af040d90c3e7b366fcce93
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: LicenseRef-public-domain
@@ -1956,7 +1956,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/examples/zran.c
+FileName: ./zlib-1.2.11.tar.gz/examples/zran.c
 FileChecksum: SHA1: db2e8f8daa77cf6536bf516f194c422f5db8310d
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1966,7 +1966,7 @@ FileCopyrightText: <text>Copyright (c) 2005, 2012 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/gzclose.c
+FileName: ./zlib-1.2.11.tar.gz/gzclose.c
 FileChecksum: SHA1: 4698124c166f59728db9ae229f8467459b458ef3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1976,7 +1976,7 @@ FileCopyrightText: <text>Copyright (c) 2004, 2010 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/gzguts.h
+FileName: ./zlib-1.2.11.tar.gz/gzguts.h
 FileChecksum: SHA1: 637240f7e6ac7249e161083b450fb9f4e1f2b088
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1986,7 +1986,7 @@ FileCopyrightText: <text>Copyright (c) 2004, 2005, 2010, 2011, 2012, 2013, 2016 
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/gzlib.c
+FileName: ./zlib-1.2.11.tar.gz/gzlib.c
 FileChecksum: SHA1: 4bd4f2745936d396899a7ba09290d6b17fab4a3c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -1996,7 +1996,7 @@ FileCopyrightText: <text>Copyright (c) 2004-2017 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/gzread.c
+FileName: ./zlib-1.2.11.tar.gz/gzread.c
 FileChecksum: SHA1: dfbd4eef919b6eded7e59ae420642ddf8bc848b8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2006,7 +2006,7 @@ FileCopyrightText: <text>Copyright (c) 2004, 2005, 2010, 2011, 2012, 2013, 2016 
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/gzwrite.c
+FileName: ./zlib-1.2.11.tar.gz/gzwrite.c
 FileChecksum: SHA1: d2e11857ffe5e792f5d89b927bb47ed726b65031
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2016,7 +2016,7 @@ FileCopyrightText: <text>Copyright (c) 2004-2017 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/infback.c
+FileName: ./zlib-1.2.11.tar.gz/infback.c
 FileChecksum: SHA1: 6b7d6a93d4429068f1af3c10a11de42ece950edd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2026,7 +2026,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2016 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/inffast.c
+FileName: ./zlib-1.2.11.tar.gz/inffast.c
 FileChecksum: SHA1: fe2fdfb8f51d9f84881cc453ba64f60e3d7c9cbc
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2036,7 +2036,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2017 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/inffast.h
+FileName: ./zlib-1.2.11.tar.gz/inffast.h
 FileChecksum: SHA1: 4fc803c43a562b2b92a97e22300754ddfe44c603
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2046,7 +2046,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2003, 2010 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/inffixed.h
+FileName: ./zlib-1.2.11.tar.gz/inffixed.h
 FileChecksum: SHA1: 8770ab43c9050b824c646f6e6cee8b3c0628cbda
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2055,7 +2055,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/inflate.c
+FileName: ./zlib-1.2.11.tar.gz/inflate.c
 FileChecksum: SHA1: d5cfffd5a037697867a78566d583e73f6d0f91b9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2065,7 +2065,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2016 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/inflate.h
+FileName: ./zlib-1.2.11.tar.gz/inflate.h
 FileChecksum: SHA1: 628d8395fc7f67e6d7a9a6cecba64f6594d64eb9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2075,7 +2075,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2016 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/inftrees.c
+FileName: ./zlib-1.2.11.tar.gz/inftrees.c
 FileChecksum: SHA1: a152b76b78f9245ca67db2729de72d51ecc234b0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2086,7 +2086,7 @@ Copyright 1995-2017 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/inftrees.h
+FileName: ./zlib-1.2.11.tar.gz/inftrees.h
 FileChecksum: SHA1: 3c63a7707d83991f3e074391c047b3136ff3e558
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2096,7 +2096,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2005, 2010 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/make_vms.com
+FileName: ./zlib-1.2.11.tar.gz/make_vms.com
 FileChecksum: SHA1: dc817ba3a5335de14bde5b81b1a3365734757625
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2106,7 +2106,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/msdos/Makefile.bor
+FileName: ./zlib-1.2.11.tar.gz/msdos/Makefile.bor
 FileChecksum: SHA1: 85d42a140e556d3b659f7e26c834b5574ea51754
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2115,7 +2115,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/msdos/Makefile.dj2
+FileName: ./zlib-1.2.11.tar.gz/msdos/Makefile.dj2
 FileChecksum: SHA1: 815d082068e07e22195e446ea8a880a1b03e425a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2125,7 +2125,7 @@ FileCopyrightText: <text>Copyright (c) 1995-1998 Jean-loup Gailly.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/msdos/Makefile.emx
+FileName: ./zlib-1.2.11.tar.gz/msdos/Makefile.emx
 FileChecksum: SHA1: 2cf0c4a2b98fc59c63bc5daee5d26e26dc15c81e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2135,7 +2135,7 @@ FileCopyrightText: <text>Copyright (c) 1995-1998 Jean-loup Gailly.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/msdos/Makefile.msc
+FileName: ./zlib-1.2.11.tar.gz/msdos/Makefile.msc
 FileChecksum: SHA1: 39f6df7982b02e1c8b72298c6cc58bf02d9d9f77
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2144,7 +2144,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/msdos/Makefile.tc
+FileName: ./zlib-1.2.11.tar.gz/msdos/Makefile.tc
 FileChecksum: SHA1: 98e97dcbaf0e7da0531f7a0367b052adc382fb29
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2153,7 +2153,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/nintendods/Makefile
+FileName: ./zlib-1.2.11.tar.gz/nintendods/Makefile
 FileChecksum: SHA1: 4b2d315c399a4db63f6380e9172d93ad0f500edf
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2162,7 +2162,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/nintendods/README
+FileName: ./zlib-1.2.11.tar.gz/nintendods/README
 FileChecksum: SHA1: f585a53f8a8d0415cbd7166f8c44a11a802ee39c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2171,7 +2171,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/old/Makefile.emx
+FileName: ./zlib-1.2.11.tar.gz/old/Makefile.emx
 FileChecksum: SHA1: 821cd8913362531cfd915b4c2bcb0777aa7d2f11
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2181,7 +2181,7 @@ FileCopyrightText: <text>Copyright (c) 1995-1998 Jean-loup Gailly.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/old/Makefile.riscos
+FileName: ./zlib-1.2.11.tar.gz/old/Makefile.riscos
 FileChecksum: SHA1: 2a3285389419eb244671143cc8c6333c7cbfdd2c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2190,7 +2190,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/old/README
+FileName: ./zlib-1.2.11.tar.gz/old/README
 FileChecksum: SHA1: 6967642b887ba82a9041bddce73254c42000d4d9
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2199,7 +2199,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/old/descrip.mms
+FileName: ./zlib-1.2.11.tar.gz/old/descrip.mms
 FileChecksum: SHA1: 940475beeeb76576feb22c2d8b7b97d493ab3d79
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2209,7 +2209,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/old/os2/Makefile.os2
+FileName: ./zlib-1.2.11.tar.gz/old/os2/Makefile.os2
 FileChecksum: SHA1: 4127401d329a7e421112ae14ec4e7dd995ea6e30
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2218,7 +2218,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/old/os2/zlib.def
+FileName: ./zlib-1.2.11.tar.gz/old/os2/zlib.def
 FileChecksum: SHA1: 108527bad780aecce1c75efa9210f4b1173f4139
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2227,7 +2227,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/old/visual-basic.txt
+FileName: ./zlib-1.2.11.tar.gz/old/visual-basic.txt
 FileChecksum: SHA1: 1cf5886f7fcee4019ef529f8f19dd8000be01229
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2236,7 +2236,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/os400/README400
+FileName: ./zlib-1.2.11.tar.gz/os400/README400
 FileChecksum: SHA1: 51d77ab7eeaa1d92a57a2a405b6ff985373bdaaa
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2245,7 +2245,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/os400/bndsrc
+FileName: ./zlib-1.2.11.tar.gz/os400/bndsrc
 FileChecksum: SHA1: 8b47a80813ee6c9afcad0defe645efa3b5998aa0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2254,7 +2254,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/os400/make.sh
+FileName: ./zlib-1.2.11.tar.gz/os400/make.sh
 FileChecksum: SHA1: c5baf22e2de7d01ca1fea649e832f9d827cf6064
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2264,7 +2264,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2017 Jean-Loup Gailly, Mark Adler.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/os400/zlib.inc
+FileName: ./zlib-1.2.11.tar.gz/os400/zlib.inc
 FileChecksum: SHA1: a911b361a568f6d0e07024149eaa17e9815c8fef
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2273,7 +2273,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/qnx/package.qpg
+FileName: ./zlib-1.2.11.tar.gz/qnx/package.qpg
 FileChecksum: SHA1: 3f3e8a85343976d3f6115797f7ac9e379a97bf67
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2282,7 +2282,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/test/example.c
+FileName: ./zlib-1.2.11.tar.gz/test/example.c
 FileChecksum: SHA1: bde9391a495a7b962cc63aaf8288b02159a5f68a
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2292,7 +2292,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2006, 2011, 2016 Jean-loup Gailly
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/test/infcover.c
+FileName: ./zlib-1.2.11.tar.gz/test/infcover.c
 FileChecksum: SHA1: e9ced1a5ecc8badd5bc14cd96ef859cc346ec3dd
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2302,7 +2302,7 @@ FileCopyrightText: <text>Copyright (c) 2011, 2016 Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/test/minigzip.c
+FileName: ./zlib-1.2.11.tar.gz/test/minigzip.c
 FileChecksum: SHA1: 2ff91a2d1d191233dea5741a1aee5095f577a93e
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2312,7 +2312,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2006, 2010, 2011, 2016 Jean-loup Gai
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/treebuild.xml
+FileName: ./zlib-1.2.11.tar.gz/treebuild.xml
 FileChecksum: SHA1: bdcfc455f66ef2b108b0a10c6dbe7837f54f59b3
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2321,7 +2321,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/trees.c
+FileName: ./zlib-1.2.11.tar.gz/trees.c
 FileChecksum: SHA1: ab030a33e399e7284b9ddf9bba64d0dd2730b417
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2331,7 +2331,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2017 Jean-loup Gailly
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/trees.h
+FileName: ./zlib-1.2.11.tar.gz/trees.h
 FileChecksum: SHA1: 5d8a9c42f902d2418a7e63b539c0f319373e9400
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2340,7 +2340,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/uncompr.c
+FileName: ./zlib-1.2.11.tar.gz/uncompr.c
 FileChecksum: SHA1: 90f92698d7de79341e85bd3ca411a6b165c58848
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2350,7 +2350,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2003, 2010, 2014, 2016 Jean-loup Gai
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/watcom/watcom_f.mak
+FileName: ./zlib-1.2.11.tar.gz/watcom/watcom_f.mak
 FileChecksum: SHA1: 1a6af1350f3ffbbff44273a7b661563f095b3234
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2359,7 +2359,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/watcom/watcom_l.mak
+FileName: ./zlib-1.2.11.tar.gz/watcom/watcom_l.mak
 FileChecksum: SHA1: e1deb6874b6162d2607dff14c2fccb7a37ce97b0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2368,7 +2368,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/DLL_FAQ.txt
+FileName: ./zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt
 FileChecksum: SHA1: 743c9da800bb73a7a30e7c5ce76b5bafd1256ba8
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2378,7 +2378,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/Makefile.bor
+FileName: ./zlib-1.2.11.tar.gz/win32/Makefile.bor
 FileChecksum: SHA1: 23262888e43719d398dea043e2bd09c23a9ba5da
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2387,7 +2387,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/Makefile.gcc
+FileName: ./zlib-1.2.11.tar.gz/win32/Makefile.gcc
 FileChecksum: SHA1: ea8204bc36bb1d25c28e0176eb777d1174965fc6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2397,7 +2397,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2003 Jean-loup Gailly.
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/Makefile.msc
+FileName: ./zlib-1.2.11.tar.gz/win32/Makefile.msc
 FileChecksum: SHA1: 03ac9a052f553e99d5c122a9adb9cf61c1059cda
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2407,7 +2407,7 @@ FileCopyrightText: <text>copyright (c) 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/README-WIN32.txt
+FileName: ./zlib-1.2.11.tar.gz/win32/README-WIN32.txt
 FileChecksum: SHA1: 7fec4ff7048956a2c556c199ac4989b9372250b7
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2417,7 +2417,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/VisualC.txt
+FileName: ./zlib-1.2.11.tar.gz/win32/VisualC.txt
 FileChecksum: SHA1: ba666fb015a257ab0182f10bc20409a2ec61169f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2426,7 +2426,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/zlib.def
+FileName: ./zlib-1.2.11.tar.gz/win32/zlib.def
 FileChecksum: SHA1: 756d27ffaa18b488fca960ff0797bcbc2ffc811f
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2435,7 +2435,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/win32/zlib1.rc
+FileName: ./zlib-1.2.11.tar.gz/win32/zlib1.rc
 FileChecksum: SHA1: c21721e51d162fcc8880290001d9e150d3511dd6
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2445,7 +2445,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly & Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zconf.h
+FileName: ./zlib-1.2.11.tar.gz/zconf.h
 FileChecksum: SHA1: 0ef05b0d12bf2cfbbf1aa84cff0e8dcf4fc5b731
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2455,7 +2455,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2016 Jean-loup Gailly, Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zconf.h.cmakein
+FileName: ./zlib-1.2.11.tar.gz/zconf.h.cmakein
 FileChecksum: SHA1: cbd5ddffb39904669e115e270b23138106bb0ac2
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2465,7 +2465,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2016 Jean-loup Gailly, Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zconf.h.in
+FileName: ./zlib-1.2.11.tar.gz/zconf.h.in
 FileChecksum: SHA1: 0ef05b0d12bf2cfbbf1aa84cff0e8dcf4fc5b731
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2475,7 +2475,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2016 Jean-loup Gailly, Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zlib.3
+FileName: ./zlib-1.2.11.tar.gz/zlib.3
 FileChecksum: SHA1: 8b7c3c050d8cfdd1e8455c98a4767bf98752cb74
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2485,7 +2485,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zlib.3.pdf
+FileName: ./zlib-1.2.11.tar.gz/zlib.3.pdf
 FileChecksum: SHA1: 8c3040d78eb9dd1bdc83d687f5b601465ff22583
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2495,7 +2495,7 @@ FileCopyrightText: <text>(c) 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zlib.h
+FileName: ./zlib-1.2.11.tar.gz/zlib.h
 FileChecksum: SHA1: 473b29ab06e2be461fe4aa74952fcb9bd08d9fa0
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2505,7 +2505,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2017 Jean-loup Gailly and Mark Adler
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zlib.map
+FileName: ./zlib-1.2.11.tar.gz/zlib.map
 FileChecksum: SHA1: 513816d1574deea0e966ad82ed0d304959a5ad17
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2514,7 +2514,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zlib.pc.cmakein
+FileName: ./zlib-1.2.11.tar.gz/zlib.pc.cmakein
 FileChecksum: SHA1: c80d6efe2a2991a1836ee797f75b12c9d60b6783
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2523,7 +2523,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zlib.pc.in
+FileName: ./zlib-1.2.11.tar.gz/zlib.pc.in
 FileChecksum: SHA1: 3ebc107b34d82b134e9f5933c2a569eb6e952ce4
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2532,7 +2532,7 @@ FileCopyrightText: NONE
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zlib2ansi
+FileName: ./zlib-1.2.11.tar.gz/zlib2ansi
 FileChecksum: SHA1: e9859eecf47ae66280573d73969c061989615134
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: NONE
@@ -2542,7 +2542,7 @@ FileCopyrightText: <text>
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zutil.c
+FileName: ./zlib-1.2.11.tar.gz/zutil.c
 FileChecksum: SHA1: 2f1fcc93488ac84acf984415b6ea0bd63c72aa49
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib
@@ -2552,7 +2552,7 @@ FileCopyrightText: <text>Copyright (c) 1995-2017 Jean-loup Gailly
 
 # File
 
-FileName: ./zlib-1.2.11.tar.gz_extracted/zutil.h
+FileName: ./zlib-1.2.11.tar.gz/zutil.h
 FileChecksum: SHA1: f32dab3880d47eca1b71c308cf6542b32941b23c
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: Zlib

@@ -2,7 +2,7 @@
     {
         "Bytes": 963,
         "BytesHuman": "963B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "ANNOUNCE",
         "LicenseGuesses": [
             {
@@ -24,7 +24,7 @@
     {
         "Bytes": 301560,
         "BytesHuman": "294.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "CHANGES",
         "LicenseGuesses": [
             {
@@ -46,7 +46,7 @@
     {
         "Bytes": 34820,
         "BytesHuman": "34K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "CMakeLists.txt",
         "LicenseGuesses": [
             {
@@ -68,7 +68,7 @@
     {
         "Bytes": 19276,
         "BytesHuman": "18.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "INSTALL",
         "LicenseGuesses": [
             {
@@ -90,7 +90,7 @@
     {
         "Bytes": 4995,
         "BytesHuman": "4.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "LICENSE",
         "LicenseGuesses": [
             {
@@ -112,7 +112,7 @@
     {
         "Bytes": 13910,
         "BytesHuman": "13.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "Makefile.am",
         "LicenseGuesses": [
             {
@@ -134,7 +134,7 @@
     {
         "Bytes": 91604,
         "BytesHuman": "89.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
@@ -156,7 +156,7 @@
     {
         "Bytes": 11687,
         "BytesHuman": "11.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "README",
         "LicenseGuesses": [
             {
@@ -178,7 +178,7 @@
     {
         "Bytes": 1247,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "TODO",
         "LicenseGuesses": [
             {
@@ -200,7 +200,7 @@
     {
         "Bytes": 44739,
         "BytesHuman": "43.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "aclocal.m4",
         "LicenseGuesses": [
             {
@@ -222,7 +222,7 @@
     {
         "Bytes": 4694,
         "BytesHuman": "4.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/arm",
+        "Directory": "/libpng-1.6.34.tar.gz/arm",
         "Filename": "arm_init.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -239,7 +239,7 @@
     {
         "Bytes": 8366,
         "BytesHuman": "8.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/arm",
+        "Directory": "/libpng-1.6.34.tar.gz/arm",
         "Filename": "filter_neon.S",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -256,7 +256,7 @@
     {
         "Bytes": 11306,
         "BytesHuman": "11K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/arm",
+        "Directory": "/libpng-1.6.34.tar.gz/arm",
         "Filename": "filter_neon_intrinsics.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -273,7 +273,7 @@
     {
         "Bytes": 7979,
         "BytesHuman": "7.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "autogen.sh",
         "LicenseGuesses": [
             {
@@ -295,7 +295,7 @@
     {
         "Bytes": 7333,
         "BytesHuman": "7.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "compile",
         "LicenseGuesses": [
             {
@@ -317,7 +317,7 @@
     {
         "Bytes": 42938,
         "BytesHuman": "41.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "config.guess",
         "LicenseGuesses": [
             {
@@ -339,7 +339,7 @@
     {
         "Bytes": 3615,
         "BytesHuman": "3.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "config.h.in",
         "LicenseGuesses": [
             {
@@ -361,7 +361,7 @@
     {
         "Bytes": 35987,
         "BytesHuman": "35.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "config.sub",
         "LicenseGuesses": [
             {
@@ -383,7 +383,7 @@
     {
         "Bytes": 483297,
         "BytesHuman": "472K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "configure",
         "LicenseGuesses": [
             {
@@ -405,7 +405,7 @@
     {
         "Bytes": 19424,
         "BytesHuman": "19K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "configure.ac",
         "LicenseGuesses": [
             {
@@ -427,7 +427,7 @@
     {
         "Bytes": 275,
         "BytesHuman": "275B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -444,7 +444,7 @@
     {
         "Bytes": 3453,
         "BytesHuman": "3.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/arm-neon",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/arm-neon",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -461,7 +461,7 @@
     {
         "Bytes": 1359,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/arm-neon",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/arm-neon",
         "Filename": "android-ndk.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -478,7 +478,7 @@
     {
         "Bytes": 3262,
         "BytesHuman": "3.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/arm-neon",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/arm-neon",
         "Filename": "linux-auxv.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -495,7 +495,7 @@
     {
         "Bytes": 4494,
         "BytesHuman": "4.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/arm-neon",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/arm-neon",
         "Filename": "linux.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -512,7 +512,7 @@
     {
         "Bytes": 1882,
         "BytesHuman": "1.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/conftest",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/conftest",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -529,7 +529,7 @@
     {
         "Bytes": 1962,
         "BytesHuman": "1.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/conftest",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/conftest",
         "Filename": "pngcp.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -546,7 +546,7 @@
     {
         "Bytes": 2086,
         "BytesHuman": "2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/conftest",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/conftest",
         "Filename": "read.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -563,7 +563,7 @@
     {
         "Bytes": 1359,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/conftest",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/conftest",
         "Filename": "s_read.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -580,7 +580,7 @@
     {
         "Bytes": 1228,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/conftest",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/conftest",
         "Filename": "s_write.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -597,7 +597,7 @@
     {
         "Bytes": 1327,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/conftest",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/conftest",
         "Filename": "simple.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -614,7 +614,7 @@
     {
         "Bytes": 1510,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/conftest",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/conftest",
         "Filename": "write.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -631,7 +631,7 @@
     {
         "Bytes": 961,
         "BytesHuman": "961B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/examples",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/examples",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -648,7 +648,7 @@
     {
         "Bytes": 4662,
         "BytesHuman": "4.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/examples",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/examples",
         "Filename": "iccfrompng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -665,7 +665,7 @@
     {
         "Bytes": 15003,
         "BytesHuman": "14.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/examples",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/examples",
         "Filename": "pngpixel.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -682,7 +682,7 @@
     {
         "Bytes": 3030,
         "BytesHuman": "3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/examples",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/examples",
         "Filename": "pngtopng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -699,7 +699,7 @@
     {
         "Bytes": 20505,
         "BytesHuman": "20K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/examples",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/examples",
         "Filename": "simpleover.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -716,7 +716,7 @@
     {
         "Bytes": 18097,
         "BytesHuman": "17.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "COPYING",
         "LicenseGuesses": [
             {
@@ -746,7 +746,7 @@
     {
         "Bytes": 2373,
         "BytesHuman": "2.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "LICENSE",
         "LicenseGuesses": [
             {
@@ -776,7 +776,7 @@
     {
         "Bytes": 3940,
         "BytesHuman": "3.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "Makefile.mingw32",
         "LicenseGuesses": [
             {
@@ -806,7 +806,7 @@
     {
         "Bytes": 2990,
         "BytesHuman": "2.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "Makefile.sgi",
         "LicenseGuesses": [
             {
@@ -836,7 +836,7 @@
     {
         "Bytes": 4093,
         "BytesHuman": "4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "Makefile.unx",
         "LicenseGuesses": [
             {
@@ -866,7 +866,7 @@
     {
         "Bytes": 3357,
         "BytesHuman": "3.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "Makefile.w32",
         "LicenseGuesses": [
             {
@@ -896,7 +896,7 @@
     {
         "Bytes": 7852,
         "BytesHuman": "7.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "README",
         "LicenseGuesses": [
             {
@@ -926,7 +926,7 @@
     {
         "Bytes": 3555,
         "BytesHuman": "3.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "makevms.com",
         "LicenseGuesses": [
             {
@@ -956,7 +956,7 @@
     {
         "Bytes": 10217,
         "BytesHuman": "10K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "readpng.c",
         "LicenseGuesses": [
             {
@@ -986,7 +986,7 @@
     {
         "Bytes": 3260,
         "BytesHuman": "3.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "readpng.h",
         "LicenseGuesses": [
             {
@@ -1016,7 +1016,7 @@
     {
         "Bytes": 18156,
         "BytesHuman": "17.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "readpng2.c",
         "LicenseGuesses": [
             {
@@ -1046,7 +1046,7 @@
     {
         "Bytes": 3800,
         "BytesHuman": "3.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "readpng2.h",
         "LicenseGuesses": [
             {
@@ -1076,7 +1076,7 @@
     {
         "Bytes": 5730,
         "BytesHuman": "5.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "readppm.c",
         "LicenseGuesses": [
             {
@@ -1106,7 +1106,7 @@
     {
         "Bytes": 24052,
         "BytesHuman": "23.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "rpng-win.c",
         "LicenseGuesses": [
             {
@@ -1136,7 +1136,7 @@
     {
         "Bytes": 31023,
         "BytesHuman": "30.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "rpng-x.c",
         "LicenseGuesses": [
             {
@@ -1166,7 +1166,7 @@
     {
         "Bytes": 45666,
         "BytesHuman": "44.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "rpng2-win.c",
         "LicenseGuesses": [
             {
@@ -1196,7 +1196,7 @@
     {
         "Bytes": 82416,
         "BytesHuman": "80.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "rpng2-x.c",
         "LicenseGuesses": [
             {
@@ -1226,7 +1226,7 @@
     {
         "Bytes": 12901,
         "BytesHuman": "12.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "toucan.png",
         "LicenseGuesses": [
             {
@@ -1256,7 +1256,7 @@
     {
         "Bytes": 31444,
         "BytesHuman": "30.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "wpng.c",
         "LicenseGuesses": [
             {
@@ -1286,7 +1286,7 @@
     {
         "Bytes": 13292,
         "BytesHuman": "13K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "writepng.c",
         "LicenseGuesses": [
             {
@@ -1316,7 +1316,7 @@
     {
         "Bytes": 4237,
         "BytesHuman": "4.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/gregbook",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/gregbook",
         "Filename": "writepng.h",
         "LicenseGuesses": [
             {
@@ -1346,7 +1346,7 @@
     {
         "Bytes": 1288,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "fakepng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1363,7 +1363,7 @@
     {
         "Bytes": 2266,
         "BytesHuman": "2.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "gentests.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1380,7 +1380,7 @@
     {
         "Bytes": 54244,
         "BytesHuman": "53K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "makepng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1397,7 +1397,7 @@
     {
         "Bytes": 51595,
         "BytesHuman": "50.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "pngimage.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1414,7 +1414,7 @@
     {
         "Bytes": 8903,
         "BytesHuman": "8.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "pngstest-errors.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1431,7 +1431,7 @@
     {
         "Bytes": 105956,
         "BytesHuman": "103.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "pngstest.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1448,7 +1448,7 @@
     {
         "Bytes": 36710,
         "BytesHuman": "35.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "pngunknown.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1465,7 +1465,7 @@
     {
         "Bytes": 385849,
         "BytesHuman": "376.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "pngvalid.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1482,7 +1482,7 @@
     {
         "Bytes": 3239,
         "BytesHuman": "3.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "readpng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1499,7 +1499,7 @@
     {
         "Bytes": 28165,
         "BytesHuman": "27.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "tarith.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1516,7 +1516,7 @@
     {
         "Bytes": 15492,
         "BytesHuman": "15.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/libtests",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/libtests",
         "Filename": "timepng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1533,7 +1533,7 @@
     {
         "Bytes": 3456,
         "BytesHuman": "3.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/mips-msa",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/mips-msa",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1550,7 +1550,7 @@
     {
         "Bytes": 1402,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/mips-msa",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/mips-msa",
         "Filename": "linux.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1567,7 +1567,7 @@
     {
         "Bytes": 944,
         "BytesHuman": "944B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/oss-fuzz",
         "Filename": "Dockerfile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1584,7 +1584,7 @@
     {
         "Bytes": 1881,
         "BytesHuman": "1.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/oss-fuzz",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1601,7 +1601,7 @@
     {
         "Bytes": 1864,
         "BytesHuman": "1.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/oss-fuzz",
         "Filename": "build.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1618,7 +1618,7 @@
     {
         "Bytes": 5286,
         "BytesHuman": "5.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/oss-fuzz",
         "Filename": "libpng_read_fuzzer.cc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1635,7 +1635,7 @@
     {
         "Bytes": 28,
         "BytesHuman": "28B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/oss-fuzz",
         "Filename": "libpng_read_fuzzer.options",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1652,7 +1652,7 @@
     {
         "Bytes": 5578,
         "BytesHuman": "5.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/oss-fuzz",
         "Filename": "newcc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1669,7 +1669,7 @@
     {
         "Bytes": 788,
         "BytesHuman": "788B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/oss-fuzz",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/oss-fuzz",
         "Filename": "png.dict",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1686,7 +1686,7 @@
     {
         "Bytes": 213,
         "BytesHuman": "213B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1703,7 +1703,7 @@
     {
         "Bytes": 353,
         "BytesHuman": "353B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/decoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/decoder",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1720,7 +1720,7 @@
     {
         "Bytes": 3595,
         "BytesHuman": "3.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/decoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/decoder",
         "Filename": "makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1737,7 +1737,7 @@
     {
         "Bytes": 1115,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/decoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/decoder",
         "Filename": "pngusr.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1754,7 +1754,7 @@
     {
         "Bytes": 642,
         "BytesHuman": "642B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/decoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/decoder",
         "Filename": "pngusr.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1771,7 +1771,7 @@
     {
         "Bytes": 342,
         "BytesHuman": "342B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/encoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/encoder",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1788,7 +1788,7 @@
     {
         "Bytes": 3600,
         "BytesHuman": "3.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/encoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/encoder",
         "Filename": "makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1805,7 +1805,7 @@
     {
         "Bytes": 1066,
         "BytesHuman": "1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/encoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/encoder",
         "Filename": "pngusr.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1822,7 +1822,7 @@
     {
         "Bytes": 643,
         "BytesHuman": "643B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/encoder",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/encoder",
         "Filename": "pngusr.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1839,7 +1839,7 @@
     {
         "Bytes": 481,
         "BytesHuman": "481B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/preader",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/preader",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1856,7 +1856,7 @@
     {
         "Bytes": 4171,
         "BytesHuman": "4.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/preader",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/preader",
         "Filename": "makefile",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1873,7 +1873,7 @@
     {
         "Bytes": 1052,
         "BytesHuman": "1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/preader",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/preader",
         "Filename": "pngusr.dfa",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1890,7 +1890,7 @@
     {
         "Bytes": 645,
         "BytesHuman": "645B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminim/preader",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminim/preader",
         "Filename": "pngusr.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1907,7 +1907,7 @@
     {
         "Bytes": 5991,
         "BytesHuman": "5.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1924,7 +1924,7 @@
     {
         "Bytes": 1386,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "makefile.std",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1941,7 +1941,7 @@
     {
         "Bytes": 707,
         "BytesHuman": "707B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "makefile.tc3",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1958,7 +1958,7 @@
     {
         "Bytes": 2345,
         "BytesHuman": "2.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "makevms.com",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1975,7 +1975,7 @@
     {
         "Bytes": 1995,
         "BytesHuman": "1.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "png2pnm.bat",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -1992,7 +1992,7 @@
     {
         "Bytes": 12509,
         "BytesHuman": "12.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "png2pnm.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2009,7 +2009,7 @@
     {
         "Bytes": 1925,
         "BytesHuman": "1.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "png2pnm.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2026,7 +2026,7 @@
     {
         "Bytes": 56,
         "BytesHuman": "56B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "pngminus.bat",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2043,7 +2043,7 @@
     {
         "Bytes": 60,
         "BytesHuman": "60B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "pngminus.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2060,7 +2060,7 @@
     {
         "Bytes": 1531,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "pnm2png.bat",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2077,7 +2077,7 @@
     {
         "Bytes": 17115,
         "BytesHuman": "16.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "pnm2png.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2094,7 +2094,7 @@
     {
         "Bytes": 1461,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngminus",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngminus",
         "Filename": "pnm2png.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2111,7 +2111,7 @@
     {
         "Bytes": 3716,
         "BytesHuman": "3.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2128,7 +2128,7 @@
     {
         "Bytes": 164,
         "BytesHuman": "164B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn0g01.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2145,7 +2145,7 @@
     {
         "Bytes": 104,
         "BytesHuman": "104B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn0g02.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2162,7 +2162,7 @@
     {
         "Bytes": 145,
         "BytesHuman": "145B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn0g04.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2179,7 +2179,7 @@
     {
         "Bytes": 138,
         "BytesHuman": "138B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn0g08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2196,7 +2196,7 @@
     {
         "Bytes": 167,
         "BytesHuman": "167B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn0g16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2213,7 +2213,7 @@
     {
         "Bytes": 145,
         "BytesHuman": "145B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn2c08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2230,7 +2230,7 @@
     {
         "Bytes": 302,
         "BytesHuman": "302B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn2c16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2247,7 +2247,7 @@
     {
         "Bytes": 112,
         "BytesHuman": "112B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn3p01.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2264,7 +2264,7 @@
     {
         "Bytes": 146,
         "BytesHuman": "146B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn3p02.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2281,7 +2281,7 @@
     {
         "Bytes": 216,
         "BytesHuman": "216B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn3p04.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2298,7 +2298,7 @@
     {
         "Bytes": 1286,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn3p08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2315,7 +2315,7 @@
     {
         "Bytes": 126,
         "BytesHuman": "126B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn4a08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2332,7 +2332,7 @@
     {
         "Bytes": 2206,
         "BytesHuman": "2.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn4a16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2349,7 +2349,7 @@
     {
         "Bytes": 184,
         "BytesHuman": "184B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn6a08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2366,7 +2366,7 @@
     {
         "Bytes": 3435,
         "BytesHuman": "3.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "basn6a16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2383,7 +2383,7 @@
     {
         "Bytes": 176,
         "BytesHuman": "176B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbbn0g01.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2400,7 +2400,7 @@
     {
         "Bytes": 197,
         "BytesHuman": "197B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbbn0g02.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2417,7 +2417,7 @@
     {
         "Bytes": 429,
         "BytesHuman": "429B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbbn0g04.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2434,7 +2434,7 @@
     {
         "Bytes": 2041,
         "BytesHuman": "2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbbn2c16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2451,7 +2451,7 @@
     {
         "Bytes": 1499,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbbn3p08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2468,7 +2468,7 @@
     {
         "Bytes": 2041,
         "BytesHuman": "2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbgn2c16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2485,7 +2485,7 @@
     {
         "Bytes": 1499,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbgn3p08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2502,7 +2502,7 @@
     {
         "Bytes": 1633,
         "BytesHuman": "1.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbrn2c08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2519,7 +2519,7 @@
     {
         "Bytes": 1313,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbwn0g16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2536,7 +2536,7 @@
     {
         "Bytes": 1496,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbwn3p08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2553,7 +2553,7 @@
     {
         "Bytes": 1499,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftbyn3p08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2570,7 +2570,7 @@
     {
         "Bytes": 719,
         "BytesHuman": "719B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftp0n0g08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2587,7 +2587,7 @@
     {
         "Bytes": 1594,
         "BytesHuman": "1.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftp0n2c08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2604,7 +2604,7 @@
     {
         "Bytes": 1476,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftp0n3p08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2621,7 +2621,7 @@
     {
         "Bytes": 1483,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/pngsuite",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/pngsuite",
         "Filename": "ftp1n3p08.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2638,7 +2638,7 @@
     {
         "Bytes": 3326,
         "BytesHuman": "3.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/powerpc-vsx",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/powerpc-vsx",
         "Filename": "README",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2655,7 +2655,7 @@
     {
         "Bytes": 1300,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/powerpc-vsx",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/powerpc-vsx",
         "Filename": "linux.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2672,7 +2672,7 @@
     {
         "Bytes": 891,
         "BytesHuman": "891B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/powerpc-vsx",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/powerpc-vsx",
         "Filename": "linux_aux.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2689,7 +2689,7 @@
     {
         "Bytes": 321,
         "BytesHuman": "321B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "bad_iCCP.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2706,7 +2706,7 @@
     {
         "Bytes": 67,
         "BytesHuman": "67B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "badadler.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2723,7 +2723,7 @@
     {
         "Bytes": 67,
         "BytesHuman": "67B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "badcrc.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2740,7 +2740,7 @@
     {
         "Bytes": 730,
         "BytesHuman": "730B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "empty_ancillary_chunks.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2757,7 +2757,7 @@
     {
         "Bytes": 79,
         "BytesHuman": "79B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_IDAT.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2774,7 +2774,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_bKGD_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2791,7 +2791,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_cHRM_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2808,7 +2808,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_eXIf_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2825,7 +2825,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_gAMA_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2842,7 +2842,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_hIST_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2859,7 +2859,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_iCCP_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2876,7 +2876,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_iTXt_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2893,7 +2893,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_juNK_unsafe_to_copy.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2910,7 +2910,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_juNk_safe_to_copy.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2927,7 +2927,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_pCAL_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2944,7 +2944,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_pHYs_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2961,7 +2961,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_sCAL_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2978,7 +2978,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_sPLT_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -2995,7 +2995,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_sRGB_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3012,7 +3012,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_sTER_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3029,7 +3029,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_tEXt_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3046,7 +3046,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_tIME_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3063,7 +3063,7 @@
     {
         "Bytes": 57,
         "BytesHuman": "57B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs/crashers",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs/crashers",
         "Filename": "huge_zTXt_chunk.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3080,7 +3080,7 @@
     {
         "Bytes": 325,
         "BytesHuman": "325B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3097,7 +3097,7 @@
     {
         "Bytes": 311,
         "BytesHuman": "311B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3114,7 +3114,7 @@
     {
         "Bytes": 325,
         "BytesHuman": "325B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3131,7 +3131,7 @@
     {
         "Bytes": 311,
         "BytesHuman": "311B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3148,7 +3148,7 @@
     {
         "Bytes": 278,
         "BytesHuman": "278B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3165,7 +3165,7 @@
     {
         "Bytes": 264,
         "BytesHuman": "264B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3182,7 +3182,7 @@
     {
         "Bytes": 265,
         "BytesHuman": "265B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3199,7 +3199,7 @@
     {
         "Bytes": 251,
         "BytesHuman": "251B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-1.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3216,7 +3216,7 @@
     {
         "Bytes": 744,
         "BytesHuman": "744B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3233,7 +3233,7 @@
     {
         "Bytes": 744,
         "BytesHuman": "744B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3250,7 +3250,7 @@
     {
         "Bytes": 744,
         "BytesHuman": "744B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3267,7 +3267,7 @@
     {
         "Bytes": 744,
         "BytesHuman": "744B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3284,7 +3284,7 @@
     {
         "Bytes": 697,
         "BytesHuman": "697B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3301,7 +3301,7 @@
     {
         "Bytes": 697,
         "BytesHuman": "697B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3318,7 +3318,7 @@
     {
         "Bytes": 684,
         "BytesHuman": "684B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3335,7 +3335,7 @@
     {
         "Bytes": 684,
         "BytesHuman": "684B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3352,7 +3352,7 @@
     {
         "Bytes": 325,
         "BytesHuman": "325B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3369,7 +3369,7 @@
     {
         "Bytes": 311,
         "BytesHuman": "311B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3386,7 +3386,7 @@
     {
         "Bytes": 325,
         "BytesHuman": "325B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3403,7 +3403,7 @@
     {
         "Bytes": 311,
         "BytesHuman": "311B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3420,7 +3420,7 @@
     {
         "Bytes": 278,
         "BytesHuman": "278B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3437,7 +3437,7 @@
     {
         "Bytes": 264,
         "BytesHuman": "264B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3454,7 +3454,7 @@
     {
         "Bytes": 265,
         "BytesHuman": "265B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3471,7 +3471,7 @@
     {
         "Bytes": 251,
         "BytesHuman": "251B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-2.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3488,7 +3488,7 @@
     {
         "Bytes": 327,
         "BytesHuman": "327B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3505,7 +3505,7 @@
     {
         "Bytes": 313,
         "BytesHuman": "313B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3522,7 +3522,7 @@
     {
         "Bytes": 327,
         "BytesHuman": "327B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3539,7 +3539,7 @@
     {
         "Bytes": 313,
         "BytesHuman": "313B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3556,7 +3556,7 @@
     {
         "Bytes": 280,
         "BytesHuman": "280B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3573,7 +3573,7 @@
     {
         "Bytes": 266,
         "BytesHuman": "266B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3590,7 +3590,7 @@
     {
         "Bytes": 267,
         "BytesHuman": "267B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3607,7 +3607,7 @@
     {
         "Bytes": 253,
         "BytesHuman": "253B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-4.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3624,7 +3624,7 @@
     {
         "Bytes": 327,
         "BytesHuman": "327B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3641,7 +3641,7 @@
     {
         "Bytes": 313,
         "BytesHuman": "313B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3658,7 +3658,7 @@
     {
         "Bytes": 327,
         "BytesHuman": "327B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3675,7 +3675,7 @@
     {
         "Bytes": 313,
         "BytesHuman": "313B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3692,7 +3692,7 @@
     {
         "Bytes": 280,
         "BytesHuman": "280B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3709,7 +3709,7 @@
     {
         "Bytes": 266,
         "BytesHuman": "266B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3726,7 +3726,7 @@
     {
         "Bytes": 267,
         "BytesHuman": "267B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3743,7 +3743,7 @@
     {
         "Bytes": 253,
         "BytesHuman": "253B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3760,7 +3760,7 @@
     {
         "Bytes": 919,
         "BytesHuman": "919B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-16-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3777,7 +3777,7 @@
     {
         "Bytes": 919,
         "BytesHuman": "919B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-16-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3794,7 +3794,7 @@
     {
         "Bytes": 872,
         "BytesHuman": "872B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-16-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3811,7 +3811,7 @@
     {
         "Bytes": 859,
         "BytesHuman": "859B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3828,7 +3828,7 @@
     {
         "Bytes": 744,
         "BytesHuman": "744B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-8-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3845,7 +3845,7 @@
     {
         "Bytes": 744,
         "BytesHuman": "744B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-8-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3862,7 +3862,7 @@
     {
         "Bytes": 697,
         "BytesHuman": "697B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-8-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3879,7 +3879,7 @@
     {
         "Bytes": 684,
         "BytesHuman": "684B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "gray-alpha-8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3896,7 +3896,7 @@
     {
         "Bytes": 2445,
         "BytesHuman": "2.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "makepngs.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3913,7 +3913,7 @@
     {
         "Bytes": 342,
         "BytesHuman": "342B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3930,7 +3930,7 @@
     {
         "Bytes": 329,
         "BytesHuman": "329B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3947,7 +3947,7 @@
     {
         "Bytes": 342,
         "BytesHuman": "342B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3964,7 +3964,7 @@
     {
         "Bytes": 329,
         "BytesHuman": "329B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3981,7 +3981,7 @@
     {
         "Bytes": 295,
         "BytesHuman": "295B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -3998,7 +3998,7 @@
     {
         "Bytes": 282,
         "BytesHuman": "282B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4015,7 +4015,7 @@
     {
         "Bytes": 282,
         "BytesHuman": "282B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4032,7 +4032,7 @@
     {
         "Bytes": 269,
         "BytesHuman": "269B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-1.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4049,7 +4049,7 @@
     {
         "Bytes": 350,
         "BytesHuman": "350B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4066,7 +4066,7 @@
     {
         "Bytes": 335,
         "BytesHuman": "335B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4083,7 +4083,7 @@
     {
         "Bytes": 350,
         "BytesHuman": "350B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4100,7 +4100,7 @@
     {
         "Bytes": 335,
         "BytesHuman": "335B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4117,7 +4117,7 @@
     {
         "Bytes": 303,
         "BytesHuman": "303B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4134,7 +4134,7 @@
     {
         "Bytes": 288,
         "BytesHuman": "288B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4151,7 +4151,7 @@
     {
         "Bytes": 290,
         "BytesHuman": "290B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4168,7 +4168,7 @@
     {
         "Bytes": 275,
         "BytesHuman": "275B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-2.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4185,7 +4185,7 @@
     {
         "Bytes": 400,
         "BytesHuman": "400B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4202,7 +4202,7 @@
     {
         "Bytes": 373,
         "BytesHuman": "373B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4219,7 +4219,7 @@
     {
         "Bytes": 400,
         "BytesHuman": "400B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4236,7 +4236,7 @@
     {
         "Bytes": 373,
         "BytesHuman": "373B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4253,7 +4253,7 @@
     {
         "Bytes": 353,
         "BytesHuman": "353B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4270,7 +4270,7 @@
     {
         "Bytes": 326,
         "BytesHuman": "326B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4287,7 +4287,7 @@
     {
         "Bytes": 340,
         "BytesHuman": "340B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4304,7 +4304,7 @@
     {
         "Bytes": 313,
         "BytesHuman": "313B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-4.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4321,7 +4321,7 @@
     {
         "Bytes": 1360,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4338,7 +4338,7 @@
     {
         "Bytes": 1093,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4355,7 +4355,7 @@
     {
         "Bytes": 1360,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4372,7 +4372,7 @@
     {
         "Bytes": 1093,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4389,7 +4389,7 @@
     {
         "Bytes": 1313,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4406,7 +4406,7 @@
     {
         "Bytes": 1046,
         "BytesHuman": "1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4423,7 +4423,7 @@
     {
         "Bytes": 1300,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4440,7 +4440,7 @@
     {
         "Bytes": 1033,
         "BytesHuman": "1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "palette-8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4457,7 +4457,7 @@
     {
         "Bytes": 1211,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4474,7 +4474,7 @@
     {
         "Bytes": 1211,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4491,7 +4491,7 @@
     {
         "Bytes": 1211,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4508,7 +4508,7 @@
     {
         "Bytes": 1211,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4525,7 +4525,7 @@
     {
         "Bytes": 1164,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4542,7 +4542,7 @@
     {
         "Bytes": 1164,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4559,7 +4559,7 @@
     {
         "Bytes": 1151,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4576,7 +4576,7 @@
     {
         "Bytes": 1151,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4593,7 +4593,7 @@
     {
         "Bytes": 837,
         "BytesHuman": "837B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8-1.8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4610,7 +4610,7 @@
     {
         "Bytes": 819,
         "BytesHuman": "819B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4627,7 +4627,7 @@
     {
         "Bytes": 837,
         "BytesHuman": "837B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8-linear-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4644,7 +4644,7 @@
     {
         "Bytes": 819,
         "BytesHuman": "819B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4661,7 +4661,7 @@
     {
         "Bytes": 790,
         "BytesHuman": "790B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8-sRGB-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4678,7 +4678,7 @@
     {
         "Bytes": 772,
         "BytesHuman": "772B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4695,7 +4695,7 @@
     {
         "Bytes": 777,
         "BytesHuman": "777B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8-tRNS.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4712,7 +4712,7 @@
     {
         "Bytes": 759,
         "BytesHuman": "759B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4729,7 +4729,7 @@
     {
         "Bytes": 1437,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-16-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4746,7 +4746,7 @@
     {
         "Bytes": 1437,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-16-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4763,7 +4763,7 @@
     {
         "Bytes": 1390,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-16-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4780,7 +4780,7 @@
     {
         "Bytes": 1377,
         "BytesHuman": "1.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-16.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4797,7 +4797,7 @@
     {
         "Bytes": 919,
         "BytesHuman": "919B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-8-1.8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4814,7 +4814,7 @@
     {
         "Bytes": 919,
         "BytesHuman": "919B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-8-linear.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4831,7 +4831,7 @@
     {
         "Bytes": 872,
         "BytesHuman": "872B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-8-sRGB.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4848,7 +4848,7 @@
     {
         "Bytes": 859,
         "BytesHuman": "859B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/testpngs",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/testpngs",
         "Filename": "rgb-alpha-8.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4865,7 +4865,7 @@
     {
         "Bytes": 1151,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4882,7 +4882,7 @@
     {
         "Bytes": 2416,
         "BytesHuman": "2.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "checksum-icc.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4899,7 +4899,7 @@
     {
         "Bytes": 4201,
         "BytesHuman": "4.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "chkfmt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4916,7 +4916,7 @@
     {
         "Bytes": 3907,
         "BytesHuman": "3.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "cvtcolor.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4933,7 +4933,7 @@
     {
         "Bytes": 26473,
         "BytesHuman": "25.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "genpng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4950,7 +4950,7 @@
     {
         "Bytes": 2926,
         "BytesHuman": "2.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "intgamma.sh",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4967,7 +4967,7 @@
     {
         "Bytes": 11149,
         "BytesHuman": "10.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "makesRGB.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -4984,7 +4984,7 @@
     {
         "Bytes": 4205,
         "BytesHuman": "4.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "png-fix-itxt.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5001,7 +5001,7 @@
     {
         "Bytes": 73496,
         "BytesHuman": "71.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "pngcp.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5018,7 +5018,7 @@
     {
         "Bytes": 129736,
         "BytesHuman": "126.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "pngfix.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5035,7 +5035,7 @@
     {
         "Bytes": 891,
         "BytesHuman": "891B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "reindent",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5052,7 +5052,7 @@
     {
         "Bytes": 1223,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/tools",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/tools",
         "Filename": "sRGB.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5069,7 +5069,7 @@
     {
         "Bytes": 11955,
         "BytesHuman": "11.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "PngFile.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5086,7 +5086,7 @@
     {
         "Bytes": 1117,
         "BytesHuman": "1.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "PngFile.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5103,7 +5103,7 @@
     {
         "Bytes": 2083,
         "BytesHuman": "2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5120,7 +5120,7 @@
     {
         "Bytes": 26532,
         "BytesHuman": "25.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "VisualPng.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5137,7 +5137,7 @@
     {
         "Bytes": 5204,
         "BytesHuman": "5.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "VisualPng.dsp",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5154,7 +5154,7 @@
     {
         "Bytes": 541,
         "BytesHuman": "541B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "VisualPng.dsw",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5171,7 +5171,7 @@
     {
         "Bytes": 766,
         "BytesHuman": "766B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "VisualPng.ico",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5188,7 +5188,7 @@
     {
         "Bytes": 208,
         "BytesHuman": "208B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "VisualPng.png",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5205,7 +5205,7 @@
     {
         "Bytes": 3944,
         "BytesHuman": "3.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "VisualPng.rc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5222,7 +5222,7 @@
     {
         "Bytes": 10244,
         "BytesHuman": "10K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "cexcept.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5239,7 +5239,7 @@
     {
         "Bytes": 765,
         "BytesHuman": "765B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/contrib/visupng",
+        "Directory": "/libpng-1.6.34.tar.gz/contrib/visupng",
         "Filename": "resource.h",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5256,7 +5256,7 @@
     {
         "Bytes": 23566,
         "BytesHuman": "23K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "depcomp",
         "LicenseGuesses": [
             {
@@ -5278,7 +5278,7 @@
     {
         "Bytes": 40471,
         "BytesHuman": "39.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "example.c",
         "LicenseGuesses": [
             {
@@ -5300,7 +5300,7 @@
     {
         "Bytes": 14675,
         "BytesHuman": "14.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "install-sh",
         "LicenseGuesses": [
             {
@@ -5322,7 +5322,7 @@
     {
         "Bytes": 11799,
         "BytesHuman": "11.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/intel",
+        "Directory": "/libpng-1.6.34.tar.gz/intel",
         "Filename": "filter_sse2_intrinsics.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5339,7 +5339,7 @@
     {
         "Bytes": 1811,
         "BytesHuman": "1.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/intel",
+        "Directory": "/libpng-1.6.34.tar.gz/intel",
         "Filename": "intel_init.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5356,7 +5356,7 @@
     {
         "Bytes": 2396,
         "BytesHuman": "2.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "libpng-config.in",
         "LicenseGuesses": [
             {
@@ -5378,7 +5378,7 @@
     {
         "Bytes": 230739,
         "BytesHuman": "225.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "libpng-manual.txt",
         "LicenseGuesses": [
             {
@@ -5400,7 +5400,7 @@
     {
         "Bytes": 273812,
         "BytesHuman": "267.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "libpng.3",
         "LicenseGuesses": [
             {
@@ -5422,7 +5422,7 @@
     {
         "Bytes": 308,
         "BytesHuman": "308B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "libpng.pc.in",
         "LicenseGuesses": [
             {
@@ -5444,7 +5444,7 @@
     {
         "Bytes": 796,
         "BytesHuman": "796B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "libpngpf.3",
         "LicenseGuesses": [
             {
@@ -5466,7 +5466,7 @@
     {
         "Bytes": 324089,
         "BytesHuman": "316.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "ltmain.sh",
         "LicenseGuesses": [
             {
@@ -5488,7 +5488,7 @@
     {
         "Bytes": 29531,
         "BytesHuman": "28.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/mips",
+        "Directory": "/libpng-1.6.34.tar.gz/mips",
         "Filename": "filter_msa_intrinsics.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5505,7 +5505,7 @@
     {
         "Bytes": 4357,
         "BytesHuman": "4.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/mips",
+        "Directory": "/libpng-1.6.34.tar.gz/mips",
         "Filename": "mips_init.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -5522,7 +5522,7 @@
     {
         "Bytes": 6872,
         "BytesHuman": "6.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "missing",
         "LicenseGuesses": [
             {
@@ -5544,7 +5544,7 @@
     {
         "Bytes": 2431,
         "BytesHuman": "2.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "png.5",
         "LicenseGuesses": [
             {
@@ -5566,7 +5566,7 @@
     {
         "Bytes": 157895,
         "BytesHuman": "154.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "png.c",
         "LicenseGuesses": [
             {
@@ -5588,7 +5588,7 @@
     {
         "Bytes": 144149,
         "BytesHuman": "140.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "png.h",
         "LicenseGuesses": [
             {
@@ -5610,7 +5610,7 @@
     {
         "Bytes": 2498,
         "BytesHuman": "2.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngbar.jpg",
         "LicenseGuesses": [
             {
@@ -5632,7 +5632,7 @@
     {
         "Bytes": 2399,
         "BytesHuman": "2.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngbar.png",
         "LicenseGuesses": [
             {
@@ -5654,7 +5654,7 @@
     {
         "Bytes": 22845,
         "BytesHuman": "22.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngconf.h",
         "LicenseGuesses": [
             {
@@ -5676,7 +5676,7 @@
     {
         "Bytes": 5368,
         "BytesHuman": "5.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngdebug.h",
         "LicenseGuesses": [
             {
@@ -5698,7 +5698,7 @@
     {
         "Bytes": 29230,
         "BytesHuman": "28.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngerror.c",
         "LicenseGuesses": [
             {
@@ -5720,7 +5720,7 @@
     {
         "Bytes": 34087,
         "BytesHuman": "33.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngget.c",
         "LicenseGuesses": [
             {
@@ -5742,7 +5742,7 @@
     {
         "Bytes": 12536,
         "BytesHuman": "12.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pnginfo.h",
         "LicenseGuesses": [
             {
@@ -5764,7 +5764,7 @@
     {
         "Bytes": 8372,
         "BytesHuman": "8.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngmem.c",
         "LicenseGuesses": [
             {
@@ -5786,7 +5786,7 @@
     {
         "Bytes": 2069,
         "BytesHuman": "2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngnow.png",
         "LicenseGuesses": [
             {
@@ -5808,7 +5808,7 @@
     {
         "Bytes": 31835,
         "BytesHuman": "31.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngpread.c",
         "LicenseGuesses": [
             {
@@ -5830,7 +5830,7 @@
     {
         "Bytes": 88792,
         "BytesHuman": "86.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngpriv.h",
         "LicenseGuesses": [
             {
@@ -5852,7 +5852,7 @@
     {
         "Bytes": 142297,
         "BytesHuman": "139K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngread.c",
         "LicenseGuesses": [
             {
@@ -5874,7 +5874,7 @@
     {
         "Bytes": 3956,
         "BytesHuman": "3.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngrio.c",
         "LicenseGuesses": [
             {
@@ -5896,7 +5896,7 @@
     {
         "Bytes": 168986,
         "BytesHuman": "165K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngrtran.c",
         "LicenseGuesses": [
             {
@@ -5918,7 +5918,7 @@
     {
         "Bytes": 147186,
         "BytesHuman": "143.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngrutil.c",
         "LicenseGuesses": [
             {
@@ -5940,7 +5940,7 @@
     {
         "Bytes": 51471,
         "BytesHuman": "50.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngset.c",
         "LicenseGuesses": [
             {
@@ -5962,7 +5962,7 @@
     {
         "Bytes": 20037,
         "BytesHuman": "19.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngstruct.h",
         "LicenseGuesses": [
             {
@@ -5984,7 +5984,7 @@
     {
         "Bytes": 62909,
         "BytesHuman": "61.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngtest.c",
         "LicenseGuesses": [
             {
@@ -6006,7 +6006,7 @@
     {
         "Bytes": 8759,
         "BytesHuman": "8.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngtest.png",
         "LicenseGuesses": [
             {
@@ -6028,7 +6028,7 @@
     {
         "Bytes": 25331,
         "BytesHuman": "24.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngtrans.c",
         "LicenseGuesses": [
             {
@@ -6050,7 +6050,7 @@
     {
         "Bytes": 497,
         "BytesHuman": "497B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngusr.dfa",
         "LicenseGuesses": [
             {
@@ -6072,7 +6072,7 @@
     {
         "Bytes": 5655,
         "BytesHuman": "5.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngwio.c",
         "LicenseGuesses": [
             {
@@ -6094,7 +6094,7 @@
     {
         "Bytes": 76561,
         "BytesHuman": "74.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngwrite.c",
         "LicenseGuesses": [
             {
@@ -6116,7 +6116,7 @@
     {
         "Bytes": 15402,
         "BytesHuman": "15K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngwtran.c",
         "LicenseGuesses": [
             {
@@ -6138,7 +6138,7 @@
     {
         "Bytes": 81047,
         "BytesHuman": "79.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "pngwutil.c",
         "LicenseGuesses": [
             {
@@ -6160,7 +6160,7 @@
     {
         "Bytes": 25480,
         "BytesHuman": "24.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/powerpc",
+        "Directory": "/libpng-1.6.34.tar.gz/powerpc",
         "Filename": "filter_vsx_intrinsics.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6177,7 +6177,7 @@
     {
         "Bytes": 4319,
         "BytesHuman": "4.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/powerpc",
+        "Directory": "/libpng-1.6.34.tar.gz/powerpc",
         "Filename": "powerpc_init.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6194,7 +6194,7 @@
     {
         "Bytes": 2171,
         "BytesHuman": "2.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/owatcom",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/owatcom",
         "Filename": "libpng.tgt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6211,7 +6211,7 @@
     {
         "Bytes": 972,
         "BytesHuman": "972B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/owatcom",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/owatcom",
         "Filename": "libpng.wpj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6228,7 +6228,7 @@
     {
         "Bytes": 6369,
         "BytesHuman": "6.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/owatcom",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/owatcom",
         "Filename": "pngconfig.mak",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6245,7 +6245,7 @@
     {
         "Bytes": 2565,
         "BytesHuman": "2.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/owatcom",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/owatcom",
         "Filename": "pngstest.tgt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6262,7 +6262,7 @@
     {
         "Bytes": 1213,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/owatcom",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/owatcom",
         "Filename": "pngtest.tgt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6279,7 +6279,7 @@
     {
         "Bytes": 1397,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/owatcom",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/owatcom",
         "Filename": "pngvalid.tgt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6296,7 +6296,7 @@
     {
         "Bytes": 446,
         "BytesHuman": "446B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/visualc71",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/visualc71",
         "Filename": "PRJ0041.mak",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6313,7 +6313,7 @@
     {
         "Bytes": 2322,
         "BytesHuman": "2.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/visualc71",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/visualc71",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6330,7 +6330,7 @@
     {
         "Bytes": 1634,
         "BytesHuman": "1.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/visualc71",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/visualc71",
         "Filename": "README_zlib.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6347,7 +6347,7 @@
     {
         "Bytes": 3604,
         "BytesHuman": "3.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/visualc71",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/visualc71",
         "Filename": "libpng.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6364,7 +6364,7 @@
     {
         "Bytes": 11796,
         "BytesHuman": "11.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/visualc71",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/visualc71",
         "Filename": "libpng.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6381,7 +6381,7 @@
     {
         "Bytes": 7256,
         "BytesHuman": "7.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/visualc71",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/visualc71",
         "Filename": "pngtest.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6398,7 +6398,7 @@
     {
         "Bytes": 9683,
         "BytesHuman": "9.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/visualc71",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/visualc71",
         "Filename": "zlib.vcproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6415,7 +6415,7 @@
     {
         "Bytes": 3825,
         "BytesHuman": "3.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6432,7 +6432,7 @@
     {
         "Bytes": 12478,
         "BytesHuman": "12.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio/libpng",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio/libpng",
         "Filename": "libpng.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6449,7 +6449,7 @@
     {
         "Bytes": 2722,
         "BytesHuman": "2.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio/pnglibconf",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio/pnglibconf",
         "Filename": "pnglibconf.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6466,7 +6466,7 @@
     {
         "Bytes": 16604,
         "BytesHuman": "16.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio/pngstest",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio/pngstest",
         "Filename": "pngstest.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6483,7 +6483,7 @@
     {
         "Bytes": 11888,
         "BytesHuman": "11.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio/pngtest",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio/pngtest",
         "Filename": "pngtest.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6500,7 +6500,7 @@
     {
         "Bytes": 11952,
         "BytesHuman": "11.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio/pngunknown",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio/pngunknown",
         "Filename": "pngunknown.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6517,7 +6517,7 @@
     {
         "Bytes": 11774,
         "BytesHuman": "11.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio/pngvalid",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio/pngvalid",
         "Filename": "pngvalid.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6534,7 +6534,7 @@
     {
         "Bytes": 7798,
         "BytesHuman": "7.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio",
         "Filename": "vstudio.sln",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6551,7 +6551,7 @@
     {
         "Bytes": 2294,
         "BytesHuman": "2.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio",
         "Filename": "zlib.props",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6568,7 +6568,7 @@
     {
         "Bytes": 9065,
         "BytesHuman": "8.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/projects/vstudio/zlib",
+        "Directory": "/libpng-1.6.34.tar.gz/projects/vstudio/zlib",
         "Filename": "zlib.vcxproj",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6585,7 +6585,7 @@
     {
         "Bytes": 4200,
         "BytesHuman": "4.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "README.txt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6602,7 +6602,7 @@
     {
         "Bytes": 90,
         "BytesHuman": "90B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "SCOPTIONS.ppc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6619,7 +6619,7 @@
     {
         "Bytes": 5728,
         "BytesHuman": "5.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "checksym.awk",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6636,7 +6636,7 @@
     {
         "Bytes": 1015,
         "BytesHuman": "1015B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "def.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6653,7 +6653,7 @@
     {
         "Bytes": 2074,
         "BytesHuman": "2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "descrip.mms",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6670,7 +6670,7 @@
     {
         "Bytes": 5634,
         "BytesHuman": "5.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "dfn.awk",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6687,7 +6687,7 @@
     {
         "Bytes": 1424,
         "BytesHuman": "1.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "genchk.cmake.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6704,7 +6704,7 @@
     {
         "Bytes": 3208,
         "BytesHuman": "3.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "genout.cmake.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6721,7 +6721,7 @@
     {
         "Bytes": 5114,
         "BytesHuman": "5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "gensrc.cmake.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6738,7 +6738,7 @@
     {
         "Bytes": 644,
         "BytesHuman": "644B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "intprefix.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6755,7 +6755,7 @@
     {
         "Bytes": 1701,
         "BytesHuman": "1.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "libpng-config-body.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6772,7 +6772,7 @@
     {
         "Bytes": 388,
         "BytesHuman": "388B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "libpng-config-head.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6789,7 +6789,7 @@
     {
         "Bytes": 210,
         "BytesHuman": "210B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "libpng.pc.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6806,7 +6806,7 @@
     {
         "Bytes": 305723,
         "BytesHuman": "298.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "libtool.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6823,7 +6823,7 @@
     {
         "Bytes": 14514,
         "BytesHuman": "14.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "ltoptions.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6840,7 +6840,7 @@
     {
         "Bytes": 4384,
         "BytesHuman": "4.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "ltsugar.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6857,7 +6857,7 @@
     {
         "Bytes": 699,
         "BytesHuman": "699B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "ltversion.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6874,7 +6874,7 @@
     {
         "Bytes": 6140,
         "BytesHuman": "6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "lt~obsolete.m4",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6891,7 +6891,7 @@
     {
         "Bytes": 50,
         "BytesHuman": "50B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "macro.lst",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6908,7 +6908,7 @@
     {
         "Bytes": 8371,
         "BytesHuman": "8.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.32sunu",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6925,7 +6925,7 @@
     {
         "Bytes": 8406,
         "BytesHuman": "8.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.64sunu",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6942,7 +6942,7 @@
     {
         "Bytes": 1988,
         "BytesHuman": "1.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.acorn",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6959,7 +6959,7 @@
     {
         "Bytes": 3949,
         "BytesHuman": "3.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.aix",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6976,7 +6976,7 @@
     {
         "Bytes": 1495,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.amiga",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -6993,7 +6993,7 @@
     {
         "Bytes": 2205,
         "BytesHuman": "2.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.atari",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7010,7 +7010,7 @@
     {
         "Bytes": 3940,
         "BytesHuman": "3.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.bc32",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7027,7 +7027,7 @@
     {
         "Bytes": 7597,
         "BytesHuman": "7.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.beos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7044,7 +7044,7 @@
     {
         "Bytes": 4257,
         "BytesHuman": "4.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.bor",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7061,7 +7061,7 @@
     {
         "Bytes": 3232,
         "BytesHuman": "3.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.cegcc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7078,7 +7078,7 @@
     {
         "Bytes": 7479,
         "BytesHuman": "7.3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.darwin",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7095,7 +7095,7 @@
     {
         "Bytes": 6905,
         "BytesHuman": "6.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.dec",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7112,7 +7112,7 @@
     {
         "Bytes": 2554,
         "BytesHuman": "2.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.dj2",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7129,7 +7129,7 @@
     {
         "Bytes": 1829,
         "BytesHuman": "1.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.freebsd",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7146,7 +7146,7 @@
     {
         "Bytes": 3043,
         "BytesHuman": "3K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.gcc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7163,7 +7163,7 @@
     {
         "Bytes": 7696,
         "BytesHuman": "7.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.hp64",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7180,7 +7180,7 @@
     {
         "Bytes": 7879,
         "BytesHuman": "7.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.hpgcc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7197,7 +7197,7 @@
     {
         "Bytes": 7560,
         "BytesHuman": "7.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.hpux",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7214,7 +7214,7 @@
     {
         "Bytes": 2882,
         "BytesHuman": "2.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.ibmc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7231,7 +7231,7 @@
     {
         "Bytes": 3763,
         "BytesHuman": "3.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.intel",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7248,7 +7248,7 @@
     {
         "Bytes": 4048,
         "BytesHuman": "4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.knr",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7265,7 +7265,7 @@
     {
         "Bytes": 8226,
         "BytesHuman": "8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.linux",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7282,7 +7282,7 @@
     {
         "Bytes": 9096,
         "BytesHuman": "8.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.linux-opt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7299,7 +7299,7 @@
     {
         "Bytes": 3589,
         "BytesHuman": "3.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.mips",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7316,7 +7316,7 @@
     {
         "Bytes": 3461,
         "BytesHuman": "3.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.msc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7333,7 +7333,7 @@
     {
         "Bytes": 6315,
         "BytesHuman": "6.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.msys",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7350,7 +7350,7 @@
     {
         "Bytes": 1513,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.ne12bsd",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7367,7 +7367,7 @@
     {
         "Bytes": 1503,
         "BytesHuman": "1.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.netbsd",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7384,7 +7384,7 @@
     {
         "Bytes": 2668,
         "BytesHuman": "2.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.openbsd",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7401,7 +7401,7 @@
     {
         "Bytes": 7531,
         "BytesHuman": "7.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.sco",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7418,7 +7418,7 @@
     {
         "Bytes": 7649,
         "BytesHuman": "7.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.sggcc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7435,7 +7435,7 @@
     {
         "Bytes": 7733,
         "BytesHuman": "7.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.sgi",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7452,7 +7452,7 @@
     {
         "Bytes": 8432,
         "BytesHuman": "8.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.so9",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7469,7 +7469,7 @@
     {
         "Bytes": 8291,
         "BytesHuman": "8.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.solaris",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7486,7 +7486,7 @@
     {
         "Bytes": 8271,
         "BytesHuman": "8.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.solaris-x86",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7503,7 +7503,7 @@
     {
         "Bytes": 4910,
         "BytesHuman": "4.8K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.std",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7520,7 +7520,7 @@
     {
         "Bytes": 3964,
         "BytesHuman": "3.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.sunos",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7537,7 +7537,7 @@
     {
         "Bytes": 3275,
         "BytesHuman": "3.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.tc3",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7554,7 +7554,7 @@
     {
         "Bytes": 3692,
         "BytesHuman": "3.6K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makefile.vcwin32",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7571,7 +7571,7 @@
     {
         "Bytes": 4818,
         "BytesHuman": "4.7K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "makevms.com",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7588,7 +7588,7 @@
     {
         "Bytes": 31622,
         "BytesHuman": "30.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "options.awk",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7605,7 +7605,7 @@
     {
         "Bytes": 38806,
         "BytesHuman": "37.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "pnglibconf.dfa",
         "LicenseGuesses": [
             {
@@ -7627,7 +7627,7 @@
     {
         "Bytes": 7619,
         "BytesHuman": "7.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "pnglibconf.h.prebuilt",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7644,7 +7644,7 @@
     {
         "Bytes": 2157,
         "BytesHuman": "2.1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "pnglibconf.mak",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7661,7 +7661,7 @@
     {
         "Bytes": 3958,
         "BytesHuman": "3.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "pngwin.rc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7678,7 +7678,7 @@
     {
         "Bytes": 615,
         "BytesHuman": "615B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "prefix.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7695,7 +7695,7 @@
     {
         "Bytes": 1036,
         "BytesHuman": "1K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "smakefile.ppc",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7712,7 +7712,7 @@
     {
         "Bytes": 427,
         "BytesHuman": "427B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "sym.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7729,7 +7729,7 @@
     {
         "Bytes": 1995,
         "BytesHuman": "1.9K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "symbols.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7746,7 +7746,7 @@
     {
         "Bytes": 6574,
         "BytesHuman": "6.4K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "symbols.def",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7763,7 +7763,7 @@
     {
         "Bytes": 991,
         "BytesHuman": "991B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "test.cmake.in",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7780,7 +7780,7 @@
     {
         "Bytes": 496,
         "BytesHuman": "496B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/scripts",
+        "Directory": "/libpng-1.6.34.tar.gz/scripts",
         "Filename": "vers.c",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7797,7 +7797,7 @@
     {
         "Bytes": 4640,
         "BytesHuman": "4.5K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/",
+        "Directory": "/libpng-1.6.34.tar.gz/",
         "Filename": "test-driver",
         "LicenseGuesses": [
             {
@@ -7819,7 +7819,7 @@
     {
         "Bytes": 94,
         "BytesHuman": "94B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngimage-full",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7836,7 +7836,7 @@
     {
         "Bytes": 81,
         "BytesHuman": "81B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngimage-quick",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7853,7 +7853,7 @@
     {
         "Bytes": 1247,
         "BytesHuman": "1.2K",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7870,7 +7870,7 @@
     {
         "Bytes": 51,
         "BytesHuman": "51B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-1.8",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7887,7 +7887,7 @@
     {
         "Bytes": 52,
         "BytesHuman": "52B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-1.8-alpha",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7904,7 +7904,7 @@
     {
         "Bytes": 54,
         "BytesHuman": "54B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-linear",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7921,7 +7921,7 @@
     {
         "Bytes": 55,
         "BytesHuman": "55B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-linear-alpha",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7938,7 +7938,7 @@
     {
         "Bytes": 52,
         "BytesHuman": "52B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-none",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7955,7 +7955,7 @@
     {
         "Bytes": 53,
         "BytesHuman": "53B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-none-alpha",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7972,7 +7972,7 @@
     {
         "Bytes": 52,
         "BytesHuman": "52B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-sRGB",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -7989,7 +7989,7 @@
     {
         "Bytes": 53,
         "BytesHuman": "53B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngstest-sRGB-alpha",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8006,7 +8006,7 @@
     {
         "Bytes": 56,
         "BytesHuman": "56B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngtest",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8023,7 +8023,7 @@
     {
         "Bytes": 600,
         "BytesHuman": "600B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngtest-badpngs",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8040,7 +8040,7 @@
     {
         "Bytes": 87,
         "BytesHuman": "87B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngunknown-IDAT",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8057,7 +8057,7 @@
     {
         "Bytes": 77,
         "BytesHuman": "77B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngunknown-discard",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8074,7 +8074,7 @@
     {
         "Bytes": 77,
         "BytesHuman": "77B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngunknown-if-safe",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8091,7 +8091,7 @@
     {
         "Bytes": 143,
         "BytesHuman": "143B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngunknown-sAPI",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8108,7 +8108,7 @@
     {
         "Bytes": 74,
         "BytesHuman": "74B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngunknown-sTER",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8125,7 +8125,7 @@
     {
         "Bytes": 74,
         "BytesHuman": "74B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngunknown-save",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8142,7 +8142,7 @@
     {
         "Bytes": 74,
         "BytesHuman": "74B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngunknown-vpAg",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8159,7 +8159,7 @@
     {
         "Bytes": 51,
         "BytesHuman": "51B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-16-to-8",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8176,7 +8176,7 @@
     {
         "Bytes": 54,
         "BytesHuman": "54B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-alpha-mode",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8193,7 +8193,7 @@
     {
         "Bytes": 54,
         "BytesHuman": "54B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-background",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8210,7 +8210,7 @@
     {
         "Bytes": 65,
         "BytesHuman": "65B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-expand16-alpha-mode",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8227,7 +8227,7 @@
     {
         "Bytes": 65,
         "BytesHuman": "65B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-expand16-background",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8244,7 +8244,7 @@
     {
         "Bytes": 64,
         "BytesHuman": "64B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-expand16-transform",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8261,7 +8261,7 @@
     {
         "Bytes": 48,
         "BytesHuman": "48B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-sbit",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8278,7 +8278,7 @@
     {
         "Bytes": 53,
         "BytesHuman": "53B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-threshold",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8295,7 +8295,7 @@
     {
         "Bytes": 53,
         "BytesHuman": "53B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-gamma-transform",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8312,7 +8312,7 @@
     {
         "Bytes": 77,
         "BytesHuman": "77B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-progressive-interlace-standard",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8329,7 +8329,7 @@
     {
         "Bytes": 61,
         "BytesHuman": "61B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-progressive-size",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8346,7 +8346,7 @@
     {
         "Bytes": 65,
         "BytesHuman": "65B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-progressive-standard",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8363,7 +8363,7 @@
     {
         "Bytes": 46,
         "BytesHuman": "46B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-standard",
         "LicenseGuesses": null,
         "LicenseIdentified": null,
@@ -8380,7 +8380,7 @@
     {
         "Bytes": 47,
         "BytesHuman": "47B",
-        "Directory": "/libpng-1.6.34.tar.gz_extracted/tests",
+        "Directory": "/libpng-1.6.34.tar.gz/tests",
         "Filename": "pngvalid-transform",
         "LicenseGuesses": null,
         "LicenseIdentified": null,

@@ -1,48 +1,48 @@
 [
   {
     "files": [
-      "/time-1.7.tar.gz_extracted/resuse.h", 
-      "/time-1.7.tar.gz_extracted/time.c", 
-      "/time-1.7.tar.gz_extracted/getopt1.c", 
-      "/time-1.7.tar.gz_extracted/resuse.c", 
-      "/time-1.7.tar.gz_extracted/mdate-sh", 
-      "/time-1.7.tar.gz_extracted/error.c", 
-      "/time-1.7.tar.gz_extracted/getopt.h", 
-      "/time-1.7.tar.gz_extracted/getopt.c", 
-      "/time-1.7.tar.gz_extracted/COPYING", 
-      "/time-1.7.tar.gz_extracted/texinfo.tex", 
-      "/time-1.7.tar.gz_extracted/wait.h"
+      "/time-1.7.tar.gz/resuse.h", 
+      "/time-1.7.tar.gz/time.c", 
+      "/time-1.7.tar.gz/getopt1.c", 
+      "/time-1.7.tar.gz/resuse.c", 
+      "/time-1.7.tar.gz/mdate-sh", 
+      "/time-1.7.tar.gz/error.c", 
+      "/time-1.7.tar.gz/getopt.h", 
+      "/time-1.7.tar.gz/getopt.c", 
+      "/time-1.7.tar.gz/COPYING", 
+      "/time-1.7.tar.gz/texinfo.tex", 
+      "/time-1.7.tar.gz/wait.h"
     ], 
     "tag": "GPL-2.0+"
   }, 
   {
     "files": [
-      "/time-1.7.tar.gz_extracted/install-sh"
+      "/time-1.7.tar.gz/install-sh"
     ], 
     "tag": "HPND"
   }, 
   {
     "files": [
-      "/time-1.7.tar.gz_extracted/mkinstalldirs"
+      "/time-1.7.tar.gz/mkinstalldirs"
     ], 
     "tag": "PD"
   }, 
   {
     "files": [
-      "/time-1.7.tar.gz_extracted/port.h", 
-      "/time-1.7.tar.gz_extracted/version.c", 
-      "/time-1.7.tar.gz_extracted/getpagesize.h", 
-      "/time-1.7.tar.gz_extracted/Makefile.am", 
-      "/time-1.7.tar.gz_extracted/version.texi", 
-      "/time-1.7.tar.gz_extracted/configure.in", 
-      "/time-1.7.tar.gz_extracted/README"
+      "/time-1.7.tar.gz/port.h", 
+      "/time-1.7.tar.gz/version.c", 
+      "/time-1.7.tar.gz/getpagesize.h", 
+      "/time-1.7.tar.gz/Makefile.am", 
+      "/time-1.7.tar.gz/version.texi", 
+      "/time-1.7.tar.gz/configure.in", 
+      "/time-1.7.tar.gz/README"
     ], 
     "tag": "none"
   }, 
   {
     "files": [
-      "/time-1.7.tar.gz_extracted/time.texi", 
-      "/time-1.7.tar.gz_extracted/Makefile.in"
+      "/time-1.7.tar.gz/time.texi", 
+      "/time-1.7.tar.gz/Makefile.in"
     ], 
     "tag": "suspiciousLicensey"
   }

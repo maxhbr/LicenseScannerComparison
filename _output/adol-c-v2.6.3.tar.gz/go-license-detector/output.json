@@ -1,6 +1,6 @@
 [
 	{
-		"project": "/adol-c-v2.6.3.tar.gz_extracted/",
+		"project": "/adol-c-v2.6.3.tar.gz/",
 		"matches": [
 			{
 				"license": "EPL-1.0",
@@ -23,11 +23,11 @@
 				"confidence": 0.78848416
 			},
 			{
-				"license": "GPL-2.0-or-later",
+				"license": "deprecated_GPL-2.0+",
 				"confidence": 0.78848416
 			},
 			{
-				"license": "deprecated_GPL-2.0+",
+				"license": "GPL-2.0-or-later",
 				"confidence": 0.78848416
 			},
 			{

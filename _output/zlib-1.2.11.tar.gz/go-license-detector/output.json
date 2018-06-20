@@ -1,6 +1,6 @@
 [
 	{
-		"project": "/zlib-1.2.11.tar.gz_extracted/",
+		"project": "/zlib-1.2.11.tar.gz/",
 		"matches": [
 			{
 				"license": "CECILL-C",
