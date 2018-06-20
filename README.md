@@ -9,6 +9,7 @@ This is a small project, which tries to compare different license scanners, by
   - maybe a simple csv: `filename,findings,comment`, where
     - the filename is absolute, relative to the source root
     - the findings are space separated
+
     or
   - maybe a simple json
 - **TODO** compare the result to a courated reference result
@@ -36,8 +37,8 @@ This is a small project, which tries to compare different license scanners, by
 | Name                                           |                                                         |
 |------------------------------------------------|---------------------------------------------------------|
 | [boyter-python-license-checker](https://github.com/boyter/python-license-checker) ([blog](https://boyter.org/2017/05/identify-software-licenses-python-vector-space-search-ngram-keywords/)) | **only POC?**                                           |
-| [fossa-cli](https://github.com/fossas/fossa-cli)                                 | **provided Dockerfile does not build** / only metadata? |
-| [oslc](https://sourceforge.net/projects/oslc/)                                      | java                                                    |
+| [fossa-cli](https://github.com/fossas/fossa-cli)                                 | **provided Dockerfile does not build** / only metadata / talks to remote server? |
+| [oslc](https://sourceforge.net/projects/oslc/)                                      | java / **old (2007)**                                   |
 | [pombredanne-triplecheck](https://github.com/pombredanne/triplecheck-engine) ([docu](http://triplecheck.tech/index.html))       | java/ant                                                |
 
 ## License Metadata Scanner
@@ -49,5 +50,3 @@ This is a small project, which tries to compare different license scanners, by
 ## Alternatives (?)
 - https://resources.whitesourcesoftware.com/blog-whitesource/still-using-a-scanner-to-identify-your-open-source-it-s-2017-you-can-do-much-better
 
-# Tools
-- extractcode https://github.com/nexB/scancode-toolkit/blob/develop/extractcode
