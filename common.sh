@@ -8,7 +8,13 @@ set -e
 ## Variables
 ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 name="$(basename "$( cd "$( dirname "${0}" )" && pwd )")"
-imageName="lsc/${name,,}"
+
+scannerNameToImageName() {
+    local name=$1
+    echo "lsc/${name,,}"
+}
+
+imageName=$(scannerNameToImageName $name)
 
 ################################################################################
 ## Docker related

@@ -11,7 +11,7 @@ This is a small project, which tries to compare different license scanners, by
 
 ## License Statement Scanner
 | Name                                 | Scanns for / via        | Wrapped | Produce | Pinned |
-|--------------------------------------+-------------------------+---------+---------+--------|
+|--------------------------------------|-------------------------|---------|---------|--------|
 | [askalono](https://github.com/amzn/askalono)                        | Top level license files | X       | X       |        |
 | [benbalter-licensee](https://github.com/benbalter/licensee)              |                         | X       | X       |        |
 | [boyter-lc](https://github.com/boyter/lc)                       |                         | X       | X       |        |
@@ -34,12 +34,14 @@ This is a small project, which tries to compare different license scanners, by
 - Triple check https://github.com/pombredanne/triplecheck-engine 
   - Docu: http://triplecheck.tech/index.html
 - Open Source License Checker https://sourceforge.net/projects/oslc/
-| Name                    |          |
-|-------------------------|----------|
-| fossology-monk          |          |
-| fossology-nomos         |          |
-| oslc                    | java     |
-| pombredanne-triplecheck | java/ant |
+| Name                                           |                           |
+|------------------------------------------------+---------------------------|
+| [boyter-python-license-checker](https://github.com/boyter/python-license-checker) ([blog](https://boyter.org/2017/05/identify-software-licenses-python-vector-space-search-ngram-keywords/)) | only POC?                 |
+| [fossa-cli](https://github.com/fossas/fossa-cli)                                 | Dockerfile does not build |
+| [fossology-monk](https://github.com/fossology/fossology/wiki/Monk)                            |                           |
+| [fossology-nomos](https://github.com/fossology/fossology/wiki/Nomos)                           |                           |
+| [oslc](https://sourceforge.net/projects/oslc/)                                      | java                      |
+| [pombredanne-triplecheck](https://github.com/pombredanne/triplecheck-engine) ([docu](http://triplecheck.tech/index.html))       | java/ant                  |
 
 ## License Metadata Scanner
 

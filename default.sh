@@ -11,6 +11,7 @@ scanners=(
     "codeauroraforum-lid"
     "debian-licensecheck"
     "google-licenseclassifier"
+    # "fossa-cli"
     "gerv-slic"
     "boyter-lc"
     "askalono"
@@ -35,6 +36,21 @@ build() {
         wrapper="$ROOT/$scanner/wrapper.sh"
         if [[ -x "$wrapper" ]]; then
             $wrapper build
+        fi
+    done
+}
+
+saveAll() {
+    local saveDir="$ROOT/_images"
+    mkdir -p $saveDir
+    for scanner in "${scanners[@]}"; do
+        local outputTar="$saveDir/$scanner.tar"
+        echo "## save $scanner"
+        if [[ ! -e "$outputTar" ]];  then
+            image="$(scannerNameToImageName $scanner)"
+            $docker save -o $outputTar $image
+        else
+            echo "### already done previously"
         fi
     done
 }
