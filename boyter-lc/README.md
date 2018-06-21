@@ -38,3 +38,55 @@ File                                                                    License
     Some licenses were too long for display. Please use CSV or JSON output.
 -------------------------------------------------------------------------------
 ```
+
+# Generated Output
+```
+$ cat _output/time-1.7.tar.gz/boyter-lc/output.json | <prettyPrint>
+[
+    {
+        "Bytes": 263,
+        "BytesHuman": "263B",
+        "Directory": "/time-1.7.tar.gz/",
+        "Filename": "AUTHORS",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-2.0-or-later",
+                "Percentage": 162
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-2.0-or-later",
+                "Percentage": 162
+            }
+        ],
+        "Md5Hash": "99ef6da89f10497cc3c14e8f197a0cd1",
+        "Sha1Hash": "7951f4ceffdb030ec617eddf7bba22523cc1a67f",
+        "Sha256Hash": "00736429e6c818e30c469ee5576812e1294f6b0862711ce29203e0ee467e025d"
+    },
+    {
+        "Bytes": 17982,
+        "BytesHuman": "17.6K",
+        "Directory": "/time-1.7.tar.gz/",
+        "Filename": "COPYING",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "GPL-2.0-or-later",
+                "Percentage": 162
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "GPL-2.0-or-later",
+                "Percentage": 162
+            }
+        ],
+        "Md5Hash": "8ca43cbc842c2336e835926c2166c28b",
+        "Sha1Hash": "075d599585584bb0e4b526f5c40cb6b17e0da35a",
+        "Sha256Hash": "91df39d1816bfb17a4dda2d3d2c83b1f6f2d38d53e53e41e8f97ad5ac46a0cad"
+    },
+    [...]
+]
+```
