@@ -65,7 +65,7 @@ produce() {
 
         echo "## do $srcName"
         for scanner in "${scanners[@]}"; do
-            outputPath=$(calculateOutputPath $srcName $scanner)
+            outputPath="$(calculateOutputPath $srcName $scanner)"
 
             if [[ -d $outputPath ]]; then
                 alreadyGeneratedOutputFiles=("$outputPath/"*)
@@ -83,6 +83,12 @@ produce() {
                 time="$(time ( $produce $extractedArchive $outputPath > $stdoutFilePath  2> $stderrFilePath || echo "#### failed" ) 2>&1 1>/dev/null )"
                 echo $time | tee "$outputPath/time"
                 removeEmptyFiles $outputPath
+            fi
+
+            transform="$ROOT/$scanner/transformer.hs"
+            if [[ -x "$transform" ]]; then
+                echo "#### transform"
+                "$transform" "$outputPath" "$(calculateResultPath $srcName $scanner)"
             fi
         done
     done

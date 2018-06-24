@@ -91,3 +91,19 @@ ppJson() {
 
     python -m json.tool $json > "${json}_pp"
 }
+
+resultROOT="$ROOT/_result"
+calculateResultPath() {
+    local src=$1
+    local scanner=$2
+
+    mkdir -p "$resultROOT/$src"
+    echo "$resultROOT/$src/${scanner}.csv"
+}
+
+calculateResultPathFromOutputPath() {
+    local outputPath=$1
+    resultPath="${outputPath/$outputRoot/$resultRoot}.csv"
+    mkdir -p "$(dirname $resultPath)"
+    echo "$resultPath"
+}

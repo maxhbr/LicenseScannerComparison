@@ -15,6 +15,8 @@ test() {
     docker_run --format json $input > $outputDir/output.json
 
     ppJson "$outputDir/output.json"
+
+    "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"/transformer.hs "$outputDir/output.json" "$(calculateResultPathFromOutputPath $outputDir)"
 }
 
 test $@
