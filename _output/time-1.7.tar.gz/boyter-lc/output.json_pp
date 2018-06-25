@@ -6,14 +6,14 @@
         "Filename": "AUTHORS",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -28,14 +28,14 @@
         "Filename": "COPYING",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -50,14 +50,14 @@
         "Filename": "ChangeLog",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -72,14 +72,14 @@
         "Filename": "INSTALL",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -94,14 +94,14 @@
         "Filename": "Makefile.am",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -116,14 +116,14 @@
         "Filename": "Makefile.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -138,14 +138,14 @@
         "Filename": "NEWS",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -160,14 +160,14 @@
         "Filename": "README",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -182,14 +182,14 @@
         "Filename": "configure",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -204,14 +204,14 @@
         "Filename": "configure.in",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -226,14 +226,14 @@
         "Filename": "error.c",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -248,14 +248,14 @@
         "Filename": "getopt.c",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -270,14 +270,14 @@
         "Filename": "getopt.h",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -292,14 +292,14 @@
         "Filename": "getopt1.c",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -314,14 +314,14 @@
         "Filename": "getpagesize.h",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -336,14 +336,14 @@
         "Filename": "install-sh",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -358,14 +358,14 @@
         "Filename": "mdate-sh",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -380,14 +380,14 @@
         "Filename": "mkinstalldirs",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -402,14 +402,14 @@
         "Filename": "port.h",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -424,14 +424,14 @@
         "Filename": "resuse.c",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -446,14 +446,14 @@
         "Filename": "resuse.h",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -468,14 +468,14 @@
         "Filename": "stamp-vti",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -490,14 +490,14 @@
         "Filename": "texinfo.tex",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -512,14 +512,14 @@
         "Filename": "time.c",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -534,14 +534,14 @@
         "Filename": "time.info",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -556,14 +556,14 @@
         "Filename": "time.texi",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -578,14 +578,14 @@
         "Filename": "version.c",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -600,14 +600,14 @@
         "Filename": "version.texi",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
@@ -622,14 +622,14 @@
         "Filename": "wait.h",
         "LicenseGuesses": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],
         "LicenseIdentified": null,
         "LicenseRoots": [
             {
-                "LicenseId": "GPL-2.0-or-later",
+                "LicenseId": "GPL-2.0+",
                 "Percentage": 162
             }
         ],

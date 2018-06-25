@@ -67,22 +67,25 @@ produce() {
         for scanner in "${scanners[@]}"; do
             outputPath="$(calculateOutputPath $srcName $scanner)"
 
+            numberOfAlreadyGeneratedFiles=0
             if [[ -d $outputPath ]]; then
                 alreadyGeneratedOutputFiles=("$outputPath/"*)
-                [[ ${#alreadyGeneratedOutputFiles[@]} -gt 0 ]] && continue
+                numberOfAlreadyGeneratedFiles=${#alreadyGeneratedOutputFiles[@]}
             fi
 
-            produce="$ROOT/$scanner/produce.sh"
-            if [[ -x "$produce" ]]; then
-                echo "### with $scanner"
+            if [[ $numberOfAlreadyGeneratedFiles -eq 0 ]]; then
+                produce="$ROOT/$scanner/produce.sh"
+                if [[ -x "$produce" ]]; then
+                    echo "### with $scanner"
 
-                mkdir -p $outputPath
+                    mkdir -p $outputPath
 
-                stdoutFilePath="$outputPath/raw.stdout"
-                stderrFilePath="$outputPath/raw.stderr"
-                time="$(time ( $produce $extractedArchive $outputPath > $stdoutFilePath  2> $stderrFilePath || echo "#### failed" ) 2>&1 1>/dev/null )"
-                echo $time | tee "$outputPath/time"
-                removeEmptyFiles $outputPath
+                    stdoutFilePath="$outputPath/raw.stdout"
+                    stderrFilePath="$outputPath/raw.stderr"
+                    time="$(time ( $produce $extractedArchive $outputPath > $stdoutFilePath  2> $stderrFilePath || echo "#### failed" ) 2>&1 1>/dev/null )"
+                    echo $time | tee "$outputPath/time"
+                    removeEmptyFiles $outputPath
+                fi
             fi
 
             transform="$ROOT/$scanner/transformer.hs"

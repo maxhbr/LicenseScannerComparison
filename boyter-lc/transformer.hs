@@ -24,6 +24,7 @@ import qualified Data.Vector as V
 import Data.Text as Tx
 import Data.Text.IO as Tx
 import Data.Text.Encoding as Tx
+import Data.Maybe
 import Data.Either.Combinators
 import Data.List as L
 import qualified Data.Csv as CSV
@@ -39,8 +40,8 @@ data RawFinding
   = RawFinding
   { rfFilename :: Text
   , rfDirectory :: Text
-  , rfLicenseGuesses :: [Lic]
-  , rfLicenseRoots :: [Lic]
+  , rfLicenseGuesses :: Maybe [Lic]
+  , rfLicenseRoots :: Maybe [Lic]
   } deriving Show
 data Finding
   = Finding
@@ -51,7 +52,7 @@ data Finding
 unRaw :: RawFinding -> Finding
 unRaw rf = let
   p = rfDirectory rf `Tx.append` rfFilename rf
-  lics = L.nub . P.map licenseId $ rfLicenseGuesses rf ++ rfLicenseRoots rf
+  lics = L.nub . P.map licenseId $ (fromMaybe [] $ rfLicenseGuesses rf) ++ (fromMaybe [] $ rfLicenseRoots rf)
   in Finding p lics
 
 instance FromJSON Lic where
@@ -63,8 +64,8 @@ instance FromJSON RawFinding where
     \v -> RawFinding
             <$> v .: "Filename"
             <*> v .: "Directory"
-            <*> v .: "LicenseGuesses"
-            <*> v .: "LicenseRoots"
+            <*> v .:? "LicenseGuesses"
+            <*> v .:? "LicenseRoots"
 
 parseJsonSource :: FilePath -> IO (Either String [Finding])
 parseJsonSource source = do

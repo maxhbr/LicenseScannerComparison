@@ -24,7 +24,7 @@ This is a small project, which tries to compare different license scanners, by
 |--------------------------------------|-------------------------|---------|---------|--------|------------|
 | [askalono](https://github.com/amzn/askalono)                        | Top level license files | X       | X       |        |            |
 | [benbalter-licensee](https://github.com/benbalter/licensee)              |                         | X       | X       |        |            |
-| [boyter-lc](https://github.com/boyter/lc) ([blog](https://boyter.org/2018/03/licensechecker-command-line-application-identifies-software-license/))           |                         | X       | X       |        |            |
+| [boyter-lc](https://github.com/boyter/lc) ([blog](https://boyter.org/2018/03/licensechecker-command-line-application-identifies-software-license/))           |                         | X       | X       |        | X          |
 | [codeauroraforum-lid](https://github.com/codeauroraforum/lid)             |                         | X       | X       |        |            |
 | [debian-licensecheck](https://manpages.debian.org/jessie/devscripts/licensecheck.1.de.html)             |                         | X       | X       |        |            |
 | [fossology-monk](https://github.com/fossology/fossology/wiki/Monk)                  | Scanns single file      | X       | X       |        |            |

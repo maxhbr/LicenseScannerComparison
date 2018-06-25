@@ -13,6 +13,9 @@ test() {
 
     docker_rm
     docker_run --format json $input > $outputDir/output.json
+    # also generate other output formats:
+    docker_run --format csv $input > $outputDir/output.csv
+    docker_run --format spdx $input > $outputDir/output.spdx
 
     ppJson "$outputDir/output.json"
 
