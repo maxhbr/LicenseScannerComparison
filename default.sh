@@ -65,6 +65,7 @@ produce() {
 
         echo "## do $srcName"
         for scanner in "${scanners[@]}"; do
+            echo "### with $scanner"
             outputPath="$(calculateOutputPath $srcName $scanner)"
 
             numberOfAlreadyGeneratedFiles=0
@@ -76,7 +77,6 @@ produce() {
             if [[ $numberOfAlreadyGeneratedFiles -eq 0 ]]; then
                 produce="$ROOT/$scanner/produce.sh"
                 if [[ -x "$produce" ]]; then
-                    echo "### with $scanner"
 
                     mkdir -p $outputPath
 

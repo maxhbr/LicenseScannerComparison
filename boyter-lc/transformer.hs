@@ -47,7 +47,10 @@ data Finding
   = Finding
   { path :: Text
   , licenses :: [Text]
-  } deriving Show
+  } deriving (Show, Eq)
+
+instance Ord Finding where
+  f <= f' = (path f) <= (path f')
 
 unRaw :: RawFinding -> Finding
 unRaw rf = let
@@ -75,11 +78,10 @@ parseJsonSource source = do
 convertToCSV :: [Finding] -> BS.ByteString
 convertToCSV = let
     options = CSV.defaultEncodeOptions
-      { CSV.encDelimiter = W8._semicolon
-      , CSV.encUseCrLf = False
+      { CSV.encUseCrLf = False
       , CSV.encQuoting = CSV.QuoteMinimal }
     toTuples :: Finding -> (Text, Text, Text)
-    toTuples f = (path f, Tx.intercalate "," (licenses f), "")
+    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), "")
   in BSL.toStrict . (CSV.encodeWith options) . L.map toTuples
 
 getSourceFileFromDir :: FilePath -> FilePath
@@ -95,4 +97,4 @@ main = let
     parsed <- (parseJsonSource . getSourceFileFromDir) sourceDir
     case parsed of
       Left error -> print error
-      Right v    -> (writeTextFile target . Tx.decodeUtf8 . convertToCSV) v
+      Right v    -> (writeTextFile target . Tx.decodeUtf8 . convertToCSV . L.sort) v
