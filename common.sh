@@ -101,9 +101,9 @@ calculateResultPath() {
     echo "$resultROOT/$src/${scanner}.csv"
 }
 
-calculateResultPathFromOutputPath() {
-    local outputPath=$1
-    resultPath="${outputPath/$outputRoot/$resultRoot}.csv"
-    mkdir -p "$(dirname $resultPath)"
-    echo "$resultPath"
-}
+# calculateResultPathFromOutputPath() {
+#     local outputPath=$1
+#     resultPath="${outputPath/$outputRoot/$resultRoot}.csv"
+#     mkdir -p "$(dirname $resultPath)"
+#     echo "$resultPath"
+# }
