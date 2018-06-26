@@ -32,10 +32,6 @@ import Data.Word8 as W8
 import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as BSL
 
-data Lic
-  = Lic
-  { licenseId :: Text
-  } deriving Show
 data RawFinding
   = RawFinding
   { rfFiles :: [Text]

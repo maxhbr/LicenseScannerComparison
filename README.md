@@ -30,9 +30,9 @@ This is a small project, which tries to compare different license scanners, by
 | [fossology-monk](https://github.com/fossology/fossology/wiki/Monk)                  | Scanns single file      | X       | X       |        |            |
 | [fossology-nomos](https://github.com/fossology/fossology/wiki/Nomos)                 | Scanns single file      | X       | X       |        |            |
 | [ninka](http://ninka.turingmachine.org) ([binary](http://ninka.turingmachine.org/download/ninka-1.3.tar.bz2))             | Scanns single file      | X       | X       |        |            |
-| [gerv-slic](https://github.com/gerv/slic)                       |                         | X       | X       |        |            |
+| [gerv-slic](https://github.com/gerv/slic)                       |                         | X       | X       |        | X          |
 | [go-license-detector](https://github.com/src-d/go-license-detector) ([blog](https://blog.sourced.tech/post/gld/)) | Top level license files | X       | X       |        |            |
-| [google-licenseclassifier](https://github.com/google/licenseclassifier)        | Scanns single file      | X       | X       |        |            |
+| [google-licenseclassifier](https://github.com/google/licenseclassifier)        | Scanns single file      | X       | X       |        | X          |
 | [nexB-scancode-toolkit](https://github.com/nexB/scancode-toolkit)           |                         | X       | X       |        |            |
 
 #### not yet supported / added scanners
