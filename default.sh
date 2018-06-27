@@ -88,10 +88,13 @@ produce() {
                 fi
             fi
 
-            transform="$ROOT/$scanner/transformer.hs"
-            if [[ -x "$transform" ]]; then
-                echo "#### transform"
-                "$transform" "$outputPath" "$(calculateResultPath $srcName $scanner)"
+            resultPath="$(calculateResultPath $srcName $scanner)"
+            if [[ ! -e "$resultPath" ]]; then
+                transform="$ROOT/$scanner/transformer.hs"
+                if [[ -x "$transform" ]]; then
+                    echo "#### transform"
+                    "$transform" "$outputPath" "$resultPath"
+                fi
             fi
         done
     done
