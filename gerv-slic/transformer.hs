@@ -49,10 +49,6 @@ instance Ord Finding where
 unRaw :: RawFinding -> [Finding]
 unRaw rf = L.map (\ f -> Finding f [rfTag rf]) (rfFiles rf)
 
-instance FromJSON Lic where
-  parseJSON = withObject "Lic" $
-    \v -> Lic <$> v .: "LicenseId"
-
 instance FromJSON RawFinding where
   parseJSON = withObject "RawFinding" $
     \v -> RawFinding
