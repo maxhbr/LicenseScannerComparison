@@ -43,7 +43,7 @@ build() {
 }
 
 saveAll() {
-    local saveDir="$ROOT/_images"
+    local saveDir="$ROOT/__images"
     mkdir -p $saveDir
     for scanner in "${scanners[@]}"; do
         local outputTar="$saveDir/$scanner.tar"

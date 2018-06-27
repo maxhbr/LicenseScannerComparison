@@ -6,7 +6,7 @@ set -e
 . "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
 build() {
-    gitDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/_lid.git"
+    gitDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/__lid.git"
     [[ -d $gitDir ]] || git clone https://github.com/codeauroraforum/lid $gitDir
     cd $gitDir
     git checkout ea560292f1e89dc81b5a010e06df3b96aff923f5

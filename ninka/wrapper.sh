@@ -5,7 +5,7 @@ set -e
 . "$(dirname "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )")/common.sh"
 
 build() {
-    gitDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/_ninka.git"
+    gitDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/__ninka.git"
     [[ -d $gitDir ]] || git clone https://github.com/dmgerman/ninka $gitDir
     cd $gitDir
 

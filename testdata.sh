@@ -9,7 +9,7 @@ SRC[file_5.30.tar.xz]=http://http.debian.net/debian/pool/main/f/file/file_5.30.o
 SRC[adol-c-v2.6.3.tar.gz]=https://gitlab.com/adol-c/adol-c/-/archive/v2.6.3/adol-c-v2.6.3.tar.gz
 SRC[spdx-testfiles-1.0-for-license-list-2.6.tar]=https://github.com/spdx/license-test-files/raw/master/testfiles-1.0-for-license-list-2.6.tar
 
-datadir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/_data"
+datadir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/__data"
 
 calculateSrcDownloadPath() {
     local srcFileName=$1
