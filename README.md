@@ -23,7 +23,7 @@ This is a small project, which tries to compare different license scanners, by
 | Name                                 | Scanns for / via        | Wrapped | Produce | Pinned | Normalized |
 |--------------------------------------|-------------------------|---------|---------|--------|------------|
 | [askalono](https://github.com/amzn/askalono)                        | Top level license files | X       | X       |        |            |
-| [benbalter-licensee](https://github.com/benbalter/licensee)              |                         | X       | X       |        |            |
+| [benbalter-licensee](https://github.com/benbalter/licensee)              | Top level license files | X       | X       |        |            |
 | [boyter-lc](https://github.com/boyter/lc) ([blog](https://boyter.org/2018/03/licensechecker-command-line-application-identifies-software-license/))           |                         | X       | X       |        | X          |
 | [codeauroraforum-lid](https://github.com/codeauroraforum/lid)             |                         | X       | X       |        |            |
 | [debian-licensecheck](https://manpages.debian.org/jessie/devscripts/licensecheck.1.de.html)             |                         | X       | X       |        |            |
