@@ -163,7 +163,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-CMU.c;["BSD"]
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LAL-1.3.c;["See-URL"]
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPPL-1.3a.c;["LPPL-1.3+"]
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RSA-MD.c;^[["RSA-Security"]
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RSA-MD.c;["RSA-Security"]
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Saxpath.c;["BSD-style"]
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Nunit.c;["Zlib"]
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/gSOAP-1.3b.c;["gSOAP-1.3b"]
