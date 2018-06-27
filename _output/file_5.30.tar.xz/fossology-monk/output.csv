@@ -160,8 +160,7 @@
 /file_5.30.tar.xz/magic/Magdir/psl;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/alliant;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/ncr;[{"type":"no-match"}]
-/file_5.30.tar.xz/magic/Magdir/database;WARNING: cannot re-encode '/file_5.30.tar.xz/magic/Magdir/database', going binary from now on
-[{"type":"no-match"}]
+/file_5.30.tar.xz/magic/Magdir/database;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/dump;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/vms;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/yara;[{"type":"no-match"}]
@@ -177,7 +176,7 @@
 /file_5.30.tar.xz/magic/Magdir/mlssa;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/efi;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/oasis;[{"type":"no-match"}]
-/file_5.30.tar.xz/magic/Magdir/apple;WARNING: cannot re-encode '/file_5.30.tar.xz/magic/Magdir/apple', going binary from now on
+/file_5.30.tar.xz/magic/Magdir/apple;
 [{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/map;[{"type":"no-match"}]
 /file_5.30.tar.xz/magic/Magdir/cracklib;[{"type":"no-match"}]
@@ -296,12 +295,10 @@
 /file_5.30.tar.xz/magic/Makefile.in;[{"type":"diff","license":"FSF","ref-pk":493,"rank":83,"diffs":"t[106] M- s[0+29], t[106+38] M0 s[30+36], t[145+11] MR s[67+4], t[157+175] M0 s[72+173]"}]
 /file_5.30.tar.xz/magic/Localstuff;[{"type":"no-match"}]
 /file_5.30.tar.xz/tests/gedcom.testfile;[{"type":"no-match"}]
-/file_5.30.tar.xz/tests/escapevel.testfile;WARNING: cannot re-encode '/file_5.30.tar.xz/tests/escapevel.testfile', going binary from now on
-[{"type":"no-match"}]
+/file_5.30.tar.xz/tests/escapevel.testfile;[{"type":"no-match"}]
 /file_5.30.tar.xz/tests/test.c;[{"type":"diff","license":"BSD-2-Clause","ref-pk":270,"rank":84,"diffs":"t[45] M- s[0+29], t[45+245] M0 s[31+235], t[297+70] MR s[267+7], t[374+12] M0 s[275+12], t[387+11] MR s[288+10], t[399+291] M0 s[299+274], t[691+33] MR s[574+42], t[725+195] M0 s[617+186], t[921+6] MR s[804+16], t[928+488] M0 s[821+467], t[1417] M- s[1289+6]"},{"type":"diff","license":"BSD-2-Clause-FreeBSD","ref-pk":397,"rank":74,"diffs":"t[49] M- s[0+69], t[49+241] M0 s[70+231], t[297+70] MR s[302+7], t[374+12] M0 s[310+12], t[387+11] MR s[323+10], t[399+291] M0 s[334+274], t[691+23] MR s[609+15], t[715+205] M0 s[625+196], t[921+6] MR s[822+15], t[928+496] M0 s[838+475], t[1431] M- s[1317+212]"}]
 /file_5.30.tar.xz/tests/escapevel.result;[{"type":"no-match"}]
-/file_5.30.tar.xz/tests/issue311docx.testfile;WARNING: cannot re-encode '/file_5.30.tar.xz/tests/issue311docx.testfile', going binary from now on
-[{"type":"no-match"}]
+/file_5.30.tar.xz/tests/issue311docx.testfile;[{"type":"no-match"}]
 /file_5.30.tar.xz/tests/Makefile.am;[{"type":"no-match"}]
 /file_5.30.tar.xz/tests/Makefile.in;[{"type":"diff","license":"FSF","ref-pk":493,"rank":83,"diffs":"t[106] M- s[0+29], t[106+38] M0 s[30+36], t[145+11] MR s[67+4], t[157+175] M0 s[72+173]"}]
 /file_5.30.tar.xz/tests/issue311docx.result;[{"type":"no-match"}]

@@ -12,7 +12,7 @@ test() {
     mkdir -p $outputDir
 
     docker_rm
-    docker_run $input > $outputDir/output.csv
+    docker_run $input | tr -d '\015' > $outputDir/output.csv
 }
 
 test $@

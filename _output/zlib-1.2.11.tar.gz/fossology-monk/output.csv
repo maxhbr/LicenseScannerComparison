@@ -20,8 +20,7 @@
 /zlib-1.2.11.tar.gz/crc32.h;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/qnx/package.qpg;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/make_vms.com;[{"type":"no-match"}]
-/zlib-1.2.11.tar.gz/zlib.3.pdf;WARNING: cannot re-encode '/zlib-1.2.11.tar.gz/zlib.3.pdf', going binary from now on
-[{"type":"no-match"}]
+/zlib-1.2.11.tar.gz/zlib.3.pdf;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/zlib.h;[{"type":"diff","license":"Zlib","ref-pk":284,"rank":88,"diffs":"t[3+79] M0 s[0+80], t[83+53] MR s[81+53], t[137+897] M0 s[135+915], t[1042+27] MR s[1051+28], t[1079+25] M0 s[1080+25]"}]
 /zlib-1.2.11.tar.gz/msdos/Makefile.dj2;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/msdos/Makefile.bor;[{"type":"no-match"}]
@@ -168,8 +167,7 @@
 /zlib-1.2.11.tar.gz/contrib/asm686/README.686;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/puff/puff.c;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/puff/puff.h;[{"type":"no-match"}]
-/zlib-1.2.11.tar.gz/contrib/puff/zeros.raw;WARNING: cannot re-encode '/zlib-1.2.11.tar.gz/contrib/puff/zeros.raw', going binary from now on
-[{"type":"no-match"}]
+/zlib-1.2.11.tar.gz/contrib/puff/zeros.raw;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/puff/pufftest.c;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/puff/Makefile;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/puff/README;[{"type":"no-match"}]
@@ -206,8 +204,7 @@
 /zlib-1.2.11.tar.gz/contrib/masmx64/inffasx64.asm;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt;[{"type":"full","license":"BSL-1.0","ref-pk":249,"matched":"0+1359"}]
 /zlib-1.2.11.tar.gz/contrib/dotzlib/readme.txt;[{"type":"no-match"}]
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.chm;WARNING: cannot re-encode '/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.chm', going binary from now on
-[{"type":"no-match"}]
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.chm;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.sln;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.build;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/AssemblyInfo.cs;[{"type":"no-match"}]
@@ -244,8 +241,7 @@
 /zlib-1.2.11.tar.gz/contrib/untgz/untgz.c;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/inflate86/inffast.S;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/inflate86/inffas86.c;[{"type":"no-match"}]
-/zlib-1.2.11.tar.gz/contrib/blast/test.pk;WARNING: cannot re-encode '/zlib-1.2.11.tar.gz/contrib/blast/test.pk', going binary from now on
-[{"type":"no-match"}]
+/zlib-1.2.11.tar.gz/contrib/blast/test.pk;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/blast/Makefile;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/blast/blast.c;[{"type":"no-match"}]
 /zlib-1.2.11.tar.gz/contrib/blast/test.txt;[{"type":"no-match"}]
