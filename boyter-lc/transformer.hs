@@ -54,7 +54,10 @@ instance Ord Finding where
 
 unRaw :: RawFinding -> Finding
 unRaw rf = let
-  p = rfDirectory rf `Tx.append` rfFilename rf
+  pDir = if ("/" `Tx.isSuffixOf` rfDirectory rf)
+         then rfDirectory rf
+         else rfDirectory rf `Tx.append` "/"
+  p =  pDir `Tx.append` rfFilename rf
   lics = L.nub . P.map licenseId $ (fromMaybe [] $ rfLicenseGuesses rf) ++ (fromMaybe [] $ rfLicenseRoots rf)
   in Finding p lics
 

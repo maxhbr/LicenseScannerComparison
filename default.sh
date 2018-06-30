@@ -97,6 +97,8 @@ produce() {
                 fi
             fi
         done
+
+        listTestdata $srcName > "$(calculateResultFileListPath $srcName)"
     done
 }
 

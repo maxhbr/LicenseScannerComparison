@@ -68,3 +68,10 @@ pullAll() {
         extractDownloadedTestdata $srcName
     done
 }
+
+listTestdata() {
+    local srcFileName=$1
+    srcDir=$(calculateSrcPath $srcFileName)
+    find $srcDir -type f | sed 's%'"$srcDir"'%'"/$srcFileName"'%' | sort
+}
+
