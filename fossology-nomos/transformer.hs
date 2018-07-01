@@ -71,7 +71,7 @@ main = let
                  <*> argPath "target" "Target"
   in do
     (sourceDir, target) <- options "Transformer" optionsParser
-    input <- fold (T.input (getSourceFileFromDir sourceDir)) (F.list)
+    input <- fold (T.input (getSourceFileFromDir sourceDir)) F.list
     let groupedFindings = L.groupBy (\ f1 -> \ f2 -> (path f1 == path f2)) $ L.map parseLine input
     let collectedFindings = L.map (\ fs -> let
                                         p = path $ L.head fs
