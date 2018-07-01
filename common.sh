@@ -97,8 +97,13 @@ calculateResultPath() {
     local src=$1
     local scanner=$2
 
-    mkdir -p "$resultROOT/$src"
-    echo "$resultROOT/$src/${scanner}.csv"
+    resultDir="$resultROOT/$src"
+    mkdir -p "$resultDir"
+    if [ $# = 1 ]; then
+        echo "$resultDir"
+    else
+        echo "$resultDir/${scanner}.csv"
+    fi
 }
 
 calculateResultFileListPath() {

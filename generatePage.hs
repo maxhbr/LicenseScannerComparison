@@ -80,12 +80,12 @@ loadFileList resultDir = let
   in fmap (L.map (FP.fromText . lineToText)) $ fold (T.input fileListFile) F.list
 
 
-transposeCsvsContent :: [FilePath] -> [(String, [Finding])] -> Map.Map FilePath [(String, [Finding])]
+transposeCsvsContent :: [FilePath] -> [(String, [Finding])] -> Map.Map FilePath (Map.Map String [Finding])
 transposeCsvsContent fileList csvsContent = let
     getMatchingFindings :: FilePath -> [(String, [Finding])]
     getMatchingFindings fp = L.map (\ (s, fs) -> (s, L.filter (\ f -> (path f) == fp) fs)) csvsContent
-    transposeOne :: FilePath -> (FilePath, [(String, [Finding])])
-    transposeOne fp = (fp, Map.fromList getMatchingFindings fp)
+    transposeOne :: FilePath -> (FilePath, Map.Map String [Finding])
+    transposeOne fp = (fp, Map.fromList $ getMatchingFindings fp)
   in Map.fromList $ L.map transposeOne fileList
 
 templateStart :: Text
@@ -106,21 +106,29 @@ templateEnd = [r|
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#maintable').DataTable();
+    var table = $('#maintable').DataTable();
 } );
 </script>
 </body>
 </html>|]
 
 renderHeader :: [String] -> Text
-renderHeader scanners = "<thead><tr><th>Path</th><th>" `Tx.append` (Tx.intercalate "</th><th>" $ L.map Tx.pack scanners) `Tx.append` "</th></thead>"
-renderRows :: [String] -> Map.Map FilePath [(String, [Finding])] -> Text
+renderHeader scanners = "<thead><tr><th>Path</th><th>" `Tx.append` (Tx.intercalate "</th><th>" $ L.map Tx.pack scanners) `Tx.append` "</th></tr></thead>"
+renderRows :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
 renderRows scanners = let
-    renderRowFun :: Text -> FilePath -> [(String, [Finding])] -> Text
-    renderRowFun old path findings = undefined
+    renderRowFun :: Text -> FilePath -> Map.Map String [Finding] -> Text
+    renderRowFun prev path findings = let
+        pathText = case FP.toText path of
+          Left err -> undefined
+          Right p  -> p
+        mkScannerEntry :: String -> Text
+        mkScannerEntry scanner = case Map.lookup scanner findings of
+          Just findings -> Tx.intercalate ", " $ L.concatMap licenses findings
+          otherwise     -> ""
+      in Tx.unlines [prev, "<tr><td>", Tx.intercalate "</td><td>" (["<pre>" `Tx.append` pathText `Tx.append` "</pre>"] ++ (L.map mkScannerEntry scanners)), "</td></tr>"]
   in Map.foldlWithKey renderRowFun ""
 
-generateHtml :: [String] -> Map.Map FilePath [(String, [Finding])] -> Text
+generateHtml :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
 generateHtml scanners resultData = Tx.unlines $ [templateStart, renderHeader scanners, "<tbody>", renderRows scanners resultData, "<tbody>", templateEnd]
 
 main :: IO ()
@@ -132,7 +140,8 @@ main = let
     csvsContent <- getCsvsContent resultDir
     fileList <- loadFileList resultDir
     let resultData = transposeCsvsContent fileList csvsContent
-    let scanners = L.map (\(s, _) -> s) csvsContent
+    let scanners = L.sort $ L.map (\(s, _) -> s) csvsContent
     let html = generateHtml scanners resultData
-    Tx.putStrLn html
+    let htmlFile = resultDir </> "index.html"
+    T.output htmlFile (return $ T.unsafeTextToLine html)
 

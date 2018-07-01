@@ -102,10 +102,19 @@ produce() {
     done
 }
 
+generate() {
+    for srcName in "${!SRC[@]}"; do
+        echo "## generate for $srcName"
+        resultDir="$(calculateResultPath $srcName)"
+        "$ROOT/generatePage.hs" "$resultDir"
+    done
+}
+
 if [ $# -eq 0 ]; then
     pullAll
     build
     produce
+    generate
 else
     ([[ ! -n "$(type -t $1)" ]] || [ "$(type -t $1)" != "function" ] ) && exit 1
     $@
