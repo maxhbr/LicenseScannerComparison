@@ -95,29 +95,23 @@ templateStart = [r|
 <head>
 <title>LicenseScannerComparison</title>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
-<div id="preview" class="modal" style="max-width: 90%"><pre>TODO</pre></div>
 |]
 templateEnd :: Text
 templateEnd = [r|
-<!-- <pre id="fileContent" style="width: 92%; display: block; margin: 20px 2%; padding: 20px 2%; border: solid 3px gray;">TODO: JS based file preview</pre> -->
+<pre id="fileContent" style="width: 92%; display: block; margin: 20px 2%; padding: 20px 2%; border: solid 3px gray;">Preview: works only when run within a server</pre>
 <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <script type="text/javascript">
 $(document).ready( function () {
-
     var table = $('#maintable').DataTable({
-        "paging": false
     });
 
     $('#maintable tbody').on('click', 'tr', function () {
         var data = table.row( this ).data();
         $.get('.'+data[0], function(data, status){
-            $('#preview pre').text(data);
-            $('#preview').modal();
+            $('#fileContent').text(data);
         });
     } );
 
