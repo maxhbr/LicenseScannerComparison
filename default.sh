@@ -103,14 +103,32 @@ produce() {
 }
 
 generate() {
+    cat <<EOF > "$resultROOT/index.html"
+<!DOCTYPE html>
+<html>
+<head>
+<title>LicenseScannerComparison</title>
+</head>
+<body>
+<ul>
+EOF
     for srcName in "${!SRC[@]}"; do
         echo "## generate for $srcName"
         resultDir="$(calculateResultPath $srcName)"
         "$ROOT/generatePage.hs" "$resultDir"
 
         extractedArchive=$(calculateSrcPath $srcName)
-        ln -rs $extractedArchive "$resultDir/$srcName"
+        if [[ ! -e "$resultDir/$srcName" ]]; then
+            ln -rs $extractedArchive "$resultDir/$srcName"
+        fi
+
+        echo "<li><a href=\"$srcName/index.html\">$srcName</a></li>" >> "$resultROOT/index.html"
     done
+    cat <<EOF >> "$resultROOT/index.html"
+</ul>
+</body>
+</html>
+EOF
 }
 
 if [ $# -eq 0 ]; then
