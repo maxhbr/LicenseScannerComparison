@@ -4,137 +4,163 @@
 <head>
 <title>LicenseScannerComparison</title>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
-<table id="maintable" class="display">
+<div id="preview" class="modal" style="max-width: 90%"><pre>TODO</pre></div>
 
+Toggle Scanners:<br/><a class="toggle-vis" data-column="1" href="#">boyter-lc</a> - <a class="toggle-vis" data-column="2" href="#">codeauroraforum-lid</a> - <a class="toggle-vis" data-column="3" href="#">debian-licensecheck</a> - <a class="toggle-vis" data-column="4" href="#">fossology-monk</a> - <a class="toggle-vis" data-column="5" href="#">fossology-nomos</a> - <a class="toggle-vis" data-column="6" href="#">gerv-slic</a> - <a class="toggle-vis" data-column="7" href="#">google-licenseclassifier</a> - <a class="toggle-vis" data-column="8" href="#">nexB-scancode-toolkit</a> - <a class="toggle-vis" data-column="9" href="#">ninka</a><hr>
+<table id="maintable" class="display">
 <thead><tr><th>Path</th><th>boyter-lc</th><th>codeauroraforum-lid</th><th>debian-licensecheck</th><th>fossology-monk</th><th>fossology-nomos</th><th>gerv-slic</th><th>google-licenseclassifier</th><th>nexB-scancode-toolkit</th><th>ninka</th></tr></thead>
 <tbody>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/AUTHORS</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/AUTHORS</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/COPYING</pre></td><td>GPL-2.0+</td><td>AGPL-1.0, GCC-exception-2.0, GPL-1.0+, LGPL-2.0+</td><td></td><td>GPL-2.0</td><td>GPL-2.0</td><td>GPL-2.0+</td><td>GPL-2.0, GPL-3.0</td><td>GPL-2.0-only</td><td>GPLv2+
+/time-1.7.tar.gz/COPYING</td><td>GPL-2.0+</td><td>AGPL-1.0, GCC-exception-2.0, GPL-1.0+, LGPL-2.0+</td><td></td><td>GPL-2.0</td><td>GPL-2.0</td><td>GPL-2.0+</td><td>GPL-2.0, GPL-3.0</td><td>GPL-2.0-only</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/ChangeLog</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/ChangeLog</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/INSTALL</pre></td><td>GPL-2.0+</td><td>Vim</td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>UNKNOWN
+/time-1.7.tar.gz/INSTALL</td><td>GPL-2.0+</td><td>Vim</td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>UNKNOWN
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/Makefile.am</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/Makefile.am</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/Makefile.in</pre></td><td>GPL-2.0+</td><td>FSFUL</td><td></td><td></td><td>FSF</td><td>suspiciousLicensey</td><td></td><td>FSFUL</td><td>UNKNOWN
+/time-1.7.tar.gz/Makefile.in</td><td>GPL-2.0+</td><td>FSFUL</td><td></td><td></td><td>FSF</td><td>suspiciousLicensey</td><td></td><td>FSFUL</td><td>UNKNOWN
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/NEWS</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/NEWS</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/README</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>UNKNOWN
+/time-1.7.tar.gz/README</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>UNKNOWN
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/configure</pre></td><td>GPL-2.0+</td><td>FSFUL</td><td></td><td></td><td>FSF</td><td></td><td></td><td>FSFUL</td><td>FSFUnlimited
+/time-1.7.tar.gz/configure</td><td>GPL-2.0+</td><td>FSFUL</td><td></td><td></td><td>FSF</td><td></td><td></td><td>FSFUL</td><td>FSFUnlimited
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/configure.in</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/configure.in</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/error.c</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/error.c</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/getopt.c</pre></td><td>GPL-2.0+</td><td>GPL-1.0+, LGPL-3.0+, LGPL-3.0+, LGPL-3.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/getopt.c</td><td>GPL-2.0+</td><td>GPL-1.0+, LGPL-3.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/getopt.h</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/getopt.h</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/getopt1.c</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/getopt1.c</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/getpagesize.h</pre></td><td>GPL-2.0+</td><td></td><td>UNKNOWN</td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/getpagesize.h</td><td>GPL-2.0+</td><td></td><td>UNKNOWN</td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/install-sh</pre></td><td>GPL-2.0+</td><td>NTP</td><td></td><td>NTP</td><td>MIT</td><td>HPND</td><td></td><td>MIT Old Style no advertising</td><td>MITold
+/time-1.7.tar.gz/install-sh</td><td>GPL-2.0+</td><td>NTP</td><td></td><td>NTP</td><td>MIT</td><td>HPND</td><td></td><td>MIT Old Style no advertising</td><td>MITold
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/mdate-sh</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td></td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/mdate-sh</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td></td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/mkinstalldirs</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>Public-domain-ref</td><td>PD</td><td></td><td>Public Domain</td><td>UNKNOWN
+/time-1.7.tar.gz/mkinstalldirs</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>Public-domain-ref</td><td>PD</td><td></td><td>Public Domain</td><td>UNKNOWN
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/port.h</pre></td><td>GPL-2.0+</td><td></td><td>UNKNOWN</td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/port.h</td><td>GPL-2.0+</td><td></td><td>UNKNOWN</td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/resuse.c</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/resuse.c</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/resuse.h</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/resuse.h</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/stamp-vti</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/stamp-vti</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td></td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/texinfo.tex</pre></td><td>GPL-2.0+</td><td>GPL-1.0+, ODbL-1.0, PDDL-1.0, PDDL-1.0</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-3.0</td><td>GPL-2.0-or-later</td><td>UNKNOWN
+/time-1.7.tar.gz/texinfo.tex</td><td>GPL-2.0+</td><td>GPL-1.0+, ODbL-1.0, PDDL-1.0</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-3.0</td><td>GPL-2.0-or-later</td><td>UNKNOWN
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/time.c</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/time.c</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/time.info</pre></td><td>GPL-2.0+</td><td>LGPL-3.0+, Latex2e</td><td></td><td></td><td>FSF, GNU-Manpages</td><td></td><td></td><td>GPL-Elib</td><td>UNKNOWN
+/time-1.7.tar.gz/time.info</td><td>GPL-2.0+</td><td>LGPL-3.0+, Latex2e</td><td></td><td></td><td>FSF, GNU-Manpages</td><td></td><td></td><td>GPL-Elib</td><td>UNKNOWN
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/time.texi</pre></td><td>GPL-2.0+</td><td>LGPL-3.0+, Latex2e, Latex2e</td><td></td><td></td><td>FSF, GNU-Manpages</td><td>suspiciousLicensey</td><td></td><td>GPL-Elib, Latex2e</td><td>UNKNOWN
+/time-1.7.tar.gz/time.texi</td><td>GPL-2.0+</td><td>LGPL-3.0+, Latex2e</td><td></td><td></td><td>FSF, GNU-Manpages</td><td>suspiciousLicensey</td><td></td><td>GPL-Elib, Latex2e</td><td>UNKNOWN
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/version.c</pre></td><td>GPL-2.0+</td><td></td><td>UNKNOWN</td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/version.c</td><td>GPL-2.0+</td><td></td><td>UNKNOWN</td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/version.texi</pre></td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
+/time-1.7.tar.gz/version.texi</td><td>GPL-2.0+</td><td></td><td></td><td></td><td>No_license_found</td><td>none</td><td></td><td></td><td>NONE
 </td></tr>
 
 <tr><td>
-<pre>/time-1.7.tar.gz/wait.h</pre></td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
+/time-1.7.tar.gz/wait.h</td><td>GPL-2.0+</td><td>GPL-1.0+</td><td>GPL (v2 or later) (with incorrect FSF address)</td><td></td><td>GPL-2.0+</td><td>GPL-2.0+</td><td>GPL-1.0, GPL-3.0</td><td>GPL-2.0-or-later</td><td>GPLv2+
 </td></tr>
 
-<tbody>
+</tbody></table>
 
-</table>
+
+<!-- <pre id="fileContent" style="width: 92%; display: block; margin: 20px 2%; padding: 20px 2%; border: solid 3px gray;">TODO: JS based file preview</pre> -->
 <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <script type="text/javascript">
 $(document).ready( function () {
-    var table = $('#maintable').DataTable();
+
+    var table = $('#maintable').DataTable({
+        "paging": false
+    });
+
+    $('#maintable tbody').on('click', 'tr', function () {
+        var data = table.row( this ).data();
+        $.get('.'+data[0], function(data, status){
+            $('#preview pre').text(data);
+            $('#preview').modal();
+        });
+    } );
+
+    $('a.toggle-vis').on( 'click', function (e) {
+        e.preventDefault();
+
+        // Get the column API object
+        var column = table.column( $(this).attr('data-column') );
+
+        // Toggle the visibility
+        column.visible( ! column.visible() );
+    } );
 } );
 </script>
 </body>

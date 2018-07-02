@@ -107,6 +107,9 @@ generate() {
         echo "## generate for $srcName"
         resultDir="$(calculateResultPath $srcName)"
         "$ROOT/generatePage.hs" "$resultDir"
+
+        extractedArchive=$(calculateSrcPath $srcName)
+        ln -rs $extractedArchive "$resultDir/$srcName"
     done
 }
 

@@ -95,18 +95,41 @@ templateStart = [r|
 <head>
 <title>LicenseScannerComparison</title>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
-<table id="maintable" class="display">
+<div id="preview" class="modal" style="max-width: 90%"><pre>TODO</pre></div>
 |]
 templateEnd :: Text
 templateEnd = [r|
-</table>
+<!-- <pre id="fileContent" style="width: 92%; display: block; margin: 20px 2%; padding: 20px 2%; border: solid 3px gray;">TODO: JS based file preview</pre> -->
 <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <script type="text/javascript">
 $(document).ready( function () {
-    var table = $('#maintable').DataTable();
+
+    var table = $('#maintable').DataTable({
+        "paging": false
+    });
+
+    $('#maintable tbody').on('click', 'tr', function () {
+        var data = table.row( this ).data();
+        $.get('.'+data[0], function(data, status){
+            $('#preview pre').text(data);
+            $('#preview').modal();
+        });
+    } );
+
+    $('a.toggle-vis').on( 'click', function (e) {
+        e.preventDefault();
+
+        // Get the column API object
+        var column = table.column( $(this).attr('data-column') );
+
+        // Toggle the visibility
+        column.visible( ! column.visible() );
+    } );
 } );
 </script>
 </body>
@@ -123,13 +146,21 @@ renderRows scanners = let
           Right p  -> p
         mkScannerEntry :: String -> Text
         mkScannerEntry scanner = case Map.lookup scanner findings of
-          Just findings -> Tx.intercalate ", " $ L.concatMap licenses findings
+          Just findings -> Tx.intercalate ", " . L.nub $ L.concatMap licenses findings
           otherwise     -> ""
-      in Tx.unlines [prev, "<tr><td>", Tx.intercalate "</td><td>" (["<pre>" `Tx.append` pathText `Tx.append` "</pre>"] ++ (L.map mkScannerEntry scanners)), "</td></tr>"]
+      in Tx.unlines [prev, "<tr><td>", Tx.intercalate "</td><td>" ([pathText] ++ (L.map mkScannerEntry scanners)), "</td></tr>"]
   in Map.foldlWithKey renderRowFun ""
 
+renderTable :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
+renderTable scanners resultData = Tx.unlines $ ["<table id=\"maintable\" class=\"display\">", renderHeader scanners, "<tbody>", renderRows scanners resultData, "</tbody></table>"]
+
+renderToggles :: [String] -> Text
+renderToggles scanners = let
+    renderToggle (index, name) = Tx.concat ["<a class=\"toggle-vis\" data-column=\"", Tx.pack $ show index, "\" href=\"#\">", Tx.pack name,"</a>"]
+  in "Toggle Scanners:<br/>" `Tx.append` (Tx.intercalate " - " $ L.map renderToggle (L.zip [1..] scanners)) `Tx.append` "<hr>"
+
 generateHtml :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
-generateHtml scanners resultData = Tx.unlines $ [templateStart, renderHeader scanners, "<tbody>", renderRows scanners resultData, "<tbody>", templateEnd]
+generateHtml scanners resultData = Tx.unlines $ [templateStart, renderToggles scanners, renderTable scanners resultData, templateEnd]
 
 main :: IO ()
 main = let
