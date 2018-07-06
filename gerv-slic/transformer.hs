@@ -8,6 +8,7 @@
  --package=cassava
  --package=word8
  --package=bytestring
+ --package=containers
  -}
 {-# OPTIONS_GHC -threaded      #-}
 {-# LANGUAGE OverloadedStrings #-}
@@ -31,6 +32,7 @@ import qualified Data.Csv as CSV
 import Data.Word8 as W8
 import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as BSL
+import qualified Data.Map as Map
 
 data RawFinding
   = RawFinding
@@ -72,6 +74,20 @@ convertToCSV = let
 getSourceFileFromDir :: FilePath -> FilePath
 getSourceFileFromDir = (</> "output.json")
 
+
+rewriteMap :: Map.Map Text [Text]
+rewriteMap = Map.fromList
+  [ ("none",[])
+  ]
+
+rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
+rewriteFindings map = let
+    rewriteLicense lic = case lic `Map.lookup` map of
+      Just newLics -> newLics
+      otherwise    -> [lic]
+    rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
+  in L.map rewriteFinding
+
 main :: IO ()
 main = let
     optionsParser :: T.Parser (FilePath, FilePath)
@@ -82,4 +98,4 @@ main = let
     parsed <- (parseJsonSource . getSourceFileFromDir) sourceDir
     case parsed of
       Left error -> print error
-      Right v    -> (writeTextFile target . Tx.decodeUtf8 . convertToCSV . L.sort) v
+      Right v    -> (writeTextFile target . Tx.decodeUtf8 . convertToCSV . L.sort . (rewriteFindings rewriteMap)) v

@@ -77,9 +77,9 @@ getCsvsContent resultDir = let
     return $ L.map (\(s, fvector) -> (s, V.toList fvector)) csvsContensPre
 
 rewriteCsvsContent :: [(String, [Finding])] -> [(String, [Finding])]
-rewriteCsvsContent contents = let
-    rewriteMap :: M.Map Text [Text]
-    rewriteMap = M.fromList
+rewriteCsvsContent = let
+    rewriteMap :: Map.Map Text [Text]
+    rewriteMap = Map.fromList
       [ ("GPL-1.0", ["GPL-1.0-only"]), ("GPL-1.0+", ["GPL-1.0-or-later"])
       , ("GPL-2.0", ["GPL-2.0-only"]), ("GPL-2.0+", ["GPL-2.0-or-later"])
       , ("GPL-3.0", ["GPL-3.0-only"]), ("GPL-3.0+", ["GPL-3.0-or-later"])
@@ -92,14 +92,14 @@ rewriteCsvsContent contents = let
       , ("Apache", ["Apache-1.0", "Apache-1.1", "Apache-2.0"])
       ]
 
-    rewriteFindings :: M.Map Text [Text] -> [Finding] -> [Finding]
+    rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
     rewriteFindings map = let
-        rewriteLicense lic = case lic `M.lookup` map of
+        rewriteLicense lic = case lic `Map.lookup` map of
           Just newLics -> newLics
           otherwise    -> [lic]
         rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
       in L.map rewriteFinding
-  in map (\(s, fs) -> (s, rewriteFindings rewriteMap fs))
+  in L.map (\(s, fs) -> (s, rewriteFindings rewriteMap fs))
 
 loadFileList :: FilePath -> IO [FilePath]
 loadFileList resultDir = let
