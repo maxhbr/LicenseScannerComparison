@@ -9,6 +9,7 @@
  --package=word8
  --package=bytestring
  --package=foldl
+ --package=containers
  -}
 {-# OPTIONS_GHC -threaded        #-}
 {-# LANGUAGE OverloadedStrings   #-}
@@ -35,6 +36,7 @@ import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as BSL
 import qualified Control.Foldl as F
 import Debug.Trace
+import qualified Data.Map as Map
 
 data Finding
   = Finding
@@ -64,6 +66,34 @@ convertToCSV = let
 getSourceFileFromDir :: FilePath -> FilePath
 getSourceFileFromDir = (</> "output.csv")
 
+rewriteMap :: Map.Map Text [Text]
+rewriteMap = Map.fromList
+  [ ("No_license_found",[])
+  , ("GPL-1.0", ["GPL-1.0-only"]), ("GPL-1.0+", ["GPL-1.0-or-later"])
+  , ("GPL-2.0", ["GPL-2.0-only"]), ("GPL-2.0+", ["GPL-2.0-or-later"])
+  , ("GPL-3.0", ["GPL-3.0-only"]), ("GPL-3.0+", ["GPL-3.0-or-later"])
+  , ("LGPL-2.0", ["LGPL-2.0-only"]), ("LGPL-2.0+", ["LGPL-2.0-or-later"])
+  , ("LGPL-2.1", ["LGPL-2.1-only"]), ("LGPL-2.1+", ["LGPL-2.1-or-later"])
+  , ("LGPL-3.0", ["LGPL-3.0-only"]), ("LGPL-3.0+", ["LGPL-3.0-or-later"])
+  , ("AGPL-1.0", ["AGPL-1.0-only"])
+  , ("AGPL-3.0", ["AGPL-3.0-only"])
+  , ("GPL", ["GPL-1.0-only", "GPL-1.0-or-later", "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later"])
+  , ("Adobe-AFM", ["APAFML"])
+  , ("Apache", ["Apache-1.0", "Apache-1.1", "Apache-2.0"]) -- TODO
+  , ("VIM", ["Vim"])
+  ]
+  -- , ("*-possibility", [????]) -- for perl, ...
+  -- , ("*-ref", [????]) -- for ...
+  -- , ("*-style", [????]) -- for BSD, HP-DEC, ...
+
+rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
+rewriteFindings map = let
+    rewriteLicense lic = case lic `Map.lookup` map of
+      Just newLics -> newLics
+      otherwise    -> [lic]
+    rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
+  in L.map rewriteFinding
+
 main :: IO ()
 main = let
     optionsParser :: T.Parser (FilePath, FilePath)
@@ -72,7 +102,9 @@ main = let
   in do
     (sourceDir, target) <- options "Transformer" optionsParser
     input <- fold (T.input (getSourceFileFromDir sourceDir)) F.list
-    let groupedFindings = L.groupBy (\ f1 -> \ f2 -> (path f1 == path f2)) $ L.map parseLine input
+    let rawFindings = L.map parseLine input
+    let rewrittenFindings = rewriteFindings rewriteMap rawFindings
+    let groupedFindings = L.groupBy (\ f1 -> \ f2 -> (path f1 == path f2)) rewrittenFindings
     let collectedFindings = L.map (\ fs -> let
                                         p = path $ L.head fs
                                         ls = L.concatMap licenses fs

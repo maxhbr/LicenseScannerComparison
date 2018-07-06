@@ -80,6 +80,30 @@ convertToCSV = let
 getSourceFileFromDir :: FilePath -> FilePath
 getSourceFileFromDir = (</> "output.csv")
 
+rewriteMap :: M.Map Text [Text]
+rewriteMap = M.fromList
+  [ ("GPL-1.0", ["GPL-1.0-only"]), ("GPL-1.0+", ["GPL-1.0-or-later"])
+  , ("GPL-2.0", ["GPL-2.0-only"]), ("GPL-2.0+", ["GPL-2.0-or-later"])
+  , ("GPL-3.0", ["GPL-3.0-only"]), ("GPL-3.0+", ["GPL-3.0-or-later"])
+  , ("LGPL-2.0", ["LGPL-2.0-only"]), ("LGPL-2.0+", ["LGPL-2.0-or-later"])
+  , ("LGPL-2.1", ["LGPL-2.1-only"]), ("LGPL-2.1+", ["LGPL-2.1-or-later"])
+  , ("LGPL-3.0", ["LGPL-3.0-only"]), ("LGPL-3.0+", ["LGPL-3.0-or-later"])
+  , ("AGPL-1.0", ["AGPL-1.0-only"])
+  , ("AGPL-3.0", ["AGPL-3.0-only"])
+  , ("GPL", ["GPL-1.0-only", "GPL-1.0-or-later", "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later"])
+  , ("Adobe-AFM", ["APAFML"])
+  , ("Apache", ["Apache-1.0", "Apache-1.1", "Apache-2.0"]) -- TODO
+  , ("VIM", ["Vim"])
+  ]
+
+rewriteFindings :: M.Map Text [Text] -> [Finding] -> [Finding]
+rewriteFindings map = let
+    rewriteLicense lic = case lic `M.lookup` map of
+      Just newLics -> newLics
+      otherwise    -> [lic]
+    rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
+  in L.map rewriteFinding
+
 main :: IO ()
 main = let
     optionsParser :: T.Parser (FilePath, FilePath)
@@ -88,8 +112,9 @@ main = let
   in do
     (sourceDir, target) <- options "Transformer" optionsParser
     input <- fold (T.input (getSourceFileFromDir sourceDir)) (F.list)
-    let findings = L.map parseLine input
-    let filteredFindings = L.filter (\ f -> (Tx.length . Tx.concat $ licenses f) > 0 ) findings
+    let rawFindings = L.map parseLine input
+    let rewrittenFindings = rewriteFindings rewriteMap rawFindings
+    let filteredFindings = L.filter (\ f -> (Tx.length . Tx.concat $ licenses f) > 0 ) rewrittenFindings
     let groupedFindings = L.groupBy (\ f1 -> \ f2 -> (path f1 == path f2)) filteredFindings
     let collectedFindings = L.map (\ fs -> let
                                         p = path $ L.head fs
