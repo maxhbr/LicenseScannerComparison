@@ -51,7 +51,7 @@ data Finding
   } deriving (Show, Eq)
 
 unRaw :: RawFinding -> Finding
-unRaw rf = Finding (rfPath rf) [rfLicense rf]
+unRaw rf = Finding (rfPath rf) (Tx.splitOn "," $ rfLicense rf)
 
 instance Ord Finding where
   f <= f' = (path f) <= (path f')
@@ -71,17 +71,23 @@ getSourceFileFromDir = (</> "output.csv")
 rewriteMap :: Map.Map Text [Text]
 rewriteMap = Map.fromList
   [ ("NONE",[])
-  , ("GPLv1.0", ["GPL-1.0-only"]), ("GPLv1.0+", ["GPL-1.0-or-later"])
-  , ("GPLv2.0", ["GPL-2.0-only"]), ("GPLv2.0+", ["GPL-2.0-or-later"])
-  , ("GPLv3.0", ["GPL-3.0-only"]), ("GPLv3.0+", ["GPL-3.0-or-later"])
-  , ("LesserGPLv2.0", ["LGPL-2.0-only"]), ("LesserGPLv2.0+", ["LGPL-2.0-or-later"])
+  , ("GPLv1", ["GPL-1.0-only"]), ("GPLv1+", ["GPL-1.0-or-later"])
+  , ("GPLv2", ["GPL-2.0-only"]), ("GPLv2+", ["GPL-2.0-or-later"])
+  , ("GPLv3", ["GPL-3.0-only"]), ("GPLv3+", ["GPL-3.0-or-later"])
+  , ("LesserGPLv2", ["LGPL-2.0-only"]), ("LesserGPLv2+", ["LGPL-2.0-or-later"])
   , ("LesserGPLv2.1", ["LGPL-2.1-only"]), ("LesserGPLv2.1+", ["LGPL-2.1-or-later"])
-  , ("LesserGPLv3.0", ["LGPL-3.0-only"]), ("LesserGPLv3.0+", ["LGPL-3.0-or-later"])
-  , ("AGPLv1.0", ["AGPL-1.0-only"])
-  , ("AGPLv3.0", ["AGPL-3.0-only"])
+  , ("LesserGPLv3", ["LGPL-3.0-only"]), ("LesserGPLv3+", ["LGPL-3.0-or-later"])
+  , ("AGPLv1", ["AGPL-1.0-only"])
+  , ("AGPLv3", ["AGPL-3.0-only"])
+  , ("GPLnoVersion", ["GPL-1.0-only", "GPL-1.0-or-later", "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later"])
   , ("Apache-2", ["Apache-2.0"])
-  , ("spdxMIT", ["MIT"]), ("spdxBSD3", ["BSD3"]), ("spdxBSD4", ["BSD4"])
+  , ("spdxMIT", ["MIT"]), ("spdxBSD2", ["BSD2"]), ("spdxBSD3", ["BSD3"]), ("spdxBSD4", ["BSD4"])
   , ("MITX11", ["X11"])
+  , ("BeerWareVer42", ["Beerware"])
+  , ("ZLIB", ["Zlib"])
+  , ("postgresql", ["PostgreSQL"])
+  , ("NPLv1_0", ["NPL-1.1"])
+  , ("MPLv1_1", ["MPL-1.1"])
   ]
 
 rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]

@@ -192,7 +192,7 @@ main = let
     resultDir <- options "Page generator" optionsParser
     csvsContent <- getCsvsContent resultDir
     fileList <- loadFileList resultDir
-    let resultData = transposeCsvsContent fileList csvsContent
+    let resultData = transposeCsvsContent fileList $ rewriteCsvsContent csvsContent
     let scanners = L.sort $ L.map (\(s, _) -> s) csvsContent
     let html = generateHtml scanners resultData
     let htmlFile = resultDir </> "index.html"
