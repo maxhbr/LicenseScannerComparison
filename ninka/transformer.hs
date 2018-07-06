@@ -8,6 +8,7 @@
  --package=word8
  --package=bytestring
  --package=foldl
+ --package=containers
  -}
 {-# OPTIONS_GHC -threaded        #-}
 {-# LANGUAGE OverloadedStrings   #-}
@@ -31,6 +32,7 @@ import Data.Word8 as W8
 import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as BSL
 import qualified Control.Foldl as F
+import qualified Data.Map as Map
 
 data RawFinding
   = RawFinding
@@ -66,6 +68,30 @@ convertToCSV = let
 getSourceFileFromDir :: FilePath -> FilePath
 getSourceFileFromDir = (</> "output.csv")
 
+rewriteMap :: Map.Map Text [Text]
+rewriteMap = Map.fromList
+  [ ("NONE",[])
+  , ("GPLv1.0", ["GPL-1.0-only"]), ("GPLv1.0+", ["GPL-1.0-or-later"])
+  , ("GPLv2.0", ["GPL-2.0-only"]), ("GPLv2.0+", ["GPL-2.0-or-later"])
+  , ("GPLv3.0", ["GPL-3.0-only"]), ("GPLv3.0+", ["GPL-3.0-or-later"])
+  , ("LesserGPLv2.0", ["LGPL-2.0-only"]), ("LesserGPLv2.0+", ["LGPL-2.0-or-later"])
+  , ("LesserGPLv2.1", ["LGPL-2.1-only"]), ("LesserGPLv2.1+", ["LGPL-2.1-or-later"])
+  , ("LesserGPLv3.0", ["LGPL-3.0-only"]), ("LesserGPLv3.0+", ["LGPL-3.0-or-later"])
+  , ("AGPLv1.0", ["AGPL-1.0-only"])
+  , ("AGPLv3.0", ["AGPL-3.0-only"])
+  , ("Apache-2", ["Apache-2.0"])
+  , ("spdxMIT", ["MIT"]), ("spdxBSD3", ["BSD3"]), ("spdxBSD4", ["BSD4"])
+  , ("MITX11", ["X11"])
+  ]
+
+rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
+rewriteFindings map = let
+    rewriteLicense lic = case lic `Map.lookup` map of
+      Just newLics -> newLics
+      otherwise    -> [lic]
+    rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
+  in L.map rewriteFinding
+
 main :: IO ()
 main = let
     optionsParser :: T.Parser (FilePath, FilePath)
@@ -81,7 +107,8 @@ main = let
     case parsed of
       Right rawFindings -> do
         let convertedFindings = V.toList . V.map unRaw $ rawFindings
-        let filteredFindings = L.filter (\ f -> (Tx.length . Tx.concat $ licenses f) > 0 ) convertedFindings
+        let rewritenFindings = rewriteFindings rewriteMap convertedFindings
+        let filteredFindings = L.filter (\ f -> (Tx.length . Tx.concat $ licenses f) > 0 ) rewritenFindings
         let groupedFindings = L.groupBy (\ f1 -> \ f2 -> (path f1 == path f2)) filteredFindings
         let collectedFindings = L.map (\ fs -> let
                                             p = path $ L.head fs
