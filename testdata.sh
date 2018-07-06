@@ -21,6 +21,17 @@ calculateSrcPath() {
     echo "$(calculateSrcDownloadPath $srcFileName)_extracted"
 }
 
+expectationsdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/_expectations"
+calculateExpectationFile() {
+    local srcFileName=$1
+    possiblePath="$expectationsdir/${srcFileName}_expectations.csv"
+    if [[ -f "$possiblePath" ]]; then
+        echo "$possiblePath"
+    else
+        echo "/dev/null"
+    fi
+}
+
 extractDownloadedTestdata() {
     srcName=$1
 

@@ -62,19 +62,19 @@ listFiles resultDir = fold (ls resultDir) F.list
 listCsvs :: FilePath -> IO [FilePath]
 listCsvs = (liftM (L.filter (`hasExtension` "csv"))) . listFiles
 
+getCsvContent :: FilePath -> IO (String, V.Vector Finding)
+getCsvContent csv = do
+  csvData <- fmap BSL.fromStrict $ fold (TB.input csv) (F.foldMap id id)
+  case (CSV.decode CSV.NoHeader csvData) :: Either String (V.Vector Finding) of
+    Left err -> do
+      fail err
+    Right results -> return (FP.encodeString $ FP.basename csv, results)
+
 getCsvsContent :: FilePath -> IO [(String, [Finding])]
-getCsvsContent resultDir = let
-    getCsvContent :: FilePath -> IO (String, V.Vector Finding)
-    getCsvContent csv = do
-      csvData <- fmap BSL.fromStrict $ fold (TB.input csv) (F.foldMap id id)
-      case (CSV.decode CSV.NoHeader csvData) :: Either String (V.Vector Finding) of
-        Left err -> do
-          fail err
-        Right results -> return (FP.encodeString $ FP.basename csv, results)
-  in do
-    csvs <- listCsvs resultDir
-    csvsContensPre <- mapM getCsvContent csvs
-    return $ L.map (\(s, fvector) -> (s, V.toList fvector)) csvsContensPre
+getCsvsContent resultDir = do
+  csvs <- listCsvs resultDir
+  csvsContensPre <- mapM getCsvContent csvs
+  return $ L.map (\(s, fvector) -> (s, V.toList fvector)) csvsContensPre
 
 rewriteCsvsContent :: [(String, [Finding])] -> [(String, [Finding])]
 rewriteCsvsContent = let
@@ -122,6 +122,15 @@ templateStart = [r|
 <head>
 <title>LicenseScannerComparison</title>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<style>
+   table { height: 100%; }
+   td { height: 100%; }
+  .match, .contained, .notContained { width: 100%; height: 100%; display: block; text-align: center; padding: 0.5em 0; }
+  .match{ background: lightgreen; }
+  .contained{ background: #F5DA81; }
+  .intersection{ background: #FE9A2E; }
+  .notContained{ background: #FA8072; }
+</style>
 </head>
 <body>
     <a href="../">up</a><br/>
@@ -158,43 +167,81 @@ $(document).ready( function () {
 </html>|]
 
 renderHeader :: [String] -> Text
-renderHeader scanners = "<thead><tr><th>Path</th><th>" `Tx.append` (Tx.intercalate "</th><th>" $ L.map Tx.pack scanners) `Tx.append` "</th></tr></thead>"
-renderRows :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
-renderRows scanners = let
+renderHeader scanners = "<thead><tr><th>Path</th><th>Expected</th><th>" `Tx.append` (Tx.intercalate "</th><th>" $ L.map Tx.pack scanners) `Tx.append` "</th></tr></thead>"
+renderRows :: [String] -> Map.Map FilePath [Text] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
+renderRows scanners expected = let
     renderRowFun :: Text -> FilePath -> Map.Map String [Finding] -> Text
     renderRowFun prev path findings = let
+        expectedLics = case path `Map.lookup` expected of
+          Just lics -> L.sort $ L.nub lics
+          otherwise -> []
         pathText = case FP.toText path of
           Left err -> undefined
           Right p  -> p
+        getColor actual | Map.null expected                       = ""
+                        | actual == expectedLics                  = "match"
+                        | expectedLics `L.isSubsequenceOf` actual = "contained"
+                        | expectedLics `L.intersect` actual /= [] = "intersection"
+                        | otherwise                               = "notContained"
+        joinLicenses lics = (Tx.pack $ "<div class=\"" ++ (getColor $ L.sort $ L.nub lics) ++ "\">") `Tx.append` (Tx.intercalate ", " lics) `Tx.append` "</div>"
         mkScannerEntry :: String -> Text
         mkScannerEntry scanner = case Map.lookup scanner findings of
-          Just findings -> Tx.intercalate ", " . L.nub $ L.concatMap licenses findings
+          Just findings -> joinLicenses . L.nub $ L.concatMap licenses findings
           otherwise     -> ""
-      in Tx.unlines [prev, "<tr><td>", Tx.intercalate "</td><td>" ([pathText] ++ (L.map mkScannerEntry scanners)), "</td></tr>"]
+      in Tx.unlines [ prev
+                    , "<tr><td>"
+                    , Tx.intercalate "</td><td>" ([pathText, joinLicenses expectedLics] ++ (L.map mkScannerEntry scanners))
+                    , "</td></tr>"
+                    ]
   in Map.foldlWithKey renderRowFun ""
 
-renderTable :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
-renderTable scanners resultData = Tx.unlines $ ["<table id=\"maintable\" class=\"display\">", renderHeader scanners, "<tbody>", renderRows scanners resultData, "</tbody></table>"]
+renderTable :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Map.Map FilePath [Text] -> Text
+renderTable scanners resultData expected = Tx.unlines $
+  [ "<table id=\"maintable\" class=\"display\">"
+  , renderHeader scanners
+  , "<tbody>"
+  , renderRows scanners expected resultData
+  , "</tbody></table>"
+  ]
 
 renderToggles :: [String] -> Text
 renderToggles scanners = let
-    renderToggle (index, name) = Tx.concat ["<a class=\"toggle-vis\" data-column=\"", Tx.pack $ show index, "\" href=\"#\">", Tx.pack name,"</a>"]
-  in "Toggle Scanners:<br/>" `Tx.append` (Tx.intercalate " - " $ L.map renderToggle (L.zip [1..] scanners)) `Tx.append` "<hr>"
+    renderToggle (index, name) = Tx.concat
+      [ "<a class=\"toggle-vis\" data-column=\""
+      , Tx.pack $ show index
+      , "\" href=\"#\">"
+      , Tx.pack name,"</a>"
+      ]
+  in "Toggle Scanners:<br/>" `Tx.append` (Tx.intercalate " - " $ L.map renderToggle (L.zip [2..] scanners)) `Tx.append` "<hr>"
 
-generateHtml :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Text
-generateHtml scanners resultData = Tx.unlines $ [templateStart, renderToggles scanners, renderTable scanners resultData, templateEnd]
+generateHtml :: [String] -> Map.Map FilePath (Map.Map String [Finding]) -> Map.Map FilePath [Text] -> Text
+generateHtml scanners resultData expected = Tx.unlines
+  [ templateStart
+  , renderToggles scanners
+  , renderTable scanners resultData expected
+  , templateEnd
+  ]
+
+
+loadExpectations :: FilePath -> IO (Map.Map FilePath [Text])
+loadExpectations fp = do
+    expectedFindings <- getCsvContent fp
+    return $ Map.fromList $ V.toList $ V.map (\finding -> (path finding, licenses finding)) $ (\(_,fs) -> fs) expectedFindings
+
 
 main :: IO ()
 main = let
-    optionsParser :: T.Parser FilePath
-    optionsParser = argPath "sourceDir" "SourceDir"
+    optionsParser :: T.Parser (FilePath, FilePath)
+    optionsParser = (,) <$> argPath "sourceDir" "SourceDir"
+                        <*> argPath "expectationFile" "expectationFile"
   in do
-    resultDir <- options "Page generator" optionsParser
+    (resultDir, expectationFile) <- options "Page generator" optionsParser
     csvsContent <- getCsvsContent resultDir
     fileList <- loadFileList resultDir
+    expected <- loadExpectations expectationFile
     let resultData = transposeCsvsContent fileList $ rewriteCsvsContent csvsContent
     let scanners = L.sort $ L.map (\(s, _) -> s) csvsContent
-    let html = generateHtml scanners resultData
+    let html = generateHtml scanners resultData expected
     let htmlFile = resultDir </> "index.html"
     T.output htmlFile (return $ T.unsafeTextToLine html)
 

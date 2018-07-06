@@ -4,1025 +4,1034 @@
 <head>
 <title>LicenseScannerComparison</title>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<style>
+   table { height: 100%; }
+   td { height: 100%; }
+  .match, .contained, .notContained { width: 100%; height: 100%; display: block; text-align: center; padding: 0.5em 0; }
+  .match{ background: lightgreen; }
+  .contained{ background: #F5DA81; }
+  .intersection{ background: #FE9A2E; }
+  .notContained{ background: #FA8072; }
+</style>
 </head>
 <body>
     <a href="../">up</a><br/>
 
-Toggle Scanners:<br/><a class="toggle-vis" data-column="1" href="#">boyter-lc</a> - <a class="toggle-vis" data-column="2" href="#">codeauroraforum-lid</a> - <a class="toggle-vis" data-column="3" href="#">debian-licensecheck</a> - <a class="toggle-vis" data-column="4" href="#">fossology-monk</a> - <a class="toggle-vis" data-column="5" href="#">fossology-nomos</a> - <a class="toggle-vis" data-column="6" href="#">gerv-slic</a> - <a class="toggle-vis" data-column="7" href="#">google-licenseclassifier</a> - <a class="toggle-vis" data-column="8" href="#">nexB-scancode-toolkit</a> - <a class="toggle-vis" data-column="9" href="#">ninka</a><hr>
+Toggle Scanners:<br/><a class="toggle-vis" data-column="2" href="#">boyter-lc</a> - <a class="toggle-vis" data-column="3" href="#">codeauroraforum-lid</a> - <a class="toggle-vis" data-column="4" href="#">debian-licensecheck</a> - <a class="toggle-vis" data-column="5" href="#">fossology-monk</a> - <a class="toggle-vis" data-column="6" href="#">fossology-nomos</a> - <a class="toggle-vis" data-column="7" href="#">gerv-slic</a> - <a class="toggle-vis" data-column="8" href="#">google-licenseclassifier</a> - <a class="toggle-vis" data-column="9" href="#">nexB-scancode-toolkit</a> - <a class="toggle-vis" data-column="10" href="#">ninka</a><hr>
 <table id="maintable" class="display">
-<thead><tr><th>Path</th><th>boyter-lc</th><th>codeauroraforum-lid</th><th>debian-licensecheck</th><th>fossology-monk</th><th>fossology-nomos</th><th>gerv-slic</th><th>google-licenseclassifier</th><th>nexB-scancode-toolkit</th><th>ninka</th></tr></thead>
+<thead><tr><th>Path</th><th>Expected</th><th>boyter-lc</th><th>codeauroraforum-lid</th><th>debian-licensecheck</th><th>fossology-monk</th><th>fossology-nomos</th><th>gerv-slic</th><th>google-licenseclassifier</th><th>nexB-scancode-toolkit</th><th>ninka</th></tr></thead>
 <tbody>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/CMakeLists.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/CMakeLists.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/ChangeLog</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/ChangeLog</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/FAQ</td><td>Info-ZIP</td><td>Vim</td><td></td><td></td><td>GPL-1.0-only, GPL-1.0-or-later, GPL-2.0-only, GPL-2.0-or-later, GPL-3.0-only, GPL-3.0-or-later</td><td></td><td></td><td>GPL-1.0-or-later</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/FAQ</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Vim</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">GPL-1.0-only, GPL-1.0-or-later, GPL-2.0-only, GPL-2.0-or-later, GPL-3.0-only, GPL-3.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/INDEX</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Perl-possibility</td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/INDEX</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Perl-possibility</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/Makefile</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/Makefile</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/Makefile.in</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/Makefile.in</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/README</td><td>Info-ZIP</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/README</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/adler32.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/adler32.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/compress.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/compress.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/configure</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/configure</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/crc32.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/crc32.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/crc32.h</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/crc32.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/deflate.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/deflate.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/deflate.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/deflate.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/gzclose.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/gzclose.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/gzguts.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/gzguts.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/gzlib.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/gzlib.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/gzread.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/gzread.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/gzwrite.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/gzwrite.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/infback.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/infback.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/inffast.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/inffast.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/inffast.h</td><td>Info-ZIP</td><td>MPL-2.0</td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/inffast.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">MPL-2.0</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/inffixed.h</td><td>Info-ZIP</td><td>MPL-2.0</td><td></td><td></td><td></td><td></td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/inffixed.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">MPL-2.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/inflate.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/inflate.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/inflate.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/inflate.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/inftrees.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/inftrees.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/inftrees.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/inftrees.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/make_vms.com</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/make_vms.com</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/treebuild.xml</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/treebuild.xml</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/trees.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/trees.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/trees.h</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/trees.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/uncompr.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/uncompr.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zconf.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zconf.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zconf.h.cmakein</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zconf.h.cmakein</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zconf.h.in</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zconf.h.in</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zlib.3</td><td>Info-ZIP</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zlib.3</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zlib.3.pdf</td><td>Info-ZIP</td><td></td><td></td><td></td><td>GPL-1.0-only, GPL-1.0-or-later, GPL-2.0-only, GPL-2.0-or-later, GPL-3.0-only, GPL-3.0-or-later</td><td></td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zlib.3.pdf</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">GPL-1.0-only, GPL-1.0-or-later, GPL-2.0-only, GPL-2.0-or-later, GPL-3.0-only, GPL-3.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zlib.h</td><td>Info-ZIP</td><td>CECILL-2.1, CECILL-C, EUPL-1.0, EUPL-1.1, LGPL-3.0-or-later, PDDL-1.0, Vim, Zlib</td><td>zlib/libpng</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zlib.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">CECILL-2.1, CECILL-C, EUPL-1.0, EUPL-1.1, LGPL-3.0-or-later, PDDL-1.0, Vim, Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zlib.map</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/zlib.map</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zlib.pc.cmakein</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/zlib.pc.cmakein</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zlib.pc.in</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/zlib.pc.in</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zlib2ansi</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/zlib2ansi</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zutil.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zutil.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/zutil.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/zutil.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/amiga/Makefile.pup</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/amiga/Makefile.pup</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/amiga/Makefile.sas</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/amiga/Makefile.sas</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/README.contrib</td><td>Info-ZIP</td><td>LZMA-exception</td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/README.contrib</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">LZMA-exception</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/buffer_demo.adb</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/buffer_demo.adb</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/mtest.adb</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/mtest.adb</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/read.adb</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/read.adb</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/readme.txt</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/ada/readme.txt</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/test.adb</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/test.adb</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/zlib.adb</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.adb</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads</td><td>GPL-1.0-or-later</td><td>GPL-1.0-or-later, gnu-javamail-exception</td><td></td><td></td><td>GPL-2.0-or-later</td><td>GPL-2.0-or-later</td><td>GPL-3.0-only, LGPL-2.1-only</td><td>Ada linking exception to GPL 2.0 or later, LGPL-2.0-or-later</td><td>GPL-2.0-or-later
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class="">GPL-1.0-or-later, gnu-javamail-exception</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">GPL-2.0-or-later</div></td><td><div class="">GPL-2.0-or-later</div></td><td><div class="">GPL-3.0-only, LGPL-2.1-only</div></td><td><div class="">Ada linking exception to GPL 2.0 or later, LGPL-2.0-or-later</div></td><td><div class="">GPL-2.0-or-later</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/zlib.gpr</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.gpr</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/zlib-streams.adb</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/zlib-streams.adb</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/zlib-streams.ads</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/zlib-streams.ads</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/zlib-thin.adb</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/zlib-thin.adb</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/ada/zlib-thin.ads</td><td>GPL-1.0-or-later</td><td></td><td></td><td></td><td></td><td>Zlib_ref3</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/ada/zlib-thin.ads</td><td><div class=""></div></td><td><div class="">GPL-1.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib_ref3</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/amd64/amd64-match.S</td><td>Info-ZIP</td><td>GPL-1.0-only</td><td></td><td></td><td>BSD</td><td></td><td></td><td>BSD-3-Clause</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/amd64/amd64-match.S</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">GPL-1.0-only</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">BSD</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">BSD-3-Clause</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/asm686/README.686</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/asm686/README.686</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/asm686/match.S</td><td>Info-ZIP</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/asm686/match.S</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/blast/Makefile</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/blast/Makefile</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/blast/README</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/blast/README</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/blast/blast.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/blast/blast.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/blast/blast.h</td><td>Info-ZIP</td><td>Zlib</td><td>zlib/libpng</td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/blast/blast.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/blast/test.pk</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/blast/test.pk</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/blast/test.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/blast/test.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/delphi/ZLib.pas</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/delphi/ZLib.pas</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/delphi/ZLibConst.pas</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/delphi/ZLibConst.pas</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/delphi/readme.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/delphi/readme.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/delphi/zlibd32.mak</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/delphi/zlibd32.mak</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.build</td><td>BSL-1.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.build</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.chm</td><td>BSL-1.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.chm</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.sln</td><td>BSL-1.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib.sln</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt</td><td>BSL-1.0</td><td>BSL-1.0</td><td></td><td>BSL-1.0</td><td>BSL-1.0</td><td>BSL-1.0</td><td>BSL-1.0</td><td>BSL-1.0</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/readme.txt</td><td>BSL-1.0</td><td></td><td></td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/readme.txt</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/AssemblyInfo.cs</td><td>BSL-1.0</td><td></td><td>UNKNOWN</td><td></td><td>Trademark-ref</td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/AssemblyInfo.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">Trademark-ref</div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/ChecksumImpl.cs</td><td>BSL-1.0</td><td></td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/ChecksumImpl.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CircularBuffer.cs</td><td>BSL-1.0</td><td></td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CircularBuffer.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CodecBase.cs</td><td>BSL-1.0</td><td></td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CodecBase.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Deflater.cs</td><td>BSL-1.0</td><td>MPL-2.0</td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Deflater.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">MPL-2.0</div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.cs</td><td>BSL-1.0</td><td></td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.csproj</td><td>BSL-1.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.csproj</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/GZipStream.cs</td><td>BSL-1.0</td><td>LZMA-exception</td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/GZipStream.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">LZMA-exception</div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Inflater.cs</td><td>BSL-1.0</td><td>MPL-2.0</td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Inflater.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">MPL-2.0</div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/UnitTests.cs</td><td>BSL-1.0</td><td></td><td>BSL (v1.0)</td><td></td><td>BSL-1.0</td><td>BSL-1.0_urlref</td><td></td><td>BSL-1.0</td><td>boost-1, boost-1ref
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/UnitTests.cs</td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class=""></div></td><td><div class="">BSL (v1.0)</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">BSL-1.0_urlref</div></td><td><div class=""></div></td><td><div class="">BSL-1.0</div></td><td><div class="">boost-1, boost-1ref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/gcc_gvmat64/gvmat64.S</td><td>Info-ZIP</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/gcc_gvmat64/gvmat64.S</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/infback9/README</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/infback9/README</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/infback9/infback9.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/infback9/infback9.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/infback9/infback9.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/infback9/infback9.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/infback9/inffix9.h</td><td>Info-ZIP</td><td>MPL-2.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/infback9/inffix9.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">MPL-2.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/infback9/inflate9.h</td><td>Info-ZIP</td><td>MPL-2.0</td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/infback9/inflate9.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">MPL-2.0</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.h</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/inflate86/inffas86.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/inflate86/inffas86.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/inflate86/inffast.S</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/inflate86/inffast.S</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream/test.cpp</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream/test.cpp</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream/zfstream.cpp</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream/zfstream.cpp</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream/zfstream.h</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream/zfstream.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream2/zstream.h</td><td>Info-ZIP</td><td>NTP</td><td>UNKNOWN</td><td></td><td>MIT-style</td><td>HPND</td><td></td><td>CMR License</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/iostream2/zstream.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">NTP</div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">MIT-style</div></td><td><div class="">HPND</div></td><td><div class=""></div></td><td><div class="">CMR License</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream2/zstream_test.cpp</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream2/zstream_test.cpp</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream3/README</td><td>Info-ZIP</td><td>NTP</td><td></td><td></td><td>UnclassifiedLicense</td><td>HPND_no-repro-required</td><td></td><td>MIT Open Group</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/iostream3/README</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">NTP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UnclassifiedLicense</div></td><td><div class="">HPND_no-repro-required</div></td><td><div class=""></div></td><td><div class="">MIT Open Group</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream3/TODO</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream3/TODO</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream3/test.cc</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream3/test.cc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream3/zfstream.cc</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream3/zfstream.cc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/iostream3/zfstream.h</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/iostream3/zfstream.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx64/bld_ml64.bat</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/masmx64/bld_ml64.bat</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx64/gvmat64.asm</td><td>Info-ZIP</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/masmx64/gvmat64.asm</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx64/inffas8664.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/masmx64/inffas8664.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx64/inffasx64.asm</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/masmx64/inffasx64.asm</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx64/readme.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/masmx64/readme.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx86/bld_ml32.bat</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/masmx86/bld_ml32.bat</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx86/inffas32.asm</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/masmx86/inffas32.asm</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm</td><td>Info-ZIP</td><td>Zlib, psfrag</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib, psfrag</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/masmx86/readme.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/masmx86/readme.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/Makefile</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/Makefile</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/Makefile.am</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/Makefile.am</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_Changes.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_Changes.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_info.txt</td><td>Info-ZIP, bzip2-1.0.5</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_info.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP, bzip2-1.0.5</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/configure.ac</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/configure.ac</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/crypt.h</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/crypt.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/ioapi.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/ioapi.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/ioapi.h</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/ioapi.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/iowin32.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/iowin32.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/iowin32.h</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/iowin32.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/make_vms.com</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/make_vms.com</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/miniunz.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/miniunz.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/miniunzip.1</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/miniunzip.1</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/minizip.1</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/minizip.1</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/minizip.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/minizip.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/minizip.pc.in</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/minizip/minizip.pc.in</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/mztools.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/mztools.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/mztools.h</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/mztools.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/unzip.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td>info-zip</td><td>Zlib_ref2</td><td></td><td>Info-Zip License 2009-01</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/unzip.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">info-zip</div></td><td><div class="">Zlib_ref2</div></td><td><div class=""></div></td><td><div class="">Info-Zip License 2009-01</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/unzip.h</td><td>Info-ZIP</td><td>Zlib</td><td>zlib/libpng</td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/unzip.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/zip.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/zip.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/minizip/zip.h</td><td>Info-ZIP</td><td>Zlib</td><td>zlib/libpng</td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/minizip/zip.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/pascal/example.pas</td><td>bzip2-1.0.5</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>See License mention, Zlib</td><td>ZLIBref
+/zlib-1.2.11.tar.gz/contrib/pascal/example.pas</td><td><div class=""></div></td><td><div class="">bzip2-1.0.5</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">See License mention, Zlib</div></td><td><div class="">ZLIBref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/pascal/readme.txt</td><td>bzip2-1.0.5</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/pascal/readme.txt</td><td><div class=""></div></td><td><div class="">bzip2-1.0.5</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/pascal/zlibd32.mak</td><td>bzip2-1.0.5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/pascal/zlibd32.mak</td><td><div class=""></div></td><td><div class="">bzip2-1.0.5</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/pascal/zlibpas.pas</td><td>bzip2-1.0.5</td><td></td><td>UNKNOWN</td><td></td><td>See-file</td><td>suspiciousCopyright</td><td></td><td>See License mention</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/pascal/zlibpas.pas</td><td><div class=""></div></td><td><div class="">bzip2-1.0.5</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">See-file</div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class="">See License mention</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/puff/Makefile</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/puff/Makefile</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/puff/README</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/puff/README</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/puff/puff.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td>See-file</td><td>Zlib_fileref</td><td></td><td>See License mention</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/puff/puff.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">See-file</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">See License mention</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/puff/puff.h</td><td>Cube, Eurosym, Info-ZIP, Nunit, Spencer-94, Zlib, zlib-acknowledgement</td><td>Zlib</td><td>zlib/libpng</td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/puff/puff.h</td><td><div class=""></div></td><td><div class="">Cube, Eurosym, Info-ZIP, Nunit, Spencer-94, Zlib, zlib-acknowledgement</div></td><td><div class="">Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/puff/pufftest.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td>See-file</td><td>Zlib_fileref</td><td></td><td>See License mention</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/puff/pufftest.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">See-file</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">See License mention</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/puff/zeros.raw</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/puff/zeros.raw</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/testzlib/testzlib.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/testzlib/testzlib.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/testzlib/testzlib.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/testzlib/testzlib.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/untgz/Makefile</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/untgz/Makefile</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/untgz/Makefile.msc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/untgz/Makefile.msc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/untgz/untgz.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/untgz/untgz.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/readme.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td>See-doc.OTHER</td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/contrib/vstudio/readme.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">See-doc.OTHER</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/miniunz.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/miniunz.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/miniunz.vcxproj.filters</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/miniunz.vcxproj.filters</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/minizip.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/minizip.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/minizip.vcxproj.filters</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/minizip.vcxproj.filters</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlib.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlib.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlib.vcxproj.filters</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlib.vcxproj.filters</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlibdll.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlibdll.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlibdll.vcxproj.filters</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/testzlibdll.vcxproj.filters</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlib.rc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlib.rc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibstat.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibstat.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibstat.vcxproj.filters</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibstat.vcxproj.filters</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.def</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.def</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.sln</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.sln</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.vcxproj.filters</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc10/zlibvc.vcxproj.filters</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/miniunz.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/miniunz.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/minizip.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/minizip.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/testzlib.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/testzlib.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/testzlibdll.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/testzlibdll.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlib.rc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlib.rc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibstat.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibstat.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.def</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.def</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.sln</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.sln</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc11/zlibvc.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/miniunz.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/miniunz.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/minizip.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/minizip.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/testzlib.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/testzlib.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/testzlibdll.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/testzlibdll.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlib.rc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlib.rc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibstat.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibstat.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.def</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.def</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.sln</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.sln</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc12/zlibvc.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/miniunz.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/miniunz.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/minizip.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/minizip.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/testzlib.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/testzlib.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/testzlibdll.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/testzlibdll.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlib.rc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlib.rc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibstat.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibstat.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.def</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.def</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.sln</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.sln</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.vcxproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc14/zlibvc.vcxproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/miniunz.vcproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/miniunz.vcproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/minizip.vcproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/minizip.vcproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/testzlib.vcproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/testzlib.vcproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/testzlibdll.vcproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/testzlibdll.vcproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlib.rc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlib.rc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibstat.vcproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibstat.vcproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.def</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.def</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.sln</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.sln</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.vcproj</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/contrib/vstudio/vc9/zlibvc.vcproj</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/doc/algorithm.txt</td><td>Info-ZIP</td><td>Vim</td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/doc/algorithm.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Vim</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/doc/rfc1950.txt</td><td>Info-ZIP</td><td>Abstyles, LGPL-3.0-or-later</td><td></td><td></td><td>Trademark-ref</td><td>proprietary_RFC</td><td></td><td>Peter Deutsch Document License</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/doc/rfc1950.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Abstyles, LGPL-3.0-or-later</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Trademark-ref</div></td><td><div class="">proprietary_RFC</div></td><td><div class=""></div></td><td><div class="">Peter Deutsch Document License</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/doc/rfc1951.txt</td><td>Info-ZIP, SPL-1.0</td><td>LGPL-3.0-or-later, LGPLLR</td><td></td><td></td><td>Trademark-ref</td><td>proprietary_RFC</td><td></td><td>Peter Deutsch Document License</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/doc/rfc1951.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP, SPL-1.0</div></td><td><div class="">LGPL-3.0-or-later, LGPLLR</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Trademark-ref</div></td><td><div class="">proprietary_RFC</div></td><td><div class=""></div></td><td><div class="">Peter Deutsch Document License</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/doc/rfc1952.txt</td><td>Info-ZIP</td><td>LGPL-3.0-or-later, NLOD-1.0</td><td></td><td></td><td>Trademark-ref</td><td>proprietary_RFC</td><td></td><td>Peter Deutsch Document License</td><td>SeeFile
+/zlib-1.2.11.tar.gz/doc/rfc1952.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">LGPL-3.0-or-later, NLOD-1.0</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Trademark-ref</div></td><td><div class="">proprietary_RFC</div></td><td><div class=""></div></td><td><div class="">Peter Deutsch Document License</div></td><td><div class="">SeeFile</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/doc/txtvsbin.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/doc/txtvsbin.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/README.examples</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/examples/README.examples</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/enough.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/enough.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/fitblk.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td>Public-domain</td><td>PD</td><td></td><td>Public Domain</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/fitblk.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">Public-domain</div></td><td><div class="">PD</div></td><td><div class=""></div></td><td><div class="">Public Domain</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/gun.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/gun.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/gzappend.c</td><td>Info-ZIP</td><td>Zlib</td><td>zlib/libpng</td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/gzappend.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/gzjoin.c</td><td>Info-ZIP</td><td>Zlib</td><td>zlib/libpng</td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/gzjoin.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/gzlog.c</td><td>Info-ZIP</td><td>CECILL-C</td><td>UNKNOWN</td><td></td><td>See-file</td><td>gzlog.h_fileref</td><td></td><td>See License mention</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/gzlog.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">CECILL-C</div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">See-file</div></td><td><div class="">gzlog.h_fileref</div></td><td><div class=""></div></td><td><div class="">See License mention</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/gzlog.h</td><td>Info-ZIP</td><td>Zlib</td><td>zlib/libpng</td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/gzlog.h</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/zlib_how.html</td><td>Info-ZIP</td><td>LGPL-3.0-or-later, LGPLLR</td><td></td><td></td><td>Public-domain</td><td>PD</td><td></td><td>Public Domain</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/zlib_how.html</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">LGPL-3.0-or-later, LGPLLR</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Public-domain</div></td><td><div class="">PD</div></td><td><div class=""></div></td><td><div class="">Public Domain</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/zpipe.c</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td>Public-domain</td><td>PD</td><td></td><td>Public Domain</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/zpipe.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class="">Public-domain</div></td><td><div class="">PD</div></td><td><div class=""></div></td><td><div class="">Public Domain</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/examples/zran.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng </td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/examples/zran.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng </div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/msdos/Makefile.bor</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/msdos/Makefile.bor</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/msdos/Makefile.dj2</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td></td><td></td><td>Zlib</td><td>ZLIBref
+/zlib-1.2.11.tar.gz/msdos/Makefile.dj2</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">ZLIBref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/msdos/Makefile.emx</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td></td><td></td><td>Zlib</td><td>ZLIBref
+/zlib-1.2.11.tar.gz/msdos/Makefile.emx</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">ZLIBref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/msdos/Makefile.msc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/msdos/Makefile.msc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/msdos/Makefile.tc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/msdos/Makefile.tc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/nintendods/Makefile</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/nintendods/Makefile</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/nintendods/README</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/nintendods/README</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/old/Makefile.emx</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td></td><td></td><td>Zlib</td><td>ZLIBref
+/zlib-1.2.11.tar.gz/old/Makefile.emx</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">ZLIBref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/old/Makefile.riscos</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/old/Makefile.riscos</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/old/README</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/old/README</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/old/descrip.mms</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/old/descrip.mms</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/old/visual-basic.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/old/visual-basic.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/old/os2/Makefile.os2</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/old/os2/Makefile.os2</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/old/os2/zlib.def</td><td>Info-ZIP</td><td>dvipdfm</td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/old/os2/zlib.def</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">dvipdfm</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/os400/README400</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/os400/README400</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/os400/bndsrc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/os400/bndsrc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/os400/make.sh</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/os400/make.sh</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/os400/zlib.inc</td><td>Info-ZIP</td><td></td><td>UNKNOWN</td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/os400/zlib.inc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/qnx/package.qpg</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousLicensey</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/qnx/package.qpg</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousLicensey</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/test/example.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/test/example.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/test/infcover.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/test/infcover.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/test/minigzip.c</td><td>Info-ZIP</td><td></td><td>zlib/libpng</td><td></td><td>Zlib-possibility</td><td>Zlib_fileref</td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/test/minigzip.c</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class="">zlib/libpng</div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class="">Zlib_fileref</div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/watcom/watcom_f.mak</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/watcom/watcom_f.mak</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/watcom/watcom_l.mak</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/watcom/watcom_l.mak</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt</td><td>Info-ZIP</td><td>Vim</td><td></td><td></td><td>See-doc.OTHER</td><td></td><td></td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Vim</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">See-doc.OTHER</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/Makefile.bor</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/win32/Makefile.bor</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/Makefile.gcc</td><td>Info-ZIP</td><td></td><td></td><td></td><td>Zlib-possibility</td><td></td><td></td><td>Zlib</td><td>ZLIBref
+/zlib-1.2.11.tar.gz/win32/Makefile.gcc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib-possibility</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">ZLIBref</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/Makefile.msc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/win32/Makefile.msc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/README-WIN32.txt</td><td>Info-ZIP</td><td>Zlib</td><td></td><td></td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>Zlib</td><td>UNKNOWN
+/zlib-1.2.11.tar.gz/win32/README-WIN32.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class="">Zlib</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">Zlib</div></td><td><div class="">UNKNOWN</div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/VisualC.txt</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/win32/VisualC.txt</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/zlib.def</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/win32/zlib.def</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 <tr><td>
-/zlib-1.2.11.tar.gz/win32/zlib1.rc</td><td>Info-ZIP</td><td></td><td></td><td></td><td></td><td>suspiciousCopyright</td><td></td><td></td><td>
+/zlib-1.2.11.tar.gz/win32/zlib1.rc</td><td><div class=""></div></td><td><div class="">Info-ZIP</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class="">suspiciousCopyright</div></td><td><div class=""></div></td><td><div class=""></div></td><td><div class=""></div>
 </td></tr>
 
 </tbody></table>

@@ -115,7 +115,8 @@ EOF
     for srcName in "${!SRC[@]}"; do
         echo "## generate for $srcName"
         resultDir="$(calculateResultPath $srcName)"
-        "$ROOT/generatePage.hs" "$resultDir"
+        expectationFile="$(calculateExpectationFile $srcName)"
+        "$ROOT/generatePage.hs" "$resultDir" "$expectationFile"
 
         extractedArchive=$(calculateSrcPath $srcName)
         if [[ ! -e "$resultDir/$srcName" ]]; then
