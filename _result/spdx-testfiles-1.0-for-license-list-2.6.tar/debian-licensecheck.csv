@@ -7,7 +7,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AFL-2.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AFL-3.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AGPL-1.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AGPL-3.0.c,AGPL (v3) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AGPL-3.0.c,AGPL-3.0-only,AGPL (v3)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AMDPLPA.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AML.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AMPAS.c,,
@@ -25,29 +25,29 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Aladdin.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-1.1.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-2.0.c,Apache (v2.0) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-2.0.c,Apache-2.0,Apache (v2.0)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-1.0-Perl.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-1.0-cl8.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-2.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause-FreeBSD.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause-NetBSD.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-Attribution.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause-FreeBSD.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause-NetBSD.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-Attribution.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-Clear.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-LBNL.c,BSD (3 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-No-Nuclear-License-2014.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-LBNL.c,BSD-3-Clause,BSD (3 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-No-Nuclear-License-2014.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-No-Nuclear-License.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-No-Nuclear-Warranty.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-4-Clause-UC.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-4-Clause.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-Protection.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-Source-Code.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSL-1.0.c,BSL (v1) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-Source-Code.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSL-1.0.c,BSL-1.0,BSL (v1)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Bahyph.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Barr.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Beerware.c,Beerware ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Beerware.c,Beerware,Beerware
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BitTorrent-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BitTorrent-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Borceux.c,,
@@ -94,7 +94,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CNRI-Jython.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CNRI-Python-GPL-Compatible.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CNRI-Python.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CPAL-1.0.c,MPL (v1.1) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CPAL-1.0.c,MPL-1.1,MPL (v1.1)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CPL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CPOL-1.02.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CUA-OPL-1.0.c,,
@@ -103,7 +103,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Condor-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Crossword.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CrystalStacker.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Cube.c,zlib/libpng ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Cube.c,Zlib,zlib/libpng
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/D-FSL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/DOC.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/DSDP.c,,
@@ -130,44 +130,44 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GFDL-1.2.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GFDL-1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GL2PS.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-1.0+.c,GPL (v1 or later) (with incorrect FSF address) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-1.0.c,GPL (v1) (with incorrect FSF address) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0+.c,GPL (v2 or later) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-1.0+.c,GPL (v1 or later) (with incorrect FSF address),GPL (v1 or later) (with incorrect FSF address)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-1.0.c,GPL (v1) (with incorrect FSF address),GPL (v1) (with incorrect FSF address)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0+.c,GPL-2.0-or-later,GPL (v2 or later)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-GCC-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-autoconf-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-bison-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-classpath-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-font-exception.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0.c,GPL (v2) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0+.c,GPL (v3 or later) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0.c,GPL-2.0-only,GPL (v2)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0+.c,GPL-3.0-or-later,GPL (v3 or later)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0-with-GCC-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0-with-autoconf-exception.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0.c,GPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0.c,GPL,GPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Giftware.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Glide.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Glulxe.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/HPND.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/HaskellReport.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IBM-pibs.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ICU.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ICU.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IJG.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IPA.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IPL-1.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ISC.c,ISC ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ISC.c,ISC,ISC
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ImageMagick.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Imlib2.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Imlib2.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Info-ZIP.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Intel-ACPI.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Intel.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Intel.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Interbase-1.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/JSON.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/JSON.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/JasPer-2.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LAL-1.2.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LAL-1.3.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.0+.c,LGPL (v2 or later) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.0.c,LGPL (v2) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.1+.c,LGPL (v2.1 or later) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.1.c,LGPL (v2.1) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.0+.c,LGPL-2.0-or-later,LGPL (v2 or later)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.0.c,LGPL-2.0-only,LGPL (v2)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.1+.c,LGPL-2.1-or-later,LGPL (v2.1 or later)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.1.c,LGPL-2.1-only,LGPL (v2.1)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-3.0+.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-3.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPLLR.c,,
@@ -183,17 +183,17 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-P-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-R-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-Rplus-1.1.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Libpng.c,libpng ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Libpng.c,libpng,libpng
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-CMU.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-advertising.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-enna.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-feh.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MITNFA.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-1.0.c,MPL (v1.0) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-1.1.c,MPL (v1.1) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-2.0-no-copyleft-exception.c,MPL (v2.0) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-2.0.c,MPL (v2.0) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-advertising.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-enna.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-feh.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MITNFA.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-1.0.c,MPL-1.0,MPL (v1.0)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-1.1.c,MPL-1.1,MPL (v1.1)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-2.0-no-copyleft-exception.c,MPL-2.0,MPL (v2.0)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-2.0.c,MPL-2.0,MPL (v2.0)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MS-PL.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MS-RL.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MTLL.c,,
@@ -201,7 +201,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MirOS.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Motosoto.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Multics.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Mup.c,BSD (2 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Mup.c,BSD-2-Clause,BSD (2 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NASA-1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NBPL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NCSA.c,,
@@ -257,8 +257,8 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/PHP-3.01.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Plexus.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/PostgreSQL.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Python-2.0.c,PSF (v2) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/QPL-1.0.c,QPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Python-2.0.c,PSF (v2),PSF (v2)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/QPL-1.0.c,QPL,QPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Qhull.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RHeCos-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RPL-1.1.c,,
@@ -272,7 +272,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SCEA.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SGI-B-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SGI-B-1.1.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SGI-B-2.0.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SGI-B-2.0.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SISSL-1.2.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SISSL.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SMLNJ.c,,
@@ -286,7 +286,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Sleepycat.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Spencer-86.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Spencer-94.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Spencer-99.c,BSD ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Spencer-99.c,BSD,BSD
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/StandardML-NJ.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SugarCRM-1.1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/TCL.c,,
@@ -305,15 +305,15 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/W3C-19980720.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/W3C-20150513.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/W3C.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/WTFPL.c,WTFPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/WTFPL.c,WTFPL,WTFPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/WXwindows.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Watcom-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Wsuipa.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/X11.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/XFree86-1.1.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/X11.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/XFree86-1.1.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/XSkat.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Xerox.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Xnet.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Xnet.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/YPL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/YPL-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ZPL-1.1.c,,
@@ -323,13 +323,13 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zend-2.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zimbra-1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zimbra-1.4.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zlib.c,zlib/libpng ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zlib.c,Zlib,zlib/libpng
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/bzip2-1.0.5.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/bzip2-1.0.6.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/curl.c,ISC ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/curl.c,ISC,ISC
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/diffmark.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/dvipdfm.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/eCos-2.0.c,GPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/eCos-2.0.c,GPL,GPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/eGenix.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/gSOAP-1.3b.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/gnuplot.c,,
@@ -350,7 +350,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AFL-2.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AFL-3.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AGPL-1.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AGPL-3.0.c,AGPL (v3) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AGPL-3.0.c,AGPL-3.0-only,AGPL (v3)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AMDPLPA.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AML.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AMPAS.c,,
@@ -368,29 +368,29 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Aladdin.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-1.1.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-2.0.c,Apache (v2.0) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-2.0.c,Apache-2.0,Apache (v2.0)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-1.0-Perl.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-1.0-cl8.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-2.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause-FreeBSD.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause-NetBSD.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-Attribution.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause-FreeBSD.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause-NetBSD.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-Attribution.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-Clear.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-LBNL.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-LBNL.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-No-Nuclear-License-2014.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-No-Nuclear-License.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-No-Nuclear-Warranty.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-4-Clause-UC.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-4-Clause.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-Protection.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-Source-Code.c,BSD (2 clause) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSL-1.0.c,BSL (v1) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-Source-Code.c,BSD-2-Clause,BSD (2 clause)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSL-1.0.c,BSL-1.0,BSL (v1)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Bahyph.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Barr.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Beerware.c,Beerware ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Beerware.c,Beerware,Beerware
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BitTorrent-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BitTorrent-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Borceux.c,,
@@ -437,7 +437,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CNRI-Jython.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CNRI-Python-GPL-Compatible.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CNRI-Python.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CPAL-1.0.c,MPL (v1.1) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CPAL-1.0.c,MPL-1.1,MPL (v1.1)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CPL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CPOL-1.02.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CUA-OPL-1.0.c,,
@@ -446,7 +446,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Condor-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Crossword.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CrystalStacker.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Cube.c,zlib/libpng ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Cube.c,Zlib,zlib/libpng
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/D-FSL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/DOC.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/DSDP.c,,
@@ -473,44 +473,44 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GFDL-1.2.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GFDL-1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GL2PS.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-1.0+.c,GPL (v1 or later) (with incorrect FSF address) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-1.0.c,GPL (v1) (with incorrect FSF address) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0+.c,GPL (v2 or later) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-1.0+.c,GPL (v1 or later) (with incorrect FSF address),GPL (v1 or later) (with incorrect FSF address)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-1.0.c,GPL (v1) (with incorrect FSF address),GPL (v1) (with incorrect FSF address)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0+.c,GPL-2.0-or-later,GPL (v2 or later)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-GCC-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-autoconf-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-bison-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-classpath-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-font-exception.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0.c,GPL (v2) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0+.c,GPL (v3 or later) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0.c,GPL-2.0-only,GPL (v2)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0+.c,GPL-3.0-or-later,GPL (v3 or later)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0-with-GCC-exception.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0-with-autoconf-exception.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0.c,GPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0.c,GPL,GPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Giftware.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Glide.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Glulxe.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/HPND.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/HaskellReport.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IBM-pibs.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ICU.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ICU.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IJG.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IPA.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IPL-1.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ISC.c,ISC ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ISC.c,ISC,ISC
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ImageMagick.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Imlib2.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Imlib2.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Info-ZIP.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Intel-ACPI.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Intel.c,BSD (3 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Intel.c,BSD-3-Clause,BSD (3 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Interbase-1.0.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/JSON.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/JSON.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/JasPer-2.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LAL-1.2.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LAL-1.3.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.0+.c,LGPL (v2 or later) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.0.c,LGPL (v2) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.1+.c,LGPL (v2.1 or later) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.1.c,LGPL (v2.1) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.0+.c,LGPL-2.0-or-later,LGPL (v2 or later)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.0.c,LGPL-2.0-only,LGPL (v2)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.1+.c,LGPL-2.1-or-later,LGPL (v2.1 or later)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.1.c,LGPL-2.1-only,LGPL (v2.1)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-3.0+.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-3.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPLLR.c,,
@@ -526,17 +526,17 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-P-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-R-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-Rplus-1.1.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Libpng.c,libpng ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Libpng.c,libpng,libpng
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-CMU.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-advertising.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-enna.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-feh.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MITNFA.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-1.0.c,MPL (v1.0) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-1.1.c,MPL (v1.1) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-2.0-no-copyleft-exception.c,MPL (v2.0) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-2.0.c,MPL (v2.0) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-advertising.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-enna.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-feh.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MITNFA.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-1.0.c,MPL-1.0,MPL (v1.0)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-1.1.c,MPL-1.1,MPL (v1.1)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-2.0-no-copyleft-exception.c,MPL-2.0,MPL (v2.0)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-2.0.c,MPL-2.0,MPL (v2.0)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MS-PL.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MS-RL.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MTLL.c,,
@@ -544,7 +544,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MirOS.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Motosoto.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Multics.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Mup.c,BSD (2 clause) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Mup.c,BSD-2-Clause,BSD (2 clause)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NASA-1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NBPL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NCSA.c,,
@@ -600,8 +600,8 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/PHP-3.01.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Plexus.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/PostgreSQL.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Python-2.0.c,PSF (v2) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/QPL-1.0.c,QPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Python-2.0.c,PSF (v2),PSF (v2)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/QPL-1.0.c,QPL,QPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Qhull.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RHeCos-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RPL-1.1.c,,
@@ -615,7 +615,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SCEA.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SGI-B-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SGI-B-1.1.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SGI-B-2.0.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SGI-B-2.0.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SISSL-1.2.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SISSL.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SMLNJ.c,,
@@ -629,7 +629,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Sleepycat.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Spencer-86.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Spencer-94.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Spencer-99.c,BSD ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Spencer-99.c,BSD,BSD
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/StandardML-NJ.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SugarCRM-1.1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/TCL.c,,
@@ -648,15 +648,15 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/W3C-19980720.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/W3C-20150513.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/W3C.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/WTFPL.c,WTFPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/WTFPL.c,WTFPL,WTFPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/WXwindows.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Watcom-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Wsuipa.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/X11.c,MIT/X11 (BSD like) ,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/XFree86-1.1.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/X11.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/XFree86-1.1.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/XSkat.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Xerox.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Xnet.c,MIT/X11 (BSD like) ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Xnet.c,MIT/X11 (BSD like),MIT/X11 (BSD like)
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/YPL-1.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/YPL-1.1.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ZPL-1.1.c,,
@@ -666,13 +666,13 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zend-2.0.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zimbra-1.3.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zimbra-1.4.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zlib.c,zlib/libpng ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zlib.c,Zlib,zlib/libpng
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/bzip2-1.0.5.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/bzip2-1.0.6.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/curl.c,ISC ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/curl.c,ISC,ISC
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/diffmark.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/dvipdfm.c,,
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/eCos-2.0.c,GPL ,
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/eCos-2.0.c,GPL,GPL
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/eGenix.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/gSOAP-1.3b.c,,
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/gnuplot.c,,

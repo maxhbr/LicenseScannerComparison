@@ -88,7 +88,7 @@ rewriteMap = Map.fromList
   , ("AGPL-3.0", ["AGPL-3.0-only"])
   , ("GPL", ["GPL-1.0-only", "GPL-1.0-or-later", "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later"])
   , ("Apache", ["Apache-1.0", "Apache-1.1", "Apache-2.0"])
-  ]
+  , ("GFDL-1.1", ["GFDL-1.1-or-later"]), ("GFDL-1.2", ["GFDL-1.2-or-later"]), ("GFDL-1.3", ["GFDL-1.3-or-later"])]
 
 rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
 rewriteFindings map = let
@@ -147,7 +147,7 @@ $(document).ready( function () {
 
     $('#maintable tbody').on('click', 'tr', function () {
         var data = table.row( this ).data();
-        $.get('.'+data[0], function(data, status){
+        $.get('./__'+data[0], function(data, status){
             $('#fileContent').text(data);
         });
     } );
@@ -183,14 +183,14 @@ renderRows scanners expected = let
                         | expectedLics `L.isSubsequenceOf` actual = "contained"
                         | expectedLics `L.intersect` actual /= [] = "intersection"
                         | otherwise                               = "notContained"
-        joinLicenses lics = (Tx.pack $ "<div class=\"" ++ (getColor $ L.sort $ L.nub lics) ++ "\">") `Tx.append` (Tx.intercalate ", " lics) `Tx.append` "</div>"
+        joinLicenses original lics = (Tx.pack $ "<div class=\"" ++ (getColor $ L.sort $ L.nub lics) ++ "\" title=\"" ++ original ++"\">") `Tx.append` (Tx.intercalate ", " lics) `Tx.append` "</div>"
         mkScannerEntry :: String -> Text
         mkScannerEntry scanner = case Map.lookup scanner findings of
-          Just findings -> joinLicenses . L.nub $ L.concatMap licenses findings
+          Just findings -> joinLicenses (L.concatMap (Tx.unpack . comment) findings)  . L.nub $ L.concatMap licenses findings
           otherwise     -> ""
       in Tx.unlines [ prev
                     , "<tr><td>"
-                    , Tx.intercalate "</td><td>" ([pathText, joinLicenses expectedLics] ++ (L.map mkScannerEntry scanners))
+                    , Tx.intercalate "</td><td>" ([pathText, Tx.intercalate ", " expectedLics] ++ (L.map mkScannerEntry scanners))
                     , "</td></tr>"
                     ]
   in Map.foldlWithKey renderRowFun ""

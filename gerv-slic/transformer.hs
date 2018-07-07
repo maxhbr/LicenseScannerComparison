@@ -43,13 +43,14 @@ data Finding
   = Finding
   { path :: Text
   , licenses :: [Text]
+  , origLicenses :: [Text]
   } deriving (Show, Eq)
 
 instance Ord Finding where
   f <= f' = (path f) <= (path f')
 
 unRaw :: RawFinding -> [Finding]
-unRaw rf = L.map (\ f -> Finding f [rfTag rf]) (rfFiles rf)
+unRaw rf = L.map (\ f -> Finding f [rfTag rf] [rfTag rf]) (rfFiles rf)
 
 instance FromJSON RawFinding where
   parseJSON = withObject "RawFinding" $
@@ -68,7 +69,7 @@ convertToCSV = let
       { CSV.encUseCrLf = False
       , CSV.encQuoting = CSV.QuoteMinimal }
     toTuples :: Finding -> (Text, Text, Text)
-    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), "")
+    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), Tx.intercalate ";" ((L.sort . origLicenses) f))
   in BSL.toStrict . (CSV.encodeWith options) . L.map toTuples
 
 getSourceFileFromDir :: FilePath -> FilePath
@@ -80,6 +81,7 @@ rewriteMap = Map.fromList
   , ("Zlib_fileref", ["Zlib"]), ("Zlib_ref1", ["Zlib"]), ("Zlib_ref2", ["Zlib"]), ("Zlib_ref3", ["Zlib"]), ("gzlog.h_fileref", ["Zlib"])
   , ("PD", ["Public-domain"])
   , ("BSL-1.0_urlref", ["BSL-1.0"])
+  , ("Libpng_2", ["Libpng"])
   ]
 
 rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]

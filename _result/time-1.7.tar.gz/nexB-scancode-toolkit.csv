@@ -1,17 +1,17 @@
-/time-1.7.tar.gz/COPYING,GPL-2.0-only,
-/time-1.7.tar.gz/Makefile.in,FSFUL,
-/time-1.7.tar.gz/configure,FSFUL,
-/time-1.7.tar.gz/error.c,GPL-2.0-or-later,
-/time-1.7.tar.gz/getopt.c,GPL-2.0-or-later,
-/time-1.7.tar.gz/getopt.h,GPL-2.0-or-later,
-/time-1.7.tar.gz/getopt1.c,GPL-2.0-or-later,
-/time-1.7.tar.gz/install-sh,MIT Old Style no advertising,
-/time-1.7.tar.gz/mdate-sh,GPL-2.0-or-later,
-/time-1.7.tar.gz/mkinstalldirs,Public Domain,
-/time-1.7.tar.gz/resuse.c,GPL-2.0-or-later,
-/time-1.7.tar.gz/resuse.h,GPL-2.0-or-later,
-/time-1.7.tar.gz/texinfo.tex,GPL-2.0-or-later,
-/time-1.7.tar.gz/time.c,GPL-2.0-or-later,
-/time-1.7.tar.gz/time.info,GPL-Elib,
-/time-1.7.tar.gz/time.texi,GPL-Elib;Latex2e,
-/time-1.7.tar.gz/wait.h,GPL-2.0-or-later,
+/time-1.7.tar.gz/COPYING,GPL-2.0-only,GPL-2.0-only
+/time-1.7.tar.gz/Makefile.in,FSFUL,FSFUL
+/time-1.7.tar.gz/configure,FSFUL,FSFUL
+/time-1.7.tar.gz/error.c,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/getopt.c,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/getopt.h,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/getopt1.c,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/install-sh,MIT Old Style no advertising,MIT Old Style no advertising
+/time-1.7.tar.gz/mdate-sh,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/mkinstalldirs,Public Domain,Public Domain
+/time-1.7.tar.gz/resuse.c,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/resuse.h,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/texinfo.tex,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/time.c,GPL-2.0-or-later,GPL-2.0-or-later
+/time-1.7.tar.gz/time.info,GPL-Elib,GPL-Elib
+/time-1.7.tar.gz/time.texi,GPL-Elib;Latex2e,GPL-Elib;Latex2e
+/time-1.7.tar.gz/wait.h,GPL-2.0-or-later,GPL-2.0-or-later

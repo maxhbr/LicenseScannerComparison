@@ -43,6 +43,7 @@ data Finding
   = Finding
   { path :: Text
   , licenses :: [Text]
+  , origLicenses :: [Text]
   } deriving (Show, Eq)
 
 instance Ord Finding where
@@ -52,7 +53,8 @@ parseLine :: Line -> Finding
 parseLine l = let
     splitted = splitOn "\t" (T.lineToText l)
     file = L.head splitted
-  in Finding file (L.tail $ L.map (Tx.pack . (MH.replace "GENERATED FILE" "") . Tx.unpack) splitted)
+    lics = (L.map (Tx.strip . Tx.pack . (MH.replace "GENERATED FILE" "") . Tx.unpack) $ L.tail splitted)
+  in Finding file lics lics
 
 convertToCSV :: [Finding] -> BS.ByteString
 convertToCSV = let
@@ -60,7 +62,7 @@ convertToCSV = let
       { CSV.encUseCrLf = False
       , CSV.encQuoting = CSV.QuoteMinimal }
     toTuples :: Finding -> (Text, Text, Text)
-    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), "")
+    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), Tx.intercalate ";" ((L.sort . origLicenses) f))
   in BSL.toStrict . (CSV.encodeWith options) . L.map toTuples
 
 getSourceFileFromDir :: FilePath -> FilePath
@@ -71,6 +73,19 @@ rewriteMap = Map.fromList
   [ ("GENERATED FILE",[])
   , ("BSL (v1.0)", ["BSL-1.0"])
   , ("zlib/libpng", ["Zlib"])
+  , ("Apache (v2.0)", ["Apache-2.0"])
+  , ("MPL (v1.0)", ["MPL-1.0"]), ("MPL (v1.1)", ["MPL-1.1"]), ("MPL (v2.0)", ["MPL-2.0"])
+  , ("GPL (v2)", ["GPL-2.0-only"]), ("GPL (v2 or later)", ["GPL-2.0-or-later"])
+  , ("GPL (v2.1)", ["GPL-2.1-only"]), ("GPL (v2.1 or later)", ["GPL-2.1-or-later"])
+  , ("GPL (v3)", ["GPL-3.0-only"]), ("GPL (v3 or later)", ["GPL-3.0-or-later"])
+  , ("LGPL (v2)", ["LGPL-2.0-only"]), ("LGPL (v2 or later)", ["LGPL-2.0-or-later"])
+  , ("LGPL (v2.1)", ["LGPL-2.1-only"]), ("LGPL (v2.1 or later)", ["LGPL-2.1-or-later"])
+  , ("AGPL (v1)", ["AGPL-1.0-only"]), ("AGPL (v1 or later)", ["AGPL-1.0-or-later"])
+  , ("AGPL (v3)", ["AGPL-3.0-only"]), ("AGPL (v3 or later)", ["AGPL-3.0-or-later"])
+  , ("BSL (v1)", ["BSL-1.0"])
+  , ("BSD (2 clause)", ["BSD-2-Clause"])
+  , ("BSD (3 clause)", ["BSD-3-Clause"])
+  , ("libpng", ["Libpng"])
   ]
 
 rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
@@ -93,5 +108,6 @@ main = let
     let collectedFindings = L.map (\ fs -> let
                                         p = path $ L.head fs
                                         ls = L.concatMap licenses fs
-                                      in Finding p ls) groupedFindings
-    (writeTextFile target . Tx.decodeUtf8 . convertToCSV . L.sort) collectedFindings
+                                        origLs = L.concatMap origLicenses fs
+                                      in Finding p ls origLs) groupedFindings
+    (writeTextFile target . Tx.decodeUtf8 . convertToCSV . L.sort . rewriteFindings rewriteMap) collectedFindings

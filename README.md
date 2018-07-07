@@ -7,14 +7,15 @@ This is a small project, which tries to compare different license scanners, by
   - **TODO** maybe use [extractcode](https://github.com/nexB/scancode-toolkit/blob/develop/extractcode) or [ununpack](https://github.com/fossology/fossology/tree/master/src/ununpack/agent) for recursive extracting?
   - **TODO** top 10-1000 GH projects
 - generating the output for each scanner
-- **TODO** normalize and understand the output for each scanner
+- normalize and understand the output for each scanner
   - maybe a simple csv: `filename;findings;comment`, where
     - the filename relative to the source root
       - it might optionally start with an additional `/` or `./`
     - the findings are comma separated
     - if line is not present, assume that it only contains the finding `NOASSERTION`
-- **TODO** static page generator
-- **TODO** compare the result to a courated reference result
+- static page generator
+- compare the result to a courated reference result
+  - **TODO** import of e.g. `GPL-2.0+ Dual-license BSD-style` results in single license
 - **TODO** generate images, which visualize the result in some kind of heatmap / chart
 
 ## License Statement Scanner

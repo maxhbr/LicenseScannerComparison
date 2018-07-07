@@ -39,7 +39,7 @@ calculateSrcPath() {
     local srcFileName=$1
 
     srcPath="$(calculateResultPath "$srcFileName")/__/$srcFileName"
-    mkdir -p "$srcPath"
+    mkdir -p "$(dirname "$srcPath")"
     echo "$srcPath"
 }
 
@@ -204,11 +204,6 @@ EOF
         resultDir="$(calculateResultPath $srcName)"
         expectationFile="$(calculateExpectationFile $srcName)"
         "$ROOT/generatePage.hs" "$resultDir" "$expectationFile"
-
-        extractedArchive=$(calculateSrcPath $srcName)
-        if [[ ! -e "$resultDir/$srcName" ]]; then
-            ln -rs $extractedArchive "$resultDir/$srcName"
-        fi
 
         echo "<li><a href=\"$srcName/index.html\">$srcName</a></li>" >> "$resultROOT/index.html"
     done

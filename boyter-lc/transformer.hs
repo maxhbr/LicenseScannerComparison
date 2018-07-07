@@ -47,6 +47,7 @@ data Finding
   = Finding
   { path :: Text
   , licenses :: [Text]
+  , origLicenses :: [Text]
   } deriving (Show, Eq)
 
 instance Ord Finding where
@@ -59,7 +60,7 @@ unRaw rf = let
          else rfDirectory rf `Tx.append` "/"
   p =  pDir `Tx.append` rfFilename rf
   lics = L.nub . P.map licenseId $ (fromMaybe [] $ rfLicenseGuesses rf) ++ (fromMaybe [] $ rfLicenseRoots rf)
-  in Finding p lics
+  in Finding p lics lics
 
 instance FromJSON Lic where
   parseJSON = withObject "Lic" $
@@ -84,7 +85,7 @@ convertToCSV = let
       { CSV.encUseCrLf = False
       , CSV.encQuoting = CSV.QuoteMinimal }
     toTuples :: Finding -> (Text, Text, Text)
-    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), "")
+    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), Tx.intercalate ";" ((L.sort . origLicenses) f))
   in BSL.toStrict . (CSV.encodeWith options) . L.map toTuples
 
 getSourceFileFromDir :: FilePath -> FilePath

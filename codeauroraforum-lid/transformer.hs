@@ -49,10 +49,11 @@ data Finding
   = Finding
   { path :: Text
   , licenses :: [Text]
+  , origLicenses :: [Text]
   } deriving (Show, Eq)
 
 unRaw :: RawFinding -> Finding
-unRaw rf = Finding (rfPath rf) [rfLicense rf]
+unRaw rf = Finding (rfPath rf) [rfLicense rf] [rfLicense rf]
 
 instance Ord Finding where
   f <= f' = (path f) <= (path f')
@@ -63,7 +64,7 @@ convertToCSV = let
       { CSV.encUseCrLf = False
       , CSV.encQuoting = CSV.QuoteMinimal }
     toTuples :: Finding -> (Text, Text, Text)
-    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), "")
+    toTuples f = (path f, Tx.intercalate ";" ((L.sort . licenses) f), Tx.intercalate ";" ((L.sort . origLicenses) f))
   in BSL.toStrict . (CSV.encodeWith options) . L.map toTuples
 
 getSourceFileFromDir :: FilePath -> IO FilePath
@@ -89,6 +90,7 @@ main = let
         let collectedFindings = L.map (\ fs -> let
                                             p = path $ L.head fs
                                             ls = L.concatMap licenses fs
-                                          in Finding p ls) groupedFindings
+                                            origLs = L.concatMap origLicenses fs
+                                          in Finding p ls origLs) groupedFindings
         (writeTextFile target . Tx.decodeUtf8 . convertToCSV . L.sort) collectedFindings
       Left error            -> print error

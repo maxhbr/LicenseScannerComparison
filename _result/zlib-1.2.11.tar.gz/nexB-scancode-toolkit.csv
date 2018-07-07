@@ -1,92 +1,92 @@
-/zlib-1.2.11.tar.gz/FAQ,GPL-1.0-or-later;GPL-1.0-or-later,
-/zlib-1.2.11.tar.gz/Makefile.in,Zlib,
-/zlib-1.2.11.tar.gz/README,Zlib,
-/zlib-1.2.11.tar.gz/adler32.c,Zlib,
-/zlib-1.2.11.tar.gz/compress.c,Zlib,
-/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads,Ada linking exception to GPL 2.0 or later;LGPL-2.0-or-later,
-/zlib-1.2.11.tar.gz/contrib/amd64/amd64-match.S,BSD-3-Clause,
-/zlib-1.2.11.tar.gz/contrib/asm686/match.S,Zlib,
-/zlib-1.2.11.tar.gz/contrib/blast/blast.c,Zlib,
-/zlib-1.2.11.tar.gz/contrib/blast/blast.h,Zlib,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/ChecksumImpl.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CircularBuffer.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CodecBase.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Deflater.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/GZipStream.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Inflater.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/UnitTests.cs,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/dotzlib/readme.txt,BSL-1.0,
-/zlib-1.2.11.tar.gz/contrib/gcc_gvmat64/gvmat64.S,Zlib,
-/zlib-1.2.11.tar.gz/contrib/infback9/infback9.c,Zlib,
-/zlib-1.2.11.tar.gz/contrib/infback9/infback9.h,Zlib,
-/zlib-1.2.11.tar.gz/contrib/infback9/inflate9.h,Zlib,
-/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.c,Zlib,
-/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.h,Zlib,
-/zlib-1.2.11.tar.gz/contrib/inflate86/inffas86.c,Zlib,
-/zlib-1.2.11.tar.gz/contrib/inflate86/inffast.S,Zlib,
-/zlib-1.2.11.tar.gz/contrib/iostream2/zstream.h,CMR License,
-/zlib-1.2.11.tar.gz/contrib/iostream3/README,MIT Open Group,
-/zlib-1.2.11.tar.gz/contrib/masmx64/gvmat64.asm,Zlib,
-/zlib-1.2.11.tar.gz/contrib/masmx64/inffas8664.c,Zlib,
-/zlib-1.2.11.tar.gz/contrib/masmx86/inffas32.asm,Zlib,
-/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm,Zlib,
-/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_info.txt,Zlib,
-/zlib-1.2.11.tar.gz/contrib/minizip/unzip.c,Info-Zip License 2009-01,
-/zlib-1.2.11.tar.gz/contrib/minizip/unzip.h,Zlib,
-/zlib-1.2.11.tar.gz/contrib/minizip/zip.h,Zlib,
-/zlib-1.2.11.tar.gz/contrib/pascal/example.pas,See License mention;See License mention;Zlib,
-/zlib-1.2.11.tar.gz/contrib/pascal/readme.txt,Zlib,
-/zlib-1.2.11.tar.gz/contrib/pascal/zlibpas.pas,See License mention,
-/zlib-1.2.11.tar.gz/contrib/puff/puff.c,See License mention,
-/zlib-1.2.11.tar.gz/contrib/puff/puff.h,Zlib,
-/zlib-1.2.11.tar.gz/contrib/puff/pufftest.c,See License mention,
-/zlib-1.2.11.tar.gz/crc32.c,Zlib,
-/zlib-1.2.11.tar.gz/deflate.c,Zlib,
-/zlib-1.2.11.tar.gz/deflate.h,Zlib;Zlib,
-/zlib-1.2.11.tar.gz/doc/rfc1950.txt,Peter Deutsch Document License,
-/zlib-1.2.11.tar.gz/doc/rfc1951.txt,Peter Deutsch Document License,
-/zlib-1.2.11.tar.gz/doc/rfc1952.txt,Peter Deutsch Document License,
-/zlib-1.2.11.tar.gz/examples/fitblk.c,Public Domain,
-/zlib-1.2.11.tar.gz/examples/gun.c,Zlib,
-/zlib-1.2.11.tar.gz/examples/gzappend.c,Zlib,
-/zlib-1.2.11.tar.gz/examples/gzjoin.c,Zlib,
-/zlib-1.2.11.tar.gz/examples/gzlog.c,See License mention,
-/zlib-1.2.11.tar.gz/examples/gzlog.h,Zlib,
-/zlib-1.2.11.tar.gz/examples/zlib_how.html,Public Domain,
-/zlib-1.2.11.tar.gz/examples/zpipe.c,Public Domain,
-/zlib-1.2.11.tar.gz/examples/zran.c,Zlib,
-/zlib-1.2.11.tar.gz/gzclose.c,Zlib,
-/zlib-1.2.11.tar.gz/gzguts.h,Zlib,
-/zlib-1.2.11.tar.gz/gzlib.c,Zlib,
-/zlib-1.2.11.tar.gz/gzread.c,Zlib,
-/zlib-1.2.11.tar.gz/gzwrite.c,Zlib,
-/zlib-1.2.11.tar.gz/infback.c,Zlib,
-/zlib-1.2.11.tar.gz/inffast.c,Zlib,
-/zlib-1.2.11.tar.gz/inffast.h,Zlib,
-/zlib-1.2.11.tar.gz/inffixed.h,Zlib,
-/zlib-1.2.11.tar.gz/inflate.c,Zlib,
-/zlib-1.2.11.tar.gz/inflate.h,Zlib,
-/zlib-1.2.11.tar.gz/inftrees.c,Zlib,
-/zlib-1.2.11.tar.gz/inftrees.h,Zlib,
-/zlib-1.2.11.tar.gz/msdos/Makefile.dj2,Zlib,
-/zlib-1.2.11.tar.gz/msdos/Makefile.emx,Zlib,
-/zlib-1.2.11.tar.gz/old/Makefile.emx,Zlib,
-/zlib-1.2.11.tar.gz/old/os2/Makefile.os2,Zlib,
-/zlib-1.2.11.tar.gz/test/example.c,Zlib,
-/zlib-1.2.11.tar.gz/test/infcover.c,Zlib,
-/zlib-1.2.11.tar.gz/test/minigzip.c,Zlib,
-/zlib-1.2.11.tar.gz/trees.c,Zlib,
-/zlib-1.2.11.tar.gz/uncompr.c,Zlib,
-/zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt,Zlib,
-/zlib-1.2.11.tar.gz/win32/Makefile.gcc,Zlib,
-/zlib-1.2.11.tar.gz/win32/README-WIN32.txt,Zlib,
-/zlib-1.2.11.tar.gz/zconf.h,Zlib,
-/zlib-1.2.11.tar.gz/zconf.h.cmakein,Zlib,
-/zlib-1.2.11.tar.gz/zconf.h.in,Zlib,
-/zlib-1.2.11.tar.gz/zlib.3,Zlib,
-/zlib-1.2.11.tar.gz/zlib.3.pdf,Zlib,
-/zlib-1.2.11.tar.gz/zlib.h,Zlib,
-/zlib-1.2.11.tar.gz/zutil.c,Zlib,
-/zlib-1.2.11.tar.gz/zutil.h,Zlib,
+/zlib-1.2.11.tar.gz/FAQ,GPL-1.0-or-later;GPL-1.0-or-later,GPL-1.0-or-later;GPL-1.0-or-later
+/zlib-1.2.11.tar.gz/Makefile.in,Zlib,Zlib
+/zlib-1.2.11.tar.gz/README,Zlib,Zlib
+/zlib-1.2.11.tar.gz/adler32.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/compress.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads,Ada linking exception to GPL 2.0 or later;LGPL-2.0-or-later,Ada linking exception to GPL 2.0 or later;LGPL-2.0-or-later
+/zlib-1.2.11.tar.gz/contrib/amd64/amd64-match.S,BSD-3-Clause,BSD-3-Clause
+/zlib-1.2.11.tar.gz/contrib/asm686/match.S,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/blast/blast.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/blast/blast.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/ChecksumImpl.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CircularBuffer.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/CodecBase.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Deflater.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/DotZLib.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/GZipStream.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/Inflater.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/DotZLib/UnitTests.cs,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/dotzlib/readme.txt,BSL-1.0,BSL-1.0
+/zlib-1.2.11.tar.gz/contrib/gcc_gvmat64/gvmat64.S,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/infback9/infback9.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/infback9/infback9.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/infback9/inflate9.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/infback9/inftree9.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/inflate86/inffas86.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/inflate86/inffast.S,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/iostream2/zstream.h,CMR License,CMR License
+/zlib-1.2.11.tar.gz/contrib/iostream3/README,MIT Open Group,MIT Open Group
+/zlib-1.2.11.tar.gz/contrib/masmx64/gvmat64.asm,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/masmx64/inffas8664.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/masmx86/inffas32.asm,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_info.txt,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/minizip/unzip.c,Info-Zip License 2009-01,Info-Zip License 2009-01
+/zlib-1.2.11.tar.gz/contrib/minizip/unzip.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/minizip/zip.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/pascal/example.pas,See License mention;See License mention;Zlib,See License mention;See License mention;Zlib
+/zlib-1.2.11.tar.gz/contrib/pascal/readme.txt,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/pascal/zlibpas.pas,See License mention,See License mention
+/zlib-1.2.11.tar.gz/contrib/puff/puff.c,See License mention,See License mention
+/zlib-1.2.11.tar.gz/contrib/puff/puff.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/contrib/puff/pufftest.c,See License mention,See License mention
+/zlib-1.2.11.tar.gz/crc32.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/deflate.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/deflate.h,Zlib;Zlib,Zlib;Zlib
+/zlib-1.2.11.tar.gz/doc/rfc1950.txt,Peter Deutsch Document License,Peter Deutsch Document License
+/zlib-1.2.11.tar.gz/doc/rfc1951.txt,Peter Deutsch Document License,Peter Deutsch Document License
+/zlib-1.2.11.tar.gz/doc/rfc1952.txt,Peter Deutsch Document License,Peter Deutsch Document License
+/zlib-1.2.11.tar.gz/examples/fitblk.c,Public Domain,Public Domain
+/zlib-1.2.11.tar.gz/examples/gun.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/examples/gzappend.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/examples/gzjoin.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/examples/gzlog.c,See License mention,See License mention
+/zlib-1.2.11.tar.gz/examples/gzlog.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/examples/zlib_how.html,Public Domain,Public Domain
+/zlib-1.2.11.tar.gz/examples/zpipe.c,Public Domain,Public Domain
+/zlib-1.2.11.tar.gz/examples/zran.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/gzclose.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/gzguts.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/gzlib.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/gzread.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/gzwrite.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/infback.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/inffast.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/inffast.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/inffixed.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/inflate.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/inflate.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/inftrees.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/inftrees.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/msdos/Makefile.dj2,Zlib,Zlib
+/zlib-1.2.11.tar.gz/msdos/Makefile.emx,Zlib,Zlib
+/zlib-1.2.11.tar.gz/old/Makefile.emx,Zlib,Zlib
+/zlib-1.2.11.tar.gz/old/os2/Makefile.os2,Zlib,Zlib
+/zlib-1.2.11.tar.gz/test/example.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/test/infcover.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/test/minigzip.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/trees.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/uncompr.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt,Zlib,Zlib
+/zlib-1.2.11.tar.gz/win32/Makefile.gcc,Zlib,Zlib
+/zlib-1.2.11.tar.gz/win32/README-WIN32.txt,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zconf.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zconf.h.cmakein,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zconf.h.in,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zlib.3,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zlib.3.pdf,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zlib.h,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zutil.c,Zlib,Zlib
+/zlib-1.2.11.tar.gz/zutil.h,Zlib,Zlib

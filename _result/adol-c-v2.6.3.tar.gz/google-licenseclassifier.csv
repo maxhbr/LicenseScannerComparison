@@ -1,6 +1,6 @@
-/adol-c-v2.6.3.tar.gz/LICENSE,CPL-1.0;EPL-1.0;GPL-2.0,
-/adol-c-v2.6.3.tar.gz/autoconf/config.guess,GPL-3.0,
-/adol-c-v2.6.3.tar.gz/autoconf/config.sub,GPL-3.0,
-/adol-c-v2.6.3.tar.gz/autoconf/depcomp,GPL-3.0,
-/adol-c-v2.6.3.tar.gz/autoconf/install-sh,MIT;X11,
-/adol-c-v2.6.3.tar.gz/autoconf/missing,GPL-1.0;GPL-3.0,
+/adol-c-v2.6.3.tar.gz/LICENSE,CPL-1.0;EPL-1.0;GPL-2.0,CPL-1.0;EPL-1.0;GPL-2.0
+/adol-c-v2.6.3.tar.gz/autoconf/config.guess,GPL-3.0,GPL-3.0
+/adol-c-v2.6.3.tar.gz/autoconf/config.sub,GPL-3.0,GPL-3.0
+/adol-c-v2.6.3.tar.gz/autoconf/depcomp,GPL-3.0,GPL-3.0
+/adol-c-v2.6.3.tar.gz/autoconf/install-sh,MIT;X11,MIT;X11
+/adol-c-v2.6.3.tar.gz/autoconf/missing,GPL-1.0;GPL-3.0,GPL-1.0;GPL-3.0
