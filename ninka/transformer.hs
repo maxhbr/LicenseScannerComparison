@@ -88,6 +88,7 @@ rewriteMap = Map.fromList
   , ("postgresql", ["PostgreSQL"])
   , ("NPLv1_0", ["NPL-1.1"])
   , ("MPLv1_1", ["MPL-1.1"])
+  , ("boost-1", ["BSL-1.0"])
   ]
 
 rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]

@@ -69,6 +69,8 @@ getSourceFileFromDir = (</> "output")
 rewriteMap :: Map.Map Text [Text]
 rewriteMap = Map.fromList
   [ ("GENERATED FILE",[])
+  , ("BSL (v1.0)", ["BSL-1.0"])
+  , ("zlib/libpng", ["Zlib"])
   ]
 
 rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]

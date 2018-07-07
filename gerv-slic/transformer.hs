@@ -74,10 +74,12 @@ convertToCSV = let
 getSourceFileFromDir :: FilePath -> FilePath
 getSourceFileFromDir = (</> "output.json")
 
-
 rewriteMap :: Map.Map Text [Text]
 rewriteMap = Map.fromList
   [ ("none",[])
+  , ("Zlib_fileref", ["Zlib"]), ("Zlib_ref1", ["Zlib"]), ("Zlib_ref2", ["Zlib"]), ("Zlib_ref3", ["Zlib"]), ("gzlog.h_fileref", ["Zlib"])
+  , ("PD", ["Public-domain"])
+  , ("BSL-1.0_urlref", ["BSL-1.0"])
   ]
 
 rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]

@@ -81,6 +81,8 @@ rewriteMap = Map.fromList
   , ("Adobe-AFM", ["APAFML"])
   , ("Apache", ["Apache-1.0", "Apache-1.1", "Apache-2.0"]) -- TODO
   , ("VIM", ["Vim"])
+  , ("Public-domain-ref", ["Public-domain"])
+  , ("Zlib-possibility", ["Zlib"])
   ]
   -- , ("*-possibility", [????]) -- for perl, ...
   -- , ("*-ref", [????]) -- for ...
