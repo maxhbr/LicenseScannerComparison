@@ -76,30 +76,30 @@ getCsvsContent resultDir = do
   csvsContensPre <- mapM getCsvContent csvs
   return $ L.map (\(s, fvector) -> (s, V.toList fvector)) csvsContensPre
 
-rewriteCsvsContent :: [(String, [Finding])] -> [(String, [Finding])]
-rewriteCsvsContent = let
-    rewriteMap :: Map.Map Text [Text]
-    rewriteMap = Map.fromList
-      [ ("GPL-1.0", ["GPL-1.0-only"]), ("GPL-1.0+", ["GPL-1.0-or-later"])
-      , ("GPL-2.0", ["GPL-2.0-only"]), ("GPL-2.0+", ["GPL-2.0-or-later"])
-      , ("GPL-3.0", ["GPL-3.0-only"]), ("GPL-3.0+", ["GPL-3.0-or-later"])
-      , ("LGPL-2.0", ["LGPL-2.0-only"]), ("LGPL-2.0+", ["LGPL-2.0-or-later"])
-      , ("LGPL-2.1", ["LGPL-2.1-only"]), ("LGPL-2.1+", ["LGPL-2.1-or-later"])
-      , ("LGPL-3.0", ["LGPL-3.0-only"]), ("LGPL-3.0+", ["LGPL-3.0-or-later"])
-      , ("AGPL-1.0", ["AGPL-1.0-only"])
-      , ("AGPL-3.0", ["AGPL-3.0-only"])
-      , ("GPL", ["GPL-1.0-only", "GPL-1.0-or-later", "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later"])
-      , ("Apache", ["Apache-1.0", "Apache-1.1", "Apache-2.0"])
-      ]
+rewriteMap :: Map.Map Text [Text]
+rewriteMap = Map.fromList
+  [ ("GPL-1.0", ["GPL-1.0-only"]), ("GPL-1.0+", ["GPL-1.0-or-later"])
+  , ("GPL-2.0", ["GPL-2.0-only"]), ("GPL-2.0+", ["GPL-2.0-or-later"])
+  , ("GPL-3.0", ["GPL-3.0-only"]), ("GPL-3.0+", ["GPL-3.0-or-later"])
+  , ("LGPL-2.0", ["LGPL-2.0-only"]), ("LGPL-2.0+", ["LGPL-2.0-or-later"])
+  , ("LGPL-2.1", ["LGPL-2.1-only"]), ("LGPL-2.1+", ["LGPL-2.1-or-later"])
+  , ("LGPL-3.0", ["LGPL-3.0-only"]), ("LGPL-3.0+", ["LGPL-3.0-or-later"])
+  , ("AGPL-1.0", ["AGPL-1.0-only"])
+  , ("AGPL-3.0", ["AGPL-3.0-only"])
+  , ("GPL", ["GPL-1.0-only", "GPL-1.0-or-later", "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later"])
+  , ("Apache", ["Apache-1.0", "Apache-1.1", "Apache-2.0"])
+  ]
 
-    rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
-    rewriteFindings map = let
-        rewriteLicense lic = case lic `Map.lookup` map of
-          Just newLics -> newLics
-          otherwise    -> [lic]
-        rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
-      in L.map rewriteFinding
-  in L.map (\(s, fs) -> (s, rewriteFindings rewriteMap fs))
+rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
+rewriteFindings map = let
+    rewriteLicense lic = case lic `Map.lookup` map of
+      Just newLics -> newLics
+      otherwise    -> [lic]
+    rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
+  in L.map rewriteFinding
+
+rewriteCsvsContent :: [(String, [Finding])] -> [(String, [Finding])]
+rewriteCsvsContent = L.map (\(s, fs) -> (s, rewriteFindings rewriteMap fs))
 
 loadFileList :: FilePath -> IO [FilePath]
 loadFileList resultDir = let
@@ -226,7 +226,7 @@ generateHtml scanners resultData expected = Tx.unlines
 loadExpectations :: FilePath -> IO (Map.Map FilePath [Text])
 loadExpectations fp = do
     expectedFindings <- getCsvContent fp
-    return $ Map.fromList $ V.toList $ V.map (\finding -> (path finding, licenses finding)) $ (\(_,fs) -> fs) expectedFindings
+    return . Map.fromList . L.map (\finding -> (path finding, licenses finding)) . rewriteFindings rewriteMap . V.toList $ (\(_,fs) -> fs) expectedFindings
 
 
 main :: IO ()
