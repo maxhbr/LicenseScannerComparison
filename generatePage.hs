@@ -125,7 +125,7 @@ templateStart = [r|
 <style>
    table { height: 100%; }
    td { height: 100%; }
-  .match, .contained, .notContained { width: 100%; height: 100%; display: block; text-align: center; padding: 0.5em 0; }
+  .match, .contained, .intersection, .notContained { width: 100%; height: 100%; display: block; text-align: center; padding: 0.5em 0; }
   .match{ background: lightgreen; }
   .contained{ background: #F5DA81; }
   .intersection{ background: #FE9A2E; }
@@ -226,7 +226,9 @@ generateHtml scanners resultData expected = Tx.unlines
 loadExpectations :: FilePath -> IO (Map.Map FilePath [Text])
 loadExpectations fp = do
     expectedFindings <- getCsvContent fp
-    return . Map.fromList . L.map (\finding -> (path finding, licenses finding)) . rewriteFindings rewriteMap . V.toList $ (\(_,fs) -> fs) expectedFindings
+    let rawFindings = L.map (\f -> f { licenses = (L.concatMap (Tx.splitOn " ") $ licenses f)}) . V.toList $ (\(_,fs) -> fs) expectedFindings
+    let rewrittenFindings = rewriteFindings rewriteMap rawFindings
+    return . Map.fromList $ L.map (\finding -> (path finding, licenses finding)) rewrittenFindings
 
 
 main :: IO ()

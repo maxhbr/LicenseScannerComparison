@@ -85,7 +85,7 @@ rewriteMap = Map.fromList
   , ("spdxMIT", ["MIT"]), ("spdxBSD2", ["BSD2"]), ("spdxBSD3", ["BSD3"]), ("spdxBSD4", ["BSD4"])
   , ("MITX11", ["X11"])
   , ("BeerWareVer42", ["Beerware"])
-  , ("ZLIB", ["Zlib"])
+  , ("ZLIB", ["Zlib"]), ("ZLIBref", ["Zlib"])
   , ("postgresql", ["PostgreSQL"])
   , ("NPLv1_0", ["NPL-1.1"])
   , ("MPLv1_1", ["MPL-1.1"])

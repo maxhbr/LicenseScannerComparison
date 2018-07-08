@@ -14,6 +14,7 @@ This is a small project, which tries to compare different license scanners, by
     - the findings are comma separated
     - if line is not present, assume that it only contains the finding `NOASSERTION`
 - static page generator
+  - **TODO** filter binary files by extension
 - compare the result to a courated reference result
   - **TODO** import of e.g. `GPL-2.0+ Dual-license BSD-style` results in single license
 - **TODO** generate images, which visualize the result in some kind of heatmap / chart

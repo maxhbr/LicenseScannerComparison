@@ -62,7 +62,7 @@
 /zlib-1.2.11.tar.gz/contrib/minizip/unzip.h,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/contrib/minizip/zip.c,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/contrib/minizip/zip.h,UNKNOWN,UNKNOWN
-/zlib-1.2.11.tar.gz/contrib/pascal/example.pas,ZLIBref,ZLIBref
+/zlib-1.2.11.tar.gz/contrib/pascal/example.pas,Zlib,ZLIBref
 /zlib-1.2.11.tar.gz/contrib/pascal/readme.txt,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/contrib/pascal/zlibpas.pas,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/contrib/puff/puff.c,UNKNOWN,UNKNOWN
@@ -101,11 +101,11 @@
 /zlib-1.2.11.tar.gz/inftrees.c,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/inftrees.h,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/msdos/Makefile.bor,UNKNOWN,UNKNOWN
-/zlib-1.2.11.tar.gz/msdos/Makefile.dj2,ZLIBref,ZLIBref
-/zlib-1.2.11.tar.gz/msdos/Makefile.emx,ZLIBref,ZLIBref
+/zlib-1.2.11.tar.gz/msdos/Makefile.dj2,Zlib,ZLIBref
+/zlib-1.2.11.tar.gz/msdos/Makefile.emx,Zlib,ZLIBref
 /zlib-1.2.11.tar.gz/msdos/Makefile.msc,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/msdos/Makefile.tc,UNKNOWN,UNKNOWN
-/zlib-1.2.11.tar.gz/old/Makefile.emx,ZLIBref,ZLIBref
+/zlib-1.2.11.tar.gz/old/Makefile.emx,Zlib,ZLIBref
 /zlib-1.2.11.tar.gz/old/os2/Makefile.os2,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/os400/make.sh,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/qnx/package.qpg,UNKNOWN,UNKNOWN
@@ -115,7 +115,7 @@
 /zlib-1.2.11.tar.gz/trees.c,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/uncompr.c,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/win32/DLL_FAQ.txt,UNKNOWN,UNKNOWN
-/zlib-1.2.11.tar.gz/win32/Makefile.gcc,ZLIBref,ZLIBref
+/zlib-1.2.11.tar.gz/win32/Makefile.gcc,Zlib,ZLIBref
 /zlib-1.2.11.tar.gz/win32/Makefile.msc,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/win32/README-WIN32.txt,UNKNOWN,UNKNOWN
 /zlib-1.2.11.tar.gz/zconf.h,UNKNOWN,UNKNOWN

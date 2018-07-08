@@ -193,7 +193,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-R-1.1.c,MPL-2.0,MPL-2.0
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-Rplus-1.1.c,GPL-1.0+,GPL-1.0+
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Libpng.c,Libpng,Libpng
-/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Libpng.c,Libpng_2,Libpng_2
+/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Libpng.c,Libpng,Libpng_2
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-CMU.c,HPND,HPND
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-advertising.c,MIT,MIT
 /spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-enna.c,MIT,MIT
@@ -550,7 +550,7 @@
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-R-1.1.c,MPL-2.0,MPL-2.0
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-Rplus-1.1.c,GPL-1.0+,GPL-1.0+
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Libpng.c,Libpng,Libpng
-/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Libpng.c,Libpng_2,Libpng_2
+/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Libpng.c,Libpng,Libpng_2
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-CMU.c,HPND,HPND
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-advertising.c,MIT,MIT
 /spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-enna.c,MIT,MIT

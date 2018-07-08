@@ -8,6 +8,7 @@
  --package=word8
  --package=bytestring
  --package=foldl
+ --package=containers
  -}
 {-# OPTIONS_GHC -threaded        #-}
 {-# LANGUAGE OverloadedStrings   #-}
@@ -31,6 +32,7 @@ import Data.Word8 as W8
 import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as BSL
 import qualified Control.Foldl as F
+import qualified Data.Map as Map
 
 data RawFinding
   = RawFinding
@@ -75,6 +77,19 @@ convertToCSV = let
 
 getSourceFileFromDir :: FilePath -> FilePath
 getSourceFileFromDir = (</> "output.csv")
+
+rewriteMap :: Map.Map Text [Text]
+rewriteMap = Map.fromList
+  [ ("Public Domain", ["Public-domain"])
+  ]
+
+rewriteFindings :: Map.Map Text [Text] -> [Finding] -> [Finding]
+rewriteFindings map = let
+    rewriteLicense lic = case lic `Map.lookup` map of
+      Just newLics -> newLics
+      otherwise    -> [lic]
+    rewriteFinding finding@Finding{ licenses = lics } = finding { licenses = L.concatMap rewriteLicense lics }
+  in L.map rewriteFinding
 
 main :: IO ()
 main = let
