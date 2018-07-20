@@ -204,6 +204,7 @@ EOF
         resultDir="$(calculateResultPath $srcName)"
         expectationFile="$(calculateExpectationFile $srcName)"
         "$ROOT/generatePage.hs" "$resultDir" "$expectationFile"
+        "$ROOT/generateMasterJSON.hs" "$resultDir" "$expectationFile"
 
         echo "<li><a href=\"$srcName/index.html\">$srcName</a></li>" >> "$resultROOT/index.html"
     done
