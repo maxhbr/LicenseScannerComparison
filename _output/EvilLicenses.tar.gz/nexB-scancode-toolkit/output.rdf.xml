@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://spdx.org/rdf/terms#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <ns1:SpdxDocument rdf:about="http://www.spdx.org/tools#SPDXANALYSIS">
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nb7b4c2caf8e94d9bb2b897f538be2b35">
+        <ns1:copyrightText>Copyright PocketWarriors Shalom Weiner
+</ns1:copyrightText>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N312972eeebfb4ab2b87c03b953a8b877">
+            <ns1:checksumValue>f81b8f90c8b6a758168c4c92b9616895e43c64fa</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+        <ns1:fileName>./EvilLicenses.tar.gz/PocketWarriors-SkywarsPe.txt</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:describesPackage>
+      <ns1:Package rdf:nodeID="Nc1426c5eda204e97a3039a77c1776b05">
+        <ns1:packageVerificationCode>
+          <ns1:PackageVerificationCode rdf:nodeID="N15955f1cfbda4ed3b1d5e2be1f3b7cae">
+            <ns1:packageVerificationCodeValue>083a9d011accbb2643ba7204307f073b441b50c5</ns1:packageVerificationCodeValue>
+          </ns1:PackageVerificationCode>
+        </ns1:packageVerificationCode>
+        <ns1:hasFile rdf:nodeID="N5a8130d14bcf4abf9a090544fc899f81"/>
+        <ns1:hasFile rdf:nodeID="Nd59ec21167164a15bf9ab8181d215b97"/>
+        <ns1:hasFile rdf:nodeID="Nf62a97ffb240494baa4fff63ce33ec14"/>
+        <ns1:hasFile rdf:nodeID="N8f5a4d502042408da4bacf5e71ee2678"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/WTFPL"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/AGPL-3.0-only"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+        <ns1:hasFile rdf:nodeID="Nb7b4c2caf8e94d9bb2b897f538be2b35"/>
+        <ns1:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:hasFile rdf:nodeID="Nf41253c2e8b94988a69000ea7be07bca"/>
+        <ns1:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText><![CDATA[Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Copyright (c) 2009 Philip Sturgeon <email@philsturgeon.co.uk>
+Copyright (c) 2018 MongoDB, Inc.
+Copyright 2015 Ribot Ltd.
+Copyright 2018-2019 Redis Labs Ltd. and Contributors.
+Copyright PocketWarriors Shalom Weiner
+]]></ns1:copyrightText>
+        <ns1:name>EvilLicenses.tar.gz</ns1:name>
+        <ns1:hasFile rdf:nodeID="N0b66fcc3e9f846d0912f81065c0a9a06"/>
+        <ns1:hasFile rdf:nodeID="N000909290db94ec4be68a1b3df4d297a"/>
+      </ns1:Package>
+    </ns1:describesPackage>
+    <ns1:specVersion>SPDX-2.1</ns1:specVersion>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N8f5a4d502042408da4bacf5e71ee2678">
+        <ns1:copyrightText>Copyright 2018-2019 Redis Labs Ltd. and Contributors.
+</ns1:copyrightText>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N47aad60d37404d48984a61137f8c9aa8">
+            <ns1:checksumValue>6c9da49858267f91fa10f08ad556f02fdc689e63</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache/LICENSE</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N5a8130d14bcf4abf9a090544fc899f81">
+        <ns1:copyrightText>Copyright (c) 2018 MongoDB, Inc.
+</ns1:copyrightText>
+        <ns1:fileName>./EvilLicenses.tar.gz/SSPL/LICENSE-Community.txt</ns1:fileName>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/AGPL-3.0-only"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nd38e96a0f2be44819e03a7be41884eae">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>2efcbac8b5eae6c4a732c5db848bf2eec90f40c8</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:creationInfo>
+      <ns1:CreationInfo rdf:nodeID="Nde2fb3fe1f5142c0b0810ede197faedf">
+        <ns1:creator>Tool: ScanCode 2.9.2</ns1:creator>
+        <ns1:created>2018-12-12T16:18:05Z</ns1:created>
+      </ns1:CreationInfo>
+    </ns1:creationInfo>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N000909290db94ec4be68a1b3df4d297a">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Ndaf24a3abf8a45c88fa6ebf0e7cad1cf">
+            <ns1:checksumValue>febda1bb9303c52ca325511d8b111902e4f6f600</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:fileName>./EvilLicenses.tar.gz/README.md</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N0b66fcc3e9f846d0912f81065c0a9a06">
+        <ns1:copyrightText>Copyright 2015 Ribot Ltd.
+</ns1:copyrightText>
+        <ns1:fileName>./EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo/LICENSE</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N9b6bd635e5c94ee0b92ade52b47e84dc">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>7ed0eef4f28ac7ed448e4922c07d2bbb3e67b43b</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0"/>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nf62a97ffb240494baa4fff63ce33ec14">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/Apache-2.0"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N3f35aa5986a941ed904b249ef6de1ec3">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>f81b8f90c8b6a758168c4c92b9616895e43c64fa</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./EvilLicenses.tar.gz/PocketWarriors-SkywarsPe/LICENSE</ns1:fileName>
+        <ns1:copyrightText>Copyright PocketWarriors Shalom Weiner
+</ns1:copyrightText>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nd59ec21167164a15bf9ab8181d215b97">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N9a4932362a414e9399ff772238ac2896">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>98709388b9826c2cbb8e24f810a5607893bd57c4</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0/LICENSE.txt</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/AGPL-3.0-only"/>
+        <ns1:copyrightText><![CDATA[Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+]]></ns1:copyrightText>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nf41253c2e8b94988a69000ea7be07bca">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./EvilLicenses.tar.gz/DBAD/license.md</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/WTFPL"/>
+        <ns1:copyrightText><![CDATA[Copyright (c) 2009 Philip Sturgeon <email@philsturgeon.co.uk>
+]]></ns1:copyrightText>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Ne7a3b3c71ea742f59636b8177c8a128d">
+            <ns1:checksumValue>0a6adc2d9fba17a539cec5cef041043e8f2f4d9a</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+      </ns1:File>
+    </ns1:referencesFile>
+  </ns1:SpdxDocument>
+</rdf:RDF>

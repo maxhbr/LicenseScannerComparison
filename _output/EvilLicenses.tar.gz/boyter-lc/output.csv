@@ -1,0 +1,9 @@
+filename,directory,license,confidence,rootlicenses,md5,sha1,sha256,bytes,byteshuman
+LICENSE.txt,/EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0,AGPL-3.0-only,179.00%,AGPL-3.0-only,9b059fa7e62b3ee2336cd4cf6f32e96a,98709388b9826c2cbb8e24f810a5607893bd57c4,1423a0ee09fb53eff9a2570f8e47c3103a9c7c225cbd41d95a88d3bdaad9c021,35915,35.1K
+LICENSE,/EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache,NOASSERTION,100.00%,,32297eded4c6c97495eda282b9b780b7,6c9da49858267f91fa10f08ad556f02fdc689e63,6c1656f3ec7258fcfafe0c3e662ab3070eecddd6158de06dc2800b7f5ca68e42,1726,1.7K
+license.md,/EvilLicenses.tar.gz/DBAD,NOASSERTION,100.00%,,2c604c8009a9fccacdfff3b9c0dce447,0a6adc2d9fba17a539cec5cef041043e8f2f4d9a,068d2889b645b7ceee78f1c9192903ec7b35f76cf7e9a9d0a746bb6ffd527743,1239,1.2K
+LICENSE,/EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo,Apache-2.0,176.00%,Apache-2.0,b7c8d3deb1875ff017bdffcd9d00aec1,7ed0eef4f28ac7ed448e4922c07d2bbb3e67b43b,e8751f74fce0b9d89b41d25c7e7d02cf419d820d647fad0fbe93aeb948d518f1,11337,11.1K
+PocketWarriors-SkywarsPe.txt,/EvilLicenses.tar.gz/,Apache-2.0,176.00%,,3fb5899ef372fb161feae289a5d48f10,f81b8f90c8b6a758168c4c92b9616895e43c64fa,2f394250dfc2ded4739b8c248c0de990db13b797db67973bc3c2a8d7d70c6f3e,11733,11.5K
+LICENSE,/EvilLicenses.tar.gz/PocketWarriors-SkywarsPe,Apache-2.0,176.00%,Apache-2.0,3fb5899ef372fb161feae289a5d48f10,f81b8f90c8b6a758168c4c92b9616895e43c64fa,2f394250dfc2ded4739b8c248c0de990db13b797db67973bc3c2a8d7d70c6f3e,11733,11.5K
+README.md,/EvilLicenses.tar.gz/,NOASSERTION,100.00%,,86c870360764f7e03ae108f0ac2f9946,febda1bb9303c52ca325511d8b111902e4f6f600,8457d29d3879dfa41398de66287161f57bf0a352c401e8333c24e46d81732990,1080,1.1K
+LICENSE-Community.txt,/EvilLicenses.tar.gz/SSPL,AGPL-3.0-or-later,87.00%,AGPL-3.0-or-later,3a865f27f11f43ecbe542d9ea387dcf1,2efcbac8b5eae6c4a732c5db848bf2eec90f40c8,09d99ca61eb07873d5334077acba22c33e7f7d0a9fa08c92734e0ac8430d6e27,30608,29.9K

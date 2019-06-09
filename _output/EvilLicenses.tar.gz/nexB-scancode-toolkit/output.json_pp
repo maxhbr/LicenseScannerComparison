@@ -1,0 +1,709 @@
+{
+    "files": [
+        {
+            "base_name": "EvilLicenses.tar.gz",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 7,
+            "extension": "",
+            "file_type": null,
+            "files_count": 8,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "EvilLicenses.tar.gz",
+            "path": "EvilLicenses.tar.gz",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 105371,
+            "type": "directory"
+        },
+        {
+            "base_name": "PocketWarriors-SkywarsPe",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 198,
+                    "holders": [
+                        "PocketWarriors Shalom Weiner"
+                    ],
+                    "start_line": 198,
+                    "statements": [
+                        "Copyright PocketWarriors Shalom Weiner"
+                    ]
+                }
+            ],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": ".txt",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Permissive",
+                    "end_line": 210,
+                    "homepage_url": "http://www.apache.org/licenses/",
+                    "key": "apache-2.0",
+                    "matched_rule": {
+                        "identifier": "apache-2.0.LICENSE",
+                        "license_expression": "apache-2.0",
+                        "licenses": [
+                            "apache-2.0"
+                        ]
+                    },
+                    "owner": "Apache Software Foundation",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+                    "score": 99.5,
+                    "short_name": "Apache 2.0",
+                    "spdx_license_key": "Apache-2.0",
+                    "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+                    "start_line": 1,
+                    "text_url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ],
+            "md5": "3fb5899ef372fb161feae289a5d48f10",
+            "mime_type": "text/plain",
+            "name": "PocketWarriors-SkywarsPe.txt",
+            "path": "EvilLicenses.tar.gz/PocketWarriors-SkywarsPe.txt",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "f81b8f90c8b6a758168c4c92b9616895e43c64fa",
+            "size": 11733,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "README",
+            "copyrights": [],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": ".md",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": "86c870360764f7e03ae108f0ac2f9946",
+            "mime_type": "text/plain",
+            "name": "README.md",
+            "path": "EvilLicenses.tar.gz/README.md",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "febda1bb9303c52ca325511d8b111902e4f6f600",
+            "size": 1080,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "CommonsClause",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 2,
+            "extension": "",
+            "file_type": null,
+            "files_count": 2,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "CommonsClause",
+            "path": "EvilLicenses.tar.gz/CommonsClause",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 37641,
+            "type": "directory"
+        },
+        {
+            "base_name": "CommonsClause+AGPLv3.0",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": null,
+            "files_count": 1,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "CommonsClause+AGPLv3.0",
+            "path": "EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 35915,
+            "type": "directory"
+        },
+        {
+            "base_name": "LICENSE",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 22,
+                    "holders": [
+                        "Free Software Foundation, Inc."
+                    ],
+                    "start_line": 20,
+                    "statements": [
+                        "Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>"
+                    ]
+                }
+            ],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": ".txt",
+            "file_type": "UTF-8 Unicode text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 678,
+                    "homepage_url": "http://www.gnu.org/licenses/agpl-3.0.html",
+                    "key": "agpl-3.0",
+                    "matched_rule": {
+                        "identifier": "agpl-3.0.SPDX.RULE",
+                        "license_expression": "agpl-3.0",
+                        "licenses": [
+                            "agpl-3.0"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:agpl-3.0",
+                    "score": 100.0,
+                    "short_name": "AGPL 3.0",
+                    "spdx_license_key": "AGPL-3.0-only",
+                    "spdx_url": "https://spdx.org/licenses/AGPL-3.0-only",
+                    "start_line": 17,
+                    "text_url": "http://www.fsf.org/licensing/licenses/agpl-3.0.html"
+                }
+            ],
+            "md5": "9b059fa7e62b3ee2336cd4cf6f32e96a",
+            "mime_type": "text/plain",
+            "name": "LICENSE.txt",
+            "path": "EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0/LICENSE.txt",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "98709388b9826c2cbb8e24f810a5607893bd57c4",
+            "size": 35915,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "CommonsClause+Apache",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": null,
+            "files_count": 1,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "CommonsClause+Apache",
+            "path": "EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 1726,
+            "type": "directory"
+        },
+        {
+            "base_name": "LICENSE",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 2,
+                    "holders": [
+                        "Redis Labs Ltd.",
+                        "Contributors."
+                    ],
+                    "start_line": 1,
+                    "statements": [
+                        "Copyright 2018-2019 Redis Labs Ltd. and Contributors."
+                    ]
+                }
+            ],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "UTF-8 Unicode text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": true,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Permissive",
+                    "end_line": 13,
+                    "homepage_url": "http://www.apache.org/licenses/",
+                    "key": "apache-2.0",
+                    "matched_rule": {
+                        "identifier": "apache-2.0_7.RULE",
+                        "license_expression": "apache-2.0",
+                        "licenses": [
+                            "apache-2.0"
+                        ]
+                    },
+                    "owner": "Apache Software Foundation",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+                    "score": 94.51,
+                    "short_name": "Apache 2.0",
+                    "spdx_license_key": "Apache-2.0",
+                    "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+                    "start_line": 4,
+                    "text_url": "http://www.apache.org/licenses/LICENSE-2.0"
+                },
+                {
+                    "category": "Permissive",
+                    "end_line": 29,
+                    "homepage_url": "http://www.apache.org/licenses/",
+                    "key": "apache-2.0",
+                    "matched_rule": {
+                        "identifier": "apache-2.0_48.RULE",
+                        "license_expression": "apache-2.0",
+                        "licenses": [
+                            "apache-2.0"
+                        ]
+                    },
+                    "owner": "Apache Software Foundation",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+                    "score": 25.0,
+                    "short_name": "Apache 2.0",
+                    "spdx_license_key": "Apache-2.0",
+                    "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+                    "start_line": 28,
+                    "text_url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ],
+            "md5": "32297eded4c6c97495eda282b9b780b7",
+            "mime_type": "text/plain",
+            "name": "LICENSE",
+            "path": "EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache/LICENSE",
+            "programming_language": "JavaScript+Lasso",
+            "scan_errors": [],
+            "sha1": "6c9da49858267f91fa10f08ad556f02fdc689e63",
+            "size": 1726,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "DBAD",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": null,
+            "files_count": 1,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "DBAD",
+            "path": "EvilLicenses.tar.gz/DBAD",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 1239,
+            "type": "directory"
+        },
+        {
+            "base_name": "license",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 5,
+                    "holders": [
+                        "Philip Sturgeon"
+                    ],
+                    "start_line": 5,
+                    "statements": [
+                        "Copyright (c) 2009 Philip Sturgeon <email@philsturgeon.co.uk>"
+                    ]
+                }
+            ],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": ".md",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Public Domain",
+                    "end_line": 12,
+                    "homepage_url": "http://sam.zoy.org/wtfpl/",
+                    "key": "wtfpl-2.0",
+                    "matched_rule": {
+                        "identifier": "wtfpl-2.0_5.RULE",
+                        "license_expression": "wtfpl-2.0",
+                        "licenses": [
+                            "wtfpl-2.0"
+                        ]
+                    },
+                    "owner": "Sam Hocevar",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:wtfpl-2.0",
+                    "score": 55.22,
+                    "short_name": "WTFPL 2.0",
+                    "spdx_license_key": "WTFPL",
+                    "spdx_url": "https://spdx.org/licenses/WTFPL",
+                    "start_line": 7,
+                    "text_url": "http://sam.zoy.org/wtfpl/COPYING"
+                }
+            ],
+            "md5": "2c604c8009a9fccacdfff3b9c0dce447",
+            "mime_type": "text/plain",
+            "name": "license.md",
+            "path": "EvilLicenses.tar.gz/DBAD/license.md",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "0a6adc2d9fba17a539cec5cef041043e8f2f4d9a",
+            "size": 1239,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "NimbleDroid-FriendlyDemo",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": null,
+            "files_count": 1,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "NimbleDroid-FriendlyDemo",
+            "path": "EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 11337,
+            "type": "directory"
+        },
+        {
+            "base_name": "LICENSE",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 189,
+                    "holders": [
+                        "Ribot Ltd."
+                    ],
+                    "start_line": 189,
+                    "statements": [
+                        "Copyright 2015 Ribot Ltd."
+                    ]
+                }
+            ],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Permissive",
+                    "end_line": 201,
+                    "homepage_url": "http://www.apache.org/licenses/",
+                    "key": "apache-2.0",
+                    "matched_rule": {
+                        "identifier": "apache-2.0.LICENSE",
+                        "license_expression": "apache-2.0",
+                        "licenses": [
+                            "apache-2.0"
+                        ]
+                    },
+                    "owner": "Apache Software Foundation",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+                    "score": 99.63,
+                    "short_name": "Apache 2.0",
+                    "spdx_license_key": "Apache-2.0",
+                    "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+                    "start_line": 1,
+                    "text_url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ],
+            "md5": "b7c8d3deb1875ff017bdffcd9d00aec1",
+            "mime_type": "text/plain",
+            "name": "LICENSE",
+            "path": "EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo/LICENSE",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "7ed0eef4f28ac7ed448e4922c07d2bbb3e67b43b",
+            "size": 11337,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "PocketWarriors-SkywarsPe",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": null,
+            "files_count": 1,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "PocketWarriors-SkywarsPe",
+            "path": "EvilLicenses.tar.gz/PocketWarriors-SkywarsPe",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 11733,
+            "type": "directory"
+        },
+        {
+            "base_name": "LICENSE",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 198,
+                    "holders": [
+                        "PocketWarriors Shalom Weiner"
+                    ],
+                    "start_line": 198,
+                    "statements": [
+                        "Copyright PocketWarriors Shalom Weiner"
+                    ]
+                }
+            ],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": "ASCII text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Permissive",
+                    "end_line": 210,
+                    "homepage_url": "http://www.apache.org/licenses/",
+                    "key": "apache-2.0",
+                    "matched_rule": {
+                        "identifier": "apache-2.0.LICENSE",
+                        "license_expression": "apache-2.0",
+                        "licenses": [
+                            "apache-2.0"
+                        ]
+                    },
+                    "owner": "Apache Software Foundation",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:apache-2.0",
+                    "score": 99.5,
+                    "short_name": "Apache 2.0",
+                    "spdx_license_key": "Apache-2.0",
+                    "spdx_url": "https://spdx.org/licenses/Apache-2.0",
+                    "start_line": 1,
+                    "text_url": "http://www.apache.org/licenses/LICENSE-2.0"
+                }
+            ],
+            "md5": "3fb5899ef372fb161feae289a5d48f10",
+            "mime_type": "text/plain",
+            "name": "LICENSE",
+            "path": "EvilLicenses.tar.gz/PocketWarriors-SkywarsPe/LICENSE",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "f81b8f90c8b6a758168c4c92b9616895e43c64fa",
+            "size": 11733,
+            "size_count": 0,
+            "type": "file"
+        },
+        {
+            "base_name": "SSPL",
+            "copyrights": [],
+            "date": null,
+            "dirs_count": 0,
+            "extension": "",
+            "file_type": null,
+            "files_count": 1,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": false,
+            "license_expressions": [],
+            "licenses": [],
+            "md5": null,
+            "mime_type": null,
+            "name": "SSPL",
+            "path": "EvilLicenses.tar.gz/SSPL",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": null,
+            "size": 0,
+            "size_count": 30608,
+            "type": "directory"
+        },
+        {
+            "base_name": "LICENSE-Community",
+            "copyrights": [
+                {
+                    "authors": [],
+                    "end_line": 4,
+                    "holders": [
+                        "MongoDB, Inc."
+                    ],
+                    "start_line": 4,
+                    "statements": [
+                        "Copyright (c) 2018 MongoDB, Inc."
+                    ]
+                }
+            ],
+            "date": "2018-12-12",
+            "dirs_count": 0,
+            "extension": ".txt",
+            "file_type": "UTF-8 Unicode text",
+            "files_count": 0,
+            "is_archive": false,
+            "is_binary": false,
+            "is_media": false,
+            "is_script": false,
+            "is_source": false,
+            "is_text": true,
+            "license_expressions": [],
+            "licenses": [
+                {
+                    "category": "Copyleft",
+                    "end_line": 555,
+                    "homepage_url": "http://www.gnu.org/licenses/agpl-3.0.html",
+                    "key": "agpl-3.0",
+                    "matched_rule": {
+                        "identifier": "agpl-3.0.RULE",
+                        "license_expression": "agpl-3.0",
+                        "licenses": [
+                            "agpl-3.0"
+                        ]
+                    },
+                    "owner": "Free Software Foundation (FSF)",
+                    "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:agpl-3.0",
+                    "score": 95.38,
+                    "short_name": "AGPL 3.0",
+                    "spdx_license_key": "AGPL-3.0-only",
+                    "spdx_url": "https://spdx.org/licenses/AGPL-3.0-only",
+                    "start_line": 13,
+                    "text_url": "http://www.fsf.org/licensing/licenses/agpl-3.0.html"
+                }
+            ],
+            "md5": "3a865f27f11f43ecbe542d9ea387dcf1",
+            "mime_type": "text/plain",
+            "name": "LICENSE-Community.txt",
+            "path": "EvilLicenses.tar.gz/SSPL/LICENSE-Community.txt",
+            "programming_language": null,
+            "scan_errors": [],
+            "sha1": "2efcbac8b5eae6c4a732c5db848bf2eec90f40c8",
+            "size": 30608,
+            "size_count": 0,
+            "type": "file"
+        }
+    ],
+    "files_count": 8,
+    "scancode_notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+    "scancode_options": {
+        "--copyright": true,
+        "--csv": "/output.csv",
+        "--info": true,
+        "--json": "/output.json",
+        "--license": true,
+        "--spdx-rdf": "/output.rdf.xml",
+        "--spdx-tv": "/output.spdx",
+        "input": "/EvilLicenses.tar.gz/"
+    },
+    "scancode_version": "2.9.2"
+}

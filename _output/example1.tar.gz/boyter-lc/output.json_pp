@@ -1,0 +1,186 @@
+[
+    {
+        "Bytes": 1477,
+        "BytesHuman": "1.4K",
+        "Directory": "/example1.tar.gz/",
+        "Filename": "LICENSE.1",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "Md5Hash": "415e927ccfa6eeff9f39d07bb2bbcc11",
+        "Sha1Hash": "35c6027b5448ce9bdeb7dc64bddfaf0cc09ea86f",
+        "Sha256Hash": "b7b17fe551c9b5a2fed1efc4c9a443da6cd2f52097fa7cfca8b65e8c750c98ac"
+    },
+    {
+        "Bytes": 1636,
+        "BytesHuman": "1.6K",
+        "Directory": "/example1.tar.gz/",
+        "Filename": "LICENSE.2",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "Md5Hash": "827fcf76b362d8d9bcccf417e31dda72",
+        "Sha1Hash": "55797fa5cedec81d17f3691c5636a29b5486c073",
+        "Sha256Hash": "cc69d2c1b99a98e6273b5f0e8547676f3e371831a3bba7c0dd161d03e8a58ec3"
+    },
+    {
+        "Bytes": 1686,
+        "BytesHuman": "1.6K",
+        "Directory": "/example1.tar.gz/",
+        "Filename": "LICENSE.3",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "Md5Hash": "84a49e3a04748b441b5224b1ae101c1b",
+        "Sha1Hash": "e8bc30f512f108bbdf888abe175d734e16453145",
+        "Sha256Hash": "95a71f231ead39d2fda01f99679d3e017ade614065ec9aebc626fe939c1b0e18"
+    },
+    {
+        "Bytes": 1939,
+        "BytesHuman": "1.9K",
+        "Directory": "/example1.tar.gz/",
+        "Filename": "LICENSE.4",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 163
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 162
+            },
+            {
+                "LicenseId": "BSD-3-Clause-No-Nuclear-License",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "BSD-2-Clause-FreeBSD",
+                "Percentage": 156
+            }
+        ],
+        "Md5Hash": "918425485e3ec058ff16e75e36992880",
+        "Sha1Hash": "4e8da763c581a90fe5aefcccd3cc042bd917f617",
+        "Sha256Hash": "e2ea987f3971220c46a26404001d548b32c0e7f489defef46260922417b5a55b"
+    }
+]

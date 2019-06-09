@@ -1,0 +1,119 @@
+# Document Information
+
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+
+
+# Creation Info
+
+Creator: Tool: ScanCode 2.9.2
+Created: 2018-12-12T16:18:09Z
+
+
+# Package
+
+PackageName: EvilLicenses.tar.gz
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 083a9d011accbb2643ba7204307f073b441b50c5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: AGPL-3.0-only
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: WTFPL
+PackageCopyrightText: <text>Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Copyright (c) 2009 Philip Sturgeon <email@philsturgeon.co.uk>
+Copyright (c) 2018 MongoDB, Inc.
+Copyright 2015 Ribot Ltd.
+Copyright 2018-2019 Redis Labs Ltd. and Contributors.
+Copyright PocketWarriors Shalom Weiner
+</text>
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0/LICENSE.txt
+FileChecksum: SHA1: 98709388b9826c2cbb8e24f810a5607893bd57c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: AGPL-3.0-only
+FileCopyrightText: <text>Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+</text>
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache/LICENSE
+FileChecksum: SHA1: 6c9da49858267f91fa10f08ad556f02fdc689e63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2018-2019 Redis Labs Ltd. and Contributors.
+</text>
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/DBAD/license.md
+FileChecksum: SHA1: 0a6adc2d9fba17a539cec5cef041043e8f2f4d9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: WTFPL
+FileCopyrightText: <text>Copyright (c) 2009 Philip Sturgeon <email@philsturgeon.co.uk>
+</text>
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo/LICENSE
+FileChecksum: SHA1: 7ed0eef4f28ac7ed448e4922c07d2bbb3e67b43b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2015 Ribot Ltd.
+</text>
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/PocketWarriors-SkywarsPe.txt
+FileChecksum: SHA1: f81b8f90c8b6a758168c4c92b9616895e43c64fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright PocketWarriors Shalom Weiner
+</text>
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/PocketWarriors-SkywarsPe/LICENSE
+FileChecksum: SHA1: f81b8f90c8b6a758168c4c92b9616895e43c64fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright PocketWarriors Shalom Weiner
+</text>
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/README.md
+FileChecksum: SHA1: febda1bb9303c52ca325511d8b111902e4f6f600
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./EvilLicenses.tar.gz/SSPL/LICENSE-Community.txt
+FileChecksum: SHA1: 2efcbac8b5eae6c4a732c5db848bf2eec90f40c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: AGPL-3.0-only
+FileCopyrightText: <text>Copyright (c) 2018 MongoDB, Inc.
+</text>
+
+
+# Extracted Licenses
+

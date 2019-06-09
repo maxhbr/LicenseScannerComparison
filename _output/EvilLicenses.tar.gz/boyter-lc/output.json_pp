@@ -1,0 +1,279 @@
+[
+    {
+        "Bytes": 35915,
+        "BytesHuman": "35.1K",
+        "Directory": "/EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0",
+        "Filename": "LICENSE.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "AGPL-3.0-only",
+                "Percentage": 179
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "AGPL-3.0-only",
+                "Percentage": 179
+            }
+        ],
+        "Md5Hash": "9b059fa7e62b3ee2336cd4cf6f32e96a",
+        "Sha1Hash": "98709388b9826c2cbb8e24f810a5607893bd57c4",
+        "Sha256Hash": "1423a0ee09fb53eff9a2570f8e47c3103a9c7c225cbd41d95a88d3bdaad9c021"
+    },
+    {
+        "Bytes": 1726,
+        "BytesHuman": "1.7K",
+        "Directory": "/EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache",
+        "Filename": "LICENSE",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": null,
+        "Md5Hash": "32297eded4c6c97495eda282b9b780b7",
+        "Sha1Hash": "6c9da49858267f91fa10f08ad556f02fdc689e63",
+        "Sha256Hash": "6c1656f3ec7258fcfafe0c3e662ab3070eecddd6158de06dc2800b7f5ca68e42"
+    },
+    {
+        "Bytes": 1239,
+        "BytesHuman": "1.2K",
+        "Directory": "/EvilLicenses.tar.gz/DBAD",
+        "Filename": "license.md",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": null,
+        "Md5Hash": "2c604c8009a9fccacdfff3b9c0dce447",
+        "Sha1Hash": "0a6adc2d9fba17a539cec5cef041043e8f2f4d9a",
+        "Sha256Hash": "068d2889b645b7ceee78f1c9192903ec7b35f76cf7e9a9d0a746bb6ffd527743"
+    },
+    {
+        "Bytes": 11337,
+        "BytesHuman": "11.1K",
+        "Directory": "/EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo",
+        "Filename": "LICENSE",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Apache-2.0",
+                "Percentage": 176
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Apache-2.0",
+                "Percentage": 176
+            }
+        ],
+        "Md5Hash": "b7c8d3deb1875ff017bdffcd9d00aec1",
+        "Sha1Hash": "7ed0eef4f28ac7ed448e4922c07d2bbb3e67b43b",
+        "Sha256Hash": "e8751f74fce0b9d89b41d25c7e7d02cf419d820d647fad0fbe93aeb948d518f1"
+    },
+    {
+        "Bytes": 11733,
+        "BytesHuman": "11.5K",
+        "Directory": "/EvilLicenses.tar.gz/",
+        "Filename": "PocketWarriors-SkywarsPe.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Apache-2.0",
+                "Percentage": 176
+            },
+            {
+                "LicenseId": "ECL-2.0",
+                "Percentage": 126
+            },
+            {
+                "LicenseId": "OCLC-2.0",
+                "Percentage": 73
+            },
+            {
+                "LicenseId": "SISSL-1.2",
+                "Percentage": 72
+            },
+            {
+                "LicenseId": "OSL-2.0",
+                "Percentage": 70
+            },
+            {
+                "LicenseId": "OSL-3.0",
+                "Percentage": 70
+            },
+            {
+                "LicenseId": "NPOSL-3.0",
+                "Percentage": 68
+            },
+            {
+                "LicenseId": "OSL-1.0",
+                "Percentage": 67
+            },
+            {
+                "LicenseId": "OSL-2.1",
+                "Percentage": 67
+            },
+            {
+                "LicenseId": "AFL-2.0",
+                "Percentage": 66
+            },
+            {
+                "LicenseId": "OSL-1.1",
+                "Percentage": 66
+            },
+            {
+                "LicenseId": "AFL-3.0",
+                "Percentage": 65
+            },
+            {
+                "LicenseId": "AFL-2.1",
+                "Percentage": 63
+            },
+            {
+                "LicenseId": "CPOL-1.02",
+                "Percentage": 59
+            },
+            {
+                "LicenseId": "Glide",
+                "Percentage": 56
+            },
+            {
+                "LicenseId": "EUPL-1.0",
+                "Percentage": 56
+            },
+            {
+                "LicenseId": "Zimbra-1.4",
+                "Percentage": 55
+            },
+            {
+                "LicenseId": "CC-BY-ND-2.0",
+                "Percentage": 55
+            },
+            {
+                "LicenseId": "EUPL-1.1",
+                "Percentage": 55
+            },
+            {
+                "LicenseId": "CC-BY-2.0",
+                "Percentage": 55
+            },
+            {
+                "LicenseId": "CC-BY-NC-ND-2.0",
+                "Percentage": 55
+            },
+            {
+                "LicenseId": "CC-BY-NC-ND-2.5",
+                "Percentage": 54
+            },
+            {
+                "LicenseId": "CC-BY-ND-2.5",
+                "Percentage": 54
+            },
+            {
+                "LicenseId": "CC-BY-2.5",
+                "Percentage": 54
+            },
+            {
+                "LicenseId": "YPL-1.0",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "LPL-1.02",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "CC-BY-NC-SA-1.0",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "CC-BY-SA-1.0",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "CC-BY-NC-1.0",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "CC-BY-NC-ND-1.0",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "YPL-1.1",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "Zimbra-1.3",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "CC-BY-ND-1.0",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "Python-2.0",
+                "Percentage": 53
+            },
+            {
+                "LicenseId": "CC-BY-1.0",
+                "Percentage": 53
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": null,
+        "Md5Hash": "3fb5899ef372fb161feae289a5d48f10",
+        "Sha1Hash": "f81b8f90c8b6a758168c4c92b9616895e43c64fa",
+        "Sha256Hash": "2f394250dfc2ded4739b8c248c0de990db13b797db67973bc3c2a8d7d70c6f3e"
+    },
+    {
+        "Bytes": 11733,
+        "BytesHuman": "11.5K",
+        "Directory": "/EvilLicenses.tar.gz/PocketWarriors-SkywarsPe",
+        "Filename": "LICENSE",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "Apache-2.0",
+                "Percentage": 176
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "Apache-2.0",
+                "Percentage": 176
+            }
+        ],
+        "Md5Hash": "3fb5899ef372fb161feae289a5d48f10",
+        "Sha1Hash": "f81b8f90c8b6a758168c4c92b9616895e43c64fa",
+        "Sha256Hash": "2f394250dfc2ded4739b8c248c0de990db13b797db67973bc3c2a8d7d70c6f3e"
+    },
+    {
+        "Bytes": 1080,
+        "BytesHuman": "1.1K",
+        "Directory": "/EvilLicenses.tar.gz/",
+        "Filename": "README.md",
+        "LicenseGuesses": null,
+        "LicenseIdentified": null,
+        "LicenseRoots": null,
+        "Md5Hash": "86c870360764f7e03ae108f0ac2f9946",
+        "Sha1Hash": "febda1bb9303c52ca325511d8b111902e4f6f600",
+        "Sha256Hash": "8457d29d3879dfa41398de66287161f57bf0a352c401e8333c24e46d81732990"
+    },
+    {
+        "Bytes": 30608,
+        "BytesHuman": "29.9K",
+        "Directory": "/EvilLicenses.tar.gz/SSPL",
+        "Filename": "LICENSE-Community.txt",
+        "LicenseGuesses": [
+            {
+                "LicenseId": "AGPL-3.0-or-later",
+                "Percentage": 87
+            }
+        ],
+        "LicenseIdentified": null,
+        "LicenseRoots": [
+            {
+                "LicenseId": "AGPL-3.0-or-later",
+                "Percentage": 87
+            }
+        ],
+        "Md5Hash": "3a865f27f11f43ecbe542d9ea387dcf1",
+        "Sha1Hash": "2efcbac8b5eae6c4a732c5db848bf2eec90f40c8",
+        "Sha256Hash": "09d99ca61eb07873d5334077acba22c33e7f7d0a9fa08c92734e0ac8430d6e27"
+    }
+]

@@ -1,0 +1,35 @@
+[
+	{
+		"project": "/example1.tar.gz/",
+		"matches": [
+			{
+				"license": "BSD-3-Clause",
+				"confidence": 1
+			},
+			{
+				"license": "BSD-3-Clause-No-Nuclear-License",
+				"confidence": 1
+			},
+			{
+				"license": "BSD-3-Clause-No-Nuclear-Warranty",
+				"confidence": 0.99593496
+			},
+			{
+				"license": "BSD-3-Clause-Clear",
+				"confidence": 0.9830508
+			},
+			{
+				"license": "BSD-4-Clause",
+				"confidence": 0.8551402
+			},
+			{
+				"license": "BSD-3-Clause-No-Nuclear-License-2014",
+				"confidence": 0.8411215
+			},
+			{
+				"license": "BSD-Source-Code",
+				"confidence": 0.83886254
+			}
+		]
+	}
+]

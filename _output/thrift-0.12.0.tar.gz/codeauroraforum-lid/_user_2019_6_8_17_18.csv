@@ -1,0 +1,1 @@
+input file path,matched license type,Score using whole input test,Rank based on score,Start line number,End line number,Start byte offset,End byte offset,Score using only the license text portion,Found license text

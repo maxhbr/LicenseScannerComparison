@@ -1,0 +1,38 @@
+[
+  {
+    "files": [
+      "/EvilLicenses.tar.gz/PocketWarriors-SkywarsPe.txt", 
+      "/EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache/LICENSE", 
+      "/EvilLicenses.tar.gz/PocketWarriors-SkywarsPe/LICENSE", 
+      "/EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo/LICENSE"
+    ], 
+    "tag": "Apache-2.0"
+  }, 
+  {
+    "files": [
+      "/EvilLicenses.tar.gz/PocketWarriors-SkywarsPe.txt", 
+      "/EvilLicenses.tar.gz/PocketWarriors-SkywarsPe/LICENSE", 
+      "/EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo/LICENSE"
+    ], 
+    "tag": "Apache-2.0_fulltext"
+  }, 
+  {
+    "files": [
+      "/EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0/LICENSE.txt"
+    ], 
+    "tag": "GPL-1.0+"
+  }, 
+  {
+    "files": [
+      "/EvilLicenses.tar.gz/README.md"
+    ], 
+    "tag": "none"
+  }, 
+  {
+    "files": [
+      "/EvilLicenses.tar.gz/DBAD/license.md", 
+      "/EvilLicenses.tar.gz/SSPL/LICENSE-Community.txt"
+    ], 
+    "tag": "suspiciousLicensey"
+  }
+]

@@ -1,0 +1,75 @@
+# Document Information
+
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+
+
+# Creation Info
+
+Creator: Tool: ScanCode 2.9.2
+Created: 2019-04-21T12:03:04Z
+
+
+# Package
+
+PackageName: example1.tar.gz
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: aaf724a9271ac3e62b0a9baf80a247196e191174
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause-Clear
+PackageLicenseInfoFromFiles: BSD-3-Clause-No-Nuclear-License
+PackageLicenseInfoFromFiles: Sleepycat
+PackageCopyrightText: <text>Copyright (c) 1990-1999 Sleepycat Software.
+Copyright 1994-2009 Sun Microsystems, Inc.
+</text>
+
+
+# File
+
+FileName: ./example1.tar.gz/LICENSE.1
+FileChecksum: SHA1: 35c6027b5448ce9bdeb7dc64bddfaf0cc09ea86f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./example1.tar.gz/LICENSE.2
+FileChecksum: SHA1: 55797fa5cedec81d17f3691c5636a29b5486c073
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause-Clear
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./example1.tar.gz/LICENSE.3
+FileChecksum: SHA1: e8bc30f512f108bbdf888abe175d734e16453145
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause-No-Nuclear-License
+FileCopyrightText: <text>Copyright 1994-2009 Sun Microsystems, Inc.
+</text>
+
+
+# File
+
+FileName: ./example1.tar.gz/LICENSE.4
+FileChecksum: SHA1: 4e8da763c581a90fe5aefcccd3cc042bd917f617
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Sleepycat
+LicenseInfoInFile: Sleepycat
+FileCopyrightText: <text>Copyright (c) 1990-1999 Sleepycat Software.
+</text>
+
+
+# Extracted Licenses
+

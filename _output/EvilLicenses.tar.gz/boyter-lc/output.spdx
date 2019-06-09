@@ -1,0 +1,91 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/Unknown-bfd1ffa9f0441bb078fb9cb5f2bca67c9ed1eb40
+DocumentName: Unknown
+SPDXID: SPDXRef-DOCUMENT
+Creator: Tool: licensechecker 2.0.0
+Created: 2018-12-12T16:13:53Z
+LicenseListVersion: 3.0
+
+PackageName: Unknown
+SPDXID: SPDXRef-Package
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+PackageVerificationCode: 083a9d011accbb2643ba7204307f073b441b50c5
+PackageLicenseDeclared: AGPL-3.0-only
+PackageLicenseConcluded: AGPL-3.0-only
+PackageLicenseInfoFromFiles: NONE
+PackageCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0/LICENSE.txt
+SPDXID: SPDXRef-3223d6e912415d5be840f45ad520810fd2cdff85
+FileChecksum: SHA1: 98709388b9826c2cbb8e24f810a5607893bd57c4
+FileChecksum: SHA256: 1423a0ee09fb53eff9a2570f8e47c3103a9c7c225cbd41d95a88d3bdaad9c021
+FileChecksum: MD5: 9b059fa7e62b3ee2336cd4cf6f32e96a
+LicenseConcluded: AGPL-3.0-only
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache/LICENSE
+SPDXID: SPDXRef-aba46f89f02f8207861fe38be9dc91cedad4cade
+FileChecksum: SHA1: 6c9da49858267f91fa10f08ad556f02fdc689e63
+FileChecksum: SHA256: 6c1656f3ec7258fcfafe0c3e662ab3070eecddd6158de06dc2800b7f5ca68e42
+FileChecksum: MD5: 32297eded4c6c97495eda282b9b780b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/DBAD/license.md
+SPDXID: SPDXRef-c45d6fb563b6ff10691e9ff57b90096db5d0654a
+FileChecksum: SHA1: 0a6adc2d9fba17a539cec5cef041043e8f2f4d9a
+FileChecksum: SHA256: 068d2889b645b7ceee78f1c9192903ec7b35f76cf7e9a9d0a746bb6ffd527743
+FileChecksum: MD5: 2c604c8009a9fccacdfff3b9c0dce447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo/LICENSE
+SPDXID: SPDXRef-c07ebe7f49fd3c58b1d752846a504ae6c126f300
+FileChecksum: SHA1: 7ed0eef4f28ac7ed448e4922c07d2bbb3e67b43b
+FileChecksum: SHA256: e8751f74fce0b9d89b41d25c7e7d02cf419d820d647fad0fbe93aeb948d518f1
+FileChecksum: MD5: b7c8d3deb1875ff017bdffcd9d00aec1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/PocketWarriors-SkywarsPe.txt
+SPDXID: SPDXRef-69ee686e2b5b935ad6e37c559375969fed16e03d
+FileChecksum: SHA1: f81b8f90c8b6a758168c4c92b9616895e43c64fa
+FileChecksum: SHA256: 2f394250dfc2ded4739b8c248c0de990db13b797db67973bc3c2a8d7d70c6f3e
+FileChecksum: MD5: 3fb5899ef372fb161feae289a5d48f10
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/PocketWarriors-SkywarsPe/LICENSE
+SPDXID: SPDXRef-b1ea53f6bf9d8432b8cff2af2afe1ef57dd8916e
+FileChecksum: SHA1: f81b8f90c8b6a758168c4c92b9616895e43c64fa
+FileChecksum: SHA256: 2f394250dfc2ded4739b8c248c0de990db13b797db67973bc3c2a8d7d70c6f3e
+FileChecksum: MD5: 3fb5899ef372fb161feae289a5d48f10
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/README.md
+SPDXID: SPDXRef-7f7f7062f2c9c083a1c96724f382cf6903956918
+FileChecksum: SHA1: febda1bb9303c52ca325511d8b111902e4f6f600
+FileChecksum: SHA256: 8457d29d3879dfa41398de66287161f57bf0a352c401e8333c24e46d81732990
+FileChecksum: MD5: 86c870360764f7e03ae108f0ac2f9946
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//EvilLicenses.tar.gz/SSPL/LICENSE-Community.txt
+SPDXID: SPDXRef-611b334b444388d1ef419f1b22af6330b9dea710
+FileChecksum: SHA1: 2efcbac8b5eae6c4a732c5db848bf2eec90f40c8
+FileChecksum: SHA256: 09d99ca61eb07873d5334077acba22c33e7f7d0a9fa08c92734e0ac8430d6e27
+FileChecksum: MD5: 3a865f27f11f43ecbe542d9ea387dcf1
+LicenseConcluded: AGPL-3.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+

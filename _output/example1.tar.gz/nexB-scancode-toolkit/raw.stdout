@@ -1,0 +1,19 @@
+* Configuring ScanCode for first use...
+[32mSetup plugins...[0m
+[32mCollect file inventory...[0m
+Scan files for: info, licenses, copyrights with 1 process(es)...[0m
+[?25l[--------------------] 0[?25l[--------------------] 1 Scanned: [0m[32mLICENSE.1[0m[?25l[-------------#------] 2 Scanned: [0m[32mLICENSE.2[0m[?25l[-------#------------] 3 Scanned: [0m[32mLICENSE.3[0m[?25l[--#-----------------] 4 Scanned: [0m[32mLICENSE.4[0m[?25l[####################] 4                   [?25h
+[32mScanning done.[0m
+Summary:        info, copyrights, licenses with 1 process(es)[0m
+Errors count:   0[0m
+Scan Speed:     1.88 files/sec. 3.09 KB/sec.[0m
+Initial counts: 5 resource(s): 4 file(s) and 1 directorie(s) [0m
+Final counts:   5 resource(s): 4 file(s) and 1 directorie(s) for 6.58 KB[0m
+Timings:[0m
+  setup_scan:licenses: 83.97s[0m
+  setup: 83.97s[0m
+  scan: 2.13s[0m
+  output:spdx-rdf: 3.22s[0m
+  output:spdx-tv: 3.37s[0m
+  output: 6.59s[0m
+  total: 92.71s[0m

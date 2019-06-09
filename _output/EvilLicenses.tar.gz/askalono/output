@@ -1,0 +1,18 @@
+/EvilLicenses.tar.gz/DBAD/license.md
+Error: Confidence threshold not high enough for any known license
+/EvilLicenses.tar.gz/SSPL/LICENSE-Community.txt
+License: AGPL-3.0-only (original text)
+Score: 0.885
+Aliases: AGPL-3.0-or-later
+/EvilLicenses.tar.gz/CommonsClause/CommonsClause+AGPLv3.0/LICENSE.txt
+License: AGPL-3.0-only (original text)
+Score: 0.978
+Aliases: AGPL-3.0-or-later
+/EvilLicenses.tar.gz/CommonsClause/CommonsClause+Apache/LICENSE
+Error: Confidence threshold not high enough for any known license
+/EvilLicenses.tar.gz/PocketWarriors-SkywarsPe/LICENSE
+License: Apache-2.0 (original text)
+Score: 0.975
+/EvilLicenses.tar.gz/NimbleDroid-FriendlyDemo/LICENSE
+License: Apache-2.0 (original text)
+Score: 0.999

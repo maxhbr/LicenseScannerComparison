@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://spdx.org/rdf/terms#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <ns1:SpdxDocument rdf:about="http://www.spdx.org/tools#SPDXANALYSIS">
+    <ns1:specVersion>SPDX-2.1</ns1:specVersion>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N11dbd79c4e9941c1992e89444c8b2cf5">
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N6f6639ebacef49a78995a71712a1c824">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>35c6027b5448ce9bdeb7dc64bddfaf0cc09ea86f</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./example1.tar.gz/LICENSE.1</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/BSD-3-Clause"/>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N5b160effbd0c4a56ba0f7877a8f20ab8">
+        <ns1:copyrightText>Copyright (c) 1990-1999 Sleepycat Software.
+</ns1:copyrightText>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nc0df5afd03584ba39e23dc4942b46105">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>4e8da763c581a90fe5aefcccd3cc042bd917f617</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./example1.tar.gz/LICENSE.4</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/Sleepycat"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:creationInfo>
+      <ns1:CreationInfo rdf:nodeID="Nf74477b46c9c40248c22e32d12f5b403">
+        <ns1:created>2019-04-21T12:03:00Z</ns1:created>
+        <ns1:creator>Tool: ScanCode 2.9.2</ns1:creator>
+      </ns1:CreationInfo>
+    </ns1:creationInfo>
+    <ns1:dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0"/>
+    <ns1:describesPackage>
+      <ns1:Package rdf:nodeID="N4dc9eb52622d45498066de218ecbcf0e">
+        <ns1:name>example1.tar.gz</ns1:name>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:hasFile rdf:nodeID="N11dbd79c4e9941c1992e89444c8b2cf5"/>
+        <ns1:packageVerificationCode>
+          <ns1:PackageVerificationCode rdf:nodeID="N0e1254aeff984035b374572c7d0bda2d">
+            <ns1:packageVerificationCodeValue>aaf724a9271ac3e62b0a9baf80a247196e191174</ns1:packageVerificationCodeValue>
+          </ns1:PackageVerificationCode>
+        </ns1:packageVerificationCode>
+        <ns1:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/BSD-3-Clause"/>
+        <ns1:hasFile rdf:nodeID="N3889836d636c401289da4c4878bb89e3"/>
+        <ns1:hasFile rdf:nodeID="N5b160effbd0c4a56ba0f7877a8f20ab8"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/BSD-3-Clause-Clear"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/Sleepycat"/>
+        <ns1:copyrightText>Copyright (c) 1990-1999 Sleepycat Software.
+Copyright 1994-2009 Sun Microsystems, Inc.
+</ns1:copyrightText>
+        <ns1:hasFile rdf:nodeID="N0e7739f26a604358aa358f3e9ee09a64"/>
+      </ns1:Package>
+    </ns1:describesPackage>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N3889836d636c401289da4c4878bb89e3">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./example1.tar.gz/LICENSE.2</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/BSD-3-Clause-Clear"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N555460355ab64879b269844cc690d393">
+            <ns1:checksumValue>55797fa5cedec81d17f3691c5636a29b5486c073</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N0e7739f26a604358aa358f3e9ee09a64">
+        <ns1:copyrightText>Copyright 1994-2009 Sun Microsystems, Inc.
+</ns1:copyrightText>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N996963b26c284401a90dee615175bce0">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>e8bc30f512f108bbdf888abe175d734e16453145</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./example1.tar.gz/LICENSE.3</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/BSD-3-Clause-No-Nuclear-License"/>
+      </ns1:File>
+    </ns1:referencesFile>
+  </ns1:SpdxDocument>
+</rdf:RDF>

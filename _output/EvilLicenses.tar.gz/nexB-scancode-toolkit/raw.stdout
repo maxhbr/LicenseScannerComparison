@@ -1,0 +1,20 @@
+* Configuring ScanCode for first use...
+[32mSetup plugins...[0m
+[32mCollect file inventory...[0m
+Scan files for: info, licenses, copyrights with 1 process(es)...[0m
+[?25l[--------------------] 0[?25l[-#------------------] 1 Scanned: [0m[32mPocketWarriors-SkywarsPe.txt[0m[?25l[---------------#----] 2 Scanned: [0m[32mREADME.md[0m                   [?25l[---------#----------] 3 Scanned: [0m[32mLICENSE.txt[0m                 [?25l[------#-------------] 4 Scanned: [0m[32mLICENSE[0m                     [?25l[-----------------#--] 5 Scanned: [0m[32mlicense.md[0m                  [?25l[---------#----------] 6 Scanned: [0m[32mLICENSE[0m                     [?25l[#-------------------] 7 Scanned: [0m[32mLICENSE[0m                     [?25l[----------#---------] 8 Scanned: [0m[32mLICENSE-Community.txt[0m       [?25l[####################] 8                                      [?25h
+[32mScanning done.[0m
+Summary:        info, copyrights, licenses with 1 process(es)[0m
+Errors count:   0[0m
+Scan Speed:     0.50 files/sec. 6.39 KB/sec.[0m
+Initial counts: 16 resource(s): 8 file(s) and 8 directorie(s) [0m
+Final counts:   16 resource(s): 8 file(s) and 8 directorie(s) for 102.90 KB[0m
+Timings:[0m
+  setup_scan:licenses: 186.46s[0m
+  setup: 186.46s[0m
+  inventory: 0.13s[0m
+  scan: 16.10s[0m
+  output:spdx-rdf: 20.02s[0m
+  output:spdx-tv: 3.89s[0m
+  output: 23.93s[0m
+  total: 226.61s[0m

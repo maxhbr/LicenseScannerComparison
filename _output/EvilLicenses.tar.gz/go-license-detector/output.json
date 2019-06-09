@@ -1,0 +1,243 @@
+[
+	{
+		"project": "/EvilLicenses.tar.gz/",
+		"matches": [
+			{
+				"license": "Apache-2.0",
+				"confidence": 1
+			},
+			{
+				"license": "OSL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_GPL-2.0+",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_LGPL-2.0+",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "Zend-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "EPL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "LGPL-2.0-or-later",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "GPL-2.0-or-later",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "Python-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "OCLC-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "ECL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "LGPL-2.0-only",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "ZPL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_GPL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "SimPL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "CECILL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "OLDAP-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_LGPL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "APSL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "GPL-2.0-only",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "MPL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "AFL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "deprecated_eCos-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "EFL-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "JasPer-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "Apache-1.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "Artistic-2.0",
+				"confidence": 0.6666667
+			},
+			{
+				"license": "CLISP-exception-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "Classpath-exception-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "Apache-1.1",
+				"confidence": 0.5
+			},
+			{
+				"license": "CC-BY-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "Autoconf-exception-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "eCos-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "Font-exception-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "OLDAP-2.0.1",
+				"confidence": 0.5
+			},
+			{
+				"license": "SGI-B-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "freertos-exception-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "GCC-exception-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "eCos-exception-2.0",
+				"confidence": 0.5
+			},
+			{
+				"license": "GPL-2.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "bzip2-1.0.6",
+				"confidence": 0.4
+			},
+			{
+				"license": "CC-BY-ND-2.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "bzip2-1.0.5",
+				"confidence": 0.4
+			},
+			{
+				"license": "CC-BY-NC-2.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "u-boot-exception-2.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "GPL-2.0+",
+				"confidence": 0.4
+			},
+			{
+				"license": "CC-BY-SA-2.0",
+				"confidence": 0.4
+			},
+			{
+				"license": "AGPL-3.0-or-later",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_GPL-2.0-with-font-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "MPL-2.0-no-copyleft-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_AGPL-3.0",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_GPL-2.0-with-bison-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_GPL-2.0-with-classpath-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "AGPL-3.0-only",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_GPL-2.0-with-autoconf-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "CC-BY-NC-ND-2.0",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "CC-BY-NC-SA-2.0",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "deprecated_GPL-2.0-with-GCC-exception",
+				"confidence": 0.33333334
+			},
+			{
+				"license": "AGPL-1.0",
+				"confidence": 0.33333334
+			}
+		]
+	}
+]

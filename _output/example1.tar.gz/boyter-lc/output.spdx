@@ -1,0 +1,55 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/Unknown-ade9f61d2e97f531cfb7d0c88aee977d1806e829
+DocumentName: Unknown
+SPDXID: SPDXRef-DOCUMENT
+Creator: Tool: licensechecker 2.0.0
+Created: 2019-04-21T12:01:02Z
+LicenseListVersion: 3.0
+
+PackageName: Unknown
+SPDXID: SPDXRef-Package
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+PackageVerificationCode: aaf724a9271ac3e62b0a9baf80a247196e191174
+PackageLicenseDeclared: (BSD-2-Clause-FreeBSD OR BSD-2-Clause-FreeBSD OR BSD-3-Clause-No-Nuclear-License OR BSD-2-Clause-FreeBSD)
+PackageLicenseConcluded: (BSD-2-Clause-FreeBSD OR BSD-2-Clause-FreeBSD OR BSD-3-Clause-No-Nuclear-License OR BSD-2-Clause-FreeBSD)
+PackageLicenseInfoFromFiles: NONE
+PackageCopyrightText: NOASSERTION
+
+FileName: .//example1.tar.gz/LICENSE.1
+SPDXID: SPDXRef-8cb8cef018e518f59d5e23539243fd629f7d35ea
+FileChecksum: SHA1: 35c6027b5448ce9bdeb7dc64bddfaf0cc09ea86f
+FileChecksum: SHA256: b7b17fe551c9b5a2fed1efc4c9a443da6cd2f52097fa7cfca8b65e8c750c98ac
+FileChecksum: MD5: 415e927ccfa6eeff9f39d07bb2bbcc11
+LicenseConcluded: BSD-3-Clause-No-Nuclear-License AND BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//example1.tar.gz/LICENSE.2
+SPDXID: SPDXRef-bf9201a376af9ff18f67007783c1de5761c09cf5
+FileChecksum: SHA1: 55797fa5cedec81d17f3691c5636a29b5486c073
+FileChecksum: SHA256: cc69d2c1b99a98e6273b5f0e8547676f3e371831a3bba7c0dd161d03e8a58ec3
+FileChecksum: MD5: 827fcf76b362d8d9bcccf417e31dda72
+LicenseConcluded: BSD-3-Clause-No-Nuclear-License AND BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//example1.tar.gz/LICENSE.3
+SPDXID: SPDXRef-0739f31cc174757e3e7f34babf53ba014e6227d4
+FileChecksum: SHA1: e8bc30f512f108bbdf888abe175d734e16453145
+FileChecksum: SHA256: 95a71f231ead39d2fda01f99679d3e017ade614065ec9aebc626fe939c1b0e18
+FileChecksum: MD5: 84a49e3a04748b441b5224b1ae101c1b
+LicenseConcluded: BSD-3-Clause-No-Nuclear-License AND BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//example1.tar.gz/LICENSE.4
+SPDXID: SPDXRef-909a7b3e69dea2b0646eada0da2f0cb61aa27b3a
+FileChecksum: SHA1: 4e8da763c581a90fe5aefcccd3cc042bd917f617
+FileChecksum: SHA256: e2ea987f3971220c46a26404001d548b32c0e7f489defef46260922417b5a55b
+FileChecksum: MD5: 918425485e3ec058ff16e75e36992880
+LicenseConcluded: BSD-3-Clause-No-Nuclear-License AND BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+

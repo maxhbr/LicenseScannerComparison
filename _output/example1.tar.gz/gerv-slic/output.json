@@ -1,0 +1,16 @@
+[
+  {
+    "files": [
+      "/example1.tar.gz/LICENSE.4"
+    ], 
+    "tag": "BSD-2-Clause"
+  }, 
+  {
+    "files": [
+      "/example1.tar.gz/LICENSE.1", 
+      "/example1.tar.gz/LICENSE.2", 
+      "/example1.tar.gz/LICENSE.3"
+    ], 
+    "tag": "BSD-3-Clause"
+  }
+]

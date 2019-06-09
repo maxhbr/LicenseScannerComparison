@@ -11,7 +11,7 @@ FROM debian:jessie
 RUN apt-get update && apt-get install -y wget
 RUN groupadd -r user && useradd --no-log-init -r -m -g user user
 WORKDIR /askalono
-RUN wget https://github.com/amzn/askalono/releases/download/0.2.0/askalono.linux \
+RUN wget https://github.com/amzn/askalono/releases/download/0.3.0/askalono.linux \
  && chmod +x /askalono/askalono.linux
 
 USER user
