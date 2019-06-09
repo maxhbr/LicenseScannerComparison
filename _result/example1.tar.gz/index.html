@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>LicenseScannerComparison</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<style>
+   table { height: 100%; }
+   td { height: 100%; }
+  .match, .contained, .intersection, .notContained { width: 100%; height: 100%; display: block; text-align: center; padding: 0.5em 0; }
+  .match{ background: lightgreen; }
+  .contained{ background: #F5DA81; }
+  .intersection{ background: #FE9A2E; }
+  .notContained{ background: #FA8072; }
+</style>
+</head>
+<body>
+    <a href="../">up</a><br/>
+
+Toggle Scanners:<br/><a class="toggle-vis" data-column="2" href="#">boyter-lc</a> - <a class="toggle-vis" data-column="3" href="#">codeauroraforum-lid</a> - <a class="toggle-vis" data-column="4" href="#">fossology-monk</a> - <a class="toggle-vis" data-column="5" href="#">fossology-nomos</a> - <a class="toggle-vis" data-column="6" href="#">gerv-slic</a> - <a class="toggle-vis" data-column="7" href="#">nexB-scancode-toolkit</a> - <a class="toggle-vis" data-column="8" href="#">ninka</a><hr>
+<table id="maintable" class="display">
+<thead><tr><th>Path</th><th>Expected</th><th>boyter-lc</th><th>codeauroraforum-lid</th><th>fossology-monk</th><th>fossology-nomos</th><th>gerv-slic</th><th>nexB-scancode-toolkit</th><th>ninka</th></tr></thead>
+<tbody>
+
+<tr><td>
+/example1.tar.gz/LICENSE.1</td><td></td><td><div class="" title="BSD-2-Clause-FreeBSD;BSD-3-Clause-No-Nuclear-License">BSD-2-Clause-FreeBSD, BSD-3-Clause-No-Nuclear-License</div></td><td><div class="" title="BSD-3-Clause">BSD-3-Clause</div></td><td><div class="" title=""></div></td><td><div class="" title=""></div></td><td><div class="" title="BSD-3-Clause">BSD-3-Clause</div></td><td><div class="" title="BSD-3-Clause">BSD-3-Clause</div></td><td><div class="" title="spdxBSD3">BSD3</div>
+</td></tr>
+
+<tr><td>
+/example1.tar.gz/LICENSE.2</td><td></td><td><div class="" title="BSD-2-Clause-FreeBSD;BSD-3-Clause-No-Nuclear-License">BSD-2-Clause-FreeBSD, BSD-3-Clause-No-Nuclear-License</div></td><td><div class="" title="BSD-3-Clause-Clear">BSD-3-Clause-Clear</div></td><td><div class="" title=""></div></td><td><div class="" title=""></div></td><td><div class="" title="BSD-3-Clause">BSD-3-Clause</div></td><td><div class="" title="BSD-3-Clause-Clear">BSD-3-Clause-Clear</div></td><td><div class="" title="UNKNOWN">UNKNOWN</div>
+</td></tr>
+
+<tr><td>
+/example1.tar.gz/LICENSE.3</td><td></td><td><div class="" title="BSD-2-Clause-FreeBSD;BSD-3-Clause-No-Nuclear-License">BSD-2-Clause-FreeBSD, BSD-3-Clause-No-Nuclear-License</div></td><td><div class="" title="BSD-3-Clause-No-Nuclear-License">BSD-3-Clause-No-Nuclear-License</div></td><td><div class="" title=""></div></td><td><div class="" title=""></div></td><td><div class="" title="BSD-3-Clause">BSD-3-Clause</div></td><td><div class="" title="BSD-3-Clause-No-Nuclear-License">BSD-3-Clause-No-Nuclear-License</div></td><td><div class="" title="UNKNOWN">UNKNOWN</div>
+</td></tr>
+
+<tr><td>
+/example1.tar.gz/LICENSE.4</td><td></td><td><div class="" title="BSD-2-Clause-FreeBSD;BSD-3-Clause-No-Nuclear-License">BSD-2-Clause-FreeBSD, BSD-3-Clause-No-Nuclear-License</div></td><td><div class="" title="TOSL">TOSL</div></td><td><div class="" title=""></div></td><td><div class="" title=""></div></td><td><div class="" title="BSD-2-Clause">BSD-2-Clause</div></td><td><div class="" title="Sleepycat;Sleepycat">Sleepycat</div></td><td><div class="" title="SleepyCat">SleepyCat</div>
+</td></tr>
+
+</tbody></table>
+
+
+<pre id="fileContent" style="width: 92%; display: block; margin: 20px 2%; padding: 20px 2%; border: solid 3px gray;">Preview: works only when run within a server</pre>
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script type="text/javascript">
+$(document).ready( function () {
+    var table = $('#maintable').DataTable({
+    });
+
+    $('#maintable tbody').on('click', 'tr', function () {
+        var data = table.row( this ).data();
+        $.get('./__'+data[0], function(data, status){
+            $('#fileContent').text(data);
+        });
+    } );
+
+    $('a.toggle-vis').on( 'click', function (e) {
+        e.preventDefault();
+
+        // Get the column API object
+        var column = table.column( $(this).attr('data-column') );
+
+        // Toggle the visibility
+        column.visible( ! column.visible() );
+    } );
+} );
+</script>
+</body>
+</html>
+

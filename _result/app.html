@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>LicenseScannerComparison</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<style>
+   table { height: 100%; }
+   td { height: 100%; }
+  .match, .contained, .intersection, .notContained { width: 100%; height: 100%; display: block; text-align: center; padding: 0.5em 0; }
+  .match{ background: lightgreen; }
+  .contained{ background: #F5DA81; }
+  .intersection{ background: #FE9A2E; }
+  .notContained{ background: #FA8072; }
+</style>
+</head>
+<body>
+    <h1>Artifacts</h1>
+    <a href="/app.html">up</a><br/>
+    <a href="/app.html#file_5.30.tar.xz">file_5.30.tar.xz</a><br/>
+
+    <h1>Result for Artifact</h1>
+
+Toggle Scanners:<br/><a class="toggle-vis" data-column="2" href="#">boyter-lc</a> - <a class="toggle-vis" data-column="3" href="#">codeauroraforum-lid</a> - <a class="toggle-vis" data-column="4" href="#">debian-licensecheck</a> - <a class="toggle-vis" data-column="5" href="#">fossology-monk</a> - <a class="toggle-vis" data-column="6" href="#">fossology-nomos</a> - <a class="toggle-vis" data-column="7" href="#">gerv-slic</a> - <a class="toggle-vis" data-column="8" href="#">google-licenseclassifier</a> - <a class="toggle-vis" data-column="9" href="#">nexB-scancode-toolkit</a> - <a class="toggle-vis" data-column="10" href="#">ninka</a><hr>
+<table id="maintable" class="display">
+    <!-- <thead><tr><th>Path</th><th>Expected</th><th>boyter-lc</th><th>codeauroraforum-lid</th><th>debian-licensecheck</th><th>fossology-monk</th><th>fossology-nomos</th><th>gerv-slic</th><th>google-licenseclassifier</th><th>nexB-scancode-toolkit</th><th>ninka</th></tr></thead> -->
+    <!-- <thead><tr><th>Path</th><th>Expected</th></tr></thead> -->
+<!-- TODO -->
+<tbody>
+</tbody></table>
+
+
+<pre id="fileContent" style="width: 92%; display: block; margin: 20px 2%; padding: 20px 2%; border: solid 3px gray;">Preview: works only when run within a server</pre>
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script type="text/javascript">
+ function handleFile(file) {
+     $.getJSON(file+"/data.json", function(json) {
+         var data = json.rows.map(r => {
+             return [r.mrPath, "" + r.mrExpected.join(", ")].concat(json.scanners.map(s => {
+                 return "bla";
+             }));
+         });
+         var columns = [{title: "Path"}, {title: "Expected"}].concat(json.scanners.map(s => {
+             return { title: s };
+         }));
+
+         console.log(JSON.stringify(data, null, 2));
+         console.log(JSON.stringify(columns, null, 2));
+
+         var table = $('#maintable').DataTable({
+             data: data,
+             columns: columns
+         });
+
+         $('#maintable tbody').on('click', 'tr', function () {
+             var data = table.row( this ).data();
+             $.get(file+'/__'+data[0], function(data, status){
+                 $('#fileContent').text(data);
+             });
+         });
+
+         $('a.toggle-vis').on( 'click', function (e) {
+             e.preventDefault();
+             var column = table.column( $(this).attr('data-column') );
+             column.visible( ! column.visible() );
+         });
+     });
+ }
+
+ $(document).ready( function () {
+     if(window.location.hash) {
+         var file = window.location.hash.substring(1);
+         handleFile(file);
+     }
+ } );
+</script>
+</body>
+</html>
+
