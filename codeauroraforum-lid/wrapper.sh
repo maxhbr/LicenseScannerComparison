@@ -9,7 +9,7 @@ build() {
     gitDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/__lid.git"
     [[ -d $gitDir ]] || git clone https://github.com/codeauroraforum/lid $gitDir
     cd $gitDir
-    git checkout ea560292f1e89dc81b5a010e06df3b96aff923f5
+    git checkout 08d3c181421d80ed17d33ff671aa44088a46a8ed
 
     docker_build_here
 

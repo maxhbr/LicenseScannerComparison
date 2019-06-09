@@ -6,11 +6,10 @@ set -e
 . "$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/common.sh"
 
 scanners=(
-    "benbalter-licensee"
-    "codeauroraforum-lid"
-    # "debian-licensecheck"
-    # "google-licenseclassifier"
-    # "fossa-cli"
+    # "benbalter-licensee" # TODO: dockerfile does not build
+    # "codeauroraforum-lid" # TODO: dockerfile does not build
+    # "debian-licensecheck" # TODO: dockerfile does not build
+    # "google-licenseclassifier" # TODO: transform is broken
     "fossology-nomos"
     "fossology-monk"
     "gerv-slic"
@@ -18,16 +17,17 @@ scanners=(
     "askalono"
     "ninka"
     "nexB-scancode-toolkit"
-    "go-license-detector")
+    # "go-license-detector" # TODO: dockerfile does not build
+)
 
 declare -A SRC
-SRC[zlib-1.2.11.tar.gz]=https://zlib.net/zlib-1.2.11.tar.gz
+# SRC[zlib-1.2.11.tar.gz]=https://zlib.net/zlib-1.2.11.tar.gz
 SRC[time-1.7.tar.gz]=http://ftp.gnu.org/gnu/time/time-1.7.tar.gz
-SRC[libpng-1.6.34.tar.gz]=https://download.sourceforge.net/libpng/libpng-1.6.34.tar.gz
-SRC[file_5.30.tar.xz]=http://http.debian.net/debian/pool/main/f/file/file_5.30.orig.tar.xz
-SRC[adol-c-v2.6.3.tar.gz]=https://gitlab.com/adol-c/adol-c/-/archive/v2.6.3/adol-c-v2.6.3.tar.gz
-SRC[spdx-testfiles-1.0-for-license-list-2.6.tar]=https://github.com/spdx/license-test-files/raw/master/testfiles-1.0-for-license-list-2.6.tar
-# SRC[thrift-0.12.0.tar.gz]='http://www.apache.org/dyn/closer.cgi?path=/thrift/0.12.0/thrift-0.12.0.tar.gz'
+# SRC[libpng-1.6.34.tar.gz]=https://download.sourceforge.net/libpng/libpng-1.6.34.tar.gz
+# SRC[file_5.30.tar.xz]=http://http.debian.net/debian/pool/main/f/file/file_5.30.orig.tar.xz
+# SRC[adol-c-v2.6.3.tar.gz]=https://gitlab.com/adol-c/adol-c/-/archive/v2.6.3/adol-c-v2.6.3.tar.gz
+# SRC[spdx-testfiles-1.0-for-license-list-2.6.tar]=https://github.com/spdx/license-test-files/raw/master/testfiles-1.0-for-license-list-2.6.tar
+# SRC[thrift-0.12.0.tar.gz]='http://apache.lauf-forum.at/thrift/0.12.0/thrift-0.12.0.tar.gz'
 
 datadir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/__data"
 
@@ -39,7 +39,7 @@ calculateSrcDownloadPath() {
 calculateSrcPath() {
     local srcFileName=$1
 
-    srcPath="$(calculateResultPath "$srcFileName")/__/$srcFileName"
+    local srcPath="$(calculateResultPath "$srcFileName")/__/$srcFileName"
     mkdir -p "$(dirname "$srcPath")"
     echo "$srcPath"
 }
@@ -47,7 +47,7 @@ calculateSrcPath() {
 expectationsdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/_expectations"
 calculateExpectationFile() {
     local srcFileName=$1
-    possiblePath="$expectationsdir/${srcFileName}_expectations.csv"
+    local possiblePath="$expectationsdir/${srcFileName}_expectations.csv"
     if [[ -f "$possiblePath" ]]; then
         echo "$possiblePath"
     else
@@ -56,10 +56,10 @@ calculateExpectationFile() {
 }
 
 extractDownloadedTestdata() {
-    srcName=$1
+    local srcName=$1
 
-    archive=$(calculateSrcDownloadPath $srcName)
-    extractedArchive=$(calculateSrcPath $srcName)
+    local archive=$(calculateSrcDownloadPath $srcName)
+    local extractedArchive=$(calculateSrcPath $srcName)
     if [[ ! -d "$extractedArchive" ]]; then
         echo "### extract ..."
         mkdir -p $extractedArchive
@@ -123,6 +123,7 @@ pullAll() {
 # build all images
 build() {
     for scanner in "${scanners[@]}"; do
+        echo "# build for scanner: $scanner"
         wrapper="$ROOT/$scanner/wrapper.sh"
         if [[ -x "$wrapper" ]]; then
             $wrapper build
@@ -142,6 +143,14 @@ saveAll() {
         else
             echo "### already done previously"
         fi
+    done
+}
+
+rmAllImages() {
+    for scanner in "${scanners[@]}"; do
+        echo "## remove $scanner container"
+        image="$(scannerNameToImageName $scanner)"
+        $docker rmi $image
     done
 }
 
