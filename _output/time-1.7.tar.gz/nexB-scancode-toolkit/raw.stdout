@@ -1,0 +1,19 @@
+* Configuring ScanCode for first use...
+[32mSetup plugins...[0m
+[32mCollect file inventory...[0m
+Scan files for: info, licenses, copyrights with 1 process(es)...[0m
+[?25l[--------------------] 0[?25l[--------------------] 1 Scanned: [0m[32mAUTHORS[0m[?25l[-------------#------] 2 Scanned: [0m[32mChangeLog[0m[?25l[--------#-----------] 3 Scanned: [0m[32mconfigure[0m[?25l[--#-----------------] 4 Scanned: [0m[32mconfigure.in[0m[?25l[-#------------------] 5 Scanned: [0m[32mCOPYING[0m     [?25l[-------#------------] 6 Scanned: [0m[32merror.c[0m     [?25l[---------------#----] 7 Scanned: [0m[32mgetopt.c[0m    [?25l[-------------------#] 8 Scanned: [0m[32mgetopt.h[0m    [?25l[------------------#-] 9 Scanned: [0m[32mgetopt1.c[0m   [?25l[------------#-------] 10 Scanned: [0m[32mgetpagesize.h[0m[?25l[---------#----------] 11 Scanned: [0m[32mINSTALL[0m      [?25l[---#----------------] 12 Scanned: [0m[32minstall-sh[0m   [?25l[#-------------------] 13 Scanned: [0m[32mMakefile.am[0m  [?25l[-#------------------] 14 Scanned: [0m[32mMakefile.in[0m  [?25l[-------#------------] 15 Scanned: [0m[32mmdate-sh[0m     [?25l[--------------#-----] 16 Scanned: [0m[32mmkinstalldirs[0m[?25l[-------------------#] 17 Scanned: [0m[32mNEWS[0m         [?25l[-----------------#--] 18 Scanned: [0m[32mport.h[0m       [?25l[-------------------#] 19 Scanned: [0m[32mREADME[0m       [?25l[------------------#-] 20 Scanned: [0m[32mresuse.c[0m     [?25l[-------------#------] 21 Scanned: [0m[32mresuse.h[0m     [?25l[------#-------------] 22 Scanned: [0m[32mstamp-vti[0m    [?25l[--#-----------------] 23 Scanned: [0m[32mtexinfo.tex[0m  [?25l[#-------------------] 24 Scanned: [0m[32mtime.c[0m       [?25l[--#-----------------] 25 Scanned: [0m[32mtime.info[0m    [?25l[-------------#------] 26 Scanned: [0m[32mtime.texi[0m    [?25l[------------------#-] 27 Scanned: [0m[32mversion.c[0m    [?25l[-------------------#] 28 Scanned: [0m[32mversion.texi[0m [?25l[----------------#---] 29 Scanned: [0m[32mwait.h[0m       [?25l[####################] 29                       [?25h
+[32mScanning done.[0m
+Summary:        info, copyrights, licenses with 1 process(es)[0m
+Errors count:   0[0m
+Scan Speed:     1.52 files/sec. 18.00 KB/sec.[0m
+Initial counts: 30 resource(s): 29 file(s) and 1 directorie(s) [0m
+Final counts:   30 resource(s): 29 file(s) and 1 directorie(s) for 343.16 KB[0m
+Timings:[0m
+  setup_scan:licenses: 71.43s[0m
+  setup: 71.44s[0m
+  scan: 19.07s[0m
+  output:spdx-rdf: 2.97s[0m
+  output:spdx-tv: 2.80s[0m
+  output: 5.80s[0m
+  total: 96.32s[0m

@@ -1,0 +1,16 @@
+/time-1.7.tar.gz/COPYING,GPL-1.0+;GPL-2.0+;LGPL-2.0+,GPL-1.0+;GPL-2.0+;LGPL-2.0+
+/time-1.7.tar.gz/Makefile.in,FSFUL,FSFUL
+/time-1.7.tar.gz/configure,FSFUL,FSFUL
+/time-1.7.tar.gz/error.c,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/getopt.c,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/getopt.h,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/getopt1.c,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/install-sh,NTP,NTP
+/time-1.7.tar.gz/mdate-sh,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/resuse.c,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/resuse.h,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/texinfo.tex,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/time.c,GPL-1.0,GPL-1.0
+/time-1.7.tar.gz/time.info,Latex2e,Latex2e
+/time-1.7.tar.gz/time.texi,Latex2e;Latex2e,Latex2e;Latex2e
+/time-1.7.tar.gz/wait.h,GPL-1.0,GPL-1.0

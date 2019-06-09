@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://spdx.org/rdf/terms#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:SpdxDocument rdf:about="http://www.spdx.org/tools#SPDXANALYSIS">
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nbdc4ff8f7b004ec9b1a1a10d0a4e50a9">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N1204a2e7ffcc464cb892ac75d675adea">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>4eec2f371cdea3fa5f96a37b44b200445609bc75</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:fileName>./time-1.7.tar.gz/getopt.c</ns1:fileName>
+        <ns1:copyrightText>Copyright (c) 1987, 88, 89, 90, 91, 92, 93, 94, 95, 1996 Free Software Foundation, Inc.
+</ns1:copyrightText>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Ne9d74b357b1d4ec8aa427f920b8d64e9">
+        <ns1:licenseInfoInFile>
+          <ns1:ExtractedLicensingInfo rdf:nodeID="N3e8b2a4024c34f2e9ea69cd038cfa98c">
+            <ns1:licenseId>LicenseRef-public-domain</ns1:licenseId>
+            <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</rdfs:comment>
+            <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</ns1:extractedText>
+          </ns1:ExtractedLicensingInfo>
+        </ns1:licenseInfoInFile>
+        <ns1:copyrightText>
+</ns1:copyrightText>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N2b758fb5735f494aacbfaf066bb4363d">
+            <ns1:checksumValue>8bc81b299f7f9a483a21ae36c7a5661d832974ef</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./time-1.7.tar.gz/mkinstalldirs</ns1:fileName>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nac51dffbcd344416864cc2e9c60f75c6">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText>Copyright 1991 by the Massachusetts Institute of Technology
+</ns1:copyrightText>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N9bbe872eb74749059373ff66dd66bab8">
+            <ns1:checksumValue>c5c249a2dd763530ae65d28bc1c64bb754cd0750</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseInfoInFile>
+          <ns1:ExtractedLicensingInfo rdf:nodeID="N01ba0e5db8814128bb294e5be5186469">
+            <ns1:licenseId>LicenseRef-mit-old-style-no-advert</ns1:licenseId>
+            <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</ns1:extractedText>
+            <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</rdfs:comment>
+          </ns1:ExtractedLicensingInfo>
+        </ns1:licenseInfoInFile>
+        <ns1:fileName>./time-1.7.tar.gz/install-sh</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N98e712fed5524f9a8e986101333c4a71">
+        <ns1:fileName>./time-1.7.tar.gz/version.c</ns1:fileName>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N7d211adc640a4d9c923fcd91489279b9">
+            <ns1:checksumValue>8093e0e529387817b260523cf90a392fe9d0c209</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N5fed27287339449fb00fdbf8398cf75a">
+        <ns1:fileName>./time-1.7.tar.gz/stamp-vti</ns1:fileName>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N458c40255c0b46b4bbb500c6b3e3bd5c">
+            <ns1:checksumValue>8e5113f6f47ce34e0437c2105441dbb70f01491a</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N27d12297b0314f708fc04c929e8487ec">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N31629fd19748416b97504a1597ac25a2">
+            <ns1:checksumValue>63f77f68e8e90b3e6fdde4be3b585b72a0635bbf</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./time-1.7.tar.gz/configure.in</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N78f95d34fb9045a0b328c3c8e74237ff">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N41549f2958fd4a5684eac031ced5102e">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>075d599585584bb0e4b526f5c40cb6b17e0da35a</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./time-1.7.tar.gz/COPYING</ns1:fileName>
+        <ns1:copyrightText>Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+copyrighted by the Free Software Foundation
+</ns1:copyrightText>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-only"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N49a07db0b3644f109763c09307ed66a8">
+        <ns1:fileName>./time-1.7.tar.gz/wait.h</ns1:fileName>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nbb31964650de4724a091634afb34c296">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>821331ad27b49e2c341d7761bccfd77152b1031d</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText>Copyright (c) 1990 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nba6263a99a0a49e0a67875873d227f42">
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N2cef54046bcd494e87d9fa5ffa99a754">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>bd0ce8678f58293afc2069e6ba9ab42a6c3e23bc</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:fileName>./time-1.7.tar.gz/INSTALL</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N4c94b10279cd4ac293ee38b2f32dc86a">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nade6676ae59f4ed2b508a3974562d9c5">
+            <ns1:checksumValue>712d7f9dfde674283596ae2088550e3ff23ae1ba</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText>Copyright (c) 1990, 91, 92, 93, 96 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:fileName>./time-1.7.tar.gz/time.c</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Ne6006dc33e95493e90056ffc209bbb5c">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText>Copyright 1991, 92, 93, 96 Free Software Foundation, Inc.
+Copyright 1991, 92, 93, 96 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:licenseInfoInFile>
+          <ns1:ExtractedLicensingInfo rdf:nodeID="Na4a26774153044899cc7467e620f822d">
+            <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</ns1:extractedText>
+            <ns1:licenseId>LicenseRef-elib-gpl</ns1:licenseId>
+            <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</rdfs:comment>
+          </ns1:ExtractedLicensingInfo>
+        </ns1:licenseInfoInFile>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N0d4cfce208404f5b8c08283d26df3dfa">
+            <ns1:checksumValue>4c27ef0f772256fe13d386358a5eb6c924536803</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/Latex2e"/>
+        <ns1:fileName>./time-1.7.tar.gz/time.texi</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N88c58d320cfa44999a7c697de827f7fb">
+        <ns1:copyrightText>Copyright (c) 1985, 86, 88, 90, 91, 92, 93, 94, 95, 1996 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:fileName>./time-1.7.tar.gz/texinfo.tex</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nce82d184a19a4efba45e03553087e4c8">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>e3a7d7a426d5b970f53561f73df9929f8d35cc7f</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N0093ed25a11340539b56576fbd6a7233">
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:fileName>./time-1.7.tar.gz/AUTHORS</ns1:fileName>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N36b7526a71804bda8c31d65b488201fa">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>7951f4ceffdb030ec617eddf7bba22523cc1a67f</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nda4f223627374ed4bc82eadc49ced748">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:fileName>./time-1.7.tar.gz/version.texi</ns1:fileName>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nbe7615ec0b9a42febd24fba9fbfc2545">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>73bee64bd2b02dcf6978ec14d8dba9d4e74e2ca7</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:hasExtractedLicensingInfo>
+      <ns1:ExtractedLicensingInfo rdf:nodeID="N456c853ef80d439fb40c560536308044">
+        <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</ns1:extractedText>
+        <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</rdfs:comment>
+        <ns1:licenseId>LicenseRef-elib-gpl</ns1:licenseId>
+      </ns1:ExtractedLicensingInfo>
+    </ns1:hasExtractedLicensingInfo>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N50267bd5c2c4472682f4e1375327d6ff">
+        <ns1:fileName>./time-1.7.tar.gz/port.h</ns1:fileName>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Na367a0c3a45f47f8a40ac506964f44f3">
+            <ns1:checksumValue>966e3dc7bae8b140bedc52d8f3ab3a87f1815656</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0"/>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Na2aae9f103004a75928fb7e808fdfbb8">
+        <ns1:fileName>./time-1.7.tar.gz/resuse.c</ns1:fileName>
+        <ns1:copyrightText>Copyright (c) 1993, 1996 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Na8edcf83b5ed47bbb428c7991ab8b6b7">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>3860d431a5dba8146b119952e4262a4a3eb4b8c6</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N1efbd69d942549b99dce5f0d16c50289">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nd183907dd71c4fb18e6eb34c6e749b93">
+            <ns1:checksumValue>4a972ee2c972e38b502b22837c2513ecc2647339</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./time-1.7.tar.gz/ChangeLog</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N3e32c3381c5f4fde9e37ea939d2181c9">
+        <ns1:fileName>./time-1.7.tar.gz/getopt1.c</ns1:fileName>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText>Copyright (c) 1987, 88, 89, 90, 91, 92, 1993, 1994 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nf8461822733343f4aa7185e2610f06f8">
+            <ns1:checksumValue>177c2f08aad7203fa875ae63c0ec92fbb3c9f600</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N29cc00dc9b4742649958f48c19205e8a">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText>Copyright (c) 1992, 93, 94, 95, 96 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N87a98ac246c947e49c07da218b829738">
+            <ns1:checksumValue>a54a5e0a7321967322e7e71a5f0e23b59f2bbb15</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/FSFUL"/>
+        <ns1:fileName>./time-1.7.tar.gz/configure</ns1:fileName>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Ne44f812d488b4976b6832ae8a9ee45c1">
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./time-1.7.tar.gz/mdate-sh</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:copyrightText>Copyright (c) 1995 Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nec42ea30b0344d00bd9132d74f9bce1c">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>7a4fcb88fd92b03e9dd69f04dba7ed442b33086c</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N24785d6e4aa1438193d6098283b52071">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:fileName>./time-1.7.tar.gz/README</ns1:fileName>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N219a5a20edab4587a174662b2701d124">
+            <ns1:checksumValue>69cfac803ed960fb0d24dc39afa095e408fb845f</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:creationInfo>
+      <ns1:CreationInfo rdf:nodeID="N6e36ae94a12148b4b13554f2c9192c17">
+        <ns1:creator>Tool: ScanCode 2.9.2</ns1:creator>
+        <ns1:created>2019-06-09T19:45:20Z</ns1:created>
+      </ns1:CreationInfo>
+    </ns1:creationInfo>
+    <ns1:specVersion>SPDX-2.1</ns1:specVersion>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N67de9075fb884185baafaeff4cc499ad">
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N89bbef25574b463296afa07422062b2a">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>9a94d3fd8be03e1947b8c43de83211fe4f8ea38c</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./time-1.7.tar.gz/NEWS</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N57168f15d7b643c6858b5e5f5ed4c77b">
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N476038afc7634021b8718d649a3921f8">
+            <ns1:checksumValue>1ef18700b72387bf6322695bb1aec2ca5e18cb00</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./time-1.7.tar.gz/getpagesize.h</ns1:fileName>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Ne055b91e5c2e47fc8d1f01d875ebf03c">
+        <ns1:fileName>./time-1.7.tar.gz/resuse.h</ns1:fileName>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N7516479c12944232bfa9dbc7042981d1">
+            <ns1:checksumValue>fcf57d1f09b29d241d462e044a671e25bbee4173</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:copyrightText>Copyright (c) 1993, 1996 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N0a4a2f7f0e074a5081021be6719e41c8">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:copyrightText rdf:resource="http://spdx.org/rdf/terms#none"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N92ed1670c0f748af8a11a7f936a96265">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>013f7d712aefd2409a2310714257ad77e62ca205</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./time-1.7.tar.gz/Makefile.am</ns1:fileName>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:hasExtractedLicensingInfo>
+      <ns1:ExtractedLicensingInfo rdf:nodeID="N197b11b95d884b32a53022eb54fa4eaf">
+        <ns1:licenseId>LicenseRef-public-domain</ns1:licenseId>
+        <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</ns1:extractedText>
+        <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</rdfs:comment>
+      </ns1:ExtractedLicensingInfo>
+    </ns1:hasExtractedLicensingInfo>
+    <ns1:hasExtractedLicensingInfo>
+      <ns1:ExtractedLicensingInfo rdf:nodeID="N8fd7f74f102243f28f540e90991671c5">
+        <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</rdfs:comment>
+        <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</ns1:extractedText>
+        <ns1:licenseId>LicenseRef-mit-old-style-no-advert</ns1:licenseId>
+      </ns1:ExtractedLicensingInfo>
+    </ns1:hasExtractedLicensingInfo>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Nc2b1f15681dc4b16a1a8495aa6895357">
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nbd5447477d5943ff826763dced132e0c">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>8b548f3a4c3719b30e0a5db65dd53adbda180db0</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText>Copyright (c) 1994, 1995, 1996 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:fileName>./time-1.7.tar.gz/Makefile.in</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/FSFUL"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:hasExtractedLicensingInfo>
+      <ns1:ExtractedLicensingInfo rdf:nodeID="N4fa1c1115ae74ed38920911af6e92b40">
+        <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</rdfs:comment>
+        <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</ns1:extractedText>
+        <ns1:licenseId>LicenseRef-elib-gpl</ns1:licenseId>
+      </ns1:ExtractedLicensingInfo>
+    </ns1:hasExtractedLicensingInfo>
+    <ns1:describesPackage>
+      <ns1:Package rdf:nodeID="N631dc041944242c3b84b72c0cf187874">
+        <ns1:licenseInfoFromFiles>
+          <ns1:ExtractedLicensingInfo rdf:nodeID="Nc6b5ee197c6f4a6883bd7f768cb5ad6c">
+            <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</rdfs:comment>
+            <ns1:licenseId>LicenseRef-mit-old-style-no-advert</ns1:licenseId>
+            <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/mit-old-style-no-advert.yml
+</ns1:extractedText>
+          </ns1:ExtractedLicensingInfo>
+        </ns1:licenseInfoFromFiles>
+        <ns1:licenseInfoFromFiles>
+          <ns1:ExtractedLicensingInfo rdf:nodeID="Nd6319753bbff460aae4a68c57daf2f99">
+            <ns1:licenseId>LicenseRef-elib-gpl</ns1:licenseId>
+            <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</ns1:extractedText>
+            <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</rdfs:comment>
+          </ns1:ExtractedLicensingInfo>
+        </ns1:licenseInfoFromFiles>
+        <ns1:hasFile rdf:nodeID="Na2aae9f103004a75928fb7e808fdfbb8"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:hasFile rdf:nodeID="N50267bd5c2c4472682f4e1375327d6ff"/>
+        <ns1:hasFile rdf:nodeID="N4bb7324bec0e49928800ad1606e275a7"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:hasFile rdf:nodeID="Nbdc4ff8f7b004ec9b1a1a10d0a4e50a9"/>
+        <ns1:hasFile rdf:nodeID="Ne9d74b357b1d4ec8aa427f920b8d64e9"/>
+        <ns1:packageVerificationCode>
+          <ns1:PackageVerificationCode rdf:nodeID="N0209974717e241069deb2890da780049">
+            <ns1:packageVerificationCodeValue>dd5cf0b17bfef4284c6c22471b277de7beac407c</ns1:packageVerificationCodeValue>
+          </ns1:PackageVerificationCode>
+        </ns1:packageVerificationCode>
+        <ns1:hasFile rdf:nodeID="N29cc00dc9b4742649958f48c19205e8a"/>
+        <ns1:hasFile rdf:nodeID="Ne055b91e5c2e47fc8d1f01d875ebf03c"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/GPL-2.0-only"/>
+        <ns1:hasFile rdf:nodeID="N78f95d34fb9045a0b328c3c8e74237ff"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/Latex2e"/>
+        <ns1:copyrightText>Copyright (c) 1985, 86, 88, 90, 91, 92, 93, 94, 95, 1996 Free Software Foundation, Inc.
+Copyright (c) 1987, 88, 89, 90, 91, 92, 1993, 1994 Free Software Foundation, Inc.
+Copyright (c) 1987, 88, 89, 90, 91, 92, 93, 94, 95, 1996 Free Software Foundation, Inc.
+Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+Copyright (c) 1989, 90, 91, 92, 93, 94 Free Software Foundation, Inc.
+Copyright (c) 1990 Free Software Foundation, Inc.
+Copyright (c) 1990, 91, 92, 93, 94, 95, 96 Free Software Foundation, Inc.
+Copyright (c) 1990, 91, 92, 93, 96 Free Software Foundation, Inc.
+Copyright (c) 1991, 92, 93, 96 Free Software Foundation, Inc.
+Copyright (c) 1992, 93, 94, 95, 96 Free Software Foundation, Inc.
+Copyright (c) 1993, 1996 Free Software Foundation, Inc.
+Copyright (c) 1994, 1995, 1996 Free Software Foundation, Inc.
+Copyright (c) 1995 Software Foundation, Inc.
+Copyright 1991 by the Massachusetts Institute of Technology
+Copyright 1991, 92, 93, 96 Free Software Foundation, Inc.
+copyrighted by the Free Software Foundation
+</ns1:copyrightText>
+        <ns1:name>time-1.7.tar.gz</ns1:name>
+        <ns1:hasFile rdf:nodeID="Nac51dffbcd344416864cc2e9c60f75c6"/>
+        <ns1:hasFile rdf:nodeID="N57168f15d7b643c6858b5e5f5ed4c77b"/>
+        <ns1:hasFile rdf:nodeID="Nc2b1f15681dc4b16a1a8495aa6895357"/>
+        <ns1:hasFile rdf:nodeID="Ne6006dc33e95493e90056ffc209bbb5c"/>
+        <ns1:hasFile rdf:nodeID="N88c58d320cfa44999a7c697de827f7fb"/>
+        <ns1:hasFile rdf:nodeID="Nba6263a99a0a49e0a67875873d227f42"/>
+        <ns1:downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:hasFile rdf:nodeID="N4c94b10279cd4ac293ee38b2f32dc86a"/>
+        <ns1:licenseDeclared rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:hasFile rdf:nodeID="N4fb9167914604ed6a1878ccf4cf39628"/>
+        <ns1:hasFile rdf:nodeID="N0093ed25a11340539b56576fbd6a7233"/>
+        <ns1:hasFile rdf:nodeID="Ne0686557e0084f9d80ea7a313f47256a"/>
+        <ns1:hasFile rdf:nodeID="Nda4f223627374ed4bc82eadc49ced748"/>
+        <ns1:hasFile rdf:nodeID="N3e32c3381c5f4fde9e37ea939d2181c9"/>
+        <ns1:hasFile rdf:nodeID="N98e712fed5524f9a8e986101333c4a71"/>
+        <ns1:licenseInfoFromFiles>
+          <ns1:ExtractedLicensingInfo rdf:nodeID="Nd633f0487d954816a2b53a9fc4b9e080">
+            <ns1:licenseId>LicenseRef-public-domain</ns1:licenseId>
+            <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</ns1:extractedText>
+            <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</rdfs:comment>
+          </ns1:ExtractedLicensingInfo>
+        </ns1:licenseInfoFromFiles>
+        <ns1:hasFile rdf:nodeID="Ne44f812d488b4976b6832ae8a9ee45c1"/>
+        <ns1:hasFile rdf:nodeID="N24785d6e4aa1438193d6098283b52071"/>
+        <ns1:hasFile rdf:nodeID="N1efbd69d942549b99dce5f0d16c50289"/>
+        <ns1:hasFile rdf:nodeID="N67de9075fb884185baafaeff4cc499ad"/>
+        <ns1:hasFile rdf:nodeID="N5fed27287339449fb00fdbf8398cf75a"/>
+        <ns1:hasFile rdf:nodeID="N27d12297b0314f708fc04c929e8487ec"/>
+        <ns1:hasFile rdf:nodeID="N0a4a2f7f0e074a5081021be6719e41c8"/>
+        <ns1:hasFile rdf:nodeID="N49a07db0b3644f109763c09307ed66a8"/>
+        <ns1:licenseInfoFromFiles rdf:resource="http://spdx.org/licenses/FSFUL"/>
+      </ns1:Package>
+    </ns1:describesPackage>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N4fb9167914604ed6a1878ccf4cf39628">
+        <ns1:copyrightText>Copyright (c) 1991, 92, 93, 96 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:fileName>./time-1.7.tar.gz/time.info</ns1:fileName>
+        <ns1:licenseInfoInFile>
+          <ns1:ExtractedLicensingInfo rdf:nodeID="N0b075f25b136495d820835d43e6ddad3">
+            <ns1:licenseId>LicenseRef-elib-gpl</ns1:licenseId>
+            <ns1:extractedText>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</ns1:extractedText>
+            <rdfs:comment>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/elib-gpl.yml
+</rdfs:comment>
+          </ns1:ExtractedLicensingInfo>
+        </ns1:licenseInfoInFile>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N96c147f8cc884e878bc3f3905d9044c5">
+            <ns1:checksumValue>f4373161d4e5c152c970000e5cad9e6316060e5f</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="Ne0686557e0084f9d80ea7a313f47256a">
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="N3a21c348c9184c64beed7f85850cfdde">
+            <ns1:algorithm>SHA1</ns1:algorithm>
+            <ns1:checksumValue>97bfd964aae09d71b7fa89bd48b2110cb8d3e12d</ns1:checksumValue>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:copyrightText>Copyright (c) 1990, 91, 92, 93, 94, 95, 96 Free Software Foundation, Inc.
+</ns1:copyrightText>
+        <ns1:fileName>./time-1.7.tar.gz/error.c</ns1:fileName>
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+      </ns1:File>
+    </ns1:referencesFile>
+    <ns1:referencesFile>
+      <ns1:File rdf:nodeID="N4bb7324bec0e49928800ad1606e275a7">
+        <ns1:licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0-or-later"/>
+        <ns1:licenseConcluded rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+        <ns1:checksum>
+          <ns1:Checksum rdf:nodeID="Nea277e3b816f4e76bf43e07281c60ff8">
+            <ns1:checksumValue>512169aaccccc1c0fe20de76af4a5ff347aacc05</ns1:checksumValue>
+            <ns1:algorithm>SHA1</ns1:algorithm>
+          </ns1:Checksum>
+        </ns1:checksum>
+        <ns1:fileName>./time-1.7.tar.gz/getopt.h</ns1:fileName>
+        <ns1:copyrightText>Copyright (c) 1989, 90, 91, 92, 93, 94 Free Software Foundation, Inc.
+</ns1:copyrightText>
+      </ns1:File>
+    </ns1:referencesFile>
+  </ns1:SpdxDocument>
+</rdf:RDF>
