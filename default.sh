@@ -7,7 +7,7 @@ set -e
 
 scanners=(
     # "benbalter-licensee" # TODO: dockerfile does not build
-    # "codeauroraforum-lid" # TODO: dockerfile does not build
+    "codeauroraforum-lid"
     # "debian-licensecheck" # TODO: dockerfile does not build
     # "google-licenseclassifier" # TODO: transform is broken
     "fossology-nomos"
