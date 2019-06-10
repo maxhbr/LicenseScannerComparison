@@ -1,0 +1,18 @@
+/thrift-0.12.0.tar.gz/tutorial/hs/LICENSE
+License: Apache-2.0 (original text)
+Score: 0.961
+/thrift-0.12.0.tar.gz/lib/hs/LICENSE
+License: Apache-2.0 (original text)
+Score: 1.000
+/thrift-0.12.0.tar.gz/LICENSE
+License: Apache-2.0 (original text)
+Score: 0.961
+/thrift-0.12.0.tar.gz/doc/licenses/lgpl-2.1.txt
+License: LGPL-2.1-only (original text)
+Score: 0.999
+Aliases: LGPL-2.1-or-later
+/thrift-0.12.0.tar.gz/NOTICE
+Error: Confidence threshold not high enough for any known license
+/thrift-0.12.0.tar.gz/contrib/fb303/LICENSE
+License: Apache-2.0 (license header)
+Score: 0.814

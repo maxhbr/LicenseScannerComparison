@@ -1,0 +1,2 @@
+/home/mhuber/MINE/licenseScannerComparison/boyter-lc/produce.sh: Zeile 22: calculateResultPathFromOutputPath: Kommando nicht gefunden.
+transformer.hs: /home/mhuber/MINE/licenseScannerComparison/_output/libpng-1.6.34.tar.gz/boyter-lc/output.json/output.json: openFile: inappropriate type (Not a directory)

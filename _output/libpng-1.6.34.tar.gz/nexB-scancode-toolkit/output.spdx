@@ -1,0 +1,4914 @@
+# Document Information
+
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+
+
+# Creation Info
+
+Creator: Tool: ScanCode 2.9.2
+Created: 2019-06-10T08:36:31Z
+
+
+# Package
+
+PackageName: libpng-1.6.34.tar.gz
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 9ec77fc7e0edbbc60b77229900736cc88a1da873
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: Autoconf-exception-2.0
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageLicenseInfoFromFiles: CC0-1.0
+PackageLicenseInfoFromFiles: FSFUL
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: Libpng
+PackageLicenseInfoFromFiles: Libtool-exception
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: Zlib
+PackageLicenseInfoFromFiles: LicenseRef-autoconf-simple-exception
+PackageLicenseInfoFromFiles: LicenseRef-free-unknown
+PackageLicenseInfoFromFiles: LicenseRef-fsf-mit
+PackageLicenseInfoFromFiles: LicenseRef-greg-roelofs
+PackageLicenseInfoFromFiles: LicenseRef-libpbm
+PackageLicenseInfoFromFiles: LicenseRef-pngsuite
+PackageLicenseInfoFromFiles: LicenseRef-public-domain
+PackageLicenseInfoFromFiles: LicenseRef-see-license
+PackageCopyrightText: <text>(c) Copyright 1997 Tom Tanner Test
+(c) Willem van Schaik
+(c) readpng2$ (c) PROGHDRS
+(copyright Willem van Schaik, 1999)
+COPYRIGHT 251 2013,2015 John Cunningham Bowler
+Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+Copyright (c) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (c) 1994 X Consortium
+Copyright (c) 1994-2014 Free Software Foundation, Inc.
+Copyright (c) 1995 Guy Eric Schalnat, Group
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 1995, 1996 Frank J. T. Wojcik
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 1995-2000 Wolf Faust
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1996,1997 Andreas Dilger
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1996-2001, 2003-2015 Free Software Foundation, Inc.
+Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 1996-2015 Free Software Foundation, Inc.
+Copyright (c) 1997-2014 Free Software Foundation, Inc.
+Copyright (c) 1998 Greg Roelofs
+Copyright (c) 1998 Tim Wegner
+Copyright (c) 1998 by Andreas R. Kleinert
+Copyright (c) 1998, 1999 Greg Roelofs
+Copyright (c) 1998, 1999, 2002, 2006, 2008, 2010-2014 Greg Roelofs and Glenn Randers-Pehrson
+Copyright (c) 1998,1999,2002,2006,2008,2010-2014,2017 Greg Roelofs and Glenn Randers-Pehrson
+Copyright (c) 1998-2000 Glenn Randers-Pehrson
+Copyright (c) 1998-2001 Greg Roelofs
+Copyright (c) 1998-2002,2004,2006-2013 Glenn Randers-Pehrson
+Copyright (c) 1998-2002,2004,2006-2014,2016 Glenn Randers-Pehrson
+Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson
+Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1998-2002,2006-2016 Glenn Randers-Pehrson
+Copyright (c) 1998-2006 Glenn Randers-Pehrson.
+Copyright (c) 1998-2007 Greg Roelofs.
+Copyright (c) 1998-2007, 2017 Greg Roelofs.
+Copyright (c) 1998-2007,2017 Greg Roelofs.
+Copyright (c) 1998-2008 Greg Roelofs.
+Copyright (c) 1998-2008, 2017 Greg Roelofs.
+Copyright (c) 1998-2010, 2014-2015, 2017 Greg Roelofs.
+Copyright (c) 1998-2011 Glenn Randers-Pehrson
+Copyright (c) 1998-2014 Glenn Randers-Pehrson
+Copyright (c) 1998-2015 Greg Roelofs.
+Copyright (c) 1998-2017 Glenn Randers-Pehrson
+Copyright (c) 1998-2017 Glenn Randers-Pehrson com com
+Copyright (c) 1999 Greg Roelofs
+Copyright (c) 1999-2002, 2006, 2009, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1999-2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 2000 Cosmin Truta
+Copyright (c) 2000 Marc O. Gloor
+Copyright (c) 2000, Pawel Mrochen
+Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson
+Copyright (c) 2000-2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2000-2008 Adam M. Costello and Cosmin Truta.
+Copyright (c) 2001 Christoph Pfisterer
+Copyright (c) 2001, Laurent
+Copyright (c) 2001-2002, 2006, 2007, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2001-2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 2002 Glenn Randers-Pehrson
+Copyright (c) 2002 Patrick R.L. Welche
+Copyright (c) 2002, 2004, 2006, 2007 Glenn Randers-Pehrson
+Copyright (c) 2002, 2004, 2006, 2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2006, 2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2006, 2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2006, 2009-2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2006, 2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2006-2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2006-2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 2002, 2007, 2009 Glenn Randers-Pehrson and Andrey A. Chernov
+Copyright (c) 2002, 2014 Glenn Randers-Pehrson
+Copyright (c) 2002-2014 Free Software Foundation, Inc.
+Copyright (c) 2003
+Copyright (c) 2003-2014 Free Software Foundation, Inc.
+Copyright (c) 2004 Cosmin Truta.
+Copyright (c) 2004 Simon-Pierre Cadieux.
+Copyright (c) 2004, 2006-2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2004, 2011-2015 Free Software Foundation, Inc.
+Copyright (c) 2004-2005, 2007, 2009, 2011-2015 Free Software Foundation, Inc.
+Copyright (c) 2004-2005, 2007-2008, 2011-2015 Free Software Foundation, Inc.
+Copyright (c) 2004-2005, 2007-2009, 2011-2015 Free Software Foundation, Inc.
+Copyright (c) 2004-2014 Free Software Foundation, Inc.
+Copyright (c) 2004-2015 Free Software Foundation, Inc.
+Copyright (c) 2004-2016 Glenn Randers-Pehrson
+Copyright (c) 2006, 2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 2006, 2014 Glenn Randers-Pehrson
+Copyright (c) 2006,2009,2011,2014 Glenn Randers-Pehrson
+Copyright (c) 2006-11-28 Charles Poynton
+Copyright (c) 2006-2014 Free Software Foundation, Inc.
+Copyright (c) 2007, 2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 2007, 2010-2013 Glenn Randers-Pehrson
+Copyright (c) 2007,2009-2017 Glenn Randers-Pehrson
+Copyright (c) 2007-2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 2008 Vincent Torri
+Copyright (c) 2008, 2014 Glenn Randers-Pehrson
+Copyright (c) 2009, 2010-2013 Glenn Randers-Pehrson
+Copyright (c) 2009-2014 Free Software Foundation, Inc.
+Copyright (c) 2010,2013,2015 Glenn Randers-Pehrson
+Copyright (c) 2010-2013 Glenn Randers-Pehrson
+Copyright (c) 2010-2015 Free Software Foundation, Inc.
+Copyright (c) 2011 Free Software Foundation, Inc.
+Copyright (c) 2011-2013 John Cunningham Bowler
+Copyright (c) 2011-2014 Free Software Foundation, Inc.
+Copyright (c) 2011-2014 Glenn Randers-Pehrson
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Glenn Randers-Pehrson and Christopher M. Wheeler
+Copyright (c) 2013 John Cunningham Bowler
+Copyright (c) 2013,2016 John Cunningham Bowler
+Copyright (c) 2013-2014 Glenn Randers-Pehrson
+Copyright (c) 2013-2017 John Cunningham Bowler
+Copyright (c) 2014 Free Software Foundation, Inc.
+Copyright (c) 2014 Glenn Randers-Pehrson
+Copyright (c) 2014 Glenn Randers-Pehrson and Andrey A. Chernov
+Copyright (c) 2014, 2017 Glenn Randers-Pehrson
+Copyright (c) 2014,2016 Glenn Randers-Pehrson
+Copyright (c) 2014,2017 Glenn Randers-Pehrson
+Copyright (c) 2014-2017 John Cunningham Bowler
+Copyright (c) 2015 John Cunningham Bowler
+Copyright (c) 2015,2016 John Cunningham Bowler
+Copyright (c) 2015,2017 Glenn Randers-Pehrson
+Copyright (c) 2016 Glenn Randers-Pehrson
+Copyright (c) 2016 John Cunningham Bowler
+Copyright (c) 2016-2017 Glenn Randers-Pehrson
+Copyright (c) 2017 Glenn Randers-Pehrson
+Copyright (c) John Bowler, 2013
+Copyright (c) John Bowler, 2016
+Copyright (c) Willem van Schaik, 1999, 2011, 2012 Two
+Copyright 1992-2014 Free Software Foundation, Inc.
+Copyright 1998-2007, Glenn Randers-Pehrson
+Copyright 2000, Willem van Schaik.
+Copyright 2000,2017 Willem van Schaik.
+Copyright 2015 Glenn Randers-Pehrson
+Copyright 2015 The Chromium Authors.
+Copyright 2016 Google Inc.
+Copyright 2017 Glenn Randers-Pehrson
+PNG-file copyright (c) 1999,2015,2017 by Willem van Schaik <willem at schaik.com>
+copyright (c) 1996 Massachusetts Institute of Technology.
+copyright (c) 1999 Glenn Randers-Pehrson.
+copyright (c) 1999,2017 by Willem van Schaik <willem at schaik.com>
+copyright 1995 Guy Eric Schalnat, Group 42, Inc.
+copyright Glenn Randers-Pehrson
+copyrighted by the Free Software Foundation
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/ANNOUNCE
+FileChecksum: SHA1: 7abd18773ddd6375332f5e7cb1c5b54653bcd68b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/CHANGES
+FileChecksum: SHA1: 46fcc67f91e5094b289f44bd2f24c07e45775f41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/CMakeLists.txt
+FileChecksum: SHA1: 9fc8cfe04d0fab5977730d902d51d156db54d1f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2007,2009-2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/INSTALL
+FileChecksum: SHA1: ed7ccec25a7d2a810fb504fb335b7dec7ef94fe8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2006-2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/LICENSE
+FileChecksum: SHA1: be927a27a8ce3da7db949fa682093a1f2437a04f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1998-2000 Glenn Randers-Pehrson
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/Makefile.am
+FileChecksum: SHA1: cc7bea917ec92e6423411fe71d4e2044880082a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2004-2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/Makefile.in
+FileChecksum: SHA1: fa14abe5c0b502a03014db6897ec795d2d8df1a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2014 Free Software Foundation, Inc.
+Copyright (c) 2004-2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/README
+FileChecksum: SHA1: 51e3d26fda32501c4c4d030773c5d3baee6fa297
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/TODO
+FileChecksum: SHA1: c719efa4c30fca60196e2e3e0b5e7d311a78141b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/aclocal.m4
+FileChecksum: SHA1: 02c3d239de32a30729ae2fe5dc57655ee8729ac6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 2002-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1997-2014 Free Software Foundation, Inc.
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 2003-2014 Free Software Foundation, Inc.
+Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1997-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1999-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 1996-2014 Free Software Foundation, Inc.
+Copyright (c) 2009-2014 Free Software Foundation, Inc.
+Copyright (c) 2001-2014 Free Software Foundation, Inc.
+Copyright (c) 2006-2014 Free Software Foundation, Inc.
+Copyright (c) 2004-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/arm/arm_init.c
+FileChecksum: SHA1: ce20be53de7a8622993cf4c9dc88ec71b6ca4e65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014,2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/arm/filter_neon.S
+FileChecksum: SHA1: 648ceb40d3e3468cd2ea18c9cd5792b2c00eecc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014,2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/arm/filter_neon_intrinsics.c
+FileChecksum: SHA1: b06ef0d4f37d5e0dcbec12d44da3843ad9786547
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014,2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/autogen.sh
+FileChecksum: SHA1: 2d808d3acb0d2e146baabd98964de16b775ccd4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/compile
+FileChecksum: SHA1: 03a05e37267c2f1c9fea4f2a6a15f8a7beb91c0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1999-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/config.guess
+FileChecksum: SHA1: 947c8873202b420cdd698aa562cd05ee128197f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-autoconf-simple-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright 1992-2014 Free Software Foundation, Inc.
+Copyright 1992-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/config.h.in
+FileChecksum: SHA1: caf1d3f576fd50905012a2ae4ff62415527edbc4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/config.sub
+FileChecksum: SHA1: 1ed99f2fce4975f55e82b3833baf74fbcd8bdda0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-autoconf-simple-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright 1992-2014 Free Software Foundation, Inc.
+Copyright 1992-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/configure
+FileChecksum: SHA1: af9097554fd89184a28bc03321429e84a19859d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text>Copyright (c) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/configure.ac
+FileChecksum: SHA1: 43a8a0b8765f689520b7aee516225f603bcefcde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2004-2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/README.txt
+FileChecksum: SHA1: 88dbc7b1fc720385fa36fdc320302a0dce5f665a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/arm-neon/README
+FileChecksum: SHA1: 92525a82bf477573819b528ac41df7028a1d506f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/arm-neon/android-ndk.c
+FileChecksum: SHA1: 24b877f394e1368d7c21ce5fc767afc1e3066a01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/arm-neon/linux-auxv.c
+FileChecksum: SHA1: 7730bce31df3acf1936f130619cf1e8782490b4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/arm-neon/linux.c
+FileChecksum: SHA1: 4fad5e8fa1656ff5fa8f9ba636a60502967d9934
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014, 2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/conftest/README
+FileChecksum: SHA1: ea0839e34a5a74d226855b081abfb56d2a58848d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/conftest/pngcp.dfa
+FileChecksum: SHA1: 2a4894fe2536dad21d7076007795f6058a72b0cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright (c) John Bowler, 2016
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/conftest/read.dfa
+FileChecksum: SHA1: e47554a9d0b0b75dd5c7b0617e380b9fa543adf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright (c) John Bowler, 2013
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/conftest/s_read.dfa
+FileChecksum: SHA1: d11a75f8e1508b3f7e3f6f21d323f803c1beec5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright (c) John Bowler, 2013
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/conftest/s_write.dfa
+FileChecksum: SHA1: 2efb2c7e4a70ffdcef97476c8e36e60c1caf779c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright (c) John Bowler, 2013
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/conftest/simple.dfa
+FileChecksum: SHA1: 0c2392fe8a12b0a902306c3d8bb8e02030af656d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright (c) John Bowler, 2013
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/conftest/write.dfa
+FileChecksum: SHA1: 8c492704d9519273e9d7a21dab7e345bb0f86663
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>Copyright (c) John Bowler, 2013
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/examples/README.txt
+FileChecksum: SHA1: e315c7ba7a230e8eb2a36941870a336c3a990646
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/examples/iccfrompng.c
+FileChecksum: SHA1: 970487d7b1a3b8bbd76aaeeacb704c001e72bba8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/examples/pngpixel.c
+FileChecksum: SHA1: a7a3be9c9710901881704f84f2fce9bd47b2634c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/examples/pngtopng.c
+FileChecksum: SHA1: 8b4a22d6ac189d844d3ee4274657fb5788c93b03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/examples/simpleover.c
+FileChecksum: SHA1: 5392575d1250c7c7378dd6baa100fe00403b0098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/COPYING
+FileChecksum: SHA1: 80b6f4fcbc19d7431482cba012e86f587828c1ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: <text>Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+copyrighted by the Free Software Foundation
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE
+FileChecksum: SHA1: aa4b9207aaff26bc16c562d6cd766a9eed49af1e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2008 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.mingw32
+FileChecksum: SHA1: 74bced04f0ed8660ae4f65e6ffd8ca093f0350c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-greg-roelofs
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.sgi
+FileChecksum: SHA1: 523f4132cf544b1a1c5e34a7a6ab360fb0626de6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-greg-roelofs
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.unx
+FileChecksum: SHA1: e8841b5fa045ac1961df5ff1a06a938f66694a7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-greg-roelofs
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.w32
+FileChecksum: SHA1: 0921b2bfd940be672aacd96962aff0e84f059ba7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-greg-roelofs
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/README
+FileChecksum: SHA1: 02f86e926789a6087d52086f3dd73820d58c692f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: Libpng
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/makevms.com
+FileChecksum: SHA1: 8ead3bcc56a8924ad1666c8d5bb7fd33089a9340
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c
+FileChecksum: SHA1: ea1f8627785b1191de5a47226f419037fa8d34d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2007,2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h
+FileChecksum: SHA1: e83bed02ebee4cf55c8b0803f3e1f37aac81e403
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2007 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c
+FileChecksum: SHA1: 2db1c87dc51c88bb37e69538928dd8472f950b56
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2015 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h
+FileChecksum: SHA1: 0efdd9e920094d77451138c74db3e66d0cd3d8b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2008 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c
+FileChecksum: SHA1: 7f83ec62fb36cdaa0f4f90906e4145eb646b9ed0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2007,2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c
+FileChecksum: SHA1: 5987241f8c795fd68f3da65d58b32d602c687b1f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2008, 2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c
+FileChecksum: SHA1: 4d401fbf125c97939894c51ca19b8aff72cf62a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2008, 2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c
+FileChecksum: SHA1: 5a322d3a52b140553d50051861bb4326f7fee69f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2008, 2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c
+FileChecksum: SHA1: 4f5830fc635e0da4ffcb7a9185136d8ac29f7af0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2010, 2014-2015, 2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/toucan.png
+FileChecksum: SHA1: eb87fcfdb655d810716850e54f0f1432c842045b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c
+FileChecksum: SHA1: d4aa730209df030fb8285e37e832f26ec96e3b60
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2007, 2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c
+FileChecksum: SHA1: 956b1a2eb2ea9a5fd7f4ea21142660901f3d8281
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2007, 2017 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h
+FileChecksum: SHA1: cbe350c836efd284a0d5e2ae36974d81d2bcc85e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1998-2007 Greg Roelofs.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/fakepng.c
+FileChecksum: SHA1: 0c0108115bef3ed4acaeb521c60805022d3e4a46
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/gentests.sh
+FileChecksum: SHA1: 03dbf6229f78eb03cb36b13a13cefbbdd6be5a5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/makepng.c
+FileChecksum: SHA1: f84bb9639324a948dc3b97c066a5f0f3dc442773
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>COPYRIGHT 251 2013,2015 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/pngimage.c
+FileChecksum: SHA1: 61b833dc43ce09bdecdf355a4298d5b3079f82cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2015,2016 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/pngstest-errors.h
+FileChecksum: SHA1: 3fe585e94b6272f3ef31134c33e363a55c3abc5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/pngstest.c
+FileChecksum: SHA1: 8cbed963ccbfd655e5d8732fd412e7a0636486c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013-2017 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/pngunknown.c
+FileChecksum: SHA1: 818fd46d36fe8baf86b8d6626d8772c822e71332
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2015,2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c
+FileChecksum: SHA1: 1dfc96cd25df04daf8dd831d3392e0af21e8e7a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014-2017 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/readpng.c
+FileChecksum: SHA1: 9fe8c6818c710b381180f3fc74b98c6f2e449a6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/tarith.c
+FileChecksum: SHA1: c4e061b0703d5440e79b8b103e99f17e17304255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2011-2013 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/libtests/timepng.c
+FileChecksum: SHA1: 4046831570f85a8f1eedfa843c2a59a6cffe3666
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013,2016 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/mips-msa/README
+FileChecksum: SHA1: dbb80ac5f257f1261da0df5fa1812d9414876781
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/mips-msa/linux.c
+FileChecksum: SHA1: 67b4aadcb8e9aee2ed46fc91ef05500a932d14f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/oss-fuzz/Dockerfile
+FileChecksum: SHA1: 942a367add87db6d0b1e6765f45190eabc3d1713
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2016 Google Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/oss-fuzz/README.txt
+FileChecksum: SHA1: 9f87acd8497f075878656ca8fbfa99c9f40befbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2017 Glenn Randers-Pehrson
+copyright Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/oss-fuzz/build.sh
+FileChecksum: SHA1: 96a214c8ee314047357efaff9a89282dc8f6ec43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: <text>Copyright 2017 Glenn Randers-Pehrson
+Copyright 2016 Google Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/oss-fuzz/libpng_read_fuzzer.cc
+FileChecksum: SHA1: a54fef1c5a1cefc11990d86f7b2e8607aaf3a928
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright 2017 Glenn Randers-Pehrson
+Copyright 2015 The Chromium Authors.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/oss-fuzz/libpng_read_fuzzer.options
+FileChecksum: SHA1: 57bf02b7755e40d8452d8ff1e923d6e87af86919
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/oss-fuzz/newcc
+FileChecksum: SHA1: e5eae02853a0edf4a60d0eca8df589e9f0b2315b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright 2017 Glenn Randers-Pehrson
+Copyright 2015 The Chromium Authors.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/oss-fuzz/png.dict
+FileChecksum: SHA1: c003e065c4b6c46017162cd4840b9a006a01739b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/README
+FileChecksum: SHA1: 9935132e7bc6c0bf3b2b7ba6ca72ac07a7550465
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/decoder/README
+FileChecksum: SHA1: 17fb6e22f112598a38cf29c1d3924c00bfd298db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/decoder/makefile
+FileChecksum: SHA1: 2f3d120059cc91aed86e3b120692a8ac8388b256
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/decoder/pngusr.dfa
+FileChecksum: SHA1: e8bdcbfe8d90b4fdc1e734b10ba84f7c9242183e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2010-2013 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/decoder/pngusr.h
+FileChecksum: SHA1: 5192f598e1b3139376cdbe8d5bcaf15b1932b615
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2007, 2010-2013 Glenn Randers-Pehrson
+Copyright 1998-2007, Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/encoder/README
+FileChecksum: SHA1: 078b9724aef5a3ae3bc34447316dbf10cc43bbf6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/encoder/makefile
+FileChecksum: SHA1: 906d39d5b4f878f21bf8aba6280efc53fafcea3d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/encoder/pngusr.dfa
+FileChecksum: SHA1: 3d189f3ddf22a6a827e68f6f9b805675d46e3a99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2010-2013 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/encoder/pngusr.h
+FileChecksum: SHA1: 0e30d8351919cba52f34be882b7c0a7894aad97a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2007, 2010-2013 Glenn Randers-Pehrson
+Copyright 1998-2007, Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/preader/README
+FileChecksum: SHA1: ee3a9f8801af1b51415b5aa4a2680cb30f253640
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/preader/makefile
+FileChecksum: SHA1: 11d3f4452ea039cf190a41738c45f6c7bdb940f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>(c) readpng2$ (c) PROGHDRS
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/preader/pngusr.dfa
+FileChecksum: SHA1: ba654d2d155f4f60f547592e97b613cee798dfe3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2010-2013 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminim/preader/pngusr.h
+FileChecksum: SHA1: b01dbedb42c7e3fc398efa38a5c693a930e767d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2009, 2010-2013 Glenn Randers-Pehrson
+Copyright 1998-2007, Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/README
+FileChecksum: SHA1: d1bc65649023a06731e3efacfdf2ccf99179b5e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-libpbm
+FileCopyrightText: <text>(copyright Willem van Schaik, 1999)
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/makefile.std
+FileChecksum: SHA1: ae5d470bcf34e6616870f73c10a8572220cd30ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/makefile.tc3
+FileChecksum: SHA1: 8bd757f93becdb5c2041fe42be1d377d02d2b990
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/makevms.com
+FileChecksum: SHA1: 8d68446c374b5c0445c241e6560528d4fece58a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.bat
+FileChecksum: SHA1: 2ba0c8f87027f6835cf7b1556b994279b0511b77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.c
+FileChecksum: SHA1: ce130c8d671019f69c11b4c93f8639e7c702f186
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-libpbm
+FileCopyrightText: <text>copyright (c) 1999,2017 by Willem van Schaik <willem at schaik.com>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.sh
+FileChecksum: SHA1: b645e89e070539080135f71944e2725a379c8abe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.bat
+FileChecksum: SHA1: 1208c4c6c3ba80f62569c1feb28410f8e3b6b8d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.sh
+FileChecksum: SHA1: 7c0fac46c19b9c6e51d69d7d230cb247dffc9f86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.bat
+FileChecksum: SHA1: 9b1b81bbe4e5e5af2126bd715aad38f8fa909879
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.c
+FileChecksum: SHA1: 6a616fe869d061cc765382bde81a9cf2bd2d904b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-libpbm
+FileCopyrightText: <text>PNG-file copyright (c) 1999,2015,2017 by Willem van Schaik <willem at schaik.com>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.sh
+FileChecksum: SHA1: d3b25d4bcc92142aa8ef4d71ccf06cd3cd1ad853
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/README
+FileChecksum: SHA1: 94e9f98c303785cec68af9bbd1971abb667a4c6e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-pngsuite
+FileCopyrightText: <text>Copyright (c) Willem van Schaik, 1999, 2011, 2012 Two
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g01.png
+FileChecksum: SHA1: 4d697124b1419a0299fffcbf4503bb98bc1a2400
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g02.png
+FileChecksum: SHA1: d380eae8b61b6340dc6bae011467253195626654
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g04.png
+FileChecksum: SHA1: 2287d3fe66a92551820b3eb158e87b0ecafd3cf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g08.png
+FileChecksum: SHA1: 7c3193bbc607368f73dd3fa5a0444fbde2cab9d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g16.png
+FileChecksum: SHA1: 5f2f4a32def1b3ef5227617893008038cc0b5bfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c08.png
+FileChecksum: SHA1: 7f25cd8e1ff408a547fdab96e7944cfec368538c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c16.png
+FileChecksum: SHA1: 2473562b73be2506e5e8795b004b10a7266d23de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p01.png
+FileChecksum: SHA1: 55a0c2124fba9dd2003ce376c027a788319559b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p02.png
+FileChecksum: SHA1: 260cdec8a872ecf5d4efb7f9dc14ffacbb3bd010
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p04.png
+FileChecksum: SHA1: 0ae965c99fc7427c4f675a599eb0f9e01f66acd0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p08.png
+FileChecksum: SHA1: 60b2020364994ed5e01d997e25333133a14e344b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a08.png
+FileChecksum: SHA1: 79160ecf269c839c03ce2e541cc2c92b1ad61d87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a16.png
+FileChecksum: SHA1: 5bbad927d770d80f9d79f309284d21f783333b13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a08.png
+FileChecksum: SHA1: 4f5409d4a760708013142c1e4cb2643c519b4e18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a16.png
+FileChecksum: SHA1: c84aacf99cb94b1223e439b853db64236e40e2ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g01.png
+FileChecksum: SHA1: de5f0de32e12317fc26d3318498b87f2bab8145a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g02.png
+FileChecksum: SHA1: eb7901e2a9dff6796bd03f703389d7fb281e727b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g04.png
+FileChecksum: SHA1: 4e76c3aeb27467b0a2eaa7f1dcb978c350954fae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn2c16.png
+FileChecksum: SHA1: ba07584e4f100f251094d9e9aa5248917b60f4e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn3p08.png
+FileChecksum: SHA1: 72c1813a311bcce3360697a5ddf2c2cea2d548fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn2c16.png
+FileChecksum: SHA1: 2b2bd9bfe9255633279cd54d74855b1af7bb2dd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn3p08.png
+FileChecksum: SHA1: 0436847937a0f315dd943c22f3e27b5efc420a7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbrn2c08.png
+FileChecksum: SHA1: 9d4b5011aebcbb5db975548ec5320a64ee306f35
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn0g16.png
+FileChecksum: SHA1: 0a089e77f0f9225459f5aa6b3eeacda6d27078a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn3p08.png
+FileChecksum: SHA1: a0e78b37603fe370baafd69e24c215daa383397a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftbyn3p08.png
+FileChecksum: SHA1: 8bbbcf1ce54068908746594ec3f1002b04131d8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n0g08.png
+FileChecksum: SHA1: 0af3d4735c9d80bb92d8967aa579c99cf0fae02a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n2c08.png
+FileChecksum: SHA1: c50281993dae0c9ec3f09556b2b44e97185a12a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n3p08.png
+FileChecksum: SHA1: f0cf8c4469310c641ba564e99d1070703130682a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/pngsuite/ftp1n3p08.png
+FileChecksum: SHA1: dac787fcc6c1b060a52d9de445517087a631d575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/powerpc-vsx/README
+FileChecksum: SHA1: 5272a56f0f1a3d6ebfc5a61ee2954b2ed0c74083
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux.c
+FileChecksum: SHA1: 07767045ace0ec407284ef5b6216ebe3bfcf87d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux_aux.c
+FileChecksum: SHA1: 90260506d9cfaff149827758fde8d8c039733270
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/bad_iCCP.png
+FileChecksum: SHA1: f782598e712e9e6d102169fd00e0f8e7f4cece09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badadler.png
+FileChecksum: SHA1: 3c4c4f941a3a58122eb305b33f89ca3162f843c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badcrc.png
+FileChecksum: SHA1: 071a515faad7e9c792be38d4eea4186b3181f05e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/empty_ancillary_chunks.png
+FileChecksum: SHA1: 6c6a15489c189e64bbd8fd8abef0746db5421052
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_IDAT.png
+FileChecksum: SHA1: bd04b819584620b29834c465880e3349a8371511
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_bKGD_chunk.png
+FileChecksum: SHA1: 96137b6cdf3ff3fbe47aa7aa962c176621e6e849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_cHRM_chunk.png
+FileChecksum: SHA1: bf01d456c1e457e1dddf2d689c5148aecf71521f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_eXIf_chunk.png
+FileChecksum: SHA1: f16c13e34a73205d4b1a8d83f1d2b1971c5fe342
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_gAMA_chunk.png
+FileChecksum: SHA1: 563cec6d3b6e1267287c56a3f8889ca761f56373
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_hIST_chunk.png
+FileChecksum: SHA1: 7d45faf6929b811de1ee12e3f0823298513699c6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iCCP_chunk.png
+FileChecksum: SHA1: 01f9f345c8bb13c0f1985ba1283b572db34f9e29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iTXt_chunk.png
+FileChecksum: SHA1: af39c961734ce6a9c3cb7fce0f86391bd025981d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNK_unsafe_to_copy.png
+FileChecksum: SHA1: 1420b6a5228810b991ebeb4bcb3284fa1b112315
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNk_safe_to_copy.png
+FileChecksum: SHA1: f5269c433bfd606077768b062b530835fb80c020
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pCAL_chunk.png
+FileChecksum: SHA1: d84322784ef7d6d3239eabc1a306b310a1f25a53
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pHYs_chunk.png
+FileChecksum: SHA1: 4272917fff30259a5d50dc7f27d22c72fbe658c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sCAL_chunk.png
+FileChecksum: SHA1: c77040e7287a13d4320d8f38a1dc008e6960eb98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sPLT_chunk.png
+FileChecksum: SHA1: 1e60c6cdbfe1f7041999b0f6c969951930ededf8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sRGB_chunk.png
+FileChecksum: SHA1: 85f9df89c6bd5c8970eab3a40f797d06bfee3968
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sTER_chunk.png
+FileChecksum: SHA1: 21bc7c5ad75223c999531ddace9296511a1d8e22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tEXt_chunk.png
+FileChecksum: SHA1: 64747709fdd20c56ecdf9db407f389893551b945
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tIME_chunk.png
+FileChecksum: SHA1: 47fc51655ab55a184a5c625b5a7665613f031510
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_zTXt_chunk.png
+FileChecksum: SHA1: 41cc17e910fa59f63b7c21f548e6e9f6b48c9a28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8-tRNS.png
+FileChecksum: SHA1: 436de971787459bb7e1d1c529297683b0df487bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8.png
+FileChecksum: SHA1: aa9db9881cc277e9ea18833bbf392338008d3641
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear-tRNS.png
+FileChecksum: SHA1: db0219683cefee6103e9dc9d23a8da82a653fe89
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear.png
+FileChecksum: SHA1: 083e5d0beec5bfc21c84fb81761fa7d85f63907a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB-tRNS.png
+FileChecksum: SHA1: 8ad369dc1b20fe73489c7a6a4ef11cb13463851e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB.png
+FileChecksum: SHA1: 95af4c727313e6d48cf119d385b15051eae42531
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-tRNS.png
+FileChecksum: SHA1: aaa57397c70e036dc22da6eb118dc1e0c490b775
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-1.png
+FileChecksum: SHA1: 0340be04390ad4bce1f8356faa66a613a481ac21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8-tRNS.png
+FileChecksum: SHA1: f09dc95eeeb4b87015db4986052ff587a0e36174
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8.png
+FileChecksum: SHA1: f09dc95eeeb4b87015db4986052ff587a0e36174
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear-tRNS.png
+FileChecksum: SHA1: 3ab23c324eb0a272fa00b2b76a4bae8fac12ba45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear.png
+FileChecksum: SHA1: 3ab23c324eb0a272fa00b2b76a4bae8fac12ba45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB-tRNS.png
+FileChecksum: SHA1: 3ea0174ae4b887cc794c5910af174f774a7ec27e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB.png
+FileChecksum: SHA1: 3ea0174ae4b887cc794c5910af174f774a7ec27e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-tRNS.png
+FileChecksum: SHA1: 9f8a39eefc4ee66a3e0bb20ad31e7583cfd9bbcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-16.png
+FileChecksum: SHA1: 9f8a39eefc4ee66a3e0bb20ad31e7583cfd9bbcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8-tRNS.png
+FileChecksum: SHA1: 19af31eb5b8e9c55698262cae5770b25d07cb820
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8.png
+FileChecksum: SHA1: df6f60b88fd3be4cb4ab3b53f51f1a9964777bf4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear-tRNS.png
+FileChecksum: SHA1: 0a38a5701acfda713f7b78307a95a72fb05d3c0a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear.png
+FileChecksum: SHA1: 189efdb635e57182e3eaac92112127f34ed42014
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB-tRNS.png
+FileChecksum: SHA1: 54d80035ac96276b23205d4f8cf398e7bda9840c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB.png
+FileChecksum: SHA1: 09bad1440ec56d67fd1f529416b8076ea4cc9043
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-tRNS.png
+FileChecksum: SHA1: 4ca3a502a7816722c7c5e2571167470702d7d5eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-2.png
+FileChecksum: SHA1: 6b68bb2d369f3ce4ffbb483ccd0cb9eb0cb4d499
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8-tRNS.png
+FileChecksum: SHA1: 9b9f8b673bc360d0bcfd371fb957454d3c2172a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8.png
+FileChecksum: SHA1: 9df9f476604ef26544e4013414e13192b060b371
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear-tRNS.png
+FileChecksum: SHA1: bf29aef1276d7f1388ee92d79e5c1381e5c61340
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear.png
+FileChecksum: SHA1: 2bdef3e723ad74dd8462d525422734d3996faf0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB-tRNS.png
+FileChecksum: SHA1: 7f4212792c9061e9dcef8c0367ed472d2857f904
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB.png
+FileChecksum: SHA1: c52f1a5128e7686319d1e88d16a3baddc9f5188a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-tRNS.png
+FileChecksum: SHA1: 082ef204a75f3f368f9db2d176e30ca0eadc4b9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-4.png
+FileChecksum: SHA1: 1fa6c381db93e46fabdff4ee4c5c5755f376188e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8-tRNS.png
+FileChecksum: SHA1: 5f41ee9ce4a3bacd1789d61c0b643052d4a1a012
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8.png
+FileChecksum: SHA1: f08fade011ceb60a9980159b77c9bad657e3bfd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear-tRNS.png
+FileChecksum: SHA1: 2d3e3c41dfd639b8cd71c61e9154737973190826
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear.png
+FileChecksum: SHA1: 8bd76561d112694f81033ba28f70b247179051ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB-tRNS.png
+FileChecksum: SHA1: 77fdb7c9b707fbc745416c446d6400b4ee1bc48f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB.png
+FileChecksum: SHA1: c60614d838cbc999098031d9e7d7e269afd1dee6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-tRNS.png
+FileChecksum: SHA1: 81a7d91bf368199c9f07bf4371d3fd5ab3f303c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-8.png
+FileChecksum: SHA1: 22040ab9f3e4db7a5ff8d4d521d0a4ffa72e2ba1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-1.8.png
+FileChecksum: SHA1: d2ccb5bd4267bf0eed325c093ee18bb026fe54ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-linear.png
+FileChecksum: SHA1: 2d9f79eb1d14c8ad221e263ed3b70e880bc3663b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-sRGB.png
+FileChecksum: SHA1: 2303680ddbbf1c6ceb0e9492e4e162b6e784e7f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16.png
+FileChecksum: SHA1: d43cc82d52d422936a42f2c3d33db9e8a71ab9af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-1.8.png
+FileChecksum: SHA1: 7b7ae7e43a53a2a96bea6853ca5f69cf3ff08950
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-linear.png
+FileChecksum: SHA1: dc3f170a3dce2593af7beaf79f6634e1c44b1035
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-sRGB.png
+FileChecksum: SHA1: a22ecae2e02f911f09697b5afac042d23357410a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8.png
+FileChecksum: SHA1: d05e556e8189b4834e26a93790b3d478ad52dbd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/makepngs.sh
+FileChecksum: SHA1: 0bbbb2157a653dc6b9e48f9e66dff641666d2348
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2015 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8-tRNS.png
+FileChecksum: SHA1: aa3f048ad3d390b7ef5c1d988640d2fd878993af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8.png
+FileChecksum: SHA1: 0a0011596bdaabd927ca1eadd7e48641cd6ee9e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear-tRNS.png
+FileChecksum: SHA1: 9762859eabf49ab49f12309ad16f6ad6d77c384b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear.png
+FileChecksum: SHA1: 42d1e7f317b6f746a723c777225d433d9e79d73b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB-tRNS.png
+FileChecksum: SHA1: 47b84075090c782fe930d2058ad337c864e2b1f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB.png
+FileChecksum: SHA1: 67417195bc744a2160c535f0d348759ceca963f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-tRNS.png
+FileChecksum: SHA1: 953f4fa30f701194ab02fc5f0f885e65927ac8d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-1.png
+FileChecksum: SHA1: e5d2526f0bf7b21b87b1b793756288af75f7af70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8-tRNS.png
+FileChecksum: SHA1: ed558f2de68934de7539b7bec8a35e6b3a67915f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8.png
+FileChecksum: SHA1: 554cd6019ab1afc13df719d883ce7c1623a36b7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear-tRNS.png
+FileChecksum: SHA1: 48694ebf6005b82310dfdb3793d37bef73e87711
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear.png
+FileChecksum: SHA1: f5993468a217eb9cdb173c7fea97b1feeb270b0c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB-tRNS.png
+FileChecksum: SHA1: b7e2582bbc6c1b873d7107da2d0ef02f1ff4eecb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB.png
+FileChecksum: SHA1: 4e205f1784f774ece62192803657630a8ba5fedd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-tRNS.png
+FileChecksum: SHA1: e933c860f04f5d76ca2e5a64cf220c3a656abf34
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-2.png
+FileChecksum: SHA1: 4d74dad6e1db4e0873f990e22256446110b346f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8-tRNS.png
+FileChecksum: SHA1: b7c4712a096aa6cbaf3a0db7f8f30f134317d3b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8.png
+FileChecksum: SHA1: cf65cad35a19bc0bc3fcdd168f93fae19eb073e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear-tRNS.png
+FileChecksum: SHA1: 43f87c8fc1ecfc605aa4629b68615cb57dfca447
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear.png
+FileChecksum: SHA1: 1a01ef23bff8e6867f0a3fdc8aef57894dda0849
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB-tRNS.png
+FileChecksum: SHA1: 0b6b2328b192055f213eeb9224319ea0fba0fb5e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB.png
+FileChecksum: SHA1: 133c39027854a51ec1f1c35f124d0fcd52b33f4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-tRNS.png
+FileChecksum: SHA1: 7d961b942cb5c9ab1402411c6e4f30d127607c70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-4.png
+FileChecksum: SHA1: a448b05bf7788228eb23e0d14cae31863a42e88e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8-tRNS.png
+FileChecksum: SHA1: 57dc89d43857a0898edf25db886e89680abe9e83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8.png
+FileChecksum: SHA1: 21c80487d1147554bd34a7ad67774d0b6a206c4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear-tRNS.png
+FileChecksum: SHA1: 3eb032c82fc71bdaff4de70cb75f288db9e1dd9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear.png
+FileChecksum: SHA1: 937f479331b9cdfb230394147d293d63d6eaf624
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB-tRNS.png
+FileChecksum: SHA1: b1d7f4a246591e19b4cc00409a3579a32ee8853d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB.png
+FileChecksum: SHA1: 5ae852b6252511862d55a7983c999a9dcc888b4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-tRNS.png
+FileChecksum: SHA1: c9517020d64e771c603c60e07d3b577120d5085d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/palette-8.png
+FileChecksum: SHA1: da6f9cdfaf752e699f99db3b2585a72398a0e582
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8-tRNS.png
+FileChecksum: SHA1: b5f32eb3a02ab2212729d149e464ca4601261355
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8.png
+FileChecksum: SHA1: b5f32eb3a02ab2212729d149e464ca4601261355
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear-tRNS.png
+FileChecksum: SHA1: f946178d735c5f4469fa1959dc0d3f7880dc865d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear.png
+FileChecksum: SHA1: f946178d735c5f4469fa1959dc0d3f7880dc865d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB-tRNS.png
+FileChecksum: SHA1: f6e04592e0598c8779fd78a01e7769e006496ba3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB.png
+FileChecksum: SHA1: f6e04592e0598c8779fd78a01e7769e006496ba3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-tRNS.png
+FileChecksum: SHA1: b6c3952258fdf3fb6b35222c82cf1866f515d791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16.png
+FileChecksum: SHA1: b6c3952258fdf3fb6b35222c82cf1866f515d791
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8-tRNS.png
+FileChecksum: SHA1: 7ca87bb3355472da8579e42429e69ac987ab6e8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8.png
+FileChecksum: SHA1: 289ec20922098ca5b8d0f8ebd90e86d91fbdfbd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear-tRNS.png
+FileChecksum: SHA1: 7be75cae6bf25456eba9e636afdbadaa55c05186
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear.png
+FileChecksum: SHA1: 64c0cbec74b4684c0ae64f5d245749332cccb9df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB-tRNS.png
+FileChecksum: SHA1: 09c1dc1bc454b5a4bb8f7e99e2a3ae4d95ded797
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB.png
+FileChecksum: SHA1: 0c01ac27e35e7848da3be1c3ee28a70d4da47c99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-tRNS.png
+FileChecksum: SHA1: b5c6afd6517042b5636f8364b14af96ea8b1cf3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8.png
+FileChecksum: SHA1: 199dc95e73eec3ed863a56261423aa1c1864e247
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-1.8.png
+FileChecksum: SHA1: 969e352c59c29b95adeb00216f16e5dd35f5f288
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-linear.png
+FileChecksum: SHA1: 2c49905f4b685ea6e738767d09f0b0a55cab8252
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-sRGB.png
+FileChecksum: SHA1: 27f3b93b43258d25a6299bb0c8d363cf5623010a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16.png
+FileChecksum: SHA1: b130e9d61e5aa917a1541acf2d692fec32bf1212
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-1.8.png
+FileChecksum: SHA1: 66361f8ec26eaa7f59984b3ef0d0edf454e90c26
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-linear.png
+FileChecksum: SHA1: 86077179bedd0a0b3293d37773814348930f9d40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-sRGB.png
+FileChecksum: SHA1: f45facfcaeedd6a3a047e6b0fef44bc6ad4b4e9b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8.png
+FileChecksum: SHA1: 62cabb24ed09c81a518366b745d97ba1674f042c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/README.txt
+FileChecksum: SHA1: 71b3a46dd30cee5ab919e2238c7bb9720d0ebed5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/checksum-icc.c
+FileChecksum: SHA1: 7b49c98e1b273f5089e65acb21b77de812ad40c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/chkfmt
+FileChecksum: SHA1: 0783067985b83667e288186e1ba1e432b9f2dde9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/cvtcolor.c
+FileChecksum: SHA1: b1a6a9f1292d972673b3c3042177d331d616fde3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/genpng.c
+FileChecksum: SHA1: b9855b5078c3eb7ed4b8191deedf4a5b0952cc31
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/intgamma.sh
+FileChecksum: SHA1: d2dcb39602d6c2f240387212383a2c1367af7255
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/makesRGB.c
+FileChecksum: SHA1: f41f19317320a9ce4a456678f8721b003501fa00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/png-fix-itxt.c
+FileChecksum: SHA1: 893aecee883dfefcaf29b32c1b50f81506c61433
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright 2015 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/pngcp.c
+FileChecksum: SHA1: 560d712c1aac93635fa179e1466767bdefd00569
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/pngfix.c
+FileChecksum: SHA1: 3a774a1ff223725f7435ae65738db4da8c2f4fba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014-2017 John Cunningham Bowler
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/reindent
+FileChecksum: SHA1: 8c3cf9a97a6f2fb30703d0f11e7a9fd385a72ef4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/tools/sRGB.h
+FileChecksum: SHA1: a4f561dc8ba7c1cad15f706e0d7150961fdb21eb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/PngFile.c
+FileChecksum: SHA1: ebc9d005101505e8d694fcfd9fee8d81a0a3bf13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright 2000,2017 Willem van Schaik.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/PngFile.h
+FileChecksum: SHA1: ee2d12fa868696d3fd072e06c132d8c9b83e9bfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright 2000, Willem van Schaik.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/README.txt
+FileChecksum: SHA1: efe97e67b22e25fe97d103c8b0d21deb958bc1e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright 2000, Willem van Schaik.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.c
+FileChecksum: SHA1: 3e351df1ddd91a168de31093f350b2aaffc452ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright 2000,2017 Willem van Schaik.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.dsp
+FileChecksum: SHA1: 00321ccff6276bd30b18cc3c9fe20983353fca38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.dsw
+FileChecksum: SHA1: 809e6f67975c78476bb26c1aa532b101b9f53d6f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.ico
+FileChecksum: SHA1: fe1248d841bdc76ed503e3b6d53a8fe55dddc406
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.png
+FileChecksum: SHA1: a864f5c401c1e9c6ac6f5f9e26d201493a6a37e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.rc
+FileChecksum: SHA1: fbacb09a5c4342b911da7e3ee684b8bc7b53bd47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>(c) Willem van Schaik
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/cexcept.h
+FileChecksum: SHA1: d5a31f5a8380691803c1e4ddc64427badf346ad3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) 2000-2008 Adam M. Costello and Cosmin Truta.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/contrib/visupng/resource.h
+FileChecksum: SHA1: 492e24f69e86b34a6e934b78e56bb82c7926ce05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/depcomp
+FileChecksum: SHA1: 44f711c72acb3fb13ece5b665aaf9d6449ad2574
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1999-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/example.c
+FileChecksum: SHA1: 6aeabbb6a2cdda576cd8c901c0c1db7ce7bafc8c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+LicenseInfoInFile: LicenseRef-public-domain
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/install-sh
+FileChecksum: SHA1: b99fec102eb24bffd53ab61fc30d59e810f116a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: X11
+LicenseInfoInFile: LicenseRef-public-domain
+FileCopyrightText: <text>Copyright (c) 1994 X Consortium
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/intel/filter_sse2_intrinsics.c
+FileChecksum: SHA1: 4414aa5ac0c7f42cd2dc0f115f6b247108c3f00d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016-2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/intel/intel_init.c
+FileChecksum: SHA1: 41d79b60c0e1b65a5f24ea31a3ef0ec796cc89bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016-2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/libpng-config.in
+FileChecksum: SHA1: 5616701f8ecc3fde42848332e519d620c18116a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2004, 2006, 2007 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/libpng-manual.txt
+FileChecksum: SHA1: 8c80bd82ea1d2e46964fa67b7e79362d3d7aa041
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: LicenseRef-see-license
+FileCopyrightText: <text>Copyright (c) 1998-2017 Glenn Randers-Pehrson
+Copyright (c) 1998-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 1995, 1996 Frank J. T. Wojcik
+Copyright (c) 2006-11-28 Charles Poynton
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/libpng.3
+FileChecksum: SHA1: 38ee76bc1496bd4d6174b9e52e092bd048039a69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: LicenseRef-see-license
+FileCopyrightText: <text>Copyright (c) 1998-2017 Glenn Randers-Pehrson
+Copyright (c) 1998-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 1995, 1996 Frank J. T. Wojcik
+Copyright (c) 2006-11-28 Charles Poynton
+Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1998-2000 Glenn Randers-Pehrson
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/libpng.pc.in
+FileChecksum: SHA1: da52c306b55c2db6619ab6aceedb75a012c9cb08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/libpngpf.3
+FileChecksum: SHA1: 581fe4195e8cc5fb8cc84b8a69f5b9172651fbef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/ltmain.sh
+FileChecksum: SHA1: 6871957156b07ae46e5f75da9510a56c79b45c76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: Libtool-exception
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text>Copyright (c) 1996-2015 Free Software Foundation, Inc.
+Copyright (c) 2004-2015 Free Software Foundation, Inc.
+Copyright (c) 2010-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/mips/filter_msa_intrinsics.c
+FileChecksum: SHA1: 91761bddcfe51d1371d8265a835f5c04b2e90f8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/mips/mips_init.c
+FileChecksum: SHA1: f2ef93691abca011f7fdb59d9d90036edf2f964f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/missing
+FileChecksum: SHA1: fced81554799feb0f10fb56e3a06acb92c7ce7b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1996-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/png.5
+FileChecksum: SHA1: 597086f758211eee8e46bc4757c347f1310e3cf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) 1998-2006 Glenn Randers-Pehrson.
+Copyright (c) 2003
+copyright (c) 1999 Glenn Randers-Pehrson.
+copyright (c) 1996 Massachusetts Institute of Technology.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/png.c
+FileChecksum: SHA1: 90a16ca688b53230f8636dae899a34090ee8dd8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/png.h
+FileChecksum: SHA1: c4bdfe55e4d8a5b1183c5481c740c6b57d86ee94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 2000-2002, 2004, 2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1998-2000 Glenn Randers-Pehrson
+Copyright (c) 1996-1997 Andreas Dilger
+Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngbar.jpg
+FileChecksum: SHA1: a84c0b3e7b148977ef1c46d9f2c1fa6e7ac78838
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngbar.png
+FileChecksum: SHA1: c9877a11ae09a9300f34d227a0e44269a835a279
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngconf.h
+FileChecksum: SHA1: 9808b6c4b667f3b6b9b7f7d1774443fc1881b0b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngdebug.h
+FileChecksum: SHA1: 133e6f9598ecc33dc2c85e1eb64fdca4ee8899cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2013 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngerror.c
+FileChecksum: SHA1: 1f6dcc8571eec64d5bd87e3e93f09cf601cabbc6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngget.c
+FileChecksum: SHA1: ec16ac6ac2fbaf4c791578af19b4abfcc5486929
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pnginfo.h
+FileChecksum: SHA1: 532c1c127fa22f3599b75512ee464d1c33055b82
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2013 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngmem.c
+FileChecksum: SHA1: e1cad89073d95cda7646f2d833fd9c8e99683f12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2014,2016 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngnow.png
+FileChecksum: SHA1: 45ffc9b4e43dca8f576ea1862c666294f179922d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngpread.c
+FileChecksum: SHA1: 4c859ae070b39a6c4c1c8bb2e8772aac0ab93014
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngpriv.h
+FileChecksum: SHA1: d50912c31d245c08ea343f99913ebec75d676a9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngread.c
+FileChecksum: SHA1: a26440eeee8d7e7810ba84cb4af13055c9c11954
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngrio.c
+FileChecksum: SHA1: 4d9f9d9f7411daada3d4e85d3a056b05d3b7a2e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngrtran.c
+FileChecksum: SHA1: 484046c83dbdc7d9a730b0689d577715db793b28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngrutil.c
+FileChecksum: SHA1: 9e336a53904229808f2bc6a0ef38e3887af667c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngset.c
+FileChecksum: SHA1: 0b147bdb8206be63f4a3bac807e75d5d7850d2a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngstruct.h
+FileChecksum: SHA1: 594c126ce4d744293497b9f300db15a25f5ae074
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngtest.c
+FileChecksum: SHA1: 04329b8e584cddabdcc3f72014a23522497a423d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngtest.png
+FileChecksum: SHA1: dba28327275e2868994e7f2f6279cb9b3916f1ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngtrans.c
+FileChecksum: SHA1: ac886fa9e16916f15a80fc9d0ff50f9bc16bf774
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngusr.dfa
+FileChecksum: SHA1: 329a745fb27c029346d7fc567d1b718a8ea8a58b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngwio.c
+FileChecksum: SHA1: 930e22ec028d0bec9c8d0597e4550a1a6f370f2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2014,2016 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngwrite.c
+FileChecksum: SHA1: dc5377e3deea3c00e83b045801372e0ac0894a5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngwtran.c
+FileChecksum: SHA1: 5118ee0e15c4dadc97741c79de6116bdb8a26961
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2016 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/pngwutil.c
+FileChecksum: SHA1: 50c7a36877584b6481950fbc3552c899554f3936
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2002,2004,2006-2017 Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995, 1996 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/powerpc/filter_vsx_intrinsics.c
+FileChecksum: SHA1: 83762523c2fa5dd6a4e451ddfc2a19a791eebfab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/powerpc/powerpc_init.c
+FileChecksum: SHA1: e9a74a2bbc5ae7b63b285fa37044d63c187176d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/owatcom/libpng.tgt
+FileChecksum: SHA1: 416b3bdee8354edb24705f1010840e2a87c4f757
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/owatcom/libpng.wpj
+FileChecksum: SHA1: b17432f55017e6af164575b31ca2abe8406811cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/owatcom/pngconfig.mak
+FileChecksum: SHA1: b1a657a2bf4c9158e8d04e72dde5f03bcdddddaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/owatcom/pngstest.tgt
+FileChecksum: SHA1: e14106458533ac6fd58c895891943ffd504e3b6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/owatcom/pngtest.tgt
+FileChecksum: SHA1: d0a1b3e4f52ff20c2806976f94f708c5abec1b00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/owatcom/pngvalid.tgt
+FileChecksum: SHA1: 719c40b72c1dfe0d45c27d9d68991b064f26c429
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/visualc71/PRJ0041.mak
+FileChecksum: SHA1: ee17b9a0f37622fbff17a0c711c7caece7dc67aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/visualc71/README.txt
+FileChecksum: SHA1: 54a62990c9f1fb45369eab5113ade21927487409
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: LicenseRef-see-license
+FileCopyrightText: <text>Copyright (c) 2004 Simon-Pierre Cadieux.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/visualc71/README_zlib.txt
+FileChecksum: SHA1: 80eb089900e698ef69608233d4b30d43af49160f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+LicenseInfoInFile: Zlib
+FileCopyrightText: <text>Copyright (c) 2004 Simon-Pierre Cadieux.
+Copyright (c) 2004 Cosmin Truta.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/visualc71/libpng.sln
+FileChecksum: SHA1: 72a2648e8d4f5166b43986653520e86ea2f96103
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/visualc71/libpng.vcproj
+FileChecksum: SHA1: 545fe77f888db0ae8a3b87133dea8139ca130939
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/visualc71/pngtest.vcproj
+FileChecksum: SHA1: 0f3bf7da371d47cc7c4dca5496121e62ba7c5163
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/visualc71/zlib.vcproj
+FileChecksum: SHA1: 4de716c61d3bad4cd8e8e6d852b93c2036cb9a0d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/README.txt
+FileChecksum: SHA1: 2290d0b41c4a0eb95c8852a660a4a4989f03c016
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2010,2013,2015 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/libpng/libpng.vcxproj
+FileChecksum: SHA1: c022f17bea3e89a349f62db0e51b9ed438ae1c9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/pnglibconf/pnglibconf.vcxproj
+FileChecksum: SHA1: c0ff6c84e6af039f69f5c55263220ff76df0e00c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/pngstest/pngstest.vcxproj
+FileChecksum: SHA1: 574a4f2fa6e945b705de986413220d5edab50414
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/pngtest/pngtest.vcxproj
+FileChecksum: SHA1: 08dcb4e8a3e6dc701a031862d3596f7aea51e62a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/pngunknown/pngunknown.vcxproj
+FileChecksum: SHA1: 1186bf14ef81f3da81fb32ecefe7edefbc48a275
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/pngvalid/pngvalid.vcxproj
+FileChecksum: SHA1: c4bb237174da791a948099fada10b4c7e1f9e725
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/vstudio.sln
+FileChecksum: SHA1: 338366865cc51e8551f6857bf2971b2db7c54691
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/zlib.props
+FileChecksum: SHA1: bf950640dd38248495725be2dcf9a403152566f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2011 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/projects/vstudio/zlib/zlib.vcxproj
+FileChecksum: SHA1: 55efd26d3233acfc66add87e8801f6159b49ae28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/README.txt
+FileChecksum: SHA1: b8d5ca6da66ff28378fcf643214cfeff9eb65320
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/SCOPTIONS.ppc
+FileChecksum: SHA1: 74171e1606520551725efbc693eecd8dbd614988
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/checksym.awk
+FileChecksum: SHA1: 1eadaf67b26979d7892188ad4cfb9b98001d577d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/def.c
+FileChecksum: SHA1: f5fcf45a8accb5ad2688ee607ff9bc3b4e34d1f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2011-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/descrip.mms
+FileChecksum: SHA1: 2b6c858f4b009fe17c737f49168f87126cdf34a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/dfn.awk
+FileChecksum: SHA1: 36333b6a3474bfcb9fa1e1fe7bfb4f9b8b7ca02c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/genchk.cmake.in
+FileChecksum: SHA1: 2d5653245cd887f432e7c58b83e16e514d1fc1dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/genout.cmake.in
+FileChecksum: SHA1: f88651a64966bb0d2dc5f0316d01a717ae493c48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/gensrc.cmake.in
+FileChecksum: SHA1: 7048f34acab9c0eef0aa2d86d6f7a09e01240324
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/intprefix.c
+FileChecksum: SHA1: 36dc5bc7cee0f75802f19b03c780fd010b10ff39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/libpng-config-body.in
+FileChecksum: SHA1: 1a09c0836797d6cfa5a94f36be4f2593206405cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/libpng-config-head.in
+FileChecksum: SHA1: 730ff46f619e212ff3b9cacfb0fbd59f8e61abc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/libpng.pc.in
+FileChecksum: SHA1: f43f4b523acf68de666c53aee14a3b87676e732d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/libtool.m4
+FileChecksum: SHA1: 89105b0fc95d5ff30e8a1194467a61d671b699b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text>Copyright (c) 1996-2001, 2003-2015 Free Software Foundation, Inc.
+Copyright (c) 2014 Free Software Foundation, Inc.
+Copyright (c) 2011 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/ltoptions.m4
+FileChecksum: SHA1: 9cd35d79da7776af14f21b259c64f130fa1a3536
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004-2005, 2007-2009, 2011-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/ltsugar.m4
+FileChecksum: SHA1: 2028bffadfd9b989bcc63da90596101fe4ec20b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004-2005, 2007-2008, 2011-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/ltversion.m4
+FileChecksum: SHA1: 3aae847c163fa6cc7c8241a3a49f98705538d55f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004, 2011-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/lt~obsolete.m4
+FileChecksum: SHA1: e21f085615f98d3751690c1615923e89160d5783
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004-2005, 2007, 2009, 2011-2015 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/macro.lst
+FileChecksum: SHA1: 2c241396e98ddcfcd6ebf6d1c5d99237e6fc0025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.32sunu
+FileChecksum: SHA1: 4a074b7ccb6046a6b70f1d84eb642bb752010c4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1998 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.64sunu
+FileChecksum: SHA1: 5bf335d78b64aa053d397335d8e75408ebadd82c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1998 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.acorn
+FileChecksum: SHA1: 985a6c1c534f600781cbd001cfb45f428d90402f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>(c) Copyright 1997 Tom Tanner Test
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.aix
+FileChecksum: SHA1: e6a89bca01cd0bf787326897da34198326ad0252
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006-2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 2000 Cosmin Truta
+Copyright (c) 2000 Marc O. Gloor
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.amiga
+FileChecksum: SHA1: 606d5f9332aaad4cf8f70b40c635eaee0a31bfce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1995-2000 Wolf Faust
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.atari
+FileChecksum: SHA1: c39d1cbd45f2d3471845fcdec23c7b5ba5a38142
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.bc32
+FileChecksum: SHA1: 4ae4d7ba7ff5f63bf03e77144110037d87b11a3c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.beos
+FileChecksum: SHA1: 28aa0ab929029e5c595d89508a430348f5a41ee4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1999 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.bor
+FileChecksum: SHA1: 399b8c66b7ea0c0f1c5885da8a1cc2295e98e1b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.cegcc
+FileChecksum: SHA1: d4a8c6298e4380e3558095aeac3186930be3557a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2008 Vincent Torri
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.darwin
+FileChecksum: SHA1: 3a5930d7b113684bb73bc18164198bee91d39a10
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2004, 2006, 2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2001 Christoph Pfisterer
+Copyright (c) 1998, 1999 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.dec
+FileChecksum: SHA1: 6bd1d1abfb6e1ebc02ba5fd8be61c77a26161edb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2000-2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.dj2
+FileChecksum: SHA1: 67ed75812426f4f0c94ca2ebc2acadd59e17652d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2009-2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.freebsd
+FileChecksum: SHA1: edfac82acdc90ffa5b931aff7519941853290603
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2014 Glenn Randers-Pehrson and Andrey A. Chernov
+Copyright (c) 2002, 2007, 2009 Glenn Randers-Pehrson and Andrey A. Chernov
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.gcc
+FileChecksum: SHA1: 0074fc0b2a355ce1140c2e3418ba829b27830747
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2008, 2014 Glenn Randers-Pehrson
+Copyright (c) 2000 Cosmin Truta
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.hp64
+FileChecksum: SHA1: 64af24c18de6ae216f8fd72d5c9320877df97b4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1999-2002, 2006, 2009, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.hpgcc
+FileChecksum: SHA1: 65b0ed2fd435fd285aadf8a76e7fe3089ffeb41f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006-2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 2001, Laurent
+Copyright (c) 1998, 1999 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.hpux
+FileChecksum: SHA1: 41162c2e3771fedaa3249786ba15314d8a1d6918
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1999-2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.ibmc
+FileChecksum: SHA1: 995d93b6e31089987fc09d8e351844adb4ca072f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2006, 2014 Glenn Randers-Pehrson
+Copyright (c) 2000 Cosmin Truta
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.intel
+FileChecksum: SHA1: 99d4c88404c84f6b9288b259b7887de89fec6288
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2006, 2014 Glenn Randers-Pehrson
+Copyright (c) 2000, Pawel Mrochen
+copyright 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.knr
+FileChecksum: SHA1: 7354194254550a1a48c2f1a9b854c7da79c94364
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.linux
+FileChecksum: SHA1: db9e55ce35ca45b4cb5c8b8d0bfcab4b883a8328
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998, 1999, 2002, 2006, 2008, 2010-2014 Greg Roelofs and Glenn Randers-Pehrson
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.linux-opt
+FileChecksum: SHA1: affe48bdb09b39c619cbe784c41900e097c6ba73
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998,1999,2002,2006,2008,2010-2014,2017 Greg Roelofs and Glenn Randers-Pehrson
+Copyright (c) 1996,1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.mips
+FileChecksum: SHA1: 0e260bdcc7d5ee5b59e51bac7a2c9217eec15389
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.msc
+FileChecksum: SHA1: 564d20061fb049f06ace3e10ebe97e43454a9ef7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+Copyright (c) 2006, 2009, 2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.msys
+FileChecksum: SHA1: ea954902ecde3f6c63f4bdbfab5c57c2a91e5c78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2012 Glenn Randers-Pehrson and Christopher M. Wheeler
+Copyright (c) 1998, 1999, 2002, 2006, 2008, 2010-2014 Greg Roelofs and Glenn Randers-Pehrson
+Copyright (c) 2000 Cosmin Truta
+Copyright (c) 1996, 1997 Andreas Dilger
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.ne12bsd
+FileChecksum: SHA1: 8e46c79896db277e64d3b0ee3c7faf7d1678f22e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002 Patrick R.L. Welche
+Copyright (c) 2007, 2009, 2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.netbsd
+FileChecksum: SHA1: 490e49a0c448d1633f134c0f29570ade055bafca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002 Patrick R.L. Welche
+Copyright (c) 2007-2009, 2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.openbsd
+FileChecksum: SHA1: 73ad6093bedbf30bafe1b87f67ccdff21a6f71d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2007-2009, 2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.sco
+FileChecksum: SHA1: 8fb7f6e9f8351141764a610d40d2912373f35e2e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1998 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.sggcc
+FileChecksum: SHA1: b4b1fde416887b5618d43e909f9776bc45e4e8cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2001-2002, 2006, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.sgi
+FileChecksum: SHA1: efe40741ea31f31ce8c62da43a8e6342a75629d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2001-2002, 2006, 2007, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.so9
+FileChecksum: SHA1: d97a1d89a6be1a023de87d6444826ba84c36fe33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1998-2001 Greg Roelofs
+Copyright (c) 1996-1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.solaris
+FileChecksum: SHA1: 2726bf96e284571b896d291774d58b0c808ba143
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2004, 2006-2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1998 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.solaris-x86
+FileChecksum: SHA1: b2c2bd940d9b115a509384f07ebfc343fd035820
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2004, 2006-2008, 2010-2014 Glenn Randers-Pehrson
+Copyright (c) 1998 Greg Roelofs
+Copyright (c) 1996, 1997 Andreas Dilger
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.std
+FileChecksum: SHA1: 494eb64f5399e06e29791eeae123fa670a0342e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.sunos
+FileChecksum: SHA1: b1265602b225ffe9d05232f99a8b7424819cf2e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2002, 2006, 2014 Glenn Randers-Pehrson
+Copyright (c) 1995 Guy Eric Schalnat, Group 42, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.tc3
+FileChecksum: SHA1: a7cbee285ca792673496605cd1a2d4255593012d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makefile.vcwin32
+FileChecksum: SHA1: dcd213d6fa9581eaf9e61d0da0fea8552e0733c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998 Tim Wegner
+Copyright (c) 2006,2009,2011,2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/makevms.com
+FileChecksum: SHA1: 7fdcfcbe55c4939eea17e84513ea981738a435ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/options.awk
+FileChecksum: SHA1: 8ae5a0a43434abbab312a81b3944cdac261084d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/pnglibconf.dfa
+FileChecksum: SHA1: b9fa6beaa4b37d8b8f4a8aedbf8b390fa51e1947
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2017 Glenn Randers-Pehrson com com
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/pnglibconf.h.prebuilt
+FileChecksum: SHA1: 28494ab2dc5690a8ffee2c0873a0183dfb773d48
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998-2017 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/pnglibconf.mak
+FileChecksum: SHA1: 46f0b8c129eea8cbba768cbd3927e7acd2be30ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/pngwin.rc
+FileChecksum: SHA1: 568863565dfb4b0ce047782a5c4c47bf87f22920
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/prefix.c
+FileChecksum: SHA1: c1a94bd48da787bfd4296067eed46accd6530632
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2013-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/smakefile.ppc
+FileChecksum: SHA1: d4333eccdf06716a6e56c39325a30794d3f8c09e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 1998 by Andreas R. Kleinert
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/sym.c
+FileChecksum: SHA1: b2039a58636f3f2c10fbddcd342fc7a269c6396e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2011-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/symbols.c
+FileChecksum: SHA1: 942929d0b071740547c6762aa226cb3951f8910a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2011-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/symbols.def
+FileChecksum: SHA1: bb763b920e0603c0bc59e16bda505712d483d655
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/test.cmake.in
+FileChecksum: SHA1: 8563d9fb7f4c31b57a049c224d5ca710df0b61fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2016 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/scripts/vers.c
+FileChecksum: SHA1: 7c64a5817215d38f9815532ee04e7541930e5d29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Libpng
+FileCopyrightText: <text>Copyright (c) 2011-2014 Glenn Randers-Pehrson
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/test-driver
+FileChecksum: SHA1: ebabeb373c5af3b8606b510a2494955e34325d8a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 2011-2014 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngimage-full
+FileChecksum: SHA1: 229e7c7a543540905177a75001cd5bfd838cb2d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngimage-quick
+FileChecksum: SHA1: ed35fc0a9d7f0c39d1f241c1f571762b53879207
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest
+FileChecksum: SHA1: c6d175f8d369e94f3bd17199187dfbd27e85dc96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-1.8
+FileChecksum: SHA1: cdec1ef26a5ffe867482aef8a032a58b9975c2ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-1.8-alpha
+FileChecksum: SHA1: e14ef06355557a62657aba03a445b9b452779248
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-linear
+FileChecksum: SHA1: e40bd073b2f2a499965c35c0862c9f40e7f1986a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-linear-alpha
+FileChecksum: SHA1: 337f061f42494de0f92436b8d0d4f26139823aa7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-none
+FileChecksum: SHA1: dd711fbda79878d4ca5db127c27fba5a5bbb4ee0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-none-alpha
+FileChecksum: SHA1: 6d9f7c7a731ebc522832303069e92bff9a4b3c30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-sRGB
+FileChecksum: SHA1: 6debe0d91a56cba8e0cda66c844d39d0d0d9c085
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngstest-sRGB-alpha
+FileChecksum: SHA1: a398c5de4c1d57d3335a0c1329aa250d75d82246
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngtest
+FileChecksum: SHA1: ea996b9ceba8e15611cd97b8c036ba7f18b5fd4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngtest-badpngs
+FileChecksum: SHA1: c46342aef3014ac5e943551147bc574102415a83
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngunknown-IDAT
+FileChecksum: SHA1: 7328b2239eb9aa8e67b387874d9b2836385d647b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngunknown-discard
+FileChecksum: SHA1: 7ce9b677ce5ab8b466fdfa8c6d52039383512b7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngunknown-if-safe
+FileChecksum: SHA1: 51c51b04a5a6c357741d524258c00b92fce2974a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngunknown-sAPI
+FileChecksum: SHA1: b280e06a6042edd2b86bcdf948961499cbda91c7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngunknown-sTER
+FileChecksum: SHA1: 967c38675c4d061179f1e4fdd16c90d78964bc69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngunknown-save
+FileChecksum: SHA1: b171c6b132b7dd59eedf1cc68e5a266cdfacc2f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngunknown-vpAg
+FileChecksum: SHA1: 253281130e937a76abaccea3bf7ce06268d76921
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-16-to-8
+FileChecksum: SHA1: 4c2781dc5e700558bf45723ccbb7392a0db1cfdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-alpha-mode
+FileChecksum: SHA1: 948aef3683ee9cb96d7f63404cd7c1033f8b98b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-background
+FileChecksum: SHA1: 370498d31babe05bf0333b48625e44a4fb8a9d9e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-alpha-mode
+FileChecksum: SHA1: 57e61e63b9731dd4dd1d3dc4c91ddca2cd11a59c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-background
+FileChecksum: SHA1: 8582a2761a7328819eaeb3c73fc1ffa19623695a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-transform
+FileChecksum: SHA1: 2a9fcde317b7c872de8c1e02753e4d47f198b06b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-sbit
+FileChecksum: SHA1: 256fdcdbe0c7a94fa224e2cc418a53f608da05a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-threshold
+FileChecksum: SHA1: 463d721f2ac86a60a65d02fe4eeffdcfbe90de33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-gamma-transform
+FileChecksum: SHA1: 47d367349daee272035c2fef79716058e87703fe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-progressive-interlace-standard
+FileChecksum: SHA1: 923ea488f4e861891af15178bdfbb72cd1b51552
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-progressive-size
+FileChecksum: SHA1: 57df789841affdc352b4369bdc3915c3b2f67a86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-progressive-standard
+FileChecksum: SHA1: 0cac029f54e9061b80ef3152d9b428a141e61442
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-standard
+FileChecksum: SHA1: 2dd000ccad95e6a6f02778451d09c147701252a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./libpng-1.6.34.tar.gz/tests/pngvalid-transform
+FileChecksum: SHA1: 46b7b497163b3449b684b2f1245aee516d7498d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# Extracted Licenses
+
+LicenseID: LicenseRef-autoconf-simple-exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-autoconf-simple-exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-greg-roelofs
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+
+
+LicenseID: LicenseRef-greg-roelofs
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+
+
+LicenseID: LicenseRef-greg-roelofs
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+
+
+LicenseID: LicenseRef-greg-roelofs
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/greg-roelofs.yml
+</text>
+
+
+LicenseID: LicenseRef-libpbm
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/libpbm.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/libpbm.yml
+</text>
+
+
+LicenseID: LicenseRef-libpbm
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/libpbm.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/libpbm.yml
+</text>
+
+
+LicenseID: LicenseRef-libpbm
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/libpbm.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/libpbm.yml
+</text>
+
+
+LicenseID: LicenseRef-pngsuite
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/pngsuite.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/pngsuite.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+
+LicenseID: LicenseRef-see-license
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/see-license.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/see-license.yml
+</text>
+
+
+LicenseID: LicenseRef-see-license
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/see-license.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/see-license.yml
+</text>
+
+
+LicenseID: LicenseRef-see-license
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/see-license.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/see-license.yml
+</text>
+
+

@@ -1,0 +1,362 @@
+[
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/contrib/oss-fuzz/build.sh"
+    ], 
+    "tag": "Apache-2.0"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/contrib/oss-fuzz/README.txt"
+    ], 
+    "tag": "Apache-2.0_urlref"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/contrib/oss-fuzz/libpng_read_fuzzer.cc"
+    ], 
+    "tag": "BSD_fileref"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/README"
+    ], 
+    "tag": "GPL-1.0+"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/missing", 
+      "/libpng-1.6.34.tar.gz/compile", 
+      "/libpng-1.6.34.tar.gz/depcomp", 
+      "/libpng-1.6.34.tar.gz/test-driver", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/COPYING", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h"
+    ], 
+    "tag": "GPL-2.0+"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/ltmain.sh", 
+      "/libpng-1.6.34.tar.gz/scripts/libtool.m4"
+    ], 
+    "tag": "GPL-2.0+-with-libtool-exception"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/missing", 
+      "/libpng-1.6.34.tar.gz/compile", 
+      "/libpng-1.6.34.tar.gz/depcomp", 
+      "/libpng-1.6.34.tar.gz/test-driver"
+    ], 
+    "tag": "GPL-2.0-with-autoconf-exception_1"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/config.sub", 
+      "/libpng-1.6.34.tar.gz/config.guess"
+    ], 
+    "tag": "GPL-3.0-with-autoconf-exception_2"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/ltmain.sh"
+    ], 
+    "tag": "GPL-3.0-with-libtool-exception"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.c", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.c", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/README"
+    ], 
+    "tag": "HPND"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/contrib/pngsuite/README"
+    ], 
+    "tag": "HPND_no-repro-required"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/LICENSE", 
+      "/libpng-1.6.34.tar.gz/png.h"
+    ], 
+    "tag": "Libpng"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/pngrutil.c", 
+      "/libpng-1.6.34.tar.gz/pngconf.h", 
+      "/libpng-1.6.34.tar.gz/pngtrans.c", 
+      "/libpng-1.6.34.tar.gz/libpng-manual.txt", 
+      "/libpng-1.6.34.tar.gz/CMakeLists.txt", 
+      "/libpng-1.6.34.tar.gz/pngstruct.h", 
+      "/libpng-1.6.34.tar.gz/pngget.c", 
+      "/libpng-1.6.34.tar.gz/pngwrite.c", 
+      "/libpng-1.6.34.tar.gz/pnginfo.h", 
+      "/libpng-1.6.34.tar.gz/pngrtran.c", 
+      "/libpng-1.6.34.tar.gz/pngpread.c", 
+      "/libpng-1.6.34.tar.gz/LICENSE", 
+      "/libpng-1.6.34.tar.gz/pngread.c", 
+      "/libpng-1.6.34.tar.gz/pngmem.c", 
+      "/libpng-1.6.34.tar.gz/pngpriv.h", 
+      "/libpng-1.6.34.tar.gz/Makefile.am", 
+      "/libpng-1.6.34.tar.gz/png.h", 
+      "/libpng-1.6.34.tar.gz/png.h", 
+      "/libpng-1.6.34.tar.gz/configure.ac", 
+      "/libpng-1.6.34.tar.gz/pngwio.c", 
+      "/libpng-1.6.34.tar.gz/libpng-config.in", 
+      "/libpng-1.6.34.tar.gz/pngset.c", 
+      "/libpng-1.6.34.tar.gz/Makefile.in", 
+      "/libpng-1.6.34.tar.gz/pngerror.c", 
+      "/libpng-1.6.34.tar.gz/pngwtran.c", 
+      "/libpng-1.6.34.tar.gz/png.c", 
+      "/libpng-1.6.34.tar.gz/pngrio.c", 
+      "/libpng-1.6.34.tar.gz/pngdebug.h", 
+      "/libpng-1.6.34.tar.gz/pngwutil.c", 
+      "/libpng-1.6.34.tar.gz/pngtest.c", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/README.txt", 
+      "/libpng-1.6.34.tar.gz/projects/visualc71/README.txt", 
+      "/libpng-1.6.34.tar.gz/projects/visualc71/README_zlib.txt", 
+      "/libpng-1.6.34.tar.gz/powerpc/powerpc_init.c", 
+      "/libpng-1.6.34.tar.gz/powerpc/filter_vsx_intrinsics.c", 
+      "/libpng-1.6.34.tar.gz/arm/arm_init.c", 
+      "/libpng-1.6.34.tar.gz/arm/filter_neon_intrinsics.c", 
+      "/libpng-1.6.34.tar.gz/arm/filter_neon.S", 
+      "/libpng-1.6.34.tar.gz/intel/filter_sse2_intrinsics.c", 
+      "/libpng-1.6.34.tar.gz/intel/intel_init.c", 
+      "/libpng-1.6.34.tar.gz/mips/filter_msa_intrinsics.c", 
+      "/libpng-1.6.34.tar.gz/mips/mips_init.c", 
+      "/libpng-1.6.34.tar.gz/scripts/genchk.cmake.in", 
+      "/libpng-1.6.34.tar.gz/scripts/genout.cmake.in", 
+      "/libpng-1.6.34.tar.gz/scripts/libpng-config-head.in", 
+      "/libpng-1.6.34.tar.gz/scripts/def.c", 
+      "/libpng-1.6.34.tar.gz/scripts/test.cmake.in", 
+      "/libpng-1.6.34.tar.gz/scripts/sym.c", 
+      "/libpng-1.6.34.tar.gz/scripts/vers.c", 
+      "/libpng-1.6.34.tar.gz/scripts/makefile.msc", 
+      "/libpng-1.6.34.tar.gz/scripts/symbols.c", 
+      "/libpng-1.6.34.tar.gz/scripts/options.awk", 
+      "/libpng-1.6.34.tar.gz/scripts/dfn.awk", 
+      "/libpng-1.6.34.tar.gz/scripts/gensrc.cmake.in", 
+      "/libpng-1.6.34.tar.gz/scripts/intprefix.c", 
+      "/libpng-1.6.34.tar.gz/scripts/prefix.c", 
+      "/libpng-1.6.34.tar.gz/contrib/testpngs/makepngs.sh", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/pngstest.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/pngimage.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/timepng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/pngunknown.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/makepng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/pngstest-errors.h", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/tarith.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/gentests.sh", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/readpng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/checksum-icc.c", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/pngfix.c", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/pngcp.c", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/png-fix-itxt.c", 
+      "/libpng-1.6.34.tar.gz/contrib/arm-neon/android-ndk.c", 
+      "/libpng-1.6.34.tar.gz/contrib/arm-neon/linux-auxv.c", 
+      "/libpng-1.6.34.tar.gz/contrib/arm-neon/linux.c", 
+      "/libpng-1.6.34.tar.gz/contrib/visupng/PngFile.c", 
+      "/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/visupng/README.txt", 
+      "/libpng-1.6.34.tar.gz/contrib/visupng/PngFile.h", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/encoder/pngusr.h", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/decoder/pngusr.h", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/preader/pngusr.h", 
+      "/libpng-1.6.34.tar.gz/contrib/mips-msa/linux.c", 
+      "/libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux_aux.c", 
+      "/libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux.c", 
+      "/libpng-1.6.34.tar.gz/contrib/oss-fuzz/README.txt"
+    ], 
+    "tag": "Libpng_2"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/install-sh"
+    ], 
+    "tag": "MIT"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/install-sh", 
+      "/libpng-1.6.34.tar.gz/example.c"
+    ], 
+    "tag": "PD"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/Makefile.in", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/aclocal.m4", 
+      "/libpng-1.6.34.tar.gz/scripts/ltsugar.m4", 
+      "/libpng-1.6.34.tar.gz/scripts/libtool.m4", 
+      "/libpng-1.6.34.tar.gz/scripts/ltversion.m4", 
+      "/libpng-1.6.34.tar.gz/scripts/ltoptions.m4", 
+      "/libpng-1.6.34.tar.gz/scripts/lt~obsolete.m4"
+    ], 
+    "tag": "Permissive_GNU2"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h"
+    ], 
+    "tag": "Zlib"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/projects/visualc71/README_zlib.txt"
+    ], 
+    "tag": "Zlib_fileref"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/config.h.in", 
+      "/libpng-1.6.34.tar.gz/autogen.sh", 
+      "/libpng-1.6.34.tar.gz/libpngpf.3", 
+      "/libpng-1.6.34.tar.gz/README", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/libpng/libpng.vcxproj", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/zlib/zlib.vcxproj", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/pngstest/pngstest.vcxproj", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/pngvalid/pngvalid.vcxproj", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/pngtest/pngtest.vcxproj", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/pngunknown/pngunknown.vcxproj", 
+      "/libpng-1.6.34.tar.gz/projects/vstudio/pnglibconf/pnglibconf.vcxproj", 
+      "/libpng-1.6.34.tar.gz/projects/visualc71/PRJ0041.mak", 
+      "/libpng-1.6.34.tar.gz/projects/visualc71/pngtest.vcproj", 
+      "/libpng-1.6.34.tar.gz/projects/visualc71/libpng.vcproj", 
+      "/libpng-1.6.34.tar.gz/projects/visualc71/zlib.vcproj", 
+      "/libpng-1.6.34.tar.gz/projects/owatcom/pngconfig.mak", 
+      "/libpng-1.6.34.tar.gz/tests/pngimage-quick", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-progressive-interlace-standard", 
+      "/libpng-1.6.34.tar.gz/tests/pngunknown-IDAT", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-linear", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-transform", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-progressive-size", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-1.8", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-none-alpha", 
+      "/libpng-1.6.34.tar.gz/tests/pngunknown-sTER", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-sRGB", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-linear-alpha", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-threshold", 
+      "/libpng-1.6.34.tar.gz/tests/pngtest-badpngs", 
+      "/libpng-1.6.34.tar.gz/tests/pngunknown-if-safe", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-16-to-8", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-background", 
+      "/libpng-1.6.34.tar.gz/tests/pngunknown-discard", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-sRGB-alpha", 
+      "/libpng-1.6.34.tar.gz/tests/pngimage-full", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-background", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-alpha-mode", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-alpha-mode", 
+      "/libpng-1.6.34.tar.gz/tests/pngunknown-vpAg", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-transform", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-progressive-standard", 
+      "/libpng-1.6.34.tar.gz/tests/pngunknown-save", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-none", 
+      "/libpng-1.6.34.tar.gz/tests/pngstest-1.8-alpha", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-sbit", 
+      "/libpng-1.6.34.tar.gz/tests/pngtest", 
+      "/libpng-1.6.34.tar.gz/tests/pngunknown-sAPI", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-standard", 
+      "/libpng-1.6.34.tar.gz/tests/pngvalid-gamma-transform", 
+      "/libpng-1.6.34.tar.gz/scripts/pnglibconf.mak", 
+      "/libpng-1.6.34.tar.gz/scripts/README.txt", 
+      "/libpng-1.6.34.tar.gz/scripts/makevms.com", 
+      "/libpng-1.6.34.tar.gz/scripts/checksym.awk", 
+      "/libpng-1.6.34.tar.gz/contrib/README.txt", 
+      "/libpng-1.6.34.tar.gz/contrib/gregbook/makevms.com", 
+      "/libpng-1.6.34.tar.gz/contrib/arm-neon/README", 
+      "/libpng-1.6.34.tar.gz/contrib/visupng/resource.h", 
+      "/libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.rc", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/README", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/encoder/makefile", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/encoder/README", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/decoder/makefile", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/decoder/README", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/preader/makefile", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminim/preader/README", 
+      "/libpng-1.6.34.tar.gz/contrib/mips-msa/README", 
+      "/libpng-1.6.34.tar.gz/contrib/powerpc-vsx/README", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.sh", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.bat", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.sh", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/makevms.com", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.sh", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.bat", 
+      "/libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.bat", 
+      "/libpng-1.6.34.tar.gz/contrib/conftest/README"
+    ], 
+    "tag": "none"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/png.5", 
+      "/libpng-1.6.34.tar.gz/scripts/pngwin.rc", 
+      "/libpng-1.6.34.tar.gz/contrib/examples/pngtopng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/examples/simpleover.c", 
+      "/libpng-1.6.34.tar.gz/contrib/examples/iccfrompng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/examples/pngpixel.c", 
+      "/libpng-1.6.34.tar.gz/contrib/libtests/fakepng.c", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/reindent", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/intgamma.sh", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/cvtcolor.c", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/chkfmt", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/README.txt", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/makesRGB.c", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/sRGB.h", 
+      "/libpng-1.6.34.tar.gz/contrib/tools/genpng.c"
+    ], 
+    "tag": "suspiciousCopyright"
+  }, 
+  {
+    "files": [
+      "/libpng-1.6.34.tar.gz/libpng.3", 
+      "/libpng-1.6.34.tar.gz/scripts/symbols.def", 
+      "/libpng-1.6.34.tar.gz/contrib/examples/README.txt", 
+      "/libpng-1.6.34.tar.gz/contrib/visupng/cexcept.h"
+    ], 
+    "tag": "suspiciousLicensey"
+  }
+]

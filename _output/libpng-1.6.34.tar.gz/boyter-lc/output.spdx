@@ -1,0 +1,4168 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/Unknown-7f042c85cbe3c995915811272e5bf002a0e0d5ff
+DocumentName: Unknown
+SPDXID: SPDXRef-DOCUMENT
+Creator: Tool: licensechecker 2.0.0
+Created: 2019-06-10T08:27:50Z
+LicenseListVersion: 3.0
+
+PackageName: Unknown
+SPDXID: SPDXRef-Package
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+PackageVerificationCode: 9ec77fc7e0edbbc60b77229900736cc88a1da873
+PackageLicenseDeclared: Libpng
+PackageLicenseConcluded: Libpng
+PackageLicenseInfoFromFiles: NONE
+PackageCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/ANNOUNCE
+SPDXID: SPDXRef-19b2f3a48340845abaec62298a1c89feca0b7f91
+FileChecksum: SHA1: 7abd18773ddd6375332f5e7cb1c5b54653bcd68b
+FileChecksum: SHA256: e5c030e112692f71ffb5c292df2881c1e2491690a71d0ba6ede67d9b3026f17f
+FileChecksum: MD5: 95f639811d762afc6eb0bb14ef07aa89
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/CHANGES
+SPDXID: SPDXRef-edd16c110b7ddd9355cc22576cb6d3310c5b0944
+FileChecksum: SHA1: 46fcc67f91e5094b289f44bd2f24c07e45775f41
+FileChecksum: SHA256: 716ff190441deed18f45f1657fa123f160abd0bb6d5c5a8cbfca1a38618e6345
+FileChecksum: MD5: 0ab519270eb96403bcafcbe111c29ec0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/CMakeLists.txt
+SPDXID: SPDXRef-4f5518e323834ea06cd4f67da08695def88321fa
+FileChecksum: SHA1: 9fc8cfe04d0fab5977730d902d51d156db54d1f8
+FileChecksum: SHA256: e8f7c7e594ea03bf0c4937d580cd767d8c913650d0abe5168e53a368e084e618
+FileChecksum: MD5: 42e2ffc25a33871c383d3d8b5d5bf58a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/INSTALL
+SPDXID: SPDXRef-717d726d60c9522535d9bc8e7e4c3eacc14eb664
+FileChecksum: SHA1: ed7ccec25a7d2a810fb504fb335b7dec7ef94fe8
+FileChecksum: SHA256: 099eb2d9c3cace4618b85c6f3d7252cf1a8017de592438c14731bed1d482ef4b
+FileChecksum: MD5: 89427d8bf4b301ed9e80c4304de5723d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/LICENSE
+SPDXID: SPDXRef-b462c4b2d87acb23afa43078c51a5975bc818780
+FileChecksum: SHA1: be927a27a8ce3da7db949fa682093a1f2437a04f
+FileChecksum: SHA256: a247c24f82bacf0403fe2f3d5550493a91cdb575fe7036b764bda8cacf3efd9c
+FileChecksum: MD5: 2db717a05a20e36f2fa673265bd31568
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/Makefile.am
+SPDXID: SPDXRef-087b6607298360ff42eed7d45a36dfc48a8fb995
+FileChecksum: SHA1: cc7bea917ec92e6423411fe71d4e2044880082a7
+FileChecksum: SHA256: 2fd5bfba1a0bec9df16ce4ba30f507e05af9a38c036f58297a907ba73591c88c
+FileChecksum: MD5: b5da8081933a464c4fcb6417c45dc2d8
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/Makefile.in
+SPDXID: SPDXRef-9375e8ddfb8eaab8262fe9bea841d35a81992bd9
+FileChecksum: SHA1: fa14abe5c0b502a03014db6897ec795d2d8df1a1
+FileChecksum: SHA256: 67b933d9ffcb3d21dff741af71a755196198dff793f76e3a822c3c6f86c453b3
+FileChecksum: MD5: eeebcd9761ed8edb6e0703ed07a1230c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/README
+SPDXID: SPDXRef-554ff3ffebd3a941d781979364334b621d2220c0
+FileChecksum: SHA1: 51e3d26fda32501c4c4d030773c5d3baee6fa297
+FileChecksum: SHA256: 26fca7f171f7b715ac65e3de4d052faa843b9e4661eb8726297c325e8fb9b21f
+FileChecksum: MD5: 8f3bdc6983ccc87324916fda8f478603
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/TODO
+SPDXID: SPDXRef-2ef39803aad29362d6a515f9425a048ced92c1d9
+FileChecksum: SHA1: c719efa4c30fca60196e2e3e0b5e7d311a78141b
+FileChecksum: SHA256: cdfc24ac1e51dc01de8b3796bc5a101e44a04054945b5b319fcf2f1379072d1e
+FileChecksum: MD5: 7b5264ec635632a59acb2588674b46d7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/aclocal.m4
+SPDXID: SPDXRef-3852431e10c6b3e3ab03f9a651dcb31a21640cf9
+FileChecksum: SHA1: 02c3d239de32a30729ae2fe5dc57655ee8729ac6
+FileChecksum: SHA256: fe7e98f6328a519fd6d9a75fdaafc1372506ec07b4c4dd49d56c4365c58acc6f
+FileChecksum: MD5: 83ab3ebfe3342decd26f39a5da7480a9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/arm/arm_init.c
+SPDXID: SPDXRef-de0068eaa0e909802403719e06808d6253963c2b
+FileChecksum: SHA1: ce20be53de7a8622993cf4c9dc88ec71b6ca4e65
+FileChecksum: SHA256: f29450777a8a7eb01455c8c168746da0d86000f44de6db9f7d497c8f6371430c
+FileChecksum: MD5: d4616638e706136e4a126698c528751f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/arm/filter_neon.S
+SPDXID: SPDXRef-751a64d4cf8f6d2301960c13dbb070a0c1e501f7
+FileChecksum: SHA1: 648ceb40d3e3468cd2ea18c9cd5792b2c00eecc2
+FileChecksum: SHA256: de2386c3a35d72555c954d03515ce47a5cc5dc1418bc409a79e5b8b5a167f53e
+FileChecksum: MD5: 0d4c38c3ed9ebda43a80b34c876a75ed
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/arm/filter_neon_intrinsics.c
+SPDXID: SPDXRef-704e934cae864d7cb2ab27a07bef00cc1a389f42
+FileChecksum: SHA1: b06ef0d4f37d5e0dcbec12d44da3843ad9786547
+FileChecksum: SHA256: af4751f1493b651d7d3ce29e4a2a2c5d4a2f4111356ca298f5b1a37afe7f6744
+FileChecksum: MD5: 26b9e63929d6c90b60cc035f767473fc
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/autogen.sh
+SPDXID: SPDXRef-f37be70cce402c60dbdce055490db5035dfa99eb
+FileChecksum: SHA1: 2d808d3acb0d2e146baabd98964de16b775ccd4d
+FileChecksum: SHA256: 31e6daa69b329adbddbc1ee278da3f42917e99b42a8965cd3d8330f1ba540d72
+FileChecksum: MD5: a6f3a92f249aba50503f56775750c3bd
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/compile
+SPDXID: SPDXRef-3244881fdb65019a82861ceaadbd54efb8eed140
+FileChecksum: SHA1: 03a05e37267c2f1c9fea4f2a6a15f8a7beb91c0d
+FileChecksum: SHA256: 41856428226c049fa0ea4ca7a574c28416de2769b55ed7feea4ab5e60283af16
+FileChecksum: MD5: 500b9244caa7a7ab23ece1db37efa76d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/config.guess
+SPDXID: SPDXRef-05c15ce7941b9d6f82edf7553c055921b0637516
+FileChecksum: SHA1: 947c8873202b420cdd698aa562cd05ee128197f6
+FileChecksum: SHA256: b7eab9b8a73dc6e0421366bca6921cd2621dab6c3909d6e3bebf863011442d15
+FileChecksum: MD5: cb63eb753c1e306e3c593c4903d26c66
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/config.h.in
+SPDXID: SPDXRef-f01c8385ea62ace8b697646f87a9972afac9652e
+FileChecksum: SHA1: caf1d3f576fd50905012a2ae4ff62415527edbc4
+FileChecksum: SHA256: 7e3030b7e9464eed80319c7c310352eab95972660bcf884959fc00866796550f
+FileChecksum: MD5: 8eaa6aa2d9722de801d64381f00a8376
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/config.sub
+SPDXID: SPDXRef-0702b634d9c9436630692bbb96c92125dd397d97
+FileChecksum: SHA1: 1ed99f2fce4975f55e82b3833baf74fbcd8bdda0
+FileChecksum: SHA256: 82745ce935695e7984a053c155a64b9ad16ece3a07d931cc90ab3fb28b7221af
+FileChecksum: MD5: 9f3562619f0564ef89b6852b2d3f140d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/configure
+SPDXID: SPDXRef-7bc27cad188f599ac444dd8b59fb01aa946488b4
+FileChecksum: SHA1: af9097554fd89184a28bc03321429e84a19859d8
+FileChecksum: SHA256: 00e352a92f738d2fb898d121e056902a344be2d727a84016483c56e0b889870e
+FileChecksum: MD5: 2bbd8d805140f3d86becb0796b7039e5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/configure.ac
+SPDXID: SPDXRef-bcf47a7040f49d8e11dbb13bf101c73a3bc4979a
+FileChecksum: SHA1: 43a8a0b8765f689520b7aee516225f603bcefcde
+FileChecksum: SHA256: ea551d7622053beda2a3830e857970e01f8673737652c4b6a31ef872bf216f49
+FileChecksum: MD5: f28c9c2dfa5f8c75924219a9fcc497c2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/README.txt
+SPDXID: SPDXRef-72a352c6be122262d3d82d2426b10efc2a3f0b2a
+FileChecksum: SHA1: 88dbc7b1fc720385fa36fdc320302a0dce5f665a
+FileChecksum: SHA256: 961fe8f79c2a9dcfed27a84e62e436a0755d4e2643f496c422c4141d207a5a02
+FileChecksum: MD5: b0b92f76955591654d8219dbc23e1753
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/arm-neon/README
+SPDXID: SPDXRef-b63d8151b0373a2f5417e42054036dcbcf25f307
+FileChecksum: SHA1: 92525a82bf477573819b528ac41df7028a1d506f
+FileChecksum: SHA256: 1d6c6af98b4b93e9f7c888079daf64c519f50d299f31ee031bb8d5d0df3cc0fd
+FileChecksum: MD5: 0b500747dbcdf1ff00ff4bf8ae6d8898
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/arm-neon/android-ndk.c
+SPDXID: SPDXRef-1bd16b58632c4eee0db0935fcefb170fa6bb802c
+FileChecksum: SHA1: 24b877f394e1368d7c21ce5fc767afc1e3066a01
+FileChecksum: SHA256: 3cab01553bada7bb71f62ce158133d640856ae245e3f69d8fd9b1fcd6d078471
+FileChecksum: MD5: 702113fc4b3622319b18bd8a1f7e1c0d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/arm-neon/linux-auxv.c
+SPDXID: SPDXRef-b404c2dc7f523f645130c7b077974908cd843b99
+FileChecksum: SHA1: 7730bce31df3acf1936f130619cf1e8782490b4c
+FileChecksum: SHA256: c6964d9c7d98a419610aed8964d9fcfa26d40d224d7790bf9b41339ac537a362
+FileChecksum: MD5: b2ed4ed67060279f995bbaacf57fa70c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/arm-neon/linux.c
+SPDXID: SPDXRef-7219b11ab99d4e2bd0301c9f68dbbb4004791916
+FileChecksum: SHA1: 4fad5e8fa1656ff5fa8f9ba636a60502967d9934
+FileChecksum: SHA256: 4986d09317860d4a28125fecf12dc6c2bc19ac87da4df69b6ba7c9c3afb0a991
+FileChecksum: MD5: bc29909f6f1673baedcb16ccd9127f80
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/conftest/README
+SPDXID: SPDXRef-0e00a153951bc9af8409ef070de56d15b38d7abd
+FileChecksum: SHA1: ea0839e34a5a74d226855b081abfb56d2a58848d
+FileChecksum: SHA256: 729cd5af93945ebb9f4659407379d35b61d2d5d2ed85fafbef5e9aaec245ce1d
+FileChecksum: MD5: 2bd8ec3a4cf195ebe544cb5e2988fbd9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/conftest/pngcp.dfa
+SPDXID: SPDXRef-4a12e9547d758059eedefc8d005e84a43fd6b155
+FileChecksum: SHA1: 2a4894fe2536dad21d7076007795f6058a72b0cf
+FileChecksum: SHA256: 7ef0f84a44656088bde900984c57881822f1fbbbd45a15a1ae3aeeac6b77a2c8
+FileChecksum: MD5: e446d120b748690620e362c47ac355b1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/conftest/read.dfa
+SPDXID: SPDXRef-61125f3ed3181ab189558553cb4fcb23ab22dc62
+FileChecksum: SHA1: e47554a9d0b0b75dd5c7b0617e380b9fa543adf8
+FileChecksum: SHA256: 2ba3cc900fc804caf573ae51e9c8ddf22e9f6a6b35fcdb632c60263b5a9d076a
+FileChecksum: MD5: 35e4076872e8a08393cd984fd7fc3437
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/conftest/s_read.dfa
+SPDXID: SPDXRef-24f8ab1dd43a791995b9d976df77e2619e5dec74
+FileChecksum: SHA1: d11a75f8e1508b3f7e3f6f21d323f803c1beec5b
+FileChecksum: SHA256: 04bfb5a100254a47a84667cd7947dbb5b9caa0e9d6a853caf62c9d94fc2f9f1f
+FileChecksum: MD5: a67d407eb5464216120cf0f73c9e4449
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/conftest/s_write.dfa
+SPDXID: SPDXRef-31776d583a79b085c246bb6563c590917ebe025d
+FileChecksum: SHA1: 2efb2c7e4a70ffdcef97476c8e36e60c1caf779c
+FileChecksum: SHA256: ce77527f5d8a3ac180390cdc117c3e6157ab2fbb465e00f8a400924b9233a1ec
+FileChecksum: MD5: d210c7d02085afa99e4b0d0ddd7a4c58
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/conftest/simple.dfa
+SPDXID: SPDXRef-5e9cdbabb4529d1477515bba0530f644b5fd1971
+FileChecksum: SHA1: 0c2392fe8a12b0a902306c3d8bb8e02030af656d
+FileChecksum: SHA256: 23e3e607888c6e4742d767cb1b491a40a7ac6cc0247ebf5787abc3daa5626828
+FileChecksum: MD5: dbd65d3816d2431f94486b73f9395b07
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/conftest/write.dfa
+SPDXID: SPDXRef-884ca1d8eee33d02da9b58ef19d31ee0dcce4aa5
+FileChecksum: SHA1: 8c492704d9519273e9d7a21dab7e345bb0f86663
+FileChecksum: SHA256: ccbf3d992f4a63613588d344ecbb4243b60c951fb4b05e3d50e58b8c2f7ede1a
+FileChecksum: MD5: 283a17dd18a49becdc79e17b820321b1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/examples/README.txt
+SPDXID: SPDXRef-d2c0b100cba1eca3e481283f1cefd989b0ecf381
+FileChecksum: SHA1: e315c7ba7a230e8eb2a36941870a336c3a990646
+FileChecksum: SHA256: e9b4d576ae0d0ed186b80fa989fc98da390adf80e49cd357b1157238a935671e
+FileChecksum: MD5: 99f9b64fb9bc68d7ace24e7b98211810
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/examples/iccfrompng.c
+SPDXID: SPDXRef-d33b02077183d45bbacca5a4d8df75abdc25d5cb
+FileChecksum: SHA1: 970487d7b1a3b8bbd76aaeeacb704c001e72bba8
+FileChecksum: SHA256: 667ba4246f4b7de1bea878ab3a096edbe4494b25bd8626b7159027572ad45916
+FileChecksum: MD5: 9babd6b37dc2abbbe603e07adff2c495
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/examples/pngpixel.c
+SPDXID: SPDXRef-77cbf81688d94e549a7603a494df7edfd18bbb20
+FileChecksum: SHA1: a7a3be9c9710901881704f84f2fce9bd47b2634c
+FileChecksum: SHA256: cd8a046fff8c143e13d9ced0e93f43fae990c1f5858168c4fedf69954ef7f0c5
+FileChecksum: MD5: 5aa598d367b84909b7caf19b17387023
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/examples/pngtopng.c
+SPDXID: SPDXRef-4f77caa2a850674df41121dcdced4025b4d3fe2a
+FileChecksum: SHA1: 8b4a22d6ac189d844d3ee4274657fb5788c93b03
+FileChecksum: SHA256: 097a5602313061feb74a6618ac8d84e754d3db1f06a0acbc9742e5b37bba331e
+FileChecksum: MD5: 104e0f322334c5bb5470ee3a2d01f244
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/examples/simpleover.c
+SPDXID: SPDXRef-3acfb51e817d35349d957bdf97bc2a31a52c9d9d
+FileChecksum: SHA1: 5392575d1250c7c7378dd6baa100fe00403b0098
+FileChecksum: SHA256: b9be0caabdf52bcd083be9a19ec8e89bf38a55453e5e4ceafda89b5d91d47321
+FileChecksum: MD5: 7e0fed22a2e7af5575f4068955a35d5c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/COPYING
+SPDXID: SPDXRef-470b663e42ab1ec6e82ece146d1bb9e3cdc7acd3
+FileChecksum: SHA1: 80b6f4fcbc19d7431482cba012e86f587828c1ba
+FileChecksum: SHA256: d6cb0e9e560f51085556949a84af12b79a00f10ab8b66c752537faf7cd665572
+FileChecksum: MD5: 64e753fa7d1ca31632bc383da3b57c27
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/LICENSE
+SPDXID: SPDXRef-acbd6dcf9d03a4d683f47ff90eeb61a392b6989b
+FileChecksum: SHA1: aa4b9207aaff26bc16c562d6cd766a9eed49af1e
+FileChecksum: SHA256: b6a03c1803eb58ffb1f1278d5c7d4096c4c116e66dce8a7553e8c77d163c3438
+FileChecksum: MD5: 63afe97d58f8d47a401fad7d14981441
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.mingw32
+SPDXID: SPDXRef-08b22ac88dcf3680c9bd5ecac2a495e55d5c7dbc
+FileChecksum: SHA1: 74bced04f0ed8660ae4f65e6ffd8ca093f0350c4
+FileChecksum: SHA256: 3f30d00d4df92dcec0c8d0dd527d7d4c842b371b8af31065907603cbe12cc005
+FileChecksum: MD5: b803324d60deda661f47083d568d8ce2
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.sgi
+SPDXID: SPDXRef-c162eaa5b99a8d4fa796037f23b1329b7b207fd6
+FileChecksum: SHA1: 523f4132cf544b1a1c5e34a7a6ab360fb0626de6
+FileChecksum: SHA256: 1c14fa991463578d22b523fa8c3587b40474008ac23d3eb27e49b441e487ebac
+FileChecksum: MD5: bc42636836c717d552ffd8427fbe1874
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.unx
+SPDXID: SPDXRef-dc164c24865c55573d9bcac0aeb69b232b165b8c
+FileChecksum: SHA1: e8841b5fa045ac1961df5ff1a06a938f66694a7a
+FileChecksum: SHA256: bcae47092de9e9623b3ecdf9de6bb5b9454ceb22faaf47f6ef35d1b222a71fee
+FileChecksum: MD5: 4a7ed710785d04b62dd8e9fb25b91ecd
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/Makefile.w32
+SPDXID: SPDXRef-d4c22fe2614129d1c7dd4fc0d3d73e905b5ca889
+FileChecksum: SHA1: 0921b2bfd940be672aacd96962aff0e84f059ba7
+FileChecksum: SHA256: b3faf8f697e85f0236fb063180102c8fbe66bce63b995522cbab0dd5a2c8481a
+FileChecksum: MD5: 977b43a9c5170b47ef459db07ed6b144
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/README
+SPDXID: SPDXRef-df18c7dc276772870086b3c1d34737fa91b947cf
+FileChecksum: SHA1: 02f86e926789a6087d52086f3dd73820d58c692f
+FileChecksum: SHA256: 2dce8a3e0753f3bbac3edf502323bd59cbcc05f742fe71f5667481cf91eb7c15
+FileChecksum: MD5: cd6dae030bfc8911e7dc021695aae704
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/makevms.com
+SPDXID: SPDXRef-ec263aaa6b13aa1b494d62ea155e7ef530771874
+FileChecksum: SHA1: 8ead3bcc56a8924ad1666c8d5bb7fd33089a9340
+FileChecksum: SHA256: 4a49b7fc0d911fed8deab7fec5fa2b1e311f0b5e6bbbe1c69dc6080a022f8a08
+FileChecksum: MD5: b8e334a62c1cd8146abf0b3573030980
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/readpng.c
+SPDXID: SPDXRef-1f849c0a215975aed686e41d480a45a1c33cf7bd
+FileChecksum: SHA1: ea1f8627785b1191de5a47226f419037fa8d34d8
+FileChecksum: SHA256: 890827fd946133628925099a1ba7ad79312c5a738553b3ccc6e6ca814298ca0b
+FileChecksum: MD5: e0dfe1a284fb2d0208770ba7db144549
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/readpng.h
+SPDXID: SPDXRef-9066237f862a43942b26624cb4e2a44589df2501
+FileChecksum: SHA1: e83bed02ebee4cf55c8b0803f3e1f37aac81e403
+FileChecksum: SHA256: acf554e1345113a96c76f7079d881cc3f83e962b9a2951a14ddb1989fa57a869
+FileChecksum: MD5: e65e49f2f88d8704a66815ac9ffa0ae5
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.c
+SPDXID: SPDXRef-857420b6fd686d9b8255c96a4521372c05b858d5
+FileChecksum: SHA1: 2db1c87dc51c88bb37e69538928dd8472f950b56
+FileChecksum: SHA256: ede56cd79b38a820cabf734edac0c3c7dc356be286e4a945e4b5f9da419be0e2
+FileChecksum: MD5: bbacc99ebbc7a481b14389f5bc7c4efa
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/readpng2.h
+SPDXID: SPDXRef-439e718260170ace8eac6cba537fbce41810f071
+FileChecksum: SHA1: 0efdd9e920094d77451138c74db3e66d0cd3d8b6
+FileChecksum: SHA256: 2458824eb84d122cfa8d7f062ea2a3196e27bb0ff49a5c9b13aaf22aa1dfa98f
+FileChecksum: MD5: 85e21b350af7309362c5ee327e978b75
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/readppm.c
+SPDXID: SPDXRef-9287486eb2754e80b003f47e16482f0444e404d2
+FileChecksum: SHA1: 7f83ec62fb36cdaa0f4f90906e4145eb646b9ed0
+FileChecksum: SHA256: 63ada3c7cd067debcd3f280edca249a41271fc74dd1f5daea8e1d8f60dfd89c5
+FileChecksum: MD5: c41a0689882952ff959a5a910eaceb7c
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/rpng-win.c
+SPDXID: SPDXRef-eb6407d9d65ce63d4842c011970e30d1172dadc0
+FileChecksum: SHA1: 5987241f8c795fd68f3da65d58b32d602c687b1f
+FileChecksum: SHA256: 2bb03c06c367d3250a692c1e93ceb12a7ee9e6473176646f5bf4ed0a7cb41562
+FileChecksum: MD5: 8ad59547447effb31a209e58be3b5190
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/rpng-x.c
+SPDXID: SPDXRef-3ba0e17f5c31cc62dae35a0d9843dcd3b747bd76
+FileChecksum: SHA1: 4d401fbf125c97939894c51ca19b8aff72cf62a8
+FileChecksum: SHA256: 9be6ebe45d691e30f286af9edc5005c3a34684b15dc1d31e09faceef6df7daa5
+FileChecksum: MD5: 2cd1437f8a1c64cf934fe9cc4584c6e9
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-win.c
+SPDXID: SPDXRef-b6442ecea9f2789579ab28275eccf1ee1b5ad219
+FileChecksum: SHA1: 5a322d3a52b140553d50051861bb4326f7fee69f
+FileChecksum: SHA256: 3e7001f001b6e693e9380c98585f128a9464e731382cfbed0330b14bdb5f7567
+FileChecksum: MD5: 5755a42bef9f873d72de267cd21acecb
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/rpng2-x.c
+SPDXID: SPDXRef-9159bef794e36cc3ee7779b06deeedde3ee04dc1
+FileChecksum: SHA1: 4f5830fc635e0da4ffcb7a9185136d8ac29f7af0
+FileChecksum: SHA256: 626181e2045fa7280c9ebfd093366f6a6b0d3cff822090c43adff26697102079
+FileChecksum: MD5: 8575e06a7b5790acf88f877f253ff8b6
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/toucan.png
+SPDXID: SPDXRef-8e9aa0311a65e86227a9b90a1235ac2d032a5960
+FileChecksum: SHA1: eb87fcfdb655d810716850e54f0f1432c842045b
+FileChecksum: SHA256: 9813e3a499eb5145c88dec52327de8493362155f43ced42737caad513db94de7
+FileChecksum: MD5: 6868f14149ff5b7e302ea5cf734e49ae
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/wpng.c
+SPDXID: SPDXRef-13999fe1ed3116217778732f30a371793a2032ea
+FileChecksum: SHA1: d4aa730209df030fb8285e37e832f26ec96e3b60
+FileChecksum: SHA256: 1d88f124291953e19417506ead97370b384e5ce3a0427812c37a97d6d4040ca4
+FileChecksum: MD5: 4e9654ff60e801a285c860836f8b1359
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/writepng.c
+SPDXID: SPDXRef-700ab8a756d6d81fd8d68bab6ce318f64cbb212d
+FileChecksum: SHA1: 956b1a2eb2ea9a5fd7f4ea21142660901f3d8281
+FileChecksum: SHA256: 97d1b1dcd761ecfeaf806fd8d128c5934b00d88aaea6a357a35751950db88272
+FileChecksum: MD5: 8bd6e3707963987dd04d6a0bacf7386f
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/gregbook/writepng.h
+SPDXID: SPDXRef-b8058a292643361df3cecd0bd0e614a3ba7b66b3
+FileChecksum: SHA1: cbe350c836efd284a0d5e2ae36974d81d2bcc85e
+FileChecksum: SHA256: dda3073320239fa065376aa3478f143e808ba180e165cad5ed9f8d82707367a1
+FileChecksum: MD5: 469c902bf547facd13f6b3d3c9219c1c
+LicenseConcluded: eCos-2.0 AND GPL-2.0-or-later
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/fakepng.c
+SPDXID: SPDXRef-ca7a584ae400af1dc08e6efc8ec5d1a9a6e1c8d6
+FileChecksum: SHA1: 0c0108115bef3ed4acaeb521c60805022d3e4a46
+FileChecksum: SHA256: 019701122197edbebfa23a9fdb55a42f492583d2b878cead5a13ba3bd58e2080
+FileChecksum: MD5: 34435c99e269c70c484040e56d66a66a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/gentests.sh
+SPDXID: SPDXRef-1f22b3d4fc8edd545260aa21c96d0185a7b31c15
+FileChecksum: SHA1: 03dbf6229f78eb03cb36b13a13cefbbdd6be5a5b
+FileChecksum: SHA256: 6e73e03652a89a84076215b0066d30a2e1c8fec8cedb4927d7c1fc946fb726d7
+FileChecksum: MD5: 7227bfb23de78dae9e28528d2ad7b3be
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/makepng.c
+SPDXID: SPDXRef-d8ed4dbc5846cec6bf91cd0c957505129b7be696
+FileChecksum: SHA1: f84bb9639324a948dc3b97c066a5f0f3dc442773
+FileChecksum: SHA256: c601dba9f22947c9a4b09383e9a811bf3dc342564ad5e725fb9dba84c86b733c
+FileChecksum: MD5: 8df7c9a764d885408b8f1e642840af65
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/pngimage.c
+SPDXID: SPDXRef-9771896d04bfe351d9ab41b78ff8d59524038047
+FileChecksum: SHA1: 61b833dc43ce09bdecdf355a4298d5b3079f82cf
+FileChecksum: SHA256: d104ac1f77497e49ab863e37859364951d80b27688effac995331e80a2371867
+FileChecksum: MD5: 35ddffd132a17ceb22f9cdb187e1e02e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/pngstest-errors.h
+SPDXID: SPDXRef-bbe9fdde16b516c3a0e666dae17f3fb9aa50b46c
+FileChecksum: SHA1: 3fe585e94b6272f3ef31134c33e363a55c3abc5a
+FileChecksum: SHA256: 4667169feca0db47e1879e19390f81e6cbaa6ee3f66d6a65726e8151f71d691f
+FileChecksum: MD5: 05793258c7097d1af1d1b0363fdd61ee
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/pngstest.c
+SPDXID: SPDXRef-573c6b277126a6231575bb6e2050f018ca8fb7c8
+FileChecksum: SHA1: 8cbed963ccbfd655e5d8732fd412e7a0636486c4
+FileChecksum: SHA256: 81ec571f69accac17d439a9efd4576f88bba4aa087afe894397cde1516f38275
+FileChecksum: MD5: 05f4d3550981533ad922b5a3a7342391
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/pngunknown.c
+SPDXID: SPDXRef-b41443fe0a506d9858b269866ec25738c15720dc
+FileChecksum: SHA1: 818fd46d36fe8baf86b8d6626d8772c822e71332
+FileChecksum: SHA256: 422d88c620d1ba12f0606970e2e23c7e2c0685d9c3bd7b637544cac457a112e3
+FileChecksum: MD5: ae27200aa595e8513b44f975269c2c80
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/pngvalid.c
+SPDXID: SPDXRef-3b9cfb942b9c6552f5754dc409a35da66735fd96
+FileChecksum: SHA1: 1dfc96cd25df04daf8dd831d3392e0af21e8e7a5
+FileChecksum: SHA256: b10115012097ec2d837206be0035cb99bbf9acb3872f00ec8434a9e5de892cff
+FileChecksum: MD5: 938b64b5ac9f3066d84b219843fe4dd5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/readpng.c
+SPDXID: SPDXRef-d64a615f1c61c4819e17b7917df4e121cfb9f9ba
+FileChecksum: SHA1: 9fe8c6818c710b381180f3fc74b98c6f2e449a6e
+FileChecksum: SHA256: de7d4781b4852a98fe2f69582e622f1456309463c40df4ba615b31a7ccbef832
+FileChecksum: MD5: b1db15ab4b4400935cb8b73df333c2da
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/tarith.c
+SPDXID: SPDXRef-e373ec0498fd51c96ff145fe10ee62e43fe96d11
+FileChecksum: SHA1: c4e061b0703d5440e79b8b103e99f17e17304255
+FileChecksum: SHA256: a8d9a63f7ec433903922cd089bc92f580a3a1973d21f2ba4f1d2329d5c83263f
+FileChecksum: MD5: adbfa6779e746c8645088ebc1fd17de3
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/libtests/timepng.c
+SPDXID: SPDXRef-9ae4155232127760560701954bf261cc214b7489
+FileChecksum: SHA1: 4046831570f85a8f1eedfa843c2a59a6cffe3666
+FileChecksum: SHA256: 39443366936004879030dfcb128e7a1ebd25c7a64da1c17da15233aaa163748f
+FileChecksum: MD5: 0f2c86a5dfc22d0ca01c9d10d31917a4
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/mips-msa/README
+SPDXID: SPDXRef-2ef7d28b71cf48366cc22f732225e32c16998bf7
+FileChecksum: SHA1: dbb80ac5f257f1261da0df5fa1812d9414876781
+FileChecksum: SHA256: fc391df4169934c34aff694dcb5e7c91f6805e76b191bdce91c87c2aa56902d6
+FileChecksum: MD5: d19486781a3d097053476c61e228c0db
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/mips-msa/linux.c
+SPDXID: SPDXRef-73cb1aea376318154f950a61e4d1a279c8969f73
+FileChecksum: SHA1: 67b4aadcb8e9aee2ed46fc91ef05500a932d14f5
+FileChecksum: SHA256: aac8e846a9c96af93ca88934580af9a8766713a6629bcaf29ff171517053e802
+FileChecksum: MD5: b6318b76cc53a3d7f90701062e9d52a1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/oss-fuzz/Dockerfile
+SPDXID: SPDXRef-cae51de5a29c92726b407b7ccc9ed1cd47aec635
+FileChecksum: SHA1: 942a367add87db6d0b1e6765f45190eabc3d1713
+FileChecksum: SHA256: 00a88798ab475d26216bd7db1ddbdbc059840de603d03cc81a02e9c73767326b
+FileChecksum: MD5: e9c5860f8d84563a109d48209ff55d04
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/oss-fuzz/README.txt
+SPDXID: SPDXRef-a372f24a268e0b5f481e5a48501c8ca61187620a
+FileChecksum: SHA1: 9f87acd8497f075878656ca8fbfa99c9f40befbd
+FileChecksum: SHA256: ca48ec01c6808ade90f7511d6da32c8e5394ace89c7cdf9a62439f4088dcf3b3
+FileChecksum: MD5: ae20a09e45be594ef4aa3761aa4dac76
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/oss-fuzz/build.sh
+SPDXID: SPDXRef-1e87d438683e51417ea0f863028e492eac369474
+FileChecksum: SHA1: 96a214c8ee314047357efaff9a89282dc8f6ec43
+FileChecksum: SHA256: a6654bf12f48ab295c92675a52e53e03b304071ebddc7a08c3554db1502cf5f6
+FileChecksum: MD5: 52fb35cd764ca0175a694c78f6109ed6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/oss-fuzz/libpng_read_fuzzer.cc
+SPDXID: SPDXRef-2fd78be8c45c9dce4e807f650856026c1a51973b
+FileChecksum: SHA1: a54fef1c5a1cefc11990d86f7b2e8607aaf3a928
+FileChecksum: SHA256: 680b990648349bd21d1221fe2169493399eb699cfc54a7b7ceda3cece1bd37d3
+FileChecksum: MD5: c5d42ab073479d339719151ae8f8053c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/oss-fuzz/libpng_read_fuzzer.options
+SPDXID: SPDXRef-e5c664854ab5b61e1ad28c224371def35f537042
+FileChecksum: SHA1: 57bf02b7755e40d8452d8ff1e923d6e87af86919
+FileChecksum: SHA256: 40917518e475742c298e8d368cc16d6f39c43e8ffe72b6f704727e2a7cabab41
+FileChecksum: MD5: 6d600a536d262d9e3555cc3457264442
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/oss-fuzz/newcc
+SPDXID: SPDXRef-65986c58ad1d5bc704c8819669efe9c64d57e521
+FileChecksum: SHA1: e5eae02853a0edf4a60d0eca8df589e9f0b2315b
+FileChecksum: SHA256: cd1524a157e4440f8da97d595a3a6d7ba1149f47552503210ca7ddbe16b7a613
+FileChecksum: MD5: 8f55b332cc22c901cd3bdf7b21d36fa7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/oss-fuzz/png.dict
+SPDXID: SPDXRef-0e867c5e49b8995a56e2b9768ed7cba35aa55c78
+FileChecksum: SHA1: c003e065c4b6c46017162cd4840b9a006a01739b
+FileChecksum: SHA256: 1ea21a58e2eba2730c88cc1cba158ea464249da0f99690c8ae77baa39c20285c
+FileChecksum: MD5: cce07531258caec973119899219b4d38
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/README
+SPDXID: SPDXRef-240bf0baf34af0ed0e54beb012301571f492fb4e
+FileChecksum: SHA1: 9935132e7bc6c0bf3b2b7ba6ca72ac07a7550465
+FileChecksum: SHA256: c204a5c68cde141bbecde2e6691768ed9fc42b7fd6cc7dc6d8a34a9b88c64d0d
+FileChecksum: MD5: 27d5b63f5fe07919d77b041ff1f9bebc
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/decoder/README
+SPDXID: SPDXRef-8cb4eae109995435fe47c998ec72afce85884712
+FileChecksum: SHA1: 17fb6e22f112598a38cf29c1d3924c00bfd298db
+FileChecksum: SHA256: 19040552cc84806d87ecc58ec948a6c45d8fc2909061e3f478744f238bf7a110
+FileChecksum: MD5: f64cfc5b0928c656d7d649cb35a6f93d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/decoder/makefile
+SPDXID: SPDXRef-649f324cbf3daf5f7837077d00aeed7058c4f002
+FileChecksum: SHA1: 2f3d120059cc91aed86e3b120692a8ac8388b256
+FileChecksum: SHA256: 8661c0a9d4724c5f2b8dbfee2bc85ab996889d3048b7bd0d2f5835b2deced1a4
+FileChecksum: MD5: d15a7eebebfba683f9305674cc3f30fb
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/decoder/pngusr.dfa
+SPDXID: SPDXRef-52f471f3e0ac13b998337fd848fc2588c9b525a6
+FileChecksum: SHA1: e8bdcbfe8d90b4fdc1e734b10ba84f7c9242183e
+FileChecksum: SHA256: acf3401e55289666ef25f83646f51fe9301c238ecabda8ffab4c2a3368cb57a5
+FileChecksum: MD5: c2b3e74f937706790bc163287b573064
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/decoder/pngusr.h
+SPDXID: SPDXRef-4c8419377771f51c913713120912b195219918c3
+FileChecksum: SHA1: 5192f598e1b3139376cdbe8d5bcaf15b1932b615
+FileChecksum: SHA256: a571aba01273ab18703380fca3c0150b388daf246b7750013696ee873f8d138b
+FileChecksum: MD5: 704408273ae06521f97db1749d6c7286
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/encoder/README
+SPDXID: SPDXRef-af5bc07b9a1ec82b7626d3a4c921a832ace971ec
+FileChecksum: SHA1: 078b9724aef5a3ae3bc34447316dbf10cc43bbf6
+FileChecksum: SHA256: 246b10d6643875424f24ec090c2118d488950cf1c73beaf959cdcdd70bca3f9c
+FileChecksum: MD5: 7700c00a159a6ea11a19634a09da2a12
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/encoder/makefile
+SPDXID: SPDXRef-fa0b14e7319e37e2c688a8dae41b73d15c05c129
+FileChecksum: SHA1: 906d39d5b4f878f21bf8aba6280efc53fafcea3d
+FileChecksum: SHA256: 731d09dc58135b6130e438366ec227563e7d01294f2f3894547ef6ecdd9689cb
+FileChecksum: MD5: fe415f491309f30256efd7b5234dac52
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/encoder/pngusr.dfa
+SPDXID: SPDXRef-5ff6ee2dd60431c1ebaca34b51dda51917441e81
+FileChecksum: SHA1: 3d189f3ddf22a6a827e68f6f9b805675d46e3a99
+FileChecksum: SHA256: 6895dbb5e28064e9f78252e6f136a1b4d5cbf78b6f5ec3b4b1d5287e67bd5a14
+FileChecksum: MD5: e67539cf92a415b01faee080ad66777e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/encoder/pngusr.h
+SPDXID: SPDXRef-2a656375f4faacd32213f1d8cbc462432e6be83f
+FileChecksum: SHA1: 0e30d8351919cba52f34be882b7c0a7894aad97a
+FileChecksum: SHA256: dd0ee94f5d113f9329610397af25acecafc34a6f6e481cb22165ac586955de5a
+FileChecksum: MD5: 50d8a00b8367609eadfeca987864d3a9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/preader/README
+SPDXID: SPDXRef-c03b813280838e9458dcd29a27d8603199c6708b
+FileChecksum: SHA1: ee3a9f8801af1b51415b5aa4a2680cb30f253640
+FileChecksum: SHA256: fc821f87cd6c6ab8e49e957ec493b6fb3b51663b0a438e7747664ea289e9113e
+FileChecksum: MD5: 84fd9c96b7959683e9dcb4952ffd67d6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/preader/makefile
+SPDXID: SPDXRef-289605c14316701818c2ea672bf066a774cb8104
+FileChecksum: SHA1: 11d3f4452ea039cf190a41738c45f6c7bdb940f1
+FileChecksum: SHA256: 7e596b1ea23ca90585522b6cf561302116a486ae86bfda2aa50d148d3360ecaf
+FileChecksum: MD5: 09ac6f8c28426d6da44bfcd57de79dff
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/preader/pngusr.dfa
+SPDXID: SPDXRef-79b6bf287523a1d3bea8035e79a4c0727fd4ccf7
+FileChecksum: SHA1: ba654d2d155f4f60f547592e97b613cee798dfe3
+FileChecksum: SHA256: cd8794315648d8ca0116557b4881b12727240a147415b1dc0996b05645d4b0bf
+FileChecksum: MD5: 11b276e4a0086d22e410aaec86ca4c2d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminim/preader/pngusr.h
+SPDXID: SPDXRef-16c5dc2bd486b56f71eabdb0a86fa0bcc820c190
+FileChecksum: SHA1: b01dbedb42c7e3fc398efa38a5c693a930e767d7
+FileChecksum: SHA256: d20077d3961444951a80c3a62112ae72e9ed3f54044c191a154aa15587570c63
+FileChecksum: MD5: e9c8232932b9a2d2c261dc8ef338bff1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/README
+SPDXID: SPDXRef-68fffa4386685feda4742fa936f73d00c5b35ae8
+FileChecksum: SHA1: d1bc65649023a06731e3efacfdf2ccf99179b5e0
+FileChecksum: SHA256: 6a4e020cdfa8a19bc58c11fbeb7a60a8720be236f6736ce045c509c383119d40
+FileChecksum: MD5: ec715be5572cfe82316612507380f91c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/makefile.std
+SPDXID: SPDXRef-8ca23c77bfcf8d4f5afe0c4f2413b1889c65ca46
+FileChecksum: SHA1: ae5d470bcf34e6616870f73c10a8572220cd30ea
+FileChecksum: SHA256: ac8a9792d0b0744582e709038dd6397d41bf7d3b105dfcf0cc8ecb0d6b025e15
+FileChecksum: MD5: 93e86483565e2be0539593295c0698e8
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/makefile.tc3
+SPDXID: SPDXRef-9cdd87d5617fa71f9b1dc22c93cc0fbed7fcd2b2
+FileChecksum: SHA1: 8bd757f93becdb5c2041fe42be1d377d02d2b990
+FileChecksum: SHA256: b586cdff632750bdf8f0df3500d18dce08438fd5a0085b9202590955b98de601
+FileChecksum: MD5: 1a982cfb48235888cf5771533214abd0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/makevms.com
+SPDXID: SPDXRef-97d1969d875930ebca258d6ccd6593362f6e38ca
+FileChecksum: SHA1: 8d68446c374b5c0445c241e6560528d4fece58a2
+FileChecksum: SHA256: ea54c1a96ac21fbb66849c3fc14cd8ebe539db977878941faa0df8bc875e3260
+FileChecksum: MD5: efff54a8a5b19c270b8427a2ce07dc13
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.bat
+SPDXID: SPDXRef-e62cba27fb97019b8ef474124129b7470ac68a7c
+FileChecksum: SHA1: 2ba0c8f87027f6835cf7b1556b994279b0511b77
+FileChecksum: SHA256: a25582259ef8e9da1d23a093db79e6e81ad63b2e1ab8547de4f379e9e460b98b
+FileChecksum: MD5: e7c029a8bcf7b0c252c95626809d60a0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.c
+SPDXID: SPDXRef-ca6f9a19b711791ae6eea99465e657d3580201a8
+FileChecksum: SHA1: ce130c8d671019f69c11b4c93f8639e7c702f186
+FileChecksum: SHA256: 7fda27699c4e97f952536e463d89ca33ce53202547c99ae6c98a7e247caab228
+FileChecksum: MD5: d1600afe03b274256545fec8a7ba9ad7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/png2pnm.sh
+SPDXID: SPDXRef-e6c05c05d50dd2c7a3955ef9dff50a74dfcd4c37
+FileChecksum: SHA1: b645e89e070539080135f71944e2725a379c8abe
+FileChecksum: SHA256: fff92ef66f90743fbb0829ac0039f133cf8fabdf07585ca293dc19a71bdc7483
+FileChecksum: MD5: 72f72d28acd624f59f807472ce031bb0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.bat
+SPDXID: SPDXRef-61449b6f6d9a537f4435095e8154dbb778dffd45
+FileChecksum: SHA1: 1208c4c6c3ba80f62569c1feb28410f8e3b6b8d7
+FileChecksum: SHA256: 0db9d1804ff504bcfa784fa0bb14c668752d123f595675e24a5e313c65cead7c
+FileChecksum: MD5: 707ff72bd3787d818fdd5f1592326afc
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/pngminus.sh
+SPDXID: SPDXRef-613a0360fc68857193a96b9354eb1350c0e43da1
+FileChecksum: SHA1: 7c0fac46c19b9c6e51d69d7d230cb247dffc9f86
+FileChecksum: SHA256: 23389b618ae097173f9b7e219c139fa76cb266a3f5a193ddd71c62bcb4fe31d3
+FileChecksum: MD5: 0596687a10b06a6cd2d988ec392bc912
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.bat
+SPDXID: SPDXRef-e3ce8ac40bfb02c71e5df1503706f072290a7c9f
+FileChecksum: SHA1: 9b1b81bbe4e5e5af2126bd715aad38f8fa909879
+FileChecksum: SHA256: 2ee74bd3185c3c9b73fcba0703cbef42e08f2656c2e433b76bec784a0c2ad6fb
+FileChecksum: MD5: 53112293e241b066b8423e530a3601d9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.c
+SPDXID: SPDXRef-bd974b64b4b232e2380ff53509599fc92489d992
+FileChecksum: SHA1: 6a616fe869d061cc765382bde81a9cf2bd2d904b
+FileChecksum: SHA256: cca6c134b241251173470ede6c72fafff515382ae251ee7024beea86cb9aa971
+FileChecksum: MD5: bfd7a6cd1606ae8f9677c5eb084afced
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngminus/pnm2png.sh
+SPDXID: SPDXRef-861d9436d3596e75f68bf677b9b03c4d64f41ac8
+FileChecksum: SHA1: d3b25d4bcc92142aa8ef4d71ccf06cd3cd1ad853
+FileChecksum: SHA256: 83a9ffe982836d1eef6b259b2e94fdfdf2bd9b4e24a314771cd73fe63da79657
+FileChecksum: MD5: ee3cf240cb699acb7d56327241294ab0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/README
+SPDXID: SPDXRef-b423924ab261e39eb38f5337a6ad8f2d2d5d568f
+FileChecksum: SHA1: 94e9f98c303785cec68af9bbd1971abb667a4c6e
+FileChecksum: SHA256: 1c6b9c2fe389f3c023070a36492ddb6f5a047853eb2d7fdb795d018df28f38f4
+FileChecksum: MD5: 94115432fda158870eef64e544fee86a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g01.png
+SPDXID: SPDXRef-1fa1b45a510316e352ad98babddb8cdf79fee4fc
+FileChecksum: SHA1: 4d697124b1419a0299fffcbf4503bb98bc1a2400
+FileChecksum: SHA256: c23c1848002082e128f533dc3c24a49fc57329293cc1468cc9dc36339b1abcac
+FileChecksum: MD5: 32c94dc5822ee502fdb753e047e32aa9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g02.png
+SPDXID: SPDXRef-fcf6e29020728331363a6d0998f0e9616ea31de9
+FileChecksum: SHA1: d380eae8b61b6340dc6bae011467253195626654
+FileChecksum: SHA256: 833dd137ab757d1aaa138148d82f3ee8109efb423a80918f47c7889b56fd8e83
+FileChecksum: MD5: d9a0f7aca9b7383684d71f427d9966e9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g04.png
+SPDXID: SPDXRef-b96b1cd5e977504f91a141f9309e0092653341d4
+FileChecksum: SHA1: 2287d3fe66a92551820b3eb158e87b0ecafd3cf1
+FileChecksum: SHA256: 4e0cc6742bb06cfa379323266f699a54dc483bf735288e68527d94b4f97c1f30
+FileChecksum: MD5: 45d1e7b359e7b01dd2ef3c6a1dd6cc18
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g08.png
+SPDXID: SPDXRef-26212ce816b029ce6f850a3b733ed1599a3cbb10
+FileChecksum: SHA1: 7c3193bbc607368f73dd3fa5a0444fbde2cab9d2
+FileChecksum: SHA256: 85b19fcda452d6cbf02f570c353cfa9e47c29237f2fc8f0114deb6cd0b23f97a
+FileChecksum: MD5: 295fbf894529e27aa482c6071e41b8a6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn0g16.png
+SPDXID: SPDXRef-dcdb08e2d604b894cdaa289097927c553d101aae
+FileChecksum: SHA1: 5f2f4a32def1b3ef5227617893008038cc0b5bfb
+FileChecksum: SHA256: f26eb27e99300829c42c0832acd26fa499e0f317cb4d6f165e6663024b16bf6c
+FileChecksum: MD5: 7a6cc9aa4c75763e069ffa18289ff281
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c08.png
+SPDXID: SPDXRef-5b4255ca2239ca81eac81ee079831419b17c0785
+FileChecksum: SHA1: 7f25cd8e1ff408a547fdab96e7944cfec368538c
+FileChecksum: SHA256: ecea1ef4a001a999ce9b82d18abf47401eb92998708b306b6c9a8ac3a6a9a2c8
+FileChecksum: MD5: ccb55f531fa2ee55e3631222864fd3a0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn2c16.png
+SPDXID: SPDXRef-4ac68369e657b868176d6892d935a8f95f96b90c
+FileChecksum: SHA1: 2473562b73be2506e5e8795b004b10a7266d23de
+FileChecksum: SHA256: 71179d2905aadb86adc25de7f737869b52e80e154c5335f5e6b614942515b2d4
+FileChecksum: MD5: b91e63b3f828f314e8cc7cd9c4645f00
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p01.png
+SPDXID: SPDXRef-6353928bc8af9d3f42405be0cc48fd8de9620144
+FileChecksum: SHA1: 55a0c2124fba9dd2003ce376c027a788319559b4
+FileChecksum: SHA256: d3831ba7c495e0fb20ebf03bd7cf02766c1dc5f1a09dd1f3336e536ac9f1cd42
+FileChecksum: MD5: d7a3124cb463393c5763cb74e0c46511
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p02.png
+SPDXID: SPDXRef-abe16bb5a726fa99992d66aa6928f106d7bcccff
+FileChecksum: SHA1: 260cdec8a872ecf5d4efb7f9dc14ffacbb3bd010
+FileChecksum: SHA256: 784508d49be8187c6e0126f942cce65202616384f7d0a3a112d8ce01c6c8a413
+FileChecksum: MD5: 79a6a2dfb6cb88b9f5ce725bb664cf93
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p04.png
+SPDXID: SPDXRef-9204001bf96fa2fc51f1ac3ec61a8ff1d7358a71
+FileChecksum: SHA1: 0ae965c99fc7427c4f675a599eb0f9e01f66acd0
+FileChecksum: SHA256: 96e34367290e1776aa4b5971272d6df136cf530baced82c63569b56adc021b16
+FileChecksum: MD5: b0dc2803758460ba127cc509031c6b50
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn3p08.png
+SPDXID: SPDXRef-c5d56799fe2875a16c7ad5e94c34d5925c356133
+FileChecksum: SHA1: 60b2020364994ed5e01d997e25333133a14e344b
+FileChecksum: SHA256: eca1db90338a8481e4d3f2469befa06d7564534e9323b6a8040ed0cdd281d952
+FileChecksum: MD5: 7bfc33449ad211e678daa185e61ac9b0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a08.png
+SPDXID: SPDXRef-8a06d85382a7951cb5ee27b8212267b192c6fce6
+FileChecksum: SHA1: 79160ecf269c839c03ce2e541cc2c92b1ad61d87
+FileChecksum: SHA256: 377a67510b4ccc74cdcce14847b02035e75ccab36e9d8e00586c4c24d1ae385a
+FileChecksum: MD5: e6a98377da1fe4b3217d14e936c0efe0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn4a16.png
+SPDXID: SPDXRef-881c6ce42d673897f755e350007d4fd366d3985f
+FileChecksum: SHA1: 5bbad927d770d80f9d79f309284d21f783333b13
+FileChecksum: SHA256: 51896523625b1ffea7464e954e13cfff1c596c8e2c46925270dc408315e7fe71
+FileChecksum: MD5: c87d2371dc6f02c473cf3e4d834a9919
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a08.png
+SPDXID: SPDXRef-b900d732b5af78c5916ac30391a6c1099c4f9b69
+FileChecksum: SHA1: 4f5409d4a760708013142c1e4cb2643c519b4e18
+FileChecksum: SHA256: 756a03364c02e3c9f85d6f4029eb3cef2488c081dc537d46e102bebcb9e02732
+FileChecksum: MD5: 8d374372848c984f98c5e340f0975ff0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/basn6a16.png
+SPDXID: SPDXRef-dc093f6015770508f36ee75f3d875420e784b64e
+FileChecksum: SHA1: c84aacf99cb94b1223e439b853db64236e40e2ce
+FileChecksum: SHA256: 569040d3237a5552935a44b8bbe165cf02afe0d71caf30fba81955922ac9373f
+FileChecksum: MD5: dd80078058a6e4b47966ab66d8a91f6e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g01.png
+SPDXID: SPDXRef-cdf9394b35b3f1e9a603f2ba7dbb6b53a1925127
+FileChecksum: SHA1: de5f0de32e12317fc26d3318498b87f2bab8145a
+FileChecksum: SHA256: 401b527775e56254434ba0acbdf25111823b2c8812665665e36b420f4532831f
+FileChecksum: MD5: 723115c81c35a5ec5d249b45fc2e7227
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g02.png
+SPDXID: SPDXRef-e16eb6b4d67c3b09e29dcd983dd29e22eb6aafcb
+FileChecksum: SHA1: eb7901e2a9dff6796bd03f703389d7fb281e727b
+FileChecksum: SHA256: 7f75074fb427b8b2342b504012f272c52e82a27474cf65c2f6b19b05cd67b2e6
+FileChecksum: MD5: e4c42ba787af9e38082c1ab3ad9f36d2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn0g04.png
+SPDXID: SPDXRef-74fe87212d326d22edf00e337b9d9f52f4073d20
+FileChecksum: SHA1: 4e76c3aeb27467b0a2eaa7f1dcb978c350954fae
+FileChecksum: SHA256: c5e7eeaffa677bfac002ee968a0423e0fea3be7701d39ccd6a015df1d2d85e40
+FileChecksum: MD5: 18d4dff5fabaac0ef13062372689b085
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn2c16.png
+SPDXID: SPDXRef-61b2bfe27c90c8d73245fea278f527b84646d016
+FileChecksum: SHA1: ba07584e4f100f251094d9e9aa5248917b60f4e4
+FileChecksum: SHA256: 8fcfd031a5b716201854fdab25691feed6cd3ed7b713a51b94e1f43fc63fe0c1
+FileChecksum: MD5: 9c2a84a8c014f30626734a441f6fdcf4
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbbn3p08.png
+SPDXID: SPDXRef-66cc7b56a0cd0a14c34ca291dbdc5d4108ef931e
+FileChecksum: SHA1: 72c1813a311bcce3360697a5ddf2c2cea2d548fd
+FileChecksum: SHA256: 8eb43a6020fda8ed7c8c9b88b974ef794ee8452db29212ae7e5c11003bfd76a3
+FileChecksum: MD5: 9fc7cdce5d9b05dbdb8dcc81472adbcf
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn2c16.png
+SPDXID: SPDXRef-85b8227d6737c373cd1a410d8026703a9d5d385a
+FileChecksum: SHA1: 2b2bd9bfe9255633279cd54d74855b1af7bb2dd5
+FileChecksum: SHA256: 49711ee271f96099521b83b75d58ed2f76d42ed46cb3c06656fde2cad697cf59
+FileChecksum: MD5: d804a41e638bad8765d967e04722bda0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbgn3p08.png
+SPDXID: SPDXRef-b5ef8144738abff5be86d2e8f5d131960a68467a
+FileChecksum: SHA1: 0436847937a0f315dd943c22f3e27b5efc420a7d
+FileChecksum: SHA256: 6f798628935a021fe446dce3d62861d1f7369aaf01bad10daa4917c5abccad7d
+FileChecksum: MD5: e6b663e2d42e31f9b6314e88330e5c3c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbrn2c08.png
+SPDXID: SPDXRef-4609b8acc3d4e840409606da6298548f8f696213
+FileChecksum: SHA1: 9d4b5011aebcbb5db975548ec5320a64ee306f35
+FileChecksum: SHA256: 8223d8b0c5f84b149f0c1f0e1f658346e07fcbd03ffc02b2e9eeea1481eb19bf
+FileChecksum: MD5: 2051b59e54b1ffc353645ce50a502365
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn0g16.png
+SPDXID: SPDXRef-374cd021b26fdd0334a177d43d5c1e0b5d2068c7
+FileChecksum: SHA1: 0a089e77f0f9225459f5aa6b3eeacda6d27078a7
+FileChecksum: SHA256: 01e86f108b244bdee4d72e384aced8a62369965ca2993ee6ef88f131c647f7d1
+FileChecksum: MD5: 4e4fcf742cb2f619b04bded3708bd84b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbwn3p08.png
+SPDXID: SPDXRef-7a7911eff6c643ccc6c980bedfaa2c96043bf11c
+FileChecksum: SHA1: a0e78b37603fe370baafd69e24c215daa383397a
+FileChecksum: SHA256: 978b28cec43bd219517083b63661bb30a7b9cdf9fd4476ab4e70844565980d51
+FileChecksum: MD5: d180d71bd8e6db5d81a528fa2cc614a5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftbyn3p08.png
+SPDXID: SPDXRef-d37cfb5aa0b340d38d060e5f732d4aaf51bbd6f4
+FileChecksum: SHA1: 8bbbcf1ce54068908746594ec3f1002b04131d8e
+FileChecksum: SHA256: 7b4eb64b4bd7eb36417752873ddaca027ce77a07f474b2af569f4eea1e984111
+FileChecksum: MD5: faeeb9a3d7fcbae6fb6f52c00729cefd
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n0g08.png
+SPDXID: SPDXRef-9d97d6c5483016c9eda09ba3ccc6eed0acb0aee3
+FileChecksum: SHA1: 0af3d4735c9d80bb92d8967aa579c99cf0fae02a
+FileChecksum: SHA256: a253e055d8cd94049cd95e9392e7aa60f3d5c922a8f0cccb84762b0c5f547545
+FileChecksum: MD5: d3b8a4627d69bdaa36c816b165cc9b48
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n2c08.png
+SPDXID: SPDXRef-55a4415b2769e4dd1fa41bc6f7dbc39b46555cff
+FileChecksum: SHA1: c50281993dae0c9ec3f09556b2b44e97185a12a1
+FileChecksum: SHA256: 5dced3fde56b950e61ce86f4ad54458336f66389ce8ca68524d4fd8ec546ff5b
+FileChecksum: MD5: e4451d4233de3574bd2728193f2c9f24
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftp0n3p08.png
+SPDXID: SPDXRef-f3571813df76f8857af0ed3687ed3577342e1e5b
+FileChecksum: SHA1: f0cf8c4469310c641ba564e99d1070703130682a
+FileChecksum: SHA256: da40ddb18bd45db32ed03dc89e2250b096d808efe975a88477e4f5a91a4677c9
+FileChecksum: MD5: 54b9dec9aaed74f6f9809b8697762111
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/pngsuite/ftp1n3p08.png
+SPDXID: SPDXRef-8b68d03d83708a7a48661eaa08c6182e65c07977
+FileChecksum: SHA1: dac787fcc6c1b060a52d9de445517087a631d575
+FileChecksum: SHA256: 50bc927fe6cf1816454a7c27f8c743734be8db45e37e5ee3ede540f4e895e6c5
+FileChecksum: MD5: 6207a3c0ebe11ad7aa3c0b859d7194b9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/powerpc-vsx/README
+SPDXID: SPDXRef-22e33babe86c0e583479785f6eda7878658c809a
+FileChecksum: SHA1: 5272a56f0f1a3d6ebfc5a61ee2954b2ed0c74083
+FileChecksum: SHA256: 13421618593e0f138ee4a45862f58bf3c282906f5b825404879d3f3897dd0754
+FileChecksum: MD5: 7769aea593962b6e1a9e978566540cf6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux.c
+SPDXID: SPDXRef-e33d385fa0691a4b87288ef156b41de7081dd9f3
+FileChecksum: SHA1: 07767045ace0ec407284ef5b6216ebe3bfcf87d5
+FileChecksum: SHA256: 155f74b408955bed18366590c908beea465f63149df814cb5ee24c4540c0a8d8
+FileChecksum: MD5: 3c5df05f3b631a2648b63d46e8c6b619
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/powerpc-vsx/linux_aux.c
+SPDXID: SPDXRef-8bf479fb8ac18a11e4ed18b79adfeaa35de6650a
+FileChecksum: SHA1: 90260506d9cfaff149827758fde8d8c039733270
+FileChecksum: SHA256: 90022089618a5ddf530858dbc139c7da9170ec43c073db92cdfad03668a9d280
+FileChecksum: MD5: 9ac5f1268b679b0193880ea512c970b1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/bad_iCCP.png
+SPDXID: SPDXRef-b0cb1a1c24ef83c28996e8760008226d3268b5af
+FileChecksum: SHA1: f782598e712e9e6d102169fd00e0f8e7f4cece09
+FileChecksum: SHA256: 0c1ec5ece28d8574e80a3842939e8939f3451c71e8b2e013dcf26a80d292168e
+FileChecksum: MD5: 555245a12f38f3876fb87ed9f821b701
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badadler.png
+SPDXID: SPDXRef-077e987a55ff54ca3fe31f9cc1d979c21bd66182
+FileChecksum: SHA1: 3c4c4f941a3a58122eb305b33f89ca3162f843c2
+FileChecksum: SHA256: 3614bbe9494f6374567cbf897e022a16abb8edd3f166745ce73a2f472eef6136
+FileChecksum: MD5: a61d0c2d4d8ba94e94ea49cbcdc893a0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/badcrc.png
+SPDXID: SPDXRef-a1a3c611d5ee2d168a4eb7add6f689571b73536b
+FileChecksum: SHA1: 071a515faad7e9c792be38d4eea4186b3181f05e
+FileChecksum: SHA256: ec5b6a711ea2325404ea56575df2f8a28292e5ef15a950f42a1d39ce06a6a96a
+FileChecksum: MD5: f952c8973be2c8a4b32adafff26a909b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/empty_ancillary_chunks.png
+SPDXID: SPDXRef-01eba75e090f12ef3e540eeae071625cd9b6af9b
+FileChecksum: SHA1: 6c6a15489c189e64bbd8fd8abef0746db5421052
+FileChecksum: SHA256: bdc133d532c03cdaa6b6a8188a722c3845d4b2f76e89c63e1c70c1bf6a364be7
+FileChecksum: MD5: b3d7e72aaffd5e39cce639ded843996e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_IDAT.png
+SPDXID: SPDXRef-5494b4baaf1b1eaf1a58af6031471319825450a8
+FileChecksum: SHA1: bd04b819584620b29834c465880e3349a8371511
+FileChecksum: SHA256: e5080baec5e30c020cc75a16534ffa906ac1130234c511d774e0305408021b9c
+FileChecksum: MD5: 0831e53722c1d071a4627ee4088a794a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_bKGD_chunk.png
+SPDXID: SPDXRef-4ff3facb98517d4b05c376784b31e3c05cdb9f95
+FileChecksum: SHA1: 96137b6cdf3ff3fbe47aa7aa962c176621e6e849
+FileChecksum: SHA256: 082aeb6b4ab247fef9ba5d4e45807942878326298d1df625b605d1da0801f454
+FileChecksum: MD5: c8753aa75c13999e1a4b2a81a0bb4f7f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_cHRM_chunk.png
+SPDXID: SPDXRef-bfbf5e9ded4862375e0f03fa683ad10411729526
+FileChecksum: SHA1: bf01d456c1e457e1dddf2d689c5148aecf71521f
+FileChecksum: SHA256: ac630e5172baede942f4b6129c8b12468b5c723e443cd8a470edea2a8efa1b5d
+FileChecksum: MD5: e556f516da148494682a1d3c2a6eec1b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_eXIf_chunk.png
+SPDXID: SPDXRef-c2de5888d820e043af53ad21c05b380cf26e99d6
+FileChecksum: SHA1: f16c13e34a73205d4b1a8d83f1d2b1971c5fe342
+FileChecksum: SHA256: def32ebac5a7c25ae469c5eb228d71f78d746edbbc088bcab13e3aefcf92af23
+FileChecksum: MD5: 3a5cfa84f4a086059906cecbaeac1328
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_gAMA_chunk.png
+SPDXID: SPDXRef-26a268aaf6d9b2937dc9f816cb40094a13e04be0
+FileChecksum: SHA1: 563cec6d3b6e1267287c56a3f8889ca761f56373
+FileChecksum: SHA256: c645113de3ab585b92e0c0f626761f18271f65c60844230071f2632fe4f70895
+FileChecksum: MD5: 3bb0e6142e3b435db81dc972aec96d06
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_hIST_chunk.png
+SPDXID: SPDXRef-d58782259f4830121fdf676bae928c510424512c
+FileChecksum: SHA1: 7d45faf6929b811de1ee12e3f0823298513699c6
+FileChecksum: SHA256: 132f6a3bef3964ff05bad7f35f585d18680fa21acd4f9b2e51b7fe665aabc713
+FileChecksum: MD5: c514f395bef4487ca736d2b080d3276e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iCCP_chunk.png
+SPDXID: SPDXRef-428095a635c40e19f341d8420e5b9d69b7102180
+FileChecksum: SHA1: 01f9f345c8bb13c0f1985ba1283b572db34f9e29
+FileChecksum: SHA256: 81efdcb97e6261332ee2d6d6c0761d3a51a22a5f432da87d2cdb579629fe98e5
+FileChecksum: MD5: 0575eee03dbefbfa4646f3cee766315b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_iTXt_chunk.png
+SPDXID: SPDXRef-322832dabd7393d46b50bea2bae6af2a8b845684
+FileChecksum: SHA1: af39c961734ce6a9c3cb7fce0f86391bd025981d
+FileChecksum: SHA256: cf52cbac99198baf5e72e0d1423de217aa9cff327981356ab20e9b47d32ab0fd
+FileChecksum: MD5: 3e2755dd1b9170303d37bf42bfc03a6c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNK_unsafe_to_copy.png
+SPDXID: SPDXRef-923c2ae3611ad87043ba904afae841abdf30ff7b
+FileChecksum: SHA1: 1420b6a5228810b991ebeb4bcb3284fa1b112315
+FileChecksum: SHA256: 8f9ef7f8931919fc8a73d896ff2e3bd5cf233141dc6b7801e4fbe7c0c7b4037b
+FileChecksum: MD5: f4b0a720f813258b486059d63ce64583
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_juNk_safe_to_copy.png
+SPDXID: SPDXRef-e98998083fcd1cb068beeea6109dd5beed2f8332
+FileChecksum: SHA1: f5269c433bfd606077768b062b530835fb80c020
+FileChecksum: SHA256: 85325cb6bc93bf513aea184f610f856f306278ad6bedd98935a0a96d9416d5f0
+FileChecksum: MD5: e5bd761dd9c109cc7b2cf8c2f4120c11
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pCAL_chunk.png
+SPDXID: SPDXRef-5cd348d8f41c8a6c1d3f695ae2c24ccfd563816e
+FileChecksum: SHA1: d84322784ef7d6d3239eabc1a306b310a1f25a53
+FileChecksum: SHA256: aa551af23f38a4477025a66a81c0d60a8cd5bbf20daed3526b1427c89ef7666b
+FileChecksum: MD5: f2abcbffe8f42cd8ca56f1ac9100a34a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_pHYs_chunk.png
+SPDXID: SPDXRef-1061303d42acd80c7eb7437009db763ed7972b02
+FileChecksum: SHA1: 4272917fff30259a5d50dc7f27d22c72fbe658c1
+FileChecksum: SHA256: 96057fe3351aafd59ba490c08edefce40a1f2d03b168973ad97a34d0be9d9ec3
+FileChecksum: MD5: 81d3b175121a718f01b0ddaaabb12f0a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sCAL_chunk.png
+SPDXID: SPDXRef-817930c5907e901db8b29ae2c4ab46dc3f53d710
+FileChecksum: SHA1: c77040e7287a13d4320d8f38a1dc008e6960eb98
+FileChecksum: SHA256: 8c10f1d5cc9efa236a9a9ddc337ecca60d877c5d496ff0864bf044f446b88c3a
+FileChecksum: MD5: adf06d2fe9acef802e33a1d1aa0a3249
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sPLT_chunk.png
+SPDXID: SPDXRef-085947f0ba7619378a3245a4c4b54b5660384d14
+FileChecksum: SHA1: 1e60c6cdbfe1f7041999b0f6c969951930ededf8
+FileChecksum: SHA256: 0e1b57826471471792d4f36fc5a6f14f0c91d3d2a3d96aaf4ef59af941ec838d
+FileChecksum: MD5: 5cd8cad1b7fb2928bb45977f4eb849a8
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sRGB_chunk.png
+SPDXID: SPDXRef-3a20df0375f0818faf72ed59438d3e1aba754247
+FileChecksum: SHA1: 85f9df89c6bd5c8970eab3a40f797d06bfee3968
+FileChecksum: SHA256: 985df4412486a50b1738d0152e177cf6cb70063081c8475d0b72ca33f8e1c708
+FileChecksum: MD5: 016c64b67e3beb8008ae5678562b2658
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_sTER_chunk.png
+SPDXID: SPDXRef-d5ad6fb6eacc1e189bc017254d9be686358d4e41
+FileChecksum: SHA1: 21bc7c5ad75223c999531ddace9296511a1d8e22
+FileChecksum: SHA256: 10b7ebf8af5730f6886b433742bddab4949fa08188bb2e3cd5dea186839762c4
+FileChecksum: MD5: 6feb32061f6a7394a9c013202b893a4b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tEXt_chunk.png
+SPDXID: SPDXRef-96eb9b9e4f87f071214c741bede61a869dbccc34
+FileChecksum: SHA1: 64747709fdd20c56ecdf9db407f389893551b945
+FileChecksum: SHA256: 0c9f65ca8ff8e756b834e624af837b2c97cf91e42671c7042fc937c0ce677a14
+FileChecksum: MD5: 8ed4ff025c0ba5d8e61854bf9cadc4a4
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_tIME_chunk.png
+SPDXID: SPDXRef-5d37380d287138b626a723cfa3c0f720a8aa0340
+FileChecksum: SHA1: 47fc51655ab55a184a5c625b5a7665613f031510
+FileChecksum: SHA256: 60cc784eeba739354001e1023de7553a78cc32d6c5554c297f12d74b6e458f67
+FileChecksum: MD5: 1ce50952efb9d8e7ed13a3989acc8e72
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/crashers/huge_zTXt_chunk.png
+SPDXID: SPDXRef-39e97f5058e09e105764d9f704eb971ea09f5e9f
+FileChecksum: SHA1: 41cc17e910fa59f63b7c21f548e6e9f6b48c9a28
+FileChecksum: SHA256: b5b9231e7464ffd30d681829baa032160137672c4d783885d765c4c87222917e
+FileChecksum: MD5: 81da0944e961f88eae89a90d795a265a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8-tRNS.png
+SPDXID: SPDXRef-8af5caa276f414c69d1344780d6ac01e860ad4d4
+FileChecksum: SHA1: 436de971787459bb7e1d1c529297683b0df487bc
+FileChecksum: SHA256: 83f2309fe4ea2c06109a9fa8b0a507ac58ba5b7d41b0c1cda13138c4a7622cb8
+FileChecksum: MD5: 65ec4e3e70671755add96459335cb1e8
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-1.8.png
+SPDXID: SPDXRef-c8ab080bf3858eccaddc102a196749d3ee88ed0e
+FileChecksum: SHA1: aa9db9881cc277e9ea18833bbf392338008d3641
+FileChecksum: SHA256: 3d173dcec82b8c878bf65dfee7799d05fad0117b68ccf56d260fa5f1eddc42da
+FileChecksum: MD5: 5f520ed2402a16df7542e1ef028e0588
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear-tRNS.png
+SPDXID: SPDXRef-4a69df7defc89242a5e8c4f084157bb71114c336
+FileChecksum: SHA1: db0219683cefee6103e9dc9d23a8da82a653fe89
+FileChecksum: SHA256: 106f15335fb98d96149113f79657f2c1bdf3e939b2e8d6be8a4c94c995e9f931
+FileChecksum: MD5: 1e8794a6424a77e4952a7d5941b67fae
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-linear.png
+SPDXID: SPDXRef-9c237de8660756fd8bfaf8d52f6e8011f3c172fd
+FileChecksum: SHA1: 083e5d0beec5bfc21c84fb81761fa7d85f63907a
+FileChecksum: SHA256: 1bc53e1e00c6e21e0bd1d7cf40904948366303f98c7ff6a4463d142b4802385d
+FileChecksum: MD5: 76d9544bb429d13078f18b03f7a4d121
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB-tRNS.png
+SPDXID: SPDXRef-3c8287d799074993d0ecdf910c65e5edfe4f359b
+FileChecksum: SHA1: 8ad369dc1b20fe73489c7a6a4ef11cb13463851e
+FileChecksum: SHA256: 17cf26259f3ba6a6b70f9ff972996dfc83f73e95a7486dc3cba9699c8473c6d1
+FileChecksum: MD5: 503543c747440cac24d4ad02aa808cba
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-sRGB.png
+SPDXID: SPDXRef-c57d6849616befeeb3e36b4824f18863ff5f8df0
+FileChecksum: SHA1: 95af4c727313e6d48cf119d385b15051eae42531
+FileChecksum: SHA256: 44c5d094008a2388b4d3088b261eb2af668cc800f4d11fcb828fc24e47913a19
+FileChecksum: MD5: e3845c98955ffe41d8b4bcfc0f56a36b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1-tRNS.png
+SPDXID: SPDXRef-6d68b1ec74882f6bbd82be1ba7e55ee50732b0eb
+FileChecksum: SHA1: aaa57397c70e036dc22da6eb118dc1e0c490b775
+FileChecksum: SHA256: 2e31d68e0073b66c8077f5db7cbde1dc7edcf0a66839b1330b9cc972f4f7a604
+FileChecksum: MD5: a8c405a385ecd87adb6eb813267d6728
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-1.png
+SPDXID: SPDXRef-c96fae8efb18c4f2e4523c6766d90252316c6fd5
+FileChecksum: SHA1: 0340be04390ad4bce1f8356faa66a613a481ac21
+FileChecksum: SHA256: c747f0a2b921c64c2ac85e58a44710a1559a87aa8d9ffb26fc7cb616a085ebfd
+FileChecksum: MD5: 44fc427bd15451d9f9f7394ad9fb632b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8-tRNS.png
+SPDXID: SPDXRef-3acc6f3043fe01283a6931df998547052f5ce7e7
+FileChecksum: SHA1: f09dc95eeeb4b87015db4986052ff587a0e36174
+FileChecksum: SHA256: 5b7b3179a4ad997f1d12ae020cb28536d89e71086118bd93e5774cd2de14e236
+FileChecksum: MD5: efd02dee126b09fd9d1285a0adcc5fa0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-1.8.png
+SPDXID: SPDXRef-cfcc912ac0f934d66370a2e6e20a6e013ce945a2
+FileChecksum: SHA1: f09dc95eeeb4b87015db4986052ff587a0e36174
+FileChecksum: SHA256: 5b7b3179a4ad997f1d12ae020cb28536d89e71086118bd93e5774cd2de14e236
+FileChecksum: MD5: efd02dee126b09fd9d1285a0adcc5fa0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear-tRNS.png
+SPDXID: SPDXRef-2ce339117375581de742ccf1a021aae9c7220a1e
+FileChecksum: SHA1: 3ab23c324eb0a272fa00b2b76a4bae8fac12ba45
+FileChecksum: SHA256: 4f079601662e06fa01dbbfb09a6e0e5d154e084f52e97abc4f9c142ec3aff755
+FileChecksum: MD5: 5b9361614a003efe91a92d002a4518ea
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-linear.png
+SPDXID: SPDXRef-a9366b7ce39c3f3060dc2afa7c84cd26e7239499
+FileChecksum: SHA1: 3ab23c324eb0a272fa00b2b76a4bae8fac12ba45
+FileChecksum: SHA256: 4f079601662e06fa01dbbfb09a6e0e5d154e084f52e97abc4f9c142ec3aff755
+FileChecksum: MD5: 5b9361614a003efe91a92d002a4518ea
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB-tRNS.png
+SPDXID: SPDXRef-00ff348fca4c6845a7ec6c0abaa3303b307cc42c
+FileChecksum: SHA1: 3ea0174ae4b887cc794c5910af174f774a7ec27e
+FileChecksum: SHA256: 7528a538e8ca97f49569dc58616314efa113aac96e959f168dd1aa91fd6d4f5e
+FileChecksum: MD5: 513f8afb923b55f003cb7f546e58c4fe
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-sRGB.png
+SPDXID: SPDXRef-096e3d9a3cf48e46d5f473040695f239e175e2f6
+FileChecksum: SHA1: 3ea0174ae4b887cc794c5910af174f774a7ec27e
+FileChecksum: SHA256: 7528a538e8ca97f49569dc58616314efa113aac96e959f168dd1aa91fd6d4f5e
+FileChecksum: MD5: 513f8afb923b55f003cb7f546e58c4fe
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16-tRNS.png
+SPDXID: SPDXRef-a7522acb34bc0e4cf4e28255ba28cbb68edce005
+FileChecksum: SHA1: 9f8a39eefc4ee66a3e0bb20ad31e7583cfd9bbcc
+FileChecksum: SHA256: f150b76c824e4870322d6564a214a8ef00b4b100d5fd6f5ba551f6f242005bcc
+FileChecksum: MD5: 055fe9930409239f451436432df67264
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-16.png
+SPDXID: SPDXRef-0ff1f27cdb4e3ad868d79a2062baf202aa9e7b50
+FileChecksum: SHA1: 9f8a39eefc4ee66a3e0bb20ad31e7583cfd9bbcc
+FileChecksum: SHA256: f150b76c824e4870322d6564a214a8ef00b4b100d5fd6f5ba551f6f242005bcc
+FileChecksum: MD5: 055fe9930409239f451436432df67264
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8-tRNS.png
+SPDXID: SPDXRef-659366c5dc62ca63d28f8d9a42def543d265d528
+FileChecksum: SHA1: 19af31eb5b8e9c55698262cae5770b25d07cb820
+FileChecksum: SHA256: 2339a4da318d49e1f7ab1881893801d4597fcd1bb34b6a0a566e1b88829f6343
+FileChecksum: MD5: d56538c7e9fbfd2d085c69baeaa148d5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-1.8.png
+SPDXID: SPDXRef-ff50706a9c670233b23a56973e3d9e8c7467c621
+FileChecksum: SHA1: df6f60b88fd3be4cb4ab3b53f51f1a9964777bf4
+FileChecksum: SHA256: 409565119d3783e9f31637871fd39bbdf55bab0991dd593324461b85475b76f5
+FileChecksum: MD5: a07d4fd554cee3bb75ff3d262e37a90d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear-tRNS.png
+SPDXID: SPDXRef-60dcadbd2d5ee0416d8f2699ed91c568448a974c
+FileChecksum: SHA1: 0a38a5701acfda713f7b78307a95a72fb05d3c0a
+FileChecksum: SHA256: 314690b2ed9949b3c0b9db646bec9e1bbdcd2460960a80816b19f57f9679d463
+FileChecksum: MD5: d38b62e9376bb54d57031696252194d5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-linear.png
+SPDXID: SPDXRef-839dfb404745a93714d9e174c453a00191dae2da
+FileChecksum: SHA1: 189efdb635e57182e3eaac92112127f34ed42014
+FileChecksum: SHA256: 24f8aa3b3f28a693c58e92af8ba1240244894886e64ce36fb5ca4f0b33e799b4
+FileChecksum: MD5: ccea1e2b9ec5c67c0882958bbecbfdec
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB-tRNS.png
+SPDXID: SPDXRef-9ae7796d995bb0dd5053e19709c9e9f6d9e59797
+FileChecksum: SHA1: 54d80035ac96276b23205d4f8cf398e7bda9840c
+FileChecksum: SHA256: e51c60e394fb8ab61e6550f6ef3b167d61f610b2e1c58983b8ff2fa80f0677d6
+FileChecksum: MD5: e8e4117df870ba4a6e0bf9edb05ccc20
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-sRGB.png
+SPDXID: SPDXRef-0808e67264f5112cfcc85c92ae532f46cf30aa9e
+FileChecksum: SHA1: 09bad1440ec56d67fd1f529416b8076ea4cc9043
+FileChecksum: SHA256: 61910a8564ff4251e7dbc8f2043f85b981817f36c0c3fd2cc0dcfba90468056f
+FileChecksum: MD5: 8dcd2098bdb95da36cb0e88eec7a9106
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2-tRNS.png
+SPDXID: SPDXRef-ce324eb1041c01d1e31f8e0e09e5ef14354bc408
+FileChecksum: SHA1: 4ca3a502a7816722c7c5e2571167470702d7d5eb
+FileChecksum: SHA256: c36d10c8498bbe148bc44d41e0243137e47b07402dfb8e58978d1a9b5029cabc
+FileChecksum: MD5: 05edb442844d978488c75aafe9cf4614
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-2.png
+SPDXID: SPDXRef-7894d5f76c0a1d8cd7986976c1b9a1fe5475ddca
+FileChecksum: SHA1: 6b68bb2d369f3ce4ffbb483ccd0cb9eb0cb4d499
+FileChecksum: SHA256: 9578cb4d1fc771b10a1e7c048d78cd22e39098f915513dd6885b7ac596d0c476
+FileChecksum: MD5: e91ac8314530c066e5226ba1ad28d9cf
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8-tRNS.png
+SPDXID: SPDXRef-0c11333031523fdf76cf675aa6093b1a9cb0895c
+FileChecksum: SHA1: 9b9f8b673bc360d0bcfd371fb957454d3c2172a5
+FileChecksum: SHA256: 6cf0e2dcaeeeb7746401db10630604e3b5b5cbf958c1da5de69371c0208c9203
+FileChecksum: MD5: b17764748f518c053c800ca0c6e536ee
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-1.8.png
+SPDXID: SPDXRef-633030c8d0be29c698b9f4de171141b1b51c3ee1
+FileChecksum: SHA1: 9df9f476604ef26544e4013414e13192b060b371
+FileChecksum: SHA256: 9921e23cb5a23980fda74ac5a09c786608c7d8c33cfe07ca5bd715609adf0ba6
+FileChecksum: MD5: 1cef30ef4ec04f3a7de242bd046482cb
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear-tRNS.png
+SPDXID: SPDXRef-bd5b99cd6a3264f0d2b7d78e44b0957493edd525
+FileChecksum: SHA1: bf29aef1276d7f1388ee92d79e5c1381e5c61340
+FileChecksum: SHA256: 0aaa42f91dd242a144e49c1bb896c170cc5261d9b04eb299ea1bb7baf25a606e
+FileChecksum: MD5: 6c02dccd25c2d0118fbf8e99a52f085e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-linear.png
+SPDXID: SPDXRef-728c5665389208aaf8b0400f239c9b5b412f3292
+FileChecksum: SHA1: 2bdef3e723ad74dd8462d525422734d3996faf0b
+FileChecksum: SHA256: 160e41e774b6c1de8f247cd76f959bb5b1033a2e99f9f2ab57f20380f18ba2bd
+FileChecksum: MD5: 3902dd6e2d537ecd9a3309933faf8bba
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB-tRNS.png
+SPDXID: SPDXRef-8acd8495772f523476313758130b6b6ba3a57284
+FileChecksum: SHA1: 7f4212792c9061e9dcef8c0367ed472d2857f904
+FileChecksum: SHA256: b61a35601140c6bff052ef32d1df2287df23bb9244853392e06dc362b5efe39f
+FileChecksum: MD5: c9a2be4554c699741c92d39e34d04b83
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-sRGB.png
+SPDXID: SPDXRef-f9deef3609c28348bcdd628d6fd4aae8793f49a0
+FileChecksum: SHA1: c52f1a5128e7686319d1e88d16a3baddc9f5188a
+FileChecksum: SHA256: ae1be17bf3f6c4f9e918a78cbad376854f4f76580ca56583829b466ec74fcda4
+FileChecksum: MD5: 66488a3da31c78b41ca6977c23638d69
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4-tRNS.png
+SPDXID: SPDXRef-f97a243a4611c699f869dff5b5a45671e875e1e6
+FileChecksum: SHA1: 082ef204a75f3f368f9db2d176e30ca0eadc4b9a
+FileChecksum: SHA256: 217248c079a0ed7896803a2bf5d9719b6060ef898314a5f6ab898c6c4349f341
+FileChecksum: MD5: d8b3bb9eb18b1a1aa57a06647e7cbd59
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-4.png
+SPDXID: SPDXRef-1c424bbe55aa927205f91b4ddd9f1952208fd7b6
+FileChecksum: SHA1: 1fa6c381db93e46fabdff4ee4c5c5755f376188e
+FileChecksum: SHA256: 480042992a4aace736b7f85e3957eeb5f00cba6f403d1a299a0041b06d442012
+FileChecksum: MD5: e1141623ae754fafd26f386944a68fa0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8-tRNS.png
+SPDXID: SPDXRef-d98aefedbeca4127a901fb028c9a3a60bab0d379
+FileChecksum: SHA1: 5f41ee9ce4a3bacd1789d61c0b643052d4a1a012
+FileChecksum: SHA256: ce8031e8a126ecbbbc7db125bcd257050e8243de2b58fc70f6d72133f29d5c35
+FileChecksum: MD5: 6dafc3b6c81972008696500c760a0291
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-1.8.png
+SPDXID: SPDXRef-18c3eb05b8c7479cd418b974f1ce7ba15eebb6ac
+FileChecksum: SHA1: f08fade011ceb60a9980159b77c9bad657e3bfd7
+FileChecksum: SHA256: ec9d366875f40f08b13bbc5f8fd679d97bd1221d98d1358fd7cec1107697f353
+FileChecksum: MD5: d7e75745a1921310e7bd235a6776c4fe
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear-tRNS.png
+SPDXID: SPDXRef-afffd8ceb8f165727e6db3fa29ad53dad4585ef7
+FileChecksum: SHA1: 2d3e3c41dfd639b8cd71c61e9154737973190826
+FileChecksum: SHA256: a2a557651db88d89072293202d53ccb52fe126cfd4dbd5c5eef21bb896d7bd24
+FileChecksum: MD5: 4be66e29fcba780046ce7251b51a034f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-linear.png
+SPDXID: SPDXRef-8d5359ca105775cb67c0a54f474f8e5dcfa6a803
+FileChecksum: SHA1: 8bd76561d112694f81033ba28f70b247179051ab
+FileChecksum: SHA256: 1e92f0d4bca22c8857d99608027a1e1be45a93efe22d2a7d2626c49a7a462961
+FileChecksum: MD5: c89af6573913de1451d595b0cf23e83c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB-tRNS.png
+SPDXID: SPDXRef-2e174f4dbe0fdc09e87eb309ecf215ce80b17fec
+FileChecksum: SHA1: 77fdb7c9b707fbc745416c446d6400b4ee1bc48f
+FileChecksum: SHA256: 538a6040f599c19dbfa652728a39bb3e4caab04e08f03556ca5a6397d5d96b68
+FileChecksum: MD5: 7ac6d1fdd13881632c82145863817095
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-sRGB.png
+SPDXID: SPDXRef-c48a9cf8c65e59115b568dadf00c3881a5bee876
+FileChecksum: SHA1: c60614d838cbc999098031d9e7d7e269afd1dee6
+FileChecksum: SHA256: 98475c6238165fd682ddbfb937ad9ccfbceb7ed31dd6f82df6b538a1fc8b5cb8
+FileChecksum: MD5: 2042cdba53347e1ce4bfb8e2eee1e09a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8-tRNS.png
+SPDXID: SPDXRef-8377e027554204d1b0fb79172e9d4bc97d725e6c
+FileChecksum: SHA1: 81a7d91bf368199c9f07bf4371d3fd5ab3f303c7
+FileChecksum: SHA256: 6e14dce9350fc40f7ee542d1dc788fbf6c1c0178515ea8b76ffa0b18bcf54e8a
+FileChecksum: MD5: e775b95c16953d4cea62a9cf628acc54
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-8.png
+SPDXID: SPDXRef-16fc60c8a81c3180f435f649186cab52a48ea03b
+FileChecksum: SHA1: 22040ab9f3e4db7a5ff8d4d521d0a4ffa72e2ba1
+FileChecksum: SHA256: 5c52e4295af12673caf6e9bb5b690a4a50ddf807ec9ddcceef4d1d5ab5b914a4
+FileChecksum: MD5: 5225fa6a7617c9cea64dc24f13b0932d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-1.8.png
+SPDXID: SPDXRef-6b6497e91f5eee4ee9c25d396838eeb5daa492e8
+FileChecksum: SHA1: d2ccb5bd4267bf0eed325c093ee18bb026fe54ef
+FileChecksum: SHA256: 5f13d6371db68d41d3564465cb7fa781585966c27bf53ffddfbbba67ff6f33ce
+FileChecksum: MD5: f7e019cd9569ae8da7f099fe946b7c60
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-linear.png
+SPDXID: SPDXRef-7ce21f1861465beca255f333f5b7e41013239084
+FileChecksum: SHA1: 2d9f79eb1d14c8ad221e263ed3b70e880bc3663b
+FileChecksum: SHA256: 2c4c428caf6b37bc16fb1a8dcaee2765114195eca7fd995053dbe5803636e53c
+FileChecksum: MD5: c7c6b56761415d617dd9fc6107004d72
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16-sRGB.png
+SPDXID: SPDXRef-f28eefe0d87f85aaf1589b796c389acb64b9a498
+FileChecksum: SHA1: 2303680ddbbf1c6ceb0e9492e4e162b6e784e7f3
+FileChecksum: SHA256: f6810ae417083de5fbcfe9375b1c98892c389efcae9726c89dabbcfc6554d394
+FileChecksum: MD5: f145a8d8e646171ca671214bcfce5145
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-16.png
+SPDXID: SPDXRef-152777137dac8d42b178800ed5d59a4e6f8f659d
+FileChecksum: SHA1: d43cc82d52d422936a42f2c3d33db9e8a71ab9af
+FileChecksum: SHA256: dc3444bd2457c7c3414359bed6f05d1a5b84c08186b3b54a9ab4a4c503775f63
+FileChecksum: MD5: fe4cfd5be88385d722252a1f59ba6192
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-1.8.png
+SPDXID: SPDXRef-b0290e84e8b2ae033ffe345e01f89a5d48642891
+FileChecksum: SHA1: 7b7ae7e43a53a2a96bea6853ca5f69cf3ff08950
+FileChecksum: SHA256: 3fcacd9656324b5fc86d35db1975292013dc10c789080e1693a100e544eb4536
+FileChecksum: MD5: b68583333bfce07ac3d72ad2541d18c2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-linear.png
+SPDXID: SPDXRef-726e717fb819c4b2e6ec1dd0a84abe787c3decd9
+FileChecksum: SHA1: dc3f170a3dce2593af7beaf79f6634e1c44b1035
+FileChecksum: SHA256: 92f93403a4337e88a441d7ac99bce62ea74df0c7766476397c5a476c214f54a5
+FileChecksum: MD5: 94761d0b0be77dcc8b126c88a1cbe5f3
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8-sRGB.png
+SPDXID: SPDXRef-184ac7d0dd9c54d98f1522e2c01a2c1f7daf31ac
+FileChecksum: SHA1: a22ecae2e02f911f09697b5afac042d23357410a
+FileChecksum: SHA256: 02edd1e34627de45fe9268237be35dc108776a19f6b6b8714e790e843ff3770d
+FileChecksum: MD5: 87be7879380592d709e83a55af71f4c2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/gray-alpha-8.png
+SPDXID: SPDXRef-fd1c9231da7451b733edee47295bd46f93b6aa96
+FileChecksum: SHA1: d05e556e8189b4834e26a93790b3d478ad52dbd6
+FileChecksum: SHA256: c0e327f49e2b0deda69811cdf20d36f2ff54f9335e11647755ad4473a6f1408a
+FileChecksum: MD5: bd18e6daac25d6fe8af8bad6bc9616a6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/makepngs.sh
+SPDXID: SPDXRef-fff689291ddab1a578475a59d33b81486e446d6e
+FileChecksum: SHA1: 0bbbb2157a653dc6b9e48f9e66dff641666d2348
+FileChecksum: SHA256: 09ec1e519ece044e3c2b566042ddc2d97d45075f68b47c7cf30aedb0f4d16945
+FileChecksum: MD5: 172ffc5950fad5cd7e4d1f6fe63b42fe
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8-tRNS.png
+SPDXID: SPDXRef-03c9923c7a96ef07c8957a0c515d3ebeee85b979
+FileChecksum: SHA1: aa3f048ad3d390b7ef5c1d988640d2fd878993af
+FileChecksum: SHA256: b4cf6a8c47e460a1a4ad29ec2916269d213cd3dd772f1f4dcdb468367234c22b
+FileChecksum: MD5: 71d25aea121be98af908bc3cb81fa760
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-1.8.png
+SPDXID: SPDXRef-8994e2378a130210566f36619fa420216364e3c7
+FileChecksum: SHA1: 0a0011596bdaabd927ca1eadd7e48641cd6ee9e0
+FileChecksum: SHA256: 5c39a0828ff4465c0ee94a1a2fdad3f9c48f5872ffe9f03346ccd5af123f1adb
+FileChecksum: MD5: 200156f61eb7894f16bd9d3364ded21e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear-tRNS.png
+SPDXID: SPDXRef-19e084312c1ad3ffd8bf97c4d0522c3532c924fe
+FileChecksum: SHA1: 9762859eabf49ab49f12309ad16f6ad6d77c384b
+FileChecksum: SHA256: 85b8e3fdc8f8f2cf428aa9e17d97be9bca6505ca6a1b7ae959493561513cf1f4
+FileChecksum: MD5: 34f9dabccef5ca9ee161830ebdc03c61
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-linear.png
+SPDXID: SPDXRef-b3ce4348c2808718cdc3ad59304321051d57f9d6
+FileChecksum: SHA1: 42d1e7f317b6f746a723c777225d433d9e79d73b
+FileChecksum: SHA256: e178aa539cce738e48ff3ea5f89df613b145cd11e5fa92b7edf603f6c07ab117
+FileChecksum: MD5: 023992052e643e68c5061d44663eecaf
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB-tRNS.png
+SPDXID: SPDXRef-a78fec014abf87f82825ffd9a1b8f01cafb1ace3
+FileChecksum: SHA1: 47b84075090c782fe930d2058ad337c864e2b1f1
+FileChecksum: SHA256: 714616fffff6390217351421f090278445006ddb6001ee26f6fadc60dbced4a6
+FileChecksum: MD5: 41bb748ac383f00fef74a44ed5ea46d9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-sRGB.png
+SPDXID: SPDXRef-45514dd0803cc6b9d920a9adf6d47d8b4019331f
+FileChecksum: SHA1: 67417195bc744a2160c535f0d348759ceca963f1
+FileChecksum: SHA256: edf70be4be4a8fd9ed389d08cff57187d30bde76bc84e9792213460896e95095
+FileChecksum: MD5: ec645790db7cb5803bdcf605902ac284
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1-tRNS.png
+SPDXID: SPDXRef-3f27af328f3a27eb38d5e67f6aaa6758f6eb3b62
+FileChecksum: SHA1: 953f4fa30f701194ab02fc5f0f885e65927ac8d1
+FileChecksum: SHA256: 682529f498010270f8ca43aaac3c6ec201e1d7f7d6c25ce4208aa8fa5419967f
+FileChecksum: MD5: beb6f4a6185484097a7671d86cddf583
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-1.png
+SPDXID: SPDXRef-367a823bccc9a0c114af48ed450c48c07a2f684f
+FileChecksum: SHA1: e5d2526f0bf7b21b87b1b793756288af75f7af70
+FileChecksum: SHA256: d7c22fed3b7c656a01eb341120d9a2c2cd385999ff8ad92861eaee77332f2a29
+FileChecksum: MD5: aa8053b956f27057ed1bf1ae20779632
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8-tRNS.png
+SPDXID: SPDXRef-36783dd56a94cd2be03f5aacfc0a9474557b7175
+FileChecksum: SHA1: ed558f2de68934de7539b7bec8a35e6b3a67915f
+FileChecksum: SHA256: fcb00b3d3483dd39da6300bad6f69c99e73feafc7f949090c676b026217371e9
+FileChecksum: MD5: 3e1a6fbf7f245fc45996cfdcadb49f3b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-1.8.png
+SPDXID: SPDXRef-a8f2e3e35ac9b2ad9bfdaa4591b5ea891f3adf80
+FileChecksum: SHA1: 554cd6019ab1afc13df719d883ce7c1623a36b7d
+FileChecksum: SHA256: 1ef69808e99c802c3e9acf9df4c746ef56213a182b0e4edc7533f04700b00f72
+FileChecksum: MD5: 8b17236da7ec558322cd5271eff2983e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear-tRNS.png
+SPDXID: SPDXRef-4d9af781b6dfee6ff77ea5ae999c6f4d4a86c4d6
+FileChecksum: SHA1: 48694ebf6005b82310dfdb3793d37bef73e87711
+FileChecksum: SHA256: 528fcb15d455644f10b29764ea803c7d7a4c805cc8c472e81e6816a0bd8e9421
+FileChecksum: MD5: b2973a497d21f4013ec5da417c2c62a1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-linear.png
+SPDXID: SPDXRef-7e993fb96a38133ce0ed7f4258f7bc4cc3948b79
+FileChecksum: SHA1: f5993468a217eb9cdb173c7fea97b1feeb270b0c
+FileChecksum: SHA256: 106005d948ce3bf2e98b63b8c6b101211ab75ce09e81ab49a55a609f01a574e7
+FileChecksum: MD5: 144503ab1795811d4644fe0134fde3e1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB-tRNS.png
+SPDXID: SPDXRef-0e3c26ca65bccdefacf0e1646a60d149a714b136
+FileChecksum: SHA1: b7e2582bbc6c1b873d7107da2d0ef02f1ff4eecb
+FileChecksum: SHA256: 83617b93c4ceae9d189d4f525aea06482c597ee00d27ed2ec94a9339d16701ca
+FileChecksum: MD5: 59c436d415c7bd63323e7805c2f709e4
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-sRGB.png
+SPDXID: SPDXRef-dd6da376b5066340bd71151f62762d02fecfe4ef
+FileChecksum: SHA1: 4e205f1784f774ece62192803657630a8ba5fedd
+FileChecksum: SHA256: 25348858e2c849a810d52cbd3ca5753627b3faef68a4acfa4323538dcfb1d8df
+FileChecksum: MD5: 97175047685f15bcba0ade47863c4799
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2-tRNS.png
+SPDXID: SPDXRef-78fe274867f15d2afb011c19bda586c76cc594c2
+FileChecksum: SHA1: e933c860f04f5d76ca2e5a64cf220c3a656abf34
+FileChecksum: SHA256: f965aa727b47aaa90f72b9f0be8280dfa6bc3db2b63b5f61873e7b1e21eac18c
+FileChecksum: MD5: b32bc12084375a9d960b0c688ccb4cfb
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-2.png
+SPDXID: SPDXRef-146dfe9a991c8f024f17abdcd3e0668e0bcbb06c
+FileChecksum: SHA1: 4d74dad6e1db4e0873f990e22256446110b346f8
+FileChecksum: SHA256: e28b2664c9b82a67eba425d2fa28b8810fcec2d9583f4cffea987cf40707ec05
+FileChecksum: MD5: 50ae2e8fc3bfd70520ec777ef6fc8ea6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8-tRNS.png
+SPDXID: SPDXRef-bfb3c44e6334e8c1b649e4a93282b190ba14e4c8
+FileChecksum: SHA1: b7c4712a096aa6cbaf3a0db7f8f30f134317d3b8
+FileChecksum: SHA256: 5bf570c503f6a61dba15650aaa0a0e5811b67bf16c4ae6406be80425fff8e8e0
+FileChecksum: MD5: 87c010eaceb5ac3dee387e0ebcb49f1f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-1.8.png
+SPDXID: SPDXRef-83d11f99dd0c8b25e4bf17a209eedef7afeec58e
+FileChecksum: SHA1: cf65cad35a19bc0bc3fcdd168f93fae19eb073e5
+FileChecksum: SHA256: 851647f2626636281c4b12fdd818fc6f3ea991cca1fcbd8b00ffea06f9af55d3
+FileChecksum: MD5: 5bad7da9a8daf3f68a9f47f2a033dd00
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear-tRNS.png
+SPDXID: SPDXRef-88794568ef34aa3898a7058defc092cc7eda148d
+FileChecksum: SHA1: 43f87c8fc1ecfc605aa4629b68615cb57dfca447
+FileChecksum: SHA256: ee2d0bd72ff9603e15f5f859ab2a772b4a147d20ab4287d1bc1858f19882e8a2
+FileChecksum: MD5: 8d30e55e769d383536d1b8e573298002
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-linear.png
+SPDXID: SPDXRef-5f77cd67672e0e4d6ee7380c95d7f2033420aedf
+FileChecksum: SHA1: 1a01ef23bff8e6867f0a3fdc8aef57894dda0849
+FileChecksum: SHA256: 45ab6301361d74c977b06a48ec20f07416c379181c0b20d9effc178904a156a5
+FileChecksum: MD5: 3e3a05963fbcf46d428ea7017efbb3ba
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB-tRNS.png
+SPDXID: SPDXRef-9898a43a8a8d9da894811aa9f3170cb676d2b087
+FileChecksum: SHA1: 0b6b2328b192055f213eeb9224319ea0fba0fb5e
+FileChecksum: SHA256: b3b48702322c452194bac9cf6636980330f1cf3447372ac8ef3571a1ae80b46b
+FileChecksum: MD5: 9038a6f68da2dcf4c1c7d37df9b1cb75
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-sRGB.png
+SPDXID: SPDXRef-9e71e33f84fef083338965e98995fcd801a61979
+FileChecksum: SHA1: 133c39027854a51ec1f1c35f124d0fcd52b33f4c
+FileChecksum: SHA256: d102574a943afa20a71719ce0c057aadc301bc53aa3cf93d172d037520a9d9b7
+FileChecksum: MD5: c7e06b7a86e7b5d8d05227f8e07eff72
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4-tRNS.png
+SPDXID: SPDXRef-ff0d74080030f3d022f2a72725af28fa41f4d15f
+FileChecksum: SHA1: 7d961b942cb5c9ab1402411c6e4f30d127607c70
+FileChecksum: SHA256: 413a87aec95575901fb82e00868f440b926df17f2ffe54a41b9ad0a55c2bec9f
+FileChecksum: MD5: 549a06545b89f0bbc0e1e847bf6aa9b9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-4.png
+SPDXID: SPDXRef-a4ab4874b9e522aa1b7e9fc8b3f6b448222254d2
+FileChecksum: SHA1: a448b05bf7788228eb23e0d14cae31863a42e88e
+FileChecksum: SHA256: a55a9ebe7d8b5e1cdae732f2869d7ca5895d2f646ca1155d4da732f6350f779b
+FileChecksum: MD5: 91085cb5491c63fa1979ea36ace40da3
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8-tRNS.png
+SPDXID: SPDXRef-da8a988bcf804f123c6933dd54e871f3c5d61359
+FileChecksum: SHA1: 57dc89d43857a0898edf25db886e89680abe9e83
+FileChecksum: SHA256: f29ddb4399dddafc811acd720a9a3f40664dfd1d8263f1397a329fc1ebac4281
+FileChecksum: MD5: 8359dde5060537be723b4434099b3620
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-1.8.png
+SPDXID: SPDXRef-71016edfa7a2ab8c700c9585f89ed314a087d821
+FileChecksum: SHA1: 21c80487d1147554bd34a7ad67774d0b6a206c4b
+FileChecksum: SHA256: 0cd86a57de1413269b2474682dcd487ff0aaf1d8b7f1305483df42a69f58afcf
+FileChecksum: MD5: 570c03ae7e1c00e04253a5f25e3f852f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear-tRNS.png
+SPDXID: SPDXRef-1e312535c773b7677efa7963c06dcdfe4120da0f
+FileChecksum: SHA1: 3eb032c82fc71bdaff4de70cb75f288db9e1dd9b
+FileChecksum: SHA256: 8e9292dbe39ad9ff8652f325acfd47f72d81fcb10206b4813507d9090a88d585
+FileChecksum: MD5: 3768e86a4e22fb21e01e39d9d0f3cfc6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-linear.png
+SPDXID: SPDXRef-e9f9751630f95117544d9a03735aecc03a86eecd
+FileChecksum: SHA1: 937f479331b9cdfb230394147d293d63d6eaf624
+FileChecksum: SHA256: 0090cb6d1ba6ae49d0612104ab2ecd0b284d20550a8aa62ed9fc92ec440c2de0
+FileChecksum: MD5: fab8d1354f99decdd2fb466971ddea72
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB-tRNS.png
+SPDXID: SPDXRef-36474196f0a2c3f2a853ab6ae26e278af24d0de1
+FileChecksum: SHA1: b1d7f4a246591e19b4cc00409a3579a32ee8853d
+FileChecksum: SHA256: 7e1465ed17f633b6dde5da989a44d910b815ffa78e77892864ab2e2ac56d6261
+FileChecksum: MD5: 69dfe4b8c539aaa1e310fdd19bbd2667
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-sRGB.png
+SPDXID: SPDXRef-57eb365eb3e816881f429198b7f31dc334e8ff1b
+FileChecksum: SHA1: 5ae852b6252511862d55a7983c999a9dcc888b4f
+FileChecksum: SHA256: c9bf765b2ebf3e29d9b017a752a8b98e961f28053d1413d329c269762e3391fa
+FileChecksum: MD5: b8b76c75e1456f43185c7c33ae10df53
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8-tRNS.png
+SPDXID: SPDXRef-dc023b269356b0073f7aca8c52eedc7d3aa2375e
+FileChecksum: SHA1: c9517020d64e771c603c60e07d3b577120d5085d
+FileChecksum: SHA256: 4b7760d6c0d44763b35253c44cf821845525e0ec3322fb469e6a9fc2b27476b1
+FileChecksum: MD5: d23704d480342db6a377dbb50d80b597
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/palette-8.png
+SPDXID: SPDXRef-70f4889a86a9ba322eaf11e8744d88b65d115ed3
+FileChecksum: SHA1: da6f9cdfaf752e699f99db3b2585a72398a0e582
+FileChecksum: SHA256: 9faaa11262e79c423e51aadf7115aa2632787b2f657b1abf2e562e33ed51fb7d
+FileChecksum: MD5: 22a14c60d56def64c9be8d7687d78eab
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8-tRNS.png
+SPDXID: SPDXRef-f01b34b6ca29676db0f222e403f84a3088e706f5
+FileChecksum: SHA1: b5f32eb3a02ab2212729d149e464ca4601261355
+FileChecksum: SHA256: effa3bde0f578e4e650288219ad157d32f2ab89c7580bfc9b69a7b23d1d80283
+FileChecksum: MD5: e0990d61514f583cb01d87f3b0ac73e9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-1.8.png
+SPDXID: SPDXRef-1298a89e1c8ad3364ea620f76b7c66c2191b9b5f
+FileChecksum: SHA1: b5f32eb3a02ab2212729d149e464ca4601261355
+FileChecksum: SHA256: effa3bde0f578e4e650288219ad157d32f2ab89c7580bfc9b69a7b23d1d80283
+FileChecksum: MD5: e0990d61514f583cb01d87f3b0ac73e9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear-tRNS.png
+SPDXID: SPDXRef-5fb4d007cf2997c8570d01d27e27994764261c85
+FileChecksum: SHA1: f946178d735c5f4469fa1959dc0d3f7880dc865d
+FileChecksum: SHA256: f1cf85c2b1c3a5798849365c6e69f0b9a0e27ebeef5515067efb3b6325c903ed
+FileChecksum: MD5: 41fb552fd6deaf8f7f0f868bcbadbd94
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-linear.png
+SPDXID: SPDXRef-660003f7ea2b97cb911ec9ea3ce72c152a0a53c8
+FileChecksum: SHA1: f946178d735c5f4469fa1959dc0d3f7880dc865d
+FileChecksum: SHA256: f1cf85c2b1c3a5798849365c6e69f0b9a0e27ebeef5515067efb3b6325c903ed
+FileChecksum: MD5: 41fb552fd6deaf8f7f0f868bcbadbd94
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB-tRNS.png
+SPDXID: SPDXRef-144d62d8c7c95697bfe038d8b4a1328cf2955fc8
+FileChecksum: SHA1: f6e04592e0598c8779fd78a01e7769e006496ba3
+FileChecksum: SHA256: 5e97879a1c29411e0b0ce45b0d3c46a12346e7b71780b84ad192014f26b2bc55
+FileChecksum: MD5: 0e450b082ca09e3ac5c038b38c640880
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-sRGB.png
+SPDXID: SPDXRef-8d98b07ba7ed7eec5790f7a1c3e930435f5b520b
+FileChecksum: SHA1: f6e04592e0598c8779fd78a01e7769e006496ba3
+FileChecksum: SHA256: 5e97879a1c29411e0b0ce45b0d3c46a12346e7b71780b84ad192014f26b2bc55
+FileChecksum: MD5: 0e450b082ca09e3ac5c038b38c640880
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16-tRNS.png
+SPDXID: SPDXRef-bda0072deb5198201e286d2ff82ad55c1a1697e5
+FileChecksum: SHA1: b6c3952258fdf3fb6b35222c82cf1866f515d791
+FileChecksum: SHA256: 77a6388eed4c26761b1b45eca905f88a9267b2a3324fb4606d3e253f431f56d1
+FileChecksum: MD5: 31e896bdb3eb9125d841279744e5fbd5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-16.png
+SPDXID: SPDXRef-9fbf2523c74aa86adbb7da8e38852d1a3812e8ba
+FileChecksum: SHA1: b6c3952258fdf3fb6b35222c82cf1866f515d791
+FileChecksum: SHA256: 77a6388eed4c26761b1b45eca905f88a9267b2a3324fb4606d3e253f431f56d1
+FileChecksum: MD5: 31e896bdb3eb9125d841279744e5fbd5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8-tRNS.png
+SPDXID: SPDXRef-d147ee5cdc20c9fbb32d93e28a35004bc5c9227a
+FileChecksum: SHA1: 7ca87bb3355472da8579e42429e69ac987ab6e8a
+FileChecksum: SHA256: ccb82ecb0653dead1e0040ae2f3af1ab77911236d1e064b81a6f0c854b0eac46
+FileChecksum: MD5: 004e22f7333090fb9d543aa70d01c617
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-1.8.png
+SPDXID: SPDXRef-54fca97af21c81fbebb9ccb6d76085b003078cf7
+FileChecksum: SHA1: 289ec20922098ca5b8d0f8ebd90e86d91fbdfbd5
+FileChecksum: SHA256: 327589867a6a3a21fe17ffc55b29f34ceb8446cf87bc4435c80aa098d8ae7b4a
+FileChecksum: MD5: ac4c1fcbd54e25dead488c20a05882cc
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear-tRNS.png
+SPDXID: SPDXRef-3ec3a1147668017e168ba9725069872e0a0d66ed
+FileChecksum: SHA1: 7be75cae6bf25456eba9e636afdbadaa55c05186
+FileChecksum: SHA256: e13db73750b7e03ed838bffe4e09ef7108eca63b7b9623ecdcacc67bf1ed2afc
+FileChecksum: MD5: 0eaaa089808eba4aae9e66c1e4dd85ed
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-linear.png
+SPDXID: SPDXRef-0fcd7f1d5c5a4afbefae52a2a3d0187ddbe2f218
+FileChecksum: SHA1: 64c0cbec74b4684c0ae64f5d245749332cccb9df
+FileChecksum: SHA256: 3146d648d36f1e5242630c176b799f1dae0d3a43b3569e0ede008393f0674d6d
+FileChecksum: MD5: efab474236a02c83ae72874b3cbe401d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB-tRNS.png
+SPDXID: SPDXRef-2c24366cc31917b0cb72927deffa6e8fe1d242db
+FileChecksum: SHA1: 09c1dc1bc454b5a4bb8f7e99e2a3ae4d95ded797
+FileChecksum: SHA256: 22539beaa7eb2c3de9f75db214b1be06a0a8eb61558f53052181b8ccfe412349
+FileChecksum: MD5: a920b1defc820e9898eb8bff2ef5ace4
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-sRGB.png
+SPDXID: SPDXRef-59d9ab43b382be1904cd344f7296956835edbd7d
+FileChecksum: SHA1: 0c01ac27e35e7848da3be1c3ee28a70d4da47c99
+FileChecksum: SHA256: 4f94dfdb92acaeffab3aff43fbaf935fe0e5816566792b56a75a9f8802028e7e
+FileChecksum: MD5: 959a83f91e6c16ff1ad565a89310dc01
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8-tRNS.png
+SPDXID: SPDXRef-a46f46f6d79a127b62104f1c396517cae10269fe
+FileChecksum: SHA1: b5c6afd6517042b5636f8364b14af96ea8b1cf3b
+FileChecksum: SHA256: 42d6f96da278fa6264a9e267caa4cbfc75ddf0734ef67187e4c4b2d29e2d26fc
+FileChecksum: MD5: 0d70b21cd16773aff29efebc6f89ea1b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-8.png
+SPDXID: SPDXRef-dc213c399a3273037f96748d3bf9cf59e390bed4
+FileChecksum: SHA1: 199dc95e73eec3ed863a56261423aa1c1864e247
+FileChecksum: SHA256: 3407f9f64ae6d26dd41aea534732465da0f8e9f9c8bd7bce91ee97fd2dadf4e0
+FileChecksum: MD5: 1413e3bbcbf0ff3f9251d6dedb84d7b0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-1.8.png
+SPDXID: SPDXRef-ba939239b562c693e7c1590349031ad449e3c096
+FileChecksum: SHA1: 969e352c59c29b95adeb00216f16e5dd35f5f288
+FileChecksum: SHA256: dbc6dbd15b7c2826bfb7ef8207a18a962b14d1cbb3b6d9a83b3d09dede19dbfe
+FileChecksum: MD5: f3b83da28a92de9aa3220529e3f58157
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-linear.png
+SPDXID: SPDXRef-bf608f42c1e90dfadc9b94852f99fb5351e8629d
+FileChecksum: SHA1: 2c49905f4b685ea6e738767d09f0b0a55cab8252
+FileChecksum: SHA256: 56c640fd72bc0eeb057ba67c87010f5538a7e99ea8572151e39eab0ffcaa3fca
+FileChecksum: MD5: f736a3d1c6a682a3ac48456e4cf705b2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16-sRGB.png
+SPDXID: SPDXRef-cf0e505b70562160f799b0a0bf66fb1c27bcbfa6
+FileChecksum: SHA1: 27f3b93b43258d25a6299bb0c8d363cf5623010a
+FileChecksum: SHA256: f287dc434a985a9478aadc0f8fe6c6053899ea61735ec15f41db47816bd184d3
+FileChecksum: MD5: 231c4ea04c75c46b782463bcef2b9ec9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-16.png
+SPDXID: SPDXRef-85f2a86cd6aa3802644a88caece31921e4ed256f
+FileChecksum: SHA1: b130e9d61e5aa917a1541acf2d692fec32bf1212
+FileChecksum: SHA256: 3ad2152ee0de2aaa8745757a9ff5e90a30b6e84365bd90f450286eb2734bd78a
+FileChecksum: MD5: 511c3df7def4f6abb0b4c384d256681e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-1.8.png
+SPDXID: SPDXRef-ba254834c453b74978e4011fd081ce05182c5347
+FileChecksum: SHA1: 66361f8ec26eaa7f59984b3ef0d0edf454e90c26
+FileChecksum: SHA256: c0cb7269692c2b307cd72989caeff43c3654be18ff485855ddae5e40461803b8
+FileChecksum: MD5: 660b6e9383e4d5e4aceb25e9a1de0b62
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-linear.png
+SPDXID: SPDXRef-59e3dd46a2817983c7c5aa2241fa5be14a778167
+FileChecksum: SHA1: 86077179bedd0a0b3293d37773814348930f9d40
+FileChecksum: SHA256: eb5a2b9b4055a9f138bcb0d9595c6d18771de98ce0d4ae6563fa965a29bb1cb4
+FileChecksum: MD5: 90d50be393d6131b1b678e107a2231b9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8-sRGB.png
+SPDXID: SPDXRef-afcae1ee251657c1aa6096d8fc0f5970bd62a353
+FileChecksum: SHA1: f45facfcaeedd6a3a047e6b0fef44bc6ad4b4e9b
+FileChecksum: SHA256: db1aec1b05bcef91031ebcaf9e8139867585f15136348126112b2f5d210ff86d
+FileChecksum: MD5: a15d08cc0d6a4bcd707901d03dc34bd7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/testpngs/rgb-alpha-8.png
+SPDXID: SPDXRef-a8f3fea5d2c2f75b74c9e4bc49a64e2568287288
+FileChecksum: SHA1: 62cabb24ed09c81a518366b745d97ba1674f042c
+FileChecksum: SHA256: b9e359c8c77848cf4621ff1ae7bb033a1933044d4ca85e132b1e262e87b80a25
+FileChecksum: MD5: 9e72cf57953837aa609784e606487128
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/README.txt
+SPDXID: SPDXRef-37bf40616ee2e29bbec4851d107e050eef686864
+FileChecksum: SHA1: 71b3a46dd30cee5ab919e2238c7bb9720d0ebed5
+FileChecksum: SHA256: dbbfb52b1d0a1fce57e00e9f4f1a2ba96a5e8261e17756232b05186cd810b268
+FileChecksum: MD5: b6f2918635a4fc435e20f756ebbbaa04
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/checksum-icc.c
+SPDXID: SPDXRef-0cf3945b0cb1fd99dab67a9d9a2d93dc0fa4d0c1
+FileChecksum: SHA1: 7b49c98e1b273f5089e65acb21b77de812ad40c0
+FileChecksum: SHA256: d53f0677ab7d0ddbe4730d9ea8ec66fd1a529952c15937c146b9a11d3edeb205
+FileChecksum: MD5: dd505462b19e0517ae104a4df63a2d30
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/chkfmt
+SPDXID: SPDXRef-676e004747faedfb4c27f0ca48c076c21c9d2dbe
+FileChecksum: SHA1: 0783067985b83667e288186e1ba1e432b9f2dde9
+FileChecksum: SHA256: 5ee0f20a880362336d2a4059f8a730e9ca749fb6ad2590fd227e230585d839ad
+FileChecksum: MD5: 084475e6dd72b08491049fd7a1843e6f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/cvtcolor.c
+SPDXID: SPDXRef-c006d5526d6e03d5d94a50a55dd6f413443a9f94
+FileChecksum: SHA1: b1a6a9f1292d972673b3c3042177d331d616fde3
+FileChecksum: SHA256: d3db07de09fff6cf9e813a81070694d3941aa71a4c9fafbebca4f1ff95f141a2
+FileChecksum: MD5: 667dae7912150ea889cc9b275fdb5cb6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/genpng.c
+SPDXID: SPDXRef-ee7ee9fc74af8e7a3138dc5ba5f0339e4a704729
+FileChecksum: SHA1: b9855b5078c3eb7ed4b8191deedf4a5b0952cc31
+FileChecksum: SHA256: 48b8dee0b804f20c1745b5b04c5a6d4cb907c345fc12d066669067e74ecd8d77
+FileChecksum: MD5: edcfc1a5cc220d555142ce2f025bfe72
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/intgamma.sh
+SPDXID: SPDXRef-99d8cbbf04482679ceccc6c3c0f30fd18e5fab5c
+FileChecksum: SHA1: d2dcb39602d6c2f240387212383a2c1367af7255
+FileChecksum: SHA256: ceb8e66bd40955d4a3e79a8bc2bc8a8df6ec3bceb7995d54ead59be47d79cd30
+FileChecksum: MD5: cc618f148f0cbd4f8f8eca4c22aaad42
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/makesRGB.c
+SPDXID: SPDXRef-b67ad81f90c1918e7a130fca13524214b1364eac
+FileChecksum: SHA1: f41f19317320a9ce4a456678f8721b003501fa00
+FileChecksum: SHA256: 2389d3479dc328fa80ad9966a5f9fccaf357682308091b1f80f25cd57a42563b
+FileChecksum: MD5: 83c62e4aaac4ebce7a2c7ee757a79494
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/png-fix-itxt.c
+SPDXID: SPDXRef-3c5399c44069e9de15a71541399c080f45995ef7
+FileChecksum: SHA1: 893aecee883dfefcaf29b32c1b50f81506c61433
+FileChecksum: SHA256: dbd2888be966a8bc4cb8d1e35e78d2bc9d5202bd4224468cb0cd1bc824a10e4a
+FileChecksum: MD5: c385f542fb45fe9e1740c04a503980dd
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/pngcp.c
+SPDXID: SPDXRef-006ed2cebed13ae364a20b41c6238a0603c5f5ca
+FileChecksum: SHA1: 560d712c1aac93635fa179e1466767bdefd00569
+FileChecksum: SHA256: 53eb11935cddcd0e1373f123269ecfa2b152477f45964ebeac450003b79f2149
+FileChecksum: MD5: 7af9e9638508f41dfceba406c1e3b36a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/pngfix.c
+SPDXID: SPDXRef-0460fa87ec7b6b96bce405be9d6b39e959ec8600
+FileChecksum: SHA1: 3a774a1ff223725f7435ae65738db4da8c2f4fba
+FileChecksum: SHA256: 2b08383369de4b84a2c400fb9acea5cfa009577fdb68f8fe1a651e72a7e13317
+FileChecksum: MD5: e866211c2cde75de5627a2fad3c7c72c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/reindent
+SPDXID: SPDXRef-66550b0c4dbe28ea0e8a27e532f35b713620c7bb
+FileChecksum: SHA1: 8c3cf9a97a6f2fb30703d0f11e7a9fd385a72ef4
+FileChecksum: SHA256: adf46f9d702c6d33b21a2e7bf89c0a7eb9d24cb5ef11ca914d41e6659b3b7468
+FileChecksum: MD5: 3ef49fef8640c1ed173e0cde81a34d84
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/tools/sRGB.h
+SPDXID: SPDXRef-05569a11c3d992b9ac59813a287db959f733091c
+FileChecksum: SHA1: a4f561dc8ba7c1cad15f706e0d7150961fdb21eb
+FileChecksum: SHA256: a6441218bb172f5e0b9b8354462acbc3d6550c797bb7ebfc841347ac11df80b7
+FileChecksum: MD5: df3e6f169f5b1732c31ab046a730984a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/PngFile.c
+SPDXID: SPDXRef-925923836e3b2137ef53959e204e4e54b3f28e7c
+FileChecksum: SHA1: ebc9d005101505e8d694fcfd9fee8d81a0a3bf13
+FileChecksum: SHA256: 6f4de632d668c9704765ca6bc1b3e05cc1a090fc767920024ccb4c80f336e067
+FileChecksum: MD5: 74fbe54ec7873d4b671702ca69ed853a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/PngFile.h
+SPDXID: SPDXRef-94caa463cba0a63f13ab1f41ef2be3645fb61df1
+FileChecksum: SHA1: ee2d12fa868696d3fd072e06c132d8c9b83e9bfe
+FileChecksum: SHA256: 24009da3dc46ff551684cbc5b5bd72c7240c82aecf60df9ddbdb07ecf6834067
+FileChecksum: MD5: 5907000d79d3b943bca44b19487d484f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/README.txt
+SPDXID: SPDXRef-819e789686d39afbd67a516986ed2f5cb09534e1
+FileChecksum: SHA1: efe97e67b22e25fe97d103c8b0d21deb958bc1e9
+FileChecksum: SHA256: 441faf9eb6e23857e216abeea1f5aedd89c594ecc5ae9f0dc4b5047b732b2993
+FileChecksum: MD5: 2f9c191ee1b80792e6ca39f73cc87fc9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.c
+SPDXID: SPDXRef-645a26e44a8eaf1af0c6ffa4b51482eabb8ea283
+FileChecksum: SHA1: 3e351df1ddd91a168de31093f350b2aaffc452ae
+FileChecksum: SHA256: 21551a762136930c1fc5601ecf90cdbe644a5ffc3264938a24d1b26edcfc5d5a
+FileChecksum: MD5: 8ec38c009bb088d1868d0184f50c9545
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.dsp
+SPDXID: SPDXRef-bb3e8105b22a56ee80e4b3ed54dd2eab27ac88bd
+FileChecksum: SHA1: 00321ccff6276bd30b18cc3c9fe20983353fca38
+FileChecksum: SHA256: 8db20718a8e865326e7c705c0e999efc5407038ab2595589a54961db091264de
+FileChecksum: MD5: 0fc89933d8b646a969752157f4589e02
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.dsw
+SPDXID: SPDXRef-f49f68d758b8f5850afc441f28434dd9b236e4bd
+FileChecksum: SHA1: 809e6f67975c78476bb26c1aa532b101b9f53d6f
+FileChecksum: SHA256: 15a0c35692c77cb9e2cce2893e70631a3906e157e6b01da13f493850d9cf4c66
+FileChecksum: MD5: e9f3fcc25f5664dcb3b1571355cdb8af
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.ico
+SPDXID: SPDXRef-b28dab58515133a9b1645a6019076e163b4b9075
+FileChecksum: SHA1: fe1248d841bdc76ed503e3b6d53a8fe55dddc406
+FileChecksum: SHA256: 879b9013a27086540fbb94731ca2c83f4b404659b014689fa9d6f17c3251e46f
+FileChecksum: MD5: c7923f4e99bd2d95f6cbcd7742919770
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.png
+SPDXID: SPDXRef-c6e211dd469c4c1b34d680384fc29c0149789fc7
+FileChecksum: SHA1: a864f5c401c1e9c6ac6f5f9e26d201493a6a37e0
+FileChecksum: SHA256: ac61cc20e8ea21fa6c0ca301f141bf9761645b8a8715585d9052e8407ddc3deb
+FileChecksum: MD5: 51839df0d1039535bba321ee38b283a5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/VisualPng.rc
+SPDXID: SPDXRef-b68ac547a067f3f443de5228f682811cc771c4df
+FileChecksum: SHA1: fbacb09a5c4342b911da7e3ee684b8bc7b53bd47
+FileChecksum: SHA256: 3e03c903345ef738d7607a5ba86139bb377c80f30e572c52478ea5e640ff8a98
+FileChecksum: MD5: 1d13db72b16bf75a069e80c26a516919
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/cexcept.h
+SPDXID: SPDXRef-ba3ec40c9a011eb6277ed52cbf931bc5d396f900
+FileChecksum: SHA1: d5a31f5a8380691803c1e4ddc64427badf346ad3
+FileChecksum: SHA256: c4619441c43d8e9db674ee8eaefd1f66325584d08f00e40e72261f5f0648ecec
+FileChecksum: MD5: 1fd4a9d731b3dd49487767edadc40829
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/contrib/visupng/resource.h
+SPDXID: SPDXRef-19bb1a4d037819b089819ce614abd094b116f897
+FileChecksum: SHA1: 492e24f69e86b34a6e934b78e56bb82c7926ce05
+FileChecksum: SHA256: 81c419886773576f9f9c02891437c14ceb7ea3dd825ab41cac1b0d2270216147
+FileChecksum: MD5: fe031126d624b60c4ae7cdd0b09ae4d3
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/depcomp
+SPDXID: SPDXRef-bf8c35dc6489a67eb8e697c297d44712674284fe
+FileChecksum: SHA1: 44f711c72acb3fb13ece5b665aaf9d6449ad2574
+FileChecksum: SHA256: 786149ab4493e86b837077ebaecab65ef6230ae8a619b17fa5c1695564a427e9
+FileChecksum: MD5: 386223c42821864f26fd0782d357d513
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/example.c
+SPDXID: SPDXRef-cfea9550266963d584450ff45530af63bab1a765
+FileChecksum: SHA1: 6aeabbb6a2cdda576cd8c901c0c1db7ce7bafc8c
+FileChecksum: SHA256: 68e38d0fa93dae205fe876c468b0fd70865129dad0ad7551e32229ec748d645c
+FileChecksum: MD5: 0c60f4c30c73d98113cb39824693f8fd
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/install-sh
+SPDXID: SPDXRef-ab956f27bc155c4dc76526b0dd9e179855f72bbb
+FileChecksum: SHA1: b99fec102eb24bffd53ab61fc30d59e810f116a2
+FileChecksum: SHA256: d7c113e5484fce8b48f9a34a7a91e385ec279247d415b0b7d749bd56ad8ee8a2
+FileChecksum: MD5: 361482dd6b5b5eb7090fff3986fba68a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/intel/filter_sse2_intrinsics.c
+SPDXID: SPDXRef-fb28347ef621d95837498328adb40a8aaa2b3fcf
+FileChecksum: SHA1: 4414aa5ac0c7f42cd2dc0f115f6b247108c3f00d
+FileChecksum: SHA256: 67e8a6cefaf73fa7a78a87e6ac4c3d0b2cea5b61594714b300b7d8a55d388d1d
+FileChecksum: MD5: 83cdbfc5d45160bc1560ca136afc769c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/intel/intel_init.c
+SPDXID: SPDXRef-55b06ad8a456bc471433c78003d72ef16d5091c4
+FileChecksum: SHA1: 41d79b60c0e1b65a5f24ea31a3ef0ec796cc89bd
+FileChecksum: SHA256: df9b208ea45d176921a03cdc17b9d70d08905973a560a79ed6d496dbac0bb7dd
+FileChecksum: MD5: a84a414de97ced0d54a46687b9df7df9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/libpng-config.in
+SPDXID: SPDXRef-fcb3f75da3333ef9500f63873d047e95bcfc0700
+FileChecksum: SHA1: 5616701f8ecc3fde42848332e519d620c18116a2
+FileChecksum: SHA256: 03225b535108c4031cbab5c7a1fdd8a60edb4806d01e8c2ce80c1b8dd36e2883
+FileChecksum: MD5: 85b28175ff91b6b7085e4fa3af29180c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/libpng-manual.txt
+SPDXID: SPDXRef-e8fbeb4fc59e6f3500ec7bc2a0952da49e6bf2a6
+FileChecksum: SHA1: 8c80bd82ea1d2e46964fa67b7e79362d3d7aa041
+FileChecksum: SHA256: 2c37504addb7f48699e3a3991403fc3bdbb6cba5ddb93c082d6b4ba53474f812
+FileChecksum: MD5: ab4929446cda0333fbc7d61aeeafa222
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/libpng.3
+SPDXID: SPDXRef-b88e5b6a600dd30cada3a8b781546d866ebd2420
+FileChecksum: SHA1: 38ee76bc1496bd4d6174b9e52e092bd048039a69
+FileChecksum: SHA256: 84301d728abd0d162563cb29dce27ba8f613bbc861b341f4f6241a55033826dc
+FileChecksum: MD5: d067e908676fb77820ec1b4341c65e84
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/libpng.pc.in
+SPDXID: SPDXRef-9cd94376d5afb26142fcbf902746952229e6250c
+FileChecksum: SHA1: da52c306b55c2db6619ab6aceedb75a012c9cb08
+FileChecksum: SHA256: 5e51311e6029c62bd63bce25b25c74c82b661ff6ef798e2611b80ff780cbac8f
+FileChecksum: MD5: e270952d7a4df26b49b34d668187068f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/libpngpf.3
+SPDXID: SPDXRef-22772171b633f9eaeb185d8bf951be0cea44aeee
+FileChecksum: SHA1: 581fe4195e8cc5fb8cc84b8a69f5b9172651fbef
+FileChecksum: SHA256: ba927789043db21a7f344010b817de33c97ef45c1936f8e953b9fffe50ffefab
+FileChecksum: MD5: d92cb28c99c0a22e4b1410dd67f49a46
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/ltmain.sh
+SPDXID: SPDXRef-35ea3f0e4572e5bd756cd8856eb8100a123448db
+FileChecksum: SHA1: 6871957156b07ae46e5f75da9510a56c79b45c76
+FileChecksum: SHA256: 34ffaa53e9becccce1cee4f149a3b1cbba3c4cda06ab7dfaf1ae905ea4b2c0e3
+FileChecksum: MD5: df0f18e33ba4242ff9dff54fece82d8c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/mips/filter_msa_intrinsics.c
+SPDXID: SPDXRef-690b6deca5332229ca133969d959814dc36224d8
+FileChecksum: SHA1: 91761bddcfe51d1371d8265a835f5c04b2e90f8d
+FileChecksum: SHA256: 4494d2b198a139239d659303ad49d5675fd3f1602a2e68d7398f19d8b3b69c39
+FileChecksum: MD5: cbece054df0e03d3add43b3ce960fbfc
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/mips/mips_init.c
+SPDXID: SPDXRef-e6bff286e7b775442e94c3c10d618b38517e2db9
+FileChecksum: SHA1: f2ef93691abca011f7fdb59d9d90036edf2f964f
+FileChecksum: SHA256: 1a0adfc8a2644be55e7b6e52aeff07b6815dc1c2165c3bddf826520591e96b50
+FileChecksum: MD5: 2f8cec147f38ba5e09ea9059cb3873e7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/missing
+SPDXID: SPDXRef-8103a2f775b946ef70a8dc5a538bb3478aa1cdc5
+FileChecksum: SHA1: fced81554799feb0f10fb56e3a06acb92c7ce7b0
+FileChecksum: SHA256: b1a337b731bbb58846d31ca2f5143c293a455fa41b481e236e89a9016d96b034
+FileChecksum: MD5: 5f2a276ee7b8decec541391229d03591
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/png.5
+SPDXID: SPDXRef-7011f63e89b0b4757d32be422be2d4853a177757
+FileChecksum: SHA1: 597086f758211eee8e46bc4757c347f1310e3cf3
+FileChecksum: SHA256: 9b9074fbb085b80731ebb8e168eb881eee0fe63cd5897cdd631f75cdd27faff6
+FileChecksum: MD5: 2299afacf35474421dd93abadac13d99
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/png.c
+SPDXID: SPDXRef-743960c0abcd457b98f01a711360d64759eee19c
+FileChecksum: SHA1: 90a16ca688b53230f8636dae899a34090ee8dd8a
+FileChecksum: SHA256: fd3fc1e4b2922205f522a88feb551acab9a3d7d1c532688f57b5536ed6d04970
+FileChecksum: MD5: 1e6713bceef19bedad47382c06219e23
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/png.h
+SPDXID: SPDXRef-25ab1aac8955ac88321651129691fcd21caa9e73
+FileChecksum: SHA1: c4bdfe55e4d8a5b1183c5481c740c6b57d86ee94
+FileChecksum: SHA256: 0b995f94791f6174a023d8fdad4cac2858c091e1608edbbb04dcc581c579e893
+FileChecksum: MD5: 5eb6b25248c1dbc377eabce2b73400dd
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngbar.jpg
+SPDXID: SPDXRef-a4a304eb46e2a2a2ad66945bbd7ea2f48c4a938b
+FileChecksum: SHA1: a84c0b3e7b148977ef1c46d9f2c1fa6e7ac78838
+FileChecksum: SHA256: dac6b8aecef465935b9445b8f134ae0d66069f01d0b05fcdb42f6fdf45972f7b
+FileChecksum: MD5: f1703931780cce7d3329896ac6643553
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngbar.png
+SPDXID: SPDXRef-1ef223fa760744d65baf20c0c1734938328f8ae0
+FileChecksum: SHA1: c9877a11ae09a9300f34d227a0e44269a835a279
+FileChecksum: SHA256: a0d210e0261eb720677c61b59245b653eb3182cc0e089282971443397527f89a
+FileChecksum: MD5: bee57c545e3179798da69f2bbfd2bc21
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngconf.h
+SPDXID: SPDXRef-075749f21fb342b18053ddf26c3c16c7c2af2720
+FileChecksum: SHA1: 9808b6c4b667f3b6b9b7f7d1774443fc1881b0b2
+FileChecksum: SHA256: 38941181f21b8920f0035cb9b70064ba9bd8328fb779e5ccce1055ed55e7dc08
+FileChecksum: MD5: 2df676b38cefe31e53884e01e8c2a8ac
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngdebug.h
+SPDXID: SPDXRef-e2e1a1b6dcf5d91409c5f7f7de4c5833ee24ea4e
+FileChecksum: SHA1: 133e6f9598ecc33dc2c85e1eb64fdca4ee8899cf
+FileChecksum: SHA256: ce736154eaf491c8336f394fcfc08a1901e4c910f35d2cbaea99f657a3afdc87
+FileChecksum: MD5: 1e65bf7629dbab0aafca21568b1f56c7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngerror.c
+SPDXID: SPDXRef-e411c1780f47a89670f35331da38429ad7697d0b
+FileChecksum: SHA1: 1f6dcc8571eec64d5bd87e3e93f09cf601cabbc6
+FileChecksum: SHA256: 60bcf24129bd3aa312d3d1a5b24f7129f03050553b52fcfb579a856acdfc0a52
+FileChecksum: MD5: c2f75e523c1d1933783e042e11e328f9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngget.c
+SPDXID: SPDXRef-d4b3111ff96a56360385558e1692aff290eb8893
+FileChecksum: SHA1: ec16ac6ac2fbaf4c791578af19b4abfcc5486929
+FileChecksum: SHA256: 56efcbff3d3e228c96827761eeca38bf6ee065b45c8b2a5ff477d12af4da9ae5
+FileChecksum: MD5: 8ecb37de4c8ed7d60ff5f36e0ac90954
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pnginfo.h
+SPDXID: SPDXRef-c782df79403ed00900633fa7b1ff6ac0f2dc656a
+FileChecksum: SHA1: 532c1c127fa22f3599b75512ee464d1c33055b82
+FileChecksum: SHA256: 1d8189318e12b5febc1c74e510ddf7ac701ebe766e8aa1b57bd3162755e42124
+FileChecksum: MD5: e1541acefe058865ea74be8a5c52de20
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngmem.c
+SPDXID: SPDXRef-36ab67640dbed8589619e4723686f9ad5df39065
+FileChecksum: SHA1: e1cad89073d95cda7646f2d833fd9c8e99683f12
+FileChecksum: SHA256: bbf99754e6f37c5c7eb2b64a629eba4ce7791daa2c33c17b2f856a9201e9d5a3
+FileChecksum: MD5: c97f0ceeacba2c83f0d1a7525ea0c188
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngnow.png
+SPDXID: SPDXRef-9238baddb3fe423d90ad01c7a1410c6066c62e3a
+FileChecksum: SHA1: 45ffc9b4e43dca8f576ea1862c666294f179922d
+FileChecksum: SHA256: 3198a5d8f197d6b45a7124390c245a886be0be9b8e7891cfc7525ad65fbeb0a9
+FileChecksum: MD5: e1fb5eb71bd47df18dd05cd7a25ea326
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngpread.c
+SPDXID: SPDXRef-01736034a7b816d341fe06c4338f3e30e4d8fa8a
+FileChecksum: SHA1: 4c859ae070b39a6c4c1c8bb2e8772aac0ab93014
+FileChecksum: SHA256: 7d4ef967ff806b86de2633c6c068ec22f7837055215f238fb2afe2a13d0fb6a1
+FileChecksum: MD5: 4bc561ae40975ff2ad20b628d5a04d57
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngpriv.h
+SPDXID: SPDXRef-cce58e06ee71cd587fc2c948d983820ab695a040
+FileChecksum: SHA1: d50912c31d245c08ea343f99913ebec75d676a9e
+FileChecksum: SHA256: c622ac4fa573e96a0ef2f8db8760bb6ef124818b61edd8bf4b4f3ce9d5a183dd
+FileChecksum: MD5: 1e1d20dd62145bf5516beda76b58978d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngread.c
+SPDXID: SPDXRef-f38d6f5664abf374f9ba840dab71be079cdf1eed
+FileChecksum: SHA1: a26440eeee8d7e7810ba84cb4af13055c9c11954
+FileChecksum: SHA256: 432954e315f864f411beb91ac879b42f5e0693ac36a0c836055cdd09345e4b5b
+FileChecksum: MD5: 8aa8768f51b770048f08d5c4485c8eb2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngrio.c
+SPDXID: SPDXRef-38faac1ccb1dff2578ade0d5e0c1d8c33768b27a
+FileChecksum: SHA1: 4d9f9d9f7411daada3d4e85d3a056b05d3b7a2e0
+FileChecksum: SHA256: fdf43c5bb728e8abf7a5b566c4be7d4cb208311990f31d0e57d13e94ae8ae2bd
+FileChecksum: MD5: 536db58fe228a2085a06b98d05dd0ddf
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngrtran.c
+SPDXID: SPDXRef-53541d401096b88bfb7d01f9ac2c41f7e2f59aac
+FileChecksum: SHA1: 484046c83dbdc7d9a730b0689d577715db793b28
+FileChecksum: SHA256: b43bd9ee721f08c2d9b3e7493b916f9b16c4e6dffc3367d1b17f9ca970c57b41
+FileChecksum: MD5: 8deca8bcc7f41560f007b44d9a537dbe
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngrutil.c
+SPDXID: SPDXRef-576cc573dd5655ffb9250430f6dbe67303f2f50f
+FileChecksum: SHA1: 9e336a53904229808f2bc6a0ef38e3887af667c2
+FileChecksum: SHA256: 4a2b26d2fee77a111c2e75c412b40caf1a9990668b559d8474efd539bf06cca6
+FileChecksum: MD5: 7188771e57e29a0ab23abaad418aa204
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngset.c
+SPDXID: SPDXRef-a6b448bd1f96043e6a44eb7c813b066c1099ed09
+FileChecksum: SHA1: 0b147bdb8206be63f4a3bac807e75d5d7850d2a7
+FileChecksum: SHA256: 309eccacc74eee9b4489c2c744e1353cdcb1e8db7eeda24fc1f78b9647a067da
+FileChecksum: MD5: 2eefe43477a4f885888f2a976b0e9899
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngstruct.h
+SPDXID: SPDXRef-fde9747937f795946b1b48cf3ea0e8cd85838e60
+FileChecksum: SHA1: 594c126ce4d744293497b9f300db15a25f5ae074
+FileChecksum: SHA256: c092812a3351ef9a5900dff1ea96b87552cd4f954a7dbcbcd2dc2992c279487f
+FileChecksum: MD5: de7a1b15d769895037c624c7111e887b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngtest.c
+SPDXID: SPDXRef-27f5f3b5afca00f57a883d8ff56e0b6f522a642e
+FileChecksum: SHA1: 04329b8e584cddabdcc3f72014a23522497a423d
+FileChecksum: SHA256: 39ff52677644eeb922d6b8e3911a047f292e43c6c2f542b434d00d52048e6e23
+FileChecksum: MD5: 2c1aed7c65b6cd5a41c42f0310838a45
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngtest.png
+SPDXID: SPDXRef-a934b79f2c153d3ca8315bd48db1b96e38b1889b
+FileChecksum: SHA1: dba28327275e2868994e7f2f6279cb9b3916f1ce
+FileChecksum: SHA256: 546f711f1f5b493ad7a79a5ec0c37f30e35f59be97b92731a9ddb01a225df5d8
+FileChecksum: MD5: 2273d532a14996393a2dcb0fc4ae7fa3
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngtrans.c
+SPDXID: SPDXRef-f2b8bec5690b419ab087c1dd69de74b1edfaf61a
+FileChecksum: SHA1: ac886fa9e16916f15a80fc9d0ff50f9bc16bf774
+FileChecksum: SHA256: 570c4c466cc14cfea414f70ec20b7f22e9c3c22cf9b4d3b397e186d2447ce54e
+FileChecksum: MD5: 7718bbc0c09f1b7f233fec0d1cec4e37
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngusr.dfa
+SPDXID: SPDXRef-7cc4c19dbc41717724b3c4172a58a4350928a07a
+FileChecksum: SHA1: 329a745fb27c029346d7fc567d1b718a8ea8a58b
+FileChecksum: SHA256: 064423707d7981d1477f20da3ec5852079ce09236da49bdb7e524111cd684c7c
+FileChecksum: MD5: 43944046698e3392d67f837ec0296f56
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngwio.c
+SPDXID: SPDXRef-746ea3ea169da9d3fb39414b66f29f36b8631e30
+FileChecksum: SHA1: 930e22ec028d0bec9c8d0597e4550a1a6f370f2b
+FileChecksum: SHA256: 610fc3015766e2c1b8da603a7d82c8814af8c9aeca3cde541277d40686e8ce20
+FileChecksum: MD5: a2d2f8217c38d3dff90273ec18211ada
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngwrite.c
+SPDXID: SPDXRef-c6daf1a52c73d09917a23c97d8dc448b4a41e28e
+FileChecksum: SHA1: dc5377e3deea3c00e83b045801372e0ac0894a5a
+FileChecksum: SHA256: 9f9f4c5d29b390035c00a4f5774d41c374b40d5bd9bf6c8f9c83c06007c48b2c
+FileChecksum: MD5: 236b3a686e6e1a037699a16e5d8c4c34
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngwtran.c
+SPDXID: SPDXRef-2689e0e9a17db5e9b406598d47f60e760a1865ba
+FileChecksum: SHA1: 5118ee0e15c4dadc97741c79de6116bdb8a26961
+FileChecksum: SHA256: 2d6d2714162606203721625e7d3974fd4efc90a5bea0479bf1742d1bef1da587
+FileChecksum: MD5: 8ea15ae6d455cc389da9d262db0e6057
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/pngwutil.c
+SPDXID: SPDXRef-adaf5ceede39dc2e55018388d52405b478d10405
+FileChecksum: SHA1: 50c7a36877584b6481950fbc3552c899554f3936
+FileChecksum: SHA256: ff4133d931ca69750249e7842dfc004db02b679a0a220976d0aeb2af7b91c74d
+FileChecksum: MD5: 794a6b022ae018490cded678b8fbaf4a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/powerpc/filter_vsx_intrinsics.c
+SPDXID: SPDXRef-c6c5a4134565a03c8dc3a7b8c23a3c60911cb12f
+FileChecksum: SHA1: 83762523c2fa5dd6a4e451ddfc2a19a791eebfab
+FileChecksum: SHA256: f951ddf6f6ad842e3e10c29aaaea021feee6c030b07e3fb34ac0cb780649a067
+FileChecksum: MD5: df54456c65a3cef6e37fa0c502eb4ff5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/powerpc/powerpc_init.c
+SPDXID: SPDXRef-e78396d6de332af4ecb3b93ab584f9ca69f2ac7e
+FileChecksum: SHA1: e9a74a2bbc5ae7b63b285fa37044d63c187176d0
+FileChecksum: SHA256: a79a306617f6277d97d5e5ac780404190c85c89cc7611e823d388a353e06ec94
+FileChecksum: MD5: 1a57c82b78aa7e6c1fda1accefedef01
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/owatcom/libpng.tgt
+SPDXID: SPDXRef-05d8d3b0e12b8093b553136642f73ea7769a2e0e
+FileChecksum: SHA1: 416b3bdee8354edb24705f1010840e2a87c4f757
+FileChecksum: SHA256: 10ae0aed1fe4b3013f99f7bbd5a81699a73bbf7d459c424799c0f5f8387605e3
+FileChecksum: MD5: 9b9010d0598d2a24778bc9ee047166c6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/owatcom/libpng.wpj
+SPDXID: SPDXRef-bc5763f9a75c3f97c36ff80b8f53790ed21ffa42
+FileChecksum: SHA1: b17432f55017e6af164575b31ca2abe8406811cc
+FileChecksum: SHA256: 72b084812585ada86522122fd6ab2068ce5b983883bfa8ee3c98fb6b9f177a95
+FileChecksum: MD5: b90ab10365776a3612c1d85d9ec2e80a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/owatcom/pngconfig.mak
+SPDXID: SPDXRef-1984daf22057334d799ed00a1af2b44eaa7142ff
+FileChecksum: SHA1: b1a657a2bf4c9158e8d04e72dde5f03bcdddddaa
+FileChecksum: SHA256: 741a36559a90a2d3016fcc4d466760c08c796551fa2a9e577a06acb3440a943d
+FileChecksum: MD5: 8c3a2d6a249a2af877efdec902f86f1b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/owatcom/pngstest.tgt
+SPDXID: SPDXRef-58a26833afee0a3d7f4cbc72cc31dcd498484544
+FileChecksum: SHA1: e14106458533ac6fd58c895891943ffd504e3b6a
+FileChecksum: SHA256: 029861ef755ccb92c248cf0db0febe892c1f0761387148a7cd71f32b34c50e22
+FileChecksum: MD5: 44e2e62475cd4aeb7f706f84a127498e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/owatcom/pngtest.tgt
+SPDXID: SPDXRef-17620b27c163ee2b1b52c189401e0c58d1f93bf8
+FileChecksum: SHA1: d0a1b3e4f52ff20c2806976f94f708c5abec1b00
+FileChecksum: SHA256: a38682aa0e53998bae5bb9dbedfdbe77d066f9ce12d0da72b53ad3131c04762a
+FileChecksum: MD5: 2109a2babea0d8d30a29f71bd9668ba0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/owatcom/pngvalid.tgt
+SPDXID: SPDXRef-9851dad1255d0ddea54de63f17233268129304de
+FileChecksum: SHA1: 719c40b72c1dfe0d45c27d9d68991b064f26c429
+FileChecksum: SHA256: 9cff66c909622067c63c8618fa5d2927167046365083c3dacb26d6da6df2c8d0
+FileChecksum: MD5: 1fd8873f1a81c957ff7cfb5333a46770
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/visualc71/PRJ0041.mak
+SPDXID: SPDXRef-0d38ff61c51f233e7a702a092d8c3e3e9ff5cfad
+FileChecksum: SHA1: ee17b9a0f37622fbff17a0c711c7caece7dc67aa
+FileChecksum: SHA256: e13ea694f472b819e9a77a94fbfb77b39227125e418463291fe3b00cda754c9f
+FileChecksum: MD5: 0b93b35a47880165bf0dde9a10744089
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/visualc71/README.txt
+SPDXID: SPDXRef-ea793a76409b6391bdef6cf9159046158fff44f3
+FileChecksum: SHA1: 54a62990c9f1fb45369eab5113ade21927487409
+FileChecksum: SHA256: 1aaa138cb0ce0951888758b1f483baf44e34bdc928cb4853f0d96d10899bd6ab
+FileChecksum: MD5: 6604ff360f035a519bebab2b0179ffbb
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/visualc71/README_zlib.txt
+SPDXID: SPDXRef-20d1877461289e930c669d1aef741aed75e88803
+FileChecksum: SHA1: 80eb089900e698ef69608233d4b30d43af49160f
+FileChecksum: SHA256: 50aae87ccb273d03bc54e4b20dbc2b4d3fcc523cb3f411c4a028908e0587e2de
+FileChecksum: MD5: ae1edf71efd797caf6735740b4cb5603
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/visualc71/libpng.sln
+SPDXID: SPDXRef-4a12bb2634f281f7c2bef12ec7738a36562b990b
+FileChecksum: SHA1: 72a2648e8d4f5166b43986653520e86ea2f96103
+FileChecksum: SHA256: f324452926d8011cdd2ec605369f389e50106628ca29924c984df87f7f02bfcc
+FileChecksum: MD5: 38fa4061ec8427ba008a80eefa244919
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/visualc71/libpng.vcproj
+SPDXID: SPDXRef-bd5cb50081a8dd6755d1c516a6ada097f14275ea
+FileChecksum: SHA1: 545fe77f888db0ae8a3b87133dea8139ca130939
+FileChecksum: SHA256: c296e11f894194bfa7bfb3ccc1995a57d5a704de75f0f1a019f9cbccf413e706
+FileChecksum: MD5: 4eaa3e05d2a0e6a4b1dd9583ec17d93a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/visualc71/pngtest.vcproj
+SPDXID: SPDXRef-ee7482ac2d8f16e6ed5eb3c082e9c95be0daa417
+FileChecksum: SHA1: 0f3bf7da371d47cc7c4dca5496121e62ba7c5163
+FileChecksum: SHA256: 8b204903867e59d90ab285beab1c977a0be3806ce61fabb27aa79b77e70baa03
+FileChecksum: MD5: 2f682c7168e774ef757d9b8cf81ed789
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/visualc71/zlib.vcproj
+SPDXID: SPDXRef-55696378e63d8a3806a052ac2098a79c96731c36
+FileChecksum: SHA1: 4de716c61d3bad4cd8e8e6d852b93c2036cb9a0d
+FileChecksum: SHA256: e5d2addc212c43f859c9a977b7806a414ef3d3ad3d0c5e7dfb15109537e7e670
+FileChecksum: MD5: f29d2a82d273be99f5421aa69d8d2f8a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/README.txt
+SPDXID: SPDXRef-d4a032d739e378a0a97d2b12bd344ad1675b17cd
+FileChecksum: SHA1: 2290d0b41c4a0eb95c8852a660a4a4989f03c016
+FileChecksum: SHA256: 57903aca1de53e53e664a0247f16d47023cee52cd38ae26bc4c3777d7590fbee
+FileChecksum: MD5: f5a94604dac9d27ee7894ff433e605ed
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/libpng/libpng.vcxproj
+SPDXID: SPDXRef-d2795f4025c23bc4c1ecc15f09d580fcabd6c605
+FileChecksum: SHA1: c022f17bea3e89a349f62db0e51b9ed438ae1c9a
+FileChecksum: SHA256: b07a6c6783f12313f6791e19dc57d7a37b7ed05fa697f987042af8cea9680aeb
+FileChecksum: MD5: 975b85b8722edfdd9b61497a1bca94dd
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/pnglibconf/pnglibconf.vcxproj
+SPDXID: SPDXRef-30963cde5dcb151c0db3c2401a03cc0bcc55b60d
+FileChecksum: SHA1: c0ff6c84e6af039f69f5c55263220ff76df0e00c
+FileChecksum: SHA256: bf9849a97b0b0db40464c423baf6c03bb9e520d2415e5bab9c806a9017c82e4e
+FileChecksum: MD5: e2bbc31c4364e05d31eea226c9caf916
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/pngstest/pngstest.vcxproj
+SPDXID: SPDXRef-e52d77db9b4c69e2b7c6221152e9216bc5b6e4b6
+FileChecksum: SHA1: 574a4f2fa6e945b705de986413220d5edab50414
+FileChecksum: SHA256: 91b30834f2550e149837c64c4e464f25751e1007cfda03eef847716ff9a9f45e
+FileChecksum: MD5: 4820a5e176b15111152858d5f67497c3
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/pngtest/pngtest.vcxproj
+SPDXID: SPDXRef-e7242aa5b19452bfe09b0575d719f7525094f5e1
+FileChecksum: SHA1: 08dcb4e8a3e6dc701a031862d3596f7aea51e62a
+FileChecksum: SHA256: 09c1adcf4908edae03d2b341ec2a0bac7f2f3542d6783961a96222383f1d661a
+FileChecksum: MD5: 36f78e762d62cd107a2ae085f494d2fe
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/pngunknown/pngunknown.vcxproj
+SPDXID: SPDXRef-9f3339641bb83d97d9fba00d228eb635afc55be7
+FileChecksum: SHA1: 1186bf14ef81f3da81fb32ecefe7edefbc48a275
+FileChecksum: SHA256: 702981cce6660d562956af79be70cc37081483cbb1d96e57f73280eef991a1c0
+FileChecksum: MD5: a3c48aa4d588b12387f047ea23fd4e0d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/pngvalid/pngvalid.vcxproj
+SPDXID: SPDXRef-2a90ab8eba34bf73e896df98500c09063e9c9975
+FileChecksum: SHA1: c4bb237174da791a948099fada10b4c7e1f9e725
+FileChecksum: SHA256: ba479a02e3892772330aed45d24fb6a88aa6ae02076b9e01686e1a9fa743162c
+FileChecksum: MD5: 3c10425bdc52b1e9158d7467851a83f1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/vstudio.sln
+SPDXID: SPDXRef-9f10d560d364021d2c6c37e9919ce777bbda0c02
+FileChecksum: SHA1: 338366865cc51e8551f6857bf2971b2db7c54691
+FileChecksum: SHA256: ec8fc6bd9e1f89efbc315e0fdf5fd7eecbb7fb7638f482ebeeae3ce516cf78eb
+FileChecksum: MD5: a9302f85ce75f406898f2e93429fcb8e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/zlib.props
+SPDXID: SPDXRef-61194d6deb0870bcb7e38b7fdda2ddcf944849e7
+FileChecksum: SHA1: bf950640dd38248495725be2dcf9a403152566f2
+FileChecksum: SHA256: 8293d971d6d51af6f78e003331f24399cc4843c729414d4e9b14effd688cf13b
+FileChecksum: MD5: 3a81f928c9bc93ab47df5f140ded7a80
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/projects/vstudio/zlib/zlib.vcxproj
+SPDXID: SPDXRef-ceb77c696556b7f59aed00de584845f968ae461a
+FileChecksum: SHA1: 55efd26d3233acfc66add87e8801f6159b49ae28
+FileChecksum: SHA256: 268d4e1de0e44dfeb68a5546ef106d50c20840321c708bead082124996ce471b
+FileChecksum: MD5: 9c77e648e746aa83dbe373c98c3894c2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/README.txt
+SPDXID: SPDXRef-30dba53b5c89a2dc380fecbba49e299adc6d50db
+FileChecksum: SHA1: b8d5ca6da66ff28378fcf643214cfeff9eb65320
+FileChecksum: SHA256: 15ffa38080fd5c136b0068b639e467fd83e02df62cd3e5a1cd50b77ce70e6ab3
+FileChecksum: MD5: aaa5b08d9162b313afbb395a4cac1538
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/SCOPTIONS.ppc
+SPDXID: SPDXRef-52cc84a772509e9f70ba3d8663086163e69b40d3
+FileChecksum: SHA1: 74171e1606520551725efbc693eecd8dbd614988
+FileChecksum: SHA256: c372ce5ec69906de29755df05ebec4074b36a3b29a73bcbb982eaee2c15e35f3
+FileChecksum: MD5: 0429200f3396dafa7afd93a1dad09595
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/checksym.awk
+SPDXID: SPDXRef-bd96819c5a871b71fcd447c8f0dc2e3a8188ca62
+FileChecksum: SHA1: 1eadaf67b26979d7892188ad4cfb9b98001d577d
+FileChecksum: SHA256: 506e043cfedb5e47d77d6a6a5b94f0533185e32cd76f23fce5ce3c5e492e31a7
+FileChecksum: MD5: 202afd8320096d753cc34afd2f1f51b8
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/def.c
+SPDXID: SPDXRef-99c0696eabd356a162393e0e4011f4c47418a297
+FileChecksum: SHA1: f5fcf45a8accb5ad2688ee607ff9bc3b4e34d1f5
+FileChecksum: SHA256: d3323ae8d382558e73bb7f6d734c32c1d73c42a7e57171911c0ad075bd62f400
+FileChecksum: MD5: 5eff50b85716b995b597007d6c2b8d58
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/descrip.mms
+SPDXID: SPDXRef-acc57cc3370d27eb4c3d41d970cba128ab381149
+FileChecksum: SHA1: 2b6c858f4b009fe17c737f49168f87126cdf34a7
+FileChecksum: SHA256: e51bcc76e6f2db72b6e706519c4aa866aa18cae71afd3115b2a6b58464d040e7
+FileChecksum: MD5: f65e0567834acc7cb64389f1146f89db
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/dfn.awk
+SPDXID: SPDXRef-b18b7bbb7dc1642da6c6b70334c45f32aebd2dac
+FileChecksum: SHA1: 36333b6a3474bfcb9fa1e1fe7bfb4f9b8b7ca02c
+FileChecksum: SHA256: 3e9ad17fb65da2d438ce505378b4523b70013ab48d4539e8fe2b9e528c34bf71
+FileChecksum: MD5: 144a08dd7d8510d15797428e180de2d7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/genchk.cmake.in
+SPDXID: SPDXRef-c04e09d8c0e192b00cf09ef811ba08311f3230c3
+FileChecksum: SHA1: 2d5653245cd887f432e7c58b83e16e514d1fc1dc
+FileChecksum: SHA256: b49208055df1b96a87f24e191ec31514e706e94aa7c76ef293e556f1ef01fbe8
+FileChecksum: MD5: 8e5d8f2a8a98e7edaac6414651ab1764
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/genout.cmake.in
+SPDXID: SPDXRef-7aa260398322a4de752aff0c4f2d3e480cc6f430
+FileChecksum: SHA1: f88651a64966bb0d2dc5f0316d01a717ae493c48
+FileChecksum: SHA256: aa303597cbea086d552317560d5816a240750dd74119e13b9fba4ed2f831ba20
+FileChecksum: MD5: ac0745a3c558486eec5ccc1c947e9394
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/gensrc.cmake.in
+SPDXID: SPDXRef-4432cc6661fd37668467e6d7f9fe8b16ced7cd6a
+FileChecksum: SHA1: 7048f34acab9c0eef0aa2d86d6f7a09e01240324
+FileChecksum: SHA256: b83745b8d8680cf74755b43bb016a666fe45cb65345b5a43d3be8d93cea7b205
+FileChecksum: MD5: 75dfec502b40be40470550c04186bc5a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/intprefix.c
+SPDXID: SPDXRef-e5b71b3d65c0231a30530f7041f326de62c1f95b
+FileChecksum: SHA1: 36dc5bc7cee0f75802f19b03c780fd010b10ff39
+FileChecksum: SHA256: 2493e5af28099dab055e08a6a8e14663515a5c4569b31418d2e50592fe3cee4e
+FileChecksum: MD5: 630b189686bbdf4da8517785da57da1c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/libpng-config-body.in
+SPDXID: SPDXRef-d09504214ba865c8e6606a4f93dd64c0da9cbede
+FileChecksum: SHA1: 1a09c0836797d6cfa5a94f36be4f2593206405cc
+FileChecksum: SHA256: 28a2fa8a623af007eafbb09429af0759584c3c633a74a2a7253d412f2a458d89
+FileChecksum: MD5: f3b17cc35a465924068fb56ee9ee91f1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/libpng-config-head.in
+SPDXID: SPDXRef-40c3318d89141e950cc190942f165c0be5ef6830
+FileChecksum: SHA1: 730ff46f619e212ff3b9cacfb0fbd59f8e61abc0
+FileChecksum: SHA256: 46eb5223effa8eba0b0523ae8df13471f2d92c8ce943951b64f24e7837663616
+FileChecksum: MD5: 9b09f2b916f1fbf39936d9f3d1aba5fe
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/libpng.pc.in
+SPDXID: SPDXRef-80f91bac1537cd3c156f62c58c2ce6ad7c9be719
+FileChecksum: SHA1: f43f4b523acf68de666c53aee14a3b87676e732d
+FileChecksum: SHA256: b3f5984671ee261c8a5ac70fb6a1d152ba481b0991e54ce8571c6699f75e0358
+FileChecksum: MD5: 5796aa61748175e06d813df59f9495ac
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/libtool.m4
+SPDXID: SPDXRef-9a6e77083cc81ca7dab467fa10582495d9c08169
+FileChecksum: SHA1: 89105b0fc95d5ff30e8a1194467a61d671b699b5
+FileChecksum: SHA256: 94ebc155f41e96e5cb8762a2661e0d39426274e1b2b930bfb6d99c680a041c58
+FileChecksum: MD5: fb0e3f654cb31cde80112f89cf47fd91
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/ltoptions.m4
+SPDXID: SPDXRef-4aa62691355cabf5d4d3f504941844960466e30c
+FileChecksum: SHA1: 9cd35d79da7776af14f21b259c64f130fa1a3536
+FileChecksum: SHA256: e77ebba8361b36f14b4d0927173a034b98c5d05049697a9ded84d85eb99a7990
+FileChecksum: MD5: 064af1799febaa676203302bbf359180
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/ltsugar.m4
+SPDXID: SPDXRef-37b912ec096ed17c7592a6de3fffd6d220a6e9ac
+FileChecksum: SHA1: 2028bffadfd9b989bcc63da90596101fe4ec20b9
+FileChecksum: SHA256: 5a6735cda60e0ba0d1b706c0ef648f5d096298da46daefd9cdecdb6a0f4584d3
+FileChecksum: MD5: fa2891f9060865871cbbaa1c6e2d96f4
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/ltversion.m4
+SPDXID: SPDXRef-b44cab57bcfae42ab6ac386808a8b732b86cab22
+FileChecksum: SHA1: 3aae847c163fa6cc7c8241a3a49f98705538d55f
+FileChecksum: SHA256: a27b754709de61575197bf5a980696c98ae49da3f92f0de8ee7f42dd543b7465
+FileChecksum: MD5: d936fd6b2025c9b5322f826117d7f30c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/lt~obsolete.m4
+SPDXID: SPDXRef-36265cce67def66f4dc06f02eb61c4f3512f12ca
+FileChecksum: SHA1: e21f085615f98d3751690c1615923e89160d5783
+FileChecksum: SHA256: 26fa3285c35dd6ab00ed1e466ba92a17e4655e01897731ec18a587a4cf5e4f8d
+FileChecksum: MD5: 22aa295bf5320aec7fba6756ff11058a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/macro.lst
+SPDXID: SPDXRef-82d59f6322dacb8ef447cf1c1e6473a30d90f2ca
+FileChecksum: SHA1: 2c241396e98ddcfcd6ebf6d1c5d99237e6fc0025
+FileChecksum: SHA256: 50eb2fd1f9fea0def8c07e5b16399ea174af5088625ab9f59ec74bd1109e934c
+FileChecksum: MD5: b00c4d6278544cb2b361629dcc1f0e9f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.32sunu
+SPDXID: SPDXRef-11da2472336f4579beaba2f1e32f7c48a89bd84d
+FileChecksum: SHA1: 4a074b7ccb6046a6b70f1d84eb642bb752010c4c
+FileChecksum: SHA256: 02e7a026258964e645f47c0dc6d2cae4d8b794d815fdd9b682c04b8ba986612c
+FileChecksum: MD5: 40bd0700f67841e3620fc05404700acf
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.64sunu
+SPDXID: SPDXRef-e884671bff242806d7e340067c8f13bb90f356ae
+FileChecksum: SHA1: 5bf335d78b64aa053d397335d8e75408ebadd82c
+FileChecksum: SHA256: 9bb3893655717e803c3753d94edc8a4f32a45fe8febffa2864a5d2a19ff92a44
+FileChecksum: MD5: 040b3a16654a79b4e2211b30ead66d1a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.acorn
+SPDXID: SPDXRef-9779015a0d9b511bb4b5d559a97ca7e53091e35b
+FileChecksum: SHA1: 985a6c1c534f600781cbd001cfb45f428d90402f
+FileChecksum: SHA256: 4b283a1c50ba1a974a74a20a8bbd74af74c8863a8a860a5877faa56e727f962a
+FileChecksum: MD5: 99fb2aa3c628710404bef1add192408a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.aix
+SPDXID: SPDXRef-dd6bc623d142e44bb788c6aa1a8716258b367c97
+FileChecksum: SHA1: e6a89bca01cd0bf787326897da34198326ad0252
+FileChecksum: SHA256: 35d7d684f8f42c7f55560ae65b500f956e9fa7a964b65998b8698027153218ae
+FileChecksum: MD5: 2a1ee1696ce4349022ff70c5f4438c86
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.amiga
+SPDXID: SPDXRef-86460a57290445c932a43dea603e7e2bf61eeb31
+FileChecksum: SHA1: 606d5f9332aaad4cf8f70b40c635eaee0a31bfce
+FileChecksum: SHA256: 13a4da7809260a83ed8ba56f45280f5fe7ff64ffc5ae7f9b13e5bb6bcf280611
+FileChecksum: MD5: 88add0ba98955cd2ebb9d0fc254f339e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.atari
+SPDXID: SPDXRef-fad96764ac11fc85bf1840bca696b99464e09278
+FileChecksum: SHA1: c39d1cbd45f2d3471845fcdec23c7b5ba5a38142
+FileChecksum: SHA256: 8a881491b932e2f151f6ccf29d98c804d87a90d55035921c965f6b99d9938b4a
+FileChecksum: MD5: 6f58b24da29ff6a6c3fee10702addaff
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.bc32
+SPDXID: SPDXRef-c1627048c0d49655985026c8ddb538ecf702175d
+FileChecksum: SHA1: 4ae4d7ba7ff5f63bf03e77144110037d87b11a3c
+FileChecksum: SHA256: 99016c0817e432446c1ae4e4f1aa0e81cbde407a0021eaf211819edb3591a57d
+FileChecksum: MD5: d42937e781a4e00cd6b548b63aed78c9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.beos
+SPDXID: SPDXRef-36a67d2dcdd824bce39e2bed715180f2b6815a6f
+FileChecksum: SHA1: 28aa0ab929029e5c595d89508a430348f5a41ee4
+FileChecksum: SHA256: 9038d3431df18a8d342e01ec7ff2fc73f5ae83aba5fa0809f6156646960ea9a0
+FileChecksum: MD5: 6d87523c67f28544c7d853e8d3eba676
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.bor
+SPDXID: SPDXRef-969344c7cf7278bf06be44dbaea4485145c22f01
+FileChecksum: SHA1: 399b8c66b7ea0c0f1c5885da8a1cc2295e98e1b6
+FileChecksum: SHA256: 741caf14d903b3d19b3ad1b0d71d9330692c62b620f269499a793242ec1d2972
+FileChecksum: MD5: 711b465c4ecd5e986f7f6f400e60c77a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.cegcc
+SPDXID: SPDXRef-1d4122fb9b214e82d30dffb40e2da988aee56ab7
+FileChecksum: SHA1: d4a8c6298e4380e3558095aeac3186930be3557a
+FileChecksum: SHA256: 5e94cd4e6f7798b94c6353044e04cf653c93a7dfd2b3e6d3dfed94e65c454007
+FileChecksum: MD5: 9a679ab87e0583dc62ad5d5a1c1a21e6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.darwin
+SPDXID: SPDXRef-a97be2a9ec578799ba720d42e291a1c49b2338c5
+FileChecksum: SHA1: 3a5930d7b113684bb73bc18164198bee91d39a10
+FileChecksum: SHA256: dcd23f0cda6e8ccecc5d56b08c66a1ed607e27826d808e6bec91e13dd76184f3
+FileChecksum: MD5: 6eb7f788d88cf3a9a89375d161194859
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.dec
+SPDXID: SPDXRef-e71a308a578b98d94be046f1bff3f8172e572cb3
+FileChecksum: SHA1: 6bd1d1abfb6e1ebc02ba5fd8be61c77a26161edb
+FileChecksum: SHA256: c5cb83429b8285c4dea76e65ce6afb2a8f1ad44fd60692f1c222e8477e82f579
+FileChecksum: MD5: 07ceb2907858735656cc0d94cedd3596
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.dj2
+SPDXID: SPDXRef-1f5a835be643f3cdd0e2a41d71f9eea1cfbebc5f
+FileChecksum: SHA1: 67ed75812426f4f0c94ca2ebc2acadd59e17652d
+FileChecksum: SHA256: 02cb8a502942a405040b8bf70d3cebb3286e8bd0542bd01a6117c0e0f6e174b1
+FileChecksum: MD5: 111407239c273a92d71218910168ac10
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.freebsd
+SPDXID: SPDXRef-a94f30ea0d9fa3b12789687afe0a70e99a5e15a9
+FileChecksum: SHA1: edfac82acdc90ffa5b931aff7519941853290603
+FileChecksum: SHA256: 6eaa93012112b972cf72cb2ff942c591986ee90ca25988ac450cc514afa86754
+FileChecksum: MD5: 44755905972d1868fccac6682f795d5f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.gcc
+SPDXID: SPDXRef-9e7cbae68cdfe0574a55a7295c733f392cf46b0b
+FileChecksum: SHA1: 0074fc0b2a355ce1140c2e3418ba829b27830747
+FileChecksum: SHA256: 9af523f833809fa3d4a81953f5edc3ef6aa9ffbaf4e5ccd483fb3f53bbb3a9be
+FileChecksum: MD5: eb3885644ad1113823596b53bfb11431
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.hp64
+SPDXID: SPDXRef-62a4e5be9523986c41826d840a7fd06b4c35a28e
+FileChecksum: SHA1: 64af24c18de6ae216f8fd72d5c9320877df97b4a
+FileChecksum: SHA256: 0b6b9fcaa24c1925f14ce29d1c2d68c6911b0bf662ac33c4cd0d12a6566bf587
+FileChecksum: MD5: 53e50bde472d8f9b8b42c13dc5e271db
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.hpgcc
+SPDXID: SPDXRef-11c898ad5538943e8e63b88208ff62cc6e1cabb2
+FileChecksum: SHA1: 65b0ed2fd435fd285aadf8a76e7fe3089ffeb41f
+FileChecksum: SHA256: e35e38c72879132fee9af42a639acd6f3c2641c6cf88698307b9335920473a7e
+FileChecksum: MD5: 6091b2c8db11fbce73cb37fe4c859097
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.hpux
+SPDXID: SPDXRef-157b9a46ab0aa138adb5c9bc44adbe06ebf8da27
+FileChecksum: SHA1: 41162c2e3771fedaa3249786ba15314d8a1d6918
+FileChecksum: SHA256: 42a89b6c94c51d9b626c0f9da63af540209864d5826e775f739b428d411c30ce
+FileChecksum: MD5: 44e9f83ebaaecbceb3e545d663f1349c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.ibmc
+SPDXID: SPDXRef-d903e1614e6319aedbdd0f2c9629f4ce8f48b458
+FileChecksum: SHA1: 995d93b6e31089987fc09d8e351844adb4ca072f
+FileChecksum: SHA256: 3b14db61c3905941e44a241fec9d72d98a0fa1493c5a2a8da7f2ebadfc782b62
+FileChecksum: MD5: e0d08714e12cc9c5f6a0661d4f524cc9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.intel
+SPDXID: SPDXRef-b24f223b0d2bac5e8943bb991a49f4803733fafe
+FileChecksum: SHA1: 99d4c88404c84f6b9288b259b7887de89fec6288
+FileChecksum: SHA256: 21383a256c79920eb2d59ed68b035b69bd79321f90154bfde778d2fb69779576
+FileChecksum: MD5: 8c7e5f1e35d58dd328a021259677b919
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.knr
+SPDXID: SPDXRef-d3c798ecab50e9c846767030bc87bf4e27f0fe6e
+FileChecksum: SHA1: 7354194254550a1a48c2f1a9b854c7da79c94364
+FileChecksum: SHA256: 9514a1cfaac0a638d7e8b4517cb41baf0d823fa9a02ad134141577e304c1d969
+FileChecksum: MD5: 40e15eadcbc2bb9492a11be1aee8c0d0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.linux
+SPDXID: SPDXRef-b766ba9c9ddc0e3c575e23b88aa6de66bca615b2
+FileChecksum: SHA1: db9e55ce35ca45b4cb5c8b8d0bfcab4b883a8328
+FileChecksum: SHA256: e3437cfb65a6cd73bac056ef0d266cc250160a34c171136952849e1d475b7a2a
+FileChecksum: MD5: 6fc9051767d30f345f87bb5e61d34143
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.linux-opt
+SPDXID: SPDXRef-f22ff63d12664c0cf5a997d311ffb9afbef4fdc5
+FileChecksum: SHA1: affe48bdb09b39c619cbe784c41900e097c6ba73
+FileChecksum: SHA256: 4f86df7a7d1a2e2af824c3ac40d338ed0a805ce8292fe1d09877ad701337ddf6
+FileChecksum: MD5: 6159692c4a4be742de1b60d3091b7ff6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.mips
+SPDXID: SPDXRef-4f82255a62503a3ab2b605d69b715e77b8dfcf1b
+FileChecksum: SHA1: 0e260bdcc7d5ee5b59e51bac7a2c9217eec15389
+FileChecksum: SHA256: c39e86c281dffbc240d398850a863e2dd03a3aab7eb3c43ebdf2ce19705566d6
+FileChecksum: MD5: 11773f0d023b9213152a0f1c32daf3dd
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.msc
+SPDXID: SPDXRef-28b16abef0f6aded274c039cf690478ca5bd65c5
+FileChecksum: SHA1: 564d20061fb049f06ace3e10ebe97e43454a9ef7
+FileChecksum: SHA256: b26c19b51513f256497747e8b33f3b888a85d19a7968b7a31d1299ac4e750bcd
+FileChecksum: MD5: fc94eb66293050a25b5db24fc8596f94
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.msys
+SPDXID: SPDXRef-b267e225d69576f7693a25d71d42a65b5ca6bd6c
+FileChecksum: SHA1: ea954902ecde3f6c63f4bdbfab5c57c2a91e5c78
+FileChecksum: SHA256: 16bc562b42d7a6476aaecd201e59b4ecf3fd3f1a78299eaf75f5de735efbac07
+FileChecksum: MD5: da39cf543799ec258331bcf41a65ba73
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.ne12bsd
+SPDXID: SPDXRef-9711fb9ab7201b129cb304425c65e8bbe87264b0
+FileChecksum: SHA1: 8e46c79896db277e64d3b0ee3c7faf7d1678f22e
+FileChecksum: SHA256: a071fe4270ff6cec6cb4dad7117be9ce799cd67d92e480d2e3ed7619872ba7ee
+FileChecksum: MD5: 74d97da0a8c8e2e77020a5bec77a621c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.netbsd
+SPDXID: SPDXRef-14064a1baff4ff53047af0bd1e9ff3cf98c9b4a2
+FileChecksum: SHA1: 490e49a0c448d1633f134c0f29570ade055bafca
+FileChecksum: SHA256: d156503c64511438fcf648e5b3966b9ede878aa07534f883501cda2d9dc1d8f2
+FileChecksum: MD5: d5f7e1b0412f14e6e7787381b3c3c7e1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.openbsd
+SPDXID: SPDXRef-59212ddd15d1d50f6b86eb4cb575ed75088b8fa9
+FileChecksum: SHA1: 73ad6093bedbf30bafe1b87f67ccdff21a6f71d5
+FileChecksum: SHA256: e17ad11007a0f1ee31d2403e20b8e23da28b05f13fedfbdb9ce7a63ec278b838
+FileChecksum: MD5: fbeaad7ddb270021120be7e5826d68f1
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.sco
+SPDXID: SPDXRef-5f118a9e73dd8b15433eb305725df55850c2dd35
+FileChecksum: SHA1: 8fb7f6e9f8351141764a610d40d2912373f35e2e
+FileChecksum: SHA256: 2ab1a9b52d0bc47d96630a2590bb5def411e3a39ba13deb5bc66a4d2ec7a727d
+FileChecksum: MD5: cca983cdb2f95a217d122cb6e467b074
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.sggcc
+SPDXID: SPDXRef-11416384da18e3e2cca728509c2593a290794e8e
+FileChecksum: SHA1: b4b1fde416887b5618d43e909f9776bc45e4e8cf
+FileChecksum: SHA256: 0e6eac2ff863f81af228e672d5731071e9b2d2230a38c8c4f707389084c510b5
+FileChecksum: MD5: acc123afe4bc0914a88810bf5ce167d2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.sgi
+SPDXID: SPDXRef-95d8b2ae6b4c0e0e7af9db644fd101322e9b75b3
+FileChecksum: SHA1: efe40741ea31f31ce8c62da43a8e6342a75629d8
+FileChecksum: SHA256: 12e14318663b77086ab8b2f1affea86a7a3d67a0fae7f4c2037a580a19bbec16
+FileChecksum: MD5: 91e196700943de2cb0e2f1e9d90038bf
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.so9
+SPDXID: SPDXRef-5e7f44da2325920fd012641ce05d8ff2d79b30fc
+FileChecksum: SHA1: d97a1d89a6be1a023de87d6444826ba84c36fe33
+FileChecksum: SHA256: cf8482f421d79ed0527069494a1343a2aa199fe5fe0bb8ef5a11ae7878afbe80
+FileChecksum: MD5: 1b7a99a55f893aa3f72499a5aaeb3a4f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.solaris
+SPDXID: SPDXRef-cb845a91d3ac3ff3f9fcc97f9c6c42ff99b08405
+FileChecksum: SHA1: 2726bf96e284571b896d291774d58b0c808ba143
+FileChecksum: SHA256: df47faf7713d7a17f21a84fab8bda3d6bfeb843a7d4ffb51a2ecf1afc1c81489
+FileChecksum: MD5: 86e30a7ca7230d00c7315e1eb841f32f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.solaris-x86
+SPDXID: SPDXRef-ccd45e16767af8e6d1906a5bb89ed8ee8e6e8de3
+FileChecksum: SHA1: b2c2bd940d9b115a509384f07ebfc343fd035820
+FileChecksum: SHA256: 5ffcc0629d348e36c9b8e1d434a8c1e9221d90c2eb2c87c3ed8cfe7797f8d92b
+FileChecksum: MD5: f1463decb72151a6e1df904a416376ef
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.std
+SPDXID: SPDXRef-67d82bf90bb9e45ade3ce2b3a24310797c6e3458
+FileChecksum: SHA1: 494eb64f5399e06e29791eeae123fa670a0342e9
+FileChecksum: SHA256: 876907e58695a7a7facda00ed797b44dbc9b5716cb121815557ad7a16b596408
+FileChecksum: MD5: 1abce80c21596b1adf78f0a9b5594ada
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.sunos
+SPDXID: SPDXRef-6f5b62eaf12bcadfd75da2f4a8ef6d0c14e6267e
+FileChecksum: SHA1: b1265602b225ffe9d05232f99a8b7424819cf2e4
+FileChecksum: SHA256: b55663e60be7e3c426faaf3e3860047523aeac34f62825a0094df5ac12890c75
+FileChecksum: MD5: d6730fabcff63fbb207ac11ae9add138
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.tc3
+SPDXID: SPDXRef-7d0f364028c91966f24afbdc074716a6f2818ffd
+FileChecksum: SHA1: a7cbee285ca792673496605cd1a2d4255593012d
+FileChecksum: SHA256: 30580b9e3b8a1274cb4e786f50afa4d41ed799971a580e02120c8de7bc6dec0e
+FileChecksum: MD5: c2467c72bc236623230cb0b3074eb4d6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makefile.vcwin32
+SPDXID: SPDXRef-178326d462084bd183df59767c70c33c9c3cba1c
+FileChecksum: SHA1: dcd213d6fa9581eaf9e61d0da0fea8552e0733c2
+FileChecksum: SHA256: e0f3c4bddc580052fe89575c8133f38dbfedfafece947aa0a6a42367f7d72385
+FileChecksum: MD5: 7299ab2ad1eff0a86c64109c5f13a2de
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/makevms.com
+SPDXID: SPDXRef-281c755172a56e417965558729d814f5508294b8
+FileChecksum: SHA1: 7fdcfcbe55c4939eea17e84513ea981738a435ed
+FileChecksum: SHA256: 97ce330a2bb1e8b8b9204d3637e4a10ebbdbbe7ab8814ba11990a0dd19d9d3d8
+FileChecksum: MD5: 0fadd479a55b27a8da3c28194d7685c5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/options.awk
+SPDXID: SPDXRef-d342360d4030203b34128ab1c8d37340e3ab8585
+FileChecksum: SHA1: 8ae5a0a43434abbab312a81b3944cdac261084d8
+FileChecksum: SHA256: 51fa17c1355d04be022f9dd31991a26f1d33379b07465197a5bc427fc8de10d7
+FileChecksum: MD5: 2d6d6aa3e81aa3e5a5868dfea5a33cc6
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/pnglibconf.dfa
+SPDXID: SPDXRef-5cd2189aef66e22b11e0845f2334fa9a12781a9e
+FileChecksum: SHA1: b9fa6beaa4b37d8b8f4a8aedbf8b390fa51e1947
+FileChecksum: SHA256: a4485a54b6aa8c31d0928d05318eb6434e4ac448b841d9a44bfdfe66f3036c55
+FileChecksum: MD5: 15959ff1595122b9c2905be01dc2561c
+LicenseConcluded: Libpng AND RPSL-1.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/pnglibconf.h.prebuilt
+SPDXID: SPDXRef-309e07f73e220eabebbcbe6be1d86e288f08117e
+FileChecksum: SHA1: 28494ab2dc5690a8ffee2c0873a0183dfb773d48
+FileChecksum: SHA256: 891d719314effeb85a3ed24dfd75749aa527cd2b57a18f999da33186f6eb6f1d
+FileChecksum: MD5: 9fdb6018846242d69894628e37266d80
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/pnglibconf.mak
+SPDXID: SPDXRef-fa6a57ff36c2059a2f2113b61254461b6698b055
+FileChecksum: SHA1: 46f0b8c129eea8cbba768cbd3927e7acd2be30ab
+FileChecksum: SHA256: 5610734c12a82f79112e2e340edc47ad0b102179f28cef69cacce47bcf022afb
+FileChecksum: MD5: e10dedf8c399d502e5e553264d1ee282
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/pngwin.rc
+SPDXID: SPDXRef-1c8a25bb4d81a013d179c2c0ace5bc87dc48515a
+FileChecksum: SHA1: 568863565dfb4b0ce047782a5c4c47bf87f22920
+FileChecksum: SHA256: 01c7ca452fda9db1fb0c3f1d8b0084902882c3b47370a7121bf5067e0a830bed
+FileChecksum: MD5: 89431ab76db3d17969fd66ab6c0ad073
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/prefix.c
+SPDXID: SPDXRef-76fba4584e22ad6f62968a8c9e08db09526c2ac6
+FileChecksum: SHA1: c1a94bd48da787bfd4296067eed46accd6530632
+FileChecksum: SHA256: 1795ea9c310e52a0b66905ab2df493f4166229262ab27b3ee26fd26bebb82df8
+FileChecksum: MD5: f32738112a6e3a7d410a99c8fd6d6587
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/smakefile.ppc
+SPDXID: SPDXRef-a2aaea99075bdc5dc106ecc5c58992f75d153bd5
+FileChecksum: SHA1: d4333eccdf06716a6e56c39325a30794d3f8c09e
+FileChecksum: SHA256: f35e8535aaa24f69b873c229c7d13ff8f36258b7dbbded05fdd767597a93683c
+FileChecksum: MD5: ff8370656c5c8aff3839deb9a709afa0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/sym.c
+SPDXID: SPDXRef-73447c388f2c8e2ca9dcee8d1b452f3b9c0f3d1d
+FileChecksum: SHA1: b2039a58636f3f2c10fbddcd342fc7a269c6396e
+FileChecksum: SHA256: 87afcb67a44c611d25a3465100cfefd10b95c1502ac3f2fffcd20c8297f9da32
+FileChecksum: MD5: 1b05803521229a0fa0d53786627f4f37
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/symbols.c
+SPDXID: SPDXRef-7dc5d2132b671a73173bdbdfbe132efcd18045ec
+FileChecksum: SHA1: 942929d0b071740547c6762aa226cb3951f8910a
+FileChecksum: SHA256: 35fb7e6912d42e8cb453c4716147a8b065a21337492651be58852b9121198eb4
+FileChecksum: MD5: b91629c840be90ec15a05b8728acae45
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/symbols.def
+SPDXID: SPDXRef-4f63709cc3101b5805d54ab1720edd351d36cc4b
+FileChecksum: SHA1: bb763b920e0603c0bc59e16bda505712d483d655
+FileChecksum: SHA256: 9e733496f9b4b88ffe16e91f2c6c14d6358e5a3b6d26e6f66b88381070a34443
+FileChecksum: MD5: 53ce8ec2e3f4583d636a692557de6823
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/test.cmake.in
+SPDXID: SPDXRef-925eef93ad65c43742fac797660bb62dd31f6b90
+FileChecksum: SHA1: 8563d9fb7f4c31b57a049c224d5ca710df0b61fc
+FileChecksum: SHA256: 7d0fca6737dc1c09839cf1b2b2752adbd3f9bdc830599314dd98884a3656db00
+FileChecksum: MD5: 18c43ca2d2e8fc78d1bec47c89af4bff
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/scripts/vers.c
+SPDXID: SPDXRef-148d8ba566f1a285c6482b23843600cd4ee1feb8
+FileChecksum: SHA1: 7c64a5817215d38f9815532ee04e7541930e5d29
+FileChecksum: SHA256: f13acc57a136d0dc02c6f5d2ab12f660775411444df487557060740dca245e97
+FileChecksum: MD5: f4898ce1fec78e857292d17bab6fa0e8
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/test-driver
+SPDXID: SPDXRef-e18a329415a65d0240db89c18237ee6fe4909d23
+FileChecksum: SHA1: ebabeb373c5af3b8606b510a2494955e34325d8a
+FileChecksum: SHA256: 7c1ae35455771ae32050c2ed109e3d297160b6d1a2f70b0278cf6968e5e7e98c
+FileChecksum: MD5: 7ce923f582b49637d13847c49fff9490
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngimage-full
+SPDXID: SPDXRef-4dd7446e0b2866222f60a94f0ebaaa4444743573
+FileChecksum: SHA1: 229e7c7a543540905177a75001cd5bfd838cb2d5
+FileChecksum: SHA256: 0730592ec39a577ac5443972a66fca7a60cefbf42ff245dce0a3a237397520e5
+FileChecksum: MD5: 00bab9d8e90d9340e9be78c8e895cd93
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngimage-quick
+SPDXID: SPDXRef-68a6f381697af428e63ab3c5046587b05fe86fcc
+FileChecksum: SHA1: ed35fc0a9d7f0c39d1f241c1f571762b53879207
+FileChecksum: SHA256: 02bdfa55b0dae7c2d90b976abb07cf834e250efa14a235e41eee92fc371c787a
+FileChecksum: MD5: 7250e740bc1fbb17b8154e93c2db60a7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest
+SPDXID: SPDXRef-cb249c139220dea40819c53904e42f3935720dd4
+FileChecksum: SHA1: c6d175f8d369e94f3bd17199187dfbd27e85dc96
+FileChecksum: SHA256: f11c4618d8e088e930d4b0fc4ec247b1b4676d1c64a1bd4aac4fd5718c81c773
+FileChecksum: MD5: e881ab4ad3b79978c2e88bbfe3c72b76
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-1.8
+SPDXID: SPDXRef-62078837669e107e578b9d496632c686fd18a04b
+FileChecksum: SHA1: cdec1ef26a5ffe867482aef8a032a58b9975c2ee
+FileChecksum: SHA256: fe641c6fd93cf41d47aa0c8ef706e2778bfe31d2178363f65bd3aad6fad3e893
+FileChecksum: MD5: 3b390d6f493f3fc1f27fd44e0be037a7
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-1.8-alpha
+SPDXID: SPDXRef-d3f3ba96347a7e08e83c499e69a361e132805970
+FileChecksum: SHA1: e14ef06355557a62657aba03a445b9b452779248
+FileChecksum: SHA256: 9cf340964510934fbf941cc7f94bd3487dd1cbb34762032436d642aef57efcd1
+FileChecksum: MD5: 26b9a54def5809e0ad43e0aa5ca99250
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-linear
+SPDXID: SPDXRef-227da53cc6af2f95ceaf0c3134e1c218fb53183e
+FileChecksum: SHA1: e40bd073b2f2a499965c35c0862c9f40e7f1986a
+FileChecksum: SHA256: b10502511557ba48894ea49dd7ddd78b9a49d487de17c779bc8f0fc922668e45
+FileChecksum: MD5: c5088eef405017e27468689e3a173f6b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-linear-alpha
+SPDXID: SPDXRef-1ea6be3fa5a8d4cff5ded93de33212f0273e9e4a
+FileChecksum: SHA1: 337f061f42494de0f92436b8d0d4f26139823aa7
+FileChecksum: SHA256: 21313bac9340ac9c984a5248043165ea135903ce958671524bd43ed5677e7d04
+FileChecksum: MD5: 0af977cfce46131e3fdac7d3b172ce49
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-none
+SPDXID: SPDXRef-9f3dd7dea1210fa6be1a5080506972666b2d0f6c
+FileChecksum: SHA1: dd711fbda79878d4ca5db127c27fba5a5bbb4ee0
+FileChecksum: SHA256: fdf0d87fd8b7ba93d3ccd92b6c8b31641f5a202490710a66a033cfdc18e1bd80
+FileChecksum: MD5: 4d7d7a202bc6a0285b0ebf06adac7d0c
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-none-alpha
+SPDXID: SPDXRef-c856f0927319cabe38a4f4bd8c502f3794a7fe4f
+FileChecksum: SHA1: 6d9f7c7a731ebc522832303069e92bff9a4b3c30
+FileChecksum: SHA256: c1d520d72afb9931dbbc99bcbe00dbdedd66dc507857f3b483566d2a4dc98a5b
+FileChecksum: MD5: b118ebda19a331ca69e3c335c20ca025
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-sRGB
+SPDXID: SPDXRef-0c55d51d84e52402d5b10266f6ecb6c7238bc273
+FileChecksum: SHA1: 6debe0d91a56cba8e0cda66c844d39d0d0d9c085
+FileChecksum: SHA256: ff35efc1679d163620bf991983e10e51c768c504420016601d6520e580c863bc
+FileChecksum: MD5: ffce9332c6aa14ba36014e78463aa960
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngstest-sRGB-alpha
+SPDXID: SPDXRef-067a9b9711cd24a76c86c4cebcb4e357fb5feb46
+FileChecksum: SHA1: a398c5de4c1d57d3335a0c1329aa250d75d82246
+FileChecksum: SHA256: d901a6d13c7961d3fe3dfdec53109ce5b1f2f24fa10f9a61c2630b97b6745784
+FileChecksum: MD5: 4e586a1cf1e6858cec86763e1f17cbca
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngtest
+SPDXID: SPDXRef-5b575ef7d485ed8b7da4d5fac594e8c779929c73
+FileChecksum: SHA1: ea996b9ceba8e15611cd97b8c036ba7f18b5fd4f
+FileChecksum: SHA256: 63ef1705d840b128f9b1a5a03b60b73e3e2492887d42106dcdb6d8e3e743b2a2
+FileChecksum: MD5: bbb4cfb44c1ae7ac351ca1d50acee622
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngtest-badpngs
+SPDXID: SPDXRef-82d11a2dcd3795337c2adf9228f07591b70d2c51
+FileChecksum: SHA1: c46342aef3014ac5e943551147bc574102415a83
+FileChecksum: SHA256: 3158f6f62f82cb9ebb1cc8a3e4d0eb34a4bd780512d5e79dc749163b67b9e0c5
+FileChecksum: MD5: ce0e6e896d844b6ae705c80b26af1781
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngunknown-IDAT
+SPDXID: SPDXRef-ec6bd715cd14416ad005bf823a808a0f62ccbc80
+FileChecksum: SHA1: 7328b2239eb9aa8e67b387874d9b2836385d647b
+FileChecksum: SHA256: db0e73c2e6aebc3de4cb264ee54c1a9cb717036d111fcdb70d031ea99710dd95
+FileChecksum: MD5: b3e3d0b99b3d073bd6dc1dc097e8cea2
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngunknown-discard
+SPDXID: SPDXRef-252786b985c02f0fd5d158443331e77e59ca13d8
+FileChecksum: SHA1: 7ce9b677ce5ab8b466fdfa8c6d52039383512b7a
+FileChecksum: SHA256: 454a6ebd1a1bcb839cee5e48287c8d47eb77951c3d529b165a6fa36557e9dc38
+FileChecksum: MD5: 1879ca5eabdb623b9bf982c8f1e5888e
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngunknown-if-safe
+SPDXID: SPDXRef-e1d24f246b31dcfdc6c4a8eac0e497483ec8cd15
+FileChecksum: SHA1: 51c51b04a5a6c357741d524258c00b92fce2974a
+FileChecksum: SHA256: c93e983853da0af6d70b6c7c39b0299a128e1d8eddb65ebb0cca0e8eef907ec9
+FileChecksum: MD5: 72158bf91f792c2acc30e55f06967979
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngunknown-sAPI
+SPDXID: SPDXRef-98c036165e42de890f013c30723c2b1051d1e8dc
+FileChecksum: SHA1: b280e06a6042edd2b86bcdf948961499cbda91c7
+FileChecksum: SHA256: 19e4caf2f4b791e89605ff186aa2f9e5adc2040ee0c192df5e67754eea1fdd49
+FileChecksum: MD5: 8fc1a422cfc601ae96269ef639dc20b9
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngunknown-sTER
+SPDXID: SPDXRef-2dcff1e4401504a8a742e85183de019965ddcdc9
+FileChecksum: SHA1: 967c38675c4d061179f1e4fdd16c90d78964bc69
+FileChecksum: SHA256: 25350e69eec0ebb3fc802f25880bbb6d0be3af121444fe2add8bb2c446f95b97
+FileChecksum: MD5: bd81362814aef285e27289b24bff9830
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngunknown-save
+SPDXID: SPDXRef-24a116cdc6c5014b9eb3574ae73e30e4fbce73b0
+FileChecksum: SHA1: b171c6b132b7dd59eedf1cc68e5a266cdfacc2f2
+FileChecksum: SHA256: 3b246bc3d0dfe2d2c73746e2769dbd92241d32bb921a817dd7aafcf42ef68b76
+FileChecksum: MD5: 3cc9cf5f35f0764c73bb27242ff6bfc8
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngunknown-vpAg
+SPDXID: SPDXRef-17de71d9429db738925c613a311d79b7bed23e1a
+FileChecksum: SHA1: 253281130e937a76abaccea3bf7ce06268d76921
+FileChecksum: SHA256: 77c24060e291e055fcc2add83391d0ffb0d8ed9a93c68a64f909feabb3d8d14c
+FileChecksum: MD5: 07658e358aceef4534423fb0a6ee8b5b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-16-to-8
+SPDXID: SPDXRef-e56943824a4849a5ec333173b44e0a42c8952574
+FileChecksum: SHA1: 4c2781dc5e700558bf45723ccbb7392a0db1cfdc
+FileChecksum: SHA256: 0fb9f23365ce7081f038bf0240473f6afd292bb2d0bacb533ef64293582f0ece
+FileChecksum: MD5: 75e1e5ddaf2148f3fe9837dbbcafc6be
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-alpha-mode
+SPDXID: SPDXRef-ff5b9fe559ec52dfac27bb7e069d36aadf6d6f3d
+FileChecksum: SHA1: 948aef3683ee9cb96d7f63404cd7c1033f8b98b9
+FileChecksum: SHA256: 553c5c1b7b5145616e7b4cbaeccbd2c2cb45fc0c6b7feffa96abdc6cbbb3cac5
+FileChecksum: MD5: 6ce9b8dacdaf904cfb6b95de20aabc7b
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-background
+SPDXID: SPDXRef-be2fb5fdb5430bd662abb416f7c74e6e5027e146
+FileChecksum: SHA1: 370498d31babe05bf0333b48625e44a4fb8a9d9e
+FileChecksum: SHA256: dd2e8cfb6af7bedd0a6de40a604a229d3b5f57b7c1e9c83afa38d2966732c06a
+FileChecksum: MD5: 58eba15cdc082357d9068f347af005b5
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-alpha-mode
+SPDXID: SPDXRef-7faccbd086e7b1cbe2022c02c2dc1c79387eb95e
+FileChecksum: SHA1: 57e61e63b9731dd4dd1d3dc4c91ddca2cd11a59c
+FileChecksum: SHA256: a4e1efa1ba35f41682f98e4aadb953cec935d8f89318ef7601feb8c5026984ed
+FileChecksum: MD5: 9fc9b9909297ffa7cced2f29d5fb2fa4
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-background
+SPDXID: SPDXRef-20f1158223d1d3865b0124d281be89aa5a085b56
+FileChecksum: SHA1: 8582a2761a7328819eaeb3c73fc1ffa19623695a
+FileChecksum: SHA256: 53ed9ff8b566d9154d5fb2a0c3c4adebdb133a7bdd21df8013ed276abcc44b6e
+FileChecksum: MD5: fb1412926c52bff5a5d6ba120bcbc38d
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-expand16-transform
+SPDXID: SPDXRef-ada24d7153d59afe5c79f15745b8b2836777e070
+FileChecksum: SHA1: 2a9fcde317b7c872de8c1e02753e4d47f198b06b
+FileChecksum: SHA256: 98b632fb0d873d63af217e2abebee03e30a09bc8a8a7f1dcd24b30e77550d105
+FileChecksum: MD5: c8aff2ee8f632b30be4d4b56004512fb
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-sbit
+SPDXID: SPDXRef-6f51633d5431302cdd757860881aef4a1b1ecfd2
+FileChecksum: SHA1: 256fdcdbe0c7a94fa224e2cc418a53f608da05a3
+FileChecksum: SHA256: 9f74fc590646a0e40f7e61c597f7ef99daf1e8eb19f68580c66f9c21592e01e1
+FileChecksum: MD5: 39b1c62d32c713390d57636c36f9e8ab
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-threshold
+SPDXID: SPDXRef-9f31609c276c5f204cf68c7f1ce909dd0a1dd2bb
+FileChecksum: SHA1: 463d721f2ac86a60a65d02fe4eeffdcfbe90de33
+FileChecksum: SHA256: b1024c489a39ef49f708bd14c6bb30800bb526a5595949c5a7107e924733e20b
+FileChecksum: MD5: 7c2cea6f7c8a9bb1689a19773459e554
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-gamma-transform
+SPDXID: SPDXRef-0357baab08d1d709c404542250b6d3ad8733365c
+FileChecksum: SHA1: 47d367349daee272035c2fef79716058e87703fe
+FileChecksum: SHA256: 823b855e144475e83eb155de5dff467a624472c8b0983adbdf7de7f240cebc96
+FileChecksum: MD5: f34ce200831e15d2879f793d5da008a0
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-progressive-interlace-standard
+SPDXID: SPDXRef-6e0bfcd4d4fd699ff42055b44e95c96b4f1246f2
+FileChecksum: SHA1: 923ea488f4e861891af15178bdfbb72cd1b51552
+FileChecksum: SHA256: 8c0c003e6ff9d255169521e441e7dd5ed2dbc286dccb25c876c92ae02b413363
+FileChecksum: MD5: 8476044ad95202ba954a5f7d8caf4cea
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-progressive-size
+SPDXID: SPDXRef-5560d9c6518a675bcf91dbded951a6a32c1dcb4e
+FileChecksum: SHA1: 57df789841affdc352b4369bdc3915c3b2f67a86
+FileChecksum: SHA256: ee6e6104e29d544214184203928d4babaf8f9422153a44ed82656302509ed854
+FileChecksum: MD5: 0bc3da2bbccbb60bffb2269064eb4d2f
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-progressive-standard
+SPDXID: SPDXRef-22488571345b5f07c10763cd4263769b929763d6
+FileChecksum: SHA1: 0cac029f54e9061b80ef3152d9b428a141e61442
+FileChecksum: SHA256: 70bf05831c00a0e6536a36cd1e9f6c0f69ac155e3c168d7664eee79019976491
+FileChecksum: MD5: d5e1d75e08c38a364ad052486152797a
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-standard
+SPDXID: SPDXRef-0e87ddd2669f481ae1d35507d6a35f3ae6a07bef
+FileChecksum: SHA1: 2dd000ccad95e6a6f02778451d09c147701252a1
+FileChecksum: SHA256: 33bf8e14dfbbea3718f3e592b252b5612b3bc17a1c188f9578c4c49a19b26ece
+FileChecksum: MD5: 981579421edf4a3e948d35b23397ae22
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//libpng-1.6.34.tar.gz/tests/pngvalid-transform
+SPDXID: SPDXRef-41cbd2f2a67010f5e3d80277df9b066ab5d631c8
+FileChecksum: SHA1: 46b7b497163b3449b684b2f1245aee516d7498d5
+FileChecksum: SHA256: 80c41eeb5c4580d120cc43cd45b6d8b371e675aa612a601d866aa281f47ff764
+FileChecksum: MD5: f54cb766583e22d88c53ac43f00c3918
+LicenseConcluded: Libpng
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+

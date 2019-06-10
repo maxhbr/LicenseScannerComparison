@@ -1,0 +1,4333 @@
+# Document Information
+
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. Consult an Attorney
+for any legal advice.
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+
+
+# Creation Info
+
+Creator: Tool: ScanCode 2.9.2
+Created: 2019-06-10T07:24:33Z
+
+
+# Package
+
+PackageName: adol-c-v2.6.3.tar.gz
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 2800e00aabe1abc94b704d6596805928c6c886ba
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Autoconf-exception-2.0
+PackageLicenseInfoFromFiles: EPL-1.0
+PackageLicenseInfoFromFiles: FSFAP
+PackageLicenseInfoFromFiles: FSFUL
+PackageLicenseInfoFromFiles: FSFULLR
+PackageLicenseInfoFromFiles: GPL-1.0-or-later
+PackageLicenseInfoFromFiles: GPL-2.0-only
+PackageLicenseInfoFromFiles: GPL-2.0-or-later
+PackageLicenseInfoFromFiles: GPL-3.0-or-later
+PackageLicenseInfoFromFiles: Libtool-exception
+PackageLicenseInfoFromFiles: OFL-1.1
+PackageLicenseInfoFromFiles: X11
+PackageLicenseInfoFromFiles: LicenseRef-autoconf-simple-exception
+PackageLicenseInfoFromFiles: LicenseRef-free-unknown
+PackageLicenseInfoFromFiles: LicenseRef-fsf-mit
+PackageLicenseInfoFromFiles: LicenseRef-public-domain
+PackageCopyrightText: <text>(c) g(e)g(e)g(dings)35 b(AD)d(2008)j
+Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+Copyright (c) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (c) 1994 X Consortium
+Copyright (c) 1994-2013 Free Software Foundation, Inc.
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (c) 1996-2013 Free Software Foundation, Inc.
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright (c) 1997-2013 Free Software Foundation, Inc.
+Copyright (c) 1999-2013 Free Software Foundation, Inc.
+Copyright (c) 2001-2013 Free Software Foundation, Inc.
+Copyright (c) 2002-2013 Free Software Foundation, Inc.
+Copyright (c) 2003-2013 Free Software Foundation, Inc.
+Copyright (c) 2004 Free Software Foundation, Inc.
+Copyright (c) 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+Copyright (c) 2004, 2005, 2007, 2008, 2009 Free Software Foundation, Inc.
+Copyright (c) 2004, 2005, 2007, 2009 Free Software Foundation, Inc.
+Copyright (c) 2004-2013 Free Software Foundation, Inc.
+Copyright (c) 2006 Johannes Willkomm <johannes.willkomm@rwth-aachen.de> 2011-2013 Kshitij Kulshreshtha <kshitij@math.upb.de> 2012 Benjamin Letschert <letschi@mail.upb.de> 2013 Jean Utke <utke@mcs.anl.gov>
+Copyright (c) 2006-2013 Free Software Foundation, Inc.
+Copyright (c) 2008 Benjamin Kosnik <bkoz@redhat.com>
+Copyright (c) 2008 Daniel Casimiro <dan.casimiro@gmail.com>
+Copyright (c) 2008 Michael Tindal
+Copyright (c) 2008 Thomas Porschberg <thomas@randspringer.de>
+Copyright (c) 2009 Peter Adolphs
+Copyright (c) 2009-2013 Free Software Foundation, Inc.
+Copyright (c) 2011 Free Software Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Zack Weinberg <zackw@panix.com>
+Copyright (c) 2013 Roy Stogner <roystgnr@ices.utexas.edu>
+Copyright (c) Alina Koniaeva, Andrea Walther
+Copyright (c) Andrea Walther
+Copyright (c) Andrea Walther, Alina Koniaeva
+Copyright (c) Andrea Walther, Andreas Griewank
+Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz
+Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Benjamin Letschert
+Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Benjamin Letschert Kshitij Kulshreshtha
+Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Benjamin Letschert, Kshitij Kulshreshtha
+Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Kshitij Kulshreshtha
+Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Olaf Vogel
+Copyright (c) Andrea Walther, Andreas Kowarz
+Copyright (c) Andrea Walther, Andreas Kowarz, Christo Mitev
+Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshta
+Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+Copyright (c) Andrea Walther, Andreas Kowarz, Olaf Vogel
+Copyright (c) Andrea Walther, Benjamin Letschert, Kshitij Kulshreshtha
+Copyright (c) Andrea Walther, Christo Mitev
+Copyright (c) Andrea Walther, Kshitij Kulshreshtha
+Copyright (c) Andrea Walther, Sabrina Fiege
+Copyright (c) Andrea Walther, Sabrina Fiege, Kshitij Kulshreshtha
+Copyright (c) Andreas Kowarz
+Copyright (c) Andreas Kowarz, Andrea Walther, Kshitij Kulshreshtha, Benjamin Letschert, Jean Utke
+Copyright (c) Andreas Kowarz, Jean Utke
+Copyright (c) Andreas Kowarz, Kshitij Kulshreshtha, Jean Utke
+Copyright (c) Andreas Kowarz, Sebastian Schlenkrich
+Copyright (c) Jean Utke
+Copyright (c) Kshitij Kulshreshtha
+Copyright (c) Kshitij Kulshreshtha, Jean Utke
+Copyright (c) Kshitij Kulshrestha
+Copyright (c) Sebastian Schlenkrich
+Copyright (c) Siquian Wang, Klaus Robenack, Jan Winkler, Mirko Franke
+Copyright 1992-2013 Free Software Foundation, Inc.
+Copyright 1994, 1995, 1996, 1999, 2000, 2001, 2002 Free Software Foundation, Inc.
+Copyright 2013 Radical Eye Software
+Copyright <http://www.ams.org>
+copyrighted by the Free Software Foundation
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/Makefile.am
+FileChecksum: SHA1: 0c1696521699791fa6e541ac3cffb876dde5dc33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/Makefile.in
+FileChecksum: SHA1: ac90600783d9d2670404a2afcdee81e84c73dbaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/absdrivers.tex
+FileChecksum: SHA1: 99928138dc5648f0e6e05b049561984a506a22d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/adolc-manual.pdf
+FileChecksum: SHA1: 9d6d2eeeeb2994313d066f0de1997a19fedca8d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/adolc-manual.ps
+FileChecksum: SHA1: d44fcbbcc3d2dc0cffdcfe20e47fa8283ce190b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+FileCopyrightText: <text>Copyright 2013 Radical Eye Software
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+(c) g(e)g(e)g(dings)35 b(AD)d(2008)j
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/adolc-manual.tex
+FileChecksum: SHA1: bc605befc3eda6b52deb71588660919ca6adc185
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/multiplexed.eps
+FileChecksum: SHA1: 37eb13d9392a8881e6f243024489f778c39de50b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/multiplexed.pdf
+FileChecksum: SHA1: a00dbcaebe6a8b7258f4f2218ed2a140bd531399
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/short_ref.pdf
+FileChecksum: SHA1: 7ed4a25bebd9b27c290ac2c0eba8dcc8750e634e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/short_ref.ps
+FileChecksum: SHA1: eac5b7ba4715b6c6b8238ade0179f36a43132bdc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+LicenseInfoInFile: OFL-1.1
+FileCopyrightText: <text>Copyright 2013 Radical Eye Software
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+Copyright (c) 1997, 2009 American Mathematical Society
+Copyright <http://www.ams.org>
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/short_ref.tex
+FileChecksum: SHA1: e178a31028ed126120bf7c9aaa253e465e0596d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/tap_point.eps
+FileChecksum: SHA1: f106030d1448183e82c61ca6f24606ccdc244174
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/tap_point.pdf
+FileChecksum: SHA1: b91f380111abfda5357fd71d6a2386d1266519c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/tapeadv.eps
+FileChecksum: SHA1: a521cb5b009e9a4b8d7680b3571d6f67cca7547d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/tapeadv.pdf
+FileChecksum: SHA1: a1095d8d9dbcacfe2e2e389d5b532ef66524b2ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/tapebasic.eps
+FileChecksum: SHA1: 869380e09f70ab18ae8bd7896eb31856e61a67ce
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/tapebasic.pdf
+FileChecksum: SHA1: 876f009266ee86388c4c5b504c559ff3ff251cb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/version.tex
+FileChecksum: SHA1: 84211257909d006145c1ef13cc3a86dc70f590cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/doc/version.tex.in
+FileChecksum: SHA1: 7296fbf926c45895c4ca4e097d63037f7dd8da58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/Makefile.am
+FileChecksum: SHA1: b0ac7cd19b29ad092ded38bcb9196c768a3ed922
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/Makefile.in
+FileChecksum: SHA1: c89091ccbfb8168b4b1b166a77316f0efad43b38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/README
+FileChecksum: SHA1: d707920daf5935f02e61dc69eb070759c094fd98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/Readme_VC++.txt
+FileChecksum: SHA1: 963bb264350c29e5f67e5a3df49b6baf2e7f1bd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/Makefile.am
+FileChecksum: SHA1: 553b12dd339e1d2b0bb62733cee8e6602d1e2dfe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/Makefile.in
+FileChecksum: SHA1: 83c0611b70e24a274d6b61e5afea1573944e51cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing/Makefile.am
+FileChecksum: SHA1: 665432920499fe9d6a7d72e63a02b5be5def354f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing/Makefile.in
+FileChecksum: SHA1: 15a5b17c543f932e5393fc670f0433140031e73e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing/README
+FileChecksum: SHA1: fa7d03c2cd3b30bae13c7560cc91d5e337bf4dab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/checkpointing/checkpointing.cpp
+FileChecksum: SHA1: 697a7847bccddc476270d0bcc230754edd6fa724
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock/Makefile.am
+FileChecksum: SHA1: 2b10f3568cb66c9b5d21db359dad5b6086d37799
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock/Makefile.in
+FileChecksum: SHA1: 0ffa489c46c56bdb745c69f7c0f24ab68ef6ec4e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock/myclock.cpp
+FileChecksum: SHA1: 34aa71de23000719ea767b61c853b8fe26505136
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/clock/myclock.h
+FileChecksum: SHA1: 7bce2e035fa194915f9dde81a2b88fed2df36b37
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda/Makefile.am
+FileChecksum: SHA1: 017f8f333a408e12c1c13655a4d202d113dffbe5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda/Makefile.in
+FileChecksum: SHA1: a15f0f8bda3b47e69163642d6e97e51c068c5631
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda/liborgpu.cu
+FileChecksum: SHA1: ae3575e62b2fde447e85554ddf5b5c4e1970d24b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Alina Koniaeva
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/cuda/traceless_cuda.cu
+FileChecksum: SHA1: d0f382a6f4d3b6139a7881a002c7f6f55dacb62d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Alina Koniaeva
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam/Makefile.am
+FileChecksum: SHA1: 8530fdfeea15b6b52b289643b795397842fc37c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam/Makefile.in
+FileChecksum: SHA1: bf54c2ccef4592e691e25a6ed15e38b08cdaa5a3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam/README
+FileChecksum: SHA1: fcb179c3e6d0d4bff33fa3189e60fa6b8c8f7d03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam/detexam-old.cpp
+FileChecksum: SHA1: 32feb51a20a88549f504a8affe20da0f2c32a5e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/detexam/detexam.cpp
+FileChecksum: SHA1: 8562d05aca267c326e2c492367a2be2d8b38eb99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func/Makefile.am
+FileChecksum: SHA1: 11cb984a65134622c3ab45f6e973ef1c2f0d2fcc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func/Makefile.in
+FileChecksum: SHA1: 29118dedb6522ef457bb7efc969022197116c306
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func/README
+FileChecksum: SHA1: be2fe27593d8cde94d1b690f2dc311d6381407c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ext_diff_func/ext_diff_func.cpp
+FileChecksum: SHA1: 36e300732d74def8102d3abbc449170277087d81
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam/Makefile.am
+FileChecksum: SHA1: f4913bae72f98a47167b94840e6dc136b79dc48b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam/Makefile.in
+FileChecksum: SHA1: 3816c0854b21405c297afbf0a01a403764c92393
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam/README
+FileChecksum: SHA1: 5f790e256a465cbb609044894f28f0e8091cbf70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/fixpoint_exam/fixpoint_exam.cpp
+FileChecksum: SHA1: 7f27adcac12f870c97f855317ecc8da6aad8b4f9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm/Makefile.am
+FileChecksum: SHA1: 42bb4fc25ef38e6e67f3f2b4bbdf23e52022b6af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm/Makefile.in
+FileChecksum: SHA1: f16cc56980c6d8944f374fe7487dad224d7eeb7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm/README
+FileChecksum: SHA1: a1bd818d326267e83f0e36567de791c7b1c2bd69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm/helm-auto-exam.cpp
+FileChecksum: SHA1: 8d97f260f13dcac6ae33402c9ab8616274190ce2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/helm/helm-diff-exam.cpp
+FileChecksum: SHA1: 9744e607d7e34001957c9013491d8db0dd4f4462
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat/Makefile.am
+FileChecksum: SHA1: 8019b9cfdb2aa96cbb1ca2f6bddce0abf35d605e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat/Makefile.in
+FileChecksum: SHA1: 3f2fd5b4db2ae87e1d56d93dcdd2d793be932fa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat/README
+FileChecksum: SHA1: 63bc2358d98cfe3571ed82addffc590f82736834
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/hessmat/hessmat.cpp
+FileChecksum: SHA1: 9456500b0068a09af331012d876fc67ae42edeea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1/ADOL-C_NLP.cpp
+FileChecksum: SHA1: c7d42e72409aa3e7d63e74f260628236fd6e92a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1/ADOL-C_NLP.hpp
+FileChecksum: SHA1: 2139d6eb9c6e6925febab3854828666fea01f382
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1/Makefile
+FileChecksum: SHA1: a2aeac28fab5a6795949593b6ac1606bb42aae33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1/cpp_example.cpp
+FileChecksum: SHA1: 59e803b14dd69bd9007f9086b9c99912ee25b025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse/ADOL-C_sparseNLP.cpp
+FileChecksum: SHA1: 57718853f2ba70d1ce9c6635e67af0a43f70d3ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse/ADOL-C_sparseNLP.hpp
+FileChecksum: SHA1: 7e5460713e4ea36e1a5683548d4cb3287004f84b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse/Makefile
+FileChecksum: SHA1: 1fd863acabd5fb38cdd7970481787e33e9d6c202
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/LuksanVlcek1_sparse/cpp_example.cpp
+FileChecksum: SHA1: 1ae15114e838a3fc20ee1a4964a201604d64e9f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA/ADOL-C_NLP.cpp
+FileChecksum: SHA1: 87d81c5149de32af00fa09a9136dc9f471bf297f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA/ADOL-C_NLP.hpp
+FileChecksum: SHA1: 2139d6eb9c6e6925febab3854828666fea01f382
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA/Makefile
+FileChecksum: SHA1: c2cee55c2c86b567e2d79cfdcdb4d2918d05acfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA/cpp_example.cpp
+FileChecksum: SHA1: 59e803b14dd69bd9007f9086b9c99912ee25b025
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse/ADOL-C_sparseNLP.cpp
+FileChecksum: SHA1: 5d050584fa25ebd2eb28a6f69c9c954b30517003
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse/ADOL-C_sparseNLP.hpp
+FileChecksum: SHA1: 736c08d6bc252b0902ce9d49fc89b2485ffda775
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse/Makefile
+FileChecksum: SHA1: 85263ca0dd17054c08029d00f390092dbd206967
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/MittelmannDistCntrlNeumA_sparse/cpp_example.cpp
+FileChecksum: SHA1: 1ae15114e838a3fc20ee1a4964a201604d64e9f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ipopt/README
+FileChecksum: SHA1: f4ed456b779f72f570c3203c3830cf23bce6c29e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lie/GantryCrane.cpp
+FileChecksum: SHA1: d434f2f9120f2194ab035ab8c8874c2bdb692043
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Siquian Wang, Klaus Robenack, Jan Winkler, Mirko Franke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lie/Makefile.am
+FileChecksum: SHA1: 569ab21cbf8b5e4246d7a169601ed0461431413c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lie/Makefile.in
+FileChecksum: SHA1: 9f3079b71df32530307a399c559e1bcddcb8f53d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse/Makefile.am
+FileChecksum: SHA1: 123b51fe6c6b8048d7c50dc8c1bfb4ca62d2c946
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse/Makefile.in
+FileChecksum: SHA1: 5e969f2b2832dac6dc65bd5d129877bbb74db144
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse/README
+FileChecksum: SHA1: 5581f2776e289265b295a84fc4d4606fdb9ae3b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse/cubic-2.cpp
+FileChecksum: SHA1: 8bfba2f24ac38b78837bc415b82f55667f9e210d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse/cubic-iter-2.cpp
+FileChecksum: SHA1: f77f04c6732376dd36af558fafdc358010795c86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse/cubic-iter.cpp
+FileChecksum: SHA1: 27569c2054c1c6d88d6acbe1a1525fc9ec6d9ae2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lighthouse/cubic.cpp
+FileChecksum: SHA1: 17644e660c4a4a871fc566b5e4ec0470762f43af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact/LU.cpp
+FileChecksum: SHA1: 862bb18c5657ef0276048e7871eab72c0ef235c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact/LU.h
+FileChecksum: SHA1: bcfb46816ca7faa8213d849a85510a96d49d4801
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact/LUdet.cpp
+FileChecksum: SHA1: 5d95806e736455d4775c9d832be487689abc45c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact/LUsolve.cpp
+FileChecksum: SHA1: 0dcfe8e0cc91a6781921ed3b53e37cbfc73e6212
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact/Makefile.am
+FileChecksum: SHA1: 972e7d78a926670f645d723bf647a7a3a1b46bfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact/Makefile.in
+FileChecksum: SHA1: 9811f328a556f767a98cee3af4139d40e3744be0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/lufact/README
+FileChecksum: SHA1: c6b73206ad29f5997136395578800d3a5615be86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode/Makefile.am
+FileChecksum: SHA1: 55e041dc46c44649b6392373e31d8e834373fc95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode/Makefile.in
+FileChecksum: SHA1: d978119706c50daa54e29f0e48e0f3c3b0a0fe21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode/README
+FileChecksum: SHA1: d3cced8145284005900431dfa333734b2693603a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode/vfunc_eutroph.cpp
+FileChecksum: SHA1: ef209d42e1afdea2262d8c1e0f67851a905fa04b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode/vfunc_fic.cpp
+FileChecksum: SHA1: 0999a77d3657119044f987b2935a31d98eea43d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode/vfunc_robertson.cpp
+FileChecksum: SHA1: 912f78210da511ca29c5fc459b698f254e22faa2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/ode/vgenodemain.cpp
+FileChecksum: SHA1: bf3a589c3237c82403168d6978dca1f80814e9f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam/Makefile.am
+FileChecksum: SHA1: f045634dae27a89b9904aa08ebac02dfb4028c85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam/Makefile.in
+FileChecksum: SHA1: 97b5201752968a0c549141d82cc4eb23ee80bd3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam/README
+FileChecksum: SHA1: 37a75fbf28a5afeede8f28dbf8f730f588566401
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam/liborpar.cpp
+FileChecksum: SHA1: 3bf8b9ed87f35d08b3a5adb314548f29ae7eafa1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/openmp_exam/liborser.cpp
+FileChecksum: SHA1: 94374b168195bd850d4e5fabdc67b0b64daf4522
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/param/Makefile.am
+FileChecksum: SHA1: ebde948b5ad3a384229d142ddf3d9c9a01d06984
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/param/Makefile.in
+FileChecksum: SHA1: f444be907a653a91aa144b6c3e9c1db7eab2214f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/param/paramexam.cpp
+FileChecksum: SHA1: 1903c9188723d54d01f63500ca77f8c9b1cb76ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow/Makefile.am
+FileChecksum: SHA1: 1dd8e1049b58846134de02c7d8fcb7e500e56b5f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow/Makefile.in
+FileChecksum: SHA1: 2be92cd93e463e77c457d36b82148bce54b65fca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow/README
+FileChecksum: SHA1: f4f281e0f3530b6f13d86b64cee41fd086eabc19
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/pow/powexam.cpp
+FileChecksum: SHA1: 160a127a3098399cb82a9e5f304a3ae7963d59e6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal/Makefile.am
+FileChecksum: SHA1: 46f348d35e9607c3c69a48bf1e8323376f46c0a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal/Makefile.in
+FileChecksum: SHA1: 6f23104f9438ec4960f4642977a36709b12d7882
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal/README
+FileChecksum: SHA1: 8214e118669814daddcb4cc2a29cb382b063633e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/scal/scalexam.cpp
+FileChecksum: SHA1: f558bc29639e08c2ad470f0e4f7bfdd797a930de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse/Makefile.am
+FileChecksum: SHA1: aa607dcf6441a370698f7d2b2036511f2d72c401
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse/Makefile.in
+FileChecksum: SHA1: 5fa575853d193d064e3fcbafada2da2aef554efb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse/README
+FileChecksum: SHA1: 7064b900f4ca5cb8ee5b421229a6f65e7dcde4a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Christo Mitev
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse/jacpatexam.cpp
+FileChecksum: SHA1: 0241bfe00dc8b69d58563a8870f36789ed0109d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse/sparse_hessian.cpp
+FileChecksum: SHA1: 83f24a1be2c59ff11b3e7cabb5fac57846811288
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/sparse/sparse_jacobian.cpp
+FileChecksum: SHA1: 1ba0d44d799681c19db55bf55c2e333691f75d6c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning/Makefile.am
+FileChecksum: SHA1: 161e9699dae07fc3d8691ef68bb9ca864e0d7eb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning/Makefile.in
+FileChecksum: SHA1: 5ec5e1435fee3fb8e08a57b6edf2b5174e5b3cc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning/README
+FileChecksum: SHA1: a9b7cfb1dd08a69627d7fcf3d88e26340f3ab7b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/speelpenning/speelpenning.cpp
+FileChecksum: SHA1: ade6457523699957b4023ea13ea5adbfe3e3047b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave/Makefile.am
+FileChecksum: SHA1: af1d073f08d0bb4976947a1ae908ea6fad41fd5a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave/Makefile.in
+FileChecksum: SHA1: 467e903be99d64ed9f16f35ee10fb50c02d161d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave/README
+FileChecksum: SHA1: 72a41861117b54cee5bc923753cf68fbe5347135
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave/createTape.cpp
+FileChecksum: SHA1: 1599d875eb65beeff6462bfe065bb6586c0ae7e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/tapesave/useTape.cpp
+FileChecksum: SHA1: 65f765063aee5b08fd48fdeff051f77e992ae1fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/Makefile.am
+FileChecksum: SHA1: ff1e400eeb20b75f3ab1dc3e584a8f729f87ef05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/Makefile.in
+FileChecksum: SHA1: 415bda9683741b320aab4cf550bdb9e667834427
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/README
+FileChecksum: SHA1: ff2b1f397339f3d6df74f03b204a3278b6bebef1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/accessexam.cpp
+FileChecksum: SHA1: dc534912fec3afe0a21bdd64c18f4fae4ef5b41a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/coordinates.cpp
+FileChecksum: SHA1: fc26d373ee0d5e80c8010183092939271e44fea5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/inversexam.cpp
+FileChecksum: SHA1: 50c307b2ef671f0376d791bd59cf2f251cd757e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/taylorexam.cpp
+FileChecksum: SHA1: c80a3f4742e33874d3ff9acf734ed2550c05b325
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/taylor/trigger.cpp
+FileChecksum: SHA1: ab205958d6c835161ba9bb5115b13a97bb074e63
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/Makefile.am
+FileChecksum: SHA1: 65cca97344468efa07e7d55db520e860ac3f57de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/Makefile.in
+FileChecksum: SHA1: c50b3ae80f6f93643a3aba9efe6a5bdadd24a6e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/README
+FileChecksum: SHA1: a13c0913430975c242546f3c13d82ebc3fdb4128
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/detexam.ctrl
+FileChecksum: SHA1: 1d103ae411da3789f94c893c347b00c4482f28e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/eutrophexam.ctrl
+FileChecksum: SHA1: 459149054171becafdf141dc235235b2ddc19e90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/experimental.ctrl
+FileChecksum: SHA1: 79c1a24609b658ec8a5fa6bbfaf885a3f8ed225b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/ficexam.ctrl
+FileChecksum: SHA1: 1d103ae411da3789f94c893c347b00c4482f28e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/gearexam.ctrl
+FileChecksum: SHA1: 10a9f3726d90638426055f4376d5e38bbeaa1bf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/griewankexam.ctrl
+FileChecksum: SHA1: 0cceb11e7d9728689eb0fad241d2b676c423942f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/helmholtzexam.ctrl
+FileChecksum: SHA1: 2afa1e4b5d422d35257b1696f895505ac89fc9de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/michalewitzexam.ctrl
+FileChecksum: SHA1: 0cceb11e7d9728689eb0fad241d2b676c423942f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/pargearexam.ctrl
+FileChecksum: SHA1: 10a9f3726d90638426055f4376d5e38bbeaa1bf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/powexam.ctrl
+FileChecksum: SHA1: ec6404338dd47abed271ba5f39487606bb02c78d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/robertsonexam.ctrl
+FileChecksum: SHA1: 10a9f3726d90638426055f4376d5e38bbeaa1bf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/rosenbrockexam.ctrl
+FileChecksum: SHA1: 0cceb11e7d9728689eb0fad241d2b676c423942f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/rotations.cpp
+FileChecksum: SHA1: 82f903318bef02835b133ba4918cf155e3b6e497
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/rotations.h
+FileChecksum: SHA1: b79ded7664c252d800816f84d1e9d3aa47e05842
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_determinant.cpp
+FileChecksum: SHA1: 9c7baeeab8bcd3eceddec183d4a573d273d14a98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_experimental.cpp
+FileChecksum: SHA1: 3fdbbb1743de5bee95446a4550f40de095834d76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_griewank.cpp
+FileChecksum: SHA1: a21bcf0938d3128dd6d2f076c554a0d092fbe468
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_helmholtz.cpp
+FileChecksum: SHA1: a8799f42b6698090b3d7e730b1820f77d6b34770
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_michalewitz.cpp
+FileChecksum: SHA1: 13e806607f5cc6926dee2e534699812009b3edc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_power.cpp
+FileChecksum: SHA1: 02872a2e7c1f7e4fb1a3e0514099e24e8ccd1eef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_rosenbrock.cpp
+FileChecksum: SHA1: fc2ef8963fd4c0aa608311d5d3db0207d8fb54e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sfunc_speelpenning.cpp
+FileChecksum: SHA1: a40ba30477d628399d557c343bb56e985cf76899
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/sgenmain.cpp
+FileChecksum: SHA1: 447cad8e86efb8cb7819c1c49c46a5fc6f549209
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/shuttlexam.ctrl
+FileChecksum: SHA1: 10a9f3726d90638426055f4376d5e38bbeaa1bf9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/simplevec.ctrl
+FileChecksum: SHA1: 459149054171becafdf141dc235235b2ddc19e90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/speelpenning.ctrl
+FileChecksum: SHA1: 36d460ebb0c789e948b6cdb1bc90237128d987c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/vfunc_gear.cpp
+FileChecksum: SHA1: e5cc51f9ad8b3a3265677a9e2f46ffa6276edbb1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/vfunc_pargear.cpp
+FileChecksum: SHA1: dbbcc76cbc8689dfcab0074772d93f54b77aab08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/vfunc_shuttle.cpp
+FileChecksum: SHA1: eb3167abf908d3c9ca07fb62719e25420d2732e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/vfunc_simplevec.cpp
+FileChecksum: SHA1: 237a5ffb918b5497388fa687aae0384d3c18543f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/additional_examples/timing/vgenmain.cpp
+FileChecksum: SHA1: 33f249bc2ccd1d72d7f6828555c7da18cdade8c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/adolc_examples.sln
+FileChecksum: SHA1: 5404efa4f87feac0423584dd17b4f870a1b494c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/detexam.cpp
+FileChecksum: SHA1: 7d2147c0ddf20873dfdc01c6715a681e3aafd67a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/detexam.vcxproj
+FileChecksum: SHA1: 36588c5e0ec0d18757b860a64a3bab0e13a4ceaf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/luexam.cpp
+FileChecksum: SHA1: c971ee8a74bee8141b29e0c424821cbb09f2f610
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/odexam.cpp
+FileChecksum: SHA1: abd514c808b377cda01c4da2984b892a2eaeb12d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/odexam.vcxproj
+FileChecksum: SHA1: f0307da3d31161d6d6b78ef2438aadb7bbd413c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/powexam.cpp
+FileChecksum: SHA1: 1aaa34ffb89a158cdb964c9959b7ffefc951f589
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/powexam.vcxproj
+FileChecksum: SHA1: cef195ea146442f152f840b58125ea1c14d199f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/speelpenning.cpp
+FileChecksum: SHA1: 331ba7d20ee152a9ad554fd5168910e80384300f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/speelpenning.vcxproj
+FileChecksum: SHA1: ffea2da9719096519b03ee75caa33db7cc609ec9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/tapeless_scalar.cpp
+FileChecksum: SHA1: 35ab1311713c4e981adecacd14311ecf6d73d315
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/tapeless_scalar.vcxproj
+FileChecksum: SHA1: bba8e3d99e99029c1f5614e3e35aceca4b66ce7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/tapeless_vector.cpp
+FileChecksum: SHA1: 4f84e566717da795882bbd06ac5f971067bd98bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/tapeless_vector.vcxproj
+FileChecksum: SHA1: e80b843f64f85e920fa4f6ce5b32861320fa19d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/examples/winpackage.sh
+FileChecksum: SHA1: 1ea5c547f047db9a248acc4aef86370f4cbd1d76
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/Makefile.am
+FileChecksum: SHA1: 00c5dc336d5b4f03fec9d836716e26b01b5e3639
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/Makefile.in
+FileChecksum: SHA1: e9b1f85c8449793f53a2aadb6d976455cd3e77f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/Makefile.am
+FileChecksum: SHA1: 6d702305af324aaa0c37712a44b352e2c7f8f512
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/Makefile.in
+FileChecksum: SHA1: 83429c02a787599c247d6704ac0484a3c14f9599
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adalloc.h
+FileChecksum: SHA1: 97e9351ca8d55dbe18d8b9a1707114197e99d6cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adolc.h
+FileChecksum: SHA1: 6742b85561ba95c469bdd231b7acefdbc662267d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adolc_openmp.h
+FileChecksum: SHA1: 8cbd833232b0c5a99b797a70ada509172eddecb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adolc_sparse.h
+FileChecksum: SHA1: 9ad86c4fcdedcf4a432f6b0e2d2d0425526b1e0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adouble.h
+FileChecksum: SHA1: 3b869df5d882118436a941674785359b699f1086
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Benjamin Letschert Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adoublecuda.h
+FileChecksum: SHA1: 6815bf2baa18babca61cf01ec5b45cf7585f101c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Alina Koniaeva, Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adtl.h
+FileChecksum: SHA1: 4dafa9a5cbd6a4a3ae08a04f7352824103078c4d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Benjamin Letschert, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adutils.h
+FileChecksum: SHA1: def806dc41dfc7f376648af82e29d64d03f7023b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/adutilsc.h
+FileChecksum: SHA1: 585cf623b91862b15bc5b195b9e1f51cd939e93f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/advector.h
+FileChecksum: SHA1: c23e05d25f0f49a2f6a3d704923fce2b8c347d95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/checkpointing.h
+FileChecksum: SHA1: 9b0b1ab7be8bae6f347eba9d072e5038ccabc20e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/convolut.h
+FileChecksum: SHA1: b78e26d443784f2537dfe6320aa67d4496d4bf3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers/Makefile.am
+FileChecksum: SHA1: 9eb96cfc3d7cf46867ff57af856bd5699b93fc64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshta
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers/Makefile.in
+FileChecksum: SHA1: 4f518f592dbe8325adda7dc29c03f16035e586b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers/drivers.h
+FileChecksum: SHA1: 6bc91fcb6ad5d8a52b7874ed7eb68c6682751cee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers/odedrivers.h
+FileChecksum: SHA1: b02efa43d669d0d5acecd91a251dbf17d31fa554
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers/psdrivers.h
+FileChecksum: SHA1: ea61539ba3b70d75b37f69a778953e2683d26ec8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Sabrina Fiege
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/drivers/taylor.h
+FileChecksum: SHA1: 50ce193d310b8df960dc6e5023a30c55aa780eec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/externfcts.h
+FileChecksum: SHA1: 972604bc0f44687d10f3bde2f3ae55223afa41fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/externfcts2.h
+FileChecksum: SHA1: 69b0c9b1352b6537bd0d415c9ffada75bc310e52
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/fixpoint.h
+FileChecksum: SHA1: 7d6829a154cf51040389f6244aab4fd7202ac5f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Sebastian Schlenkrich
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/fortutils.h
+FileChecksum: SHA1: 7d812b2a28fbf76451c0805c91d2c0f47009574e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/interfaces.h
+FileChecksum: SHA1: a47de20b060001be29b9963c122981a731648bda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/Makefile.am
+FileChecksum: SHA1: f8c011f28c208525c4ca726658b33945930d9283
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/Makefile.in
+FileChecksum: SHA1: 6f23f133829523f2b74052e9988e128a7b4cad36
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/adolc_settings.h
+FileChecksum: SHA1: f29f351fd395775c15efb3ef1e7d543aae37c04e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/adolc_settings.h.in
+FileChecksum: SHA1: a5400944a8b8477865f30b7299c85e7b64919984
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/adubfunc.h
+FileChecksum: SHA1: 76b6431b6e3829935d02822d5d5519648c3a581f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/common.h
+FileChecksum: SHA1: b15f4a9296a8c0e349ba7a2a705e2c04a5eff0ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/paramfunc.h
+FileChecksum: SHA1: 3f1cf2058dd2d5bdefebe573e884fbff343896d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/internal/usrparms.h
+FileChecksum: SHA1: 15c78ddd76e00e71249ecc2b471fa43e8b50a6b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/lie/Makefile.am
+FileChecksum: SHA1: ae22fb64654bd72221e1ac128f37287c5e2d8e18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshta
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/lie/Makefile.in
+FileChecksum: SHA1: 7e0ff99c78768bd205b81dca337039f0871046a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/lie/drivers.h
+FileChecksum: SHA1: 92df4c1627a69490c3c56ea8d4ee2d8fe4379881
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Siquian Wang, Klaus Robenack, Jan Winkler, Mirko Franke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/param.h
+FileChecksum: SHA1: 8640d3346ee8dbb6d4fa644d50fdde3b1fd86a18
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/revolve.h
+FileChecksum: SHA1: 40eef98a52a4975c67bde7ead2e4ceee57bda929
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse/Makefile.am
+FileChecksum: SHA1: 354b80659116c422dd4582fcd05c2cdc99ffb473
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse/Makefile.in
+FileChecksum: SHA1: 0dbe9c6ff90d36781b74eec62166ce67b0358169
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse/sparse_fo_rev.h
+FileChecksum: SHA1: d5fdfe1019a1bc2767395c2f33fdfee802fd5c28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Christo Mitev
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/sparse/sparsedrivers.h
+FileChecksum: SHA1: ac7dc71b9ef4ef264535f631f8d61e1c6c1b3f86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/tapedoc/Makefile.am
+FileChecksum: SHA1: 5b3b8c6adcfee111b36b115937babf491b0c65b2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/tapedoc/Makefile.in
+FileChecksum: SHA1: 1385c87683cc86b554cd266bc59b2701d826feff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/tapedoc/tapedoc.h
+FileChecksum: SHA1: 5055314c59b5d60817335b8b2a819548e8cdda68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/include/adolc/taping.h
+FileChecksum: SHA1: 1c70300e53d0d58330ce958394bb213617acb573
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/Makefile.am
+FileChecksum: SHA1: d4b9ed3f407da0e66cc15077aa698dce86fa219e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/Makefile.in
+FileChecksum: SHA1: babe46dd5d62104856cf86453089c85831abd657
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/adalloc.c
+FileChecksum: SHA1: 05c991d8c923db5c9c337f197bb829e95e8d1957
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/adouble.cpp
+FileChecksum: SHA1: 96c8dad3063d506426101dbf351b14b51615a7c9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/adouble_tl.cpp
+FileChecksum: SHA1: b89b68d2f463eb111c65a7698abb5a0f520515ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Benjamin Letschert
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/advector.cpp
+FileChecksum: SHA1: 7070fdddfc3c885e3c4529becfb19602a7328724
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/ampisupport.cpp
+FileChecksum: SHA1: 9021991dba7a0833ef9ee1fbd31751a871d43a09
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/ampisupportAdolc.cpp
+FileChecksum: SHA1: 941c63568fcde590a175a480a8bc52044ac4ca55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/ampisupportAdolc.h
+FileChecksum: SHA1: 8376a4e9b8ea65c2d108b11c6ab84cefee29e6f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/buffer_temp.h
+FileChecksum: SHA1: fb73af530bebaaa9a2af9537ad9c70c5396e1736
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Kshitij Kulshreshtha, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/checkpointing.cpp
+FileChecksum: SHA1: 572a2cdb232922ca67d5ecdf6a39bc108a7228df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/checkpointing_p.h
+FileChecksum: SHA1: 1379225fbdcdea47ad6c15dc3589ac2c6cad0a3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/config.h.in
+FileChecksum: SHA1: 88ce463ff7de7fa3d8106230bf3cfc23597c1dfa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/convolut.c
+FileChecksum: SHA1: b541bce2a4f83c23b0dffff1ce5bb85f8253bf88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/Makefile.am
+FileChecksum: SHA1: 23d27005a3bde60a1b1d920950425ad97966352b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/Makefile.in
+FileChecksum: SHA1: 5f5e94cd15773f33e45e099cc1c956402b2cf943
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/drivers.c
+FileChecksum: SHA1: bf7d5c3f2bcaa5ee92ac1e4bede526aa38d4ca8f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/driversf.c
+FileChecksum: SHA1: 96c62eb1da71bb25bd10856f9039b4bca1cc6d3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/odedrivers.c
+FileChecksum: SHA1: b47d03620575a334a1cc0dac8220682fe5f2de6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/odedriversf.c
+FileChecksum: SHA1: 341c09d56df09362a54f0168e77e96143eff26c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/psdrivers.c
+FileChecksum: SHA1: 1224a01c42e8a1d56017d32de2e98ad18b2048b7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Sabrina Fiege
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/psdriversf.c
+FileChecksum: SHA1: 5ed6fe3ef772e9477e8ba61fedaeec34f9325b93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Sabrina Fiege, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/drivers/taylor.c
+FileChecksum: SHA1: 7d246857bfd8c300d194779e7203c5b9ac8cda51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/dvlparms.h
+FileChecksum: SHA1: 6576caf532e6acaeccd9d0d0a0f08d167834f8a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/externfcts.cpp
+FileChecksum: SHA1: fc53beb019bd2fc8e057e920dbe9ec7d3cc0f3c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/externfcts2.cpp
+FileChecksum: SHA1: 579aff8848e482cad10f2a741e98b77f3506bc00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/externfcts_p.h
+FileChecksum: SHA1: 441ce6217e803d4392ae5d51535fe8f3fd868bf2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fixpoint.cpp
+FileChecksum: SHA1: e5a28fd33fcc3081dc9d478e719ed6c14eeadee8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Sebastian Schlenkrich
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fo_rev.c
+FileChecksum: SHA1: b9299336afce34fa49683825a8b1abf23a348d7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fortutils.c
+FileChecksum: SHA1: 6e97e33ebda50b622c07eaeb46444b2a70188928
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/forward_partx.c
+FileChecksum: SHA1: 4ce1660b597ce707962d2b0c073fa7f7ab95894c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fos_forward.c
+FileChecksum: SHA1: 033661f8e37f780ca0fe06ae5f66338549973567
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fos_pl_forward.c
+FileChecksum: SHA1: 3ef291fed050e4bc54c21a64b6a30cd256e3bf61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fos_pl_reverse.c
+FileChecksum: SHA1: 2f09603c8e627065d178f8a16a0fd6757f9fc4ef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fos_pl_sig_forward.c
+FileChecksum: SHA1: 564bac588daf2a31f928b6a5f102c5a49dfdb2ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fos_pl_sig_reverse.c
+FileChecksum: SHA1: 9f26ae0840c3fc15457c1beb1ce62062dd59cddb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fos_reverse.c
+FileChecksum: SHA1: 0c6d0799453fbbc35bae9182d63528e33864a63b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fov_forward.c
+FileChecksum: SHA1: 06ddd2412eea5495995842aa059a132140a1e26c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fov_offset_forward.c
+FileChecksum: SHA1: 8cb5cf8875f918d980ec08f41f6b01e11fa07eb5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Sebastian Schlenkrich
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fov_pl_forward.c
+FileChecksum: SHA1: d602cc6abe7602835618ee814ef472c66c8fed3f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshrestha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fov_pl_sig_forward.c
+FileChecksum: SHA1: bf19c10906e094eb1a37e165d3e030d9721c1b0e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshrestha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/fov_reverse.c
+FileChecksum: SHA1: 2053e225174b9b1e4213e5c3050860115a7fc731
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/ho_rev.c
+FileChecksum: SHA1: fc43027f462ab82981532801335e61a70906fee3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/hos_forward.c
+FileChecksum: SHA1: 22eba5079ae13fc120a3b07940e39d26876d3472
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/hos_ov_reverse.c
+FileChecksum: SHA1: c4ac5545ab8c053b6144b886a193303c043cf1df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/hos_reverse.c
+FileChecksum: SHA1: d2b7497f3acc2541403887687db141dbddb6f163
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/hov_forward.c
+FileChecksum: SHA1: 8d6c8295f760d7fc2dd41fdbe95437493a0c3f5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/hov_reverse.c
+FileChecksum: SHA1: 13e9efed15162b2337099d93a6d0fad52a71507e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/hov_wk_forward.c
+FileChecksum: SHA1: 990fca840cfbf257162332d7ed1eaffefe44d3d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/indopro_forward_pl.c
+FileChecksum: SHA1: c3be543d754e7535ee58cec9138b3d80721c408c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshrestha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/indopro_forward_s.c
+FileChecksum: SHA1: 664d5612d85b154e389d763e124967e196c4f031
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/indopro_forward_t.c
+FileChecksum: SHA1: ed09e1588c00a8aef1d760d58143a5397202beda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/int_forward_s.c
+FileChecksum: SHA1: 848256a89f7633a50b88feeca8320dcf4abeedde
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Christo Mitev
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/int_forward_t.c
+FileChecksum: SHA1: b2529503c856d87bb7aa1c4da16b659bf9366431
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Christo Mitev
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/int_reverse_s.c
+FileChecksum: SHA1: e57945ba3d66d5f38f534ad37a6a7e3b8df03494
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Christo Mitev
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/int_reverse_t.c
+FileChecksum: SHA1: 527baa3282b2007a342ddd3eca7b2f31f38778ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Christo Mitev
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/interfaces.cpp
+FileChecksum: SHA1: 75175dbd6e0782c7c42cf21e45c88a1beaa3c3cb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/interfacesf.c
+FileChecksum: SHA1: cdf3255e19101405a70f788849f5cfdcd71218cc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/lie/Makefile.am
+FileChecksum: SHA1: 94fd443a40073066e5286f9c77f95ce85ba78d1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/lie/Makefile.in
+FileChecksum: SHA1: 86a0012a55f8fee74ffd4e2870527eb733ae7100
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/lie/adolc_lie.cpp
+FileChecksum: SHA1: 7ef9706b6256e2cdcb3a84576858b14145e8c389
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Siquian Wang, Klaus Robenack, Jan Winkler, Mirko Franke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/lie/adolc_lie_c.c
+FileChecksum: SHA1: d2f63293339bd8fb6056374b4e85b165e2aa1915
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Siquian Wang, Klaus Robenack, Jan Winkler, Mirko Franke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/nonl_ind_forward_s.c
+FileChecksum: SHA1: 1ae5487ed122a69e214ebb44d2161b492a56afdb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/nonl_ind_forward_t.c
+FileChecksum: SHA1: e2bd6cf40752840e3a975121f7448dc485ddedd6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/nonl_ind_old_forward_s.c
+FileChecksum: SHA1: d74026611be093bd79918301b5443f68b18c8104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/nonl_ind_old_forward_t.c
+FileChecksum: SHA1: a8afe948ae9968d6288bf4e61aacd1bab72a1ef6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/oplate.h
+FileChecksum: SHA1: eaa71fc4504030ec1ddd4a54eb48e5c26b0baac5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/param.cpp
+FileChecksum: SHA1: b331ac8dfa8701d8c872eeef5f4893fe16444729
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/revolve.c
+FileChecksum: SHA1: fa87c4ba7df46a0ff092aaf83ade96fa45e13276
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/rpl_malloc.c
+FileChecksum: SHA1: 732f3954b652c3b7dd226e33d0173bbb798fe61a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/rpl_malloc.h
+FileChecksum: SHA1: 6b2341726d046098d2d73a2c7b8e59c92bd87275
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse/Makefile.am
+FileChecksum: SHA1: b741e43f10c65e3fdc79ad0d68195dcc9cf7a3d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse/Makefile.in
+FileChecksum: SHA1: 01b8b62b2e74521234e5b1a40acf2e00f37e07a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse/sparse_fo_rev.cpp
+FileChecksum: SHA1: 1a027c9953267b46796751f32263a1796c056bf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Christo Mitev
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/sparse/sparsedrivers.cpp
+FileChecksum: SHA1: 750cf91af027b7a1edc46f575b3048c4c5bf1bee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Benjamin Letschert, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/storemanager.h
+FileChecksum: SHA1: d1344e15a5fbcfe080caa9d59574e13192fc5b22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) 2006 Johannes Willkomm <johannes.willkomm@rwth-aachen.de> 2011-2013 Kshitij Kulshreshtha <kshitij@math.upb.de> 2012 Benjamin Letschert <letschi@mail.upb.de> 2013 Jean Utke <utke@mcs.anl.gov>
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/tape_handling.cpp
+FileChecksum: SHA1: 31cb85ba40e61810c27db09efa5ac6e3acee9f2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Andrea Walther, Kshitij Kulshreshtha, Benjamin Letschert, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/tapedoc/Makefile.am
+FileChecksum: SHA1: 78ee4bd42c57843a1faafb323c06fa8c14d21002
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/tapedoc/Makefile.in
+FileChecksum: SHA1: f69b0841e357d5ac62c32939d36c305ba49547b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/tapedoc/tapedoc.c
+FileChecksum: SHA1: be790dd24f5d320fd0fc7d2930bccf339842da29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/taping.c
+FileChecksum: SHA1: 98b4b8d4d562e27fb460ab57a6103cec3427eee4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/taping_p.h
+FileChecksum: SHA1: 5a7382dcfb53e07770fbd8499bc7783f1020b86b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andreas Kowarz, Jean Utke
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/uni5_for.c
+FileChecksum: SHA1: 5c9ed253e5755af907d1d80dbfbc4e66a85756d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel, Benjamin Letschert, Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/zos_forward.c
+FileChecksum: SHA1: 7052e137e80e0ae91e87dff20dfaf9cbc48d14a0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/src/zos_pl_forward.c
+FileChecksum: SHA1: 322ecbe3c98ab7589ce02768c6be43e770bae061
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Kshitij Kulshreshtha
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/test/Makefile.am
+FileChecksum: SHA1: e425bb6804f51d20416773a7a889fd4e27ff5d28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/test/Makefile.in
+FileChecksum: SHA1: a9ab7d7cb20552d161b1a1d60c941806daae5104
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/test/fminmax.cpp
+FileChecksum: SHA1: 38188b082ea791349ba3920358ab7494b39dd3f4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/test/powexam.cpp
+FileChecksum: SHA1: 94909046fcb62cf16ec7977a905d7829d7d7ad40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/test/run_tests
+FileChecksum: SHA1: 658468bf1f58646c147f6554d3831d8b6ed181db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ADOL-C/test/speelpenning.cpp
+FileChecksum: SHA1: edbb7af0308b049e309d539171bda1c27f3820dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Griewank, Andreas Kowarz, Hristo Mitev, Sebastian Schlenkrich, Jean Utke, Olaf Vogel
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/AUTHORS
+FileChecksum: SHA1: 4ca910565a3ece933b7f23617d7a637a37f68968
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/BUGS
+FileChecksum: SHA1: 71453b4962b7c31dab1e8ade8cfe1de00858a653
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/ChangeLog
+FileChecksum: SHA1: 0c6e0b6e70eca53bed8a1cb2a9eaaedb71656d88
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/INSTALL
+FileChecksum: SHA1: 2d4540867eb4bf4995891c5a5984231dceca4aa0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFUL
+FileCopyrightText: <text>Copyright 1994, 1995, 1996, 1999, 2000, 2001, 2002 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/LICENSE
+FileChecksum: SHA1: efd8c298517f4e24d1dd6791a4fe13b7ddabaf4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: EPL-1.0
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-1.0-or-later
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1989, 1991 Free Software Foundation, Inc.
+copyrighted by the Free Software Foundation
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/ColPack.vcxproj
+FileChecksum: SHA1: d04525202abe55ee8af9119a4125cdade314c027
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/Readme_VC++.txt
+FileChecksum: SHA1: 53498eb61118295ae906c278556296efc2fc97c3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/adolc.sln
+FileChecksum: SHA1: 6ae63b2e788421b6553919edf82b92e792608810
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/adolc.vcxproj
+FileChecksum: SHA1: 587c123f87947fd3ac150f33cfef61c7114eca38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/installer.sh
+FileChecksum: SHA1: 7911eab39df071358ed1e2caa75090ad435d8279
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/nosparse/config.h
+FileChecksum: SHA1: f9e33c02c536a0ce917dcc9babdd8807dcdbdf1b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/nosparse/config.h.in
+FileChecksum: SHA1: 3959decec02101512dfbe4bbe836c062f51246d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/sparse/config.h
+FileChecksum: SHA1: 4ac184a4540651b4f159de64c29b078b0a2e1ed6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/sparse/config.h.in
+FileChecksum: SHA1: d25e115d8f4bf6e31b8ef7bb7adab66bb1782bfb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/nosparse/config.h
+FileChecksum: SHA1: ef2e0d4f2b752e74e5b84f529e982d050566a8e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/nosparse/config.h.in
+FileChecksum: SHA1: 33037412afd1fae9fae903a394021b0ad753d60f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/sparse/config.h
+FileChecksum: SHA1: ea65c5ae6f6a519a9620ec585aacb0aafdb5b77f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/MSVisualStudio/v14/x64/sparse/config.h.in
+FileChecksum: SHA1: 9e9a984c5febb1682e2c99c9e97858dc5907990c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/Makefile.am
+FileChecksum: SHA1: 1d4cc75093ae9aa02e524144da8664c3b3661d6b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/Makefile.in
+FileChecksum: SHA1: 56da6b225d6fbf36087418f3661c44a90388f518
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1994-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/README
+FileChecksum: SHA1: 96bb8dff7aa8fe00ba048c91904acb3886b29e99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/TODO
+FileChecksum: SHA1: ae5c51a4b87999f3301455f2bdf686ad3908f0e0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/aclocal.m4
+FileChecksum: SHA1: 9ec9d01714b5b2e51a332ea997e5692d8cd54272
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: LicenseRef-fsf-mit
+FileCopyrightText: <text>Copyright (c) 1996-2013 Free Software Foundation, Inc.
+Copyright (c) 2002-2013 Free Software Foundation, Inc.
+Copyright (c) 2001-2013 Free Software Foundation, Inc.
+Copyright (c) 1997-2013 Free Software Foundation, Inc.
+Copyright (c) 1999-2013 Free Software Foundation, Inc.
+Copyright (c) 1999-2013 Free Software Foundation, Inc.
+Copyright (c) 1996-2013 Free Software Foundation, Inc.
+Copyright (c) 2001-2013 Free Software Foundation, Inc.
+Copyright (c) 2003-2013 Free Software Foundation, Inc.
+Copyright (c) 1996-2013 Free Software Foundation, Inc.
+Copyright (c) 2001-2013 Free Software Foundation, Inc.
+Copyright (c) 1997-2013 Free Software Foundation, Inc.
+Copyright (c) 2001-2013 Free Software Foundation, Inc.
+Copyright (c) 1996-2013 Free Software Foundation, Inc.
+Copyright (c) 2009-2013 Free Software Foundation, Inc.
+Copyright (c) 2001-2013 Free Software Foundation, Inc.
+Copyright (c) 2006-2013 Free Software Foundation, Inc.
+Copyright (c) 2004-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/adolc.spec
+FileChecksum: SHA1: 89936c8f3816b8da3085a57a1692ba9b0e226959
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/adolc.spec.in
+FileChecksum: SHA1: 1d1dec4beb9799d61ef2f8f7593e493f5807a490
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/adolclib.pc.in
+FileChecksum: SHA1: 0fc713722c4a4a5d074c6aa25f575448f828d6a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/acx_builtin.m4
+FileChecksum: SHA1: ae6a690b1376a93349c2454475bfe8041f8833dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/ampi.m4
+FileChecksum: SHA1: f36cee10df15cacb60d3cf106f319681c492eb30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/ax_boost_base.m4
+FileChecksum: SHA1: 84b5916417bb309ebfeb9a28458f1bc53929f1ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFAP
+FileCopyrightText: <text>Copyright (c) 2008 Thomas Porschberg <thomas@randspringer.de>
+Copyright (c) 2009 Peter Adolphs
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/ax_boost_system.m4
+FileChecksum: SHA1: 922f29ff21fd08d641615770ac0855632b463049
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFAP
+FileCopyrightText: <text>Copyright (c) 2008 Thomas Porschberg <thomas@randspringer.de>
+Copyright (c) 2008 Michael Tindal
+Copyright (c) 2008 Daniel Casimiro <dan.casimiro@gmail.com>
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/colpack.m4
+FileChecksum: SHA1: 287e9df2bd62fa21dc62e02321f0051410b02a05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/config.guess
+FileChecksum: SHA1: b877ebd901319b6bbf0bdd9b17a0e50a8b854022
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-autoconf-simple-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright 1992-2013 Free Software Foundation, Inc.
+Copyright 1992-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/config.sub
+FileChecksum: SHA1: 414fcb592cffb89413ae5dec1a0e9b14611bae90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-or-later
+LicenseInfoInFile: LicenseRef-autoconf-simple-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright 1992-2013 Free Software Foundation, Inc.
+Copyright 1992-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/depcomp
+FileChecksum: SHA1: 71e07f3be78211e06de8267a4d1eb417ecd56705
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1999-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/install-sh
+FileChecksum: SHA1: 664bbfb27be6eb13791003c4114d95a9c3d51ea1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: X11
+LicenseInfoInFile: LicenseRef-public-domain
+FileCopyrightText: <text>Copyright (c) 1994 X Consortium
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/libtool.m4
+FileChecksum: SHA1: cb863a0092e633e5e1cdd44323b8ac857878b3c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text>Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+Copyright (c) 2011 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/ltmain.sh
+FileChecksum: SHA1: 1951c7cc2365881ffa2322c9d2a594a1e1bb65a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+LicenseInfoInFile: LicenseRef-free-unknown
+FileCopyrightText: <text>Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/ltoptions.m4
+FileChecksum: SHA1: 05ec66892c8b30f20aa5278e1671ae4925a9c063
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004, 2005, 2007, 2008, 2009 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/ltsugar.m4
+FileChecksum: SHA1: d6d1ea1fd251ced66ba87ceb6f9e3846124691c1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/ltversion.m4
+FileChecksum: SHA1: 25c2435fa4cb5dc86ffad28bf9b1a6a14dd53a68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/lt~obsolete.m4
+FileChecksum: SHA1: c0c6afe569131b4015d221bc853053cf884b2699
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text>Copyright (c) 2004, 2005, 2007, 2009 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/missing
+FileChecksum: SHA1: 14c13c2106a25f52b9220288add50989f483f79e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Autoconf-exception-2.0
+LicenseInfoInFile: GPL-2.0-or-later
+FileCopyrightText: <text>Copyright (c) 1996-2013 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/mpi.m4
+FileChecksum: SHA1: 3b79954035fd8c969bffce08e89ddd20e91d2528
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/autoconf/stdcxx_11.m4
+FileChecksum: SHA1: 6ea9d8880c56c12dc500fa343f2d5c2677e6efcb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFAP
+FileCopyrightText: <text>Copyright (c) 2008 Benjamin Kosnik <bkoz@redhat.com>
+Copyright (c) 2012 Zack Weinberg <zackw@panix.com>
+Copyright (c) 2013 Roy Stogner <roystgnr@ices.utexas.edu>
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/configure
+FileChecksum: SHA1: 14aaf4173beb3b6abde71ba7503433357bab78e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: GPL-2.0-or-later
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text>Copyright (c) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 2012 Free Software Foundation, Inc.
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/configure.ac
+FileChecksum: SHA1: 5e8c2374fee0875138dd9cfd8c5ffd728af3e3b1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) Andrea Walther, Andreas Kowarz
+</text>
+
+
+# File
+
+FileName: ./adol-c-v2.6.3.tar.gz/update_versions.sh
+FileChecksum: SHA1: de36271762bff288bb1dbd71ffb19ba05873abe1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# Extracted Licenses
+
+LicenseID: LicenseRef-autoconf-simple-exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-autoconf-simple-exception
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/autoconf-simple-exception.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-free-unknown
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/free-unknown.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-fsf-mit
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/fsf-mit.yml
+</text>
+
+
+LicenseID: LicenseRef-public-domain
+LicenseComment: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+ExtractedText: <text>See details at https://github.com/nexB/scancode-toolkit/blob/develop/src/licensedcode/data/licenses/public-domain.yml
+</text>
+
+

@@ -1,0 +1,2 @@
+/home/mhuber/MINE/licenseScannerComparison/boyter-lc/produce.sh: Zeile 22: calculateResultPathFromOutputPath: Kommando nicht gefunden.
+transformer.hs: /home/mhuber/MINE/licenseScannerComparison/_output/adol-c-v2.6.3.tar.gz/boyter-lc/output.json/output.json: openFile: inappropriate type (Not a directory)
