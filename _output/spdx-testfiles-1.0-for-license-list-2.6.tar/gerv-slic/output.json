@@ -1,0 +1,950 @@
+[
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AFL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AFL-2.1.c"
+    ], 
+    "tag": "AFL-2.1"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-2.0.c"
+    ], 
+    "tag": "Apache-2.0"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause-FreeBSD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ZPL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.4.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/TCP-wrappers.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/TOSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.8.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Spencer-99.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/TMate.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Mup.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.7.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ZPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MTLL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-2-Clause-NetBSD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/xpp.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.6.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause-FreeBSD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ZPL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.4.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/TCP-wrappers.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/TOSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.8.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Spencer-99.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/TMate.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Mup.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.7.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ZPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MTLL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-2-Clause-NetBSD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/xpp.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.6.c"
+    ], 
+    "tag": "BSD-2-Clause"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Intel.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.0.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ZPL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Net-SNMP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Plexus.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-No-Nuclear-License-2014.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-Source-Code.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Saxpath.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-No-Nuclear-Warranty.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/PHP-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-No-Nuclear-License.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Entessa.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Sleepycat.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AAL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/PHP-3.01.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Sendmail.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/VSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/bzip2-1.0.6.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-Clear.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Naumen.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-LBNL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.2.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-3-Clause-Attribution.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/bzip2-1.0.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-2.2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Intel.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.0.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ZPL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Net-SNMP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Plexus.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-No-Nuclear-License-2014.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-Source-Code.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Saxpath.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-No-Nuclear-Warranty.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/PHP-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-No-Nuclear-License.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Entessa.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Sleepycat.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AAL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/PHP-3.01.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Sendmail.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/VSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/bzip2-1.0.6.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-Clear.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Naumen.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-LBNL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.2.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-3-Clause-Attribution.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/bzip2-1.0.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-2.2.1.c"
+    ], 
+    "tag": "BSD-3-Clause"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Caldera.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zend-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OpenSSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-4-Clause.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Caldera.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zend-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OpenSSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-4-Clause.c"
+    ], 
+    "tag": "BSD-4-Clause"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OpenSSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OpenSSL.c"
+    ], 
+    "tag": "BSD-4-Clause_SSLeay"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NRL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-4-Clause-UC.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NRL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-4-Clause-UC.c"
+    ], 
+    "tag": "BSD-4-Clause_UC"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-Protection.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-Protection.c"
+    ], 
+    "tag": "BSD-Protection"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AML.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AML.c"
+    ], 
+    "tag": "BSD-like_Apple_no_patents"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Spencer-94.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Spencer-86.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Spencer-94.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Spencer-86.c"
+    ], 
+    "tag": "BSD-like_editline"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSL-1.0.c"
+    ], 
+    "tag": "BSL-1.0"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-4.0.c"
+    ], 
+    "tag": "CC-BY"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-R-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-R-1.1.c"
+    ], 
+    "tag": "CDDL-1.0"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CPL-1.0.c"
+    ], 
+    "tag": "CPL-1.0"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/EPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/EPL-1.0.c"
+    ], 
+    "tag": "EPL-1.0_fulltext"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/FTL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/FTL.c"
+    ], 
+    "tag": "FTL_fulltext"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GFDL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GFDL-1.2.c"
+    ], 
+    "tag": "GFDL-1.2"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CECILL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-1.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AGPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-classpath-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-3.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CNRI-Python-GPL-Compatible.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-font-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OSET-PL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-R-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Vim.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-GCC-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0-with-GCC-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/iMatix.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/EUPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CECILL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-3.0-with-autoconf-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-autoconf-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BSD-Protection.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-Rplus-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CECILL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-1.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AGPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-classpath-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-3.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CNRI-Python-GPL-Compatible.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-font-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OSET-PL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-R-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Vim.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-GCC-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0-with-GCC-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/iMatix.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/EUPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CECILL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-3.0-with-autoconf-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-autoconf-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BSD-Protection.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-Rplus-1.1.c"
+    ], 
+    "tag": "GPL-1.0+"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0-with-bison-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0-with-bison-exception.c"
+    ], 
+    "tag": "GPL-1.0+-with-bison-exception"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0.c"
+    ], 
+    "tag": "GPL-2.0"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/eCos-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GPL-2.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/eCos-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GPL-2.0+.c"
+    ], 
+    "tag": "GPL-2.0+"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/WXwindows.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/WXwindows.c"
+    ], 
+    "tag": "GPL-2.0_2"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NTP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/StandardML-NJ.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/TCL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Python-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Net-SNMP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ISC.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-CMU.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/PostgreSQL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/curl.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/HPND.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/libtiff.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Multics.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SWL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SMLNJ.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NTP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/StandardML-NJ.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/TCL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Python-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Net-SNMP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ISC.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-CMU.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/PostgreSQL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/curl.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/HPND.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/libtiff.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Multics.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SWL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SMLNJ.c"
+    ], 
+    "tag": "HPND"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/0BSD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/W3C-19980720.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/0BSD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/W3C-19980720.c"
+    ], 
+    "tag": "HPND_no-repro-required"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ICU.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ICU.c"
+    ], 
+    "tag": "ICU"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IJG.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IJG.c"
+    ], 
+    "tag": "IJG"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPLLR.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-3.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPLLR.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-3.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-3.0.c"
+    ], 
+    "tag": "LGPL-1.0+"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.1+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OSET-PL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-R-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LGPL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.0+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.1+.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OSET-PL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-R-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LGPL-2.0.c"
+    ], 
+    "tag": "LGPL-2.1"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Libpng.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Libpng.c"
+    ], 
+    "tag": "Libpng"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Libpng.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Libpng.c"
+    ], 
+    "tag": "Libpng_2"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Adobe-Glyph.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/X11.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Xnet.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Unicode-DFS-2015.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ICU.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-feh.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OFL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Unicode-DFS-2016.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-enna.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SGI-B-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MIT-advertising.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MITNFA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/JasPer-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OFL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Imlib2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Adobe-Glyph.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/X11.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Xnet.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Unicode-DFS-2015.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ICU.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-feh.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OFL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Unicode-DFS-2016.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-enna.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SGI-B-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MIT-advertising.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MITNFA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/JasPer-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OFL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Imlib2.c"
+    ], 
+    "tag": "MIT"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NCSA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/XFree86-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NCSA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/XFree86-1.1.c"
+    ], 
+    "tag": "MIT_BSD_hybrid"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-1.1.c"
+    ], 
+    "tag": "MPL-1.1"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-R-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-R-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-2.0.c"
+    ], 
+    "tag": "MPL-2.0"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-2.0-no-copyleft-exception.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-2.0-no-copyleft-exception.c"
+    ], 
+    "tag": "MPL-2.0-no-copyleft-exception"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MirOS.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MirOS.c"
+    ], 
+    "tag": "MirOS"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-1.0-cl8.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-1.4.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CPOL-1.02.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SAX-PD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ANTLR-PD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Unlicense.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NBPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ClArtistic.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Ruby.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-1.0-Perl.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/PDDL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Apache-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OGTSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OLDAP-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-1.0-cl8.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-1.4.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CPOL-1.02.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SAX-PD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ANTLR-PD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Unlicense.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NBPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ClArtistic.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Ruby.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-1.0-Perl.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/PDDL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Apache-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OGTSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OLDAP-1.2.c"
+    ], 
+    "tag": "PD"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/DOC.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/DOC.c"
+    ], 
+    "tag": "Permissive_ACE"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/FSFAP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/FSFAP.c"
+    ], 
+    "tag": "Permissive_GNU1"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/FSFULLR.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/FSFULLR.c"
+    ], 
+    "tag": "Permissive_GNU2"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SGI-B-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SGI-B-1.1.c"
+    ], 
+    "tag": "SGI-B-1.1"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zlib.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Eurosym.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Info-ZIP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Nunit.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Cube.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/zlib-acknowledgement.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zlib.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Eurosym.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Info-ZIP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Nunit.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Cube.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/zlib-acknowledgement.c"
+    ], 
+    "tag": "Zlib"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NLOD-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NLOD-1.0.c"
+    ], 
+    "tag": "proprietary_Confidential"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IPL-1.0.c"
+    ], 
+    "tag": "proprietary_IBM"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/JSON.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/JSON.c"
+    ], 
+    "tag": "proprietary_MIT_Crockford"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Aladdin.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Aladdin.c"
+    ], 
+    "tag": "proprietary_NC"
+  }, 
+  {
+    "files": [
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/readme.txt", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AFL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-ND-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ECL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NLPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/diffmark.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NOSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-ND-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AFL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPPL-1.3c.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/psfrag.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/YPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/APL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Noweb.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/TORQUE-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LAL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CrystalStacker.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Glulxe.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/APSL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/APSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LiLiQ-P-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC0-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ADSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/psutils.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CECILL-C.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zed.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Newsletr.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RHeCos-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ErlPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-ND-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-SA-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SCEA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-SA-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CATOSL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OSL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/dvipdfm.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SISSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CUA-OPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CDDL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/XSkat.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Bahyph.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-SA-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-ND-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OSL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GL2PS.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Latex2e.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Qhull.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zimbra-1.4.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AMPAS.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Beerware.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NetCDF.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Barr.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-ND-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OSL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Wsuipa.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OSL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OCLC-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SimPL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AFL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/WTFPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/APSL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CECILL-B.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OCCT-PL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/W3C.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GFDL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/QPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/GFDL-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Unicode-TOU.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SNIA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NPOSL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Xerox.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Glide.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Nokia.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LAL-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPPL-1.3a.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RSA-MD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/gSOAP-1.3b.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AMDPLPA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Abstyles.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ImageMagick.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BitTorrent-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/EFL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Condor-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AFL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-ND-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SISSL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Frameworx-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/YPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/APAFML.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/D-FSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Giftware.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Leptonica.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SGI-B-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NGPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/mpich2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/NASA-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Fair.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Rdisc.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ODbL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/xinetd.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPPL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IBM-pibs.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Artistic-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Adobe-2006.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-ND-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Intel-ACPI.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RPL-1.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/W3C-20150513.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Watcom-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MakeIndex.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CNRI-Python.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Borceux.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/ECL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-SA-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPL-1.02.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CNRI-Jython.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Afmparse.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/UPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MS-RL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-ND-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/MS-PL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-SA-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Zimbra-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-SA-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/HaskellReport.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-ND-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/eGenix.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CPAL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RSCPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Dotseqn.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/VOSTROM.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SMPPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/AGPL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CDDL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CECILL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-ND-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/LPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-SA-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/SugarCRM-1.1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CECILL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Interbase-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/APSL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/BitTorrent-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/RPSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OML.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/EUDatagrid.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/FSFUL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/DSDP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/IPA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-SA-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Crossword.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/Motosoto.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/EUPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-SA-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/gnuplot.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/CC-BY-NC-SA-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/EFL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/OSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/withid/FreeImage.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AFL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-ND-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ECL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NLPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LPPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/diffmark.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NOSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-ND-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AFL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LPPL-1.3c.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/psfrag.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/YPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/APL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Noweb.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/TORQUE-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LAL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CrystalStacker.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Glulxe.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/APSL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/APSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LiLiQ-P-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC0-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ADSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/psutils.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CECILL-C.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zed.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Newsletr.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RHeCos-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ErlPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-ND-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-SA-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SCEA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-SA-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CATOSL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OSL-2.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/dvipdfm.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SISSL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CUA-OPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CDDL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/XSkat.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Bahyph.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-SA-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-ND-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OSL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GL2PS.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Latex2e.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Qhull.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zimbra-1.4.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AMPAS.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Beerware.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NetCDF.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Barr.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-ND-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OSL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Wsuipa.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OSL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OCLC-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SimPL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AFL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/WTFPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/APSL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CECILL-B.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OCCT-PL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/W3C.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GFDL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/QPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/GFDL-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Unicode-TOU.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SNIA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NPOSL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Xerox.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Glide.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Nokia.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LAL-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LPPL-1.3a.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RSA-MD.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/gSOAP-1.3b.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AMDPLPA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Abstyles.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ImageMagick.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BitTorrent-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/EFL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Condor-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AFL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LPPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-ND-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SISSL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Frameworx-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/YPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/APAFML.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/D-FSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Giftware.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Leptonica.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SGI-B-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NGPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NPL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/mpich2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/NASA-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Fair.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Rdisc.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ODbL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/xinetd.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LPPL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IBM-pibs.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Artistic-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Adobe-2006.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-ND-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Intel-ACPI.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RPL-1.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/W3C-20150513.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Watcom-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MakeIndex.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CNRI-Python.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Borceux.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/ECL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-SA-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LPL-1.02.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CNRI-Jython.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Afmparse.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/UPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MS-RL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-ND-2.5.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/MS-PL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-SA-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Zimbra-1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-SA-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/HaskellReport.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-ND-4.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/eGenix.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CPAL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RSCPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Dotseqn.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/VOSTROM.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SMPPL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/AGPL-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CDDL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CECILL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-ND-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/LPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-SA-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/SugarCRM-1.1.3.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CECILL-1.1.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Interbase-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/APSL-1.2.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/BitTorrent-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/RPSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OML.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/EUDatagrid.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/FSFUL.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/DSDP.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/IPA.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-SA-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Crossword.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/Motosoto.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/EUPL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-SA-3.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/gnuplot.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/CC-BY-NC-SA-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/EFL-2.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/OSL-1.0.c", 
+      "/spdx-testfiles-1.0-for-license-list-2.6.tar/noid/FreeImage.c"
+    ], 
+    "tag": "suspiciousLicensey"
+  }
+]

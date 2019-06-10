@@ -1,0 +1,429 @@
+input file path,matched license type,Score using whole input test,Rank based on score,Start line number,End line number,Start byte offset,End byte offset,Score using only the license text portion,Found license text
+/zlib-1.2.11.tar.gz/README,Zlib,0.5238756403462286,4,81,104,3542,4569,0.7989351089829917,"  people who reported problems and suggested various improvements in zlib; they
+  are too numerous to cite here.
+
+Copyright notice:
+
+ (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/zlib.3,Zlib,0.5392357410726487,4,104,130,2909,3996,0.6466345636746084,"Send questions and/or comments to zlib@gzip.org,
+or (for the Windows DLL version) to Gilles Vollant (info@winimage.com).
+.SH AUTHORS AND LICENSE
+Version 1.2.11
+.LP
+Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
+.LP
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+.LP
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+.LP
+.nr step 1 1
+.IP \n[step]. 3
+The origin of this software must not be misrepresented; you must not
+claim that you wrote the original software. If you use this software
+in a product, an acknowledgment in the product documentation would be
+appreciated but is not required.
+.IP \n+[step].
+Altered source versions must be plainly marked as such, and must not be
+misrepresented as being the original software.
+.IP \n+[step].
+This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz/zlib.h,Zlib,0.10002402841920552,3,0,21,0,1016,0.8189753668763103,"/* zlib.h -- interface of the 'zlib' general purpose compression library
+  version 1.2.11, January 15th, 2017
+
+  Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads,gnu-javamail-exception,0.3920748765002121,3,19,25,1501,1975,0.6551925304981939," --  As a special exception, if other files instantiate generics from this   --
+--  unit, or you link this unit with other files to produce an executable,  --
+--  this  unit  does not  by itself cause  the resulting executable to be   --
+--  covered by the GNU General Public License. This exception does not      --
+--  however invalidate any other reasons why the executable file  might be  --
+--  covered by the  GNU Public License.                                     --
+"
+/zlib-1.2.11.tar.gz/contrib/ada/zlib.ads,LGPL-2.0+,0.3646616805412266,3,3,18,237,1422,0.6545824749962681," --              Copyright (C) 2002-2004 Dmitriy Anisimkov                   --
+--                                                                          --
+--  This library is free software; you can redistribute it and/or modify    --
+--  it under the terms of the GNU General Public License as published by    --
+--  the Free Software Foundation; either version 2 of the License, or (at   --
+--  your option) any later version.                                         --
+--                                                                          --
+--  This library is distributed in the hope that it will be useful, but     --
+--  WITHOUT ANY WARRANTY; without even the implied warranty of              --
+--  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU       --
+--  General Public License for more details.                                --
+--                                                                          --
+--  You should have received a copy of the GNU General Public License       --
+--  along with this library; if not, write to the Free Software Foundation, --
+--  Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.          --
+"
+/zlib-1.2.11.tar.gz/contrib/amd64/amd64-match.S,GPL-1.0,0.10266791636165443,3,1,6,3,272,0.106374073122886," * match.S -- optimized version of longest_match()
+ * based on the similar work by Gilles Vollant, and Brian Raiter, written 1998
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the BSD License. Use by owners of Che Guevarra
+"
+/zlib-1.2.11.tar.gz/contrib/asm686/match.S,Zlib,0.6578297301826713,4,0,20,0,1062,0.7776290512486831,"/* match.S -- x86 assembly version of the zlib longest_match() function.
+ * Optimized for the Intel 686 chips (PPro and later).
+ *
+ * Copyright (C) 1998, 2007 Brian Raiter <breadbox@muppetlabs.com>
+ *
+ * This software is provided 'as-is', without any express or implied
+ * warranty.  In no event will the author be held liable for any damages
+ * arising from the use of this software.
+ *
+ * Permission is granted to anyone to use this software for any purpose,
+ * including commercial applications, and to alter it and redistribute it
+ * freely, subject to the following restrictions:
+ *
+ * 1. The origin of this software must not be misrepresented; you must not
+ *    claim that you wrote the original software. If you use this software
+ *    in a product, an acknowledgment in the product documentation would be
+ *    appreciated but is not required.
+ * 2. Altered source versions must be plainly marked as such, and must not be
+ *    misrepresented as being the original software.
+ * 3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz/contrib/blast/blast.h,Zlib,0.6449422920152744,4,1,20,36,953,0.8433658649936099,"  Copyright (C) 2003, 2012, 2013 Mark Adler
+  version 1.3, 24 Aug 2013
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/contrib/dotzlib/LICENSE_1_0.txt,BSL-1.0,1.0,5,0,23,0,1359,1.0,"Boost Software License - Version 1.0 - August 17th, 2003
+
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the ""Software"") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+"
+/zlib-1.2.11.tar.gz/contrib/gcc_gvmat64/gvmat64.S,Zlib,0.5846230338905144,4,12,31,566,1624,0.7714859437751005,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
+;  and by taking inspiration on asm686 with masm, optimised assembly code
+;        from Brian Raiter, written 1998
+;
+;  This software is provided 'as-is', without any express or implied
+;  warranty.  In no event will the authors be held liable for any damages
+;  arising from the use of this software.
+;
+;  Permission is granted to anyone to use this software for any purpose,
+;  including commercial applications, and to alter it and redistribute it
+;  freely, subject to the following restrictions:
+;
+;  1. The origin of this software must not be misrepresented; you must not
+;     claim that you wrote the original software. If you use this software
+;     in a product, an acknowledgment in the product documentation would be
+;     appreciated but is not required.
+;  2. Altered source versions must be plainly marked as such, and must not be
+;     misrepresented as being the original software
+;  3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz/contrib/iostream2/zstream.h,NTP,0.26942814576601637,3,2,15,6,642,0.3393091512556969," * Copyright (c) 1997
+ * Christian Michelsen Research AS
+ * Advanced Computing
+ * Fantoftvegen 38, 5036 BERGEN, Norway
+ * http://www.cmr.no
+ *
+ * Permission to use, copy, modify, distribute and sell this software
+ * and its documentation for any purpose is hereby granted without fee,
+ * provided that the above copyright notice appear in all copies and
+ * that both that copyright notice and this permission notice appear
+ * in supporting documentation.  Christian Michelsen Research AS makes no
+ * representations about the suitability of this software for any
+ * purpose.  It is provided ""as is"" without express or implied warranty.
+"
+/zlib-1.2.11.tar.gz/contrib/masmx64/gvmat64.asm,Zlib,0.5725772658653667,4,10,30,487,1548,0.7714859437751005,";  from Jean-loup Gailly in deflate.c of zLib and infoZip zip.
+;
+;  and by taking inspiration on asm686 with masm, optimised assembly code
+;        from Brian Raiter, written 1998
+;
+;  This software is provided 'as-is', without any express or implied
+;  warranty.  In no event will the authors be held liable for any damages
+;  arising from the use of this software.
+;
+;  Permission is granted to anyone to use this software for any purpose,
+;  including commercial applications, and to alter it and redistribute it
+;  freely, subject to the following restrictions:
+;
+;  1. The origin of this software must not be misrepresented; you must not
+;     claim that you wrote the original software. If you use this software
+;     in a product, an acknowledgment in the product documentation would be
+;     appreciated but is not required.
+;  2. Altered source versions must be plainly marked as such, and must not be
+;     misrepresented as being the original software
+;  3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz/contrib/masmx86/match686.asm,Zlib,0.579131647485306,4,162,182,6339,7408,0.8278445428350553,";;; Written for zlib 1.1.2
+;;; Copyright (C) 1998 Brian Raiter <breadbox@muppetlabs.com>
+;;; You can look at http://www.muppetlabs.com/~breadbox/software/assembly.html
+;;;
+;;
+;;  This software is provided 'as-is', without any express or implied
+;;  warranty.  In no event will the authors be held liable for any damages
+;;  arising from the use of this software.
+;;
+;;  Permission is granted to anyone to use this software for any purpose,
+;;  including commercial applications, and to alter it and redistribute it
+;;  freely, subject to the following restrictions:
+;;
+;;  1. The origin of this software must not be misrepresented; you must not
+;;     claim that you wrote the original software. If you use this software
+;;     in a product, an acknowledgment in the product documentation would be
+;;     appreciated but is not required.
+;;  2. Altered source versions must be plainly marked as such, and must not be
+;;     misrepresented as being the original software
+;;  3. This notice may not be removed or altered from any source distribution.
+"
+/zlib-1.2.11.tar.gz/contrib/minizip/MiniZip64_info.txt,Zlib,0.7967713365539453,4,54,72,2079,2988,0.88561929276215,"   Condition of use and distribution are the same than zlib :
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/contrib/minizip/unzip.h,Zlib,0.48688873054580667,3,15,34,644,1559,0.88561929276215,"
+        Condition of use and distribution are the same than zlib :
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/contrib/minizip/zip.h,Zlib,0.6629093831625478,4,12,31,513,1423,0.88561929276215,"
+   Condition of use and distribution are the same than zlib :
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/contrib/pascal/readme.txt,Zlib,0.7093140205402012,4,58,76,2120,3004,0.8780412533459299,"  Copyright (C) 2003 by Cosmin Truta.
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/contrib/puff/puff.h,Zlib,0.8912873304199318,4,1,20,10,941,0.8378511638573559,"  Copyright (C) 2002-2013 Mark Adler, all rights reserved
+  version 2.3, 21 Jan 2013
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/examples/gzappend.c,Zlib,0.5516327387734492,4,1,21,48,981,0.832408114761056,"
+  Copyright (C) 2003, 2012 Mark Adler, all rights reserved
+  version 1.2, 11 Oct 2012
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/examples/gzjoin.c,Zlib,0.5858119607234883,4,1,21,59,998,0.8270353302611366,"
+  Copyright (C) 2004, 2005, 2012 Mark Adler, all rights reserved
+  version 1.2, 14 Aug 2012
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/examples/gzlog.h,Zlib,0.615678937534717,4,1,20,11,949,0.8270353302611366,"  Copyright (C) 2004, 2008, 2012 Mark Adler, all rights reserved
+  version 2.2, 14 Aug 2012
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the author be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"
+/zlib-1.2.11.tar.gz/win32/README-WIN32.txt,Zlib,0.5763116699346683,4,68,92,3227,4252,0.7989351089829917,"people who reported problems and suggested various improvements in zlib; they
+are too numerous to cite here.
+
+
+Copyright notice:
+
+  (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+"

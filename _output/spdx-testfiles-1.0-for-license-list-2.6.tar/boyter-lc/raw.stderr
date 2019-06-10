@@ -1,0 +1,2 @@
+/home/mhuber/MINE/licenseScannerComparison/boyter-lc/produce.sh: Zeile 22: calculateResultPathFromOutputPath: Kommando nicht gefunden.
+transformer.hs: /home/mhuber/MINE/licenseScannerComparison/_output/spdx-testfiles-1.0-for-license-list-2.6.tar/boyter-lc/output.json/output.json: openFile: inappropriate type (Not a directory)

@@ -1,0 +1,3385 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+DocumentNamespace: http://spdx.org/spdxdocs/Unknown-7fca463502a78e78eba9ce7f0aab309d43d1f79b
+DocumentName: Unknown
+SPDXID: SPDXRef-DOCUMENT
+Creator: Tool: licensechecker 2.0.0
+Created: 2019-06-09T20:41:33Z
+LicenseListVersion: 3.0
+
+PackageName: Unknown
+SPDXID: SPDXRef-Package
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+PackageVerificationCode: fee1839f578223ed141a66eb1296f70fc2186f0f
+PackageLicenseDeclared: BSD-2-Clause-FreeBSD
+PackageLicenseConcluded: BSD-2-Clause-FreeBSD
+PackageLicenseInfoFromFiles: NONE
+PackageCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/AUTHORS
+SPDXID: SPDXRef-d4d019f2239c7cdbe1d20c7f91be8900c9528987
+FileChecksum: SHA1: 028dbc1396386827afdc43c80645fb67867cd19e
+FileChecksum: SHA256: a54ec08e06b88acad82d487c437a5ade3d4554a612ed3c563ab10239a6182dcc
+FileChecksum: MD5: 4b28a4081004b1965edb47d0796317a2
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/COPYING
+SPDXID: SPDXRef-0788459c7a508b7763dcd6760f64dd344009ec28
+FileChecksum: SHA1: adcc6ae0ba0e1e4fae77bd2b98db0d5a1aae2e75
+FileChecksum: SHA256: 3c0ad13c36f891a9b4f951e59eb2fc108065a46f849697cc6fd3cdb41cc23a3d
+FileChecksum: MD5: c9d069b760269fd5364b578a1256ec8d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/ChangeLog
+SPDXID: SPDXRef-065a471ba8f8a3456dad7ff1a22b77c974a4f08b
+FileChecksum: SHA1: a7802b77f4220d04289e5cf792128a9245e4b87b
+FileChecksum: SHA256: e0d526bfd131a1c7036a8bed957f2aa81baac6dc478b3d7bf355ef3999920a70
+FileChecksum: MD5: c4ce0bfa3e6285b4b8cabf6911b2d9ca
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/INSTALL
+SPDXID: SPDXRef-13aa519127578a08f4ca15c210e3fc7f1925a721
+FileChecksum: SHA1: bbc89f8fc9083ae797f39d0369f1b0ef3788c80a
+FileChecksum: SHA256: 91826b889739b720e0da7055b74a5a579dd31ad2f3b683b15302039df676e34f
+FileChecksum: MD5: 974f8ebfb787af664ca683a3cb6b71b5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/MAINT
+SPDXID: SPDXRef-ae73108a9dc3d5690b3d1402ac84a1399c2fd32f
+FileChecksum: SHA1: 6b5382f19ed83c6e16e8fd4bf9d6cae935552a64
+FileChecksum: SHA256: 764ae4bb291eac34b2feea837ecf1c3f8ad6172d34aed9fc52a76e31ff7c25ed
+FileChecksum: MD5: b8e2d2a430c1ae4a03526305480d10d5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/Makefile.am
+SPDXID: SPDXRef-8ec4baac7bc14e8651d5608c7c52e96a41b8b5c9
+FileChecksum: SHA1: f5ca0a22bb89259084d8540417fd2eeb2cdbe373
+FileChecksum: SHA256: 51ba7b1db8b5254bfa6a4c0163c5b9b3f18f066a6e9d21308f0e6d8be07fc809
+FileChecksum: MD5: 7ac35b65d9317829cb5b2cf510284ed4
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/Makefile.in
+SPDXID: SPDXRef-fb58734fa5c6cb105defc75d7a422987055737f5
+FileChecksum: SHA1: 405bc6b34f68e720541f9bb9cf5e594a18aefb50
+FileChecksum: SHA256: 6d9e47fa7e4c99dfe043dc2d89323a3e960621b9d11409670d2be5f6a4e42141
+FileChecksum: MD5: 07607357ec2dd82200bba927560a8436
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/NEWS
+SPDXID: SPDXRef-dee21facb2df2f76f5d1d30867260eb64876319c
+FileChecksum: SHA1: f72aa36a7f93ae330cbbd7e9b0d545ff432bcdba
+FileChecksum: SHA256: 85b5cbec5fe48230a0cf6d39148b5a1333f600477adc1497f5d9a80d53c504b0
+FileChecksum: MD5: 3ddab3d6494614ae3e464e159c5c50c3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/README
+SPDXID: SPDXRef-9e71506e7bc930d0e8a67e30fee0ae6134478ec5
+FileChecksum: SHA1: 3957d4cf6aea39b4d7ea06fa554526b033101313
+FileChecksum: SHA256: 366a686454c639416dd6b8633488b407649dab721829b4cf6cc7a5ce428fea70
+FileChecksum: MD5: 7edf5447977daa5d13ef5073e12e612f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/TODO
+SPDXID: SPDXRef-b9034d57beb370d33fbe04f5297e220bfaf044ae
+FileChecksum: SHA1: 6b41bf882aadd982df4e39856d2112296532300f
+FileChecksum: SHA256: 8364ae0030e49931c72c819525d13285f840362e318e3f4eae859a93293cc1ca
+FileChecksum: MD5: c596948c9293e1295ae102e9ffd20e05
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/acinclude.m4
+SPDXID: SPDXRef-312944cfbf440198e8be7ceecd37c69009a0af71
+FileChecksum: SHA1: 70f5de292b1d232cf99697ab5de2f75d04a17896
+FileChecksum: SHA256: 704ec7a922c28e4ddaf59febd86dd0dfa1710eceeec2382a01be2b544cfab727
+FileChecksum: MD5: 33cfd67c3a570ab5c10f745b4d449734
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/aclocal.m4
+SPDXID: SPDXRef-5caf83d333113d1b02dbf41cde39c80ad2f56c0a
+FileChecksum: SHA1: d6c872e43568c3770eda4ba69a5b06553aa2fad8
+FileChecksum: SHA256: 4b2abf8ada6dfe593b32ccab2ce9757128f8ba72dd1840950e9b90d2560db058
+FileChecksum: MD5: 65a2b0035cb826ed97bf0150878b888e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/compile
+SPDXID: SPDXRef-fc63f54c4eb18f93c18f24ec8c004c45fad69504
+FileChecksum: SHA1: 03a05e37267c2f1c9fea4f2a6a15f8a7beb91c0d
+FileChecksum: SHA256: 41856428226c049fa0ea4ca7a574c28416de2769b55ed7feea4ab5e60283af16
+FileChecksum: MD5: 500b9244caa7a7ab23ece1db37efa76d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/config.guess
+SPDXID: SPDXRef-264bb1c793bd28250cd3695a9492095df1b4e95e
+FileChecksum: SHA1: 873653bf1bd19f3534aa788a3f4cacac973b08c0
+FileChecksum: SHA256: a4125e31177bb614630b7af8fb9688eb603cf0c93a3f6d5e52830eb25ab603f5
+FileChecksum: MD5: 2cf26350eb7fa54e68a6d1c6e5be91d1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/config.h.in
+SPDXID: SPDXRef-ea95cc189017d38ccc8e7d4a0fc5287f5c2fe809
+FileChecksum: SHA1: c4bd3eade3ef7ccc92f02afdcd3d02d82f6ae646
+FileChecksum: SHA256: 4897f419f09fe43799ca4e20ee3dd7aa36ef37ca141fd967a4fb6130178b8056
+FileChecksum: MD5: c71b180e7853178fd7e59f50383b2e2e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/config.sub
+SPDXID: SPDXRef-e61070922573b3988956c240d3b9921157cc86f7
+FileChecksum: SHA1: 17c4f8628ea435c999be66ee4c2967fdaf3b2955
+FileChecksum: SHA256: 6ef568e79ee95214ecb8b187bf14f168bd0889575e922e5e866c455186cfb063
+FileChecksum: MD5: afd58ca15188d3f2eac373c347d3d6ef
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/configure
+SPDXID: SPDXRef-532570abf956ed710883db67dd42d130a1c7e05a
+FileChecksum: SHA1: 55906b663c4cffd323eb700f930bcc22e59a7497
+FileChecksum: SHA256: 7125613f8031d5aa7b47756ba67b1f4b0cee51b91d5c4b518839ffc3303d42c3
+FileChecksum: MD5: d28d91893905a55482458eedb8d11f9b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/configure.ac
+SPDXID: SPDXRef-41ed45529b2ede453e094b870edac46686546498
+FileChecksum: SHA1: b5f85fd90458ce093055d5592b29b89498ae9ea6
+FileChecksum: SHA256: c3063b542e575f759e2831bb603f9f6bb1bf16650e691ade87dfb743a9092769
+FileChecksum: MD5: af1e0c3d4229f90655abda70d4186126
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/depcomp
+SPDXID: SPDXRef-409254a86ea80b63c182f8dcd0875281b86b4e70
+FileChecksum: SHA1: 44f711c72acb3fb13ece5b665aaf9d6449ad2574
+FileChecksum: SHA256: 786149ab4493e86b837077ebaecab65ef6230ae8a619b17fa5c1695564a427e9
+FileChecksum: MD5: 386223c42821864f26fd0782d357d513
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/doc/Makefile.am
+SPDXID: SPDXRef-615baf0ff7a3484c401706146e854d3659724375
+FileChecksum: SHA1: fb24ded9f9cf14898c5019e0ed9944aec3652016
+FileChecksum: SHA256: 31147f83a246336616f8ef14daa99cf744be6abca704a360d5874d7d4b931209
+FileChecksum: MD5: aac80ab98ed2a78269b0a8413c32ee21
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/doc/Makefile.in
+SPDXID: SPDXRef-bf77b03300e01d8210e2e6c9351126db07ced3e1
+FileChecksum: SHA1: b43d92a9a217d760c90fc094e6bbf6715a326abb
+FileChecksum: SHA256: 3d4e0735270891c9946d937fe9550d8d565ac78aa2d3f77986caaf7e6e004e03
+FileChecksum: MD5: 49b41c20292dcd19018be5b220e2d731
+LicenseConcluded: BSD-2-Clause-FreeBSD AND GPL-1.0-only
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/doc/file.man
+SPDXID: SPDXRef-8722f7b8c16100d7f61d4a22be734a5539ab8781
+FileChecksum: SHA1: 55e22fe990718a4d5538da363a813aa56539ac76
+FileChecksum: SHA256: e841b84938c56d2e4d9529b15073e66b5d4b88671c554f7c80657ba0539e7d58
+FileChecksum: MD5: 1638892cfcecc88ab0bc5db7ca5067b9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/doc/libmagic.man
+SPDXID: SPDXRef-b9e6448a81342b8d6b2437db900b3d03dc9b34c9
+FileChecksum: SHA1: 752d4454cfbc5e65545682d5802a7fd436c407fe
+FileChecksum: SHA256: 8bb7d9dce7e937de2e19e3f8a9a0c2acda4de5b0bf49fb780746671e09e7227f
+FileChecksum: MD5: 7b8d64420561cafe4f4c72060ba1b309
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/doc/magic.man
+SPDXID: SPDXRef-0446ca879a76654580c67672dd56a8abe269f0d9
+FileChecksum: SHA1: 685972598c4e23424d06a2a48c8103d6ad7480c6
+FileChecksum: SHA256: 65fc15df0e2f3cd12d422efef8215bfa2ddea2dfbeeeadaedcab60e5aa8d0464
+FileChecksum: MD5: dbb07d226868ad0e2485bbb62844b145
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/install-sh
+SPDXID: SPDXRef-56ed78432ac72152f53368aa24a3a11f0c4b085b
+FileChecksum: SHA1: 0c2b7145fde960a8f3b8e988a7489f61a1766703
+FileChecksum: SHA256: bbb805976f51ade87ece3027b0fd98d1d1a05d2203c88ee6c06f0ed33afa0c65
+FileChecksum: MD5: 5240c7debae5773b21788bad8c044ae6
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/ltmain.sh
+SPDXID: SPDXRef-cec0b9801251e841d881d5002f5991cbd58e0864
+FileChecksum: SHA1: 3dfefae05b59ca7740b500338f53041f43782ff6
+FileChecksum: SHA256: 979d370d2a3313ae9db43569eec801cb666b74a0cdbc9276a63ee0cdb642c3ac
+FileChecksum: MD5: 68c478dd29d6e3ac8025cfe6c734a4a8
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/m4/libtool.m4
+SPDXID: SPDXRef-b9e016eece452bd351f53d763e1072dba097a6be
+FileChecksum: SHA1: 8830458492769decb22fc3820d33b73c1d17792a
+FileChecksum: SHA256: a57d3f195149b408b6ae91f98da7b5874bba006dfa45d9bb9abf3ef3a153f48f
+FileChecksum: MD5: c8c79001aa0d5bfe2d3a3e0f5ebfe7df
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/m4/ltoptions.m4
+SPDXID: SPDXRef-8e5309ace548fd9daf5a394d156d2827699ca23f
+FileChecksum: SHA1: 05ec66892c8b30f20aa5278e1671ae4925a9c063
+FileChecksum: SHA256: 42cf144d09271b31c1cde8979df1f0a07d09fc1bd15edf07d029ee2db53126e2
+FileChecksum: MD5: 67d5ebceaac562ddf0dde4e5cdffbe09
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/m4/ltsugar.m4
+SPDXID: SPDXRef-8c1c8f51a3269c4c30b9e9b7db3c34cc197dda3b
+FileChecksum: SHA1: d6d1ea1fd251ced66ba87ceb6f9e3846124691c1
+FileChecksum: SHA256: e8bfa437be7af72bf41b86e7e714bc8b8545046c339f80cfb5e69681bc97f90d
+FileChecksum: MD5: bc2f6032c98896249eadb56177c7d357
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/m4/ltversion.m4
+SPDXID: SPDXRef-f33d103e60b795a92349fc28dc821ac6b898adc6
+FileChecksum: SHA1: 25c2435fa4cb5dc86ffad28bf9b1a6a14dd53a68
+FileChecksum: SHA256: d10626cfa21a7023b425838971ba1c856fe1daeb05f7d2cdfd40c234b781891a
+FileChecksum: MD5: 91dd5e1355d100dbdab7d71244ed2625
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/m4/lt~obsolete.m4
+SPDXID: SPDXRef-628a11801519d033408baa5d64537684dc14fd17
+FileChecksum: SHA1: c0c6afe569131b4015d221bc853053cf884b2699
+FileChecksum: SHA256: ee8a1723c8c022eb20bb2d03450cc37f92ec6c3db2c7b8c313eb3f5e935249fc
+FileChecksum: MD5: 47d420a13f9ba4e171772c3e3eee3e63
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Header
+SPDXID: SPDXRef-9e04f74d1ffc8c4e7fa433057d7b039ea36a8001
+FileChecksum: SHA1: 56d39a2667a44f93988a323c5f836e249c71fbe3
+FileChecksum: SHA256: c22014b1cbe38eb8f578bf805f844912536ebf8a8b94923f73387f5e2c63a647
+FileChecksum: MD5: aab02d524e5a9bed8a3281029b66396c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Localstuff
+SPDXID: SPDXRef-528375488629eaf5785b65db8e2f63b03b0f195a
+FileChecksum: SHA1: 0dd107dfc06fef15cdcef964861c31e2ab3cabdc
+FileChecksum: SHA256: baaf4f34a968ae4fac8e27f06f9706ebdb6cb8f254ac98e66f11115371b89098
+FileChecksum: MD5: 60a6cd3a5e1239116e5828778470b201
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/acorn
+SPDXID: SPDXRef-96028f1c00bf36fa0a0042944562a690dd3c82fd
+FileChecksum: SHA1: 04a0c55e2b0d11971ea7e12362934d8682725677
+FileChecksum: SHA256: 1e9dc9ae4d6ab5d12fcf26149ba81f3630302a00dbb87fbfd7666922cca977ff
+FileChecksum: MD5: 5c62719eb3bec28eb3688c83b97ece98
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/adi
+SPDXID: SPDXRef-349e66c24f20d15956995fe6b474c55e555c9ff1
+FileChecksum: SHA1: 2371d888633bf69da62c326b50d14a9b97a66e3a
+FileChecksum: SHA256: 72a204e7dcb4db382124f45dadcd1c65c59968be1dee6bbf1e7f9cb8df71d7ca
+FileChecksum: MD5: e8912ffff84ed6ecd3c2f428b98716d9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/adventure
+SPDXID: SPDXRef-151e5a89725b6140bff981b2cd91621055fa42a1
+FileChecksum: SHA1: fbecd2bbb06cb3346eef49a1295c7a4ba3ebc487
+FileChecksum: SHA256: 2098d19e6f362c97661bffcce3b36e3b465eadb77117d884723ebb329ccea7cb
+FileChecksum: MD5: 8d4323e2d40d4c17df075395be674e7c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/algol68
+SPDXID: SPDXRef-16434d5ae087c4369bbd00e9e9a1f88ad0c9ba36
+FileChecksum: SHA1: b301e4840ad58e3664dbad6365ec29dac294b89c
+FileChecksum: SHA256: afbc0af2e2772183b6570e58df01106d10d5e723a2de803530866d6a113277d0
+FileChecksum: MD5: 32af8e0575f4823cd54e497d262f1f7b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/allegro
+SPDXID: SPDXRef-3faab6cbd450bb588656609d31380dcb5b252a01
+FileChecksum: SHA1: fa3f1eef5456c8935882ac227b22ac61a9a3fde6
+FileChecksum: SHA256: d86b7ad175881ee8ddf6e0adad8a0aa071cdcd9c9f2c0feb4c523914303d751b
+FileChecksum: MD5: 04baace485087631c91dfa7d65b4915c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/alliant
+SPDXID: SPDXRef-80640bd53df9cc941a40e0d6f7ab4aa675dd5404
+FileChecksum: SHA1: 2cd2c15e6693f568dc08543871187db03b70e28f
+FileChecksum: SHA256: 06a9d7358ddcaf6d6801814de0e1b3c6217c91cb05af50135435cdc92a6903b9
+FileChecksum: MD5: a8fe9adbea49a010b6a68b274724cdde
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/amanda
+SPDXID: SPDXRef-a881657bf51da3c0d4a4d08d9203306b5bd80e02
+FileChecksum: SHA1: 3a4914aafb4f31baf441b755ac5f8a69d60908a6
+FileChecksum: SHA256: c7e917c7e925e56cb6a36ed0fd152eb8d9fa82837dcc014a1e35329b4375087c
+FileChecksum: MD5: b79aa6036bb46246b2393c3697304998
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/amigaos
+SPDXID: SPDXRef-9810371a158000035c71f46199c170ef9e1358cf
+FileChecksum: SHA1: 20ed3cd35c86df6301372336467126360de14d81
+FileChecksum: SHA256: 565fd44c86f44f402ee13970e12e5ed14aa07830243f6bd1f58250621a4c5c66
+FileChecksum: MD5: f37226cf417ccefebd8892f6f5adafba
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/android
+SPDXID: SPDXRef-13ec8b5b757c5d4c7bdcf2ab2dd92e0b0c55d946
+FileChecksum: SHA1: a70b3da7b5c07b7c8642ce4de525d941d38c260f
+FileChecksum: SHA256: 41c8a1fda042f3d6fe04a9c8d64e5076097f0cc6867062156a4ab3d2451369e0
+FileChecksum: MD5: 26c319eab14b221e817bbc07ea04da16
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/animation
+SPDXID: SPDXRef-b3b44fefb0aa027f8245a6cbbd5521f57b1885ff
+FileChecksum: SHA1: 0408a0a8e1c106636a1eabe700f68f4102291d0a
+FileChecksum: SHA256: 2813c94b1ef8c9bc9aaf209ac2200e14487d50004b1db276a9a1581f35b1e0f3
+FileChecksum: MD5: 83f5ba35fb4f5a70837557113e112ee1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/aout
+SPDXID: SPDXRef-2900a101554999e9df16eb90dbaaaf0854720081
+FileChecksum: SHA1: 28fdd604d7af9eed081ad540f7de7f554fcfb80f
+FileChecksum: SHA256: ba88beae2cc3d8761d281c32564624b87ef973886bf6cbfa8202e3788a24aa9f
+FileChecksum: MD5: dcef63e3f836444082d5723a858c9356
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/apl
+SPDXID: SPDXRef-ee365cdf4ff78de7406a2c40866ba5e1c81a1d15
+FileChecksum: SHA1: 3f7770fc27683441a04c469641ead17adb2008b7
+FileChecksum: SHA256: cce150019620c2dc5917fea205bac26d0f1f6411e3edc43b2394cc8aac059f3c
+FileChecksum: MD5: f178edc343205e3ca777257ceca61853
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/apple
+SPDXID: SPDXRef-d6eec5841b544f770d0d61a3002716aac4883eda
+FileChecksum: SHA1: e8259f53e13a4d3ee1818fd0eff6f76b6b433651
+FileChecksum: SHA256: f6198070faabb1a834edc2935b58b2ca4dc5e65dea541998439b1eb5bdcd650a
+FileChecksum: MD5: 30e7cfd6e870999e081c6f0a9bb7a679
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/application
+SPDXID: SPDXRef-29871f11f18665aa0003a4177bc79381743adf9d
+FileChecksum: SHA1: 366ed9654125d6ec880c1b069ec5bb6d2c9f0cc2
+FileChecksum: SHA256: 050e330b0f8b7c3327b29704f24c7dd41fe44637e9a460e2de5faa926c25c3ac
+FileChecksum: MD5: 2789c7e6b4b7e71cc3c8db463279e26e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/applix
+SPDXID: SPDXRef-ef312c613167638eb296cf8a0d6e6fc927c62542
+FileChecksum: SHA1: a51397c782730a8cfbdac45ce3e96092d81e54df
+FileChecksum: SHA256: 7ce1fe5cd05bf231e9a8f3c094c93425a110683e78d294f56f612812a22c209c
+FileChecksum: MD5: d50ba6c180ab59aa0d4e73be81086fa0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/apt
+SPDXID: SPDXRef-39d3b74806e0caaf85c88dc9d6873126e40cc7e8
+FileChecksum: SHA1: 3fed1cf054a52367f476986784a956fbb465946c
+FileChecksum: SHA256: 1f64ca1ebfbe4d39047b46459e7de5bf4cc97f064e15e5b99048e32bcfb4234a
+FileChecksum: MD5: 46c8539ba59705bcee17fb45a4b8edb8
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/archive
+SPDXID: SPDXRef-aa99cb5578ad95a8c39de811813fc45021f1cb3d
+FileChecksum: SHA1: 9adea14d80e38f0b985b402f347cc7a940f1ac39
+FileChecksum: SHA256: 4c87d625391b6eac6b1b14c99b73877193a99595c24a8692dde1e9be353e6ab2
+FileChecksum: MD5: efb59ec698e79d15b4cd50872036f595
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/assembler
+SPDXID: SPDXRef-7bd7c070489bdff2a24c52be7dcc88be514fee10
+FileChecksum: SHA1: 085c8426c7d8a2f64a994deb8ff3e0eafcd0d0a5
+FileChecksum: SHA256: 534e44e9cafe469125d0cd7766d89a68369e0d036322734d16fcd7d2e6d991a2
+FileChecksum: MD5: 283feb7272251ee545b5dc6eeabfcc43
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/asterix
+SPDXID: SPDXRef-b71052ad0081d27fce9e4e9959d2dbe61bbb913f
+FileChecksum: SHA1: 87b2394a84e1d858ac0b55b400fad9932737533d
+FileChecksum: SHA256: e2d9b4a13ab40bf0a317edae58237750fa01f3561769335390e7e0e4bb159429
+FileChecksum: MD5: 81a20a18586620912d675925a816a676
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/att3b
+SPDXID: SPDXRef-3eb9ddd3b69f45cda7e8c1a5e407d2abed9423b7
+FileChecksum: SHA1: eab2421f738070e15835d99a9d3a28824a6d538b
+FileChecksum: SHA256: 0dae4f9e3baaaf5092470aff40676142c056d3a5242228bbc8179b86373a94b3
+FileChecksum: MD5: d7dd69df190a80af672c1fd3be62f1b4
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/audio
+SPDXID: SPDXRef-ee857a0e8a082898c4f48759f4c1d5344d3ee8c5
+FileChecksum: SHA1: 7b62788733ef5203896b3d4f0dfa3fc7c849ad3a
+FileChecksum: SHA256: 22d62b375e18cf3beb5871a003a57d2b9296185a50ac992222b989108ef358e2
+FileChecksum: MD5: 3b791abc8c815f6a27559089b73f1f9f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/basis
+SPDXID: SPDXRef-22909adbb37d9f75b8c536bb0651b18df604f23b
+FileChecksum: SHA1: e7c359877661ec939af31545db6182bcde3c44ef
+FileChecksum: SHA256: 9027c99f504c1f3d12445644542b9445fee14b2e2a8a504cb8a93755ecf1ed4d
+FileChecksum: MD5: 52fc01debaf4a5b8d80d9001b72455d7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ber
+SPDXID: SPDXRef-6b345dc37fc2a71c6e3c02958028a79fe2691c31
+FileChecksum: SHA1: 2fdb16b7ae9531f9504b78ce78bfe9e154b1816a
+FileChecksum: SHA256: c46b007a7d6598c28233a1f3b9cc3bbffecdbe71c34a12bd3282f70b1e7fa353
+FileChecksum: MD5: 217062179f51e706a1bd25e557485868
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/bflt
+SPDXID: SPDXRef-562fae0fdabe55c06695dfb7ea6c29b819358c3e
+FileChecksum: SHA1: 9d54252f7892043962faefb9c27b5cc5270cc891
+FileChecksum: SHA256: 6e3342a4cd44d2457f37d5d3eed8d5bb38d9ce4246f3ef88799d8be063d08332
+FileChecksum: MD5: 74b6a9bb1d57b5cb0917ed2dccaaf5d1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/bioinformatics
+SPDXID: SPDXRef-7a484e7135ee62f0fa33381e183981dc4091697b
+FileChecksum: SHA1: ed2acbd746fd8f9fe5e126f604dbf2c48b6b3389
+FileChecksum: SHA256: 6b0a1c39ae21060436f76fce65756b7e6ad8255d06aafe9b27e9a93b96290116
+FileChecksum: MD5: 444c0334f479291f6a462e3cc8a5911f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/blackberry
+SPDXID: SPDXRef-1433edf60617eaf5d9dd1cf2253b616b7ef97b85
+FileChecksum: SHA1: 10d8e99643c234aff53f2acdc6a4be2ea255884d
+FileChecksum: SHA256: 70d3d6e2d55d17d9d74dd61b991285679128ca7cf180a8a64ce795f01a881dea
+FileChecksum: MD5: abb67064642d6b55ac5616b1f0e84d93
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/blcr
+SPDXID: SPDXRef-c46ba56672d3ce9d5b6374fb35994edcac66bf0e
+FileChecksum: SHA1: 9c3f20e3954db63c8746b85b7af6056b818d775f
+FileChecksum: SHA256: a9f1a3864506cb349e08b0675d7780635bab855c1b40760625e07cf19276c280
+FileChecksum: MD5: 4b55c7e9813fe5bff646d0f8a3d0e60d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/blender
+SPDXID: SPDXRef-b11fd95d49730ce15b27697a8530ac63826939bd
+FileChecksum: SHA1: c5ad3e9388dc268aa0f846e9d9c1c82b8fa6dd45
+FileChecksum: SHA256: c59f4036dbae7bc9dd9e538dffe1c02d6b8adbb2cb97ebe0abcb89c2677462f3
+FileChecksum: MD5: 221c604042700c0f2427bad08cdec8b3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/blit
+SPDXID: SPDXRef-1ffbc70291ef0a772b7d672a5753e6363c4ce4df
+FileChecksum: SHA1: d80432c82e48f84a7f44ab24e8567c24b2055155
+FileChecksum: SHA256: fc3e72d9539852c605a48c05515ebd21ea7a5e2ac50983ebf5184302b9b24eb0
+FileChecksum: MD5: c7aa7d2e41b52b50215728e78bc4edd3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/bout
+SPDXID: SPDXRef-2ba6a04eab6ec4330d4265e74dfd8b33caf3441c
+FileChecksum: SHA1: 57cfbd4c71f50da1ab7430ae5710c5fc23072942
+FileChecksum: SHA256: 8cca027a37d55e6a555c724580242cf339d99ea95652a980893d6ad67daeb1ca
+FileChecksum: MD5: c2bfd73d23105877184a1df4d0eb413a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/bsdi
+SPDXID: SPDXRef-1303204de305f0eb9d3fdb2517f09c9430ae1a03
+FileChecksum: SHA1: d1cd89d29dca6a15b94d0c0888e6fb98269c8533
+FileChecksum: SHA256: ce3eb20316bc016663d6e9631615ad921ea9a3a408f93bb05c1575c4e461275e
+FileChecksum: MD5: 97608eb706208d2bfe42330dfcb9a119
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/bsi
+SPDXID: SPDXRef-77c2c94da8e5397ca6d5e6ebfa34fd6984c3bc0f
+FileChecksum: SHA1: b81fc2749b0036d56d14f25c5c4179164d6a55cb
+FileChecksum: SHA256: 989f6fc7be3a1d05e7b9a95762e95dbbc13cc0fdf5874c3588c802aec2f59eed
+FileChecksum: MD5: 612e382b43cd713d2ca0e4b3d8fad991
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/btsnoop
+SPDXID: SPDXRef-e0ee0eb6de769055607ba51146520b0bc874a1b1
+FileChecksum: SHA1: 43fbbe459f3523e4fe6c3ce304595276b0548d28
+FileChecksum: SHA256: 9f89cf72327f90b1b92cd01b8ee52b19bccad85d4f44031bee64e48454687d47
+FileChecksum: MD5: 242aeb2a02b24edffd91aa093d4d660a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/c-lang
+SPDXID: SPDXRef-85e52b47e40f89be3d3860d505bd20de06384bb4
+FileChecksum: SHA1: fea253934a5993d4e2faf02ea9fdc62d322f6440
+FileChecksum: SHA256: 038ecb6875965bc9a2eae7c081e73a32f5de46ce11a4125b99f5af74ce698391
+FileChecksum: MD5: 06e20a58bec4baa116316549394c5caf
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/c64
+SPDXID: SPDXRef-f3d75d9c561c5d60fda30f4d3f3791204b42f7e7
+FileChecksum: SHA1: 0d6f42f8cf66d2cbaab801505353a9880bd6873a
+FileChecksum: SHA256: 0b27d28cf52e33bacc0a37985b4f76e2cc758dcf09167f1fee2f9ddced751346
+FileChecksum: MD5: d415b5ec59f05e1726f4625bec5b0d61
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cad
+SPDXID: SPDXRef-184690765ef6b9b52297628da91df14a3e8000ec
+FileChecksum: SHA1: 2cf22e291f2e06ce9ace900654c1c595a2f2e2d3
+FileChecksum: SHA256: 758fb8cee4c13ea3a8bb4a5b7d5174d7a97044f072e403b5045883f6a2d8b83c
+FileChecksum: MD5: 6f89c969408355b61798ad07b3ad2a7a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cafebabe
+SPDXID: SPDXRef-d5252cf7689a7d3886172d4b649346f589582182
+FileChecksum: SHA1: e61e010e9007ff021c6ca24f3c6c6817f444871a
+FileChecksum: SHA256: b0d7f0ddbcc4728e02aec76a1fd069f2f696aea54ecb835b0b7a9b9db224fae8
+FileChecksum: MD5: e9ef9d754915db4bf2a3b7255cdb2391
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cbor
+SPDXID: SPDXRef-32b0c8df82a0e52d1111d1ff47f1dccdd6b2e58e
+FileChecksum: SHA1: b91ed5e4a59a6eee1e0750edef431f5ad3e9707d
+FileChecksum: SHA256: 4d22b6eaddf5e476d4f13816bc51f92e5e000d159ecdf23046ffd615dde3fccd
+FileChecksum: MD5: 3a795a52b2931460f463aca2ef757f9e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cddb
+SPDXID: SPDXRef-9f08d58d5f7ee58bde40faf38cf3834b8930a064
+FileChecksum: SHA1: 7fe3f4eaa92f196b42fc09ffcc305a747c03f557
+FileChecksum: SHA256: eb08c00dcdbb5a629f454017f13165f7cc23e6afd4665887df3566917abb83b6
+FileChecksum: MD5: 6724f649cb68f61f37f12b9cbaa8b2f4
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/chord
+SPDXID: SPDXRef-6d9f922dbd2d8a161c8385b2810030e15300fdae
+FileChecksum: SHA1: ef49bfc684b6f786f572eed6cf252ce761104be8
+FileChecksum: SHA256: 6501631199bd3de41c2e5f12094eab78dfdd768502adb6214e82fbcea3378c61
+FileChecksum: MD5: 94f7d53f42b7d52f7b8545f3ec6c1f75
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cisco
+SPDXID: SPDXRef-865c24a3d6a8f700109355cddc12c659a95911e1
+FileChecksum: SHA1: a17c946af8b436156eb374529c87042e4188931c
+FileChecksum: SHA256: ca4c9bf636f22aab37a1e3ab9369d001a7af7a89cabff000ddb845674b465e2f
+FileChecksum: MD5: e65257d0d79caa72cc6cbd73547af07d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/citrus
+SPDXID: SPDXRef-4945c3e697b57c46616ae0dd5db7159e4b089678
+FileChecksum: SHA1: 90806c72e03dbef78d6916c506ebecbad0ac8655
+FileChecksum: SHA256: 9b3cd3d85fabd108e51db328931736520df8f4153b23cddaea27482804edae77
+FileChecksum: MD5: 83149ef56242e941e82d27787d1fa9e1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/clarion
+SPDXID: SPDXRef-05f73c81f0f97945198e434957d4a12d2f98bf62
+FileChecksum: SHA1: aee13cb3b5b159193acfb9b7ec5335629ec89134
+FileChecksum: SHA256: 062796e2782ca4534e6e6494fd1c07841e6307c9e2c9af404398b74dc8777452
+FileChecksum: MD5: 53abbf875952f50bbd3d9772439d6bb8
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/claris
+SPDXID: SPDXRef-85c5075eaef84c3fcda60dd6098deee0a84afa9d
+FileChecksum: SHA1: 4027d40ab2f21f20994e2631be3b586a92026a3a
+FileChecksum: SHA256: 3a9f171f211b4a0460e52418613f3d3e291ff01a33a4f8d49c0bfac267a15ad3
+FileChecksum: MD5: 723c80ca87a6736353c630563759cb1c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/clipper
+SPDXID: SPDXRef-2ebd090cd69d0d42112902c05b390e5241248aab
+FileChecksum: SHA1: 312833bfa3af89919010d6be792d924bb3409887
+FileChecksum: SHA256: a219e709f7fab45127cc706c34cfefd08eb25c6b662b2846d99fab83f195e66e
+FileChecksum: MD5: cf67b2707301e76d7b204911890529cd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/coff
+SPDXID: SPDXRef-9cca1e341eaf21289582fe8c68ff78d3d5a77a0b
+FileChecksum: SHA1: 7a0d0f689df2e419c576a87e9b66cc1954aad448
+FileChecksum: SHA256: 1786f0e131aa8ce0f0bc84a0c11c9f25fc3e6be916187d4e10a6cbec788b6669
+FileChecksum: MD5: f7d1cf9c159428a962c67c3377e95cde
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/commands
+SPDXID: SPDXRef-ecc7583c52ae3af601cfe15354111e9f11897f5f
+FileChecksum: SHA1: ada55e3da87883a6c3ebf3c70514221e9c9671dd
+FileChecksum: SHA256: 62d801f81b4a70ac49f1144edfefa1e23997ddde59fc3d648732b3b952044713
+FileChecksum: MD5: 3269f6e3b8063f79b0e3f6767d9e943d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/communications
+SPDXID: SPDXRef-1d6771dd10a31c90da206995a4f085046d15355e
+FileChecksum: SHA1: e46f701bec1275634a4dfcf803b23418c9672993
+FileChecksum: SHA256: 4753c68110ec69c245fe13e71ac6b26ebb981c89e060b6be37a066d099701c49
+FileChecksum: MD5: c2ea10413dfad7b9f940726aeb136c66
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/compress
+SPDXID: SPDXRef-319f725c845e5990259da96a14b80dce8d5bc0f6
+FileChecksum: SHA1: 8660c780626845f74fbefa2fa3724cc3a1eab469
+FileChecksum: SHA256: 027b4878af11f705e1a119792430050fc12ea893a7f49e1c87460d8617aed633
+FileChecksum: MD5: 012a220160adbb564b55483bc465df8a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/console
+SPDXID: SPDXRef-d895a4209161692d93d30e955f47d5b9e9451be6
+FileChecksum: SHA1: ac7eb2e43f36f5d3d2f516f83e6aa5835244327f
+FileChecksum: SHA256: 4b17b83a0d6ccb8b2228e3bfe7525568ffbfa32061bdc268766a8fa9a3b92d9a
+FileChecksum: MD5: 93aaeee9a804a11ee8f4db2f064cd9ba
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/convex
+SPDXID: SPDXRef-73293745fcd4433036436a997f48ac14df85c059
+FileChecksum: SHA1: 2e888642837b6862fb608b417765852bcda9c06d
+FileChecksum: SHA256: 7117a43bf6c02f0d9bda7a754400ad3c93988e8a1eb0117774fcbe32fe603458
+FileChecksum: MD5: c52e2d45d3b971ae66e0d2cd7a05a1f3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/coverage
+SPDXID: SPDXRef-c8b3d12e8e78f6bb87c8d9d61b4c89c26ceb979f
+FileChecksum: SHA1: 8ed252aeb677cc98b21ffe9308a0c13085d3bd30
+FileChecksum: SHA256: 77f009ebbedbb968fa6148e0d77082f5034a7dfad0ed4eda90f393b4817a53be
+FileChecksum: MD5: f1112ec0a8ce9b3346ea1a7c215b22b2
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cracklib
+SPDXID: SPDXRef-6edcb6c637ce15e78c4e422448d1f5f80b4e5d84
+FileChecksum: SHA1: 128529ffbcd0f7fcd4aa4aca67515c0f13e51ef2
+FileChecksum: SHA256: a21f7aff537e6d25822290c25ddfce8f5f2848e2b035694a97c120c5b8d05b0d
+FileChecksum: MD5: 0418133f186138235f6097ff8d2fb00c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ctags
+SPDXID: SPDXRef-02350b2dd366d14fcb233d3111f8e6cd347b8f1b
+FileChecksum: SHA1: ce2fdb05d70cf1243dbf24801fa0b0ff92c7d90a
+FileChecksum: SHA256: 592325a482e1c4129e0564cb744a95505216b30a0def9e3bb8d322c662881e86
+FileChecksum: MD5: 96a28fb39fa22c9eed41b1b76df97c28
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ctf
+SPDXID: SPDXRef-bb57bc05110f188f3302b48e8a8fa35597d36132
+FileChecksum: SHA1: 0a4884a14f4eaa16a65f55d661fcdff8f529a5fa
+FileChecksum: SHA256: addf663fd3216e6bb7b3c40bcbc94ce38b2f8bd82ddbc433d242bd7454b3e564
+FileChecksum: MD5: 6ae074b358cce8accc9fb40b09d7dc88
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cubemap
+SPDXID: SPDXRef-4e7bdb26733aef4503499c545915477a337aeac5
+FileChecksum: SHA1: 9260a595806db71339d939eb6d89f880622c3a3f
+FileChecksum: SHA256: afcc8ca683f7d3e308d5df451b5598fcd4976ec84079bb5b6506ca0c4328f42f
+FileChecksum: MD5: 3ffeea85ec1d39846d525df400f57989
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/cups
+SPDXID: SPDXRef-c0d27d2a218c842ef7d360a5071e1763aaf01fe8
+FileChecksum: SHA1: f65906a3f56054ee0735628db0230f3b4964c276
+FileChecksum: SHA256: 272f87c9945a08e7858e0399bb04b91e60b3f3eb1aa6eb91839b6c6936f0d8e2
+FileChecksum: MD5: 9414b060fed7629251e5c77e8cdc10c0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/dact
+SPDXID: SPDXRef-27e1928e5f881237f4320dee832cb944b598ac46
+FileChecksum: SHA1: 2c5e1a2d0bbbeffabae7e5e1ff254771da74f9ae
+FileChecksum: SHA256: 50fe68fe5bdb27376864a94ab784cba4e09383bd23ee8f2b9d0f6bb51407a185
+FileChecksum: MD5: e201c24d2db8b0d08f755ff274695496
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/database
+SPDXID: SPDXRef-9d1b2453341152d7adba2cbc316a2abe10c04584
+FileChecksum: SHA1: 0ce24535da01fd8fa4dd1d960f416fcd8ed4f324
+FileChecksum: SHA256: ef736d2496085966b6c3922f1b756b64dbd604c734fa12e0d545fb69dc6a741d
+FileChecksum: MD5: 22afad831f577a1cf0b8cde53ca0dd73
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/der
+SPDXID: SPDXRef-13c830414bce81a074b05f37160b5db2df13b1ed
+FileChecksum: SHA1: 8eb5b9926c81a05613da9c6a16af3033e51707aa
+FileChecksum: SHA256: 0024e79bf7586cb498c9ea3c0bfe9602ffd583780660876d952250f20b79822b
+FileChecksum: MD5: fb1703a0b5c55853afcea17cd48d37fd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/diamond
+SPDXID: SPDXRef-9e9a09979a6b9591c6495bd39bece8c219a3f6b9
+FileChecksum: SHA1: 5c3e90900c7685b3837c6b8e3fabf605695d436d
+FileChecksum: SHA256: bd5c8a9d362dc73215b47db4c4fb7c0dd518d93ae4b45a2ecbb96882a813a543
+FileChecksum: MD5: 546b1e9abbeb95c511c8945d18cb5928
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/diff
+SPDXID: SPDXRef-fdfb363e57934f1c7569c79f8cecc28489f5e422
+FileChecksum: SHA1: f3f774d19286a2a90c53acca2055444a92e47c2a
+FileChecksum: SHA256: 8a1b16442b07fca124438e4ec0bebea20eef2c0b54fedd6fec130e69143d445b
+FileChecksum: MD5: ebf23380c591874b8c287850f5da400e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/digital
+SPDXID: SPDXRef-55c13908ef226be5d87ac1f74383a183ac8e6264
+FileChecksum: SHA1: 0454da2ddb6de44dccb471d89a788fdf9c93447d
+FileChecksum: SHA256: 743d7a1f50d900c8e3263a0177b4a19211316cf85efa91676991f8139a6a5e28
+FileChecksum: MD5: 4be6cfc516f91579d375029cae9d25eb
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/dolby
+SPDXID: SPDXRef-32bde1e3b6c683b9204141754903cd980baab0c3
+FileChecksum: SHA1: f7313c54fa40d228110418e889b425c365e86013
+FileChecksum: SHA256: 0de3b3943091965ed4d3c76898a63c14a4dc99c45977dc757c5497a6e47d6c8b
+FileChecksum: MD5: 1c8d6bd1430cb1ae928a51250607356e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/dump
+SPDXID: SPDXRef-c1875e18c3ea68d55e2d92effd3f54584925ad74
+FileChecksum: SHA1: b0c0d22edd64edacbc024adc77d2da2fd8d8baae
+FileChecksum: SHA256: 9e099a77db066e711d839d03c11937c3f912ea839cd8417151d7bd1c229aa88f
+FileChecksum: MD5: 85ef58ba807039e9c21a851f1e27e920
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/dyadic
+SPDXID: SPDXRef-cc27d9d6661b564e23ec912417b596797179c393
+FileChecksum: SHA1: 567d2519f42d6dabf4b7c4cdde04696febcf55ca
+FileChecksum: SHA256: 7b5ac48ab863e826fa1e5cbf8fb76be74ad2ca27885cf24d1357aa7df488313e
+FileChecksum: MD5: 7474a8533454f75ed0336fcf79a6f5f6
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ebml
+SPDXID: SPDXRef-017b144bb81c4f5b293751f5e24387ae190d37a4
+FileChecksum: SHA1: 660b01e902628de9909e7ea6e3ac0f9300daff27
+FileChecksum: SHA256: 4c24beb56470347223235a6ea9f199b074c494e75b95efea9a47def4a65e9f60
+FileChecksum: MD5: 28e71809ac60098957cf1a6f0200a964
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/editors
+SPDXID: SPDXRef-6570f058e625cd23cae53df840d7c5e9343017e1
+FileChecksum: SHA1: ff6932b5a5458810d5c10a839a0dd0f558432a37
+FileChecksum: SHA256: 56fba61f96e2e32e04c4ebd06b194571b3c5b10e0b6e1944abfec06ea876fc3a
+FileChecksum: MD5: 5bb842625e653fea3b1c8d8f27bfecc7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/efi
+SPDXID: SPDXRef-70985cda9a06b870f038e3c582c7201140508459
+FileChecksum: SHA1: 2e7b24a5a175dbe70504f60f28aa991f5b2142b6
+FileChecksum: SHA256: 3ae0098b73e275433564ed8c81dc7bfe1ff5131134c63d7e8e279ac4b51b8351
+FileChecksum: MD5: 468d2646628a6db895f81e252af84f8d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/elf
+SPDXID: SPDXRef-abfc8f6b635a4e6d28d4551d5aed4c361d8be5c6
+FileChecksum: SHA1: 509bbe8fea973f241767ea50318e3c33caec44a8
+FileChecksum: SHA256: 3d9300d01d19d392c17a206966945f4b9c8853a7c7147eb909b8710f964841c9
+FileChecksum: MD5: f65b65119e64dcbd92346e78e2f94295
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/encore
+SPDXID: SPDXRef-604400a3f8711b86c638bd038009887e024124ce
+FileChecksum: SHA1: 4fe8128d7e795cddb08ba9b5ca6adeeed23fa7ea
+FileChecksum: SHA256: 3ddc8b79d81511d34d56b33e80f51e5943f684c1416fee7d785548ef8687c3e5
+FileChecksum: MD5: 4af82002a4c59dcd947af19b69a12ea5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/epoc
+SPDXID: SPDXRef-a806737a0be2efdb9d5364519d81d9e4979c4749
+FileChecksum: SHA1: 5d64d4a6035fc0441bed45b539aea660f853e147
+FileChecksum: SHA256: 73a23019d572e36784171445115450573d34771d983dd3b68d53b01457197652
+FileChecksum: MD5: e7c46e57ef3fb99f76ec385955876c04
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/erlang
+SPDXID: SPDXRef-2d1fcd0bb653c533a877ee3962ac43dee22425b1
+FileChecksum: SHA1: c69d5c4c92daa2465bab36902a9b978530c7e24d
+FileChecksum: SHA256: cceddfd4ec922f2c010395e670b3198c0d01974bde9201529008c2eaa5e9aa26
+FileChecksum: MD5: da1a56fca219f42ac837ceada63484d1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/esri
+SPDXID: SPDXRef-36f28c7e90db6e471bfcadbad3b194d9fc3f65a9
+FileChecksum: SHA1: b3d8298d3bd078a4b51782b5fd04dd72033e6810
+FileChecksum: SHA256: a64877264e97e4eb30b717a87d3ea6c625ab636b87f013b84214b80b55af9484
+FileChecksum: MD5: 5d798051b7f24db2b675ae1d12cc629d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/fcs
+SPDXID: SPDXRef-65b4b04671962a331242e566a133d8c1d961935f
+FileChecksum: SHA1: 8af2d10c011f96ec466be96bce842b94818ed15e
+FileChecksum: SHA256: 41796739ee611406b7004bbdf79386a9a7d187ac9a3a2856711b0151ea4ec5de
+FileChecksum: MD5: 292a3ae01e0d4548a5d799685d45beeb
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/filesystems
+SPDXID: SPDXRef-cff136505bbae237c89e1f0c0210a325aa9aba91
+FileChecksum: SHA1: 4d64be478cf4cb676e88c62d3d9dd6ae3f09ffc1
+FileChecksum: SHA256: 8d978109786ddbb602cd68fb3939b8628707d2d22af59f0d58897123bb45001e
+FileChecksum: MD5: d4202c21ca74717f96a653b4c390693f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/finger
+SPDXID: SPDXRef-431e044017c4a2c5948ebb7991b461a16ce97997
+FileChecksum: SHA1: e093d3e6a7b939d8eb0433d9f920b581e856226b
+FileChecksum: SHA256: 2a3a791150cf39de0a0910a1700c983016383183c541d166cbc4040912811f56
+FileChecksum: MD5: 6dd6520583f0346246893d8d348eee5c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/flash
+SPDXID: SPDXRef-98dcc6f0556970a7ec8e39495a75a940804a7a18
+FileChecksum: SHA1: abb961f4b5caf1a6cf3beb81cb33101377b422be
+FileChecksum: SHA256: 55fe0ea6498d08610c752cbe8c6c6d698bf383517fbc50bf0b023ae82678fbc3
+FileChecksum: MD5: 262157120ee61678cf4eb1f3713adbc3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/flif
+SPDXID: SPDXRef-08e365f793953151444cd137ecc80cf2e424a20f
+FileChecksum: SHA1: 83a4bad908c4d77760dedbce85b34d926609d178
+FileChecksum: SHA256: 3a11f7efe4dea9083a6b740b49725462ff62df4ea842d5d79d7fb5bfc9e58dc8
+FileChecksum: MD5: 8e21bfa63778b4c83df925c6ad8354c9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/fonts
+SPDXID: SPDXRef-12b1ba3c2cd86f156eec30ef0b436a0c0b25dfdd
+FileChecksum: SHA1: 1f6e9763babc282b0728c887a2f0d3f977f7d68f
+FileChecksum: SHA256: fe19439fcd645a4cc6d1f7e6486efd8a4b56f0a7f7aedb9e95a2086fc43c0669
+FileChecksum: MD5: e702903ee1588b74dc430f652bb71f56
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/fortran
+SPDXID: SPDXRef-904c108a194933fe9ec51d9279d22eb9b3b48d70
+FileChecksum: SHA1: 2c7ffa1a0033309e22c4b7aa1d137ae42097b8c3
+FileChecksum: SHA256: d5a51508396c19a52c429ef3486ef5093a2b49a4705ba1f9c9a773000eca9352
+FileChecksum: MD5: b504adc931c5ca78d4c613445b7b3fbf
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/frame
+SPDXID: SPDXRef-44c5be49e258a8b85d3a8a0bbeb752636d127f8f
+FileChecksum: SHA1: 198cff4cb73c2a3bb6d60e337550c7d923a223e0
+FileChecksum: SHA256: 9aff6ccb884fbe8e013183c4f87525d2f88bcc70aa1f5812f4c24c00ee3fd383
+FileChecksum: MD5: 8631858216fc773e8e6c3d1163d1a150
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/freebsd
+SPDXID: SPDXRef-4a20b4fa0e5e06a5c78b74ca28a762892d1fb40f
+FileChecksum: SHA1: 5d9e3166126054010c1fea39763e5d6b1b022149
+FileChecksum: SHA256: e2ecd707477caec66038edb96d8a56f84084f410afe8e7a2522e8a27f20aae6b
+FileChecksum: MD5: 2c7e1862f5c52239eaa2fbe9765bb2eb
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/fsav
+SPDXID: SPDXRef-11e0545cda9dff51623b9130156611e53a706b5d
+FileChecksum: SHA1: b5ae35e54b7668ec844585aecb7ce3ad760e8dfb
+FileChecksum: SHA256: 4588f10f2362313e1560057b77fcf2b321f51d73c6e531583ba90da524bb46c1
+FileChecksum: MD5: edd9a41175e3fcf1ec1afcd8982dafcf
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/fusecompress
+SPDXID: SPDXRef-7d08e50a347f6a2bc667c4b6a1e30bd406def254
+FileChecksum: SHA1: 873cdf90bdaa786d6b3b070c06c7b297089d2973
+FileChecksum: SHA256: 4ec5ea5f7ed0f2437493a79f26ef7a48f0d108f3421fb09b8efd646c29d42d1d
+FileChecksum: MD5: 8256297a0af29a58db90c2f80637b5a7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/games
+SPDXID: SPDXRef-c581e6ca506fb29c4dc52fc0ceb301e4b512f471
+FileChecksum: SHA1: b33a10cafaffa7cd1c2a7acc23c6c5695403398c
+FileChecksum: SHA256: 30c4a100e5d8581645611d90ab3079fda6d2d5aa432582844a091675a0b60b44
+FileChecksum: MD5: 460e0685b51c5542e8f87c500644e1f0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gcc
+SPDXID: SPDXRef-271ddb29fce58eca00ed7339a4a5c7977c940595
+FileChecksum: SHA1: 3644f0cfc56de546061955e04b26c3f98140ed33
+FileChecksum: SHA256: fb1d67794f7fbc436bc7ee02fde9766b5114d72ea54664a42e485ecaefd4ce24
+FileChecksum: MD5: cb95e2cb3bd95b91fb626734cbf8a554
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/geo
+SPDXID: SPDXRef-0fcb4bc539e204ffe01e1ccdfdea2a1a8cdf2760
+FileChecksum: SHA1: 835ae6b87ca9dd008bc343e7e9d3f5cba27c6215
+FileChecksum: SHA256: 4870b827eb9ec2e3b248f1df292c6c9d05ae7c764b2fc907b412004b9f23a4b9
+FileChecksum: MD5: a0805b120fc44f350d84eb4d1e41efa0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/geos
+SPDXID: SPDXRef-2143574fec40933c605a7cb6830dadf2b8f22b70
+FileChecksum: SHA1: bc6433da3eebb388f8221914726ca48aec46871d
+FileChecksum: SHA256: cff13fd63bc5d2eb9e4733219fe9395e70cf77699abea1427b4417c0e5162997
+FileChecksum: MD5: 18abc337230ece2efa2f6559d0f971de
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gimp
+SPDXID: SPDXRef-b43d744d5f6519902117d6ca424bd725dca1b166
+FileChecksum: SHA1: cfd069725c53f87b05ca0dfce4ca6811206749a6
+FileChecksum: SHA256: 3239d66ec7e0b0f0c2eac766dc5e660dae4ac24dd9d2cb8e197d8652c6db0b86
+FileChecksum: MD5: e3711904d2c844bdc7d53f52571b00c9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gnome
+SPDXID: SPDXRef-505f2cf05b4f0555849222be8aaab92741d7c7b0
+FileChecksum: SHA1: 0a81708cd59bfa6f95e02bd89fe970e3cf666444
+FileChecksum: SHA256: cb32f2fcd8144e124191bcd226531eb51c5ee6b60aeb026339aab756f0f7bbf9
+FileChecksum: MD5: 1edc8362c6b11120c3b705f00f622ab2
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gnu
+SPDXID: SPDXRef-50dbaf1ce272d87bd7e17abcfacb9ba9ef11b7be
+FileChecksum: SHA1: 2037b22ff49d523626d2bb961e7586ba51d6c2db
+FileChecksum: SHA256: 891d949fe4f83c67dcdec77d4a1dc909b205eb9eb2c00cb638f1313e40716de2
+FileChecksum: MD5: af0b43a117b1e8f5bd5fdec26fb16c27
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gnumeric
+SPDXID: SPDXRef-f712919d49cd0608e801c061e6c79981cc7bb8ce
+FileChecksum: SHA1: d47c1530837cb6132f9255f6b5209337ad044c13
+FileChecksum: SHA256: 7181966aef15c105d6d3635b2dc4c55c0d7486449ec7a17c757fbc9a63d3bd9f
+FileChecksum: MD5: 15b65a75a78ef1f63e41f776f50a6b44
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gpt
+SPDXID: SPDXRef-4764db855d878ca84063ace32f648887b563d569
+FileChecksum: SHA1: 532117d9f94f59dbfe1ec7ba9c4ecee4c7b67c60
+FileChecksum: SHA256: b5fe24895233e6ef11a33c1ad4930cda097265a707bd547135c91b9fd49fbb17
+FileChecksum: MD5: e92b6c5c569f7d423bb8acba2b1c93d0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gpu
+SPDXID: SPDXRef-3772806cd46dd7d0db9f642526ed3b8755074244
+FileChecksum: SHA1: a87d79d1198df7bf4bbf34fafc9c923cc141bc5b
+FileChecksum: SHA256: e117b6587609e376a3f78c5559fcc3e8df56930ec0db5964eb5912e5027c8f57
+FileChecksum: MD5: 51380502e2987a1c8b0fca71d4db76b1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/grace
+SPDXID: SPDXRef-48db4e47bb6055866e4175cb082dab19af02d8ce
+FileChecksum: SHA1: 87f7ea906f415a82251487f59a705dd47d5a9856
+FileChecksum: SHA256: 0fad24fa6dfcd4c6d02a1adf286cba594b5f768c818f0c008f99a5e1c39c91d9
+FileChecksum: MD5: fc7965b75f0cbd2fc77fceaeafca4919
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/graphviz
+SPDXID: SPDXRef-aa513663fa3c9baca6dae09ff65923b31d1c1dfe
+FileChecksum: SHA1: 062f82e253049476f2659cd321b0e855caa509ce
+FileChecksum: SHA256: 346bda43383f2eda019dfa15d9258b8e498b1805657eb3a1910e6ce64993aa3c
+FileChecksum: MD5: 93b6ccd3a78dd7f3110e0a71b3dc3b9f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/gringotts
+SPDXID: SPDXRef-dfdc1b25621ab2632f3d521bd9d674b68f629732
+FileChecksum: SHA1: 6818c1f9b03fc923975cee2d11529b482e4bed87
+FileChecksum: SHA256: 37f4661e551c943312843979c72467b72aa58a4cbe94b7e705b5847106afcf72
+FileChecksum: MD5: 577bb2f64a17a8d2e594a79901363a19
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/guile
+SPDXID: SPDXRef-4e4b82f2e8be201b8c010900a14dfdaef224ac84
+FileChecksum: SHA1: 23dacfa5e07c4dee91505ff7bcdbe40f5a33918a
+FileChecksum: SHA256: 9d5e3f5f642014d1149f5e4967f312f46a0f3d706dc18e8f7b0d8cc654188d74
+FileChecksum: MD5: 798863a889c978ae60595ec4306d1591
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/hitachi-sh
+SPDXID: SPDXRef-392d46592f9355830cffe31f769934919df1553f
+FileChecksum: SHA1: 4136d49f28f89b93fae4ccd863c3bb4470343afd
+FileChecksum: SHA256: 291e8377e8620536bdbaec2762d4132529cc04b205ef50f57d8271b13b565daf
+FileChecksum: MD5: 398c378a96ef52d6f3dd76d9458834fc
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/hp
+SPDXID: SPDXRef-b8d4498c2124fe872028248fd7f2b8400eae4f7d
+FileChecksum: SHA1: 0faea166ce3f8417443e5ecb37be7f941a8385c0
+FileChecksum: SHA256: f4910ba098682801e350ba371d83b78ef1e400fb47141167a77a9b3504a7bff9
+FileChecksum: MD5: 9fe8226d82ee24bfbd7db58809c257f7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/human68k
+SPDXID: SPDXRef-35230f22be56810a42d551e10e30d08b5b8c28b6
+FileChecksum: SHA1: ac7ebeb1bd4f70a56281c431dd05f3d88ced67ca
+FileChecksum: SHA256: b1fa7120ff1824ad0388dd62f652ac99f93e7f7b79821efedf5406494a4fd13b
+FileChecksum: MD5: 9b58a058a5de6a9c472ad3d61c1eb8c7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ibm370
+SPDXID: SPDXRef-af95ebf9205a576a7193b4641476b33eec81a69d
+FileChecksum: SHA1: 36db8b2634d32dd4bc53df233023fefc0bca26f1
+FileChecksum: SHA256: a0b04167018779c8a820180a1de6d57ac0bfc5706dae20e897b6b54f2f4f4ddb
+FileChecksum: MD5: b48011e41745f087184de952b6a05f9c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ibm6000
+SPDXID: SPDXRef-078e1f3e88379229b818bbe142f37dd4b144ecab
+FileChecksum: SHA1: fae8f2357e555a1ba9d3f5d7b1b5aedb8975152f
+FileChecksum: SHA256: 0b9fa1d16ec1192ac7a97ce4aca2c2788f07d132c8dd9f8a5fbd73941b123669
+FileChecksum: MD5: 5ddcad4ab8a5e7a14fb8755171ebd219
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/icc
+SPDXID: SPDXRef-d180c371fb86b5d31ce7573e9b84f1fa8b9013dd
+FileChecksum: SHA1: f3846189524e842bb737765d453e62fa5b987886
+FileChecksum: SHA256: bf5beb958f76a900c410da4d9d75e189495a38e1f23e7529dd31f33896ecaa20
+FileChecksum: MD5: 7089c37ebe345d72b7488f741aade29c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/iff
+SPDXID: SPDXRef-c2c1ee3ddb8605594d0fddd59758c3d14abc8815
+FileChecksum: SHA1: 3cef20d45b56319cf47597bcfbf80a29cf4fafe8
+FileChecksum: SHA256: be5283f93253eda8acddfd0d649a377bfdc913146aeda0063f5961d58f4c0741
+FileChecksum: MD5: 6b1135a19e1aafa9389a26d7f398cd16
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/images
+SPDXID: SPDXRef-7e36dc6918a5800f7de68f12c0d247b77a427bef
+FileChecksum: SHA1: 3150913e88e80bc90fc15c2acdbafeb866b7f248
+FileChecksum: SHA256: cd066863236ae95c97959d424fd1bd14a2ac7494db2e1c99f52da52f5652146a
+FileChecksum: MD5: ae012c034a6a7ac5ee0642b93a4fd79e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/inform
+SPDXID: SPDXRef-91029eab86c9f82af056c4433caea0701a0c21dd
+FileChecksum: SHA1: 62d71014a60060e3caf77872fd6b8d8b0e16020a
+FileChecksum: SHA256: 530760ccdf806b212be8cb04db0cf2474665bfc205dc5f7565a51a1253591848
+FileChecksum: MD5: 205fbc412ab9c481604597c6f79f9dfa
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/intel
+SPDXID: SPDXRef-1b9b02ed41ecf81058a446b26f7f5ea0ea63c7ce
+FileChecksum: SHA1: b8bc06b5dfadcdf4d34106bc1ddc76f5cbd64ab9
+FileChecksum: SHA256: 762915829411ecc74f253877be4456a1703ba6ff5706c7de0fc971a4b11089af
+FileChecksum: MD5: 3145be14816f14b17f787610cccdc60c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/interleaf
+SPDXID: SPDXRef-afccbd2e945cb15320856fd8aea2bd975bb5a3fc
+FileChecksum: SHA1: 2692b663ffce1175def3f47605a95fc8da72a3e9
+FileChecksum: SHA256: f986b33938ca9e3fed5430616be55d8fcca89b138615226ab578515109ba6d9c
+FileChecksum: MD5: c92ad9f603160de1e73a86912bb932ef
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/island
+SPDXID: SPDXRef-5c93c7de2b4f7905cef98b529ceb07d460711e30
+FileChecksum: SHA1: 10ca18eecbc9feb1c31687c3fbcfb4acef935d1b
+FileChecksum: SHA256: ef77d09f2e29fb9d2b404e1092b5843e5ebd31832dc3c45863945af24ddb1f11
+FileChecksum: MD5: 0da6c4f2e274aa329ad6fd3967f53588
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ispell
+SPDXID: SPDXRef-2a3d409ac8fba32d80d446077e3b136652ec99f6
+FileChecksum: SHA1: 0a7baf178c00c8ba13dbebf8c1fd8dcef512e617
+FileChecksum: SHA256: 8659270f8eaedd23d6c4d86f9cf296fde5b76d999bce73bb7fa49fb6d5f174bf
+FileChecksum: MD5: ac02b1bae0ae6a7c691fb8cbb481d183
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/isz
+SPDXID: SPDXRef-c3a732456bae19aace78da6b9c23fe2072714e8f
+FileChecksum: SHA1: 976e95884a4cb91673b4998e0ed390794eb3f10f
+FileChecksum: SHA256: ae6cd35a2c2b9438f3f04bce9acfcb125cf08b4e54594f7dc8ff2e8ace517df4
+FileChecksum: MD5: 6b7956c5a7dd3f67df2675c74d32b0cf
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/java
+SPDXID: SPDXRef-b0f8b9dabe01e61ab81837fdc1d8227637ecb79e
+FileChecksum: SHA1: ee15fe9f4cd78f1f84193d5500b903a96dcc01a9
+FileChecksum: SHA256: e5caaaff48cba3a74ff267860cf24f94a9d953027c66454a6cc8d94ba08ec418
+FileChecksum: MD5: 5074302e167dc9b01be028c78a7256d5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/javascript
+SPDXID: SPDXRef-463f47d9ce50e48824e3feff44c37e677a68e5ea
+FileChecksum: SHA1: 4d6a93dd0e692a069fbc2bfa14b07160f5e3befe
+FileChecksum: SHA256: 650338d786427454bb8e71a9917f71fe071a198cb043ba3368686add3a3849c8
+FileChecksum: MD5: da036aabdbacbf3e7aa843dd449c6de0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/jpeg
+SPDXID: SPDXRef-8867e7470ea8247462685959ab3484b481e8f823
+FileChecksum: SHA1: 8eba2d64ee99439976ec03aba79c2350b3ec6c3e
+FileChecksum: SHA256: 4ca894a5316941e9c33bbccf048e131b5355dbdee0c1bcf75cdb51b3083cca9d
+FileChecksum: MD5: fd06994e94e8569df510edebdb4f180e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/karma
+SPDXID: SPDXRef-6f2b5412da0b944ab07826f4fae4fd9cba47bd00
+FileChecksum: SHA1: f012f60d05146cc4c2a20e4bc42f5716163a055c
+FileChecksum: SHA256: 4c7a46c66eafe27cc58df0406a974b37ba3203882f5e5626371dfdadb6f05ffc
+FileChecksum: MD5: 6b6504b8706d368a8ee0a4d1320885cb
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/kde
+SPDXID: SPDXRef-9e7c2bc905c7bcc9974ad6db1e6df21fbdcbe26b
+FileChecksum: SHA1: ba1711bd935d1696084b9bd94bd620faaf239aa2
+FileChecksum: SHA256: fa26e99ab12e841b1d156cf795a6244c84254ef5365b3ca907010fa4c3a780d3
+FileChecksum: MD5: e95891b862f12143cb890dadc228c18b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/keepass
+SPDXID: SPDXRef-6d65088e901ea103b600c52f1416edb16e32c398
+FileChecksum: SHA1: 3a7b961a9bb39c23e1a011b6c143a2a76162d9ba
+FileChecksum: SHA256: 5bd88e9a0e798629b46614b619ab5d4dc29c9511c6459321d487f0c1c8d19cbd
+FileChecksum: MD5: 2f46439e6ecf744f73ca79c4252de3e5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/kerberos
+SPDXID: SPDXRef-cb9aba9159f8d1a3c8c293fc720f190dc08d20e8
+FileChecksum: SHA1: 93257301d855cd796dfcba3be86d1384feb93618
+FileChecksum: SHA256: 746c9c2cf64f87cc6eeef73029b7a98a3ae958011a92fc69d6e09602e127a975
+FileChecksum: MD5: 72c58b9516ccfff4c3c8b831c569bf24
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/kml
+SPDXID: SPDXRef-aab24d0dc19b55cbf549511d7487ef9a9a9f3d03
+FileChecksum: SHA1: a2b3e049eb14eb0250144657c85bc0b0628de595
+FileChecksum: SHA256: d14fca4e439f13949671b96a285c708ab89b10fb0f5c1c6de1aeae457388adce
+FileChecksum: MD5: 0bb8c03f6e7e021c0d90088b7981245d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/lecter
+SPDXID: SPDXRef-a60113cfeeb7cb02b54ca4592c982075f0730633
+FileChecksum: SHA1: a6b6ae4454c0276689519d82d84e0de329a62a65
+FileChecksum: SHA256: 58b6a47843124076c98515cb04522e81b511a9458613a77d5509d3073e2c579b
+FileChecksum: MD5: 3dcc0c11f7a9bb4d4127ab5f5fd0a487
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/lex
+SPDXID: SPDXRef-a6e33cc322224170c21d10713ab101021d8e3f6a
+FileChecksum: SHA1: 25e06cda6689779778415ff3dcec5cc55d0666fe
+FileChecksum: SHA256: 61adf25afb433746d9f5dddac7fd81a4c0323e5b4226bdb3b357e32719f6c7a7
+FileChecksum: MD5: 6893bf28e98d243c67cc1a6de682e019
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/lif
+SPDXID: SPDXRef-8ea93c5204b28949b18f1feab839fa2c29f25d45
+FileChecksum: SHA1: 009a752536e0aa8324c852c8a7b1b85f6a3c5e4e
+FileChecksum: SHA256: 4957f943a764fbb7b5a6258f2dc425dc3c3dbb48f572c94d78952d8e0ed05809
+FileChecksum: MD5: 11609c38463bd01994f369eabdcd7dfc
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/linux
+SPDXID: SPDXRef-00cd339dd125d56b6a4163a751cf312e869765dc
+FileChecksum: SHA1: 5faaa0aea090827ee040b3028312d816694de59b
+FileChecksum: SHA256: f345b2153c9182edcaa8533d3bf0091752fe404f2e941a7f4bad147a5392b364
+FileChecksum: MD5: dc930d9d9f575945f55f149cec34aefd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/lisp
+SPDXID: SPDXRef-cbeb7259aa871e62bbe1e52360ffd77bb6612f38
+FileChecksum: SHA1: 80b8d31d1182904888e183ee16a31e71ee2f459e
+FileChecksum: SHA256: 25dfd73899613dbedccfc785381a04a6f7f710218043b4002ba7ea9367f30f8f
+FileChecksum: MD5: 6942811fe250fe078720f2bb8fda8ad2
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/llvm
+SPDXID: SPDXRef-934f5933658a9ab562fafc103dabfca8b4f47e22
+FileChecksum: SHA1: e4a013725bd82eaf3958a364b8e93b0ba3d89730
+FileChecksum: SHA256: 301b1ed149bc421ed352626142a947c44c754ee501810d04bc43c964b9a3471d
+FileChecksum: MD5: 3d484a1dd78445c84377414b12c20a0e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/lua
+SPDXID: SPDXRef-aef919db778af99413a84b91e2294cd0bc82431b
+FileChecksum: SHA1: 501e0b2eb1b4f789f7b69b1176e3479835eb6d42
+FileChecksum: SHA256: 560192ac7e34d17cc67e746f41fdb8778fd8b63517f4cd5e7bb648bcb7d369d5
+FileChecksum: MD5: 6ef37f3cb9e0a6143ddb361aae97c9c7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/luks
+SPDXID: SPDXRef-c973b53a8930427c52b86ea2f43d04c4b2a15540
+FileChecksum: SHA1: 4bbf9850017442a622edce07c28598636f24d516
+FileChecksum: SHA256: e8112cf16c8028e5a0af87477868074af0fe8a14b75499327cb8a59cc92db844
+FileChecksum: MD5: cb56b4313da150c10dd6169700b1ee5b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/m4
+SPDXID: SPDXRef-eeff405a6f22c9ed74d3c8b96d3020933acac3f4
+FileChecksum: SHA1: 0d20ffed348760bb17eee50deb982966366749fc
+FileChecksum: SHA256: 5f87f5a556a79494181c25ab840411c0e05ffa99facde0dba1ae1d2c00e90a9f
+FileChecksum: MD5: a98c64e22535ff64c36afc6ef7252790
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mach
+SPDXID: SPDXRef-f8cd0ea3f9fc81e7c129e884aeda43a8aca8d009
+FileChecksum: SHA1: 0732bef3a5f403f3a7e9e2adc0e195ddf03c57f2
+FileChecksum: SHA256: 988debc8756dcf2563d13315e0c2c41f5f2e47f986b65d6fe19a825088d49817
+FileChecksum: MD5: f953736821b7e76d40bb7dd6aa3be15f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/macintosh
+SPDXID: SPDXRef-5531bdd3861b5d377af0b64433e7f045a9042072
+FileChecksum: SHA1: 0a7b0e0e1798ce0c1b20150c6e37d1d2ae4d41b3
+FileChecksum: SHA256: 7f0b4b5e122986e3043dedae84bbb206c7bac3454f1e91dd42862f379654f8f8
+FileChecksum: MD5: 32f6136e5bbad4f8bd590995560e8f2f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/macos
+SPDXID: SPDXRef-448ce3cf6552473b0277a914976586ea6439d10c
+FileChecksum: SHA1: 70b70113e316cf57a9798a0163d6841cde9c5c50
+FileChecksum: SHA256: e12872f1619379f66075a7b1a36546455be0b79429f97cc24443a685d160bccf
+FileChecksum: MD5: 97f87f22d618de4baa6d98b88c3564cc
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/magic
+SPDXID: SPDXRef-604335a6b932e75abcfb20b5c07c0189380da28d
+FileChecksum: SHA1: c6e99a26d2d4865dbaef0958cea8ea1a13694a2b
+FileChecksum: SHA256: 07dc5d5ee19beac211aed18713d53a69812f6685e9da08c42d50a5f7f7068b11
+FileChecksum: MD5: 0a27731d291afed996e82c95f2d997bc
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mail.news
+SPDXID: SPDXRef-77f1771b3cb19457e15be65695dedd94de5255a3
+FileChecksum: SHA1: 1dfe714815c187d5340a40c3d2be50495d9cff8b
+FileChecksum: SHA256: 9c58fb2dba15eff7495e42338b9bbf0d5c1d9d17c6c004359aba635ef1f4bc60
+FileChecksum: MD5: 48713e00ec9cc8f2c34abf5f73ab92fe
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/make
+SPDXID: SPDXRef-256eb7f256739044e08ffcadabe90a8409682f03
+FileChecksum: SHA1: becf03da1fa1e70a68dcaa6c0ba9e00970686c72
+FileChecksum: SHA256: 9491994a70f0cdc1a3e3411f0682d20526bc240a4e3d1b6f53fc3916394a5279
+FileChecksum: MD5: 55c9d4c99712f4dd6f7dfa36f661de9b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/map
+SPDXID: SPDXRef-5a93cc022db5d100b12de0c7f4d751d0f5bd1223
+FileChecksum: SHA1: 895d76cb0a88112743aae99d75b7674ac4e0d729
+FileChecksum: SHA256: f0fb9e1ae22d1360a4cbb292e775fe10a4e8020419ad35eb8df6563225ad9ab6
+FileChecksum: MD5: 097f9051b80261598368843173154873
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/maple
+SPDXID: SPDXRef-dae4ea51093bcaa848d9b583544156b9bf720d54
+FileChecksum: SHA1: e0c738cb19b7b8a64bec9ae612a5512f2ab1532e
+FileChecksum: SHA256: a7c53e54e3af6307948c47698af7f654d58614e4c1d9e3926268a5c3cfb9e9a9
+FileChecksum: MD5: 7f24ed9e29e856cdd01e1f1506b7d0ab
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/marc21
+SPDXID: SPDXRef-b4324b437ab9229ed2a9088b18d8e8e13b445b2d
+FileChecksum: SHA1: ec51e5aae366d79a964d653f49d02ca689907122
+FileChecksum: SHA256: 039f85ea9685bd262a39d6a8e7e9ffdb390504f3c9bb6c72d615da77ad121ab1
+FileChecksum: MD5: a4b03364b9c1caabbb30c9ddfb3991e5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mathcad
+SPDXID: SPDXRef-e0c3f8af309e09e9620d9bc64a03e3a08ce4681f
+FileChecksum: SHA1: 93e659c8cc5a56c1d9d8c8fbdcbda95a03a9394b
+FileChecksum: SHA256: de4286933630c9f095b279093d98f6eb2d499c9f5c7dfa984faa4788ad1692f7
+FileChecksum: MD5: 68de4935f1b072f639e91f9ced5a1c24
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mathematica
+SPDXID: SPDXRef-9de945d29e0a59ead62083734aee0b20bf7ed7dd
+FileChecksum: SHA1: 26daa9b7beb87c724c38e98ef537d1d5db827bcc
+FileChecksum: SHA256: 0be1b3cac3377ac8234293cab282cc9ac7ee3a145a421c297e154cb90940b266
+FileChecksum: MD5: f2ed853f0e3a280623f575e5b95b5d14
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/matroska
+SPDXID: SPDXRef-254175221983bad42ec3c8b32882cd13bdd7bb59
+FileChecksum: SHA1: 5ed41759d826e454b12d266b487a03f0b68dab50
+FileChecksum: SHA256: 7db54476d1622c4475a224118f071f762755f7878f0a8a0d2a5ed59151d1625c
+FileChecksum: MD5: e635b3a22af2c1b5cb1f73038642eb80
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mcrypt
+SPDXID: SPDXRef-7dadaa67e1d251e02d453023991a04c1ecc6b07f
+FileChecksum: SHA1: 08286a5e962536268a31b2d819c87cf327e86784
+FileChecksum: SHA256: 2014f59ecf7c1f8e583ad5f50160adb3d4145f0467d61f96d20bcc28f322aada
+FileChecksum: MD5: b746125fe8e76e9761688a436cb546b1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mercurial
+SPDXID: SPDXRef-dbe7e5190adb6ec5363aeb901d7d49aee369c171
+FileChecksum: SHA1: 5fa769e2fe7634dab2b25b3a426cef50f51ed170
+FileChecksum: SHA256: 551f276763848b0f49f547e999983a68e55a75b2ad2f1b2f934f149f3cd367cf
+FileChecksum: MD5: 61155b4b9f98fe75b62e1d69a7c5918f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/metastore
+SPDXID: SPDXRef-b410847f3dd9502a01a942fe45d41031c7316af0
+FileChecksum: SHA1: d87946f245eac038d26f09fb26c8873db2e33193
+FileChecksum: SHA256: 79e55b977000cf6b3da96af78aede42e81c0abac9112a16326040cca0d00477f
+FileChecksum: MD5: dda06a50940be51e809e23be27aaec35
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/meteorological
+SPDXID: SPDXRef-82c89966beb131abf1c4d6e4d48df5f6199fcef9
+FileChecksum: SHA1: d08be5e25714c9a5c2780dbc189bc4cf86114f2b
+FileChecksum: SHA256: b940ac4bb8e26e1d2b0dae9d747b520354fe529f233d16b9fa7a4e6fc8295fc1
+FileChecksum: MD5: e9e0333cfb62a35803585a30a8c71719
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/microfocus
+SPDXID: SPDXRef-2004e76d37de0116130c6db7737b2cef12797358
+FileChecksum: SHA1: e650bc80abbda329f98fef581f28b854937f9dd2
+FileChecksum: SHA256: bce069935ca63cebaf4298c7686767ee97fdcc3d5f9469875d76ae92b337e9ad
+FileChecksum: MD5: 4d8d5e84d6b5622a5d7fba652442870e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mime
+SPDXID: SPDXRef-b57b1535d57be40af34ce02e4be304c70fff243e
+FileChecksum: SHA1: 15291ec9ed5a06ef6beca4b48ddd7553cf9a1553
+FileChecksum: SHA256: 2e4a51d43301023055c437533c6af7e41eb2b78f4ab2d96f2e27e82c0715ab19
+FileChecksum: MD5: 05831a2fbb26ea8acccbc7ff8879a7f3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mips
+SPDXID: SPDXRef-bc4be640fe2d69c47d8245885b2e6fd889b8bdac
+FileChecksum: SHA1: b820394c82d0f2f57ec96e45110f4c1cc7bc751a
+FileChecksum: SHA256: c0c0db7249d8fdc49eb41cf35fa2f245f85e2cc92461274aeeb845389ecea55c
+FileChecksum: MD5: fa6c44c31836c12f2cddebb9fdf14509
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mirage
+SPDXID: SPDXRef-cc2ecc08b1bebc91c2ec42518fd52311cedbdcbd
+FileChecksum: SHA1: ad57609202e1cb3690796fbda6641ec2386b6ce7
+FileChecksum: SHA256: 02773e547d5431c266ecb1d6d8de032e76ea31846aa82f1d8e8f88a05f52c1e7
+FileChecksum: MD5: 513dfd1e977675d36f9e745aa5aa1ebb
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/misctools
+SPDXID: SPDXRef-19e7f1811a49d5ad5b812b40b18696a23caf31a8
+FileChecksum: SHA1: da9626f355a5b9cd490a355a290d70f493a32674
+FileChecksum: SHA256: 7ce9f62f68e04017a188ab971554bbb7fa8d212fb3952d260a2928369c66a423
+FileChecksum: MD5: c714acd667a9e79ed71fb84d242148f1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mkid
+SPDXID: SPDXRef-0ce796f6aa42e66c5f96a3e4f61cb02ca4d085de
+FileChecksum: SHA1: 4b05e8990286ac599c31cf7234f55e132c086572
+FileChecksum: SHA256: 845baa1ffcadffe91661f05580242d733f0e6dfc6bc9f7b3c1e97baa0c54ab90
+FileChecksum: MD5: bdf934dfcf84b886d0d2ce6e102925e0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mlssa
+SPDXID: SPDXRef-4ba3cb921516ffeb5072b903cec224934f2910f1
+FileChecksum: SHA1: 1e52a6f7159de26b03dcd43317db0acf05e1cbfb
+FileChecksum: SHA256: e483a23b6e2496c0a35eb42e1103a38b93663c35cfd86bcf4a624ca3dcda8b68
+FileChecksum: MD5: d22ce85cba4cb93d4c1234d73ccabba7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mmdf
+SPDXID: SPDXRef-cdc407656f410a9e1cbab1ab6b39e6b954cc5860
+FileChecksum: SHA1: 8ec303676b76ef346155b7d90b1a6f3ab3ba938b
+FileChecksum: SHA256: 07370246c1f9b8f21c751200d8e957b311a9b8efb5fa6fd41120fbcd0a387252
+FileChecksum: MD5: efc64a55dee2cc92bb3c03958bb53aad
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/modem
+SPDXID: SPDXRef-9077e5f6b1dfd2f4484104048e8cfb4f5257592b
+FileChecksum: SHA1: a9c23173cf1326642182c2e6f5b414f4752dd0a9
+FileChecksum: SHA256: 10d9a0d3e74a49d1317b9477b300ca139a2f2cf10dab2d8640c7db24aa76ca69
+FileChecksum: MD5: 8d04f9220b94b6687cc2958cfcdc2c6b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/motorola
+SPDXID: SPDXRef-c65c30996e20d36e91322a9872e2fa225d7c16dd
+FileChecksum: SHA1: 27420594c43e1b0980d43f69a787ec025642df72
+FileChecksum: SHA256: 036e924bf821f6cf3663e7c70ae56c15a02eb16c9e2fa7e6cd81186299723960
+FileChecksum: MD5: 6f634c21df7d05ddb890c97cf68f1837
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mozilla
+SPDXID: SPDXRef-411bfb7ad92b2367792bbfea54893ed260489b6a
+FileChecksum: SHA1: fe6e117c2e198e4a66c651b8040701f919d59ffc
+FileChecksum: SHA256: ead4d20738ed6cd6fb31582beb41ec86e6779d4ff64c9dd73701fe5a67205627
+FileChecksum: MD5: 53dcad0765711750296a9832554e5aa0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/msdos
+SPDXID: SPDXRef-8d59a642dba525d54b8e18660dedf1e2dfcea129
+FileChecksum: SHA1: 3e4803633f5403bd91bf28a54adefcc4f84d62b5
+FileChecksum: SHA256: 985425e1746a649a6cee8647d891f80e9b84c34f291608d1377d8d2cb15104c5
+FileChecksum: MD5: 3f58cebf25ebcb1ddfa00d8d88869bad
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/msooxml
+SPDXID: SPDXRef-a373f92dc6a5e30cd647fb7cd8809ecadd50275e
+FileChecksum: SHA1: ce59900937615036dca07e26ce98e85ff8b0b8d9
+FileChecksum: SHA256: 81804518e1c93ad1e245122006078083e0e6606d3ec7107d30af3a870cdeb7d4
+FileChecksum: MD5: 0ec635ee669515c1238b24510faa0af9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/msvc
+SPDXID: SPDXRef-e3dc68c1b232e83ecf9e06844eabd7c9d3781e29
+FileChecksum: SHA1: 5e5cba511d4005aac655580233b258a9069cf35e
+FileChecksum: SHA256: a1b3c4e6156c11c9f44dec60bacd4cedfca637f76de56f916919316da583521f
+FileChecksum: MD5: e9f9b3939c2448bbf11396c1e5ffdc4c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/msx
+SPDXID: SPDXRef-c5e9c8988fa19d54604c9648605eb466bbb5e6fd
+FileChecksum: SHA1: b715a1fd739209c71e448ee81a4713b0b0d07242
+FileChecksum: SHA256: c9f461f91789da8ab54133580da4ab57aff0037aed09362be010a130215f3795
+FileChecksum: MD5: baa0238366145f9b64d8db4983d63d67
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/mup
+SPDXID: SPDXRef-8d1fd7ffafc67cb0f6d9c38b632090cf605fee22
+FileChecksum: SHA1: 33f6e5920d800db54b18b03d7b3cf3bb8aeaefe3
+FileChecksum: SHA256: 7638336ffddc4aacd3b2e3fd5649d8b98184e7f587d245976832cdaf7fa99bef
+FileChecksum: MD5: da80aa1192d3d2a90e77d34dfad99896
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/music
+SPDXID: SPDXRef-905904185e77dfe5feb92e345323000c1adf30a6
+FileChecksum: SHA1: 505a7b3b9c27b4cb402ba85083d8fd0a5ec1e2b4
+FileChecksum: SHA256: 02966c9747727dfd1c9c8ffe133c224a14c996c4d8477e277c38032fdec3a8a8
+FileChecksum: MD5: 20a0fb75cc52d06343e3114886bd800a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/nasa
+SPDXID: SPDXRef-9df5e245858f0c24eff2a081ed843fb5d2481dba
+FileChecksum: SHA1: 05f3194fe2a8eac4ff2109b58feef0e06d49abc7
+FileChecksum: SHA256: 74c0d3f141cdf659433da9dddeebf0a2922da0a16aa6dde1fc46a5f3df87b11d
+FileChecksum: MD5: 0c18df4b6e593fdb6f8fab431038a6f4
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/natinst
+SPDXID: SPDXRef-5311212a22b84ca7b612bbdf130459adb3a24d62
+FileChecksum: SHA1: a954e25ca47b8036e4fc46d0fce7958c9bf02f3d
+FileChecksum: SHA256: d8a564cd5560e67abd99c3bd97b6107e098fd76ca7f856dd4c9e2a342d7ce554
+FileChecksum: MD5: ef31d1d7407f9e6876bd21c2df1a1bd8
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ncr
+SPDXID: SPDXRef-9ab5d4abdbaaee8950fe258ecddcb8f130e2b55e
+FileChecksum: SHA1: 986a42da002e2b6e5a25fb6aaa775bf355fa29f7
+FileChecksum: SHA256: 8b8eef3111cf2a266ccab969876f4e6c210261ff6a995cc27e87111be20e26e7
+FileChecksum: MD5: dfcf625566547ccd880cc4c2f4ab888c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/neko
+SPDXID: SPDXRef-083e6646fbccfa5c999788c5bef6dfef171976c4
+FileChecksum: SHA1: 19569322c473ccd913ca4ebd93d1c63c99ee4688
+FileChecksum: SHA256: 41f59b3a5e60df3042ed5965fab119cb4e9e4dd1beeef474f4fb2d605f27a911
+FileChecksum: MD5: 5b9817ebcd659103998a7ce8a875c0df
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/netbsd
+SPDXID: SPDXRef-d8541834c77c3797901aa1544c3a7650c1e1f13c
+FileChecksum: SHA1: 92cc6438ff29dae81b105a0c3e4eef62001b41e5
+FileChecksum: SHA256: be3763210205c0fb9493903c434bd9ae0924a9b2a03275a876fb089c85943650
+FileChecksum: MD5: fababa606438a21a0ab169b64bed1888
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/netscape
+SPDXID: SPDXRef-27838dc8f4194ab42316797d9a0f4c7411896817
+FileChecksum: SHA1: 13691e80d0ffe66bd078c11b25aca8d8c9043f38
+FileChecksum: SHA256: 4f9fc132d51469d21bf3776cde123dd5a62af270b3c43500e311e7d7f23e97a2
+FileChecksum: MD5: dbce213ae8562cb8faec8c11868db2b4
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/netware
+SPDXID: SPDXRef-eb84b1fa3674f76ecc4fcd7c312720ab0dc56cb3
+FileChecksum: SHA1: 6d6208f36ba93773ba2cd0f859a7f4af194682b0
+FileChecksum: SHA256: 9979ad032c4bb337a330139a598b210029db35dc93df79da359842f8e8a1cf6c
+FileChecksum: MD5: a096ef7a58734b88e1365fab2fa16394
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/news
+SPDXID: SPDXRef-5243761cd5a93fcc85c4ab271926850f657a1f4d
+FileChecksum: SHA1: 89c90b252cddfdb8ca6490a93de8e024df7d7c14
+FileChecksum: SHA256: 87f83e94bd8020eb3f7e33d83691d0ea741428564791841b9454a5dde0633134
+FileChecksum: MD5: 9a75de2731681b9afdde84e89797bea9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/nitpicker
+SPDXID: SPDXRef-4a34ab91f7a6e4383a98651c7206a84074f77019
+FileChecksum: SHA1: 3662c474d73bdd3cf55ca13386ac957d493827ed
+FileChecksum: SHA256: 91d5977dd80da775402a49084a463bba6accbcd2e7740a128d9ed574cb137bc0
+FileChecksum: MD5: 72a88a6e92430d5950a1cef49d604c47
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/oasis
+SPDXID: SPDXRef-82c35ea07bdc5cf55ee4f0636b91862fa9bd9308
+FileChecksum: SHA1: 92dc3cdb7f2c7b2c4674025017a0f2853426d619
+FileChecksum: SHA256: 793deaab4dedbe44e20d7ffe2e351573870ed21256a7ffe16c11c4255562673e
+FileChecksum: MD5: 10aea331229740492ef0c3de0f3ffd7d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ocaml
+SPDXID: SPDXRef-d4d27ddf1cfe505a3c256c03cfb8a66e2f0e16c4
+FileChecksum: SHA1: f2936bd7a0fa3014d5f8852cb4257e6686831b38
+FileChecksum: SHA256: 278e2e63c86909cfeb0fbfb31df5e785b4c26db709b6035b8e939bcbe619d905
+FileChecksum: MD5: a0900e48c1ceab005bc99fab9313384d
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/octave
+SPDXID: SPDXRef-2b5fd2b1977f2d433eb9b92839ad47a9296a0fb9
+FileChecksum: SHA1: 2c0187a61ab3f7d2401ee357c335b65f02821f44
+FileChecksum: SHA256: 5b00cf02a9213d13c6192a87679e6f3994c7178ae135e0fff88ae0275863887d
+FileChecksum: MD5: 2cd4254b9419f43a9519e4309a357bd5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ole2compounddocs
+SPDXID: SPDXRef-453d5570266f75f51c46b80c0466bf6ca3192b84
+FileChecksum: SHA1: a89133e78d31f2349b1aff31216ae47c1c25935f
+FileChecksum: SHA256: 9e1f4884090d2cb4f938ac48fd84b689f66f273c3dabd39097791e0b91a96835
+FileChecksum: MD5: ea232a94a862d089ab01c984bebd8cc5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/olf
+SPDXID: SPDXRef-63a404cd414f8a23e6512033f437564648ad700b
+FileChecksum: SHA1: 9d5ab8d78eeca147786cf9df686d3b7c798e6c62
+FileChecksum: SHA256: 14bbab7bc4e6470b9a768e118c6ee30b20b595e77cfef9543f8e02203fa12c21
+FileChecksum: MD5: 5d84c3d49a9afafcabb1bb0494081943
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/os2
+SPDXID: SPDXRef-e79821fecceb29c729a463b27e90a8dcd84aa87b
+FileChecksum: SHA1: e51dd0e0349eaf28ecc982ec6ed2948517a1754a
+FileChecksum: SHA256: 8029c289105b6abd69f22345d51ff4c23d536522cf147df13be849fdd4defeea
+FileChecksum: MD5: 34762d5f610d59140b9cebd993e37f85
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/os400
+SPDXID: SPDXRef-8d41099ca7c1ee8eaa656cb893d19602b8b33d45
+FileChecksum: SHA1: a2ea71605cdb5d91fca91adb24c98eb71e053b85
+FileChecksum: SHA256: 6ad146c5dff4a97354c298090cd33b98f8e8f0112533b86c1fb4bf4f5c40c462
+FileChecksum: MD5: 8dcc6679c1a6658b4e18654947def32a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/os9
+SPDXID: SPDXRef-8065bc849e04a8dee88ae0eb0afe647c1122424f
+FileChecksum: SHA1: 4c54c9d032b4a6c82222199b0e0461108d52b253
+FileChecksum: SHA256: d0b4f8a40b846f650e7edb02b5350fc1e4e096d4491495656a80a7502c57ffd2
+FileChecksum: MD5: f5eb4f1adffce55e1f51ebffbe1e287b
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Intel
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/osf1
+SPDXID: SPDXRef-a709c48219de38dde9260e676f8336594b2499fa
+FileChecksum: SHA1: 6586f113a7c4921840a425cfa857c65b5d8caa9b
+FileChecksum: SHA256: 787319647d74ff9d234ac9a285e34514e00ad37a8a47150b2f6385c30ff53aa2
+FileChecksum: MD5: c0bb7748d16053f051dc80968763e61c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/palm
+SPDXID: SPDXRef-246f98a973ddf8311b29b6b24f89b4a4975763b8
+FileChecksum: SHA1: e2df841ae9bb06d2cf7f54d643d92322539a1a1b
+FileChecksum: SHA256: b3fe5fb84f078ef5f94e4aa59f0eda2e4d3206a9b6a1b3997df323df7ea2cddf
+FileChecksum: MD5: fbd8e6dc857a13cc7e30ae8c2fc83ce0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/parix
+SPDXID: SPDXRef-35a8b99d12e8926b029257b703d674b89fa92041
+FileChecksum: SHA1: 450a2317bf0941bf81d44ad42473e1759f87014b
+FileChecksum: SHA256: 7178f6c703b85398ea998034cd87e22bae80db72e4fd5c83eb37fcee134b8b5b
+FileChecksum: MD5: 09c44429aba375850e1ccbd265c5f69c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/parrot
+SPDXID: SPDXRef-c00a0fedd384fd58d559176ba32df570fe48b1fc
+FileChecksum: SHA1: e248176760b1d45bda577847c1a4bc038c316de9
+FileChecksum: SHA256: a9ea3abb913b77ddbdf7ba3afa95764b5fbcb1115ecf8efcfb52a13fb8bf973b
+FileChecksum: MD5: e04325aaa5dbd31efb7864e3100ddf37
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pascal
+SPDXID: SPDXRef-ee0110e75c8a88013ae78492291e7c1be9889da0
+FileChecksum: SHA1: 4e0fd577c9fa21a2a66fb651a4470a09dd7f7d05
+FileChecksum: SHA256: 0f04b211911a8dbdf9eb87ffcadbc4d9bdfe70720d8f0d5acbee14db698506ec
+FileChecksum: MD5: c3a1e738edf09aef87afaee24c5b1a30
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pbf
+SPDXID: SPDXRef-2354ae45a84701a4568cc62ddad9c9da6da00e9d
+FileChecksum: SHA1: 39e946b9a5661452898a5257612f48d77ae403fa
+FileChecksum: SHA256: 540dd2d5d8dcbd26b65eb59d56dd4a7d58cfc96dd4ee4405f5e2eb02624716da
+FileChecksum: MD5: 2bb7321c6e60355b6e9c5cf11e3b5e0f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pbm
+SPDXID: SPDXRef-1715c81d96c14f45eb055fd28bfe556e2b894976
+FileChecksum: SHA1: 21e930ae4929f761655e64f27cbdb50c4e80a9ae
+FileChecksum: SHA256: 02bab017c33ffa7e7e344d34dba4b72eb77b028e2d07fd5ef2f8d613564c31e4
+FileChecksum: MD5: 64bcb3606183daa5c952605b649c9613
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pc88
+SPDXID: SPDXRef-3db82ff3dc4be111a242ede729052eac271c5e12
+FileChecksum: SHA1: 5ba78cd1edbfd76e240a9da1dd8f0fcbfe61574e
+FileChecksum: SHA256: eb96200fa465a0523d227e437dfb011ff91cac61062e2b724d33bebf9925bc39
+FileChecksum: MD5: aa937444eb80b89c993841b78fad19a9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pc98
+SPDXID: SPDXRef-3f85a37d941f43ffc8625fcada760d4cd7570cf6
+FileChecksum: SHA1: dc7932b5b1a80a89bd5dd4322fd2a7cf6db4faf8
+FileChecksum: SHA256: 586bb17b0278fd240aba27e5db73d92be60b02a78b324a84768b83fff086d921
+FileChecksum: MD5: ede621412897f9055c75254cd39fc365
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pdf
+SPDXID: SPDXRef-89c7bdf648fc1a295ad72bb9e8df28d90f39a5f5
+FileChecksum: SHA1: 0f6a72303acad316bbcc6bab2d4203db62bb3921
+FileChecksum: SHA256: 02969fe4e5470e1cf89949a759ab6e31824d704338aec6428a9efbf379acd4ad
+FileChecksum: MD5: b865425cd38f988f2d50118340ab1388
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pdp
+SPDXID: SPDXRef-40eb65e1bbf7cd5a8a81f8552a73d230647c0c5c
+FileChecksum: SHA1: 5d16852fd63d0e68acd0f9c701d5b37768701074
+FileChecksum: SHA256: 898781a40e6faf9ad1401285e8749f36be8368e66fc6fb60870f55a8193d30d1
+FileChecksum: MD5: 721437ed42eb5385b70b531dc8bdc582
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/perl
+SPDXID: SPDXRef-584af19c9fff134ed6bf982739f63fb62f77191f
+FileChecksum: SHA1: 1030a82764b320cdfb4383776e71463ab96bc393
+FileChecksum: SHA256: d24d2563fc211c3cbc01017787a83f0a51ff62a3e2fe4bddf82fec681ba37448
+FileChecksum: MD5: 59758007333790086bc3bad8a93cadf1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pgf
+SPDXID: SPDXRef-0b139add6ee92f938dbdd1e3db6d7300f2c4c410
+FileChecksum: SHA1: 1e9112398192d412b8fefc42e77a4b987bf51f25
+FileChecksum: SHA256: d5daf376868969e61af4fe196736585d9b44dab5cd021d9e0f7a874c238e6f1e
+FileChecksum: MD5: 6f7de58f5d1d2e870498d557779df5c5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pgp
+SPDXID: SPDXRef-5ee1986ef62035a69f7a29a443e5e17cac47cd67
+FileChecksum: SHA1: 51dfa8600569eaa87b8c7ae9998c45c808e8f9bd
+FileChecksum: SHA256: 8ebe2200fc506503b0880c1890de0b7f79ad198bc9bf4cdadd40011086e3c847
+FileChecksum: MD5: af83e22acd218f383947a3bd624c5c6e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pkgadd
+SPDXID: SPDXRef-9792e33719a919467ba437d928e7f82fdffb11c9
+FileChecksum: SHA1: fae8d0ff060d5c56bde7678513189f8fd7dd6781
+FileChecksum: SHA256: f000757f68618a64c2ea3d58babd81f261af4dfab76682975b4a2ad0414477c1
+FileChecksum: MD5: 6109329351f824bad72f9422b49cad01
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/plan9
+SPDXID: SPDXRef-666e6231c720e06254b3bfea71f8f48e0b07d92a
+FileChecksum: SHA1: dd4e0c3e26fbe4a0cedc02b688f3c1fe36d7b8b8
+FileChecksum: SHA256: 62700c722a1af43ad201b0bf9fe91a9a9c3d92278b8899fc649a4a2a216eb245
+FileChecksum: MD5: 8d72e70a65bad1c20c9cd610adfd8e4f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/plus5
+SPDXID: SPDXRef-1c4c318d90589f2e0d5890b7f530412a721c4bd2
+FileChecksum: SHA1: daf617d957409f11ac7d923fbba9ed17ead979e1
+FileChecksum: SHA256: 8f1a1b1d0fa5e7900e5276000c373f9113081201075f39d93f34b5e5775839cd
+FileChecksum: MD5: 061844eca0c89aec6c1c56c352977d4a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/polyml
+SPDXID: SPDXRef-2f26446a829b81f04cb89a1de8fed9ab6ffdc838
+FileChecksum: SHA1: 58a98264d8d4d352971be087a9f83a0aba8f5364
+FileChecksum: SHA256: 46f0a8cee0891fdf0c59d19e3fbd1357294d759086419e0b35b53ec77e63f094
+FileChecksum: MD5: 7ef5caab6afb8827b56eb77dd17a1301
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/printer
+SPDXID: SPDXRef-9104704db0064ea7493d8b03e98b6fdda4a64bb5
+FileChecksum: SHA1: c83c974d9351e58bc420568bcabb2f86e74a50f8
+FileChecksum: SHA256: 3b56188ae420eacbf1711aaa9aa64fb418f8ab1514a8d19bec63265c337b6874
+FileChecksum: MD5: b19c398543b6880daa9b291cb7760756
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/project
+SPDXID: SPDXRef-e4e56d4dc43acc16becff7a49c00d8fdf4241bdb
+FileChecksum: SHA1: 81351585bfbf35fe307ef26e225a7f870d71db0b
+FileChecksum: SHA256: 6edd90767ba84eac8ca110f2de3c494e0efc9bf47f13f80ab36b2e1447580f95
+FileChecksum: MD5: a84d124c568d26a19589ea8567384b06
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/psdbms
+SPDXID: SPDXRef-5a4cdfc37dde36e35cba14a83f5592c0329fffdf
+FileChecksum: SHA1: 55a1fa99191e0e2cdb453841fcb152284bf593c6
+FileChecksum: SHA256: cc2c609c03796bd6899254c04d8575383c4d077aa8a01ff229776787b8179e29
+FileChecksum: MD5: cccd304db4e96415123831939d4d20cc
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/psl
+SPDXID: SPDXRef-38857392f60339392e423b21a9f83e24c5eba21d
+FileChecksum: SHA1: 6f438ba6e83b563f2147d502ff22c3fc15cbe58d
+FileChecksum: SHA256: 1b69a10c68e12e77677e2a535f4aac1495d46fb709abe66219f1a5f857f5d996
+FileChecksum: MD5: 19b43cf033aeaf78fa7e214df59255f5
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pulsar
+SPDXID: SPDXRef-c44a14486b9fd686de1b9e18dc7f7b5270822dc8
+FileChecksum: SHA1: ec328113f28ee2fc4d95329d1ae5a6b7608e6e2d
+FileChecksum: SHA256: 34eb826145213db363ccf9f2923479722906934704674f7ce76a92d616b9438f
+FileChecksum: MD5: 78534c8fcb06f66e619b4f6246dc559f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pwsafe
+SPDXID: SPDXRef-61f6b6ac29832a56470bcaff533d18bd0da63f80
+FileChecksum: SHA1: 98ec999da2949df5ff7ca402c533f620b38c7ebe
+FileChecksum: SHA256: 5821c01da1edc163421fde3d8edf3bef59304c267aa4a2b652efd081814f5686
+FileChecksum: MD5: c6f8d14fd0422bbf16b88b82bccab905
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/pyramid
+SPDXID: SPDXRef-8505faa62ed687a7785dbf474b3c9c92bb28f9a3
+FileChecksum: SHA1: 9ad70867038a7a71fe65ad9cbea31baaf2d3d48a
+FileChecksum: SHA256: e08195c1e4f7e71ccbd029ef3159bd89a4baf79516a08519b05ccf377fc98d88
+FileChecksum: MD5: 47c4a835e282c0da20193eeee0cbe101
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/python
+SPDXID: SPDXRef-2814016b102288fbb2b3dc527078422366e3dba9
+FileChecksum: SHA1: 6796c45b12761f4f714c440f7418564db162eedd
+FileChecksum: SHA256: 73f0610920721828b914a6ea0e95a0944581cf76091ef53a25be09709bb5f6d6
+FileChecksum: MD5: 5ec4bf88dcdba2ffd71e0d94578f9fcd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/qt
+SPDXID: SPDXRef-b89cde7f5365afe3003cf644218a32d84177c294
+FileChecksum: SHA1: 594e3a6b2aed84a76b6a524899dffbf95f11a8fa
+FileChecksum: SHA256: b792b757e8ff6f3bd6c0eb5059d6443a5e444dd543c86a20234a3174bb0e609e
+FileChecksum: MD5: f33a5d8483beaee96c379270b7e383e7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/revision
+SPDXID: SPDXRef-31fa5ebed73db66515a407e63f926585a3fc9816
+FileChecksum: SHA1: a492493e9908fdac7fe86d0eed6954e67aac64a4
+FileChecksum: SHA256: 509e19169e76fbc0d7c52648a181de9eacafb90eab6680c0a7f2b846f6395db1
+FileChecksum: MD5: d1d214e5ca815e3636c9709745b4cc04
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/riff
+SPDXID: SPDXRef-45cd9ef563b91bd4b8c9bfc89cb58bd07ed28d1b
+FileChecksum: SHA1: bd564b56e648dc92072f984f8a1e7c8d7edf6c7f
+FileChecksum: SHA256: 1e8227c7658e37a46136fab2477cba4a52a79bce3eb5e56e803a5d8f88ee2bf2
+FileChecksum: MD5: 86baa302f1391c30f7232738a8ccfcd2
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/rpm
+SPDXID: SPDXRef-7512777603c68cdb7b62b20f2693ae18bbc3d06e
+FileChecksum: SHA1: d1dfbe0453e97d1479209ca82842c07979a4f82d
+FileChecksum: SHA256: 944e1a8512fd1bd1daf788277e98f0ce1283423c3b3e680b880ed20146b208b5
+FileChecksum: MD5: 5d7d9ece3f72ce6d495ccd9ad54dbe42
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/rtf
+SPDXID: SPDXRef-b652dd6110f25873f820b78548ba8a6207ac3228
+FileChecksum: SHA1: c01ed1db716d2f03cd7a698d82bc7da0bc0aa570
+FileChecksum: SHA256: 506019e4f696d763fd7eb88ec7b08b1469d03040ded81a54de2d1e5b65e2ef1a
+FileChecksum: MD5: 3a7bbbc0281de3a6cdcede6253c2ea90
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ruby
+SPDXID: SPDXRef-83e23a986ef6e190f905e376b78fe9ee8955209f
+FileChecksum: SHA1: 1adeedc0b478131c83486c76b3ad8bdb30594767
+FileChecksum: SHA256: 5ab7931f3a6778cfd0a8e112f2f87958ac5a7bc76993825bdc6ba7c8e4fb3cd9
+FileChecksum: MD5: 3fdd5e8cb1dc980b6b982c11aef140c7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sc
+SPDXID: SPDXRef-bb3553b7a8e6838048ca8e9cd729cf5ca518fb83
+FileChecksum: SHA1: 500454d05abb34fb6a00cc2984e57b23e6b50d11
+FileChecksum: SHA256: 51d348eed4e50c2027935c92ad6347383a40b310f8db54b5d97181dd36d84984
+FileChecksum: MD5: 6c1aab261d18dd6ee5896b1e810a68dd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sccs
+SPDXID: SPDXRef-1d0f63a3202f8b215cf61ca9307f1d008e61ee4f
+FileChecksum: SHA1: 30c50e54ee854f87c2352e2ca226f38134941d07
+FileChecksum: SHA256: 74d97d464f6689d43cbc434b414269c6357e32d667d114c5a802ece5d093489f
+FileChecksum: MD5: 61772ea09dd24055b4fd06d2e705ef27
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/scientific
+SPDXID: SPDXRef-590c4dec0b5646889cb7a169823728a52c3bbb49
+FileChecksum: SHA1: d257967c949e1b531123e7db148a5169c704cc08
+FileChecksum: SHA256: 5489bf08fc3fdf0df1c2b08cf602c63a7a647010368511b48d530cc42d9a905c
+FileChecksum: MD5: 4f9faaee4894ba2e95302e57a5893a18
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/securitycerts
+SPDXID: SPDXRef-93e4bd43c3d5c9de2110db77ee4c957ebe28f208
+FileChecksum: SHA1: bf7b071416082abff15ea8016c1784a26243dad1
+FileChecksum: SHA256: 3ee920ed40c80eff3857b896513cec6135cbaffef1499768d51e2e08c05a7f87
+FileChecksum: MD5: 938f9da37a7fe08aa5e1a08d45da6d55
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/selinux
+SPDXID: SPDXRef-5a050b4bab3cef8c4dae8f3935252456745f869a
+FileChecksum: SHA1: c6b5802bc14140676d015701c4c0ab3c633da40f
+FileChecksum: SHA256: a5d54a89e7b385e74f0042f790f8d24b6bacac58e1a3a3aed5b7288815ce5e86
+FileChecksum: MD5: 9f38bb2176cc661dae49a33b4f0119d0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sendmail
+SPDXID: SPDXRef-73cc89a7b59f157ca5da29fab9431ac9368ca95e
+FileChecksum: SHA1: de457954a89402b1bc75ee68b508a9b032b328d0
+FileChecksum: SHA256: 77660a19594fa2a3051f62673a354b9d691cb129df4ecfcd7f5efc7fe2f5a92a
+FileChecksum: MD5: 894f3fd4086fe72276955b02b320cd8a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sequent
+SPDXID: SPDXRef-235a38780eee61fa8c27db759847210e946f22ed
+FileChecksum: SHA1: e810d1ea53b77fda8eaa3d6e7bd481c639aa3d1f
+FileChecksum: SHA256: 6be7e191e03b5e67507180a84c0aba2f2195fe06c1601d0e585ef14681e0edf3
+FileChecksum: MD5: ca0659e629b1532ee46507d3bdafe710
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sereal
+SPDXID: SPDXRef-051c9bccfb0a7d5a349f18198bae0019584bb767
+FileChecksum: SHA1: 7dc405defe50c5b369d22c1abd753083ab6b5669
+FileChecksum: SHA256: da5ab5aeade52a17a2ce88d9296912bb160f49c6fa9582399c3dac2d8f9b4c95
+FileChecksum: MD5: a065f85d608a6f89155dd9361e6e4d23
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sgi
+SPDXID: SPDXRef-f1eb32a769a15fc8f1422712724ae3a2f794d764
+FileChecksum: SHA1: 9a2562d751167fe46cd01fe2c190135069f9570e
+FileChecksum: SHA256: 84e5b5aeb304439738cacba176f7e0dbbd568e9a6729b7ceae29e4b067963efb
+FileChecksum: MD5: 9629a9e14dd7b603f6ec883ed4e2fde8
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sgml
+SPDXID: SPDXRef-4dbd226b155b35501a2678b989744d650391c29c
+FileChecksum: SHA1: 3652f19bb711e3bdaa50d2ea39f1942e1ecb4086
+FileChecksum: SHA256: f686f4f73d6cc86a62f6da4f3b4574f256f986f7d013dbbee062d39d3ddfae1a
+FileChecksum: MD5: 18cc37c97dae207fd1cfb1813ddc2e32
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sharc
+SPDXID: SPDXRef-65895885ca69f5c9d195695ced59e629fdd7cd6d
+FileChecksum: SHA1: bef231119736133741377d50dbbac169ef3f4b59
+FileChecksum: SHA256: b0dae68fa8fb0f3e66d27d7aca258d0937649110bb7b908c19e6453dbeffa425
+FileChecksum: MD5: 6b9ffb0bce88583874d6aa3b2d24d72c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sinclair
+SPDXID: SPDXRef-94253665133901f251dd88fe126f39353be0f802
+FileChecksum: SHA1: 8be748238a785237d0c4cac7f11cb1eede01cf6c
+FileChecksum: SHA256: d50a4703b31bd91819a014f216ee06255dbd55970690875925f202cad50ae1e5
+FileChecksum: MD5: e739d371bc71c85ec299719ee6d934fd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sisu
+SPDXID: SPDXRef-c7b77ad1215630cc4346b8191c7794c954a2cc3f
+FileChecksum: SHA1: bd6258fd7a4a83508debc7c2eddfcc824b9fa2da
+FileChecksum: SHA256: 493ae0b33061766cd4f39fcf9ee66892a0e5fe99346b36252d3303064f768f86
+FileChecksum: MD5: 61914ee70013c4ae93d9720fe9327c98
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sketch
+SPDXID: SPDXRef-206b858185bdf715a9828003e2b41fc441f90792
+FileChecksum: SHA1: 1b8a8012a2c9475f7bc0353f5d4361809af101e4
+FileChecksum: SHA256: 0ca54141bea6f7273d33751fc118cdac79c99785ab0e06fb41fa7c08f30bab2b
+FileChecksum: MD5: f2e96811cfe2e645eb0bb0580ccbdb6e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/smalltalk
+SPDXID: SPDXRef-33ae930e2b544740d36a481287bfe1382484f8fd
+FileChecksum: SHA1: 68c2c35e0d77846ef24edc31054379499adcd6cd
+FileChecksum: SHA256: 4e5863dda9a6408450f31e9be7f39c974370a4068e15394f1c840b350df53c13
+FileChecksum: MD5: b2f1894d412777dcd8aeaf0aa50f8e5e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/smile
+SPDXID: SPDXRef-da695c2356eb7e1b651c11034b52b0c1395f43cd
+FileChecksum: SHA1: f5eca1f21460636a5ec101070e23798ae678ed3b
+FileChecksum: SHA256: 942140ff12c7983a1f28ac81e39ecc8b0ea1637e79a89f45c2bc842773ef9d6b
+FileChecksum: MD5: fa1a7a542a84a539659510a88c70555f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sniffer
+SPDXID: SPDXRef-f7280e3887456dd3561cd1cb86cc8758b942023b
+FileChecksum: SHA1: 45e98a03923db0083daabdcd48d16f1275762816
+FileChecksum: SHA256: 575d50ebf622d39c3f28d48655187846e96c46618933474be210e7d07781a8d8
+FileChecksum: MD5: 09a97e97f4b06391e4cab70188d33326
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/softquad
+SPDXID: SPDXRef-bab7ca1ae335725ce5d21b352b5b4008827cdf74
+FileChecksum: SHA1: f303bfe506b660d5831515332924ff5762cc5afa
+FileChecksum: SHA256: 1627dad093ee9618a5b155fb97a4737cb85a4e420a1b921b4f5d158530a8c4c9
+FileChecksum: MD5: e6076e80a054d6e2f6736c558972f1df
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/spec
+SPDXID: SPDXRef-9cbc48e92897aa25f3ead78287e4a10d6378ef41
+FileChecksum: SHA1: 86756414aedf57288072325748176a94617cd5f2
+FileChecksum: SHA256: fd6171157e96fbe5c1b581466dda84db93f1d2837367e798b452854a76250231
+FileChecksum: MD5: d20bf30f70be4d15f8c6b021d7007c6b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/spectrum
+SPDXID: SPDXRef-5e6b0922ab0aafb6fc1a884e6f8c11007fbb7a5e
+FileChecksum: SHA1: 65c30a4f60a1508310cd1a173f4e0b2a96d9b12c
+FileChecksum: SHA256: 60b695146c454980ae9daf8dd2d93ddea995f5707e191f4ed1d5c82955684fba
+FileChecksum: MD5: cc9b4205cbf753e3d3fadba9a9090d5a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sql
+SPDXID: SPDXRef-3b1685a46bb97fc025a93b5748f1c3f383077d8d
+FileChecksum: SHA1: cf53d5703b1529cba02bd22e0d558e60c8ec502a
+FileChecksum: SHA256: e1dff3a4766f51d5ec2c971448448ef61feb39482503758a68be609bfedc0a1c
+FileChecksum: MD5: e2e4f31fc5e5022ccaba269372cd70aa
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ssh
+SPDXID: SPDXRef-10c349852054ddcc08a3f4402cc052452e176e31
+FileChecksum: SHA1: c0c430ea869670092424abb1fcc104a112b1cac8
+FileChecksum: SHA256: 1cc6b85c15a62fbe190a2e7ea04f908757b13bc0f7704587da69874767f791d2
+FileChecksum: MD5: 956a32e7c9c13b3fa6d5a04a205f4d4a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ssl
+SPDXID: SPDXRef-84eaddbee08a52fc1515ba7da1cae6781c7128e9
+FileChecksum: SHA1: 78f3276199b4222fed213a31c0774013354e03ac
+FileChecksum: SHA256: 346f5cc7cba22935dda53c481c4aa042d868213f690ecbd6e36998d6926eb3d2
+FileChecksum: MD5: 151f57da850712b174eb993868c46e90
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sun
+SPDXID: SPDXRef-175f38ca242b2dc06b18228b2243be95cd5d7d66
+FileChecksum: SHA1: 2d6b0a8f53f2420ba33b4f5984d267a0085ff2a6
+FileChecksum: SHA256: de54e91a805fe170df142006a264420681b8e0aa9f80d91e6d77d9f0756b2b15
+FileChecksum: MD5: 4aba9c442ecc4c5971c1afde0805f7c4
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/symbos
+SPDXID: SPDXRef-711d2049d6b841852d1b11956e9096c337f78fd5
+FileChecksum: SHA1: 31665f51022eca4bea5c59d254a8636b0ba3f606
+FileChecksum: SHA256: e81107b392ee12c48d31577d6da804c06dedfd5c178a79d9feaa844446a27e64
+FileChecksum: MD5: 2f448c20c7ad3149f70864bb1c6c9bfe
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/sysex
+SPDXID: SPDXRef-246de68997378f88210dfc254096fb43b7bf0af5
+FileChecksum: SHA1: f06b2c6714410962b48350559e272b92f8bbebd1
+FileChecksum: SHA256: f1e29f1d25b5cf815a9c6240b49a1f0cadd9254f48205e5cb7a4ed2b7473bbe9
+FileChecksum: MD5: 2338855b2f7e5312a7adf3600611bd2b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/tcl
+SPDXID: SPDXRef-321064a361a54bbf400a8caab3c9d9dda6370595
+FileChecksum: SHA1: 97b59fd6e7aef850d9f495f50479116bf3786f6c
+FileChecksum: SHA256: ba534d6c6bfd691832fa840fcc4d0f4da2bb9c2172d96ea1db184f0aa81e4c69
+FileChecksum: MD5: ec462364bc67b0ac33897298820656f1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/teapot
+SPDXID: SPDXRef-1fc57b004f8ff943927a9cfae43a031fb420ff97
+FileChecksum: SHA1: 0ee31d342a81c3f7304d30c90806ce933069b021
+FileChecksum: SHA256: 6d7e1cb3e49041ff968786342cb505416b6e0dafdbd54a2a14775c3cb1274b98
+FileChecksum: MD5: 7556d44d680dbd56afedbd6f90552d91
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/terminfo
+SPDXID: SPDXRef-3b1918818e64e4fd5779679b7c792e30326aa11d
+FileChecksum: SHA1: f19b70e2b3f36487a9b2a1bcb810528ee48ba6ba
+FileChecksum: SHA256: 6d6b9fc6a4968ded0260a8c96e35e11373a37069f7c460e6133486ab8063f3f2
+FileChecksum: MD5: 7691e4ca663151678df0890f70375b38
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/tex
+SPDXID: SPDXRef-6ef4c1e092976c23b82e529ca0e704a7f9561fde
+FileChecksum: SHA1: 5eadecaf685f3e5502eb36be76aa58822f010ad7
+FileChecksum: SHA256: d6fa56ead0b6a81e76004b17cebed6a14beefc1c9288db50fa64433a78c116f4
+FileChecksum: MD5: 5c0e2195d6f427102e858d9d6189fbd3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/tgif
+SPDXID: SPDXRef-9deb0fcd30ecdd15226bb9c148d6105c46dcd343
+FileChecksum: SHA1: 7151e502588af9b780a3706e1df127b8541ff496
+FileChecksum: SHA256: 615660727c08a2931cbb33cd8d27872479da52aff839657e00148ce61db11e55
+FileChecksum: MD5: 27d78d43201d81a290d7b7ba458459d0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/ti-8x
+SPDXID: SPDXRef-9eca3ec76e25fe6239ba5b9aa8b3f91c714ce3b9
+FileChecksum: SHA1: 68c98cef4e42e3b4df73496bb5869212bd7eb628
+FileChecksum: SHA256: 12342d27489dc9beb5c574effda1fcf9b69220a0c363413bc4e9b8eb53ac6761
+FileChecksum: MD5: 723e66e10bb6c420b59fd0f1928eb462
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/timezone
+SPDXID: SPDXRef-0f26c77d99e8234b474a0f2a7b0539f7240130b0
+FileChecksum: SHA1: 4a57f30c6cb2b718813968857b8ad21a813bab8f
+FileChecksum: SHA256: 71f1e43855d98cb031f4192de15b43885eaa9a18925472cecc3971cc8bc45224
+FileChecksum: MD5: 69158bb5e3614206672718b7f11029da
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/troff
+SPDXID: SPDXRef-e1e8e8c60dc92f0e7bd026296910550345c0e739
+FileChecksum: SHA1: 9aa0a7c9845cfeb07a5054b4438bf39f6cc96267
+FileChecksum: SHA256: 316272081e6ae2ebb2e966395a77d003f29475dda7f85e3c0c5874d283b2cbf3
+FileChecksum: MD5: fc4ab21860b4298ad372b3a0ebc1ac36
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/tuxedo
+SPDXID: SPDXRef-f38f59137be8108335bbd03393dfe1f0b129e844
+FileChecksum: SHA1: 1c6d0f75b793f15dd7f41789a4a7f3c1680e5188
+FileChecksum: SHA256: a55ffd40b41f3284bc38203154da7a96b028832ca1c2880e2f4a86d9695b5827
+FileChecksum: MD5: cc676542acffd508a860e89dea84fd1b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/typeset
+SPDXID: SPDXRef-5516115e7d510b1a87ff9dc37dee8e29a8f871c9
+FileChecksum: SHA1: 1d865a733efdf21459de8ef066de705c451aa43a
+FileChecksum: SHA256: 67c9b566fe15bbc65d3a88f555430738b1a08703c89373622909f0b3ed03be14
+FileChecksum: MD5: c4819b1879392af47da06de574195707
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/unicode
+SPDXID: SPDXRef-19134840881b9e5ddd861c0aef0677c732c69955
+FileChecksum: SHA1: 4ccba48f9951e5e812a166e07bf8db313d7ca0ee
+FileChecksum: SHA256: af9b34fe8184abfc5dc9ad09a1606d9e63c0145f0290435aeff553a7da13fa01
+FileChecksum: MD5: cf1431e9e0a3a94f7b482011ede5d96a
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/unknown
+SPDXID: SPDXRef-c994c7593f876391041dd6872b94e789ea1a82b8
+FileChecksum: SHA1: 78129426deec428374ed37ef9c49ddb0f5d251fd
+FileChecksum: SHA256: 2950280ef73e456eeac0cee53491c99dfc88c05f22201a2bd48888648dcb4878
+FileChecksum: MD5: 4c524dbd93813b4f786ac2cc1b524426
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/uterus
+SPDXID: SPDXRef-60236c6a6e670a95154252c0d036866b7617eeb9
+FileChecksum: SHA1: 5a45d57d95126de4d25c43cd8b4d994d56c8bb55
+FileChecksum: SHA256: 37dedb5a7c7d9eaf6d919459dd3e89c20eeecfdb5f6e3af8da7c82d9fc9f57fe
+FileChecksum: MD5: 5e412aad123595d64db74f2f8e32d307
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/uuencode
+SPDXID: SPDXRef-d70b25c07ea6bd55102c049d320ff37571f475f3
+FileChecksum: SHA1: 499477c54e04e1f437def8d99ac57cbefec05797
+FileChecksum: SHA256: 5d4182dcd00b2a3cf74a7b3aeff9098001f107a63a73539516b7fde2a4285eef
+FileChecksum: MD5: 5fd2520b4726e28e21f8ecf4797ea6e7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/vacuum-cleaner
+SPDXID: SPDXRef-183594139f73ada24a9f74101ff35f4dffe0f792
+FileChecksum: SHA1: d359ad974869e64af18a058b1872531cd2954ae9
+FileChecksum: SHA256: 3d0bbf0d6f79e01f0b2ab6d607c4b995e176b557b646139b6d120a43d36048b4
+FileChecksum: MD5: 94350b0e54f03966755889c92ab1259b
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/varied.out
+SPDXID: SPDXRef-4cbd334673d4addceadf61bc94e22895e6518ef0
+FileChecksum: SHA1: 0fbceca4b0a5fa09374395d80f438d2c66eef230
+FileChecksum: SHA256: b8ba572eb3231e448f7ac541a27cf9d51e0fc1f464e686684b3dfef7d4694282
+FileChecksum: MD5: 426a2ead414eda0780fc888a73ab6a39
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/varied.script
+SPDXID: SPDXRef-f26a9d36307ae8d5c4a856a8c8cfed5e74545ae7
+FileChecksum: SHA1: c6d0560c2eb2004e0e62be3162d9b49cbaa30390
+FileChecksum: SHA256: 3fae8fa4acfcdfccaa9304a8a3eb7887f5c4e7abe4177b54efff4b018e0df6ac
+FileChecksum: MD5: 2df869956d128060627fff3c30da7cae
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/vax
+SPDXID: SPDXRef-649e2f446e46b0fbfdbd2f55c953301b35934e13
+FileChecksum: SHA1: 8b966cd629aa0b36bcd67ad606c25ef1b57f5c55
+FileChecksum: SHA256: 5e6a3b26dd5e3ad7e4c7f16faaee79d97a3a45a2e2933604282f26fb9d8ab86f
+FileChecksum: MD5: 34276ec62b3a9d3c8b4148d3544d30dd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/vicar
+SPDXID: SPDXRef-6aaa2abdcd004cfb6eeb0792b5b2d621a148a7d3
+FileChecksum: SHA1: 3f4fd816c22505d48d599f672a864fd1d41b5e03
+FileChecksum: SHA256: 3f65887a954426d06663e91abe4600f2c65fd4047fec7683fbb4f48c431fb329
+FileChecksum: MD5: 22c047be1734bd7ca32443d78f0f7056
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/virtual
+SPDXID: SPDXRef-afdb2856078561604f179f58a0fb80c7d9e8ae44
+FileChecksum: SHA1: 94aa8af55aee2578998e1167977ac47ced442051
+FileChecksum: SHA256: 4755065b2109012b53a9580752ae6c7a6d458df6373c67bd8de3ad758f4746c9
+FileChecksum: MD5: b40c7deb0cbe82e6a4676201e4a7497c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/virtutech
+SPDXID: SPDXRef-71d53d08ad95901571b746807f92ceee69b1ee20
+FileChecksum: SHA1: cfb5011bec08bcf0e9844fa5d1c3e62ff116df81
+FileChecksum: SHA256: 04ea1ad2d369aea4a46502def0ce7ee2a892645bebb358de809040f8b6050a7a
+FileChecksum: MD5: 050935ea31b4f22e73f92ca19b7934b1
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/visx
+SPDXID: SPDXRef-6bb860eb768cc78e5019f56df5fb9000e610ac6b
+FileChecksum: SHA1: 230685ddac9745f68a9a86b398035931d565c225
+FileChecksum: SHA256: 801a3437f097b3fc86b78a01c7a7fe09f5582e795938fa92ff154356602a7e12
+FileChecksum: MD5: 0e71e773e294df31f11b0de0cd895762
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/vms
+SPDXID: SPDXRef-3d9c3341db1e9ea7161ba44cea98a64a52335e51
+FileChecksum: SHA1: 6f8b1f4162c07cfb2f6b28d2fe9c6fae91b5b37e
+FileChecksum: SHA256: 7fe54629895678dc2822413baaead0bfc4dfcd1246aea89f32311075ab2c218d
+FileChecksum: MD5: 7aac1d7c8a870ada81077127947a9af3
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/vmware
+SPDXID: SPDXRef-6c0c6c4a31231cb6696b116e77f075fe4db27a60
+FileChecksum: SHA1: 8c3d52e5932e6d4166ce04910a12a3f33f5daaeb
+FileChecksum: SHA256: 9b327757d2679c0aadc878293f32736d7e7cda8344bdc654b8882f5815ed8ce5
+FileChecksum: MD5: 84cff7ace625aa92f19bf36d57bb43bf
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/vorbis
+SPDXID: SPDXRef-eed85d576656a094e9657b7b26015a24d67fa987
+FileChecksum: SHA1: 0845f2fa9b5d60f96106a8b1806e98793bed129a
+FileChecksum: SHA256: f9085f235d504e0da040714c24168bcca479419d1a79945f9fcd6ce250b92087
+FileChecksum: MD5: af4a772263505c0285e40ee740f7b4ba
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/vxl
+SPDXID: SPDXRef-838a53ae1a3df52e1aec7d2387cf84ff70249a2f
+FileChecksum: SHA1: 3265674d32f13b6fb1b48dc7a00a2a36065592d6
+FileChecksum: SHA256: dba97428be0decc6b309a71b31225509778392f85949f7b5471d6c7f1d5abcc9
+FileChecksum: MD5: ec128aa273bdd8ae72c8d515a3dad963
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/warc
+SPDXID: SPDXRef-af022f1f6466c6f7c94fa08aacaaede1ed1aad3f
+FileChecksum: SHA1: e68c6d1c9a9219d66e4434a55ec522fb80094117
+FileChecksum: SHA256: 67bee656ba4cdd3a89ca2144493039065b4ae2c0ae2d800e9d6aa6d90156f708
+FileChecksum: MD5: aa81f371a82624c92d1fbf1baf7e08b7
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/weak
+SPDXID: SPDXRef-479a0cb3ded3ec4fd44f5fc398a509781eaf0ce3
+FileChecksum: SHA1: 8229fc3de5a90843b390e4604f6bf87a83d51cb4
+FileChecksum: SHA256: 8b1519f7d90de12e474749195968faa71ad4ede0d258e7322b139c5fd827f325
+FileChecksum: MD5: df29b07c929f306390063c532672bdbf
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/windows
+SPDXID: SPDXRef-66f840ceee5e88bc47b333cc5c682b385fe98e07
+FileChecksum: SHA1: 179524850ebcf4cc1c3d93e9622e9b9785a9c194
+FileChecksum: SHA256: f1e255810f37712fd734c1cd205ca03d94b3722bc30356ea1bbf53007f5ff378
+FileChecksum: MD5: 47bbe34080a3291f1b5cc5a03c4493ae
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/wireless
+SPDXID: SPDXRef-106f6946cd84e4f24840d1280eb9a75220d3dc68
+FileChecksum: SHA1: ac4739e75004569dc2a8e1f302e62f003645e63f
+FileChecksum: SHA256: a17c82e6fbaf9494c608a880ef7e79daea4e99ca2e0bd59991ffbb0d8496d611
+FileChecksum: MD5: 313462e8c7b3d8ee7e90aa0414261b00
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/wordprocessors
+SPDXID: SPDXRef-39b5a690da813b51d201dad02702328fee3c1b1e
+FileChecksum: SHA1: 716831044540269285c5bc1e5c3361560e7860e7
+FileChecksum: SHA256: 5cec64f9dc837f9adccede274207e596c9402b35fa80e64775670a9cf866fbc2
+FileChecksum: MD5: a4286f1605d80637e250e5c6c7fd1b65
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/wsdl
+SPDXID: SPDXRef-8ac0d8dafc2f189d2c425cb3da73f7e7816cb232
+FileChecksum: SHA1: 79aa1bc92ee299a74824c5359a654e3c9b4ab12a
+FileChecksum: SHA256: b992d24bce8dd298270ce51a2f677f8e6444e9cac975d79ca2d573423a3c313a
+FileChecksum: MD5: 6ee04a4c4c7d9ab3e785f1b94411d822
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/x68000
+SPDXID: SPDXRef-a6c82117642c99db206a5197e01ab48a4ff896fc
+FileChecksum: SHA1: adbb5b9e43f848a97d9258fe43485e9c390127f4
+FileChecksum: SHA256: ec8a0db82970381a1bf59c303c6e1f0c2929679babac15dedfa3c191a7de2454
+FileChecksum: MD5: faef4ae078be707413122b3e96e764ce
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/xdelta
+SPDXID: SPDXRef-62e22983744ae6f691816950b85c9f183070beec
+FileChecksum: SHA1: 50f47c34cb32b8220c978b30283f1223cbb7ca80
+FileChecksum: SHA256: bdcfb41abfa9d2a715edfe87c601ffff88f600841e2c6bdfd30b508add7aad37
+FileChecksum: MD5: c55711e3024b4873bb0792becc7053c6
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/xenix
+SPDXID: SPDXRef-e358423c4ac35b1206595334dce7768df4693f5e
+FileChecksum: SHA1: 2a3225a6d7513eb84e294652c7e46f40e8d4a367
+FileChecksum: SHA256: 9c719484291d6b182491016495d261cc25cdbaf2ca19f8c873e4917c6f1164ab
+FileChecksum: MD5: 5d22b2bf72d654cdb018890263c975d9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/xilinx
+SPDXID: SPDXRef-29674dff260e6751c2fdadf154f54e2db660ec3f
+FileChecksum: SHA1: 05299368c8c115e748876b2216c0d6facae103ca
+FileChecksum: SHA256: 07c1dd29ae3916e8c019832cead75bbfde30bac3acf0d6dc5d25c5c520123fa2
+FileChecksum: MD5: c801d830414477f469954229a96e3e5e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/xo65
+SPDXID: SPDXRef-f9e34321004639073538da1b8e00117aa7b327c4
+FileChecksum: SHA1: 6b09f451fbe57ef9e7692469dbe05f79cb65299c
+FileChecksum: SHA256: d3fb9122c0472b0aa24e55f4443d8243528eee1b9f34237e54025d0f9def1515
+FileChecksum: MD5: ee51f3501cee8d6cc43e56b98f8c8534
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/xwindows
+SPDXID: SPDXRef-467655c41c99a91f9c00e66421e606978fece16f
+FileChecksum: SHA1: 2bfa68d049387bf480afe5f4507d3bb80840578a
+FileChecksum: SHA256: d044f7fabbb77c830ab410ba8327a1c8f68d55f2db076b048e2f6a40af1f0a0e
+FileChecksum: MD5: 883b1125a2ab7e3d207f3a7af4ad3dd0
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/yara
+SPDXID: SPDXRef-256ccfab6ba0310bb5f51c1e14ce9bdde7bfe325
+FileChecksum: SHA1: 2b7b30be2a2455a7c89f5151e4429b8de8abd72c
+FileChecksum: SHA256: 3f56b37727a72f0a76629938275f9cf2ed088f4f7201f760d4347ae46d5b0438
+FileChecksum: MD5: 0f86056faa28ec8303df378c0ebe77db
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/zfs
+SPDXID: SPDXRef-9d48a64d43df11026996c41001787fc1eaf7bdfe
+FileChecksum: SHA1: 42dfefca54a1dbdac44884a9476490aec0ea44cb
+FileChecksum: SHA256: 88ded22d5508f5d9713fd5c9bb00df258f9c9bfa1f9d7a6d79d1aa3f426d9753
+FileChecksum: MD5: cb2fc7d9fe42319b29a0fffd3bb3a873
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/zilog
+SPDXID: SPDXRef-81613f8028673bd437eebfc4cf2a52406edb48f9
+FileChecksum: SHA1: d64c155ca6ac3ac5f8bbb380552d33dc7310f22b
+FileChecksum: SHA256: 4c876e76aa514c388bf7938ce0a8ba8267318732f75ec40027d0db874c0d4610
+FileChecksum: MD5: c9a7fe00a35a14dd02fbbe5c11e8dd91
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Magdir/zyxel
+SPDXID: SPDXRef-63b4ea2e4454a5ff9c7c6eae1bf6dd76ed622010
+FileChecksum: SHA1: 18834b1aecfdb347931c6be58c1297844c284af7
+FileChecksum: SHA256: 25dfb98c01b4cb3924ce21d058c38b64245edf45b168b47ada69fe57b94c23a6
+FileChecksum: MD5: 3d7018f92ef8a652a1e2a4d8e57209c4
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Makefile.am
+SPDXID: SPDXRef-03da9b3849a46095569e9d49c9c20ae11163ef36
+FileChecksum: SHA1: fa0abdd40a82835a061126605a5963670fb62840
+FileChecksum: SHA256: 2b42fc43d2bc689dff5ea27d5a3177715a855957b32eabcda40a64e40efbfcc1
+FileChecksum: MD5: 40902721e0d78b05a3c8b2d61f8d5faa
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/magic/Makefile.in
+SPDXID: SPDXRef-97f70482c766472732fc106711d7701cd00eb38c
+FileChecksum: SHA1: 127fa27c946b2cba041f120f2b0547107b681cee
+FileChecksum: SHA256: b315c391fa0ff7e4fb09e21aa0f9b761af79e00153b9823d2e34ad648ea8471a
+FileChecksum: MD5: 2940113777347f3213c14cec002d54ee
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/missing
+SPDXID: SPDXRef-1fd1cfb9270a17e011c4a188033b31953a1791f3
+FileChecksum: SHA1: fced81554799feb0f10fb56e3a06acb92c7ce7b0
+FileChecksum: SHA256: b1a337b731bbb58846d31ca2f5143c293a455fa41b481e236e89a9016d96b034
+FileChecksum: MD5: 5f2a276ee7b8decec541391229d03591
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/python/Makefile.am
+SPDXID: SPDXRef-47358d2cfe2d2bb58fe3f35f90391bf483bfcc9d
+FileChecksum: SHA1: a5860974412a8b1bfb983e3c7acb1cde4e0560c0
+FileChecksum: SHA256: 843aa97e39c920e9420e8d8547f7f814d65f91cb483fcbe46a1354523d4ed2ef
+FileChecksum: MD5: 191b9c045cc36f08b04f626c93d33f28
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/python/Makefile.in
+SPDXID: SPDXRef-71c0fe0ebdb96c2c595fbd6ebbae5e062ad6bb2a
+FileChecksum: SHA1: 88930be219b0b1a2c940c367af0366a12a9e66d3
+FileChecksum: SHA256: 9c357cb6e2a12e697c31e7e1ec5c87ba012f9dc920350c75efe75de17f381f98
+FileChecksum: MD5: 0005210529acfee38a37359f407fba32
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/python/README
+SPDXID: SPDXRef-8da0a41f7543f7e2b9d35af206f4330cc2a55cd2
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+FileChecksum: MD5: d41d8cd98f00b204e9800998ecf8427e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/python/example.py
+SPDXID: SPDXRef-30cc9b940ec064b549a5cd340757256e186ca28f
+FileChecksum: SHA1: 30305fb6a8174282d6f173371a9ff2245f8399cc
+FileChecksum: SHA256: cb850beab2a97f0bf9b6ff44253d2f9e0c3a0d05d4239dd5e8e50d341bdf107d
+FileChecksum: MD5: 6a00a9840b9fbf0511f4eb9bdd11bed9
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/python/magic.py
+SPDXID: SPDXRef-e852fe9218936a1fa542b50ac802fa2c9a03f9f3
+FileChecksum: SHA1: e3c5c983478867b23f5a510cb00188bdbbf84c71
+FileChecksum: SHA256: 809cc3313f18541a62489ae1b10a76a93a5b5e9316418c0f3bb5d05f09adfa36
+FileChecksum: MD5: d852d66fee6043564432ff0f007a730c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/python/setup.py
+SPDXID: SPDXRef-9b9966c865c7eb9cc556c66750adfba26c8bb94b
+FileChecksum: SHA1: 02a4e5ae906f17e8a06ed3c5feae9c7d13abfedb
+FileChecksum: SHA256: 877e6702502807eb3de29ab5a0cc6ebb5847a73199c0424990d1ef47b70694d9
+FileChecksum: MD5: 3f7d72412affedec0519c23934b543ee
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/Makefile.am
+SPDXID: SPDXRef-98032d4896bba4b06fb8ac1a839c084f03b80132
+FileChecksum: SHA1: 849ed3c62e0f24af5f532abecbee96036515ebc3
+FileChecksum: SHA256: ca34a99021ca257134fb952785397f81523cf2a4e01ba3e7a3d7d17c74ee0bea
+FileChecksum: MD5: 77b0cf755131050af6a9a8409627a8ac
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/Makefile.in
+SPDXID: SPDXRef-bd8850d63b2fcd8a32b90c0512085bdb805ab402
+FileChecksum: SHA1: 0265c14dc2ee4b1553bd1eb8fda0f8ec70b9c5e4
+FileChecksum: SHA256: a44e4464ef3555214c9c8212df56d9e26e03bdf2c8bc751dfa287eb097cc1993
+FileChecksum: MD5: 50a02a00de6c2137ae0bb5c9a78bd824
+LicenseConcluded: BSD-2-Clause-FreeBSD AND GPL-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/apprentice.c
+SPDXID: SPDXRef-5ff720b2d0c71a41ddae751acff95029e42a7763
+FileChecksum: SHA1: 9163693278759956551ccc9a79f49e7664e965b8
+FileChecksum: SHA256: 79419ec0ab41b91c6c4a893d641f211d3e34c477aa7f614e0a902d4f61c3a4b7
+FileChecksum: MD5: 9bbcebd33c11eda420403021c94d381e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/apptype.c
+SPDXID: SPDXRef-4b8fe1b89988fecbdc2462f8b3833ffd0a6976b7
+FileChecksum: SHA1: ca0d2beeab28ff833174572d6f537dc9bc18df16
+FileChecksum: SHA256: fcd51cf403797dff77d3bafada49a46a1c671304e1964074265f9eb11770ab59
+FileChecksum: MD5: c34a640c8916ca797d623893332e0ffc
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/ascmagic.c
+SPDXID: SPDXRef-96a91e849e1d07e0ee68a70d2635af8c5262aa88
+FileChecksum: SHA1: 2fe5595528b4d4a603fba8569158616dc33febf8
+FileChecksum: SHA256: 59af7039acc075494439d5a6f2d27de2c7dbcd29a206c64ce201b16c02b548a7
+FileChecksum: MD5: 833f2b970293306f99497cece07a705d
+LicenseConcluded: BSD-2-Clause-FreeBSD AND OpenSSL
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/asctime_r.c
+SPDXID: SPDXRef-0a02e5d7efd0bd6968eff7fa7a8905bd87cf4330
+FileChecksum: SHA1: 4ceb1c217f1dcc4c66263cb4ba1c74c5c0cee12c
+FileChecksum: SHA256: 27b0b3527a1082d72c86120c0f9c7eb1431ea289719acc70b5d0e3ef64a82491
+FileChecksum: MD5: 1ae007de81a61fd11c0069c38420c74c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/asprintf.c
+SPDXID: SPDXRef-47e5f08ee3e720bfeb55d52151fb931d9fcbc8dd
+FileChecksum: SHA1: c74cf77d9c57446fd5189ad7bd48a6d6e67c3f20
+FileChecksum: SHA256: f6d001d096b05aca9a2264a9cbf4efd8ebad8f04949e03ae1e986dc1bbd9efbe
+FileChecksum: MD5: 0ccd8b60d6d48b29c438ed7ee936bdcc
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/cdf.c
+SPDXID: SPDXRef-7fbc33761ec4db1d08fec8a7768b1920690f66cf
+FileChecksum: SHA1: 41e937b172440c8eee9765966e66c5487b4ab872
+FileChecksum: SHA256: e3507aa6618494a63119db5f5143c49fb0aea05448ca0056a03e02b041010408
+FileChecksum: MD5: 01621c90fb84d51427f4ddf2c5a1da04
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/cdf.h
+SPDXID: SPDXRef-b692fdc489c7ec21151ddaf8e4c861a3ccde321c
+FileChecksum: SHA1: 7b4942489abc84a77ed146176980daef5cfa949d
+FileChecksum: SHA256: 7a283abd402286b8302144530c32d028ed2749139a6a15fe95332a7c51290be4
+FileChecksum: MD5: 4db632308b039a2900204f6e207a0177
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/cdf_time.c
+SPDXID: SPDXRef-aa63228fc607b17def7309f151132ed7e7362f93
+FileChecksum: SHA1: e101a6492a3406b630ca44758b8555d4f2e16188
+FileChecksum: SHA256: b61d915f025de9ceae88b642ad57da079c71325ca7d0267c561f1eb852808c35
+FileChecksum: MD5: b3776488a7b81ac877620f152951eba5
+LicenseConcluded: BSD-2-Clause-FreeBSD AND ZPL-1.1
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/compress.c
+SPDXID: SPDXRef-74c591b79cac2591f7c5b039579e7a8603beae3e
+FileChecksum: SHA1: ca6cd6e8736c2225f44743e821469bbe24a743ae
+FileChecksum: SHA256: 5cc9bfb065044fe7405d958b05268d4e344320289edc17b665364da8cc0cee90
+FileChecksum: MD5: 0775c4c6b90bb55753a0cb9510748b83
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/ctime_r.c
+SPDXID: SPDXRef-04365c8980d111c64bac4150f48c1a8b8ebfd9cd
+FileChecksum: SHA1: 8fd163951cefdfa981d635a597aa11923b2199cd
+FileChecksum: SHA256: 125849d5f8ba93e3b4c5c2e58c8aeed2ce19cc029f309151315578f9aff255ec
+FileChecksum: MD5: 9dde867cecc35206e93139d9c7d3b50f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/der.c
+SPDXID: SPDXRef-8d492353054dad69367290167ff713fc947c73fe
+FileChecksum: SHA1: 92a3d6f33b5d9eac0cfb314867b0b6577cef2a83
+FileChecksum: SHA256: dac2f78abbd20f2f4d1cfdabf9cc2179011d3d1fb14c221bed92f8892c59827b
+FileChecksum: MD5: 5d9fc8db05383a0be52e2b9766197bab
+LicenseConcluded: BSD-2-Clause-FreeBSD AND AMDPLPA
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/der.h
+SPDXID: SPDXRef-9df6065f396a48e15fc5567a6b0957b90d39f868
+FileChecksum: SHA1: 26df145539f908c9c30c9b347da8dd923c717f3f
+FileChecksum: SHA256: 19db1ba2e4403876e445a1f6054966b02327fcd58dbc2282546208a525cf7742
+FileChecksum: MD5: f0e132c693c2a7ec16be6adbaea57d81
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/dprintf.c
+SPDXID: SPDXRef-ed2f7af20638aecbc8f837527bde6da869bdb789
+FileChecksum: SHA1: 7aaa093fc85a1d1832ffcfced726a09d47bcf441
+FileChecksum: SHA256: 6da18f8b9555542e22a2da95cff0e7d1e46d49c6ecbf3b070831500adcc6a7d6
+FileChecksum: MD5: 9c6c8a5f59673233162add9b906518e6
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/elfclass.h
+SPDXID: SPDXRef-8c239c499889dd70dd28f9e069f8e6d13f5ef088
+FileChecksum: SHA1: ba16143f6124ecf941ad549b79da4dc6525cc931
+FileChecksum: SHA256: 629a9088e38495ba191d95527c147984e0d2449b22123c62578eb98c374887e2
+FileChecksum: MD5: b7fa5172af11105f5013b3f4e7f20f48
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Intel
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/encoding.c
+SPDXID: SPDXRef-2cba8b65285a74867954648b2be0a4ac15f819ae
+FileChecksum: SHA1: f4c5b10b3d1040967ec7ca2378377a2e31f43719
+FileChecksum: SHA256: a049f6c845cdbd1403c9fd5ee83ab68d9403dba1e165a822bd8d7f5311b2fbc3
+FileChecksum: MD5: 29ef2a0997ee592d394eded12cd3b41b
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Net-SNMP
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/file.c
+SPDXID: SPDXRef-f2e4ecfb34a500288f323aee55ed2b654e125aa9
+FileChecksum: SHA1: 380a1b62b34e4d938fea8c62aa1ac31e71cfde07
+FileChecksum: SHA256: e2a3aa44dfd1820f5487592b7adf365c773549132d60efab25d68ae3584abd27
+FileChecksum: MD5: 5ab1152875c18ed4eb7d60359a244e63
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/file.h
+SPDXID: SPDXRef-83efa87798b25e7dba2d6b937a6cc9f94b1a4146
+FileChecksum: SHA1: 17a254d65c02d162753fefeffb6ccc27cdbbbe2e
+FileChecksum: SHA256: 5cc50e9696ba2019e915c6503c63dd513d7e2139c607a8966e4c99c36db3eb1e
+FileChecksum: MD5: f2736c396a6753faa04ff8770ba5b43e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/file_opts.h
+SPDXID: SPDXRef-4cd698ad80d862c1def0fb1d979e051b9d3eebfc
+FileChecksum: SHA1: 63b4a6a70e11ece70922185d22669e5f542a7f2b
+FileChecksum: SHA256: 9439ffe9f449fc30a2f39a7b1b51a209817bbf6f2781c69089edce6360e22153
+FileChecksum: MD5: 4e0e9d2bc0ac1a7385f0190308867a9c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/fmtcheck.c
+SPDXID: SPDXRef-7570c9f2c24aaa774f9a7a9cf86f7a969df0c0c8
+FileChecksum: SHA1: 02a207acf129f138e904fcdd9bb91f550abbc6f2
+FileChecksum: SHA256: c04b6af55ddeea33dfc8beaeabeaaec980d536b474f43f660ac70806bf96bffc
+FileChecksum: MD5: 407504615b354e3a5f6ae10560c1700c
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Sleepycat
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/fsmagic.c
+SPDXID: SPDXRef-6557833315e21237940383a390b42440403bba91
+FileChecksum: SHA1: cff002c44211535aaa11297fc68a44a950a47b0f
+FileChecksum: SHA256: 39233e7765bab34466938ff9149768d9b814f87fb534c8e1b02c6192e244ba44
+FileChecksum: MD5: aa594350c5df81bf7c808edf467f8959
+LicenseConcluded: BSD-2-Clause-FreeBSD AND AMDPLPA
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/funcs.c
+SPDXID: SPDXRef-0aee44d9af71c7825c6e8e3f9fcd7de01b5074e9
+FileChecksum: SHA1: 46cdddd1eb9994e1122336f82c1fd412bf2bce0f
+FileChecksum: SHA256: e028e1809724c8180758797d20ae8420449596cba75ce3fb43261078a84311e5
+FileChecksum: MD5: 14414d232978b5785913465c8259141f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/getline.c
+SPDXID: SPDXRef-da0c53c9d2f81f540dbae510d5b48f98a68bbc4c
+FileChecksum: SHA1: 1358d174041c8cc6715e341af9232c14b5293adb
+FileChecksum: SHA256: a3470eb3d3119776e49ed8b9f58193a37655f88d2370ab009113cbc5ccc9d00a
+FileChecksum: MD5: 6a42b4def1034f8c770b72086e0e2e0b
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Intel
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/getopt_long.c
+SPDXID: SPDXRef-bb3360acb5affe25b068f0c6936e2dd2701c919d
+FileChecksum: SHA1: d438e300f955741ee988a017a0ff886f91461ab1
+FileChecksum: SHA256: 4daff394c466d721c446326d31dc3e75e53fc6549cd2e3190fd59f04635faac8
+FileChecksum: MD5: 4b938619fb6152ee0bfc629772b1c2c6
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/gmtime_r.c
+SPDXID: SPDXRef-24834c5cc7e094fc582144f61eeeb141c4b21a8f
+FileChecksum: SHA1: ff378fc428f378a6b84e759161d884384350debc
+FileChecksum: SHA256: fd481ef95ea4324096bf420affe17baac1c371dbe79d4d4c61f3ab57e7a0c9c9
+FileChecksum: MD5: 1ba46f801ff806a2e2dda50136505a90
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/is_tar.c
+SPDXID: SPDXRef-1922c09873bcf3b739709aa2646d5664b6b7c3e1
+FileChecksum: SHA1: b1bd799aa7b67be7aae463b65988fe49a9f99b6e
+FileChecksum: SHA256: 21c4bac295498a651ebe2c759e73b3d12c4dd6858d9ac242925c75170c1b9247
+FileChecksum: MD5: 9c9c99dc6baaff94f94818cc24acb9d7
+LicenseConcluded: BSD-2-Clause-FreeBSD AND ZPL-1.1
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/localtime_r.c
+SPDXID: SPDXRef-2d8a643dbf1b7cc13c0ddc5d335241b112decd29
+FileChecksum: SHA1: 3966e689e8877b6f4a12e76a1c9f08a18a6e903c
+FileChecksum: SHA256: e166a687f6aeff3c96a9e4c18df7a1cfb24fa14380b4f1b5a2022cce5eb52edc
+FileChecksum: MD5: b4a62d5883327082772b7a33fd9f426f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/magic.c
+SPDXID: SPDXRef-d07d0d93590039813fa5cac9cde47b74068e5995
+FileChecksum: SHA1: 7133c6dabf14a2cb06b0c05b77507adb16baba0e
+FileChecksum: SHA256: c9f24925b07ed40686c3cb8dac6fc79434da027cb35c96e9f2611d3f32c08b90
+FileChecksum: MD5: fa98c3cb32b79dd171b1ad4730a32c3d
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Net-SNMP
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/magic.h.in
+SPDXID: SPDXRef-f557fde66450ac4630e3c8af47ad89cca8b1b19a
+FileChecksum: SHA1: fb0780c07d6060564bbffe18786bc835e5033259
+FileChecksum: SHA256: 2ca9ecc4b9250a63e79850d8efceac64694a4ba9147b3b3b1e95c999f39b661b
+FileChecksum: MD5: e30175afd1ca1e59e8d82dbac50ceda2
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Sleepycat
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/mygetopt.h
+SPDXID: SPDXRef-87beb084a3b190fbc52dc8eef33c8c2bc42fdd7e
+FileChecksum: SHA1: 441a4e4c7361ff70805fa7303b56109bf4430ab8
+FileChecksum: SHA256: d98ee4d8d95e7d021a5dfc41f137ecc3b624a7b98e8bd793130202d12a21ed57
+FileChecksum: MD5: edbd46cc4cc147571601bb72de429110
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Intel
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/pread.c
+SPDXID: SPDXRef-73b39582bdda8976746d14dbdebf9f9aba8fe47d
+FileChecksum: SHA1: 906eadd3620b9a2223dd3a1f32b73e1e2ef0f12a
+FileChecksum: SHA256: f6dd141a94f5064366cba67d25014f8f2cf9bc5d40415609b99fbbd7f803c852
+FileChecksum: MD5: ddd1519123f182640f06c0ef71e34aae
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/print.c
+SPDXID: SPDXRef-a5a874bfe4338d7e9527e59e863bd717796e2e07
+FileChecksum: SHA1: d02b98fe6839bc16902ab3613264eede8a04a1a2
+FileChecksum: SHA256: 2eb0fc9259536e72f71bf969b7b626ec55180d925e0af85af830d2cf94646869
+FileChecksum: MD5: 0dfdc91288100e1db37f542ae63aca20
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Sleepycat
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/readcdf.c
+SPDXID: SPDXRef-9d011abbebe016736a30e5de244f6afd72d07e7a
+FileChecksum: SHA1: eaf3f570cad2a1511b41072a2ea2f71191e5c02a
+FileChecksum: SHA256: bf99239a5bbaf6a7025caa820bb9362a46136a0414fb2679fc01dd9dc56c72a0
+FileChecksum: MD5: 8416784f8fe1b6d5bb2d8fa1af59fa2e
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Net-SNMP
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/readelf.c
+SPDXID: SPDXRef-f31484c1bb0abd6356c920d59307681dbfb05aa8
+FileChecksum: SHA1: 579144af545bd9523f4fa29980b3d0d48729ee50
+FileChecksum: SHA256: 8ae397de4edae180b4c9ac16b2c7f14174e7683f57610eb5a15122d2e1167fc4
+FileChecksum: MD5: 96e864389e5fc2bc9db627d8ef3b7588
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/readelf.h
+SPDXID: SPDXRef-7eba610648aaea62b2e4a1405bce6b6f6535ff45
+FileChecksum: SHA1: c7fa4f959662e46a58abf74753138c5d82896e5f
+FileChecksum: SHA256: 45f4284e42b528d08f1e2c4cd014c3e6c6aad935cd6ba7e6e51ef8d072bdc222
+FileChecksum: MD5: 0b884404528e926a84a612573128d3b2
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/softmagic.c
+SPDXID: SPDXRef-0c1064c38236ca04f6a2617bfa1d441d68972ab5
+FileChecksum: SHA1: 41a0652d71c9ca19214b7f2792317550c6026eff
+FileChecksum: SHA256: 0c48e45e95bb792ea193eace99e0207216d9a43b186a0d623364a5aee706ccd1
+FileChecksum: MD5: fdc462fe16ddb6adacf01332fb4ea281
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/strcasestr.c
+SPDXID: SPDXRef-d78859a445f0b81c8b0d30147f7b6aeb0a33f9e9
+FileChecksum: SHA1: f14200cd7877a3fcf7d799b7bcf41b2dd4a94263
+FileChecksum: SHA256: 0acc71ef0bf501b24d11cf7668b8f4e9db6cd95869a9136d18ddfd46a83312c9
+FileChecksum: MD5: e838ace6cc6eeeb0ff02909e9d85315e
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Intel
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/strlcat.c
+SPDXID: SPDXRef-543e5433e1d375229d24d22d60a5037f4d483103
+FileChecksum: SHA1: 3e9dd08b220aa8ac8a5e914afb5952e781484890
+FileChecksum: SHA256: 8bb329f947bcc462c4d373ab569543fb4586d53ee2bdae7b6ae0443a5f8fea8c
+FileChecksum: MD5: 33bdf4cefaaeb1baf887152d7fb7203c
+LicenseConcluded: BSD-2-Clause-FreeBSD AND StandardML-NJ
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/strlcpy.c
+SPDXID: SPDXRef-e729028a31ee61f68480c4fea95b5273303bd3b6
+FileChecksum: SHA1: ceab5990afe751942a102db74fcc62d5f42c22e4
+FileChecksum: SHA256: 172652dda8577cebd75f9e4c91ef8e8858a14576753b946dbcb01523a7f27ff5
+FileChecksum: MD5: 9ee8dfbf48d6eac5ee06e0cb1e4cef08
+LicenseConcluded: BSD-2-Clause-FreeBSD AND StandardML-NJ
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/tar.h
+SPDXID: SPDXRef-4c50f559902020213682b02fc40849fe6c646cf0
+FileChecksum: SHA1: 380114b7bdf736312ec4cb4d0e3b2eec38e20fae
+FileChecksum: SHA256: c4b913d4c2e7114de389e5aac969dafcfeda4bd824fa250f2f2c2ce8a4a771c4
+FileChecksum: MD5: ab9fbc8790c590998a4c63e9018cad26
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Intel
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/src/vasprintf.c
+SPDXID: SPDXRef-55f345bfada71a5439406aa2ea563ff5fd395cb6
+FileChecksum: SHA1: f972ce9777c1f8a85d15023f3df6f27479d59445
+FileChecksum: SHA256: 9f2f08df98b9f00cb12f20928142d7f9d790df4db22f23b81d196c1f0f3d4c09
+FileChecksum: MD5: c13d828a7e5b78b6aeb3ba2482202399
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Net-SNMP
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/Makefile.am
+SPDXID: SPDXRef-e9ff74ea13a704e39be2bcb2cb43a8fb7e5bc237
+FileChecksum: SHA1: 4802b70f9147fd30b89b7deafe8e6bb4768e0839
+FileChecksum: SHA256: b99a7415099fb2798037f09b2c46c8a75e2d86a0da8978f265f934a95cac1eea
+FileChecksum: MD5: b4b9b40a9bd32e5c91462a7839ecd265
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/Makefile.in
+SPDXID: SPDXRef-7132fb9dcbca8564047ccda1ea390dc53a44f3c2
+FileChecksum: SHA1: 2d9cee53a02212d50c85d6426c14e7d7e2336c32
+FileChecksum: SHA256: bf049ce4f7646428f202b36e812edb8c16805948d328b3b4f2f18ae4558c081f
+FileChecksum: MD5: 11fb374a1f5e4815585248a08a43f542
+LicenseConcluded: BSD-2-Clause-FreeBSD AND GPL-1.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/README
+SPDXID: SPDXRef-38b967c388aec8a9ac26735293343a0f06c10027
+FileChecksum: SHA1: 8a1fd29f977a6519dffaaa5d48c5d87175a6bd7f
+FileChecksum: SHA256: 9cd7e3d1f846baca51656284344c0c4520e2ec238d88f57906ff3c3572dcd5d9
+FileChecksum: MD5: 16a56d3ffdb87b41bdd3f69592590b8f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/escapevel.result
+SPDXID: SPDXRef-d381b86b63ad8698876265a37058ef8fcd67e428
+FileChecksum: SHA1: 671f8a82167d2aeadc87aeedd5158207f23d4af8
+FileChecksum: SHA256: 4acbf3bcf870dc0fe0ecdacf977a5c204916af2f92986124cfd978ea2843a57c
+FileChecksum: MD5: bf40910d116f8cca9d664181ddf48bdd
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/escapevel.testfile
+SPDXID: SPDXRef-6423ed206aa7f2d4782f95a36a55930505afbf51
+FileChecksum: SHA1: 0bf669a98b88b8a810a4701e33344b180517a9cc
+FileChecksum: SHA256: 492efdc7cba52f845a739a0695af46b4e93785cec5d3a50f15eff01457d4d87f
+FileChecksum: MD5: acecfeb9a10bceb304778ffd7471268f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/gedcom.result
+SPDXID: SPDXRef-f00fe02431a70ffb3e42d5cc96a936fa571bc6f2
+FileChecksum: SHA1: d277b81c4c4f4dcc6dd37dd313c985975534d65d
+FileChecksum: SHA256: 510533561ec19f22cddcf67e7958de5cc7a3d36645953f2e1600cba8ff4b6e93
+FileChecksum: MD5: c297f5bdbfedd0b7822a8da13190243e
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/gedcom.testfile
+SPDXID: SPDXRef-0dd15b0ad801d55b0637f406b6ca23272676d836
+FileChecksum: SHA1: 8801a145e7070195434632ebb522a06ebe98b1ec
+FileChecksum: SHA256: 95fd5fe67b0bed51020089c4863880cdd039a26ae6546cb3c7cb9a85892e97f9
+FileChecksum: MD5: ba550b50e6484012aef167c7631c702f
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/issue311docx.result
+SPDXID: SPDXRef-6ec97d1591fc0fd0943504265b97eabee93553c0
+FileChecksum: SHA1: c210e95a9da934ebbce3d4394e00d99e87bd7d1a
+FileChecksum: SHA256: 80d5d210791b0c6e12d21063603080ac3eb0cae592e27a6bbcd68abee3e61791
+FileChecksum: MD5: 7f2212520137d99c79d35fccbe3ea61c
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/issue311docx.testfile
+SPDXID: SPDXRef-bb1174ba594e26529c78f59b61256e5d37ffa2c3
+FileChecksum: SHA1: e361398b9cd7e1cf9d5b71b9b7ed0be2d25c23cb
+FileChecksum: SHA256: 6cd7e92fb9cc516d2c0f89666c0355d70ebab632f086065b77b35f43ab60aad3
+FileChecksum: MD5: d0ebf41c6a147c6a734dfd99853800eb
+LicenseConcluded: BSD-2-Clause-FreeBSD
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: .//file_5.30.tar.xz/tests/test.c
+SPDXID: SPDXRef-040e835fe9150be1a0b1c0e80daaeac0e96a21be
+FileChecksum: SHA1: f65f3bcf0ffa229da5c227407f385b8a695a9470
+FileChecksum: SHA256: 0fa429130c41b1646783793e293060695a83d6134b8db6b9ab99ab35c660a504
+FileChecksum: MD5: 81375796ed0df0e955b0e9536b335df4
+LicenseConcluded: BSD-2-Clause-FreeBSD AND Intel
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
