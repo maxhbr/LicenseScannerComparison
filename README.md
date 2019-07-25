@@ -41,7 +41,6 @@ This is a small project, which tries to compare different license scanners, by
 | [boyter-python-license-checker](https://github.com/boyter/python-license-checker) ([blog](https://boyter.org/2017/05/identify-software-licenses-python-vector-space-search-ngram-keywords/)) | **only POC?** / older than lc                                                        |
 | [fossa-cli](https://github.com/fossas/fossa-cli)                                 | **provided Dockerfile does not build** / only metadata / **talks to remote server?** |
 | [oslc](https://sourceforge.net/projects/oslc/)                                      | java / **old (2007)**                                                                |
-| [pombredanne-triplecheck](https://github.com/pombredanne/triplecheck-engine)                   | java/ant                                                                             |
 
 ## License Metadata Scanner
 - LicenseFinder https://github.com/pivotal-legacy/LicenseFinder
